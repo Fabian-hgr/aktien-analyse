@@ -257,6 +257,9 @@ def main(argv: Optional[list[str]] = None) -> int:
         "regime": regime,
         "kalibrierung": res.get("kalibrierung"),
         "universe_size": res["universe_size"],
+        # Damit die Seite die Depotregeln nicht doppelt kennen muss.
+        "position_pct": config.POSITION_PCT,
+        "picks_per_day": config.PICKS_PER_DAY,
         "scored": res["scored"],
         "excluded": res["excluded"],
         "sector_median_pe": res["sector_median_pe"],

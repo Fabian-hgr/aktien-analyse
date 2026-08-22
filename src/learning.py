@@ -269,8 +269,8 @@ def update_method_weights(weights: dict, trades: list[dict],
             richtung = "belohnt" if neu > w else "bestraft"
             log_lines.append(
                 f"Kursziel-Methode '{key}' {richtung}: Ziel in "
-                f"{s['hit_rate']:.0%} der {s['n']} Trades erreichbar, "
-                f"gemessene Erwartung {s['erwartet_rate']:.0%} "
+                f"{(s['hit_rate']) * 100:.0f} % der {s['n']} Trades erreichbar, "
+                f"gemessene Erwartung {(s['erwartet_rate']) * 100:.0f} % "
                 f"(t = {s['t']:+.2f}, relativ {relativ:+.2f}) -> "
                 f"Gewicht {w:.3f} auf {neu:.3f}")
     return log_lines
@@ -352,7 +352,7 @@ def update_score_weights(weights: dict, trades: list[dict]) -> list[str]:
         if abs(faktor - 1) > 0.001:
             richtung = "belohnt" if faktor > 1 else "bestraft"
             log_lines.append(
-                f"Komponente '{key}' {richtung}: obere Haelfte "
+                f"Komponente '{key}' {richtung}: obere Hälfte "
                 f"{e['mean_r_oben']:+.2f} R gegen untere "
                 f"{e['mean_r_unten']:+.2f} R aus {e['n']} Trades "
                 f"(t = {e['t']:+.2f}) -> Gewicht {w:.3f} auf {neu_w:.3f}")
@@ -412,8 +412,8 @@ def update_sector_k_mult(weights: dict, trades: list[dict]) -> list[str]:
         if abs(neu - alt) > 0.005:
             weights["sector_k_mult"][sektor] = neu
             log_lines.append(
-                f"Zielweite {sektor}: Ziel in {ist:.0%} der {len(werte)} Trades "
-                f"erreicht, Basisquote {soll:.0%} (t = {t:+.2f}) -> "
+                f"Zielweite {sektor}: Ziel in {(ist) * 100:.0f} % der {len(werte)} Trades "
+                f"erreicht, Basisquote {(soll) * 100:.0f} % (t = {t:+.2f}) -> "
                 f"Multiplikator von {alt:.2f} auf {neu:.2f}")
     return log_lines
 

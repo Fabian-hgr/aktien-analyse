@@ -1,58 +1,83 @@
 <!doctype html>
-<!--
-  Platzhalter, bewusst schlicht. Die eigentliche Seite entsteht in Etappe 7
-  und ersetzt diese Datei vollstaendig. Sie existiert nur, damit der Link in
-  der Morgenmeldung nicht ins Leere zeigt, solange gebaut wird.
--->
-<html lang="de-CH">
+<html lang="de-CH" data-thema="auto">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Aktien-Analyse</title>
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    margin: 0; padding: 2.5rem 1.25rem;
-    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
-    max-width: 42rem; margin-inline: auto;
-  }
-  h1 { font-size: 1.5rem; margin: 0 0 .25rem; }
-  p.lead { margin-top: 0; opacity: .7; }
-  ul { padding-left: 1.2rem; }
-  code { font-size: .9em; }
-  .hinweis {
-    margin-top: 2.5rem; padding: .9rem 1rem;
-    border-left: 3px solid currentColor; opacity: .65; font-size: .9rem;
-  }
-</style>
+<meta name="description" content="Taegliche Analyse des US-Aktienmarkts mit nachgerechneten Kurszielen und zwei Vergleichsdepots. Simulation zu Lernzwecken.">
+<meta name="theme-color" content="#faf9f6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0d1013" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+<main>
 
-<h1>Aktien-Analyse</h1>
-<p class="lead">Die Seite wird gebaut. Die Daten dahinter laufen bereits.</p>
+  <!-- Kopf: Zustand des Systems und der Aus-Schalter -->
+  <section class="karte" id="kopf" aria-label="Systemzustand">
+    <div class="kopf">
+      <div class="kopf-links">
+        <span class="punkt" id="punkt" data-zustand="unbekannt"></span>
+        <span class="kopf-text">
+          <strong id="zustand-text">Zustand wird geladen</strong>
+          <span id="lauf-text">&nbsp;</span>
+        </span>
+      </div>
+      <button class="schalter" id="schalter" role="switch" aria-checked="true"
+              aria-label="System pausieren oder fortsetzen" hidden></button>
+    </div>
+    <div class="rueckfrage" id="rueckfrage" hidden>
+      <p id="rueckfrage-text"></p>
+      <span class="rueckfrage-knoepfe">
+        <button class="knopf" id="abbrechen">Abbrechen</button>
+        <button class="knopf stark" id="bestaetigen">Pausieren</button>
+      </span>
+    </div>
+    <p class="hinweis" id="kopf-hinweis" hidden></p>
+  </section>
 
-<p>Zweimal werktags analysiert ein Lauf auf GitHub Actions 532 US-Titel aus
-elf Branchen, setzt Kursziele aus einer Messung statt aus geschätzten
-Faktoren und führt zwei virtuelle Vergleichsdepots — Analyse gegen Zufall.
-Die Ergebnisse liegen schon jetzt als JSON im Repo:</p>
+  <!-- Ideen des Tages -->
+  <section class="abschnitt" aria-labelledby="ideen-titel">
+    <div class="abschnitt-kopf">
+      <h1 id="ideen-titel">Ideen des Tages</h1>
+      <span class="zahl" id="ideen-anzahl"></span>
+    </div>
+    <div class="messwerte" id="messwerte" hidden></div>
+    <div id="ideen"></div>
+  </section>
 
-<ul>
-  <li><a href="data/latest.json">latest.json</a> — die Analyse von heute</li>
-  <li><a href="data/calibration.json">calibration.json</a> — die Messlatte</li>
-  <li><a href="data/equity.json">equity.json</a> — beide Depots und SPY</li>
-  <li><a href="data/trades.json">trades.json</a> — jeder abgeschlossene Trade</li>
-  <li><a href="data/weights.json">weights.json</a> — was die Lernschleife geändert hat</li>
-  <li><a href="data/status.json">status.json</a> — der letzte Lauf</li>
-</ul>
+  <!-- Depotvergleich -->
+  <section class="abschnitt" aria-labelledby="depots-titel">
+    <div class="abschnitt-kopf">
+      <h2 id="depots-titel">Schlägt die Analyse den Zufall?</h2>
+    </div>
+    <div id="depots"></div>
+  </section>
 
-<p><a href="https://github.com/Fabian-hgr/aktien-analyse">Quelltext und
-Dokumentation auf GitHub</a></p>
+  <footer class="fuss">
+    <p id="kalibrierung"></p>
+    <p>
+      Simulation zu Lernzwecken, <strong>keine Anlageberatung</strong>. Kein echtes Geld
+      ist im Spiel. Kurse von Alpaca (IEX), Fundamentaldaten von Yahoo Finance.
+    </p>
+    <p>
+      Alles daran ist nachrechenbar:
+      <a href="https://github.com/Fabian-hgr/aktien-analyse">Quelltext und Datenverlauf auf GitHub</a>.
+    </p>
+    <div class="thema-wahl" role="group" aria-label="Darstellung">
+      <button data-thema-wahl="auto" aria-pressed="true">Automatisch</button>
+      <button data-thema-wahl="hell" aria-pressed="false">Hell</button>
+      <button data-thema-wahl="dunkel" aria-pressed="false">Dunkel</button>
+    </div>
+  </footer>
 
-<p class="hinweis">
-  Simulation zu Lernzwecken, keine Anlageberatung. Es wird kein echtes Geld
-  eingesetzt. Die gezeigten Zahlen stammen aus einer Rückrechnung und aus
-  einem simulierten Depot; sie sagen nichts über künftige Kurse.
-</p>
-
+</main>
+<script src="app.js"></script>
 </body>
 </html>

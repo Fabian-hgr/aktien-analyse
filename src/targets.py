@@ -75,7 +75,7 @@ def atr_projection(price: float, atr: Optional[float],
     k = config.ATR_TARGET_MULT if k is None else k
     m = Method("atr", "ATR-Projektion", None)
     if not atr or atr <= 0 or price <= 0:
-        m.note = "Keine ATR verfuegbar (zu kurze Historie)."
+        m.note = "Keine ATR verfügbar (zu kurze Historie)."
         return m
     m.value = price + k * atr
     m.steps = [
@@ -109,7 +109,7 @@ def structure_target(price: float, high55: Optional[float],
     """
     m = Method("struktur", "Struktur / gemessene Bewegung", None)
     if not high55 or not high20 or not low20 or price <= 0:
-        m.note = "Zu wenig Historie fuer Widerstandsmarken."
+        m.note = "Zu wenig Historie für Widerstandsmarken."
         return m
 
     base_height = high20 - low20
@@ -120,17 +120,17 @@ def structure_target(price: float, high55: Optional[float],
         m.value = high55
         m.steps = [
             f"55-Tage-Hoch = {_fmt(high55)} USD, das sind "
-            f"{_fmt(distance)} USD ueber dem Kurs {_fmt(price)}",
-            f"Abstand groesser als 1 x ATR ({_fmt(min_distance)} USD) — "
+            f"{_fmt(distance)} USD über dem Kurs {_fmt(price)}",
+            f"Abstand grösser als 1 x ATR ({_fmt(min_distance)} USD) — "
             f"echter Widerstand, nicht Rauschen",
             f"Ziel = {_fmt(high55)} USD ({_fmt((high55 / price - 1) * 100)} %)",
         ]
     else:
         m.value = high55 + base_height
-        reason = ("Kurs liegt auf oder ueber dem 55-Tage-Hoch — Ausbruch"
+        reason = ("Kurs liegt auf oder über dem 55-Tage-Hoch — Ausbruch"
                   if distance <= 0 else
                   f"Abstand {_fmt(distance)} USD liegt innerhalb einer ATR "
-                  f"({_fmt(min_distance)} USD) — kein tragfaehiger Widerstand")
+                  f"({_fmt(min_distance)} USD) — kein tragfähiger Widerstand")
         m.steps = [
             f"55-Tage-Hoch = {_fmt(high55)} USD. {reason}.",
             f"Basishoehe = 20-Tage-Hoch {_fmt(high20)} minus 20-Tage-Tief "
@@ -145,8 +145,8 @@ def structure_target(price: float, high55: Optional[float],
         cap = price + k * atr
         if m.value > cap:
             m.steps.append(
-                f"Gekappt auf {_fmt(k)} x ATR ueber dem Kurs = {_fmt(cap)} USD"
-                + (cap_grund or " (Rueckfallwert ohne Kalibrierung)")
+                f"Gekappt auf {_fmt(k)} x ATR über dem Kurs = {_fmt(cap)} USD"
+                + (cap_grund or " (Rückfallwert ohne Kalibrierung)")
             )
             m.value = cap
     return m
@@ -165,7 +165,7 @@ def analyst_tilt(price: float, target_mean: Optional[float],
     horizon_days = config.HORIZON_DAYS if horizon_days is None else horizon_days
     m = Method("analysten", "Analystenkonsens", None, role="neigung")
     if not target_mean or target_mean <= 0 or price <= 0:
-        m.note = "Kein Analystenziel verfuegbar."
+        m.note = "Kein Analystenziel verfügbar."
         return 0.0, m
     if not analyst_count or analyst_count < 3:
         m.note = (f"Nur {analyst_count or 0:.0f} Analysten — "
@@ -183,13 +183,13 @@ def analyst_tilt(price: float, target_mean: Optional[float],
         f"({analyst_count:.0f} Analysten)",
         f"Abstand zum Kurs {_fmt(price)}: {_fmt(raw * 100)} %"
         + (f" (gekappt auf {_fmt(tilt * 100)} %)" if raw != tilt else ""),
-        f"Zeitanteilig auf {horizon_days} Handelstage waeren das nur "
+        f"Zeitanteilig auf {horizon_days} Handelstage wären das nur "
         f"{_fmt(implied)} USD — deshalb kein eigenes Ziel, sondern Neigung",
         f"Neigung = {_fmt(tilt * 100)} % x {_fmt(config.TILT_STRENGTH_ANALYST, 2)} "
         f"= {_fmt(shift * 100)} % auf das Gesamtziel",
     ]
     m.note = ("12-Monats-Sicht. Wirkt als Richtungshinweis, nicht als "
-              "Kursziel fuer den Horizont.")
+              "Kursziel für den Horizont.")
     return tilt, m
 
 
@@ -201,7 +201,7 @@ def valuation_tilt(price: float, forward_eps: Optional[float],
     m = Method("bewertung", "Bewertungsanker", None, role="neigung")
     if not forward_eps or forward_eps <= 0 or not sector_median_pe \
             or sector_median_pe <= 0 or price <= 0:
-        m.note = "Kein Forward-Gewinn oder kein Branchenmedian verfuegbar."
+        m.note = "Kein Forward-Gewinn oder kein Branchenmedian verfügbar."
         return 0.0, m
 
     fair = forward_eps * sector_median_pe
@@ -222,7 +222,7 @@ def valuation_tilt(price: float, forward_eps: Optional[float],
         f"{_fmt(config.TILT_STRENGTH_VALUATION, 2)} "
         f"= {_fmt(shift * 100)} % auf das Gesamtziel",
     ]
-    m.note = ("Bewertung wirkt ueber Monate, nicht ueber Wochen — deshalb "
+    m.note = ("Bewertung wirkt über Monate, nicht über Wochen — deshalb "
               "nur eine Neigung.")
     return tilt, m
 
@@ -274,10 +274,10 @@ def marks(sector: str, cal=None, k_sector=None, stop_mult=None,
         stop_k = stop_mult
 
     text = {
-        "kalibriert": (" — gemessener Median der Aufwaertsbewegung in "
+        "kalibriert": (" — gemessener Median der Aufwärtsbewegung in "
                        + (sector or "allen Branchen")),
         "config": " (Startwert aus config, keine Kalibrierung vorhanden)",
-        "vorgegeben": " (ausdruecklich vorgegeben)",
+        "vorgegeben": " (ausdrücklich vorgegeben)",
     }[quelle]
     if quelle == "kalibriert" and abs(mult - 1.0) > 0.005:
         text += ", gelernter Multiplikator " + _fmt(mult, 2)
@@ -341,10 +341,10 @@ def build(price: float, snap: dict, fundamentals: Optional[dict],
     gemessener_deckel = kalib.distance_for_probability(
         cal, sector, "up", config.STRUCTURE_CAP_PROBABILITY)
     cap_atr = gemessener_deckel or config.STRUCTURE_CAP_ATR_FALLBACK
-    cap_grund = (f" - weiter wurde in {sector or 'allen Branchen'} historisch "
-                 f"nur in {config.STRUCTURE_CAP_PROBABILITY:.0%} der Faelle "
+    cap_grund = (f" — weiter wurde in {sector or 'allen Branchen'} historisch "
+                 f"nur in {(config.STRUCTURE_CAP_PROBABILITY) * 100:.0f} % der Fälle "
                  f"gelaufen" if gemessener_deckel
-                 else " (Rueckfallwert ohne Kalibrierung)")
+                 else " (Rückfallwert ohne Kalibrierung)")
 
     level_methods = [
         atr_projection(price, atr, k=mk["ziel_k"], herkunft=mk["herkunft_text"]),
@@ -417,15 +417,15 @@ def build(price: float, snap: dict, fundamentals: Optional[dict],
     if sigma:
         band_low, band_high = target - sigma, target + sigma
         steps.append(
-            f"Erwartungsbereich (1 Sigma ueber {config.HORIZON_DAYS} Tage bei "
-            f"{_fmt((snap.get('vol_20d') or 0) * 100, 1)} % Volatilitaet): "
+            f"Erwartungsbereich (1 Sigma über {config.HORIZON_DAYS} Tage bei "
+            f"{_fmt((snap.get('vol_20d') or 0) * 100, 1)} % Volatilität): "
             f"{_fmt(band_low)} bis {_fmt(band_high)} USD"
         )
 
     stop, stop_steps = atr_stop(price, atr, mk["stop_k"])
     if stop_steps:
         stop_steps.insert(0, "Stop-Faktor = " + _fmt(mk["stop_k"]) + " x ATR"
-                          + (" — gemessener Median der Abwaertsbewegung"
+                          + (" — gemessener Median der Abwärtsbewegung"
                              if mk["quelle"] == "kalibriert" else ""))
     values = [m.value for m in usable]
 
@@ -463,18 +463,18 @@ def build(price: float, snap: dict, fundamentals: Optional[dict],
         quelle_text = (", alle Branchen)" if bq["quelle"] == "_gesamt"
                        else ", Branche " + bq["quelle"] + ")")
         result["probability_steps"] = [
-            f"Ziel liegt {_fmt(result['ziel_atr'])} ATR ueber dem Kurs, "
+            f"Ziel liegt {_fmt(result['ziel_atr'])} ATR über dem Kurs, "
             f"Stop {_fmt(result['stop_atr'])} ATR darunter",
-            f"Historisch beruehrt: Ziel in {result['p_ziel_beruehrt']:.0%} "
-            f"der Faelle, Stop in {result['p_stop_beruehrt']:.0%}",
+            f"Historisch berührt: Ziel in {(result['p_ziel_beruehrt']) * 100:.0f} % "
+            f"der Fälle, Stop in {(result['p_stop_beruehrt']) * 100:.0f} %",
             f"Zuerst erreicht wurde bei diesen Marken das Ziel in "
-            f"{bq['p_ziel']:.0%}, der Stop in {bq['p_stop']:.0%}, "
-            f"Zeitablauf {bq['p_zeit']:.0%}",
+            f"{(bq['p_ziel']) * 100:.0f} %, der Stop in {(bq['p_stop']) * 100:.0f} %, "
+            f"Zeitablauf {(bq['p_zeit']) * 100:.0f} %",
             f"Basisquote einer Zufallsauswahl: {bq['erwartung_r']:+.3f} R "
             f"je Trade (aus {bq['n']:,} Beobachtungen".replace(",", "'")
             + quelle_text,
             "Die Analyse muss diese Basisquote schlagen — sonst ist sie "
-            "nicht besser als Wuerfeln.",
+            "nicht besser als Würfeln.",
         ]
 
     if f.get("target_mean"):

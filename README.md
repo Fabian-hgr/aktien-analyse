@@ -119,7 +119,7 @@ Branchen: **0.5 Prozentpunkte**.
 ## Was beim Bauen gemessen wurde
 
 Diese Zahlen stammen aus echten Läufen, nicht aus Annahmen. Sie haben den
-Entwurf an sieben Stellen korrigiert.
+Entwurf an acht Stellen korrigiert.
 
 ### 1. Analystenziele dürfen kein gemitteltes Kursziel sein
 
@@ -213,6 +213,18 @@ hat definitionsgemäss eine winzige Bewegung. Der so gelernte Faktor
 schrumpfte sich selbst. Gelernt wird jetzt aus dem Vergleich der
 Trefferquote mit der Basisquote, und nur als begrenzter Multiplikator
 [0.7, 1.4] auf den kalibrierten Faktor. **Der Stop wird gar nicht gelernt.**
+
+### 8. Der Index startete ein Jahr vor den Depots
+
+Gefunden beim Bauen des Depotvergleichs auf der Seite. Lauf B holt die
+SPY-Bars über 400 Kalendertage und normierte die Vergleichskurve auf den
+*ersten* dieser Bars. Beim allerersten Abrechnungslauf hätte die Seite damit
+gezeigt: Analyse 0.00 %, Zufall 0.00 %, SPY +36 % — und diese falsche Basis
+wäre für immer festgeschrieben worden, weil die Folgeläufe sie fortschreiben.
+
+Der Vergleich beginnt jetzt an dem Tag, an dem auch die Depots beginnen.
+Festgehalten in `tests/test_ablauf.py::TestVergleichskurve`, samt einem Test,
+der die alte, verzerrte Kurve ausdrücklich zeigt.
 
 ---
 
@@ -484,6 +496,11 @@ Alpaca-Schlüssel sind davon getrennt.
 | `scripts/signifikanz.py` | ist der Unterschied belastbar? |
 | `scripts/trennschaerfe.py` | hat der Score Vorhersagekraft? |
 | `tests/test_ablauf.py` | der ganze Weg an künstlichen Kursen |
+| `docs/index.html` | die Seite — Gerüst |
+| `docs/app.js` | liest die JSON-Dateien, baut Karten, Herleitung, Kurven |
+| `docs/style.css` | Richtung „Messblatt", hell und dunkel |
+| `docs/sw.js` | Service Worker: Gerüst gespeichert, Daten immer frisch |
+| `design/*.dc.html` | die Entwürfe, aus denen die Seite entstand |
 
 Alles, was das System weiss, liegt unter `docs/data/` — versioniert im
 Git-Verlauf und gleichzeitig das, was die Seite ausliest. Ein Zustand, der
@@ -491,11 +508,44 @@ nicht im Verlauf steht, ist später nicht mehr nachvollziehbar.
 
 ---
 
-## Was noch fehlt
+## Die Seite
 
-Die Seite unter `docs/`. Das visuelle Design entsteht mit Claude Design;
-danach wird die PWA gebaut und GitHub Pages aktiviert. Die Daten dafür
-schreiben die beiden Läufe bereits vollständig:
-`latest.json`, `news.json`, `equity.json`, `trades.json`, `weights.json`,
-`portfolio_ki.json`, `portfolio_zufall.json`, `calibration.json`,
-`status.json`, `control.json` und ein Tagesarchiv unter `archive/`.
+<https://fabian-hgr.github.io/aktien-analyse/> — statisch, ohne Backend,
+ohne fremde Bibliothek. Sie liest vier Dateien aus demselben Repo:
+
+| Datei | wird gelesen für |
+|---|---|
+| `status.json` | wann welcher Lauf zuletzt lief |
+| `control.json` | läuft das System oder ist es pausiert |
+| `latest.json` | die Ideen des Tages mit vollständiger Herleitung |
+| `equity.json` | Depotkurven und Kennzahlen |
+
+Fehlt eine Datei, fehlt der Abschnitt und die Seite sagt warum — am ersten
+Tag gibt es noch keine Handelshistorie, und das soll dort stehen statt
+eines leeren Diagramms.
+
+Die Kennzahlen stehen auch in `trades.json`, dort aber hinter Megabytes
+Einzeltrades. Deshalb schreibt Lauf B sie zusätzlich nach `equity.json` —
+für den Depotvergleich muss niemand die ganze Handelshistorie laden.
+
+**Was drin ist:** Zustand und Aus-Schalter · die sechs Ideen mit Kurs, Ziel,
+Stop und dem gemessenen Ausgang dieser Marken · je Idee die aufklappbare
+Herleitung mit allen vier Methoden, den eingesetzten Zahlen, dem Stop, den
+gemessenen Wahrscheinlichkeiten und den sieben Score-Komponenten samt
+Begründung · Depotvergleich gegen Zufall und SPY.
+
+**Was noch nicht drin ist:** die Lernkurve mit dem Protokoll jeder Belohnung,
+die Ansicht über alle 528 Titel, die Branchenübersicht und die Nachrichten
+des Tages. Die Daten dafür schreiben die Läufe bereits (`weights.json`,
+`latest.json → universum`, `news.json`).
+
+Der Aus-Schalter sendet `PAUSE` oder `RESUME` an das Steuer-Thema und fragt
+vorher nach. Weil der Befehl erst beim nächsten Lauf gelesen wird, zeigt die
+Seite bis dahin ausdrücklich an, dass die Umschaltung angefordert und noch
+nicht wirksam ist — sonst sähe der Schalter wirkungslos aus.
+
+Als App installierbar: Manifest und Service Worker liegen bei. Das Gerüst
+kommt aus dem Zwischenspeicher, die Daten immer zuerst aus dem Netz. Eine
+Kursanalyse aus dem Zwischenspeicher wäre schlimmer als keine — sie sähe
+aktuell aus. Ohne Netz zeigt die Seite den letzten bekannten Stand, mit dem
+Zeitpunkt im Kopf.

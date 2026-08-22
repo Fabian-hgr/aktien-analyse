@@ -468,6 +468,8 @@ def summary_line(cal: Optional[dict]) -> str:
     g_up = cal["up"].get("_gesamt", {})
     g_dn = cal["down"].get("_gesamt", {})
     n = f"{cal['observations']:,}".replace(",", "'")
-    return (f"Kalibriert am {cal['measured_at'][:10]} ueber {n} Beobachtungen: "
-            f"Median aufwaerts {g_up.get('median')} ATR, abwaerts "
+    tag = cal["measured_at"][:10]
+    tag = ".".join(reversed(tag.split("-"))) if "-" in tag else tag
+    return (f"Kalibriert am {tag} über {n} Beobachtungen: "
+            f"Median aufwärts {g_up.get('median')} ATR, abwärts "
             f"{g_dn.get('median')} ATR in {cal['horizon_days']} Handelstagen.")

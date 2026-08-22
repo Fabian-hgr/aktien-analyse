@@ -196,25 +196,25 @@ def tradeable(entry: dict) -> tuple[bool, str]:
     sc = entry.get("scoring") or {}
     tg = entry.get("targets") or {}
     if not sc.get("eligible"):
-        return False, (f"Datenabdeckung {sc.get('coverage', 0):.0%} unter "
-                       f"{scoring.MIN_DATA_COVERAGE:.0%}")
+        return False, (f"Datenabdeckung {(sc.get('coverage', 0)) * 100:.0f} % unter "
+                       f"{(scoring.MIN_DATA_COVERAGE) * 100:.0f} %")
     if tg.get("target") is None:
         return False, "Kein Kursziel berechenbar"
     if tg.get("reward_risk") is None:
-        return False, "Kein Chance-Risiko-Verhaeltnis berechenbar"
+        return False, "Kein Chance-Risiko-Verhältnis berechenbar"
     if tg.get("upside_pct", 0) <= 0:
-        return False, "Kursziel liegt nicht ueber dem Kurs"
+        return False, "Kursziel liegt nicht über dem Kurs"
     if tg["reward_risk"] < config.MIN_REWARD_RISK:
         return False, (f"Chance-Risiko {tg['reward_risk']:.2f} unter "
                        f"{config.MIN_REWARD_RISK:.2f}")
     p = tg.get("p_ziel_beruehrt")
     if p is not None and p < config.MIN_HIT_PROBABILITY:
-        return False, (f"Ziel historisch nur in {p:.0%} der Faelle erreicht "
-                       f"(mindestens {config.MIN_HIT_PROBABILITY:.0%})")
+        return False, (f"Ziel historisch nur in {(p) * 100:.0f} % der Fälle erreicht "
+                       f"(mindestens {(config.MIN_HIT_PROBABILITY) * 100:.0f} %)")
     bq = tg.get("basisquote")
     if bq and bq["erwartung_r"] < config.MIN_BASE_EXPECTANCY_R:
         return False, (f"Basisquote dieser Marken {bq['erwartung_r']:+.3f} R "
-                       f"- schon fuer eine Zufallsauswahl ein Verlustgeschaeft")
+                       f"- schon für eine Zufallsauswahl ein Verlustgeschäft")
     return True, ""
 
 

@@ -66,7 +66,7 @@ class Component:
 
 def trend(snap: dict) -> Component:
     """Trendrichtung und relative Staerke. Vier gleich gewichtete Teile."""
-    c = Component("trend", "Trend & relative Staerke", None,
+    c = Component("trend", "Trend & relative Stärke", None,
                   config.SCORE_WEIGHTS["trend"])
     close = snap.get("close")
     ema9, ema21, ema50 = snap.get("ema9"), snap.get("ema21"), snap.get("ema50")
@@ -77,25 +77,25 @@ def trend(snap: dict) -> Component:
     if ema9 is not None and ema21 is not None:
         up = ema9 > ema21
         parts.append(1.0 if up else 0.0)
-        c.reasons.append(f"EMA9 {'ueber' if up else 'unter'} EMA21")
+        c.reasons.append(f"EMA9 {'über' if up else 'unter'} EMA21")
     if ema21 is not None and ema50 is not None:
         up = ema21 > ema50
         parts.append(1.0 if up else 0.0)
-        c.reasons.append(f"EMA21 {'ueber' if up else 'unter'} EMA50")
+        c.reasons.append(f"EMA21 {'über' if up else 'unter'} EMA50")
     if close is not None and sma200 is not None:
         up = close > sma200
         parts.append(1.0 if up else 0.0)
         c.reasons.append(
-            f"Kurs {'ueber' if up else 'unter'} 200-Tage-Linie "
-            f"({close / sma200 - 1:+.1%})")
+            f"Kurs {'über' if up else 'unter'} 200-Tage-Linie "
+            f"({(close / sma200 - 1) * 100:+.1f} %)")
     if adx is not None:
         v = _clip01(adx / 40.0)
         parts.append(v)
-        c.reasons.append(f"ADX {adx:.0f} (Trendstaerke {v:.0%})")
+        c.reasons.append(f"ADX {adx:.0f} (Trendstärke {(v) * 100:.0f} %)")
     if rel is not None:
         v = _ramp(rel, -0.10, 0.10)
         parts.append(v)
-        c.reasons.append(f"63 Tage gegen SPY: {rel:+.1%}")
+        c.reasons.append(f"63 Tage gegen SPY: {(rel) * 100:+.1f} %")
 
     if parts:
         c.score = sum(parts) / len(parts)
@@ -105,7 +105,7 @@ def trend(snap: dict) -> Component:
 def setup(snap: dict) -> Component:
     """Einstiegsqualitaet: nicht ueberdehnt, RSI im brauchbaren Bereich,
     genug Luft bis zum naechsten Widerstand."""
-    c = Component("setup", "Setup-Qualitaet", None,
+    c = Component("setup", "Setup-Qualität", None,
                   config.SCORE_WEIGHTS["setup"])
     close, atr = snap.get("close"), snap.get("atr")
     ema21, rsi = snap.get("ema21"), snap.get("rsi")
@@ -123,7 +123,7 @@ def setup(snap: dict) -> Component:
         else:
             v = _clip01(1 - (d - 1.5) / 2.0)   # ab 3.5 ATR auf 0
         parts.append(v)
-        c.reasons.append(f"Abstand zur EMA21: {d:+.1f} ATR ({v:.0%} Eignung)")
+        c.reasons.append(f"Abstand zur EMA21: {d:+.1f} ATR ({(v) * 100:.0f} % Eignung)")
     if rsi is not None:
         # 45-70 ist der brauchbare Bereich: Trend da, aber nicht ueberkauft.
         if 45 <= rsi <= 70:
@@ -133,7 +133,7 @@ def setup(snap: dict) -> Component:
         else:
             v = _clip01((85 - rsi) / 15)
         parts.append(v)
-        c.reasons.append(f"RSI {rsi:.0f} ({v:.0%} Eignung)")
+        c.reasons.append(f"RSI {rsi:.0f} ({(v) * 100:.0f} % Eignung)")
     if close and atr and high55:
         room = (high55 - close) / atr
         v = _clip01(room / 2.0) if room > 0 else 1.0   # Ausbruch = volle Luft
@@ -149,7 +149,7 @@ def setup(snap: dict) -> Component:
 
 def volume(snap: dict) -> Component:
     """Bestaetigt das Volumen die Bewegung?"""
-    c = Component("volumen", "Volumenbestaetigung", None,
+    c = Component("volumen", "Volumenbestätigung", None,
                   config.SCORE_WEIGHTS["volumen"])
     v, avg = snap.get("volume"), snap.get("avg_volume_20d")
     if not v or not avg or avg <= 0:
@@ -164,7 +164,7 @@ def volume(snap: dict) -> Component:
 def quality(f: Optional[dict]) -> Component:
     """Fundamentale Qualitaet: verdient das Unternehmen Geld, waechst es,
     und wie hoch ist es verschuldet?"""
-    c = Component("qualitaet", "Fundamentale Qualitaet", None,
+    c = Component("qualitaet", "Fundamentale Qualität", None,
                   config.SCORE_WEIGHTS["qualitaet"])
     if not f:
         return c
@@ -226,7 +226,7 @@ RECOMMENDATION_SCORE = {
 def analysts(f: Optional[dict], price: Optional[float]) -> Component:
     """Rueckenwind durch Analysten: Abstand zum Konsensziel, Empfehlung,
     Breite der Abdeckung."""
-    c = Component("analysten", "Analysten-Rueckenwind", None,
+    c = Component("analysten", "Analysten-Rückenwind", None,
                   config.SCORE_WEIGHTS["analysten"])
     if not f or not price or price <= 0:
         return c
@@ -236,7 +236,7 @@ def analysts(f: Optional[dict], price: Optional[float]) -> Component:
     if tm and tm > 0:
         upside = tm / price - 1
         v = _ramp(upside, -0.05, 0.30); parts.append(v); weights.append(0.55)
-        c.reasons.append(f"Konsensziel {upside:+.1%} ueber Kurs")
+        c.reasons.append(f"Konsensziel {(upside) * 100:+.1f} % über Kurs")
     if rec:
         v = RECOMMENDATION_SCORE.get(rec.lower())
         if v is not None:
@@ -272,7 +272,7 @@ def hard_exclusions(snap: dict, universe_entry: dict) -> list[str]:
     out = []
     close = snap.get("close")
     if close is None:
-        out.append("Kein Kurs verfuegbar")
+        out.append("Kein Kurs verfügbar")
         return out
     if close < config.MIN_PRICE:
         out.append(f"Kurs {close:.2f} USD unter {config.MIN_PRICE:.0f} USD")
@@ -281,7 +281,7 @@ def hard_exclusions(snap: dict, universe_entry: dict) -> list[str]:
         out.append(f"Dollarvolumen {dv / 1e6:.1f} Mio unter "
                    f"{config.MIN_DOLLAR_VOLUME / 1e6:.0f} Mio (IEX)")
     if snap.get("atr") is None:
-        out.append("Zu kurze Historie fuer ATR")
+        out.append("Zu kurze Historie für ATR")
     if (snap.get("bars") or 0) < 60:
         out.append(f"Nur {snap.get('bars', 0)} Bars Historie")
     return out
@@ -315,7 +315,7 @@ def penalties(f: Optional[dict], today: Optional[dt.date] = None,
     beta = f.get("beta")
     if beta and beta > config.HIGH_BETA_THRESHOLD:
         total += config.PENALTY_HIGH_BETA
-        reasons.append(f"Beta {beta:.2f} ueber {config.HIGH_BETA_THRESHOLD:.1f} "
+        reasons.append(f"Beta {beta:.2f} über {config.HIGH_BETA_THRESHOLD:.1f} "
                        f"(-{config.PENALTY_HIGH_BETA:.2f})")
     return total, reasons
 

@@ -18,7 +18,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src import (analysis, calibration, config, learning,      # noqa: E402
-                 portfolio, targets)
+                 portfolio, run_settle, targets)
 
 START = dt.date(2026, 1, 5)
 
@@ -252,6 +252,43 @@ class TestGanzerAblauf(unittest.TestCase):
             self.assertIsNone(res["kandidaten"][0]["targets"]["basisquote"])
         finally:
             calibration._zwischenspeicher["cal"] = merk
+
+
+class TestVergleichskurve(unittest.TestCase):
+    """Der Index muss am selben Tag starten wie die Depots.
+
+    Die Bars reichen 400 Kalendertage zurueck. Ohne Begrenzung begaenne die
+    SPY-Kurve ein Jahr vor den Depots und stuende schon am ersten
+    Abrechnungstag scheinbar zwanzig Prozent vorn — der Vergleich waere
+    genau dort kaputt, wo er zaehlt.
+    """
+
+    BARS = [{"t": "2025-06-02T00:00:00Z", "c": 500.0},
+            {"t": "2026-08-24T00:00:00Z", "c": 700.0},
+            {"t": "2026-08-25T00:00:00Z", "c": 721.0}]
+
+    def test_kurve_beginnt_am_depotstart(self):
+        kurve = run_settle.spy_kurve(self.BARS, [], ab="2026-08-24")
+        self.assertEqual(len(kurve), 2)
+        self.assertEqual(kurve[0]["date"], "2026-08-24")
+        self.assertEqual(kurve[0]["return_pct"], 0.0)
+        self.assertEqual(kurve[1]["return_pct"], 3.0)
+
+    def test_ohne_grenze_waere_die_kurve_verzerrt(self):
+        kurve = run_settle.spy_kurve(self.BARS, [])
+        self.assertEqual(kurve[0]["date"], "2025-06-02")
+        self.assertGreater(kurve[-1]["return_pct"], 40)
+
+    def test_basis_bleibt_ueber_laeufe_hinweg_stehen(self):
+        erste = run_settle.spy_kurve(self.BARS, [], ab="2026-08-24")
+        zweite = run_settle.spy_kurve(self.BARS, erste, ab="2026-08-24")
+        self.assertEqual(zweite[0]["basis"], erste[0]["basis"])
+        self.assertEqual(zweite[-1]["return_pct"], 3.0)
+
+    def test_keine_bars_im_fenster_laesst_die_alte_kurve_stehen(self):
+        erste = run_settle.spy_kurve(self.BARS, [], ab="2026-08-24")
+        gleich = run_settle.spy_kurve(self.BARS, erste, ab="2027-01-01")
+        self.assertEqual(gleich, erste)
 
 
 if __name__ == "__main__":
