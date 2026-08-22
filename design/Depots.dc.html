@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: oklch(0.50 0.09 205); text-underline-offset: 2px; }
+    a:hover { color: oklch(0.40 0.09 205); }
+
+    .wurzel {
+      --papier: oklch(0.982 0.004 85);
+      --flaeche: oklch(1 0 0);
+      --tinte: oklch(0.22 0.012 250);
+      --tinte-leise: oklch(0.52 0.012 250);
+      --linie: oklch(0.88 0.006 250);
+      --linie-fein: oklch(0.93 0.005 250);
+      --akzent: oklch(0.50 0.09 205);
+      --zufall: oklch(0.58 0.10 300);
+      --index: oklch(0.62 0.02 250);
+      --auf: oklch(0.50 0.09 155);
+      --ab: oklch(0.52 0.11 25);
+      --gedaempft: oklch(0.955 0.004 250);
+      background: var(--papier);
+      color: var(--tinte);
+      font-family: "IBM Plex Sans", system-ui, sans-serif;
+      font-size: 14px; line-height: 1.5; min-height: 100vh; box-sizing: border-box;
+    }
+    @media (prefers-color-scheme: dark) {
+      .wurzel[data-thema="auto"] {
+        --papier: oklch(0.17 0.008 250); --flaeche: oklch(0.21 0.009 250);
+        --tinte: oklch(0.93 0.004 85); --tinte-leise: oklch(0.68 0.008 250);
+        --linie: oklch(0.32 0.010 250); --linie-fein: oklch(0.26 0.009 250);
+        --akzent: oklch(0.72 0.09 205); --zufall: oklch(0.74 0.11 300);
+        --index: oklch(0.55 0.02 250); --auf: oklch(0.74 0.11 155);
+        --ab: oklch(0.70 0.13 25); --gedaempft: oklch(0.24 0.009 250);
+      }
+    }
+    .wurzel[data-thema="dunkel"] {
+      --papier: oklch(0.17 0.008 250); --flaeche: oklch(0.21 0.009 250);
+      --tinte: oklch(0.93 0.004 85); --tinte-leise: oklch(0.68 0.008 250);
+      --linie: oklch(0.32 0.010 250); --linie-fein: oklch(0.26 0.009 250);
+      --akzent: oklch(0.72 0.09 205); --zufall: oklch(0.74 0.11 300);
+      --index: oklch(0.55 0.02 250); --auf: oklch(0.74 0.11 155);
+      --ab: oklch(0.70 0.13 25); --gedaempft: oklch(0.24 0.009 250);
+    }
+
+    .zahl { font-family: "IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+    .marke {
+      font-size: 10px; letter-spacing: 0.10em; text-transform: uppercase;
+      color: var(--tinte-leise); font-weight: 500;
+    }
+    .karte { background: var(--flaeche); border: 1px solid var(--linie); border-radius: 2px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { text-align: right; padding: 7px 0; border-bottom: 1px solid var(--linie-fein); }
+    th:first-child, td:first-child { text-align: left; }
+    th { font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--tinte-leise); font-weight: 500; }
+    td { font-size: 13px; }
+  </style>
+</helmet>
+
+<div class="wurzel" data-thema="{{thema}}" style="padding: 18px 16px 22px">
+
+  <h1 style="font-size: 20px; font-weight: 600; letter-spacing: -0.01em; margin: 0">Depotvergleich</h1>
+  <p style="margin: 6px 0 0; font-size: 12px; line-height: 1.6; color: var(--tinte-leise)">
+    Gleiche Regeln, gleiche Positionsgrösse, gleiche Ausstiege. Nur die
+    Titelauswahl unterscheidet die beiden Depots — deshalb misst der Vergleich
+    die Analyse und nicht die Handelsmechanik.
+  </p>
+
+  <!-- Kurven -->
+  <div class="karte" style="margin-top: 14px; padding: 12px 11px 11px">
+    <svg viewBox="0 0 380 150" width="100%" height="150" role="img"
+         aria-label="Wertentwicklung der beiden Depots und des Index über 250 Handelstage"
+         style="display: block; overflow: visible">
+      <line x1="4" y1="132.5" x2="376" y2="132.5" stroke="currentColor"
+            stroke-width="1" stroke-dasharray="2 3" opacity="0.28"></line>
+      <polyline points="{{spy}}" fill="none" stroke="var(--index)"
+                stroke-width="1.6" stroke-linejoin="round"></polyline>
+      <polyline points="{{zufall}}" fill="none" stroke="var(--zufall)"
+                stroke-width="1.6" stroke-linejoin="round"></polyline>
+      <polyline points="{{ki}}" fill="none" stroke="var(--akzent)"
+                stroke-width="2.2" stroke-linejoin="round"></polyline>
+    </svg>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 10px">
+      <div style="display: flex; align-items: center; gap: 6px">
+        <span style="width: 14px; height: 2.5px; background: var(--akzent)"></span>
+        <span class="zahl" style="font-size: 11.5px">Analyse +6.19 %</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 6px">
+        <span style="width: 14px; height: 2.5px; background: var(--zufall)"></span>
+        <span class="zahl" style="font-size: 11.5px">Zufall +6.20 %</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 6px">
+        <span style="width: 14px; height: 2.5px; background: var(--index)"></span>
+        <span class="zahl" style="font-size: 11.5px">SPY +20.48 %</span>
+      </div>
+    </div>
+    <p style="margin: 9px 0 0; font-size: 10.5px; line-height: 1.55; color: var(--tinte-leise)">
+      250 Handelstage der Rückrechnung. Die Livekurven beginnen am 24.08.2026
+      bei null.
+    </p>
+  </div>
+
+  <!-- Kennzahlen -->
+  <table style="margin-top: 18px">
+    <thead>
+      <tr>
+        <th>&nbsp;</th>
+        <th>Analyse</th>
+        <th>Zufall</th>
+      </tr>
+    </thead>
+    <tbody>
+      <sc-for list="{{zeilen}}" as="z" hint-placeholder-count="6">
+        <tr>
+          <td style="color: var(--tinte-leise); font-size: 12px">{{z.label}}</td>
+          <td class="zahl" style="{{z.stil_a}}">{{z.a}}</td>
+          <td class="zahl">{{z.b}}</td>
+        </tr>
+      </sc-for>
+    </tbody>
+  </table>
+
+  <!-- Gegen die Messlatte -->
+  <h2 style="font-size: 14px; font-weight: 600; margin: 22px 0 0">Gegen die Basisquote</h2>
+  <p style="margin: 5px 0 0; font-size: 12px; line-height: 1.6; color: var(--tinte-leise)">
+    Nicht das Zufallsdepot ist die eigentliche Messlatte, sondern die gemessene
+    Basisquote: was eine Zufallsauswahl mit denselben Marken erreicht.
+  </p>
+
+  <div class="karte" style="margin-top: 10px; padding: 13px">
+    <sc-for list="{{basis}}" as="b" hint-placeholder-count="2">
+      <div style="margin-top: 0">
+        <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 10px">
+          <span class="marke">{{b.label}}</span>
+          <span class="zahl" style="font-size: 12px">{{b.ist}} gegen {{b.soll}}</span>
+        </div>
+        <div style="display: flex; height: 8px; border-radius: 2px; overflow: hidden; margin-top: 6px; background: var(--gedaempft)">
+          <span style="{{b.balken}}"></span>
+        </div>
+      </div>
+    </sc-for>
+    <p style="margin: 13px 0 0; font-size: 11.5px; line-height: 1.6; color: var(--tinte-leise)">
+      Beide Depots treffen ihr Ziel häufiger, als die Basisquote erwarten lässt.
+      Der Unterschied <em>zwischen</em> ihnen beträgt −0.002 R bei einem
+      Standardfehler von 0.048 — <strong style="font-weight: 600; color: var(--tinte)">t = −0.04, also
+      nichts</strong>.
+    </p>
+  </div>
+
+  <div class="karte" style="margin-top: 10px; padding: 12px 13px; border-left: 3px solid var(--ab)">
+    <div class="marke">Ehrlich bleiben</div>
+    <p style="margin: 6px 0 0; font-size: 12.5px; line-height: 1.6">
+      Nach einem Jahr Rückrechnung ist <strong style="font-weight: 600">kein
+      Vorsprung belegt</strong> — und auch kein Rückstand. Genau dafür steht
+      das Zufallsdepot hier: um das sichtbar zu machen statt zu verstecken.
+    </p>
+  </div>
+
+  <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--linie)">
+    <p style="margin: 0; font-size: 11px; line-height: 1.65; color: var(--tinte-leise)">
+      Simulation zu Lernzwecken, keine Anlageberatung. Kein echtes Geld ist im
+      Spiel. Einstieg zur Eröffnung des Folgetags, 5 Basispunkte Schlupf je
+      Seite, bei gleichzeitiger Berührung zählt der Stop.
+    </p>
+  </div>
+
+</div>
+</x-dc>
+
+<script data-dc-script data-props='{"thema":{"editor":"enum","options":["auto","hell","dunkel"],"default":"auto","section":"Darstellung"}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      thema: this.props.thema ?? 'auto',
+      ki: '4.0,132.5 8.5,133.5 13.0,133.6 17.4,131.3 21.9,127.5 26.4,130.7 30.9,125.9 35.4,129.1 39.9,124.8 44.3,118.9 48.8,118.0 53.3,123.4 57.8,119.1 62.3,119.7 66.7,119.6 71.2,113.8 75.7,113.8 80.2,111.5 84.7,110.1 89.2,118.1 93.6,121.2 98.1,124.0 102.6,114.3 107.1,115.8 111.6,112.9 116.0,109.8 120.5,113.7 125.0,116.8 129.5,113.1 134.0,112.4 138.5,112.5 142.9,105.4 147.4,103.3 151.9,101.9 156.4,102.3 160.9,102.9 165.3,101.1 169.8,95.3 174.3,93.2 178.8,90.2 183.3,92.5 187.8,90.8 192.2,92.6 196.7,88.6 201.2,97.2 205.7,99.8 210.2,99.9 214.7,100.6 219.1,103.4 223.6,100.9 228.1,102.2 232.6,99.6 237.1,100.3 241.5,98.6 246.0,99.4 250.5,103.0 255.0,102.4 259.5,101.2 264.0,100.2 268.4,101.1 272.9,100.9 277.4,104.0 281.9,102.6 286.4,98.4 290.8,96.5 295.3,92.5 299.8,96.4 304.3,90.6 308.8,92.2 313.3,88.3 317.7,89.4 322.2,90.1 326.7,96.1 331.2,96.5 335.7,100.0 340.1,102.1 344.6,103.3 349.1,96.5 353.6,99.6 358.1,95.9 362.6,97.2 367.0,95.9 371.5,99.5 376.0,97.0',
+      zufall: '4.0,132.5 8.5,132.0 13.0,132.7 17.4,131.9 21.9,130.6 26.4,132.6 30.9,130.0 35.4,129.4 39.9,129.2 44.3,127.9 48.8,130.6 53.3,137.5 57.8,134.0 62.3,132.0 66.7,131.7 71.2,132.2 75.7,133.3 80.2,135.1 84.7,133.1 89.2,136.5 93.6,141.7 98.1,141.8 102.6,136.0 107.1,135.4 111.6,131.2 116.0,128.7 120.5,129.6 125.0,133.1 129.5,129.6 134.0,128.5 138.5,127.1 142.9,121.0 147.4,117.4 151.9,114.4 156.4,116.8 160.9,116.0 165.3,120.9 169.8,120.0 174.3,117.2 178.8,115.3 183.3,118.0 187.8,115.5 192.2,116.3 196.7,112.6 201.2,120.8 205.7,124.7 210.2,127.0 214.7,127.2 219.1,130.0 223.6,133.7 228.1,134.7 232.6,130.9 237.1,124.1 241.5,122.3 246.0,116.8 250.5,120.2 255.0,120.2 259.5,120.2 264.0,118.5 268.4,119.5 272.9,123.4 277.4,121.7 281.9,116.8 286.4,114.1 290.8,109.3 295.3,106.7 299.8,109.3 304.3,108.1 308.8,110.8 313.3,110.8 317.7,108.3 322.2,108.2 326.7,108.0 331.2,107.1 335.7,108.5 340.1,108.7 344.6,111.2 349.1,107.3 353.6,111.2 358.1,103.2 362.6,101.5 367.0,97.6 371.5,104.2 376.0,96.9',
+      spy: '4.0,132.5 8.5,126.8 13.0,131.5 17.4,126.9 21.9,119.1 26.4,117.0 30.9,112.1 35.4,114.3 39.9,112.0 44.3,107.1 48.8,107.1 53.3,121.3 57.8,110.7 62.3,105.2 66.7,105.0 71.2,91.1 75.7,95.6 80.2,99.6 84.7,96.2 89.2,104.5 93.6,115.1 98.1,116.0 102.6,97.7 107.1,96.1 111.6,92.3 116.0,90.6 120.5,96.7 125.0,100.5 129.5,88.5 134.0,88.4 138.5,92.6 142.9,86.9 147.4,81.9 151.9,84.6 156.4,90.8 160.9,84.1 165.3,83.0 169.8,87.1 174.3,85.9 178.8,85.0 183.3,93.1 187.8,87.1 192.2,83.8 196.7,89.9 201.2,94.3 205.7,98.1 210.2,111.5 214.7,112.1 219.1,116.0 223.6,125.3 228.1,120.8 232.6,112.9 237.1,94.0 241.5,80.9 246.0,66.8 250.5,65.8 255.0,62.2 259.5,59.3 264.0,54.5 268.4,42.1 272.9,37.8 277.4,41.3 281.9,37.4 286.4,30.3 290.8,23.3 295.3,24.6 299.8,42.5 304.3,38.4 308.8,38.9 313.3,43.9 317.7,47.8 322.2,33.0 326.7,31.1 331.2,24.7 335.7,24.8 340.1,36.2 344.6,39.9 349.1,37.4 353.6,32.0 358.1,11.3 362.6,8.4 367.0,4.0 371.5,13.5 376.0,15.0',
+      zeilen: [
+        { label: 'Trades', a: "1'451", b: "1'427", stil_a: '' },
+        { label: 'Trefferquote', a: '47.6 %', b: '46.5 %', stil_a: '' },
+        { label: 'Erwartungswert je Trade', a: '+0.087 R', b: '+0.089 R', stil_a: '' },
+        { label: 'Profitfaktor', a: '1.16', b: '1.15', stil_a: '' },
+        { label: 'Haltedauer', a: '6.7 Tage', b: '8.1 Tage', stil_a: '' },
+        { label: 'Grösster Rückgang', a: '−2.9 %', b: '−4.9 %',
+          stil_a: 'color: var(--auf); font-weight: 500' },
+      ],
+      basis: [
+        { label: 'Analyse — Ziel zuerst', ist: '46.3 %', soll: '41.4 %',
+          balken: 'width: 46.3%; background: var(--akzent)' },
+        { label: 'Zufall — Ziel zuerst', ist: '41.4 %', soll: '37.1 %',
+          balken: 'width: 41.4%; background: var(--zufall)' },
+      ],
+    };
+  }
+}
+</script>
+</body>
+</html>

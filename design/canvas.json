@@ -1,44 +1,52 @@
 {
   "artboards": [
-    { "file": "Main.dc.html", "title": "A — Messblatt", "x": 0, "y": 0, "w": 440, "h": 840 },
-    { "file": "Kanzlei.dc.html", "title": "B — Kanzlei", "x": 520, "y": 0, "w": 440, "h": 840 },
-    { "file": "Werkstatt.dc.html", "title": "C — Werkstatt", "x": 1040, "y": 0, "w": 440, "h": 840 }
+    { "file": "Main.dc.html", "title": "Ideen des Tages — Handy", "x": 0, "y": 0, "w": 440, "h": 1180 },
+    { "file": "Herleitung.dc.html", "title": "Herleitung aufgeklappt", "x": 520, "y": 0, "w": 440, "h": 1620 },
+    { "file": "Depots.dc.html", "title": "Depotvergleich", "x": 1040, "y": 0, "w": 440, "h": 1180 },
+    { "file": "Breit.dc.html", "title": "Dasselbe am Bildschirm", "x": 1560, "y": 0, "w": 1160, "h": 800 }
   ],
   "annotations": [
     {
-      "id": "auftrag",
+      "id": "richtung",
       "x": 0,
-      "y": -190,
-      "w": 400,
-      "text": "Drei Richtungen, dieselben echten Zahlen aus dem Probelauf vom 21.08.\n\nSuch eine aus — danach baue ich Dashboard, Ideenkarte mit aufgeklappter Herleitung, Depotvergleich und Lernkurve in dieser Sprache."
+      "y": -230,
+      "w": 460,
+      "text": "RICHTUNG A — MESSBLATT, statisch, Kern zuerst.\n\nAlle Zahlen sind echt: Analyse vom 21.08. auf den Schlusskursen, Kalibrierung vom 22.08. über 212'350 Beobachtungen, Depotkurven aus der Rückrechnung über 250 Handelstage.\n\nNichts hier ist Platzhaltertext."
     },
     {
-      "id": "richtung-a",
+      "id": "ideen",
       "x": 0,
-      "y": 872,
-      "w": 400,
-      "text": "A — MESSBLATT\nInstrument, nicht Werbung. Tabellenziffern, Haarlinien, gedeckte Farben. Die Zahl steht im Vordergrund, das Layout tritt zurück.\n\nDafür: hält auch dann noch, wenn zwanzig Kennzahlen auf einer Seite stehen. Gut für die grosse Tabelle über 528 Titel.\nDagegen: wirkt nüchtern bis spröde. Auf dem Handy schnell zu klein."
+      "y": 1212,
+      "w": 460,
+      "text": "IDEEN DES TAGES\nDer Aus-Schalter steht zuoberst, nicht in einem Menü versteckt — er ist die einzige Bedienung, die es überhaupt gibt.\n\nJede Karte trägt drei Zahlen, die zusammengehören: wie weit das Ziel liegt, wie oft es historisch erreicht wurde, und was eine Zufallsauswahl mit denselben Marken schafft. Das Chance-Risiko-Verhältnis allein wäre irreführend."
     },
     {
-      "id": "richtung-b",
+      "id": "herleitung",
       "x": 520,
-      "y": 872,
-      "w": 400,
-      "text": "B — KANZLEI\nDie Begründung ist das Produkt. Serifen, viel Luft, die Herleitung liest sich als Text statt als Zahlenraster.\n\nDafür: die Kursziel-Herleitung — der eigentliche Kern — bekommt hier den meisten Platz. Ruhig, glaubwürdig.\nDagegen: braucht Platz. Ein Depotvergleich mit drei Kurven und acht Kennzahlen wird lang."
+      "y": 1652,
+      "w": 460,
+      "text": "HERLEITUNG\nWort für Wort das, was der Code ausgibt — die Schritte im Entwurf stammen aus targets.build() für MU, nicht aus meiner Feder.\n\nDie beiden Balken unten sind der Kern der ganzen Anlage: das Ziel liegt 3.26 ATR entfernt und wird in 32 % der Fälle berührt, der Stop in 50 %. Was zuerst kommt, entscheidet — und das steht als dritter Balken darunter."
     },
     {
-      "id": "richtung-c",
+      "id": "depots",
       "x": 1040,
-      "y": 872,
-      "w": 400,
-      "text": "C — WERKSTATT\nFürs Handy gebaut. Flächen statt Linien, grosse Ziffern, hoher Kontrast, ein Signalton.\n\nDafür: in drei Sekunden erfasst, auch unterwegs. Passt zur Push-Nachricht.\nDagegen: verträgt wenig Detail. Die Herleitung mit vier Methoden muss dafür in eine Ebene darunter."
+      "y": 1212,
+      "w": 460,
+      "text": "DEPOTVERGLEICH\nDie drei Kurven sind die echten Equity-Verläufe aus der Rückrechnung, auf 250 Handelstage.\n\nDie unbequeme Zeile steht bewusst drin: nach einem Jahr ist kein Vorsprung belegt, t = −0.04. Dafür ist das Zufallsdepot da — um das zu zeigen, nicht um es zu verstecken."
     },
     {
-      "id": "gemeinsam",
+      "id": "breit",
       "x": 1560,
+      "y": 832,
+      "w": 520,
+      "text": "AM BILDSCHIRM\nDieselbe Sprache, mehr Platz: die Ideen werden zur Tabelle, rechts stehen Messlatte und Branchenverteilung.\n\nHier zeigt sich die Stärke der Richtung — Tabellenziffern und Haarlinien tragen Dichte, ohne unruhig zu werden. Genau das braucht später die Ansicht über alle 528 Titel."
+    },
+    {
+      "id": "offen",
+      "x": 2160,
       "y": 0,
-      "w": 340,
-      "text": "Alle drei können hell und dunkel. Oben an jedem Artboard steht ein Regler «thema» — auto / hell / dunkel. Auf «auto» folgt die Seite der Einstellung des Geräts.\n\nDie Breite von 440 px ist bewusst Handybreite: was hier nicht funktioniert, funktioniert später auch am Bildschirm nicht."
+      "w": 380,
+      "text": "NOCH NICHT GEBAUT (Kern zuerst)\n\n· Lernkurve mit Protokoll jeder Belohnung\n· alle 528 Titel, sortier- und filterbar\n· Branchen-Übersicht als Fläche\n· Nachrichten des Tages\n\nSag Bescheid, was davon zuerst kommt — oder ob erst die vier hier sitzen sollen."
     }
   ],
   "launch": { "view": "canvas" }

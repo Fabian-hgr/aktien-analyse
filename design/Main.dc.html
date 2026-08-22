@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
   <style>
     body { margin: 0; }
-    a { color: oklch(0.50 0.09 205); }
+    a { color: oklch(0.50 0.09 205); text-underline-offset: 2px; }
     a:hover { color: oklch(0.40 0.09 205); }
 
     .wurzel {
@@ -61,95 +61,105 @@
       font-size: 10px; letter-spacing: 0.10em; text-transform: uppercase;
       color: var(--tinte-leise); font-weight: 500;
     }
-    .karte {
-      background: var(--flaeche);
-      border: 1px solid var(--linie);
-      border-radius: 2px;
-    }
-    .regel { height: 1px; background: var(--linie-fein); border: 0; }
-    .balken { height: 4px; background: var(--linie-fein); border-radius: 2px; overflow: hidden; }
+    .karte { background: var(--flaeche); border: 1px solid var(--linie); border-radius: 2px; }
+    .balken { height: 3px; background: var(--linie-fein); border-radius: 2px; overflow: hidden; }
     .balken > i { display: block; height: 100%; background: var(--akzent); }
   </style>
 </helmet>
 
-<div class="wurzel" data-thema="{{thema}}" style="padding: 20px 18px 22px">
+<div class="wurzel" data-thema="{{thema}}" style="padding: 18px 16px 22px">
 
-  <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
-    <div class="marke">Freitag, 21. August 2026</div>
-    <div class="marke">Lauf 14:15</div>
+  <!-- Kopf: Zustand des Systems und der Aus-Schalter -->
+  <div class="karte" style="padding: 11px 13px; display: flex; align-items: center; justify-content: space-between; gap: 12px">
+    <div style="display: flex; align-items: center; gap: 9px">
+      <span style="width: 7px; height: 7px; border-radius: 50%; background: var(--auf); flex-shrink: 0"></span>
+      <div style="display: flex; flex-direction: column; gap: 1px">
+        <span style="font-size: 13px; font-weight: 500">System läuft</span>
+        <span class="zahl" style="font-size: 11px; color: var(--tinte-leise)">Letzter Lauf 22.08. 14:15</span>
+      </div>
+    </div>
+    <div style="width: 44px; height: 26px; border-radius: 13px; background: var(--auf); position: relative; flex-shrink: 0">
+      <span style="position: absolute; top: 3px; right: 3px; width: 20px; height: 20px; border-radius: 50%; background: var(--flaeche)"></span>
+    </div>
   </div>
 
-  <div style="display: flex; align-items: baseline; gap: 10px; margin-top: 10px">
-    <h1 style="font-size: 21px; font-weight: 600; letter-spacing: -0.01em; margin: 0">Ideen des Tages</h1>
-    <span class="zahl" style="color: var(--tinte-leise); font-size: 13px">3</span>
+  <div style="display: flex; align-items: baseline; gap: 9px; margin-top: 20px">
+    <h1 style="font-size: 20px; font-weight: 600; letter-spacing: -0.01em; margin: 0">Ideen des Tages</h1>
+    <span class="zahl" style="color: var(--tinte-leise); font-size: 13px">6 von 511</span>
   </div>
 
-  <div style="display: flex; gap: 18px; margin-top: 12px; padding-bottom: 14px; border-bottom: 1px solid var(--linie)">
+  <div style="display: flex; gap: 16px; margin-top: 11px; padding-bottom: 13px; border-bottom: 1px solid var(--linie)">
     <div style="display: flex; flex-direction: column; gap: 2px">
-      <span class="marke">Marktlage</span>
+      <span class="marke">Markt</span>
       <span class="zahl" style="font-size: 13px; color: var(--auf)">aufwärts</span>
     </div>
     <div style="display: flex; flex-direction: column; gap: 2px">
       <span class="marke">VIX</span>
-      <span class="zahl" style="font-size: 13px">15.3 ruhig</span>
+      <span class="zahl" style="font-size: 13px">15.3</span>
     </div>
     <div style="display: flex; flex-direction: column; gap: 2px">
       <span class="marke">Bewertet</span>
-      <span class="zahl" style="font-size: 13px">528 Titel</span>
+      <span class="zahl" style="font-size: 13px">528</span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 2px">
+      <span class="marke">Basisquote</span>
+      <span class="zahl" style="font-size: 13px">43.0 %</span>
     </div>
   </div>
 
-  <sc-for list="{{ideen}}" as="i" hint-placeholder-count="2">
-    <div class="karte" style="margin-top: 14px; padding: 14px 15px 15px">
+  <sc-for list="{{ideen}}" as="idee" hint-placeholder-count="6">
+    <div class="karte" style="margin-top: 9px; padding: 12px 13px 13px">
 
-      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 10px">
+        <div style="display: flex; flex-direction: column; gap: 1px; min-width: 0">
+          <span class="zahl" style="font-size: 16px; font-weight: 600">{{idee.symbol}}</span>
+          <span style="font-size: 11.5px; color: var(--tinte-leise); overflow: hidden; text-overflow: ellipsis; white-space: nowrap">{{idee.name}} · {{idee.branche}}</span>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 1px; flex-shrink: 0">
+          <span class="zahl" style="font-size: 16px; font-weight: 600; color: var(--auf)">{{idee.auf}}</span>
+          <span class="marke">Score {{idee.score}}</span>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 11px">
         <div style="display: flex; flex-direction: column; gap: 1px">
-          <span class="zahl" style="font-size: 17px; font-weight: 600; letter-spacing: 0.01em">{{i.symbol}}</span>
-          <span style="font-size: 12px; color: var(--tinte-leise)">{{i.name}} · {{i.branche}}</span>
-        </div>
-        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 1px">
-          <span class="marke">Score</span>
-          <span class="zahl" style="font-size: 15px; font-weight: 500">{{i.score}}</span>
-        </div>
-      </div>
-
-      <hr class="regel" style="margin: 12px 0">
-
-      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
-        <div style="display: flex; flex-direction: column; gap: 2px">
           <span class="marke">Kurs</span>
-          <span class="zahl" style="font-size: 14px">{{i.kurs}}</span>
+          <span class="zahl" style="font-size: 13px">{{idee.kurs}}</span>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 2px">
+        <div style="display: flex; flex-direction: column; gap: 1px">
           <span class="marke">Ziel</span>
-          <span class="zahl" style="font-size: 14px; color: var(--auf)">{{i.ziel}}</span>
+          <span class="zahl" style="font-size: 13px; color: var(--auf)">{{idee.ziel}}</span>
         </div>
-        <div style="display: flex; flex-direction: column; gap: 2px">
+        <div style="display: flex; flex-direction: column; gap: 1px">
           <span class="marke">Stop</span>
-          <span class="zahl" style="font-size: 14px; color: var(--ab)">{{i.stop}}</span>
+          <span class="zahl" style="font-size: 13px; color: var(--ab)">{{idee.stop}}</span>
         </div>
       </div>
 
-      <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-top: 12px">
+      <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-top: 11px">
         <span class="marke">Ziel wird erreicht</span>
-        <span class="zahl" style="font-size: 13px">{{i.p_text}} · CRV {{i.crv}}</span>
+        <span class="zahl" style="font-size: 12px">{{idee.p_text}} · CRV {{idee.crv}} · Basis {{idee.basis}} R</span>
       </div>
       <div class="balken" style="margin-top: 5px">
-        <i style="{{i.balken}}"></i>
+        <i style="{{idee.balken}}"></i>
       </div>
 
-      <div style="margin-top: 11px; padding-top: 10px; border-top: 1px solid var(--linie-fein); display: flex; justify-content: space-between; gap: 10px">
-        <span class="marke">Basisquote Zufallsauswahl</span>
-        <span class="zahl" style="font-size: 12px; color: var(--tinte-leise)">{{i.basis}} R</span>
+      <div style="margin-top: 11px; padding-top: 9px; border-top: 1px solid var(--linie-fein)">
+        <a href="#" style="font-size: 11.5px; text-decoration: none">Herleitung aufklappen ›</a>
       </div>
 
     </div>
   </sc-for>
 
-  <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--linie)">
-    <p style="margin: 0; font-size: 11px; line-height: 1.6; color: var(--tinte-leise)">
-      Messlatte aus 212'871 Beobachtungen: Ziel zuerst in 43.0 % der Fälle,
-      Stop in 45.2 %. Alles darüber ist Auswahlvorteil.
+  <div style="margin-top: 18px; padding-top: 12px; border-top: 1px solid var(--linie)">
+    <p style="margin: 0; font-size: 11px; line-height: 1.65; color: var(--tinte-leise)">
+      Messlatte aus 212'350 Beobachtungen: bei diesen Marken kommt das Ziel in
+      43.0 % der Fälle zuerst, der Stop in 45.2 %. Alles darüber ist
+      Auswahlvorteil.
+    </p>
+    <p style="margin: 9px 0 0; font-size: 11px; line-height: 1.65; color: var(--tinte-leise)">
+      Simulation zu Lernzwecken, keine Anlageberatung. Kein echtes Geld ist im
+      Spiel.
     </p>
   </div>
 
@@ -160,12 +170,24 @@
 class Component extends DCLogic {
   renderVals() {
     const roh = [
-      { symbol: 'STX', name: 'Seagate Technology', branche: 'Technologie',
-        score: '0.72', kurs: '849.66', ziel: "1'069.82", stop: '735.75',
-        p: 0.320, crv: '1.93', basis: '+0.171' },
-      { symbol: 'BSX', name: 'Boston Scientific', branche: 'Gesundheit',
-        score: '0.72', kurs: '50.73', ziel: '53.87', stop: '47.98',
-        p: 0.544, crv: '1.14', basis: '+0.100' },
+      { symbol: 'MU', name: 'Micron Technology', branche: 'Technologie',
+        score: '0.80', kurs: '966.54', ziel: "1'182.24", auf: '+22.3 %',
+        stop: '855.38', p: 0.32, crv: '1.94', basis: '+0.174' },
+      { symbol: 'TSM', name: 'Taiwan Semiconductor', branche: 'Technologie',
+        score: '0.77', kurs: '418.90', ziel: '459.70', auf: '+9.7 %',
+        stop: '396.51', p: 0.35, crv: '1.82', basis: '+0.165' },
+      { symbol: 'ANET', name: 'Arista Networks', branche: 'Technologie',
+        score: '0.77', kurs: '188.66', ziel: '211.37', auf: '+12.0 %',
+        stop: '173.03', p: 0.44, crv: '1.45', basis: '+0.129' },
+      { symbol: 'COF', name: 'Capital One', branche: 'Finanzen',
+        score: '0.75', kurs: '217.97', ziel: '229.08', auf: '+5.1 %',
+        stop: '209.94', p: 0.46, crv: '1.39', basis: '+0.125' },
+      { symbol: 'NU', name: 'Nu Holdings', branche: 'Finanzen',
+        score: '0.75', kurs: '14.58', ziel: '16.14', auf: '+10.7 %',
+        stop: '13.59', p: 0.39, crv: '1.57', basis: '+0.136' },
+      { symbol: 'BABA', name: 'Alibaba Group', branche: 'Konsum zyklisch',
+        score: '0.73', kurs: '119.33', ziel: '132.32', auf: '+10.9 %',
+        stop: '111.67', p: 0.32, crv: '1.70', basis: '+0.089' },
     ];
     return {
       thema: this.props.thema ?? 'auto',

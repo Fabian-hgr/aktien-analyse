@@ -3,3 +3,8 @@ __pycache__/
 .venv/
 .env
 .credentials
+
+# Die gebaute Design-Canvas ist rund 2 MB Editor-Code und entsteht jederzeit
+# neu aus den .dc.html-Dateien daneben.
+design/*.html
+!design/*.dc.html

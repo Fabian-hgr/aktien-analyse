@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: oklch(0.50 0.09 205); text-underline-offset: 2px; }
+    a:hover { color: oklch(0.40 0.09 205); }
+
+    .wurzel {
+      --papier: oklch(0.982 0.004 85);
+      --flaeche: oklch(1 0 0);
+      --tinte: oklch(0.22 0.012 250);
+      --tinte-leise: oklch(0.52 0.012 250);
+      --linie: oklch(0.88 0.006 250);
+      --linie-fein: oklch(0.93 0.005 250);
+      --akzent: oklch(0.50 0.09 205);
+      --auf: oklch(0.50 0.09 155);
+      --ab: oklch(0.52 0.11 25);
+      --gedaempft: oklch(0.955 0.004 250);
+      background: var(--papier);
+      color: var(--tinte);
+      font-family: "IBM Plex Sans", system-ui, sans-serif;
+      font-size: 14px; line-height: 1.5; min-height: 100vh; box-sizing: border-box;
+    }
+    @media (prefers-color-scheme: dark) {
+      .wurzel[data-thema="auto"] {
+        --papier: oklch(0.17 0.008 250); --flaeche: oklch(0.21 0.009 250);
+        --tinte: oklch(0.93 0.004 85); --tinte-leise: oklch(0.68 0.008 250);
+        --linie: oklch(0.32 0.010 250); --linie-fein: oklch(0.26 0.009 250);
+        --akzent: oklch(0.72 0.09 205); --auf: oklch(0.74 0.11 155);
+        --ab: oklch(0.70 0.13 25); --gedaempft: oklch(0.24 0.009 250);
+      }
+    }
+    .wurzel[data-thema="dunkel"] {
+      --papier: oklch(0.17 0.008 250); --flaeche: oklch(0.21 0.009 250);
+      --tinte: oklch(0.93 0.004 85); --tinte-leise: oklch(0.68 0.008 250);
+      --linie: oklch(0.32 0.010 250); --linie-fein: oklch(0.26 0.009 250);
+      --akzent: oklch(0.72 0.09 205); --auf: oklch(0.74 0.11 155);
+      --ab: oklch(0.70 0.13 25); --gedaempft: oklch(0.24 0.009 250);
+    }
+
+    .zahl { font-family: "IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+    .marke {
+      font-size: 10px; letter-spacing: 0.10em; text-transform: uppercase;
+      color: var(--tinte-leise); font-weight: 500;
+    }
+    .karte { background: var(--flaeche); border: 1px solid var(--linie); border-radius: 2px; }
+    .schritt {
+      font-family: "IBM Plex Mono", ui-monospace, monospace;
+      font-size: 11.5px; line-height: 1.65; color: var(--tinte-leise);
+    }
+    .rolle {
+      font-size: 9px; letter-spacing: 0.10em; text-transform: uppercase;
+      font-weight: 600; padding: 2px 6px; border-radius: 2px;
+      background: var(--gedaempft); color: var(--tinte-leise);
+    }
+  </style>
+</helmet>
+
+<div class="wurzel" data-thema="{{thema}}" style="padding: 18px 16px 22px">
+
+  <a href="#" style="font-size: 11.5px; text-decoration: none">‹ zurück zu den Ideen</a>
+
+  <!-- Kopf der Idee -->
+  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-top: 14px">
+    <div style="display: flex; flex-direction: column; gap: 2px">
+      <span class="zahl" style="font-size: 22px; font-weight: 600">MU</span>
+      <span style="font-size: 12px; color: var(--tinte-leise)">Micron Technology · Technologie</span>
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 2px">
+      <span class="zahl" style="font-size: 22px; font-weight: 600; color: var(--auf)">+22.3 %</span>
+      <span class="marke">Score 0.80 · Abdeckung 85 %</span>
+    </div>
+  </div>
+
+  <div class="karte" style="margin-top: 14px; padding: 12px 13px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px">
+    <div style="display: flex; flex-direction: column; gap: 1px">
+      <span class="marke">Kurs</span>
+      <span class="zahl" style="font-size: 13px">966.54</span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 1px">
+      <span class="marke">Ziel</span>
+      <span class="zahl" style="font-size: 13px; color: var(--auf)">1'182.24</span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 1px">
+      <span class="marke">Stop</span>
+      <span class="zahl" style="font-size: 13px; color: var(--ab)">855.38</span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 1px">
+      <span class="marke">CRV</span>
+      <span class="zahl" style="font-size: 13px">1.94</span>
+    </div>
+  </div>
+
+  <!-- Die vier Quellen -->
+  <h2 style="font-size: 14px; font-weight: 600; margin: 22px 0 0">Wie das Ziel zustande kommt</h2>
+  <p style="margin: 5px 0 0; font-size: 12px; line-height: 1.6; color: var(--tinte-leise)">
+    Zwei Methoden liefern ein Niveau und werden gemittelt. Zwei weitere Quellen
+    liefern nur eine Neigung — sie verschieben den Abstand, setzen aber kein
+    eigenes Ziel.
+  </p>
+
+  <sc-for list="{{methoden}}" as="m" hint-placeholder-count="4">
+    <div class="karte" style="margin-top: 10px; padding: 12px 13px 13px">
+      <div style="display: flex; align-items: center; justify-content: space-between; gap: 10px">
+        <div style="display: flex; align-items: center; gap: 8px; min-width: 0">
+          <span class="rolle">{{m.rolle}}</span>
+          <span style="font-size: 13px; font-weight: 500">{{m.label}}</span>
+        </div>
+        <span class="zahl" style="font-size: 13px; font-weight: 500; flex-shrink: 0">{{m.wert}}</span>
+      </div>
+      <div class="schritt" style="margin-top: 9px; white-space: pre-line">{{m.schritte}}</div>
+    </div>
+  </sc-for>
+
+  <!-- Zusammenfuehrung -->
+  <h2 style="font-size: 14px; font-weight: 600; margin: 22px 0 0">Zusammengeführt</h2>
+  <div class="karte" style="margin-top: 10px; padding: 12px 13px 13px">
+    <div class="schritt" style="white-space: pre-line">{{zusammen}}</div>
+  </div>
+
+  <!-- Die entscheidende Zahl -->
+  <h2 style="font-size: 14px; font-weight: 600; margin: 22px 0 0">Wird das Ziel überhaupt erreicht?</h2>
+  <p style="margin: 5px 0 0; font-size: 12px; line-height: 1.6; color: var(--tinte-leise)">
+    Ein Chance-Risiko-Verhältnis von 1.94 sagt für sich genommen nichts. Es
+    kommt darauf an, wie oft das Ziel <em>zuerst</em> kommt.
+  </p>
+
+  <div class="karte" style="margin-top: 10px; padding: 13px">
+    <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 10px">
+      <span class="marke">Ziel 3.26 ATR entfernt</span>
+      <span class="zahl" style="font-size: 13px">berührt in 32 %</span>
+    </div>
+    <div style="height: 6px; background: var(--gedaempft); border-radius: 3px; overflow: hidden; margin-top: 6px">
+      <i style="display: block; height: 100%; width: 32%; background: var(--auf)"></i>
+    </div>
+
+    <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-top: 12px">
+      <span class="marke">Stop 1.68 ATR entfernt</span>
+      <span class="zahl" style="font-size: 13px">berührt in 50 %</span>
+    </div>
+    <div style="height: 6px; background: var(--gedaempft); border-radius: 3px; overflow: hidden; margin-top: 6px">
+      <i style="display: block; height: 100%; width: 50%; background: var(--ab)"></i>
+    </div>
+
+    <hr style="height: 1px; background: var(--linie-fein); border: 0; margin: 14px 0">
+
+    <div class="marke">Was zuerst kam — gemessen</div>
+    <div style="display: flex; height: 22px; border-radius: 2px; overflow: hidden; margin-top: 7px">
+      <span style="width: 28%; background: var(--auf)"></span>
+      <span style="width: 49%; background: var(--ab)"></span>
+      <span style="width: 23%; background: var(--linie)"></span>
+    </div>
+    <div style="display: flex; justify-content: space-between; gap: 8px; margin-top: 6px">
+      <span class="zahl" style="font-size: 11.5px; color: var(--auf)">Ziel 28 %</span>
+      <span class="zahl" style="font-size: 11.5px; color: var(--ab)">Stop 49 %</span>
+      <span class="zahl" style="font-size: 11.5px; color: var(--tinte-leise)">Zeit 23 %</span>
+    </div>
+  </div>
+
+  <div class="karte" style="margin-top: 10px; padding: 12px 13px; border-left: 3px solid var(--akzent)">
+    <div class="marke">Die Messlatte</div>
+    <p style="margin: 6px 0 0; font-size: 12.5px; line-height: 1.6">
+      Eine <strong style="font-weight: 600">zufällige</strong> Auswahl erreicht mit
+      genau diesen Marken <span class="zahl">+0.174 R</span> je Trade — gemessen an
+      36'350 Beobachtungen aus der Branche Technologie. Alles darüber ist der
+      Beitrag der Analyse, alles darunter schlechter als Würfeln.
+    </p>
+  </div>
+
+  <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--linie)">
+    <p style="margin: 0; font-size: 11px; line-height: 1.65; color: var(--tinte-leise)">
+      Erwartungsbereich über 15 Handelstage bei 97.3 % Volatilität:
+      <span class="zahl">952.88</span> bis <span class="zahl">1'411.60</span> USD.
+      Das ist die tatsächliche Unsicherheit — nicht die Uneinigkeit der Methoden.
+    </p>
+  </div>
+
+</div>
+</x-dc>
+
+<script data-dc-script data-props='{"thema":{"editor":"enum","options":["auto","hell","dunkel"],"default":"auto","section":"Darstellung"}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      thema: this.props.thema ?? 'auto',
+      methoden: this.mitText([
+        {
+          rolle: 'Niveau', label: 'ATR-Projektion', wert: "1'106.71",
+          schritte: [
+            'ATR(14) = 66.09 USD, das sind 6.84 % vom Kurs',
+            'Faktor k = 2.12 — gemessener Median der Aufwärtsbewegung in Technologie',
+            "Ziel = 966.54 + 2.12 × 66.09 = 1'106.71 USD",
+          ],
+        },
+        {
+          rolle: 'Niveau', label: 'Struktur / gemessene Bewegung', wert: "1'191.96",
+          schritte: [
+            "55-Tage-Hoch = 1'254.52 USD, das sind 287.98 USD über dem Kurs 966.54",
+            'Abstand grösser als 1 × ATR (66.09 USD) — echter Widerstand, nicht Rauschen',
+            "Ziel = 1'254.52 USD (+29.79 %)",
+            "Gekappt auf 3.41 × ATR = 1'191.96 USD — weiter wurde in Technologie historisch nur in 30 % der Fälle gelaufen",
+          ],
+        },
+        {
+          rolle: 'Neigung', label: 'Analystenkonsens', wert: "1'501.98",
+          schritte: [
+            "Konsensziel auf 12 Monate: 1'501.98 USD (43 Analysten)",
+            'Abstand zum Kurs 966.54: +55.40 % (gekappt auf 30.00 %)',
+            'Zeitanteilig auf 15 Handelstage wären das nur 998.41 USD — deshalb kein eigenes Ziel, sondern Neigung',
+            'Neigung = 30.00 % × 0.30 = +9.00 % auf den Abstand',
+          ],
+        },
+        {
+          rolle: 'Neigung', label: 'Bewertungsanker', wert: "3'158.13",
+          schritte: [
+            'Erwarteter Gewinn je Aktie (12 Monate): 154.81 USD',
+            'Median-Forward-KGV der Branche Technologie: 20.4',
+            "Fairer Wert = 154.81 × 20.4 = 3'158.13 USD",
+            'Abweichung zum Kurs: +226.75 % (gekappt auf 30.00 %)',
+            'Neigung = 30.00 % × 0.30 = +9.00 % auf den Abstand',
+          ],
+        },
+      ]),
+      zusammen: [
+        "ATR-Projektion  1'106.71 USD × Gewicht 1.00 (50 %)",
+        "Struktur        1'191.96 USD × Gewicht 1.00 (50 %)",
+        "                = 1'149.34 USD, Abstand 182.80 USD",
+        'Neigungen: Analysten +30.00 % × 0.30, Bewertung +30.00 % × 0.30',
+        '           → Faktor 1.1800 auf den Abstand',
+        "Ziel = 966.54 + 182.80 × 1.1800 = 1'182.24 USD",
+        'Stop-Faktor 1.68 × ATR — gemessener Median der Abwärtsbewegung',
+        'Stop = 966.54 − 1.68 × 66.09 = 855.38 USD',
+      ].join('\n'),
+    };
+  }
+
+  // Die Schritte einer Methode als EIN Text mit Zeilenumbruechen. Gerendert
+  // wird er mit white-space: pre-line - ohne das wuerde HTML die Umbrueche
+  // zu Leerzeichen zusammenziehen und alle Zeilen aneinanderkleben.
+  mitText(methoden) {
+    return methoden.map((m) => ({ ...m, schritte: m.schritte.join('\n') }));
+  }
+}
+</script>
+</body>
+</html>

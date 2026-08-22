@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: oklch(0.50 0.09 205); text-underline-offset: 2px; }
+    a:hover { color: oklch(0.40 0.09 205); }
+
+    .wurzel {
+      --papier: oklch(0.982 0.004 85);
+      --flaeche: oklch(1 0 0);
+      --tinte: oklch(0.22 0.012 250);
+      --tinte-leise: oklch(0.52 0.012 250);
+      --linie: oklch(0.88 0.006 250);
+      --linie-fein: oklch(0.93 0.005 250);
+      --akzent: oklch(0.50 0.09 205);
+      --auf: oklch(0.50 0.09 155);
+      --ab: oklch(0.52 0.11 25);
+      --gedaempft: oklch(0.955 0.004 250);
+      background: var(--papier);
+      color: var(--tinte);
+      font-family: "IBM Plex Sans", system-ui, sans-serif;
+      font-size: 14px; line-height: 1.5; min-height: 100vh; box-sizing: border-box;
+    }
+    @media (prefers-color-scheme: dark) {
+      .wurzel[data-thema="auto"] {
+        --papier: oklch(0.17 0.008 250); --flaeche: oklch(0.21 0.009 250);
+        --tinte: oklch(0.93 0.004 85); --tinte-leise: oklch(0.68 0.008 250);
+        --linie: oklch(0.32 0.010 250); --linie-fein: oklch(0.26 0.009 250);
+        --akzent: oklch(0.72 0.09 205); --auf: oklch(0.74 0.11 155);
+        --ab: oklch(0.70 0.13 25); --gedaempft: oklch(0.24 0.009 250);
+      }
+    }
+    .wurzel[data-thema="dunkel"] {
+      --papier: oklch(0.17 0.008 250); --flaeche: oklch(0.21 0.009 250);
+      --tinte: oklch(0.93 0.004 85); --tinte-leise: oklch(0.68 0.008 250);
+      --linie: oklch(0.32 0.010 250); --linie-fein: oklch(0.26 0.009 250);
+      --akzent: oklch(0.72 0.09 205); --auf: oklch(0.74 0.11 155);
+      --ab: oklch(0.70 0.13 25); --gedaempft: oklch(0.24 0.009 250);
+    }
+
+    .zahl { font-family: "IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+    .marke {
+      font-size: 10px; letter-spacing: 0.10em; text-transform: uppercase;
+      color: var(--tinte-leise); font-weight: 500;
+    }
+    .karte { background: var(--flaeche); border: 1px solid var(--linie); border-radius: 2px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { text-align: right; padding: 9px 10px; border-bottom: 1px solid var(--linie-fein); }
+    th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) { text-align: left; }
+    th {
+      font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--tinte-leise); font-weight: 500;
+      border-bottom: 1px solid var(--linie);
+    }
+    td { font-size: 13px; }
+    .balken { height: 3px; background: var(--gedaempft); border-radius: 2px; overflow: hidden; width: 54px; margin-left: auto; margin-top: 4px; }
+    .balken > i { display: block; height: 100%; background: var(--akzent); }
+  </style>
+</helmet>
+
+<div class="wurzel" data-thema="{{thema}}" style="padding: 26px 30px 30px">
+
+  <!-- Kopfleiste -->
+  <div style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-bottom: 16px; border-bottom: 1px solid var(--linie)">
+    <div style="display: flex; align-items: baseline; gap: 14px">
+      <h1 style="font-size: 19px; font-weight: 600; letter-spacing: -0.01em; margin: 0">Aktien-Analyse</h1>
+      <span class="zahl" style="font-size: 12px; color: var(--tinte-leise)">Samstag, 22.08.2026 · Lauf 14:15</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 22px">
+      <a href="#" style="font-size: 12.5px; text-decoration: none">Ideen</a>
+      <a href="#" style="font-size: 12.5px; text-decoration: none; color: var(--tinte-leise)">Depots</a>
+      <a href="#" style="font-size: 12.5px; text-decoration: none; color: var(--tinte-leise)">Lernkurve</a>
+      <a href="#" style="font-size: 12.5px; text-decoration: none; color: var(--tinte-leise)">Alle Titel</a>
+      <div style="display: flex; align-items: center; gap: 9px; padding-left: 22px; border-left: 1px solid var(--linie)">
+        <span class="zahl" style="font-size: 12px; color: var(--tinte-leise)">läuft</span>
+        <div style="width: 40px; height: 23px; border-radius: 12px; background: var(--auf); position: relative">
+          <span style="position: absolute; top: 3px; right: 3px; width: 17px; height: 17px; border-radius: 50%; background: var(--flaeche)"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Kennzahlenleiste -->
+  <div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1px; margin-top: 20px; background: var(--linie); border: 1px solid var(--linie); border-radius: 2px">
+    <sc-for list="{{kopfzahlen}}" as="k" hint-placeholder-count="5">
+      <div style="background: var(--flaeche); padding: 12px 14px; display: flex; flex-direction: column; gap: 3px">
+        <span class="marke">{{k.label}}</span>
+        <span class="zahl" style="font-size: 17px; font-weight: 500; {{k.stil}}">{{k.wert}}</span>
+        <span style="font-size: 11px; color: var(--tinte-leise)">{{k.hinweis}}</span>
+      </div>
+    </sc-for>
+  </div>
+
+  <!-- Zwei Spalten -->
+  <div style="display: grid; grid-template-columns: minmax(0, 2.35fr) minmax(0, 1fr); gap: 22px; margin-top: 24px">
+
+    <div>
+      <div style="display: flex; align-items: baseline; gap: 10px">
+        <h2 style="font-size: 15px; font-weight: 600; margin: 0">Ideen des Tages</h2>
+        <span class="zahl" style="font-size: 12px; color: var(--tinte-leise)">6 von 511 handelbaren</span>
+      </div>
+
+      <div class="karte" style="margin-top: 11px; overflow: hidden">
+        <table>
+          <thead>
+            <tr>
+              <th style="padding-left: 14px">Titel</th>
+              <th>Branche</th>
+              <th>Score</th>
+              <th>Kurs</th>
+              <th>Ziel</th>
+              <th>Auf</th>
+              <th>Stop</th>
+              <th>CRV</th>
+              <th style="padding-right: 14px">Ziel erreicht</th>
+            </tr>
+          </thead>
+          <tbody>
+            <sc-for list="{{ideen}}" as="idee" hint-placeholder-count="6">
+              <tr>
+                <td style="padding-left: 14px">
+                  <div class="zahl" style="font-weight: 600">{{idee.symbol}}</div>
+                  <div style="font-size: 11px; color: var(--tinte-leise)">{{idee.name}}</div>
+                </td>
+                <td style="font-size: 12px; color: var(--tinte-leise)">{{idee.branche}}</td>
+                <td class="zahl">{{idee.score}}</td>
+                <td class="zahl">{{idee.kurs}}</td>
+                <td class="zahl" style="color: var(--auf)">{{idee.ziel}}</td>
+                <td class="zahl" style="color: var(--auf)">{{idee.auf}}</td>
+                <td class="zahl" style="color: var(--ab)">{{idee.stop}}</td>
+                <td class="zahl">{{idee.crv}}</td>
+                <td style="padding-right: 14px">
+                  <div class="zahl">{{idee.p_text}}</div>
+                  <div class="balken"><i style="{{idee.balken}}"></i></div>
+                </td>
+              </tr>
+            </sc-for>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="margin: 10px 0 0; font-size: 11.5px; line-height: 1.6; color: var(--tinte-leise)">
+        Eine Zeile anklicken öffnet die vollständige Herleitung: beide
+        Niveau-Methoden mit eingesetzten Zahlen, beide Neigungen, der Stop und
+        die gemessene Trefferwahrscheinlichkeit.
+      </p>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 14px">
+
+      <div class="karte" style="padding: 14px">
+        <div class="marke">Die Messlatte</div>
+        <p style="margin: 8px 0 0; font-size: 12.5px; line-height: 1.6">
+          Was eine <strong style="font-weight: 600">zufällige</strong> Auswahl mit
+          denselben Marken erreicht — gemessen an 212'350 Beobachtungen.
+        </p>
+        <div style="display: flex; height: 22px; border-radius: 2px; overflow: hidden; margin-top: 12px">
+          <span style="width: 43%; background: var(--auf)"></span>
+          <span style="width: 45.2%; background: var(--ab)"></span>
+          <span style="width: 11.8%; background: var(--linie)"></span>
+        </div>
+        <div style="display: flex; justify-content: space-between; gap: 8px; margin-top: 6px">
+          <span class="zahl" style="font-size: 11px; color: var(--auf)">Ziel 43.0 %</span>
+          <span class="zahl" style="font-size: 11px; color: var(--ab)">Stop 45.2 %</span>
+          <span class="zahl" style="font-size: 11px; color: var(--tinte-leise)">Zeit 11.7 %</span>
+        </div>
+        <p style="margin: 11px 0 0; font-size: 11.5px; line-height: 1.6; color: var(--tinte-leise)">
+          Erwartungswert <span class="zahl">+0.098 R</span>. Alles darüber ist
+          Auswahlvorteil, alles darunter schlechter als Würfeln.
+        </p>
+      </div>
+
+      <div class="karte" style="padding: 14px">
+        <div class="marke">Branchen heute</div>
+        <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 11px">
+          <sc-for list="{{branchen}}" as="b" hint-placeholder-count="4">
+            <div style="display: flex; align-items: center; gap: 10px">
+              <span style="font-size: 12px; width: 108px; flex-shrink: 0; color: var(--tinte-leise)">{{b.name}}</span>
+              <span style="flex-grow: 1; height: 8px; background: var(--gedaempft); border-radius: 2px; overflow: hidden">
+                <i style="{{b.balken}}"></i>
+              </span>
+              <span class="zahl" style="font-size: 11.5px; width: 24px; text-align: right">{{b.anzahl}}</span>
+            </div>
+          </sc-for>
+        </div>
+      </div>
+
+      <div class="karte" style="padding: 14px; border-left: 3px solid var(--akzent)">
+        <div class="marke">Stand der Depots</div>
+        <p style="margin: 8px 0 0; font-size: 12.5px; line-height: 1.6">
+          Der Livebetrieb beginnt am <span class="zahl">24.08.2026</span>. Bis
+          ein Vorsprung statistisch belegt wäre, braucht es rund
+          <strong style="font-weight: 600">acht Monate</strong> — bei sechs
+          Käufen pro Tag und Depot.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <p style="margin: 24px 0 0; padding-top: 14px; border-top: 1px solid var(--linie); font-size: 11px; line-height: 1.65; color: var(--tinte-leise)">
+    Simulation zu Lernzwecken, keine Anlageberatung. Kein echtes Geld ist im Spiel.
+  </p>
+
+</div>
+</x-dc>
+
+<script data-dc-script data-props='{"thema":{"editor":"enum","options":["auto","hell","dunkel"],"default":"auto","section":"Darstellung"}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const roh = [
+      { symbol: 'MU', name: 'Micron Technology', branche: 'Technologie',
+        score: '0.80', kurs: '966.54', ziel: "1'182.24", auf: '+22.3 %',
+        stop: '855.38', p: 0.32, crv: '1.94' },
+      { symbol: 'TSM', name: 'Taiwan Semiconductor', branche: 'Technologie',
+        score: '0.77', kurs: '418.90', ziel: '459.70', auf: '+9.7 %',
+        stop: '396.51', p: 0.35, crv: '1.82' },
+      { symbol: 'ANET', name: 'Arista Networks', branche: 'Technologie',
+        score: '0.77', kurs: '188.66', ziel: '211.37', auf: '+12.0 %',
+        stop: '173.03', p: 0.44, crv: '1.45' },
+      { symbol: 'COF', name: 'Capital One', branche: 'Finanzen',
+        score: '0.75', kurs: '217.97', ziel: '229.08', auf: '+5.1 %',
+        stop: '209.94', p: 0.46, crv: '1.39' },
+      { symbol: 'NU', name: 'Nu Holdings', branche: 'Finanzen',
+        score: '0.75', kurs: '14.58', ziel: '16.14', auf: '+10.7 %',
+        stop: '13.59', p: 0.39, crv: '1.57' },
+      { symbol: 'BABA', name: 'Alibaba Group', branche: 'Konsum zyklisch',
+        score: '0.73', kurs: '119.33', ziel: '132.32', auf: '+10.9 %',
+        stop: '111.67', p: 0.32, crv: '1.70' },
+    ];
+    const branchen = [
+      { name: 'Technologie', anzahl: 3 },
+      { name: 'Finanzen', anzahl: 2 },
+      { name: 'Konsum zyklisch', anzahl: 1 },
+      { name: 'übrige acht', anzahl: 0 },
+    ];
+    return {
+      thema: this.props.thema ?? 'auto',
+      kopfzahlen: [
+        { label: 'Marktlage', wert: 'aufwärts', hinweis: 'SPY über 200-Tage-Linie',
+          stil: 'color: var(--auf)' },
+        { label: 'VIX', wert: '15.3', hinweis: 'ruhig', stil: '' },
+        { label: 'Bewertet', wert: '528', hinweis: '4 ausgeschlossen', stil: '' },
+        { label: 'Handelbar', wert: '511', hinweis: 'alle Tore bestanden', stil: '' },
+        { label: 'Basisquote', wert: '+0.098 R', hinweis: 'je Trade, Zufallsauswahl', stil: '' },
+      ],
+      ideen: roh.map((i) => ({
+        ...i,
+        p_text: Math.round(i.p * 100) + ' %',
+        balken: 'width: ' + Math.round(i.p * 100) + '%',
+      })),
+      branchen: branchen.map((b) => ({
+        ...b,
+        balken: 'display: block; height: 100%; width: ' +
+                Math.round((b.anzahl / 3) * 100) + '%; background: var(--akzent)',
+      })),
+    };
+  }
+}
+</script>
+</body>
+</html>

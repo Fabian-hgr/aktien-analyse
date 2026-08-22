@@ -61,7 +61,7 @@ Repo:
 
 | Lauf | UTC | Schweiz | Was passiert |
 |---|---|---|---|
-| **Vorbörse** | 12:15 | 14:15 | analysieren, 3 Käufe je Depot vormerken, Push senden |
+| **Vorbörse** | 12:15 | 14:15 | analysieren, 6 Käufe je Depot vormerken, Push senden |
 | **Abrechnung** | 22:00 | 00:00 | füllen, Ausstiege, lernen |
 | **Kalibrierung** | Sa 06:30 | Sa 08:30 | die Messlatte nachführen |
 
