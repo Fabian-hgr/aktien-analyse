@@ -67,10 +67,13 @@ jobs:
           echo "Ladedauer: $(( $(date +%s) - START )) s"
           du -sh ~/.ollama/models || true
 
+      # --nur-modell ist wichtig: dieser Schritt hat bewusst keine
+      # Alpaca-Schluessel. Ohne die Einschraenkung wuerde er die
+      # Datenquellen mitpruefen und daran scheitern.
       - name: Sprachmodell messen
         env:
           OLLAMA_MODEL: ${{ inputs.modell }}
-        run: python scripts/machbarkeit.py --titel "${{ inputs.titel }}"
+        run: python scripts/machbarkeit.py --nur-modell --titel "${{ inputs.titel }}"
 
       - name: Datenquellen aus der Cloud pruefen
         env:

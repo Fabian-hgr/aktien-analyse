@@ -27,8 +27,15 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from src import alpaca, config, llm, news, yahoo          # noqa: E402
 
+# Das eigentliche Tor ist die LAUFZEIT. Die Tokenrate ist nur ein Symptom:
+# gemessen am 22.08.2026 lieferte qwen2.5:7b auf dem Runner 3.8 Tokens/s und
+# brauchte 27 s je Titel — hochgerechnet 11.3 Minuten fuer 25 Titel, also ein
+# Viertel des Budgets. Eine Tokenschwelle von 4.0 haette dieses vollauf
+# brauchbare Ergebnis verworfen. Sie steht jetzt so tief, dass sie nur noch
+# echten Stillstand abfaengt.
 BUDGET_MINUTEN = 50          # so lange darf der Sprachmodell-Teil hoechstens
-MIND_TOKENS_PRO_S = 4.0      # darunter ist das Modell zu gross fuer den Runner
+MIND_TOKENS_PRO_S = 1.5      # darunter steht der Runner praktisch still
+WARNUNG_TOKENS_PRO_S = 4.0   # darunter wird es eng, aber es reisst nichts
 
 BEISPIELE = [
     ("NVDA", "NVIDIA", "Technologie", [
@@ -91,9 +98,13 @@ def pruefe_modell(titel: int) -> bool:
         print("REISST: nicht jede Aufgabe lieferte gueltiges JSON.")
         ok = False
     if tps < MIND_TOKENS_PRO_S:
-        print(f"REISST: unter {MIND_TOKENS_PRO_S} Tokens/s — kleineres Modell "
-              f"waehlen (qwen2.5:3b).")
+        print(f"REISST: unter {MIND_TOKENS_PRO_S} Tokens/s — der Runner kommt "
+              f"nicht vom Fleck, kleineres Modell waehlen (qwen2.5:3b).")
         ok = False
+    elif tps < WARNUNG_TOKENS_PRO_S:
+        print(f"Hinweis: {tps:.1f} Tokens/s ist langsam. Solange die "
+              f"Hochrechnung im Budget bleibt, ist das kein Problem — bei "
+              f"laengerer Vorauswahl aber die erste Stellschraube.")
     if hochrechnung > BUDGET_MINUTEN:
         print(f"REISST: {hochrechnung:.0f} min ueber dem Budget — kleineres "
               f"Modell oder kuerzere Vorauswahl.")
