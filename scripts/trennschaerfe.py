@@ -45,6 +45,11 @@ log = logging.getLogger("trennschaerfe")
 TECHNISCHE_GEWICHTE = {"trend": 0.45, "setup": 0.33, "volumen": 0.22}
 FUENFTEL = 5
 
+# Wie viele Titel man taeglich kauft, ist keine Geschmacksfrage: je tiefer die
+# Auswahl in die Rangliste greift, desto schwaecher trennt der Score. Diese
+# Baender messen genau das - an allen Kandidaten, nicht an den gekauften.
+RANGBAENDER = [(1, 3), (4, 6), (7, 10), (11, 20), (21, 50)]
+
 
 def forward_return(bars: list[dict], i: int, horizont: int) -> float | None:
     """Rendite von Schluss i bis Schluss i+horizont."""
@@ -118,6 +123,8 @@ def main() -> int:
     komponenten_spreads: dict[str, list[float]] = {}
     beobachtungen = 0
     fuenftel_renditen: list[list[float]] = [[] for _ in range(FUENFTEL)]
+    rang_renditen: list[list[float]] = [[] for _ in RANGBAENDER]
+    rang_ueberschuss: list[list[float]] = [[] for _ in RANGBAENDER]
 
     for tag in test_tage:
         zeile = []
@@ -161,6 +168,16 @@ def main() -> int:
             oben = statistics.mean(r for _, r in werte[-gr:])
             return oben - unten
 
+        # Rangbaender: was bringt der 1. bis 3. Platz, was der 4. bis 6.?
+        nach_rang = sorted(zeile, key=lambda x: -x["score"])
+        tagesmittel = statistics.mean(x["fwd"] for x in nach_rang)
+        for nr, (von, bis) in enumerate(RANGBAENDER):
+            teil = nach_rang[von - 1:bis]
+            if len(teil) == bis - von + 1:
+                m = statistics.mean(x["fwd"] for x in teil)
+                rang_renditen[nr].append(m)
+                rang_ueberschuss[nr].append(m - tagesmittel)
+
         s = spread_nach(lambda x: x["score"])
         if s is not None:
             spreads.append(s)
@@ -196,6 +213,22 @@ def main() -> int:
             label = ("schlechtestes" if q == 0 else
                      "bestes" if q == FUENFTEL - 1 else f"{q + 1}.")
             print(f"  {label:<12}{statistics.mean(werte) * 100:>19.3f} %{len(werte):>8}")
+
+    print("\nRendite nach RANG im Tagesranking (der Reihe nach gekauft)")
+    print(f"  {'Rang':<10}{'mittlere Rendite':>19}{'ueber Tagesschnitt':>21}"
+          f"{'t-Wert':>9}   Urteil")
+    print("  " + "-" * 72)
+    for nr, (von, bis) in enumerate(RANGBAENDER):
+        werte = rang_renditen[nr]
+        if len(werte) < 3:
+            continue
+        k = auswerten(rang_ueberschuss[nr], f"{von}-{bis}", args.horizont)
+        urteil = ("belegt positiv" if k["t"] > 1.96 else
+                  "belegt negativ" if k["t"] < -1.96 else "nicht belegt")
+        print(f"  {von}. bis {bis}.{'':<3}{statistics.mean(werte) * 100:>18.3f} %"
+              f"{k['mittel'] * 100:>20.3f}%{k['t']:>9.2f}   {urteil}")
+    print("  Je tiefer die Auswahl greift, desto naeher liegt sie am")
+    print("  Tagesschnitt - und desto weniger bleibt vom Auswahlvorteil.")
 
     gesamt = auswerten(spreads, "Gesamtscore", args.horizont)
     print(f"\n{'Merkmal':<14}{'Tage':>6}{'Spread':>11}{'Streuung':>11}"
@@ -241,6 +274,10 @@ def main() -> int:
                             for k, v in komponenten_spreads.items()},
             "fuenftel": [statistics.mean(v) if v else None
                          for v in fuenftel_renditen],
+            "raenge": {f"{von}-{bis}": auswerten(rang_ueberschuss[nr],
+                                                 f"{von}-{bis}", args.horizont)
+                       for nr, (von, bis) in enumerate(RANGBAENDER)
+                       if len(rang_ueberschuss[nr]) >= 3},
         }, indent=1), encoding="utf-8")
         print(f"JSON: {args.json}")
     return 0

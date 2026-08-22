@@ -223,25 +223,35 @@ Marken je Branche kalibriert:
 
 |  | Depot KI | Depot Zufall | SPY |
 |---|---|---|---|
-| Rendite ohne Lernschleife | +5.40 % | +2.98 % | +20.57 % |
-| **Rendite mit Lernschleife** | **+5.64 %** | **+0.47 %** | +20.58 % |
-| Erwartungswert je Trade (mit) | **+0.104 R** | −0.011 R | — |
-| Trefferquote | 47.0 % | 41.3 % | — |
-| Trades | 726 | 715 | — |
-| Max. Rückgang | −5.0 % | −5.1 % | −8.9 % |
+| Rendite mit Lernschleife | +6.19 % | +6.20 % | +20.48 % |
+| Erwartungswert je Trade | +0.087 R | +0.089 R | — |
+| Trefferquote | 47.6 % | 46.5 % | — |
+| Trades | 1451 | 1427 | — |
+| Max. Rückgang | **−2.9 %** | −4.9 % | −8.9 % |
+
+Bei drei Käufen pro Tag sah dieselbe Rechnung so aus — die Streuung zwischen
+zwei Einstellungen ist grösser als jeder Unterschied zwischen den Depots:
+
+|  | Depot KI | Depot Zufall |
+|---|---|---|
+| Rendite mit Lernschleife | +5.64 % | +0.47 % |
+| Erwartungswert je Trade | +0.104 R | −0.011 R |
 
 Gegen die eigentliche Messlatte, die gemessene Basisquote:
 
 | | Ziel zuerst | gegen Basisquote | Erwartung R | gegen Basisquote |
 |---|---|---|---|---|
-| Depot KI | 46.3 % | **+4.7 pp** | +0.104 | **−0.007** |
-| Depot Zufall | 37.1 % | +0.6 pp | −0.011 | −0.125 |
+| Depot KI | 46.3 % | **+4.9 pp** | +0.087 | −0.023 |
+| Depot Zufall | 41.4 % | +4.3 pp | +0.089 | −0.028 |
 
-Das KI-Depot trifft sein Ziel deutlich häufiger als eine Zufallsauswahl und
-liegt beim Erwartungswert praktisch auf der Basisquote — das Zufallsdepot
-bleibt klar darunter. Der Rückstand von 0.007 R gegenüber der Basisquote ist
-erklärbar: die Basisquote rechnet mit Ausstiegen exakt auf der Marke, das
-Depot mit Eröffnungslücken und 5 Basispunkten Schlupf je Seite.
+Beide Depots treffen ihr Ziel häufiger, als die Basisquote erwarten lässt, und
+bleiben beim Erwartungswert knapp darunter. Der Rückstand ist erklärbar: die
+Basisquote rechnet mit Ausstiegen exakt auf der Marke, das Depot mit
+Eröffnungslücken und 5 Basispunkten Schlupf je Seite.
+
+Der einzige Unterschied, der in dieser Tabelle heraussticht, ist der maximale
+Rückgang: −2.9 % gegen −4.9 %. Auch der ist mit einer einzigen Zeitreihe nicht
+belegt.
 
 **Beide Depots bleiben deutlich hinter SPY.** In einem Jahr mit +20 % im
 Index ist Kaufen-und-Halten schwer zu schlagen — erst recht mit einer
@@ -257,16 +267,17 @@ besser ist. Für die Frage „taugt die Auswahl?" ist deshalb der
 
 ### Und ist der Unterschied belastbar?
 
-`scripts/signifikanz.py`, mit Lernschleife:
+`scripts/signifikanz.py`, mit Lernschleife und sechs Käufen:
 
 ```
-Unterschied KI minus Zufall: +0.116 R
-Standardfehler:              0.069 R
-t-Wert:                      +1.68        NICHT belegt (Schwelle 1.96)
-Nötig: rund 974 Trades je Depot ≈ 15 Monate Livebetrieb.
+Unterschied KI minus Zufall: -0.002 R
+Standardfehler:              0.048 R
+t-Wert:                      -0.04        NICHT belegt (Schwelle 1.96)
 ```
 
-Nahe dran, aber nicht belegt. Das ist die ehrliche Auskunft.
+Kein Vorsprung, kein Rückstand — nichts. Das ist die ehrliche Auskunft nach
+einem Jahr Rückrechnung, und sie deckt sich mit der Trennschärfe-Messung
+unten: auch dort ist der Auswahlvorteil sichtbar, aber nicht belegt.
 
 > **Einschränkung des Vergleichs:** das Zufallsdepot zieht aus demselben Topf
 > handelbarer Titel wie die Analyse. Ändert die Lernschleife die Kursziele,
@@ -276,10 +287,50 @@ Nahe dran, aber nicht belegt. Das ist die ehrliche Auskunft.
 
 ---
 
+## Wie viele Käufe pro Tag?
+
+Sechs — und das ist gemessen, nicht gewählt. Die Frage entscheidet, wie lange
+es dauert, bis überhaupt etwas belegt ist, und sie hat zwei Seiten:
+
+**Mehr Käufe bringen mehr Beobachtungen.** Von 3 auf 6 fiel der Standardfehler
+des Unterschieds zwischen den Depots von 0.069 auf 0.048 R — der Faktor √2, den
+doppelt so viele Trades erwarten lassen.
+
+**Kosten sie Trennschärfe?** Das wäre der Haken: wer tiefer in die Rangliste
+greift, kauft schlechtere Titel. Gemessen über 130'535 Beobachtungen, je Tag
+nach Score sortiert:
+
+| Rang im Tagesranking | mittlere Rendite über 15 Tage | über dem Tagesschnitt |
+|---|---|---|
+| 1. bis 3. | +2.241 % | +0.772 % |
+| **4. bis 6.** | **+2.249 %** | **+0.781 %** |
+| 7. bis 10. | +1.886 % | +0.417 % |
+| 11. bis 20. | +1.872 % | +0.404 % |
+
+Die Ränge 4 bis 6 sind so gut wie 1 bis 3. Der Vorteil verwässert erst ab
+Rang 7 sichtbar — und keiner dieser Abstände ist für sich belegt (alle
+|t| < 1). Sechs Käufe kosten also nichts und bringen die halbe Wartezeit.
+
+Positionsgrösse und Deckel wurden mitgezogen: 1 % je Position statt 2 %, Deckel
+80 statt 40. Damit bleibt der investierte Anteil gleich und der Deckel greift
+nicht (gemessene Belegung: Median 34, Maximum 67). Ein bindender Deckel würde
+die Käufe genau dann abschneiden, wenn viele Ideen vorliegen — und damit
+heimlich mitauswählen.
+
+**Ein Wort zur Vorsicht bei diesen Zahlen.** Im Backtest über 250 Tage lag der
+Vorsprung der Analyse bei 3 Käufen bei +0.116 R (t = +1.68), bei 6 Käufen bei
+−0.002 R (t = −0.04). Beides ist *nicht belegt*, und die zwei Ergebnisse liegen
+rund anderthalb Standardfehler auseinander — für sich genommen also
+ununterscheidbar von Zufall. Massgeblich ist die Rangmessung oben mit ihren
+hunderttausend Beobachtungen, nicht die eintausendvierhundert Trades eines
+Backtests.
+
+---
+
 ## Warum drei Trades pro Tag zu wenig sind
 
 Deshalb gibt es `scripts/trennschaerfe.py`. Es wertet **alle** Kandidaten
-jedes Tages aus statt nur der drei gekauften — rund 520 statt 3, also über
+jedes Tages aus statt nur der sechs gekauften — rund 520 statt 6, also fast
 das Hundertfache an Beobachtungen. Nach Fama-MacBeth: je Tag ein Wert
 (bestes Fünftel minus schlechtestes), Standardfehler wegen überlappender
 15-Tage-Fenster mit √15 vergrössert.
@@ -336,8 +387,12 @@ aber nach einem Jahr noch nicht belegt.
 - **Kursbewegungen sind fast ein Martingal.** Ohne Auswahlvorteil ist die
   Erwartung jeder Stop-Ziel-Kombination praktisch null. Kein
   Chance-Risiko-Verhältnis erzeugt Rendite; nur die Auswahl kann das.
+- **Ein Backtest ist EINE Stichprobe.** Zwischen 3 und 6 Käufen pro Tag
+  schwankte der gemessene Vorsprung von +0.116 R auf −0.002 R, ohne dass sich
+  an der Auswahl etwas geändert hätte. Wer aus einem einzelnen Backtest eine
+  Zahl herausgreift, greift Rauschen heraus.
 - **Die Filter filtern kaum.** Weil Ziel und Stop aus der Messung kommen,
-  bestehen rund 500 von 520 bewerteten Titeln die Handelbarkeitsprüfung. Das
+  bestehen rund 510 von 528 bewerteten Titeln die Handelbarkeitsprüfung. Das
   ist beabsichtigt: die Auswahl trifft der Score, nicht ein willkürliches
   Chance-Risiko-Tor. Die Tore fangen nur noch echte Ausreisser ab.
 - **Die Trefferquote der Kursziel-Methoden ist nicht sauber messbar.** Die

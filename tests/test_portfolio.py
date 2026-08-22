@@ -55,13 +55,21 @@ class TestAuftraege(unittest.TestCase):
         self.assertAlmostEqual(pf["positions"][0]["entry_price"], 100.05, places=4)
 
     def test_positionsgroesse_und_barmittel(self):
-        # 2 % von 100'000 = 2'000 USD Gegenwert -> Barmittel exakt 98'000
+        """Gegenwert je Position ist POSITION_PCT des Startkapitals.
+
+        Bewusst aus der Konfiguration gerechnet und nicht fest verdrahtet:
+        die Positionsgroesse haengt an PICKS_PER_DAY und wird mitgezogen,
+        wenn die Anzahl Kaeufe sich aendert. Ein Test mit eingebauter Zahl
+        wuerde dann eine richtige Aenderung als Fehler melden.
+        """
+        einsatz = config.START_CAPITAL * config.POSITION_PCT
         pf = frisch()
         portfolio.place_orders(pf, [pick()], TAG1)
         portfolio.settle_day(pf, {"AAPL": bar(100, 101, 99, 100)}, TAG2)
-        self.assertAlmostEqual(pf["cash"], 98_000.0, places=2)
+        self.assertAlmostEqual(pf["cash"], config.START_CAPITAL - einsatz,
+                               places=2)
         self.assertAlmostEqual(
-            pf["positions"][0]["shares"], 2000 / 100.05, places=4)
+            pf["positions"][0]["shares"], einsatz / 100.05, places=4)
 
     def test_kein_doppelkauf_desselben_titels(self):
         pf = frisch()
@@ -170,8 +178,8 @@ class TestBewertung(unittest.TestCase):
         pf = frisch()
         portfolio.place_orders(pf, [pick()], TAG1)
         portfolio.settle_day(pf, {"AAPL": bar(100, 101, 99, 100)}, TAG2)
-        # 98'000 Bar + (2000/100.05) Stueck zu 100 USD
-        erwartet = 98_000 + (2000 / 100.05) * 100
+        einsatz = config.START_CAPITAL * config.POSITION_PCT
+        erwartet = (config.START_CAPITAL - einsatz) + (einsatz / 100.05) * 100
         self.assertAlmostEqual(
             portfolio.equity_value(pf, {"AAPL": bar(100, 101, 99, 100)}),
             erwartet, places=2)

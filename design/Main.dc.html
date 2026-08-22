@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+  <style>
+    body { margin: 0; }
+    a { color: oklch(0.50 0.09 205); }
+    a:hover { color: oklch(0.40 0.09 205); }
+
+    .wurzel {
+      --papier: oklch(0.982 0.004 85);
+      --flaeche: oklch(1 0 0);
+      --tinte: oklch(0.22 0.012 250);
+      --tinte-leise: oklch(0.52 0.012 250);
+      --linie: oklch(0.88 0.006 250);
+      --linie-fein: oklch(0.93 0.005 250);
+      --akzent: oklch(0.50 0.09 205);
+      --auf: oklch(0.50 0.09 155);
+      --ab: oklch(0.52 0.11 25);
+      background: var(--papier);
+      color: var(--tinte);
+      font-family: "IBM Plex Sans", system-ui, sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    @media (prefers-color-scheme: dark) {
+      .wurzel[data-thema="auto"] {
+        --papier: oklch(0.17 0.008 250);
+        --flaeche: oklch(0.21 0.009 250);
+        --tinte: oklch(0.93 0.004 85);
+        --tinte-leise: oklch(0.68 0.008 250);
+        --linie: oklch(0.32 0.010 250);
+        --linie-fein: oklch(0.26 0.009 250);
+        --akzent: oklch(0.72 0.09 205);
+        --auf: oklch(0.74 0.11 155);
+        --ab: oklch(0.70 0.13 25);
+      }
+    }
+    .wurzel[data-thema="dunkel"] {
+      --papier: oklch(0.17 0.008 250);
+      --flaeche: oklch(0.21 0.009 250);
+      --tinte: oklch(0.93 0.004 85);
+      --tinte-leise: oklch(0.68 0.008 250);
+      --linie: oklch(0.32 0.010 250);
+      --linie-fein: oklch(0.26 0.009 250);
+      --akzent: oklch(0.72 0.09 205);
+      --auf: oklch(0.74 0.11 155);
+      --ab: oklch(0.70 0.13 25);
+    }
+
+    .zahl { font-family: "IBM Plex Mono", ui-monospace, monospace; font-variant-numeric: tabular-nums; }
+    .marke {
+      font-size: 10px; letter-spacing: 0.10em; text-transform: uppercase;
+      color: var(--tinte-leise); font-weight: 500;
+    }
+    .karte {
+      background: var(--flaeche);
+      border: 1px solid var(--linie);
+      border-radius: 2px;
+    }
+    .regel { height: 1px; background: var(--linie-fein); border: 0; }
+    .balken { height: 4px; background: var(--linie-fein); border-radius: 2px; overflow: hidden; }
+    .balken > i { display: block; height: 100%; background: var(--akzent); }
+  </style>
+</helmet>
+
+<div class="wurzel" data-thema="{{thema}}" style="padding: 20px 18px 22px">
+
+  <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px">
+    <div class="marke">Freitag, 21. August 2026</div>
+    <div class="marke">Lauf 14:15</div>
+  </div>
+
+  <div style="display: flex; align-items: baseline; gap: 10px; margin-top: 10px">
+    <h1 style="font-size: 21px; font-weight: 600; letter-spacing: -0.01em; margin: 0">Ideen des Tages</h1>
+    <span class="zahl" style="color: var(--tinte-leise); font-size: 13px">3</span>
+  </div>
+
+  <div style="display: flex; gap: 18px; margin-top: 12px; padding-bottom: 14px; border-bottom: 1px solid var(--linie)">
+    <div style="display: flex; flex-direction: column; gap: 2px">
+      <span class="marke">Marktlage</span>
+      <span class="zahl" style="font-size: 13px; color: var(--auf)">aufwärts</span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 2px">
+      <span class="marke">VIX</span>
+      <span class="zahl" style="font-size: 13px">15.3 ruhig</span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 2px">
+      <span class="marke">Bewertet</span>
+      <span class="zahl" style="font-size: 13px">528 Titel</span>
+    </div>
+  </div>
+
+  <sc-for list="{{ideen}}" as="i" hint-placeholder-count="2">
+    <div class="karte" style="margin-top: 14px; padding: 14px 15px 15px">
+
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 12px">
+        <div style="display: flex; flex-direction: column; gap: 1px">
+          <span class="zahl" style="font-size: 17px; font-weight: 600; letter-spacing: 0.01em">{{i.symbol}}</span>
+          <span style="font-size: 12px; color: var(--tinte-leise)">{{i.name}} · {{i.branche}}</span>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 1px">
+          <span class="marke">Score</span>
+          <span class="zahl" style="font-size: 15px; font-weight: 500">{{i.score}}</span>
+        </div>
+      </div>
+
+      <hr class="regel" style="margin: 12px 0">
+
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+        <div style="display: flex; flex-direction: column; gap: 2px">
+          <span class="marke">Kurs</span>
+          <span class="zahl" style="font-size: 14px">{{i.kurs}}</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 2px">
+          <span class="marke">Ziel</span>
+          <span class="zahl" style="font-size: 14px; color: var(--auf)">{{i.ziel}}</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 2px">
+          <span class="marke">Stop</span>
+          <span class="zahl" style="font-size: 14px; color: var(--ab)">{{i.stop}}</span>
+        </div>
+      </div>
+
+      <div style="display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-top: 12px">
+        <span class="marke">Ziel wird erreicht</span>
+        <span class="zahl" style="font-size: 13px">{{i.p_text}} · CRV {{i.crv}}</span>
+      </div>
+      <div class="balken" style="margin-top: 5px">
+        <i style="{{i.balken}}"></i>
+      </div>
+
+      <div style="margin-top: 11px; padding-top: 10px; border-top: 1px solid var(--linie-fein); display: flex; justify-content: space-between; gap: 10px">
+        <span class="marke">Basisquote Zufallsauswahl</span>
+        <span class="zahl" style="font-size: 12px; color: var(--tinte-leise)">{{i.basis}} R</span>
+      </div>
+
+    </div>
+  </sc-for>
+
+  <div style="margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--linie)">
+    <p style="margin: 0; font-size: 11px; line-height: 1.6; color: var(--tinte-leise)">
+      Messlatte aus 212'871 Beobachtungen: Ziel zuerst in 43.0 % der Fälle,
+      Stop in 45.2 %. Alles darüber ist Auswahlvorteil.
+    </p>
+  </div>
+
+</div>
+</x-dc>
+
+<script data-dc-script data-props='{"thema":{"editor":"enum","options":["auto","hell","dunkel"],"default":"auto","section":"Darstellung"}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const roh = [
+      { symbol: 'STX', name: 'Seagate Technology', branche: 'Technologie',
+        score: '0.72', kurs: '849.66', ziel: "1'069.82", stop: '735.75',
+        p: 0.320, crv: '1.93', basis: '+0.171' },
+      { symbol: 'BSX', name: 'Boston Scientific', branche: 'Gesundheit',
+        score: '0.72', kurs: '50.73', ziel: '53.87', stop: '47.98',
+        p: 0.544, crv: '1.14', basis: '+0.100' },
+    ];
+    return {
+      thema: this.props.thema ?? 'auto',
+      ideen: roh.map((i) => ({
+        ...i,
+        p_text: Math.round(i.p * 100) + ' %',
+        balken: 'width: ' + Math.round(i.p * 100) + '%',
+      })),
+    };
+  }
+}
+</script>
+</body>
+</html>

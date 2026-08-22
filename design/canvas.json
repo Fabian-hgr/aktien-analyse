@@ -1,0 +1,45 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "title": "A — Messblatt", "x": 0, "y": 0, "w": 440, "h": 840 },
+    { "file": "Kanzlei.dc.html", "title": "B — Kanzlei", "x": 520, "y": 0, "w": 440, "h": 840 },
+    { "file": "Werkstatt.dc.html", "title": "C — Werkstatt", "x": 1040, "y": 0, "w": 440, "h": 840 }
+  ],
+  "annotations": [
+    {
+      "id": "auftrag",
+      "x": 0,
+      "y": -190,
+      "w": 400,
+      "text": "Drei Richtungen, dieselben echten Zahlen aus dem Probelauf vom 21.08.\n\nSuch eine aus — danach baue ich Dashboard, Ideenkarte mit aufgeklappter Herleitung, Depotvergleich und Lernkurve in dieser Sprache."
+    },
+    {
+      "id": "richtung-a",
+      "x": 0,
+      "y": 872,
+      "w": 400,
+      "text": "A — MESSBLATT\nInstrument, nicht Werbung. Tabellenziffern, Haarlinien, gedeckte Farben. Die Zahl steht im Vordergrund, das Layout tritt zurück.\n\nDafür: hält auch dann noch, wenn zwanzig Kennzahlen auf einer Seite stehen. Gut für die grosse Tabelle über 528 Titel.\nDagegen: wirkt nüchtern bis spröde. Auf dem Handy schnell zu klein."
+    },
+    {
+      "id": "richtung-b",
+      "x": 520,
+      "y": 872,
+      "w": 400,
+      "text": "B — KANZLEI\nDie Begründung ist das Produkt. Serifen, viel Luft, die Herleitung liest sich als Text statt als Zahlenraster.\n\nDafür: die Kursziel-Herleitung — der eigentliche Kern — bekommt hier den meisten Platz. Ruhig, glaubwürdig.\nDagegen: braucht Platz. Ein Depotvergleich mit drei Kurven und acht Kennzahlen wird lang."
+    },
+    {
+      "id": "richtung-c",
+      "x": 1040,
+      "y": 872,
+      "w": 400,
+      "text": "C — WERKSTATT\nFürs Handy gebaut. Flächen statt Linien, grosse Ziffern, hoher Kontrast, ein Signalton.\n\nDafür: in drei Sekunden erfasst, auch unterwegs. Passt zur Push-Nachricht.\nDagegen: verträgt wenig Detail. Die Herleitung mit vier Methoden muss dafür in eine Ebene darunter."
+    },
+    {
+      "id": "gemeinsam",
+      "x": 1560,
+      "y": 0,
+      "w": 340,
+      "text": "Alle drei können hell und dunkel. Oben an jedem Artboard steht ein Regler «thema» — auto / hell / dunkel. Auf «auto» folgt die Seite der Einstellung des Geräts.\n\nDie Breite von 440 px ist bewusst Handybreite: was hier nicht funktioniert, funktioniert später auch am Bildschirm nicht."
+    }
+  ],
+  "launch": { "view": "canvas" }
+}

@@ -43,14 +43,14 @@ HISTORY_DAYS = 400           # Kalendertage Bar-Historie (≈ 275 Handelstage)
 HORIZON_DAYS = 15            # Handelstage bis zum Kursziel
 MAX_HOLD_DAYS = 20           # Zwangsausstieg
 SHORTLIST_SIZE = 25          # so viele Titel gehen ans Sprachmodell
-PICKS_PER_DAY = 3            # Käufe pro Tag und Depot
+PICKS_PER_DAY = 6            # Käufe pro Tag und Depot
 
-# Hoechstens zwei Kaeufe je Branche und Tag. Ohne diese Regel bestand die
+# Hoechstens drei Kaeufe je Branche und Tag, also die Haelfte. Ohne diese Regel bestand die
 # Vorauswahl am 2026-08-19 zu 14 von 25 aus Technologie — drei Halbleiter an
 # einem Tag waeren eine Sektorwette, keine Aktienauswahl. Das Zufallsdepot
 # streut von sich aus ueber alle Branchen; ohne Deckel waere der Vergleich
 # verzerrt.
-MAX_PICKS_PER_SECTOR = 2
+MAX_PICKS_PER_SECTOR = 3
 
 ATR_PERIOD = 14
 # Nur noch Rueckfallwerte. Im Normalbetrieb kommen Ziel- und Stop-Faktor aus
@@ -131,13 +131,22 @@ HIGH_BETA_THRESHOLD = 2.0
 # ── Depots ─────────────────────────────────────────────────────────────────
 START_CAPITAL = 100_000.0
 
-# Positionsgroesse: 3 Kaeufe taeglich bei bis zu 20 Handelstagen Haltedauer
-# ergeben im Grenzfall 60 gleichzeitige Positionen. Bei 5 % je Position waeren
-# das 300 % des Depots — unmoeglich. Bei erwarteten 5-8 Tagen Haltedauer sind
-# rund 20 Positionen offen, mit 2 % also etwa 40 % investiert. Der Wert wird
-# im Backtest an der tatsaechlichen Belegung geprueft.
-POSITION_PCT = 0.02
-MAX_CONCURRENT_POSITIONS = 40
+# Positionsgroesse und Deckel haengen an PICKS_PER_DAY und muessen bei jeder
+# Aenderung nachgerechnet werden.
+#
+# Bei 3 Kaeufen taeglich und 6.8 Tagen gemessener Haltedauer waren im Backtest
+# im Median 17 Positionen offen, bei 2 % je Position also 34 % investiert.
+# Sechs Kaeufe taeglich verdoppeln die Belegung auf rund 34. Bliebe es bei
+# 2 %, waere das Depot ploetzlich zu 68 % investiert — der Vergleich mit dem
+# frueheren Aufbau waere dann ein Vergleich des Kapitaleinsatzes und nicht
+# der Auswahl. Deshalb 1 %: mehr Positionen, gleiche Gesamtausrichtung, nur
+# breiter gestreut.
+#
+# Der Deckel steht bei 80, damit er im Normalbetrieb NICHT greift. Ein
+# bindender Deckel wuerde die Kaeufe genau dann abschneiden, wenn viele Ideen
+# vorliegen — und damit heimlich mitauswaehlen.
+POSITION_PCT = 0.01
+MAX_CONCURRENT_POSITIONS = 80
 SLIPPAGE_BPS = 5             # 5 Basispunkte je Seite
 
 # ── Lernschleife ───────────────────────────────────────────────────────────
