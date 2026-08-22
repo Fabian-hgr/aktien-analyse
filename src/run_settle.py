@@ -88,7 +88,21 @@ def spy_kurve(bench: list[dict], vorhanden: list[dict],
     return kurve
 
 
+def neue_lernschritte(gewichte: dict, bisher: int) -> list[str]:
+    """Die Protokollzeilen, die in DIESEM Lauf dazugekommen sind.
+
+    `learning.update` gibt die GEWICHTE zurueck, nicht die Zeilen — die
+    stehen im Protokoll. Frueher stand im Lauf `lernschritte = update(...)`,
+    womit das ganze Gewichtsverzeichnis samt Verlauf als "Lernschritte" in
+    status.json gelandet waere.
+    """
+    return [zeile
+            for eintrag in (gewichte.get("history") or [])[bisher:]
+            for zeile in eintrag.get("changes", [])]
+
+
 def main(argv: Optional[list[str]] = None) -> int:
+    config.konsole_utf8()
     ap = argparse.ArgumentParser()
     ap.add_argument("--probelauf", action="store_true",
                     help="rechnen, aber nichts schreiben")
@@ -148,17 +162,18 @@ def main(argv: Optional[list[str]] = None) -> int:
                      pf["name"], t["symbol"], t["exit_price"],
                      t["exit_reason"], t["r_multiple"])
 
-    # Lernen — nur aus dem KI-Depot, und nur wenn genug Trades vorliegen.
+    # Lernen — nur aus dem KI-Depot. Die Untergrenze prueft `learning.update`
+    # selbst; hier ein zweites Mal danach zu fragen hiesse, dass `trades_seen`
+    # bis zum zwanzigsten Trade auf null stehen bliebe und die Seite behaupten
+    # wuerde, es gebe noch gar keine Trades.
     gewichte = learning.load()
+    bisher = len(gewichte.get("history") or [])
     lernschritte: list[str] = []
-    if not args.kein_lernen and len(pf_ki["closed"]) >= config.LEARN_MIN_TRADES:
-        lernschritte = learning.update(gewichte, pf_ki["closed"], tag,
-                                       calibration.get())
+    if not args.kein_lernen:
+        learning.update(gewichte, pf_ki["closed"], tag, calibration.get())
+        lernschritte = neue_lernschritte(gewichte, bisher)
         for zeile in lernschritte:
             log.info("gelernt: %s", zeile)
-    elif not args.kein_lernen:
-        log.info("Erst %d von %d noetigen Trades — es wird noch nicht gelernt",
-                 len(pf_ki["closed"]), config.LEARN_MIN_TRADES)
 
     stats = {"ki": portfolio.statistics(pf_ki),
              "zufall": portfolio.statistics(pf_zufall)}

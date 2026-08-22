@@ -20,6 +20,7 @@ from src import (alpaca, analysis, calibration, config,      # noqa: E402
 
 
 def main() -> int:
+    config.konsole_utf8()
     ap = argparse.ArgumentParser()
     ap.add_argument("--schnell", action="store_true",
                     help="keine neuen Fundamentaldaten holen")

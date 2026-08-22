@@ -65,6 +65,7 @@ def baue_index(bars: dict) -> tuple[dict, dict]:
 
 
 def main() -> int:
+    config.konsole_utf8()
     ap = argparse.ArgumentParser()
     ap.add_argument("--tage", type=int, default=250,
                     help="Handelstage im Test")

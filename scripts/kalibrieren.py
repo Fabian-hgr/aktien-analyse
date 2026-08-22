@@ -67,6 +67,7 @@ def tabelle(cal: dict) -> None:
 
 
 def main() -> int:
+    config.konsole_utf8()
     ap = argparse.ArgumentParser()
     ap.add_argument("--historie", type=int, default=700,
                     help="Kalendertage Bar-Historie")

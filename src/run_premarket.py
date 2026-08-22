@@ -119,6 +119,7 @@ def als_auftrag(e: dict, regime: dict) -> dict:
 # ── Der Lauf ───────────────────────────────────────────────────────────────
 
 def main(argv: Optional[list[str]] = None) -> int:
+    config.konsole_utf8()
     ap = argparse.ArgumentParser()
     ap.add_argument("--probelauf", action="store_true",
                     help="nichts schreiben, nichts senden")

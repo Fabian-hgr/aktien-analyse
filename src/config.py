@@ -6,6 +6,7 @@ Geheimnisse stehen NIE hier drin. Sie kommen aus Umgebungsvariablen
 from __future__ import annotations
 
 import os
+import sys
 from pathlib import Path
 
 # ── Pfade ──────────────────────────────────────────────────────────────────
@@ -71,6 +72,15 @@ SECTOR_K_MULT_MIN, SECTOR_K_MULT_MAX = 0.7, 1.4
 # ein Niveau; Analysten und Bewertung wirken als Neigung (siehe unten).
 TARGET_METHOD_WEIGHTS = {"atr": 1.0, "struktur": 1.0}
 
+# Klartextnamen an einer Stelle. Sie stehen sonst dreimal: in targets.py, in
+# der Lernschleife und auf der Seite — und liefen dann auseinander.
+TARGET_METHOD_LABELS = {
+    "atr": "ATR-Projektion",
+    "struktur": "Struktur / gemessene Bewegung",
+    "analysten": "Analystenkonsens",
+    "bewertung": "Bewertungsanker",
+}
+
 # Die Neigungen wirken auf den ABSTAND zum Kurs, nicht auf das Kursniveau.
 # Der Unterschied ist gross: 3 % vom Kurs sind bei Apple 0.4 ATR, bei einer
 # ruhigen Aktie wie XOM aber 1.5 ATR. Am Kursniveau angesetzt haette dieselbe
@@ -123,6 +133,17 @@ SCORE_WEIGHTS = {
     "sentiment": 0.15,
 }
 
+# Dieselbe Ueberlegung wie bei den Methodennamen: ein Ort, drei Verwender.
+SCORE_LABELS = {
+    "trend": "Trend & relative Stärke",
+    "setup": "Setup-Qualität",
+    "volumen": "Volumenbestätigung",
+    "qualitaet": "Fundamentale Qualität",
+    "bewertung": "Bewertung vs. Branche",
+    "analysten": "Analysten-Rückenwind",
+    "sentiment": "News-Sentiment",
+}
+
 PENALTY_EARNINGS_SOON = 0.25   # Earnings in <= 5 Handelstagen
 PENALTY_HIGH_BETA = 0.05       # Beta > 2
 EARNINGS_BLACKOUT_DAYS = 5
@@ -166,6 +187,23 @@ OLLAMA_NUM_PREDICT = 220
 HTTP_TIMEOUT = 30.0
 HTTP_RETRIES = 3
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AktienAnalyse/1.0"
+
+
+def konsole_utf8() -> None:
+    """Ausgabe auf UTF-8 stellen, bevor irgendetwas geschrieben wird.
+
+    Die Runner in der Cloud sind UTF-8; eine Windows-Konsole ist es nicht.
+    Dort bricht schon ein einzelner Pfeil im Lernprotokoll den ganzen Lauf
+    mit einem UnicodeEncodeError ab — und zwar erst am Ende, nachdem alles
+    gerechnet, aber noch nichts geschrieben ist. Gemessen am 22.08.2026:
+    ein 47-Sekunden-Backtest ging so vollstaendig verloren.
+    """
+    for strom in (sys.stdout, sys.stderr):
+        if strom is not None and hasattr(strom, "reconfigure"):
+            try:
+                strom.reconfigure(encoding="utf-8", errors="replace")
+            except (ValueError, OSError):
+                pass
 
 
 def load_local_secrets() -> None:

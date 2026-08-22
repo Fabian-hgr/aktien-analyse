@@ -73,7 +73,7 @@ def _clip(x: float, cap: float) -> float:
 def atr_projection(price: float, atr: Optional[float],
                    k: Optional[float] = None, herkunft: str = "") -> Method:
     k = config.ATR_TARGET_MULT if k is None else k
-    m = Method("atr", "ATR-Projektion", None)
+    m = Method("atr", config.TARGET_METHOD_LABELS["atr"], None)
     if not atr or atr <= 0 or price <= 0:
         m.note = "Keine ATR verfügbar (zu kurze Historie)."
         return m
@@ -107,7 +107,7 @@ def structure_target(price: float, high55: Optional[float],
     """Naechster echter Widerstand — oder, wenn dieser schon gebrochen oder
     in Rauschweite ist, die Basishoehe auf das Ausbruchsniveau aufgeschlagen.
     """
-    m = Method("struktur", "Struktur / gemessene Bewegung", None)
+    m = Method("struktur", config.TARGET_METHOD_LABELS["struktur"], None)
     if not high55 or not high20 or not low20 or price <= 0:
         m.note = "Zu wenig Historie für Widerstandsmarken."
         return m
@@ -163,7 +163,7 @@ def analyst_tilt(price: float, target_mean: Optional[float],
     Abstand des 12-Monats-Konsensziels zum Kurs.
     """
     horizon_days = config.HORIZON_DAYS if horizon_days is None else horizon_days
-    m = Method("analysten", "Analystenkonsens", None, role="neigung")
+    m = Method("analysten", config.TARGET_METHOD_LABELS["analysten"], None, role="neigung")
     if not target_mean or target_mean <= 0 or price <= 0:
         m.note = "Kein Analystenziel verfügbar."
         return 0.0, m
@@ -198,7 +198,7 @@ def analyst_tilt(price: float, target_mean: Optional[float],
 def valuation_tilt(price: float, forward_eps: Optional[float],
                    sector_median_pe: Optional[float],
                    sector: str = "") -> tuple[float, Method]:
-    m = Method("bewertung", "Bewertungsanker", None, role="neigung")
+    m = Method("bewertung", config.TARGET_METHOD_LABELS["bewertung"], None, role="neigung")
     if not forward_eps or forward_eps <= 0 or not sector_median_pe \
             or sector_median_pe <= 0 or price <= 0:
         m.note = "Kein Forward-Gewinn oder kein Branchenmedian verfügbar."

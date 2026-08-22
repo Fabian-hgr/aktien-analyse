@@ -254,6 +254,33 @@ class TestGanzerAblauf(unittest.TestCase):
             calibration._zwischenspeicher["cal"] = merk
 
 
+class TestLernprotokollImLauf(unittest.TestCase):
+    """Was der Abrechnungslauf als "Lernschritte" nach status.json schreibt.
+
+    Es muessen die Aenderungszeilen sein — nicht das Gewichtsverzeichnis.
+    """
+
+    def test_nur_die_neuen_zeilen(self):
+        gewichte = {"history": [
+            {"date": "2026-08-18", "changes": ["alt 1", "alt 2"]},
+            {"date": "2026-08-19", "changes": ["neu 1"]},
+        ]}
+        self.assertEqual(run_settle.neue_lernschritte(gewichte, 1), ["neu 1"])
+        self.assertEqual(run_settle.neue_lernschritte(gewichte, 2), [])
+        self.assertEqual(len(run_settle.neue_lernschritte(gewichte, 0)), 3)
+
+    def test_ohne_protokoll_leer(self):
+        self.assertEqual(run_settle.neue_lernschritte({}, 0), [])
+        self.assertEqual(run_settle.neue_lernschritte({"history": None}, 0), [])
+
+    def test_zeilen_sind_text_und_kein_gewichtsverzeichnis(self):
+        gewichte = learning.default_weights()
+        learning.update(gewichte, [], dt.date(2026, 8, 19))
+        zeilen = run_settle.neue_lernschritte(gewichte, 0)
+        self.assertTrue(all(isinstance(z, str) for z in zeilen))
+        self.assertNotIn("score_weights", zeilen)
+
+
 class TestVergleichskurve(unittest.TestCase):
     """Der Index muss am selben Tag starten wie die Depots.
 

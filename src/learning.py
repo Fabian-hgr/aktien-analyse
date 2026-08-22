@@ -72,6 +72,13 @@ def default_weights() -> dict:
     return {
         "updated_at": None,
         "trades_seen": 0,
+        # Die Startwerte bleiben unveraendert stehen. Ohne sie haette die
+        # Lernkurve keinen Nullpunkt: man saehe, wo ein Gewicht heute steht,
+        # aber nicht, ob es dorthin gelernt wurde oder immer schon dort lag.
+        "start": {
+            "score_weights": dict(config.SCORE_WEIGHTS),
+            "target_method_weights": dict(config.TARGET_METHOD_WEIGHTS),
+        },
         "score_weights": dict(config.SCORE_WEIGHTS),
         "target_method_weights": dict(config.TARGET_METHOD_WEIGHTS),
         "sector_k_mult": {},
@@ -100,6 +107,32 @@ def load() -> dict:
 
 
 def save(weights: dict) -> None:
+    """Gewichte schreiben — samt Regeln und Klartextnamen.
+
+    Beides steht in `config` und wird bei jedem Schreiben neu aus dort
+    uebernommen, nie aus der alten Datei fortgeschrieben: sonst zeigte die
+    Seite Grenzen an, die im Code laengst andere sind. Damit ist
+    weights.json aus sich heraus lesbar — auch fuer die Seite, die sonst
+    dieselben Zahlen ein zweites Mal kennen muesste.
+    """
+    weights["regeln"] = {
+        "min_trades": config.LEARN_MIN_TRADES,
+        "fenster": config.LEARN_WINDOW,
+        "lernrate": config.LEARN_RATE,
+        "volle_schrittweite_ab": FULL_CONFIDENCE_AT,
+        "min_trades_je_eimer": MIN_TRADES_PER_BUCKET,
+        "grenzen": {
+            "methode": [config.WEIGHT_MIN, config.WEIGHT_MAX],
+            "komponente": [SCORE_WEIGHT_MIN, SCORE_WEIGHT_MAX],
+            "multiplikator": [config.MULT_MIN, config.MULT_MAX],
+            "zielweite": [config.SECTOR_K_MULT_MIN, config.SECTOR_K_MULT_MAX],
+        },
+    }
+    weights["labels"] = {
+        "score": dict(config.SCORE_LABELS),
+        "methode": {k: config.TARGET_METHOD_LABELS[k]
+                    for k in config.TARGET_METHOD_WEIGHTS},
+    }
     p = _path()
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(weights, indent=1, ensure_ascii=False),
@@ -268,10 +301,11 @@ def update_method_weights(weights: dict, trades: list[dict],
             current[key] = round(neu, 4)
             richtung = "belohnt" if neu > w else "bestraft"
             log_lines.append(
-                f"Kursziel-Methode '{key}' {richtung}: Ziel in "
+                f"Kursziel-Methode «{config.TARGET_METHOD_LABELS.get(key, key)}» "
+                f"{richtung}: Ziel in "
                 f"{(s['hit_rate']) * 100:.0f} % der {s['n']} Trades erreichbar, "
                 f"gemessene Erwartung {(s['erwartet_rate']) * 100:.0f} % "
-                f"(t = {s['t']:+.2f}, relativ {relativ:+.2f}) -> "
+                f"(t = {s['t']:+.2f}, relativ {relativ:+.2f}) → "
                 f"Gewicht {w:.3f} auf {neu:.3f}")
     return log_lines
 
@@ -352,10 +386,11 @@ def update_score_weights(weights: dict, trades: list[dict]) -> list[str]:
         if abs(faktor - 1) > 0.001:
             richtung = "belohnt" if faktor > 1 else "bestraft"
             log_lines.append(
-                f"Komponente '{key}' {richtung}: obere Hälfte "
+                f"Komponente «{config.SCORE_LABELS.get(key, key)}» "
+                f"{richtung}: obere Hälfte "
                 f"{e['mean_r_oben']:+.2f} R gegen untere "
                 f"{e['mean_r_unten']:+.2f} R aus {e['n']} Trades "
-                f"(t = {e['t']:+.2f}) -> Gewicht {w:.3f} auf {neu_w:.3f}")
+                f"(t = {e['t']:+.2f}) → Gewicht {w:.3f} auf {neu_w:.3f}")
 
     total = sum(current.values())
     if total > 0:
@@ -413,7 +448,7 @@ def update_sector_k_mult(weights: dict, trades: list[dict]) -> list[str]:
             weights["sector_k_mult"][sektor] = neu
             log_lines.append(
                 f"Zielweite {sektor}: Ziel in {(ist) * 100:.0f} % der {len(werte)} Trades "
-                f"erreicht, Basisquote {(soll) * 100:.0f} % (t = {t:+.2f}) -> "
+                f"erreicht, Basisquote {(soll) * 100:.0f} % (t = {t:+.2f}) → "
                 f"Multiplikator von {alt:.2f} auf {neu:.2f}")
     return log_lines
 
@@ -457,9 +492,9 @@ def _bucket_multipliers(trades: list[dict], key_fn,
             aktuell[name] = neu
             richtung = "belohnt" if neu > alt else "bestraft"
             log_lines.append(
-                f"'{name}' {richtung}: mittleres R {mittel:+.2f} gegen "
+                f"«{name}» {richtung}: mittleres R {mittel:+.2f} gegen "
                 f"Gesamtschnitt {gesamt_mittel:+.2f} aus {len(werte)} Trades "
-                f"(t = {t:+.2f}) -> Multiplikator {alt:.2f} auf {neu:.2f}")
+                f"(t = {t:+.2f}) → Multiplikator {alt:.2f} auf {neu:.2f}")
     return aktuell, log_lines
 
 
@@ -513,6 +548,10 @@ def update(weights: dict, all_trades: list[dict],
     weights["updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
     if lines:
+        # Der Stand NACH diesem Schritt wandert mit ins Protokoll. Nur so
+        # entsteht eine Kurve statt einer Liste von Behauptungen: wer bloss
+        # die Aenderungszeilen speichert, kann spaeter nicht mehr zeigen, wo
+        # ein Gewicht zu welchem Zeitpunkt stand.
         eintrag = {
             "date": today.isoformat(),
             "trades_total": n,
@@ -521,6 +560,11 @@ def update(weights: dict, all_trades: list[dict],
             "mean_r": round(statistics.mean(
                 [t["r_multiple"] for t in fenster
                  if t.get("r_multiple") is not None] or [0]), 3),
+            "score_weights": {k: round(v, 4)
+                              for k, v in weights["score_weights"].items()},
+            "target_method_weights": {
+                k: round(v, 4)
+                for k, v in weights["target_method_weights"].items()},
             "changes": lines,
         }
         weights["history"].append(eintrag)

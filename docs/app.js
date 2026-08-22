@@ -10,6 +10,7 @@
  *   control.json   pausiert oder nicht
  *   latest.json    Analyse des Tages: Ideen mit voller Herleitung
  *   equity.json    Depotkurven und Kennzahlen (erst nach der ersten Abrechnung)
+ *   weights.json   gelernte Gewichte und das Protokoll jedes Lernschritts
  */
 'use strict';
 
@@ -67,6 +68,12 @@ function datumKurz(iso) {
   return t.length === 3 ? `${t[2]}.${t[1]}.` : String(iso);
 }
 
+function datumLang(iso) {
+  if (!iso) return '';
+  const t = String(iso).slice(0, 10).split('-');
+  return t.length === 3 ? `${t[2]}.${t[1]}.${t[0]}` : String(iso);
+}
+
 function zeitpunkt(iso) {
   if (!iso) return '';
   const d = new Date(iso);
@@ -113,7 +120,23 @@ function zeigeKopf(status, steuerung) {
       zeile += ` (${status.ergebnis})`;
     }
   }
+  // Ob das Sprachmodell gelaufen ist, steht seit jeher in status.json. Ohne
+  // es kommen die Ideen ohne Nachrichten-These und ohne die Komponente
+  // News-Sentiment zustande — das gehoert auf die Seite und nicht ins Log.
+  const modell = status ? status.sprachmodell : undefined;
+  if (gelaufen && modell === true) zeile += ' · Sprachmodell bereit';
   $('#lauf-text').textContent = zeile;
+
+  const modellHinweis = $('#modell-hinweis');
+  if (gelaufen && modell === false) {
+    modellHinweis.hidden = false;
+    modellHinweis.textContent = 'Das Sprachmodell war beim letzten Lauf nicht '
+      + 'erreichbar. Die Ideen sind ohne Nachrichten-Einschätzung entstanden — '
+      + 'ohne These auf der Karte und ohne die Komponente News-Sentiment in '
+      + 'der Bewertung. Gerechnet wurde alles Übrige normal.';
+  } else {
+    modellHinweis.hidden = true;
+  }
 
   schalter.hidden = false;
   schalter.setAttribute('aria-checked', pausiert ? 'false' : 'true');
@@ -618,6 +641,288 @@ function zeigeDepots(equity) {
   feld.innerHTML = teile.join('');
 }
 
+// ── Lernkurve ──────────────────────────────────────────────────────────────
+
+/* Belohnung und Bestrafung sichtbar machen. Drei Dinge stehen hier, und die
+ * Reihenfolge ist Absicht:
+ *
+ *   1  In welchem Zustand ist die Lernschleife — wartet sie noch?
+ *   2  Wo steht jedes Gewicht heute, verglichen mit seinem Startwert?
+ *   3  Was genau wurde wann belohnt oder bestraft?
+ *
+ * Punkt 1 zuerst, weil er in den ersten Wochen der einzig wahre ist: unter
+ * zwanzig abgeschlossenen Trades wird nichts angefasst.
+ */
+
+/** Kurve fuer EIN Gewicht. Sieben Linien in ein Diagramm zu legen hiesse,
+ *  sieben unterscheidbare Farben zu erfinden — auf einem Handydisplay sind
+ *  das drei zu viel. Stattdessen sieben kleine Diagramme mit derselben
+ *  Skala: vergleichen laesst sich weiterhin beides, aber die Farbe bleibt
+ *  bedeutungstragend. Gestrichelt der Startwert. */
+function verlaufSvg(werte, start, lo, hi) {
+  const B = 120, H = 26, rand = 3;
+  const y = (v) => (rand + (1 - (v - lo) / (hi - lo)) * (H - 2 * rand)).toFixed(1);
+  const x = (i) => ((i / (werte.length - 1)) * B).toFixed(1);
+  const d = werte.map((v, i) => `${i ? 'L' : 'M'}${x(i)},${y(v)}`).join(' ');
+  // preserveAspectRatio="none" streckt das Diagramm auf die Spaltenbreite;
+  // non-scaling-stroke haelt die Linie dabei gleich duenn.
+  return `<svg class="verlauf" viewBox="0 0 ${B} ${H}" preserveAspectRatio="none"
+               aria-hidden="true">
+    <line x1="0" y1="${y(start)}" x2="${B}" y2="${y(start)}" stroke="var(--tinte-leise)"
+          stroke-width="1" stroke-dasharray="3 3" opacity="0.45"
+          vector-effect="non-scaling-stroke"/>
+    <path d="${d}" fill="none" stroke="var(--akzent)" stroke-width="1.6"
+          stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>
+  </svg>`;
+}
+
+/** Jede Kurve bekommt einen Ausschnitt von mindestens `spanne` um ihren
+ *  Startwert. Beide naheliegenden Alternativen sind schlechter:
+ *
+ *  Eine gemeinsame Skala fuer alle Kurven zeigt die Hoehe richtig — und
+ *  macht genau das unsichtbar, wofuer die Kurve da ist. Jede Linie klebte
+ *  am oberen oder unteren Rand ihres Kastens, die Bewegung verschwaende.
+ *
+ *  Eine freie Skala je Kurve zeigt jede Bewegung gross — auch eine von drei
+ *  Tausendsteln, die dann aussieht wie eine Kehrtwende.
+ *
+ *  Der feste Ausschnitt zeigt beides ehrlich: die Bewegung ist zu sehen,
+ *  und eine winzige bleibt winzig. Wo das Gewicht steht, sagt die Zahl
+ *  daneben. */
+function gewichtsBlock(reihen, stellen, spanne) {
+  return reihen.map((r) => {
+    const anfang = r.werte[0];
+    const rand = Math.max(
+      spanne / 2,
+      ...r.werte.map((v) => Math.abs(v - anfang) * 1.2)
+    );
+    const lo = anfang - rand, hi = anfang + rand;
+    const jetzt = r.werte[r.werte.length - 1];
+    const delta = jetzt - r.werte[0];
+    const richtung = Math.abs(delta) < 5e-4 ? '' : delta > 0 ? 'auf' : 'ab';
+    const deltaText = richtung
+      ? (delta > 0 ? '+' : '') + zahl(delta, stellen)
+      : 'unverändert';
+    return `
+      <div class="gewicht">
+        <div class="gewicht-kopf">
+          <span class="name">${esc(r.name)}</span>
+          <span class="zahl">${zahl(jetzt, stellen)}
+            <span class="${richtung || 'leise'}">${esc(deltaText)}</span></span>
+        </div>
+        ${r.werte.length > 1 ? verlaufSvg(r.werte, r.werte[0], lo, hi) : ''}
+      </div>`;
+  }).join('');
+}
+
+/** Werte eines Gewichts vom Startwert bis heute. */
+function reiheBauen(key, name, start, jetzt, verlauf, feld) {
+  const anfang = start && start[key] !== undefined ? start[key] : jetzt[key];
+  if (anfang === undefined) return null;
+  const werte = [anfang];
+  verlauf.forEach((e) => {
+    const g = e[feld];
+    if (g && g[key] !== undefined) werte.push(g[key]);
+  });
+  if (jetzt[key] !== undefined && werte[werte.length - 1] !== jetzt[key]) {
+    werte.push(jetzt[key]);
+  }
+  return { key, name, werte };
+}
+
+function multiListe(titel, werte, erklaerung, stellen) {
+  const eintraege = Object.entries(werte || {});
+  if (!eintraege.length) return '';
+  eintraege.sort((a, b) => b[1] - a[1]);
+  return `
+    <div class="block">
+      <h3>${esc(titel)}</h3>
+      <p class="notiz">${esc(erklaerung)}</p>
+      <div class="paare">
+        ${eintraege.map(([name, wert]) => `
+          <div class="paar">
+            <span class="marke">${esc(name)}</span>
+            <span class="zahl ${wert > 1 ? 'auf' : wert < 1 ? 'ab' : ''}">${zahl(wert, stellen || 2)}</span>
+          </div>`).join('')}
+      </div>
+    </div>`;
+}
+
+const PROTOKOLL_SICHTBAR = 25;
+
+function protokollHtml(verlauf) {
+  if (!verlauf.length) return '';
+  const neueste = verlauf.slice().reverse().slice(0, PROTOKOLL_SICHTBAR);
+  return `
+    <details class="herleitung protokoll">
+      <summary>Protokoll aller ${zahl(verlauf.length, 0)} Lernschritte</summary>
+      ${neueste.map((e) => `
+        <div class="lern-eintrag">
+          <div class="lern-kopf">
+            <span class="zahl">${esc(datumLang(e.date))}</span>
+            <span class="marke">${zahl(e.window, 0)} Trades im Fenster ·
+              Schrittweite ${zahl(e.damping, 2)} · Mittel ${rWert(e.mean_r)}</span>
+          </div>
+          <ul class="punktliste">
+            ${(e.changes || []).map((c) => `<li>${esc(c)}</li>`).join('')}
+          </ul>
+        </div>`).join('')}
+      ${verlauf.length > PROTOKOLL_SICHTBAR ? `
+        <p class="notiz">Die älteren ${zahl(verlauf.length - PROTOKOLL_SICHTBAR, 0)}
+           Schritte stehen im Datenverlauf auf GitHub.</p>` : ''}
+    </details>`;
+}
+
+function zustandKarte(w, verlauf) {
+  const regeln = w.regeln || {};
+  const min = regeln.min_trades || 20;
+  const gesehen = w.trades_seen || 0;
+
+  let kopf, text;
+  if (gesehen < min) {
+    kopf = 'Die Lernschleife wartet.';
+    text = `Verändert wird erst ab ${zahl(min, 0)} abgeschlossenen Trades des
+            Analysedepots — bisher sind es ${zahl(gesehen, 0)}. Darunter wäre
+            jede Anpassung Rauschen: bei so wenigen Trades ist der
+            Standardfehler eines gemessenen Vorsprungs grösser als der
+            Vorsprung selbst.`;
+  } else if (!verlauf.length) {
+    kopf = `Aus ${zahl(gesehen, 0)} Trades gelernt — ohne eine einzige Änderung.`;
+    text = `Kein gemessener Unterschied war deutlich genug. Der Schritt richtet
+            sich nach der Sicherheit der Messung, nicht nach ihrer Grösse: erst
+            ab einem t-Wert von 2 wird voll reagiert. Dass hier nichts steht,
+            ist ein Ergebnis und kein Ausfall.`;
+  } else {
+    const letzter = verlauf[verlauf.length - 1];
+    kopf = `${zahl(verlauf.length, 0)} Lernschritte aus ${zahl(gesehen, 0)} Trades.`;
+    text = `Zuletzt am ${datumLang(letzter.date)}. Gerechnet wird über die
+            letzten ${zahl(regeln.fenster || 100, 0)} Trades; die Schrittweite
+            wächst mit der Stichprobe und ist erst bei
+            ${zahl(regeln.volle_schrittweite_ab || 600, 0)} Trades voll.`;
+  }
+
+  const balken = gesehen < min ? `
+    <div class="fortschritt" role="img"
+         aria-label="${zahl(gesehen, 0)} von ${zahl(min, 0)} Trades">
+      <i style="width:${Math.min(100, (gesehen / min) * 100).toFixed(1)}%"></i>
+    </div>` : '';
+
+  return `
+    <div class="karte lern-karte">
+      <p class="lern-satz"><strong>${esc(kopf)}</strong></p>
+      ${balken}
+      <p class="lern-satz">${esc(text)}</p>
+      <p class="lern-satz leise">Gelernt wird ausschliesslich aus dem Depot der
+         Analyse. Das Zufallsdepot ist die Kontrollgruppe und fliesst nirgends
+         ein — sonst wäre der ganze Vergleich wertlos.</p>
+    </div>`;
+}
+
+function zeigeLernen(w) {
+  const feld = $('#lernen');
+  const anzahl = $('#lernen-anzahl');
+
+  if (!w) {
+    anzahl.textContent = '';
+    feld.innerHTML = `
+      <div class="karte leer">
+        <p><strong>Noch nichts gelernt.</strong></p>
+        <p>Nach jedem abgeschlossenen Trade zählt das R-Multiple als Belohnung
+           oder Bestrafung: Es verschiebt das Gewicht der Score-Komponenten,
+           der Kursziel-Methoden und der Branchen. Sobald der erste
+           Abrechnungslauf durch ist, steht hier, was sich dadurch bewegt hat.</p>
+      </div>`;
+    return;
+  }
+
+  const verlauf = (w.history || []).filter((e) => e && e.date);
+  const labels = w.labels || {};
+  const start = w.start || {};
+  const gesehen = w.trades_seen || 0;
+
+  // "64 von 20 Trades" waere Unsinn: die Schwelle interessiert nur, solange
+  // sie noch nicht erreicht ist.
+  const mindest = (w.regeln || {}).min_trades || 20;
+  anzahl.textContent = verlauf.length
+    ? `${zahl(verlauf.length, 0)} Schritte · ${zahl(gesehen, 0)} Trades`
+    : gesehen < mindest
+      ? `${zahl(gesehen, 0)} von ${zahl(mindest, 0)} Trades`
+      : `${zahl(gesehen, 0)} Trades`;
+
+  const teile = [zustandKarte(w, verlauf)];
+
+  const scoreReihen = Object.keys(w.score_weights || {})
+    .map((k) => reiheBauen(k, (labels.score || {})[k] || k,
+                           start.score_weights, w.score_weights,
+                           verlauf, 'score_weights'))
+    .filter(Boolean)
+    .sort((a, b) => b.werte[b.werte.length - 1] - a.werte[a.werte.length - 1]);
+
+  // Solange nichts gelernt wurde, gibt es keine Kurven — dann sind die
+  // Erklaerungen dazu nur Wortlaerm.
+  const gelernt = verlauf.length > 0;
+
+  if (scoreReihen.length) {
+    teile.push(`
+      <div class="karte lern-karte">
+        <h3>Gewicht der Score-Komponenten</h3>
+        <p class="notiz">${gelernt
+          ? `Was eine Aktie überhaupt auf die Liste bringt. Gestrichelt der
+             Startwert, die Linie der Verlauf — ein Punkt je Lernschritt,
+             nicht zeitproportional.`
+          : `Was eine Aktie überhaupt auf die Liste bringt. Das sind die
+             Startgewichte; sobald gelernt wird, steht hier ihr Verlauf.`}</p>
+        <div class="gewichte">${gewichtsBlock(scoreReihen, 3, 0.06)}</div>
+        ${gelernt ? `
+          <p class="notiz">Jede Kurve zeigt einen Ausschnitt von mindestens
+             &pm; 0.03 um ihren Startwert — eine winzige Bewegung sieht
+             damit auch winzig aus. Nach jedem Schritt wird auf Summe 1
+             normiert. Deshalb bewegt sich auch, was gar nicht bewertet wurde
+             — eine Verschiebung allein ist noch keine Belohnung. Was
+             tatsächlich belohnt oder bestraft wurde, steht unten im
+             Protokoll.</p>` : ''}
+      </div>`);
+  }
+
+  const methodenReihen = Object.keys(w.target_method_weights || {})
+    .map((k) => reiheBauen(k, (labels.methode || {})[k] || k,
+                           start.target_method_weights, w.target_method_weights,
+                           verlauf, 'target_method_weights'))
+    .filter(Boolean);
+
+  if (methodenReihen.length) {
+    teile.push(`
+      <div class="karte lern-karte">
+        <h3>Gewicht der Kursziel-Methoden</h3>
+        <p class="notiz">Für das Ziel zählt allein das Verhältnis der beiden
+           Gewichte zueinander, nicht ihre Höhe.</p>
+        <div class="gewichte">${gewichtsBlock(methodenReihen, 3, 0.6)}</div>
+      </div>`);
+  }
+
+  const multis = [
+    multiListe('Zielweite je Branche', w.sector_k_mult,
+               'Multiplikator auf den kalibrierten Zielfaktor. Über 1 heisst: das '
+               + 'Ziel wurde häufiger erreicht, als die Basisquote erwarten liess '
+               + '— es darf also weiter hinaus.', 3),
+    multiListe('Branchen', w.sector_multiplier,
+               'Multiplikator auf den Score. Über 1 heisst: Trades dieser Branche '
+               + 'liefen besser als alle übrigen zusammen.'),
+    multiListe('Marktphasen', w.regime_multiplier,
+               'Trend des S&P 500 gegen seine 200-Tage-Linie, verbunden mit dem '
+               + 'Niveau des VIX.'),
+  ].filter(Boolean);
+
+  if (multis.length) {
+    teile.push(`<div class="karte lern-karte">${multis.join('')}</div>`);
+  }
+
+  const prot = protokollHtml(verlauf);
+  if (prot) teile.push(`<div class="karte lern-karte">${prot}</div>`);
+
+  feld.innerHTML = teile.join('');
+}
+
 // ── Darstellung ────────────────────────────────────────────────────────────
 
 function themaEinrichten() {
@@ -637,20 +942,76 @@ function setzeThema(wert) {
   });
 }
 
+// ── Als App aufs Gerät ─────────────────────────────────────────────────────
+
+/* Eine PWA installiert man je nach Browser voellig verschieden, und keiner
+ * sagt es von selbst deutlich. Chrome auf Android meldet sich mit
+ * `beforeinstallprompt` — dort gibt es einen echten Knopf. Safari auf dem
+ * iPhone kennt das Ereignis nicht und verlangt den Weg ueber "Teilen"; dort
+ * hilft nur die Anleitung. Laeuft die Seite schon als App, steht hier
+ * nichts. */
+let installAufforderung = null;
+
+function installEinrichten() {
+  const feld = $('#installieren');
+  const text = $('#installieren-text');
+  const knopf = $('#installieren-knopf');
+
+  const alsApp = window.matchMedia('(display-mode: standalone)').matches
+    || window.navigator.standalone === true;
+  if (alsApp) return;
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    installAufforderung = e;
+    text.textContent = 'Diese Seite lässt sich als App auf den Startbildschirm '
+      + 'legen — sie startet dann ohne Adresszeile und zeigt die letzten Daten '
+      + 'auch ohne Netz.';
+    knopf.hidden = false;
+    feld.hidden = false;
+  });
+
+  knopf.addEventListener('click', async () => {
+    if (!installAufforderung) return;
+    knopf.disabled = true;
+    installAufforderung.prompt();
+    const wahl = await installAufforderung.userChoice;
+    installAufforderung = null;
+    text.textContent = wahl.outcome === 'accepted'
+      ? 'Installiert — die App liegt jetzt auf dem Startbildschirm.'
+      : 'Abgebrochen. Der Knopf erscheint beim nächsten Besuch wieder.';
+    knopf.hidden = true;
+  });
+
+  window.addEventListener('appinstalled', () => { feld.hidden = true; });
+
+  // Apple: kein Ereignis, kein Knopf, nur der Weg über das Teilen-Menü.
+  const apple = /iPad|iPhone|iPod/.test(navigator.userAgent)
+    || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  if (apple) {
+    text.textContent = 'Als App aufs iPhone: unten auf Teilen tippen, dann '
+      + '„Zum Home-Bildschirm“. Die Seite startet danach ohne Adresszeile und '
+      + 'zeigt die letzten Daten auch ohne Netz.';
+    feld.hidden = false;
+  }
+}
+
 // ── Start ──────────────────────────────────────────────────────────────────
 
 async function start() {
   themaEinrichten();
+  installEinrichten();
 
-  const [status, steuerung, latest, equity] = await Promise.all([
+  const [status, steuerung, latest, equity, gewichte] = await Promise.all([
     holen('status.json'), holen('control.json'),
-    holen('latest.json'), holen('equity.json'),
+    holen('latest.json'), holen('equity.json'), holen('weights.json'),
   ]);
 
   zeigeKopf(status, steuerung);
   schalterEinrichten(steuerung);
   zeigeIdeen(latest);
   zeigeDepots(equity);
+  zeigeLernen(gewichte);
 
   const kal = latest && latest.kalibrierung;
   $('#kalibrierung').textContent = kal && kal.text ? kal.text

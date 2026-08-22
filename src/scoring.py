@@ -66,7 +66,7 @@ class Component:
 
 def trend(snap: dict) -> Component:
     """Trendrichtung und relative Staerke. Vier gleich gewichtete Teile."""
-    c = Component("trend", "Trend & relative Stärke", None,
+    c = Component("trend", config.SCORE_LABELS["trend"], None,
                   config.SCORE_WEIGHTS["trend"])
     close = snap.get("close")
     ema9, ema21, ema50 = snap.get("ema9"), snap.get("ema21"), snap.get("ema50")
@@ -105,7 +105,7 @@ def trend(snap: dict) -> Component:
 def setup(snap: dict) -> Component:
     """Einstiegsqualitaet: nicht ueberdehnt, RSI im brauchbaren Bereich,
     genug Luft bis zum naechsten Widerstand."""
-    c = Component("setup", "Setup-Qualität", None,
+    c = Component("setup", config.SCORE_LABELS["setup"], None,
                   config.SCORE_WEIGHTS["setup"])
     close, atr = snap.get("close"), snap.get("atr")
     ema21, rsi = snap.get("ema21"), snap.get("rsi")
@@ -149,7 +149,7 @@ def setup(snap: dict) -> Component:
 
 def volume(snap: dict) -> Component:
     """Bestaetigt das Volumen die Bewegung?"""
-    c = Component("volumen", "Volumenbestätigung", None,
+    c = Component("volumen", config.SCORE_LABELS["volumen"], None,
                   config.SCORE_WEIGHTS["volumen"])
     v, avg = snap.get("volume"), snap.get("avg_volume_20d")
     if not v or not avg or avg <= 0:
@@ -164,7 +164,7 @@ def volume(snap: dict) -> Component:
 def quality(f: Optional[dict]) -> Component:
     """Fundamentale Qualitaet: verdient das Unternehmen Geld, waechst es,
     und wie hoch ist es verschuldet?"""
-    c = Component("qualitaet", "Fundamentale Qualität", None,
+    c = Component("qualitaet", config.SCORE_LABELS["qualitaet"], None,
                   config.SCORE_WEIGHTS["qualitaet"])
     if not f:
         return c
@@ -194,7 +194,7 @@ def quality(f: Optional[dict]) -> Component:
 def valuation(f: Optional[dict], sector_median_pe: Optional[float]) -> Component:
     """Bewertung gegen die eigene Branche. Guenstiger ist besser —
     aber nur bis zu einem Punkt, unter dem es ein Warnsignal waere."""
-    c = Component("bewertung", "Bewertung vs. Branche", None,
+    c = Component("bewertung", config.SCORE_LABELS["bewertung"], None,
                   config.SCORE_WEIGHTS["bewertung"])
     if not f:
         return c
@@ -226,7 +226,7 @@ RECOMMENDATION_SCORE = {
 def analysts(f: Optional[dict], price: Optional[float]) -> Component:
     """Rueckenwind durch Analysten: Abstand zum Konsensziel, Empfehlung,
     Breite der Abdeckung."""
-    c = Component("analysten", "Analysten-Rückenwind", None,
+    c = Component("analysten", config.SCORE_LABELS["analysten"], None,
                   config.SCORE_WEIGHTS["analysten"])
     if not f or not price or price <= 0:
         return c
@@ -253,7 +253,7 @@ def analysts(f: Optional[dict], price: Optional[float]) -> Component:
 
 def sentiment(llm: Optional[dict]) -> Component:
     """News-Stimmung aus dem Sprachmodell, -1..+1 auf 0..1 abgebildet."""
-    c = Component("sentiment", "News-Sentiment", None,
+    c = Component("sentiment", config.SCORE_LABELS["sentiment"], None,
                   config.SCORE_WEIGHTS["sentiment"])
     if not llm or llm.get("sentiment") is None:
         return c

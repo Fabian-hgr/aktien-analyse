@@ -1,6 +1,7 @@
 {
   "name": "Aktien-Analyse",
   "short_name": "Analyse",
+  "id": "./",
   "description": "Tägliche Analyse des US-Aktienmarkts mit nachgerechneten Kurszielen und zwei Vergleichsdepots. Simulation zu Lernzwecken, keine Anlageberatung.",
   "lang": "de-CH",
   "dir": "ltr",

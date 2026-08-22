@@ -11,7 +11,7 @@
  *   Nur wenn das Netz nicht antwortet, kommt die letzte bekannte Fassung —
  *   und die Seite zeigt am Kopf, von wann sie ist.
  */
-const VERSION = 'v1';
+const VERSION = 'v2';
 const GERUEST = 'geruest-' + VERSION;
 const DATEN = 'daten-' + VERSION;
 

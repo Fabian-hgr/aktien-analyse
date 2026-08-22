@@ -119,7 +119,7 @@ Branchen: **0.5 Prozentpunkte**.
 ## Was beim Bauen gemessen wurde
 
 Diese Zahlen stammen aus echten Läufen, nicht aus Annahmen. Sie haben den
-Entwurf an acht Stellen korrigiert.
+Entwurf an zehn Stellen korrigiert.
 
 ### 1. Analystenziele dürfen kein gemitteltes Kursziel sein
 
@@ -225,6 +225,35 @@ wäre für immer festgeschrieben worden, weil die Folgeläufe sie fortschreiben.
 Der Vergleich beginnt jetzt an dem Tag, an dem auch die Depots beginnen.
 Festgehalten in `tests/test_ablauf.py::TestVergleichskurve`, samt einem Test,
 der die alte, verzerrte Kurve ausdrücklich zeigt.
+
+### 9. Das ganze Gewichtsverzeichnis wäre als „Lernschritte" in den Zustand gelaufen
+
+Gefunden beim Bauen der Lernkurve. `learning.update()` gibt die **Gewichte**
+zurück, nicht die Änderungszeilen — die stehen im Protokoll. Lauf B schrieb
+aber `lernschritte = learning.update(...)` und legte das Ergebnis als
+`lernschritte` in `status.json` ab. Ab dem zwanzigsten Trade wäre dort das
+komplette Gewichtsverzeichnis samt Verlauf gelandet, und das Log hätte
+zeilenweise „gelernt: score_weights", „gelernt: history" gemeldet.
+
+Die Zeilen kommen jetzt aus den neu hinzugekommenen Protokolleinträgen,
+herausgezogen in `run_settle.neue_lernschritte()` und dort getestet.
+
+Im selben Zug fiel eine zweite Kleinigkeit auf: Lauf B fragte die Untergrenze
+von 20 Trades selbst noch einmal ab, obwohl `learning.update()` das ohnehin
+tut. Dadurch blieb `trades_seen` bis zum zwanzigsten Trade auf null stehen —
+die Seite hätte in den ersten Wochen behauptet, es gebe überhaupt keine
+Trades.
+
+### 10. Ein Pfeil im Protokoll brach den ganzen Lauf ab
+
+Beim Lesbarmachen der Protokollzeilen kam ein `→` hinein. Die Runner in der
+Cloud sind UTF-8, eine Windows-Konsole ist cp1252: der erste lokale Backtest
+danach lief 47 Sekunden durch und starb dann beim **Ausgeben** des Ergebnisses
+mit `UnicodeEncodeError` — gerechnet war alles, geschrieben nichts.
+
+`config.konsole_utf8()` stellt die Ausgabe jetzt zu Beginn jedes Einstiegs­
+punkts auf UTF-8. Das ist kein Schönheitsfehler gewesen, sondern der
+Unterschied zwischen „Ergebnis" und „nichts".
 
 ---
 
@@ -511,14 +540,15 @@ nicht im Verlauf steht, ist später nicht mehr nachvollziehbar.
 ## Die Seite
 
 <https://fabian-hgr.github.io/aktien-analyse/> — statisch, ohne Backend,
-ohne fremde Bibliothek. Sie liest vier Dateien aus demselben Repo:
+ohne fremde Bibliothek. Sie liest fünf Dateien aus demselben Repo:
 
 | Datei | wird gelesen für |
 |---|---|
-| `status.json` | wann welcher Lauf zuletzt lief |
+| `status.json` | wann welcher Lauf zuletzt lief, und ob das Sprachmodell da war |
 | `control.json` | läuft das System oder ist es pausiert |
 | `latest.json` | die Ideen des Tages mit vollständiger Herleitung |
 | `equity.json` | Depotkurven und Kennzahlen |
+| `weights.json` | gelernte Gewichte, ihr Verlauf und das Protokoll jedes Schritts |
 
 Fehlt eine Datei, fehlt der Abschnitt und die Seite sagt warum — am ersten
 Tag gibt es noch keine Handelshistorie, und das soll dort stehen statt
@@ -532,20 +562,63 @@ für den Depotvergleich muss niemand die ganze Handelshistorie laden.
 Stop und dem gemessenen Ausgang dieser Marken · je Idee die aufklappbare
 Herleitung mit allen vier Methoden, den eingesetzten Zahlen, dem Stop, den
 gemessenen Wahrscheinlichkeiten und den sieben Score-Komponenten samt
-Begründung · Depotvergleich gegen Zufall und SPY.
+Begründung · Depotvergleich gegen Zufall und SPY · die Lernkurve.
 
-**Was noch nicht drin ist:** die Lernkurve mit dem Protokoll jeder Belohnung,
-die Ansicht über alle 528 Titel, die Branchenübersicht und die Nachrichten
-des Tages. Die Daten dafür schreiben die Läufe bereits (`weights.json`,
-`latest.json → universum`, `news.json`).
+**Was noch nicht drin ist:** die Ansicht über alle 528 Titel, die
+Branchenübersicht und die Nachrichten des Tages. Die Daten dafür schreiben
+die Läufe bereits (`latest.json → universum`, `news.json`).
+
+### Die Lernkurve
+
+Sie beantwortet drei Fragen in dieser Reihenfolge, weil die erste in den
+ersten Wochen die einzig ehrliche ist:
+
+1. **Wartet die Lernschleife noch?** Unter 20 abgeschlossenen Trades wird
+   nichts angefasst, und die Seite sagt das mit dem Zählerstand statt so zu
+   tun, als lerne dort schon etwas.
+2. **Wo steht jedes Gewicht heute, verglichen mit dem Start?** Eine kleine
+   Kurve je Komponente statt sieben Linien in einem Diagramm — sieben
+   unterscheidbare Farben sind auf einem Handydisplay drei zu viel. Jede
+   Kurve zeigt einen Ausschnitt von mindestens ±0.03 um ihren Startwert:
+   die Bewegung wird sichtbar, und eine winzige bleibt winzig.
+3. **Was wurde wann belohnt oder bestraft?** Das aufklappbare Protokoll mit
+   jeder einzelnen Zeile, samt t-Wert und Gewicht davor und danach.
+
+Damit das überhaupt zeigbar ist, trägt jeder Protokolleintrag den Stand der
+Gewichte NACH diesem Schritt, und `weights.json` behält seine Startwerte in
+`start`. Wer nur die Änderungszeilen speichert, kann später nicht mehr
+zeigen, wo ein Gewicht zu welchem Zeitpunkt stand.
+
+Ausdrücklich mitgeschrieben steht auf der Seite, dass nach jedem Schritt auf
+Summe 1 normiert wird — dadurch bewegt sich auch, was gar nicht bewertet
+wurde. Ohne diesen Satz läse man Belohnungen aus Zahlen, die nur die
+Normierung verschoben hat.
+
+### Läuft das Sprachmodell?
+
+`status.json` hält seit jeher fest, ob Ollama beim Lauf erreichbar war. Die
+Seite zeigt es jetzt: „Sprachmodell bereit" im Kopf, und wenn nicht, eine
+rote Zeile mit den Folgen — keine These auf der Karte, die Komponente
+News-Sentiment fehlt in der Bewertung, alles Übrige normal gerechnet.
 
 Der Aus-Schalter sendet `PAUSE` oder `RESUME` an das Steuer-Thema und fragt
 vorher nach. Weil der Befehl erst beim nächsten Lauf gelesen wird, zeigt die
 Seite bis dahin ausdrücklich an, dass die Umschaltung angefordert und noch
 nicht wirksam ist — sonst sähe der Schalter wirkungslos aus.
 
-Als App installierbar: Manifest und Service Worker liegen bei. Das Gerüst
-kommt aus dem Zwischenspeicher, die Daten immer zuerst aus dem Netz. Eine
-Kursanalyse aus dem Zwischenspeicher wäre schlimmer als keine — sie sähe
-aktuell aus. Ohne Netz zeigt die Seite den letzten bekannten Stand, mit dem
-Zeitpunkt im Kopf.
+### Als App aufs Handy
+
+Es gibt nichts herunterzuladen und keinen App Store: die Seite IST die App.
+Wie man sie ablegt, ist je Browser verschieden, und keiner sagt es von
+selbst — deshalb steht es unten auf der Seite:
+
+- **Android (Chrome):** der Browser meldet sich mit `beforeinstallprompt`;
+  die Seite zeigt dann einen Knopf „Als App installieren".
+- **iPhone (Safari):** das Ereignis gibt es dort nicht. Die Seite zeigt
+  stattdessen den Weg: Teilen → „Zum Home-Bildschirm".
+- Läuft sie schon als App, steht dort nichts.
+
+Das Gerüst kommt aus dem Zwischenspeicher, die Daten immer zuerst aus dem
+Netz. Eine Kursanalyse aus dem Zwischenspeicher wäre schlimmer als keine —
+sie sähe aktuell aus. Ohne Netz zeigt die Seite den letzten bekannten Stand,
+mit dem Zeitpunkt im Kopf.

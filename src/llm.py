@@ -24,36 +24,47 @@ from . import config, net
 
 log = logging.getLogger(__name__)
 
-ANALYSE_PROMPT = """Du bist ein nuechterner Finanzanalyst. Beurteile die \
-Nachrichtenlage zu {symbol} ({name}, Branche {sector}) fuer die naechsten \
-{horizon} Handelstage.
+# Die Aufgabenstellung ist selbst in richtigem Deutsch geschrieben — nicht
+# aus Ordnungsliebe: am 22.08.2026 antwortete das Modell auf den frueheren,
+# in ASCII-Umschrift verfassten Text mit "Oelpreis", "Aktienrueckkauf" und
+# "waehrungseffektiv". Ein Modell schreibt in der Schreibweise, die es
+# vorgesetzt bekommt, und diese Saetze landen unveraendert auf der Seite.
+SCHREIBWEISE = """- Schreibe richtiges Deutsch mit den Umlauten ä ö ü \
+und dem grossen ÄÖÜ, nie in Umschrift als ae/oe/ue.
+- Schweizer Schreibweise: immer "ss", niemals das Zeichen ß."""
+
+ANALYSE_PROMPT = """Du bist ein nüchterner Finanzanalyst. Beurteile die \
+Nachrichtenlage zu {symbol} ({name}, Branche {sector}) für die \
+nächsten {horizon} Handelstage.
 
 Nachrichten der letzten Stunden:
 {news}
 
 Antworte AUSSCHLIESSLICH mit einem JSON-Objekt in genau dieser Form:
 {{"sentiment": <Zahl zwischen -1 und 1>,
-  "these": "<ein Satz auf Deutsch, hoechstens 25 Woerter>",
+  "these": "<ein Satz auf Deutsch, höchstens 25 Wörter>",
   "katalysatoren": ["<kurzer Punkt>", "..."],
   "risiken": ["<kurzer Punkt>", "..."]}}
 
 Regeln:
 - sentiment: -1 sehr negativ, 0 neutral, +1 sehr positiv.
-- Erfinde nichts. Stuetze dich nur auf die genannten Nachrichten.
+- Erfinde nichts. Stütze dich nur auf die genannten Nachrichten.
 - Nenne keine Kursziele und keine Kurse.
-- Hoechstens drei Katalysatoren und drei Risiken."""
+- Höchstens drei Katalysatoren und drei Risiken.
+{schreibweise}"""
 
 DIGEST_PROMPT = """Du bist Finanzredaktor. Fasse die wichtigsten \
-Marktnachrichten fuer heute Morgen zusammen.
+Marktnachrichten für heute Morgen zusammen.
 
 Schlagzeilen:
 {news}
 
 Antworte AUSSCHLIESSLICH mit einem JSON-Objekt:
-{{"zusammenfassung": "<zwei bis drei Saetze auf Deutsch>",
+{{"zusammenfassung": "<zwei bis drei Sätze auf Deutsch>",
   "punkte": ["<Schlagzeile knapp auf Deutsch>", "..."]}}
 
-Hoechstens fuenf Punkte. Erfinde nichts."""
+Höchstens fünf Punkte. Erfinde nichts.
+{schreibweise}"""
 
 
 class Ollama:
@@ -174,6 +185,19 @@ def parse_json(text: str) -> Optional[dict]:
     return None
 
 
+def schweizer_schreibweise(text: str) -> str:
+    """Das scharfe s gibt es im Schweizer Hochdeutsch nicht.
+
+    Die Regel steht auch im Prompt, aber ein Sprachmodell haelt sich nicht
+    zuverlaessig daran — und anders als die Umschrift laesst sich diese eine
+    Ersetzung ohne jede Mehrdeutigkeit nachtraeglich machen. Die Umschrift
+    (ae/oe/ue) wird bewusst NICHT nachgebessert: "Aussenstaende" waere
+    richtig, "Statue" und "Duett" nicht — dieser Unterschied ist ohne
+    Woerterbuch nicht zu treffen.
+    """
+    return text.replace("ß", "ss")
+
+
 def _clean_list(value, limit: int = 3, max_len: int = 120) -> list[str]:
     if isinstance(value, str):
         value = [value]
@@ -181,7 +205,7 @@ def _clean_list(value, limit: int = 3, max_len: int = 120) -> list[str]:
         return []
     out = []
     for item in value[:limit]:
-        s = str(item).strip()
+        s = schweizer_schreibweise(str(item).strip())
         if s:
             out.append(s[:max_len])
     return out
@@ -196,7 +220,7 @@ def normalise_analysis(raw: Optional[dict], news_count: int) -> Optional[dict]:
         sentiment = max(-1.0, min(1.0, float(s)))
     except (TypeError, ValueError):
         return None
-    these = str(raw.get("these") or "").strip()[:220]
+    these = schweizer_schreibweise(str(raw.get("these") or "").strip())[:220]
     return {
         "sentiment": round(sentiment, 3),
         "these": these,
@@ -226,7 +250,7 @@ def analyse_symbols(client: Ollama, entries: list[dict],
         )
         prompt = ANALYSE_PROMPT.format(
             symbol=sym, name=e.get("name", sym), sector=e.get("sector", "n/a"),
-            horizon=config.HORIZON_DAYS, news=news,
+            horizon=config.HORIZON_DAYS, news=news, schreibweise=SCHREIBWEISE,
         )
         result = normalise_analysis(client.generate_json(prompt), len(items))
         if result:
@@ -245,10 +269,13 @@ def market_digest(client: Ollama, headlines: list[str]) -> Optional[dict]:
     if not client.available or not headlines:
         return None
     news = "\n".join(f"- {h}" for h in headlines[:20])
-    raw = client.generate_json(DIGEST_PROMPT.format(news=news), num_predict=320)
+    raw = client.generate_json(
+        DIGEST_PROMPT.format(news=news, schreibweise=SCHREIBWEISE),
+        num_predict=320)
     if not isinstance(raw, dict):
         return None
-    text = str(raw.get("zusammenfassung") or "").strip()[:600]
+    text = schweizer_schreibweise(
+        str(raw.get("zusammenfassung") or "").strip())[:600]
     return {
         "zusammenfassung": text,
         "punkte": _clean_list(raw.get("punkte"), limit=5, max_len=160),

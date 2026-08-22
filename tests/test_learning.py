@@ -9,6 +9,7 @@ Die entscheidenden Eigenschaften:
 from __future__ import annotations
 
 import datetime as dt
+import pathlib
 import sys
 import unittest
 from pathlib import Path
@@ -130,8 +131,10 @@ class TestScoreKomponenten(unittest.TestCase):
         w = learning.default_weights()
         zeilen = learning.update_score_weights(
             w, self._trades_mit_trennschaerfe(200))
-        self.assertTrue(any("trend" in z for z in zeilen))
-        self.assertFalse(any("setup" in z for z in zeilen))
+        # Das Protokoll nennt die Komponente beim Klartextnamen, nicht beim
+        # Schluessel — es wird auf der Seite gelesen, nicht von Code.
+        self.assertTrue(any(config.SCORE_LABELS["trend"] in z for z in zeilen))
+        self.assertFalse(any(config.SCORE_LABELS["setup"] in z for z in zeilen))
 
     def test_trennscharfe_komponente_wird_belohnt(self):
         w = learning.default_weights()
@@ -447,6 +450,72 @@ class TestKurszielMethodenMessen(unittest.TestCase):
         vorher = dict(w["target_method_weights"])
         learning.update_method_weights(w, self._trades(0.90, 0.80), cal={})
         self.assertEqual(w["target_method_weights"], vorher)
+
+
+class TestProtokollFuerDieSeite(unittest.TestCase):
+    """Was weights.json enthalten muss, damit die Seite eine Kurve zeigen kann.
+
+    Ohne diese Felder liesse sich zwar sagen, wo ein Gewicht heute steht,
+    aber nicht, ob es dorthin gelernt wurde oder immer schon dort lag.
+    """
+
+    def _gelernt(self):
+        w = learning.default_weights()
+        learning.update(w, [trade(komponenten={"trend": i / 60.0,
+                                               "setup": 1 - i / 60.0},
+                                  r=2.0 if i > 30 else -1.0)
+                            for i in range(60)], HEUTE, calibration.get())
+        return w
+
+    def test_startwerte_bleiben_stehen(self):
+        w = self._gelernt()
+        self.assertEqual(w["start"]["score_weights"], dict(config.SCORE_WEIGHTS))
+        self.assertNotEqual(w["score_weights"], w["start"]["score_weights"])
+
+    def test_jeder_eintrag_traegt_den_stand_danach(self):
+        w = self._gelernt()
+        self.assertTrue(w["history"], "kein Lernschritt protokolliert")
+        letzter = w["history"][-1]
+        self.assertEqual(letzter["score_weights"],
+                         {k: round(v, 4)
+                          for k, v in w["score_weights"].items()})
+        self.assertEqual(set(letzter["target_method_weights"]),
+                         set(config.TARGET_METHOD_WEIGHTS))
+
+    def test_protokoll_nennt_klartextnamen(self):
+        w = self._gelernt()
+        zeilen = " ".join(z for e in w["history"] for z in e["changes"])
+        self.assertIn(config.SCORE_LABELS["trend"], zeilen)
+        self.assertNotIn("-> Gewicht", zeilen)   # der Pfeil ist ein Pfeil
+
+    def test_wartende_schleife_zaehlt_die_trades_trotzdem(self):
+        """Sonst behauptete die Seite bis zum zwanzigsten Trade, es gebe keine."""
+        w = learning.default_weights()
+        learning.update(w, [trade() for _ in range(7)], HEUTE)
+        self.assertEqual(w["trades_seen"], 7)
+        self.assertEqual(w["history"], [])
+
+    def test_regeln_und_namen_kommen_beim_schreiben_aus_config(self):
+        """Sie duerfen nicht aus der alten Datei fortgeschrieben werden —
+        sonst zeigte die Seite Grenzen an, die im Code laengst andere sind."""
+        import json
+        import tempfile
+        w = learning.default_weights()
+        w["regeln"] = {"min_trades": 999}          # veralteter Stand
+        w["labels"] = {"score": {"trend": "veraltet"}}
+        alt = config.DATA_DIR
+        try:
+            with tempfile.TemporaryDirectory() as ordner:
+                config.DATA_DIR = pathlib.Path(ordner)
+                learning.save(w)
+                d = json.loads((config.DATA_DIR / "weights.json")
+                               .read_text(encoding="utf-8"))
+        finally:
+            config.DATA_DIR = alt
+        self.assertEqual(d["regeln"]["min_trades"], config.LEARN_MIN_TRADES)
+        self.assertEqual(d["labels"]["score"], dict(config.SCORE_LABELS))
+        self.assertEqual(set(d["labels"]["methode"]),
+                         set(config.TARGET_METHOD_WEIGHTS))
 
 
 if __name__ == "__main__":

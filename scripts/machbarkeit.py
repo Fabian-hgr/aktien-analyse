@@ -162,6 +162,7 @@ def pruefe_daten() -> bool:
 
 
 def main() -> int:
+    config.konsole_utf8()
     ap = argparse.ArgumentParser()
     ap.add_argument("--titel", type=int, default=config.SHORTLIST_SIZE)
     ap.add_argument("--nur-daten", action="store_true")

@@ -40,6 +40,7 @@
       </span>
     </div>
     <p class="hinweis" id="kopf-hinweis" hidden></p>
+    <p class="hinweis warnung" id="modell-hinweis" hidden></p>
   </section>
 
   <!-- Ideen des Tages -->
@@ -60,6 +61,15 @@
     <div id="depots"></div>
   </section>
 
+  <!-- Lernkurve: was Belohnung und Bestrafung bewirkt haben -->
+  <section class="abschnitt" aria-labelledby="lernen-titel">
+    <div class="abschnitt-kopf">
+      <h2 id="lernen-titel">Was das System gelernt hat</h2>
+      <span class="zahl" id="lernen-anzahl"></span>
+    </div>
+    <div id="lernen"></div>
+  </section>
+
   <footer class="fuss">
     <p id="kalibrierung"></p>
     <p>
@@ -70,6 +80,10 @@
       Alles daran ist nachrechenbar:
       <a href="https://github.com/Fabian-hgr/aktien-analyse">Quelltext und Datenverlauf auf GitHub</a>.
     </p>
+    <div class="installieren" id="installieren" hidden>
+      <p id="installieren-text"></p>
+      <button class="knopf" id="installieren-knopf" hidden>Als App installieren</button>
+    </div>
     <div class="thema-wahl" role="group" aria-label="Darstellung">
       <button data-thema-wahl="auto" aria-pressed="true">Automatisch</button>
       <button data-thema-wahl="hell" aria-pressed="false">Hell</button>
