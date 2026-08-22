@@ -1,0 +1,84 @@
+# Lauf A — Vorboerse. Analysieren, auswaehlen, Auftraege setzen, Push senden.
+#
+# 12:15 UTC = 14:15 Schweizer Sommerzeit, rund 75 Minuten vor der
+# US-Eroeffnung. Der Vorlauf ist Absicht: geplante Laeufe bei GitHub koennen
+# sich um bis zu einer halben Stunde verspaeten.
+#
+# Der taegliche Commit haelt den Zeitplan aktiv — GitHub schaltet Zeitplaene
+# nach 60 Tagen ohne Repo-Aktivitaet ab.
+
+name: Vorboerse
+
+on:
+  schedule:
+    - cron: "15 12 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      kein_push:
+        description: "Ohne Push senden"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: depot
+  cancel-in-progress: false
+
+jobs:
+  analysieren:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # Der Aus-Schalter wird im Lauf selbst geprueft. Er steht dort ganz
+      # vorne, damit eine Pause fast nichts kostet.
+      - name: Modell aus dem Zwischenspeicher
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-${{ vars.OLLAMA_MODEL || 'qwen2.5:7b-instruct-q4_K_M' }}
+
+      - name: Ollama starten
+        continue-on-error: true          # ohne Sprachmodell laeuft es weiter
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:11434/api/tags > /dev/null && break
+            sleep 2
+          done
+          ollama pull "${{ vars.OLLAMA_MODEL || 'qwen2.5:7b-instruct-q4_K_M' }}"
+
+      - name: Analyse
+        env:
+          ALPACA_KEY: ${{ secrets.ALPACA_KEY }}
+          ALPACA_SECRET: ${{ secrets.ALPACA_SECRET }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_CONTROL_TOPIC: ${{ vars.NTFY_CONTROL_TOPIC }}
+          OLLAMA_MODEL: ${{ vars.OLLAMA_MODEL || 'qwen2.5:7b-instruct-q4_K_M' }}
+        run: |
+          python -m src.run_premarket \
+            ${{ inputs.kein_push && '--kein-push' || '' }}
+
+      - name: Ergebnis committen
+        run: |
+          git config user.name "aktien-analyse"
+          git config user.email "actions@github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "Nichts geaendert — kein Commit."
+          else
+            git commit -m "Vorboerse $(date -u +%Y-%m-%d)"
+            git push
+          fi

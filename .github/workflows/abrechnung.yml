@@ -1,0 +1,62 @@
+# Lauf B — Abrechnung. Fuellen, ausstiegen, lernen.
+#
+# 22:00 UTC = 00:00 Schweizer Sommerzeit, gut zwei Stunden nach dem
+# US-Handelsschluss. Kein Sprachmodell noetig: hier wird nur gerechnet.
+#
+# Bricht ein Lauf aus, holt `--tag JJJJ-MM-TT` ihn von Hand nach
+# (Actions -> Abrechnung -> Run workflow).
+
+name: Abrechnung
+
+on:
+  schedule:
+    - cron: "0 22 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Handelstag nachholen (JJJJ-MM-TT, leer = heute)"
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: depot
+  cancel-in-progress: false
+
+jobs:
+  abrechnen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Abrechnung
+        env:
+          ALPACA_KEY: ${{ secrets.ALPACA_KEY }}
+          ALPACA_SECRET: ${{ secrets.ALPACA_SECRET }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_CONTROL_TOPIC: ${{ vars.NTFY_CONTROL_TOPIC }}
+        run: |
+          python -m src.run_settle \
+            ${{ inputs.tag && format('--tag {0}', inputs.tag) || '' }}
+
+      - name: Ergebnis committen
+        run: |
+          git config user.name "aktien-analyse"
+          git config user.email "actions@github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "Nichts geaendert — kein Commit."
+          else
+            git commit -m "Abrechnung $(date -u +%Y-%m-%d)"
+            git push
+          fi

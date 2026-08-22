@@ -1,0 +1,64 @@
+# Die Messlatte nachfuehren — woechentlich, samstags.
+#
+# Ziel- und Stop-Faktor und die Basisquote jeder Karte stammen aus
+# docs/data/calibration.json. Diese Datei ist eine MESSUNG ueber das ganze
+# Universum, kein geschaetzter Parameter, und sie altert: ein ruhiges
+# Marktjahr bewegt die Mediane anders als ein unruhiges.
+#
+# Bewusst nur woechentlich. Taeglich neu kalibrieren hiesse, Ziel und Stop
+# staendig zu verschieben — dann waeren die Trades untereinander nicht mehr
+# vergleichbar, und genau das ist der Zweck des ganzen Aufbaus.
+
+name: Kalibrierung
+
+on:
+  schedule:
+    - cron: "30 6 * * 6"
+  workflow_dispatch:
+    inputs:
+      gegenprobe:
+        description: "Basisquote unabhaengig nachrechnen (dauert laenger)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: depot
+  cancel-in-progress: false
+
+jobs:
+  kalibrieren:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Messen
+        env:
+          ALPACA_KEY: ${{ secrets.ALPACA_KEY }}
+          ALPACA_SECRET: ${{ secrets.ALPACA_SECRET }}
+        run: |
+          python scripts/kalibrieren.py \
+            ${{ (inputs.gegenprobe == false) && '' || '--gegenprobe' }}
+
+      - name: Ergebnis committen
+        run: |
+          git config user.name "aktien-analyse"
+          git config user.email "actions@github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "Nichts geaendert — kein Commit."
+          else
+            git commit -m "Kalibrierung $(date -u +%Y-%m-%d)"
+            git push
+          fi

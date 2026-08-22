@@ -1,0 +1,82 @@
+# Etappe 0 — beweisen, dass der Runner kann, was der Plan voraussetzt.
+#
+# Bevor irgendetwas darauf aufbaut, wird gemessen statt geschaetzt:
+#   1  Laesst sich Ollama auf dem Runner installieren und ein Modell laden?
+#   2  Wie schnell ist es dort wirklich (Tokens je Sekunde)?
+#   3  Kommt gueltiges JSON zurueck, auch bei einer Aufgabe mit Nachrichten?
+#   4  Reichen die Alpaca- und Yahoo-Zugaenge aus der Cloud?
+#
+# Das Ergebnis entscheidet ueber die Modellgroesse. Faellt der Durchsatz zu
+# niedrig aus, wird auf qwen2.5:3b gewechselt — auf Messdaten, nicht auf
+# Bauchgefuehl.
+#
+# Der Lauf wird von Hand gestartet (Actions -> Machbarkeit -> Run workflow).
+
+name: Machbarkeit
+
+on:
+  workflow_dispatch:
+    inputs:
+      modell:
+        description: "Ollama-Modell"
+        default: "qwen2.5:7b-instruct-q4_K_M"
+      titel:
+        description: "Wie viele Titel hochrechnen"
+        default: "25"
+
+permissions:
+  contents: read
+
+jobs:
+  messen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Abhaengigkeiten
+        run: pip install -r requirements.txt
+
+      - name: Modell aus dem Zwischenspeicher holen
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.ollama/models
+          key: ollama-${{ inputs.modell }}
+
+      - name: Ollama installieren
+        run: |
+          curl -fsSL https://ollama.com/install.sh | sh
+          nohup ollama serve > /tmp/ollama.log 2>&1 &
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:11434/api/tags > /dev/null && break
+            sleep 2
+          done
+          ollama --version
+
+      - name: Modell laden
+        run: |
+          START=$(date +%s)
+          ollama pull "${{ inputs.modell }}"
+          echo "Ladedauer: $(( $(date +%s) - START )) s"
+          du -sh ~/.ollama/models || true
+
+      - name: Sprachmodell messen
+        env:
+          OLLAMA_MODEL: ${{ inputs.modell }}
+        run: python scripts/machbarkeit.py --titel "${{ inputs.titel }}"
+
+      - name: Datenquellen aus der Cloud pruefen
+        env:
+          ALPACA_KEY: ${{ secrets.ALPACA_KEY }}
+          ALPACA_SECRET: ${{ secrets.ALPACA_SECRET }}
+        run: python scripts/machbarkeit.py --nur-daten
+
+      - name: Testsuite
+        run: python -m unittest discover -s tests -v

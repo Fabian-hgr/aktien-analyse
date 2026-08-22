@@ -1,0 +1,3 @@
+# Bewusst kurz. Die Indikatoren sind reines Python — jede Formel ist von Hand
+# nachrechenbar, und der Actions-Lauf startet in Sekunden statt Minuten.
+requests>=2.31.0
