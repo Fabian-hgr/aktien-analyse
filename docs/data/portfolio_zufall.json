@@ -2,9 +2,8 @@
  "name": "zufall",
  "label": "Depot Zufall",
  "start_capital": 100000.0,
- "cash": 100000.0,
- "positions": [],
- "pending": [
+ "cash": 94000.34821650441,
+ "positions": [
   {
    "symbol": "TRGP",
    "name": "Targa Resources",
@@ -33,7 +32,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 3.375721,
+   "entry_price": 296.233,
+   "entry_date": "2026-08-24",
+   "entry_open": 296.085,
+   "days_held": 1,
+   "mfe_price": 296.085,
+   "mae_price": 291.15
   },
   {
    "symbol": "AVY",
@@ -63,7 +69,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 5.431644,
+   "entry_price": 184.092,
+   "entry_date": "2026-08-24",
+   "entry_open": 184.0,
+   "days_held": 1,
+   "mfe_price": 185.45,
+   "mae_price": 182.25
   },
   {
    "symbol": "KKR",
@@ -93,7 +106,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 9.246106,
+   "entry_price": 108.144,
+   "entry_date": "2026-08-24",
+   "entry_open": 108.09,
+   "days_held": 1,
+   "mfe_price": 109.33,
+   "mae_price": 107.14
   },
   {
    "symbol": "KIM",
@@ -123,7 +143,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 41.371841,
+   "entry_price": 24.1671,
+   "entry_date": "2026-08-24",
+   "entry_open": 24.155,
+   "days_held": 1,
+   "mfe_price": 24.325,
+   "mae_price": 24.035
   },
   {
    "symbol": "DLTR",
@@ -153,7 +180,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 7.499627,
+   "entry_price": 133.3216,
+   "entry_date": "2026-08-24",
+   "entry_open": 133.255,
+   "days_held": 1,
+   "mfe_price": 137.05,
+   "mae_price": 132.44
   },
   {
    "symbol": "EW",
@@ -183,10 +217,27 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 11.160204,
+   "entry_price": 89.6148,
+   "entry_date": "2026-08-24",
+   "entry_open": 89.57,
+   "days_held": 1,
+   "mfe_price": 91.09,
+   "mae_price": 89.48
   }
  ],
+ "pending": [],
  "closed": [],
- "equity_curve": [],
+ "equity_curve": [
+  {
+   "date": "2026-08-24",
+   "equity": 100022.25,
+   "cash": 94000.35,
+   "positions": 6,
+   "invested_pct": 6.02,
+   "return_pct": 0.022
+  }
+ ],
  "skipped": []
 }

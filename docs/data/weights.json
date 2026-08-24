@@ -1,0 +1,76 @@
+{
+ "updated_at": null,
+ "trades_seen": 0,
+ "start": {
+  "score_weights": {
+   "trend": 0.2,
+   "setup": 0.15,
+   "volumen": 0.1,
+   "qualitaet": 0.15,
+   "bewertung": 0.1,
+   "analysten": 0.15,
+   "sentiment": 0.15
+  },
+  "target_method_weights": {
+   "atr": 1.0,
+   "struktur": 1.0
+  }
+ },
+ "score_weights": {
+  "trend": 0.2,
+  "setup": 0.15,
+  "volumen": 0.1,
+  "qualitaet": 0.15,
+  "bewertung": 0.1,
+  "analysten": 0.15,
+  "sentiment": 0.15
+ },
+ "target_method_weights": {
+  "atr": 1.0,
+  "struktur": 1.0
+ },
+ "sector_k_mult": {},
+ "sector_multiplier": {},
+ "regime_multiplier": {},
+ "history": [],
+ "regeln": {
+  "min_trades": 20,
+  "fenster": 100,
+  "lernrate": 0.15,
+  "volle_schrittweite_ab": 600,
+  "min_trades_je_eimer": 25,
+  "grenzen": {
+   "methode": [
+    0.2,
+    2.0
+   ],
+   "komponente": [
+    0.02,
+    0.4
+   ],
+   "multiplikator": [
+    0.5,
+    1.5
+   ],
+   "zielweite": [
+    0.7,
+    1.4
+   ]
+  }
+ },
+ "labels": {
+  "score": {
+   "trend": "Trend & relative Stärke",
+   "setup": "Setup-Qualität",
+   "volumen": "Volumenbestätigung",
+   "qualitaet": "Fundamentale Qualität",
+   "bewertung": "Bewertung vs. Branche",
+   "analysten": "Analysten-Rückenwind",
+   "sentiment": "News-Sentiment"
+  },
+  "methode": {
+   "atr": "ATR-Projektion",
+   "struktur": "Struktur / gemessene Bewegung"
+  }
+ }
+}

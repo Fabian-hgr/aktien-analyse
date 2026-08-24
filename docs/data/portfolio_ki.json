@@ -2,9 +2,8 @@
  "name": "ki",
  "label": "Depot KI",
  "start_capital": 100000.0,
- "cash": 100000.0,
- "positions": [],
- "pending": [
+ "cash": 94000.88966008782,
+ "positions": [
   {
    "symbol": "TSM",
    "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
@@ -33,7 +32,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 2.417405,
+   "entry_price": 413.6667,
+   "entry_date": "2026-08-24",
+   "entry_open": 413.46,
+   "days_held": 1,
+   "mfe_price": 414.025,
+   "mae_price": 405.22
   },
   {
    "symbol": "ANET",
@@ -63,7 +69,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 5.366285,
+   "entry_price": 186.3331,
+   "entry_date": "2026-08-24",
+   "entry_open": 186.24,
+   "days_held": 1,
+   "mfe_price": 190.21,
+   "mae_price": 186.225
   },
   {
    "symbol": "MU",
@@ -94,7 +107,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 1.068708,
+   "entry_price": 935.7276,
+   "entry_date": "2026-08-24",
+   "entry_open": 935.26,
+   "days_held": 1,
+   "mfe_price": 935.26,
+   "mae_price": 888.0
   },
   {
    "symbol": "COF",
@@ -124,7 +144,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 4.554668,
+   "entry_price": 219.4997,
+   "entry_date": "2026-08-24",
+   "entry_open": 219.39,
+   "days_held": 1,
+   "mfe_price": 221.37,
+   "mae_price": 216.21
   },
   {
    "symbol": "NU",
@@ -154,7 +181,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 69.285823,
+   "entry_price": 14.4272,
+   "entry_date": "2026-08-24",
+   "entry_open": 14.42,
+   "days_held": 1,
+   "mfe_price": 15.045,
+   "mae_price": 14.345
   },
   {
    "symbol": "BSX",
@@ -184,10 +218,27 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-24"
+   "order_date": "2026-08-24",
+   "shares": 19.904892,
+   "entry_price": 50.2301,
+   "entry_date": "2026-08-24",
+   "entry_open": 50.205,
+   "days_held": 1,
+   "mfe_price": 50.305,
+   "mae_price": 48.77
   }
  ],
+ "pending": [],
  "closed": [],
- "equity_curve": [],
+ "equity_curve": [
+  {
+   "date": "2026-08-24",
+   "equity": 99958.19,
+   "cash": 94000.89,
+   "positions": 6,
+   "invested_pct": 5.96,
+   "return_pct": -0.042
+  }
+ ],
  "skipped": []
 }

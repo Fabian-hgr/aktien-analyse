@@ -1,0 +1,35 @@
+{
+ "updated_at": "2026-08-24T22:32:25+00:00",
+ "ki": [],
+ "zufall": [],
+ "statistik": {
+  "ki": {
+   "depot": "ki",
+   "label": "Depot KI",
+   "equity": 99958.19,
+   "cash": 94000.89,
+   "open_positions": 6,
+   "return_pct": -0.04,
+   "trades": 0,
+   "max_drawdown_pct": 0.0,
+   "win_rate": null,
+   "expectancy_r": null,
+   "profit_factor": null,
+   "avg_hold_days": null
+  },
+  "zufall": {
+   "depot": "zufall",
+   "label": "Depot Zufall",
+   "equity": 100022.25,
+   "cash": 94000.35,
+   "open_positions": 6,
+   "return_pct": 0.02,
+   "trades": 0,
+   "max_drawdown_pct": 0.0,
+   "win_rate": null,
+   "expectancy_r": null,
+   "profit_factor": null,
+   "avg_hold_days": null
+  }
+ }
+}
