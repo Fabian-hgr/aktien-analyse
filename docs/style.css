@@ -287,6 +287,8 @@ thead th {
   color: var(--tinte-leise); font-weight: 500;
 }
 tbody tr:last-child td { border-bottom: none; }
+th.links, td.links { text-align: right; }
+@media (min-width: 380px) { th.links, td.links { text-align: left; } }
 td.zahl { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 
 /* ── Lernkurve ─────────────────────────────────────────────────────────── */
@@ -326,6 +328,79 @@ details.protokoll { margin-top: 0; padding-top: 0; border-top: none; }
 .lern-kopf { display: flex; align-items: baseline; gap: 6px 10px; flex-wrap: wrap; }
 .lern-kopf .zahl { font-size: 12px; font-weight: 500; }
 .lern-eintrag ul.punktliste { font-size: 11px; margin-top: 5px; }
+
+/* ── Fragezeile ───────────────────────────────────────────────────────── */
+
+.frage-huelle { position: relative; margin-top: 11px; }
+.frage-form { display: flex; gap: 7px; }
+
+.frage-feld {
+  flex: 1; min-width: 0;
+  font-family: var(--schrift);
+  /* 16px, nicht kleiner: darunter zoomt iOS beim Antippen in das Feld
+     hinein und die halbe Seite ist weg. */
+  font-size: 16px;
+  padding: 9px 11px;
+  color: var(--tinte); background: var(--flaeche);
+  border: 1px solid var(--linie); border-radius: 2px;
+  -webkit-appearance: none; appearance: none;
+}
+.frage-feld::placeholder { color: var(--tinte-leise); }
+.frage-feld::-webkit-search-cancel-button { -webkit-appearance: none; }
+.frage-feld:focus {
+  outline: none; border-color: var(--akzent);
+  box-shadow: 0 0 0 1px var(--akzent);
+}
+.frage-form .knopf { flex-shrink: 0; padding: 0 14px; }
+
+.vorschlaege {
+  position: absolute; z-index: 5; left: 0; right: 0; top: calc(100% + 3px);
+  background: var(--flaeche); border: 1px solid var(--linie);
+  border-radius: 2px; max-height: 262px;
+  overflow-y: auto; overflow-x: hidden;
+  box-shadow: 0 8px 20px oklch(0 0 0 / 0.16);
+}
+.vorschlag {
+  display: flex; align-items: baseline; gap: 8px; width: 100%;
+  font: inherit; font-size: 13px; text-align: left;
+  padding: 8px 11px; border: none; border-bottom: 1px solid var(--linie-fein);
+  background: none; color: var(--tinte); cursor: pointer;
+}
+.vorschlag:last-child { border-bottom: none; }
+.vorschlag:hover, .vorschlag[aria-selected="true"] { background: var(--papier); }
+.vorschlag .kuerzel { flex-shrink: 0; }
+/* Der lange Teil einer Zeile muss schrumpfen duerfen, sonst schiebt ein
+   Eintrag wie "Basisquote und Basiserwartung" die Liste waagrecht auf. */
+.vorschlag .leise, .vorschlag .begriff {
+  flex: 1; min-width: 0;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.vorschlag .leise { color: var(--tinte-leise); }
+.vorschlag .marke { flex-shrink: 0; }
+
+.beispiele { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px; }
+.beispiele button {
+  font: inherit; font-size: 11.5px; padding: 4px 9px; cursor: pointer;
+  border: 1px solid var(--linie-fein); border-radius: 2px;
+  background: none; color: var(--tinte-leise);
+}
+.beispiele button:hover { color: var(--tinte); border-color: var(--linie); }
+.beispiele button:focus-visible { outline: 2px solid var(--akzent); outline-offset: 1px; }
+
+.antwort-karte { margin-top: 12px; padding: 13px; }
+.antwort-karte h3 { margin-bottom: 8px; }
+.antwort-karte p { margin: 0 0 9px; font-size: 12.5px; line-height: 1.65; }
+.antwort-karte p:last-child { margin-bottom: 0; }
+.antwort-karte .notiz { font-size: 11px; font-style: normal; }
+.antwort-karte .these { margin: 10px 0; }
+.antwort-karte .tabelle-huelle { margin-bottom: 10px; }
+.antwort-paare { margin: 11px 0 0; }
+.antwort-mehr {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 6px;
+  margin-top: 12px; padding-top: 10px;
+  border-top: 1px solid var(--linie-fein);
+}
+button.knopf.klein { font-size: 11.5px; padding: 3px 8px; }
 
 /* ── Zustaende und Fusszeile ───────────────────────────────────────────── */
 

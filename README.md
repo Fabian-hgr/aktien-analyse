@@ -562,7 +562,8 @@ für den Depotvergleich muss niemand die ganze Handelshistorie laden.
 Stop und dem gemessenen Ausgang dieser Marken · je Idee die aufklappbare
 Herleitung mit allen vier Methoden, den eingesetzten Zahlen, dem Stop, den
 gemessenen Wahrscheinlichkeiten und den sieben Score-Komponenten samt
-Begründung · Depotvergleich gegen Zufall und SPY · die Lernkurve.
+Begründung · Depotvergleich gegen Zufall und SPY · die Lernkurve · die
+Fragezeile am Fuss.
 
 **Was noch nicht drin ist:** die Ansicht über alle 528 Titel, die
 Branchenübersicht und die Nachrichten des Tages. Die Daten dafür schreiben
@@ -593,6 +594,59 @@ Ausdrücklich mitgeschrieben steht auf der Seite, dass nach jedem Schritt auf
 Summe 1 normiert wird — dadurch bewegt sich auch, was gar nicht bewertet
 wurde. Ohne diesen Satz läse man Belohnungen aus Zahlen, die nur die
 Normierung verschoben hat.
+
+### Die Fragezeile
+
+Am Fuss der Seite steht eine Zeile, in die man tippt, was man wissen will:
+ein Kürzel, einen Firmennamen, eine Branche, eine Rangliste oder eines der
+Fachwörter, von denen die Seite voll ist.
+
+**Sie antwortet nicht aus einem Sprachmodell, sondern aus den Daten.** Das ist
+eine Entscheidung und keine Sparmassnahme:
+
+- Ollama läuft im GitHub-Runner, zweimal am Tag, und ist danach weg. Es gibt
+  keinen Endpunkt, den ein Handy fragen könnte — und einen dauerhaft
+  erreichbaren gäbe es nicht gratis.
+- Ein Modell, das im Browser aus dem Gedächtnis antwortet, erfindet Zahlen.
+  Auf einer Seite mit Kurszielen ist eine erfundene Zahl schlimmer als keine
+  Antwort, weil sie genauso aussieht wie eine gemessene.
+
+Deshalb gilt: Jede genannte Zahl steht so in `latest.json`, `equity.json`,
+`weights.json` oder `status.json`. Was nicht in den Daten steht, wird nicht
+beantwortet, sondern gesagt — die Zeile hat drei verschiedene Nein-Antworten
+(„noch keine Analyse", „nicht im geprüften Universum", „das habe ich nicht
+verstanden"), weil das drei verschiedene Sachverhalte sind.
+
+Beantwortet werden:
+
+| Frage | Antwort aus |
+|---|---|
+| `NVDA`, `Apple`, `Coca Cola` | Kurs, Ziel, Stop, CRV, Score, Rang — und **warum** der Titel heute keine Idee ist |
+| `Technologie`, `banken`, `pharma` | Zahl der Titel, die besten sechs, gelernter Branchen-Multiplikator |
+| `bestes CRV`, `grösstes Potenzial` | Rangliste über alle bewerteten Titel |
+| `wie steht das Depot`, `Rendite` | Kennzahlen beider Depots gegen SPY, samt Vorsprungs-Einordnung |
+| `was hat das System gelernt` | Zahl der Lernschritte, das am weitesten bewegte Gewicht, der letzte Schritt |
+| `wann lief es zuletzt` | Zeitpunkt, Ergebnis, Dauer, ob das Sprachmodell da war |
+| `was heisst CRV`, `Basisquote`, `t-Wert` | 32 Einträge Nachschlagewerk |
+
+Weil die Antworten im Browser entstehen, funktioniert die Zeile **ohne Netz**
+genauso — sie liest dieselben Dateien, die der Service Worker ohnehin
+zwischenspeichert.
+
+#### Was beim Bauen schiefging
+
+Beide Fehler stammen aus derselben Quelle — Wörter als Teilzeichenkette zu
+suchen statt als ganzes Wort:
+
+- **„sprachmodell" fand Dell Technologies.** In `sprachmoDELL` steckt `dell`.
+  Firmennamen werden jetzt nur an Wortgrenzen gesucht.
+- **„zeitablauf" beantwortete den Systemzustand.** In `zeitabLAUF` steckt
+  `lauf`.
+
+Dazu zwei Treffer, die formal richtig und trotzdem falsch waren: **„bestes
+CRV" fand Best Buy** und **„wie steht das Depot" fand Home Depot**. Die Liste
+deutscher Wörter, die kein Kürzel sein dürfen, galt bisher nur für Kürzel —
+sie gilt jetzt auch für Namensteile.
 
 ### Läuft das Sprachmodell?
 

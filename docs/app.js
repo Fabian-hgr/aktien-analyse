@@ -11,6 +11,8 @@
  *   latest.json    Analyse des Tages: Ideen mit voller Herleitung
  *   equity.json    Depotkurven und Kennzahlen (erst nach der ersten Abrechnung)
  *   weights.json   gelernte Gewichte und das Protokoll jedes Lernschritts
+ *
+ * Dieselben fuenf Dateien speisen die Fragezeile am Fuss der Seite.
  */
 'use strict';
 
@@ -337,7 +339,7 @@ function ideeHtml(idee) {
   if (l && l.risiken && l.risiken.length) listen.push(['Risiken', l.risiken]);
 
   return `
-  <article class="karte idee">
+  <article class="karte idee" id="idee-${esc(idee.symbol)}">
     <div class="idee-kopf">
       <div class="idee-titel">
         <span class="zahl symbol">${esc(idee.symbol)}</span>
@@ -996,6 +998,1014 @@ function installEinrichten() {
   }
 }
 
+// ── Fragen an die Zahlen ───────────────────────────────────────────────────
+
+/* Eine Zeile, in die man tippt, was man wissen will.
+ *
+ * Die Antworten entstehen HIER im Browser, aus genau den Dateien, die die
+ * Seite ohnehin geladen hat. Das ist eine Entscheidung und keine
+ * Sparmassnahme: Ollama laeuft nur im GitHub-Runner, zweimal am Tag, und ist
+ * danach weg — es gibt keinen Endpunkt, den ein Handy fragen koennte. Und ein
+ * Sprachmodell, das aus dem Gedaechtnis antwortet, wuerde Zahlen erfinden.
+ * Auf einer Seite mit Kurszielen ist eine erfundene Zahl schlimmer als keine
+ * Antwort, weil sie genauso aussieht wie eine gemessene.
+ *
+ * Deshalb gilt hier durchgehend: jede genannte Zahl steht so in den Daten.
+ * Was nicht in den Daten steht, wird nicht beantwortet, sondern gesagt.
+ */
+
+const WISSEN = { latest: null, equity: null, gewichte: null, status: null };
+
+/** Kleinschreibung, Umlaute aufgeloest, Satzzeichen weg. Damit findet
+ *  "Gesundheitswesen" die Branche Gesundheit und "CRV?" scheitert nicht am
+ *  Fragezeichen. */
+function schlicht(text) {
+  return String(text === null || text === undefined ? '' : text).toLowerCase()
+    .replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue')
+    .replace(/ß/g, 'ss')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+/** Woerter, die kein Kuerzel sein duerfen, obwohl es sie als Kuerzel gibt.
+ *  ALL ist Allstate, aber "alle Aktien" fragt nicht nach Allstate. Ohne
+ *  diese Liste beantwortet die Zeile die haeufigsten Fragen mit dem
+ *  falschen Titel. */
+const KEIN_KUERZEL = new Set(schlicht(
+  'all alle keine kein was wie wer wo warum wieso weshalb welche welcher '
+  + 'welches ist sind war das die der den dem des ein eine einen und oder '
+  + 'mit von aus bei fuer ueber auf ab nur noch auch schon sehr mehr viel '
+  + 'viele gut besser best beste besten bester gross klein hoch tief lang '
+  + 'kurz '
+  + 'heute morgen gestern jetzt dann denn doch aber wenn weil dass ohne '
+  + 'gegen zwischen kann soll muss wird habe hast hat haben mir mich ich '
+  + 'man sie ihm ihr uns tag jahr geld kauf kaufen ziel stop kurs score '
+  + 'depot news top rang liste zahl aktie aktien titel firma').split(' '));
+
+/** Namensbestandteile, die nichts unterscheiden. "Group" faende sonst
+ *  vierzig Titel gleich gut. */
+const KEIN_NAME = new Set(schlicht(
+  'inc corp corporation company co the and of plc ltd limited holdings '
+  + 'holding group class series international industries technologies '
+  + 'technology systems solutions services partners enterprises global '
+  + 'american united national general new').split(' '));
+
+/** Was man sagt, und was in den Daten steht. */
+const KUERZEL_ALIAS = {
+  google: 'GOOGL', alphabet: 'GOOGL', facebook: 'META',
+  berkshire: 'BRK.B', buffett: 'BRK.B',
+};
+
+const BRANCHEN_ALIAS = {
+  tech: 'Technologie', technik: 'Technologie', halbleiter: 'Technologie',
+  chip: 'Technologie', chips: 'Technologie', software: 'Technologie',
+  pharma: 'Gesundheit', medizin: 'Gesundheit', gesundheitswesen: 'Gesundheit',
+  bank: 'Finanzen', banken: 'Finanzen', versicherung: 'Finanzen',
+  oel: 'Energie', erdoel: 'Energie', gas: 'Energie',
+  rohstoff: 'Grundstoffe', rohstoffe: 'Grundstoffe', chemie: 'Grundstoffe',
+  telekom: 'Kommunikation', medien: 'Kommunikation',
+  strom: 'Versorger', energieversorger: 'Versorger',
+  bau: 'Industrie', maschinen: 'Industrie', ruestung: 'Industrie',
+  handel: 'Konsum zyklisch', auto: 'Konsum zyklisch',
+  lebensmittel: 'Konsum defensiv', nahrung: 'Konsum defensiv',
+};
+
+/* Das Nachschlagewerk. Die Seite ist voller Fachwoerter — CRV, R, Basisquote,
+ * t-Wert —, und wer sie nicht kennt, liest die Zahlen falsch herum. Jeder
+ * Eintrag sagt drei Dinge: was es ist, wie es hier gerechnet wird, und was
+ * daraus folgt. `k` sind die Woerter, unter denen man sucht. */
+const GLOSSAR = [
+  { k: 'crv chance risiko chancerisiko reward risk verhaeltnis',
+    t: 'Chance-Risiko-Verhältnis (CRV)',
+    b: 'Wie weit das Kursziel entfernt liegt, geteilt durch den Abstand zum '
+     + 'Stop. CRV 2.0 heisst: geht die Idee auf, ist der Gewinn doppelt so '
+     + 'gross wie der Verlust, wenn sie schiefgeht. Das CRV sagt nichts '
+     + 'darüber, wie <em>wahrscheinlich</em> das Ziel erreicht wird — dafür '
+     + 'steht daneben die gemessene Trefferquote. Ein hohes CRV mit einer '
+     + 'sehr tiefen Trefferquote ist kein guter Handel, sondern ein weit '
+     + 'entferntes Ziel.' },
+  { k: 'r multiple rmultiple erwartung je trade expectancy',
+    t: 'R und R-Multiple',
+    b: 'Ein R ist der Betrag, den ein Trade kostet, wenn der Stop hält: der '
+     + 'Abstand vom Einstieg zum Stop. Alles wird in dieser Einheit gemessen, '
+     + 'damit ein 30-USD-Titel und ein 900-USD-Titel vergleichbar bleiben. '
+     + '+2 R heisst: doppelt so viel gewonnen wie im Verlustfall riskiert. '
+     + 'Die «Erwartung je Trade» ist der Durchschnitt aller R-Werte — über '
+     + 'null verdient das Depot, unter null verliert es.' },
+  { k: 'basisquote basiserwartung grundquote',
+    t: 'Basisquote und Basiserwartung',
+    b: 'Was diese Marken historisch bedeuten, ganz ohne Auswahl: über das '
+     + 'ganze Universum wurde gemessen, wie oft ein Ziel in dieser '
+     + 'Entfernung zuerst erreicht wurde, wie oft zuerst der Stop, und wie '
+     + 'oft nach 20 Tagen weder noch. Die Basiserwartung ist das R, das eine '
+     + '<em>zufällige</em> Auswahl mit derselben Geometrie abwirft. Sie ist '
+     + 'die Messlatte: Erst was darüber liegt, hat die Auswahl verdient.' },
+  { k: 'atr average true range schwankungsbreite volatilitaet vola',
+    t: 'ATR',
+    b: 'Die mittlere Tagesspanne der letzten 14 Tage, in USD. Sie ist das '
+     + 'Mass, in dem hier alles gedacht wird: Das Ziel liegt rund 2.2 ATR '
+     + 'über dem Kurs, der Stop 1.1 ATR darunter. Dadurch bekommt ein ruhiger '
+     + 'Titel enge Marken und ein wilder weite — beide mit demselben '
+     + 'Chance-Risiko-Verhältnis.' },
+  { k: 'stop stoploss verlustbegrenzung',
+    t: 'Stop',
+    b: 'Der Kurs, bei dem die Position verkauft wird, wenn es schiefläuft. '
+     + 'Er liegt 1.1 ATR unter dem Einstieg. Berühren Tageshoch und Tagestief '
+     + 'am selben Tag Ziel und Stop, zählt hier immer der Stop zuerst — '
+     + 'Tagesbalken können die Reihenfolge nicht auflösen, und die '
+     + 'pessimistische Annahme ist die einzige ehrliche.' },
+  { k: 'kursziel ziel target zielkurs',
+    t: 'Kursziel',
+    b: 'Wohin der Kurs läuft, wenn die Bewegung kommt — nicht, wo er in '
+     + 'einem Jahr steht. Der Horizont sind 15 Handelstage. Zwei Methoden '
+     + 'liefern das Niveau (ATR-Projektion und gemessene Bewegung), zwei '
+     + 'weitere verschieben es als Neigung (Analystenkonsens und '
+     + 'Bewertungsanker). Die vollständige Rechnung mit allen eingesetzten '
+     + 'Zahlen steht auf jeder Ideenkarte unter «Herleitung aufklappen».' },
+  { k: 'score bewertung punktzahl',
+    t: 'Score',
+    b: 'Der gewichtete Mittelwert aus sieben Komponenten: Trend und relative '
+     + 'Stärke, Setup-Qualität, Volumenbestätigung, fundamentale Qualität, '
+     + 'Bewertung gegen die Branche, Analysten-Rückenwind und News-Sentiment. '
+     + 'Davon gehen Abzüge ab — etwa für Quartalszahlen in den nächsten fünf '
+     + 'Handelstagen. Der Score entscheidet die Reihenfolge, nicht die '
+     + 'Kursziele: die stehen davon unabhängig fest.' },
+  { k: 'upside potenzial aufwaertspotenzial',
+    t: 'Potenzial',
+    b: 'Der Abstand vom heutigen Kurs zum Kursziel, in Prozent. Er sagt '
+     + 'nichts darüber, wie wahrscheinlich das Ziel erreicht wird — ein '
+     + 'weites Ziel hat viel Potenzial und eine tiefe Trefferquote. Beide '
+     + 'Zahlen stehen deshalb nebeneinander.' },
+  { k: 'trefferquote win rate gewinnquote',
+    t: 'Trefferquote',
+    b: 'Der Anteil abgeschlossener Trades mit Gewinn. Allein sagt sie wenig: '
+     + 'Mit einem CRV von 2 reicht eine Trefferquote von 34 %, um über null '
+     + 'zu liegen. Deshalb steht daneben immer die Erwartung je Trade.' },
+  { k: 'profitfaktor profit factor',
+    t: 'Profitfaktor',
+    b: 'Summe aller Gewinne geteilt durch die Summe aller Verluste. Über 1.0 '
+     + 'verdient das Depot, unter 1.0 verliert es. 1.5 gilt bei wenigen '
+     + 'hundert Trades noch als gut vereinbar mit reinem Zufall — die Zahl '
+     + 'wird erst mit der Stichprobe aussagekräftig.' },
+  { k: 'drawdown rueckgang groesster rueckgang',
+    t: 'Grösster Rückgang',
+    b: 'Der tiefste Absturz vom bisherigen Höchststand des Depots bis zum '
+     + 'folgenden Tief, in Prozent. Er misst nicht das Ergebnis, sondern was '
+     + 'man unterwegs aushalten musste. Zwei Depots mit derselben Rendite '
+     + 'sind nicht gleich gut, wenn eines zwischendurch 40 % verloren hat.' },
+  { k: 'marktphase regime marktregime marktrichtung',
+    t: 'Marktphase',
+    b: 'Steht der S&P 500 über oder unter seiner 200-Tage-Linie, und wie '
+     + 'hoch ist der VIX. Die Phase ist ausdrücklich <em>kein</em> Filter: '
+     + 'Es werden immer gleich viele Titel gekauft, sonst wäre der Vergleich '
+     + 'mit dem Zufallsdepot wertlos. Sie ist ein Merkmal für die '
+     + 'Lernschleife — sie darf lernen, in welcher Phase die Auswahl trägt.' },
+  { k: 'vix angstindex volatilitaetsindex',
+    t: 'VIX',
+    b: 'Die vom Optionsmarkt erwartete Schwankung des S&P 500 für die '
+     + 'nächsten 30 Tage. Unter 15 ist der Markt ruhig, über 25 nervös, über '
+     + '35 im Ausnahmezustand. Er fliesst hier in die Marktphase ein.' },
+  { k: 'spy sp500 500 index benchmark vergleichsindex',
+    t: 'SPY',
+    b: 'Der Fonds auf den S&P 500, hier der dritte Vergleich: einfach kaufen '
+     + 'und liegen lassen. Er ist die härteste Messlatte — wer den Index '
+     + 'nicht schlägt, hätte sich die ganze Auswahl sparen können.' },
+  { k: 'slippage ausfuehrungskosten spread',
+    t: 'Slippage',
+    b: 'Fünf Basispunkte (0.05 %) werden bei jedem Kauf und jedem Verkauf '
+     + 'abgezogen, weil man in Wirklichkeit nie exakt zum notierten Kurs '
+     + 'handelt. Ohne diesen Abzug sähe jede Simulation besser aus, als sie '
+     + 'ist.' },
+  { k: 't wert twert tvalue signifikanz zufall statistisch',
+    t: 't-Wert',
+    b: 'Wie deutlich ein gemessener Unterschied gegen das Rauschen steht: der '
+     + 'Unterschied geteilt durch seinen Standardfehler. Über 2 ist er '
+     + 'schwer als Zufall zu erklären. Die Lernschleife richtet ihre '
+     + 'Schrittweite nach dem t-Wert, nicht nach der Grösse des Unterschieds '
+     + '— ein grosser Vorsprung aus fünf Trades bewegt hier fast nichts.' },
+  { k: 'lernschritt belohnung bestrafung belohnt bestraft lernrate',
+    t: 'Belohnung und Bestrafung',
+    b: 'Nach jedem Abrechnungslauf wird geprüft, ob die Trades mit hohem Wert '
+     + 'einer Komponente besser liefen als die mit tiefem. War der '
+     + 'Unterschied deutlich, steigt das Gewicht dieser Komponente, sonst '
+     + 'sinkt es. Dasselbe gilt für die Kursziel-Methoden und die Branchen. '
+     + 'Alle Grenzen sind hart, jeder Schritt steht im Protokoll unter «Was '
+     + 'das System gelernt hat».' },
+  { k: 'kontrollgruppe zufallsdepot vergleichsdepot',
+    t: 'Warum es zwei Depots gibt',
+    b: 'Beide starten mit 100 000 USD, kaufen gleich viele Titel aus '
+     + 'demselben Topf, mit derselben Positionsgrösse, denselben Stops und '
+     + 'denselben Ausstiegsregeln. Der einzige Unterschied ist die Auswahl. '
+     + 'Damit misst der Vergleich wirklich die Analyse und nicht die '
+     + 'Handelsmechanik. Gelernt wird ausschliesslich aus dem Analysedepot — '
+     + 'das Zufallsdepot muss unberührt bleiben, sonst misst es nichts mehr.' },
+  { k: 'kgv forward pe kursgewinnverhaeltnis bewertung',
+    t: 'Forward-KGV',
+    b: 'Kurs geteilt durch den für das nächste Jahr geschätzten Gewinn je '
+     + 'Aktie. Verglichen wird immer gegen den Median der eigenen Branche, '
+     + 'nie absolut: Ein KGV von 30 ist für einen Versorger teuer und für '
+     + 'einen Halbleiterhersteller normal.' },
+  { k: 'roe eigenkapitalrendite',
+    t: 'ROE',
+    b: 'Gewinn im Verhältnis zum Eigenkapital — wie viel das Unternehmen aus '
+     + 'dem Geld macht, das ihm gehört. Eine der vier Zahlen hinter der '
+     + 'Komponente «Fundamentale Qualität», neben Marge, Umsatzwachstum und '
+     + 'Verschuldung.' },
+  { k: 'marge gewinnmarge nettomarge margin',
+    t: 'Marge',
+    b: 'Wie viel vom Umsatz als Gewinn übrig bleibt. Hohe Margen sind ein '
+     + 'Zeichen für Preissetzungsmacht — der Anbieter kann Kosten '
+     + 'weitergeben, ohne Kunden zu verlieren.' },
+  { k: 'beta schwankung relativ',
+    t: 'Beta',
+    b: 'Wie stark der Titel gegenüber dem Gesamtmarkt schwankt. Beta 1.5 '
+     + 'heisst: Bewegt sich der Markt um 1 %, bewegt sich dieser Titel '
+     + 'historisch um 1.5 %. Über 2 gibt es hier einen Abzug auf den Score.' },
+  { k: 'datenabdeckung coverage abdeckung',
+    t: 'Datenabdeckung',
+    b: 'Der Anteil der sieben Score-Komponenten, für die überhaupt Daten '
+     + 'vorlagen. Fehlen zu viele — meist weil Yahoo keine Fundamentaldaten '
+     + 'liefert —, wird der Titel gar nicht erst als Idee zugelassen. Ein '
+     + 'Score aus drei von sieben Komponenten wäre eine Zahl ohne Deckung.' },
+  { k: 'zeitablauf haltedauer horizont handelstage',
+    t: 'Zeitablauf',
+    b: 'Wird nach 20 Handelstagen weder Ziel noch Stop berührt, wird zum '
+     + 'Schlusskurs verkauft. Das ist der dritte mögliche Ausgang neben Ziel '
+     + 'und Stop, und er ist häufiger, als man denkt — deshalb steht er im '
+     + 'Balken auf jeder Ideenkarte mit seiner gemessenen Quote.' },
+  { k: 'analystenkonsens analysten analystenziel',
+    t: 'Analystenkonsens (Methode 3)',
+    b: 'Das mittlere 12-Monats-Kursziel der Analysten, erst ab drei '
+     + 'Schätzungen verwendet. Es wirkt hier als <em>Neigung</em> von '
+     + 'höchstens ±30 %, nicht als eigenes Ziel. Grund: Ein Jahresziel auf '
+     + '15 Handelstage heruntergerechnet liegt fast immer auf Kursniveau und '
+     + 'zöge jeden Mittelwert zum Kurs — bei einem Test an echten Apple-Daten '
+     + 'fiel das CRV dadurch von 2.6 auf 0.84.' },
+  { k: 'bewertungsanker fairwert fairer value',
+    t: 'Bewertungsanker (Methode 4)',
+    b: 'Geschätzter Gewinn je Aktie mal dem Median-Forward-KGV der Branche '
+     + 'ergibt einen fairen Kurs. Der Abstand zum heutigen Kurs wirkt als '
+     + 'Neigung von höchstens ±30 % — aus demselben Grund wie beim '
+     + 'Analystenkonsens.' },
+  { k: 'gemessene bewegung measured move struktur widerstand',
+    t: 'Struktur / gemessene Bewegung (Methode 2)',
+    b: 'Der nächste Widerstand ist das 55-Tage-Hoch, aber nur, wenn er weiter '
+     + 'als eine ATR entfernt liegt — näher ist er Rauschen und kein '
+     + 'Widerstand. Sonst wird die Spanne der letzten 20 Tage an das '
+     + '55-Tage-Hoch angesetzt, gekappt bei 6 ATR.' },
+  { k: 'atrprojektion projektion methode 1',
+    t: 'ATR-Projektion (Methode 1)',
+    b: 'Kurs plus k mal ATR. Das k ist nicht geraten, sondern je Branche aus '
+     + 'der wöchentlichen Kalibrierung gemessen und wird von der Lernschleife '
+     + 'nachgeführt: Wurde das Ziel häufiger erreicht, als die Basisquote '
+     + 'erwarten liess, darf es weiter hinaus.' },
+  { k: 'normierung summe 1 normiert',
+    t: 'Normierung auf Summe 1',
+    b: 'Nach jedem Lernschritt werden die sieben Score-Gewichte so skaliert, '
+     + 'dass sie zusammen 1 ergeben. Deshalb bewegt sich auch ein Gewicht, '
+     + 'das gar nicht bewertet wurde — eine Verschiebung allein ist noch '
+     + 'keine Belohnung. Was tatsächlich belohnt oder bestraft wurde, steht '
+     + 'im Protokoll.' },
+  { k: 'relative staerke rs',
+    t: 'Relative Stärke',
+    b: 'Wie sich der Titel im Vergleich zum S&P 500 über dieselbe Zeit '
+     + 'geschlagen hat. Ein Kurs, der nur mit dem ganzen Markt gestiegen ist, '
+     + 'hat nichts bewiesen — die relative Stärke trennt das eine vom '
+     + 'anderen.' },
+  { k: 'sentiment stimmung nachrichten news',
+    t: 'News-Sentiment',
+    b: 'Die einzige Stelle, an der das Sprachmodell mitrechnet. Es liest die '
+     + 'Tagesnachrichten je Kandidat und gibt einen Wert von −1 bis +1, dazu '
+     + 'Katalysatoren, Risiken und einen Satz These. Kursziele rechnet es '
+     + 'ausdrücklich nicht: Sprachmodelle sind bei Zahlen unzuverlässig.' },
+  { k: 'aus schalter pause pausieren abschalten',
+    t: 'Aus-Schalter',
+    b: 'Der Schalter oben auf der Seite sendet einen Befehl an ein '
+     + 'öffentliches ntfy-Thema. Jeder Lauf fragt dieses Thema zuerst ab und '
+     + 'bricht bei «pausiert» sofort ab. Weil der Zustand danach im Repo '
+     + 'liegt und nicht im Zwischenspeicher von ntfy, hält die Pause '
+     + 'beliebig lange.' },
+];
+
+// ── Suche in den Daten ─────────────────────────────────────────────────────
+
+function universum() {
+  return (WISSEN.latest && WISSEN.latest.universum) || [];
+}
+
+function ideenListe() {
+  return (WISSEN.latest && WISSEN.latest.ideen) || [];
+}
+
+/** Enthaelt die Frage dieses Wort? Kurze Woerter nur als ganzes Wort —
+ *  sonst faende "r" jede Frage und "pe" jedes "Kompetenz". */
+function enthaelt(frageNorm, wort) {
+  if (wort.length >= 4) return frageNorm.indexOf(wort) >= 0;
+  return (' ' + frageNorm + ' ').indexOf(' ' + wort + ' ') >= 0;
+}
+
+/** Den gemeinten Titel finden. Kuerzel schlagen Namen, Namen schlagen
+ *  nichts. */
+function findeTitel(roh, frageNorm) {
+  const alle = universum();
+  if (!alle.length) return null;
+
+  const nachKuerzel = {};
+  alle.forEach((e) => { nachKuerzel[String(e.symbol).toUpperCase()] = e; });
+
+  // 1. Grossgeschrieben in der Frage — das ist eindeutig gemeint.
+  const gross = String(roh).match(/\b[A-Z][A-Z0-9.]{0,5}\b/g) || [];
+  for (const wort of gross) {
+    if (nachKuerzel[wort]) return { eintrag: nachKuerzel[wort], punkte: 120 };
+  }
+
+  // 2. Kleingeschrieben, ab drei Zeichen und kein deutsches Wort.
+  const worte = frageNorm.split(' ');
+  for (const wort of worte) {
+    if (wort.length < 3 || KEIN_KUERZEL.has(wort)) continue;
+    const treffer = nachKuerzel[wort.toUpperCase()];
+    if (treffer) return { eintrag: treffer, punkte: 100 };
+    const alias = KUERZEL_ALIAS[wort];
+    if (alias && nachKuerzel[alias]) {
+      return { eintrag: nachKuerzel[alias], punkte: 100 };
+    }
+  }
+
+  // 3. Ueber den Firmennamen — als ganzes Wort. Als Teilzeichenkette steckt
+  //    "dell" in "sprachmodell" und "ford" in "gefordert": die Frage nach dem
+  //    Sprachmodell landete so bei Dell Technologies.
+  let beste = null;
+  const gefragt = new Set(worte);
+  alle.forEach((e) => {
+    schlicht(e.name).split(' ').forEach((teil) => {
+      if (teil.length < 4 || KEIN_NAME.has(teil)
+          || KEIN_KUERZEL.has(teil)) return;
+      if (!gefragt.has(teil)) return;
+      const punkte = 70 + teil.length * 2;
+      if (!beste || punkte > beste.punkte) beste = { eintrag: e, punkte };
+    });
+  });
+  return beste;
+}
+
+// ── Antworten ──────────────────────────────────────────────────────────────
+
+function paarBlock(paare) {
+  const gefuellt = paare.filter((p) => p[1] !== null && p[1] !== undefined
+                                       && p[1] !== '' && p[1] !== '—');
+  if (!gefuellt.length) return '';
+  return `<div class="paare antwort-paare">${gefuellt.map(([marke, wert]) => `
+    <div class="paar">
+      <span class="marke">${esc(marke)}</span>
+      <span class="zahl">${wert}</span>
+    </div>`).join('')}</div>`;
+}
+
+function antwortTitel(e) {
+  const alle = universum();
+  const bewertet = alle
+    .filter((x) => x.score !== null && x.score !== undefined)
+    .slice()
+    .sort((a, b) => b.score - a.score);
+  const rang = bewertet.findIndex((x) => x.symbol === e.symbol) + 1;
+
+  const ideen = ideenListe();
+  const idee = ideen.filter((i) => i.symbol === e.symbol)[0] || null;
+
+  const richtung = (e.upside_pct || 0) >= 0 ? 'auf' : 'ab';
+  // Erst faerben, wenn es etwas zu faerben gibt: ein <span> um einen
+  // Gedankenstrich rutscht sonst durch den Leerfilter und die Karte zeigt
+  // "Ziel —" statt die Zeile wegzulassen.
+  const gefaerbt = (wert, klasse) =>
+    wert === null || wert === undefined ? null
+      : `<span class="${klasse}">${wert}</span>`;
+  const paare = paarBlock([
+    ['Kurs', e.price === null || e.price === undefined ? null : zahl(e.price)],
+    ['Ziel', gefaerbt(e.target === null || e.target === undefined
+      ? null : zahl(e.target), 'auf')],
+    ['Potenzial', gefaerbt(e.upside_pct === null || e.upside_pct === undefined
+      ? null : prozent(e.upside_pct, 1, true), richtung)],
+    ['Stop', gefaerbt(e.stop === null || e.stop === undefined
+      ? null : zahl(e.stop), 'ab')],
+    ['CRV', e.reward_risk === null || e.reward_risk === undefined
+      ? null : zahl(e.reward_risk, 2)],
+    ['Score', e.score === null || e.score === undefined
+      ? null : zahl(e.score, 3)],
+    ['Ziel erreicht', e.p_ziel === null || e.p_ziel === undefined ? null : anteil(e.p_ziel)],
+    ['Basiserwartung', e.basis_erwartung_r === null || e.basis_erwartung_r === undefined
+      ? null : rWert(e.basis_erwartung_r)],
+  ]);
+
+  const teile = [];
+  const wo = rang ? ` Unter den ${zahl(bewertet.length, 0)} bewerteten Titeln
+                     steht er auf Rang ${zahl(rang, 0)}.` : '';
+
+  if (idee) {
+    const anzahl = ideen.length;
+    teile.push(`<p><strong>${esc(e.symbol)} steht heute auf der Liste</strong> —
+      eine von ${zahl(anzahl, 0)} Ideen.${wo} Gekauft wird zur nächsten
+      Eröffnung.</p>`);
+    if (idee.llm && idee.llm.these) {
+      teile.push(`<p class="these">${esc(idee.llm.these)}</p>`);
+    }
+    teile.push(`<p class="antwort-verweis"><a href="#idee-${esc(e.symbol)}">Zur
+      Karte mit der vollständigen Herleitung</a></p>`);
+  } else if (e.tradeable === false) {
+    teile.push(`<p><strong>${esc(e.symbol)} ist heute keine Idee.</strong>
+      Grund: ${esc(e.reject_reason || 'nicht angegeben')}.${wo}</p>`);
+  } else if (e.tradeable === true) {
+    teile.push(`<p><strong>${esc(e.symbol)} hätte heute alle Hürden genommen,
+      steht aber nicht auf der Liste.</strong>${wo} Genommen werden die besten
+      nach Score, und der reichte nicht so weit. Möglich ist auch die
+      Branchengrenze: aus einer Branche kommen nicht beliebig viele Titel.</p>`);
+  } else {
+    const abd = e.coverage === null || e.coverage === undefined
+      ? null : anteil(e.coverage);
+    teile.push(`<p><strong>${esc(e.symbol)} wurde bewertet, aber nicht als Idee
+      geprüft.</strong> ${abd ? `Die Datenabdeckung liegt bei ${abd} der sieben
+      Komponenten — unter der Schwelle wird ein Titel gar nicht erst
+      zugelassen.` : 'Es fehlten Daten für die Prüfung.'}${wo}</p>`);
+  }
+
+  return {
+    titel: `${e.symbol}${e.name ? ' · ' + e.name : ''}${e.sector ? ' · ' + e.sector : ''}`,
+    html: teile.join('') + paare,
+  };
+}
+
+function antwortUnbekannt(roh) {
+  const d = WISSEN.latest;
+  // Vor dem ersten Lauf ist NICHTS bekannt. Dann "gehoert nicht zum
+  // Universum" zu antworten waere eine Behauptung ueber den Titel, wo in
+  // Wahrheit nur die Analyse fehlt.
+  if (!d || !(d.universum || []).length) {
+    return {
+      titel: 'Noch keine Analyse',
+      html: `<p>Zu «${esc(String(roh).slice(0, 60))}» kann ich nichts sagen:
+        Es liegt noch keine Tagesanalyse vor, aus der ich antworten könnte.
+        Der Vorbörsenlauf startet werktags um 14:15 Schweizer Zeit.</p>
+        <p class="notiz">Fachwörter der Seite lassen sich trotzdem
+        nachschlagen — etwa «was heisst CRV».</p>`,
+    };
+  }
+  const geprueft = d.scored ? zahl(d.scored, 0) : null;
+  const raus = d.excluded ? zahl(d.excluded, 0) : null;
+  return {
+    titel: 'Nicht im geprüften Universum',
+    html: `<p>Zu «${esc(String(roh).slice(0, 60))}» steht in den Daten dieser
+      Seite nichts.${geprueft ? ` Geprüft werden die ${geprueft} Titel aus
+      S&amp;P 500 und Nasdaq 100, für die genug Kurshistorie vorliegt.` : ''}
+      ${raus ? ` Weitere ${raus} fielen vorher an einem harten Ausschluss
+      heraus: Kurs unter 5 USD, zu geringes Handelsvolumen oder Lücken in den
+      Kursdaten.` : ''}</p>
+      <p class="notiz">Ein Titel ausserhalb dieser beiden Indizes wird hier gar
+      nicht analysiert.</p>`,
+  };
+}
+
+function antwortBranche(branche) {
+  const alle = universum().filter((e) => e.sector === branche);
+  if (!alle.length) return null;
+  const bewertet = alle
+    .filter((e) => e.score !== null && e.score !== undefined)
+    .slice()
+    .sort((a, b) => b.score - a.score);
+  const handelbar = alle.filter((e) => e.tradeable === true).length;
+  const ideen = ideenListe().filter((i) => i.sector === branche);
+
+  const zeilen = bewertet.slice(0, 6).map((e) => `
+    <tr>
+      <td class="zahl">${esc(e.symbol)}</td>
+      <td class="zahl">${zahl(e.score, 3)}</td>
+      <td class="zahl ${(e.upside_pct || 0) >= 0 ? 'auf' : 'ab'}">${prozent(e.upside_pct, 1, true)}</td>
+      <td class="links">${esc(e.name || '')}</td>
+    </tr>`).join('');
+
+  const w = WISSEN.gewichte || {};
+  const mult = (w.sector_multiplier || {})[branche];
+  const gelernt = mult === undefined || mult === null ? '' : `
+    <p class="notiz">Gelernter Multiplikator auf den Score dieser Branche:
+       ${zahl(mult, 3)}. ${mult > 1 ? 'Über 1 heisst: Trades dieser Branche '
+       + 'liefen besser als alle übrigen zusammen.'
+       : mult < 1 ? 'Unter 1 heisst: Trades dieser Branche liefen schlechter '
+       + 'als alle übrigen zusammen.' : 'Genau 1 heisst: noch kein '
+       + 'gemessener Unterschied.'}</p>`;
+
+  return {
+    titel: `Branche ${branche}`,
+    html: `<p>${zahl(alle.length, 0)} Titel im Universum, davon
+      ${zahl(bewertet.length, 0)} bewertet und ${zahl(handelbar, 0)} heute
+      handelbar. ${ideen.length === 1 ? 'Auf der Ideenliste steht einer davon.'
+        : ideen.length === 0 ? 'Auf der Ideenliste steht keiner davon.'
+        : `Auf der Ideenliste stehen ${zahl(ideen.length, 0)} davon.`}</p>
+      ${zeilen ? `<div class="tabelle-huelle"><table>
+        <thead><tr><th>Kürzel</th><th>Score</th><th>Potenzial</th>
+          <th class="links">Name</th></tr></thead>
+        <tbody>${zeilen}</tbody></table></div>` : ''}
+      ${gelernt}`,
+  };
+}
+
+const RANGLISTEN = {
+  score: { feld: 'score', name: 'Höchster Score', stellen: 3,
+           format: (e) => zahl(e.score, 3) },
+  upside: { feld: 'upside_pct', name: 'Grösstes Potenzial', stellen: 1,
+            format: (e) => prozent(e.upside_pct, 1, true) },
+  crv: { feld: 'reward_risk', name: 'Bestes Chance-Risiko-Verhältnis',
+         stellen: 2, format: (e) => zahl(e.reward_risk, 2) },
+  treffer: { feld: 'p_ziel', name: 'Höchste gemessene Trefferquote',
+             stellen: 0, format: (e) => anteil(e.p_ziel) },
+};
+
+function antwortRangliste(art) {
+  const def = RANGLISTEN[art];
+  const alle = universum().filter((e) => {
+    const v = e[def.feld];
+    return v !== null && v !== undefined;
+  });
+  if (!alle.length) return null;
+  const sortiert = alle.slice().sort((a, b) => b[def.feld] - a[def.feld]);
+  const zeilen = sortiert.slice(0, 8).map((e, i) => `
+    <tr>
+      <td class="zahl leise">${i + 1}</td>
+      <td class="zahl">${esc(e.symbol)}</td>
+      <td class="zahl">${def.format(e)}</td>
+      <td class="links">${esc(e.name || '')}</td>
+      <td class="zahl leise">${e.tradeable === true ? 'handelbar' : '—'}</td>
+    </tr>`).join('');
+
+  return {
+    titel: def.name,
+    html: `<div class="tabelle-huelle"><table>
+        <thead><tr><th>#</th><th>Kürzel</th>
+          <th>${esc(def.name.split(' ').slice(1).join(' ') || 'Wert')}</th>
+          <th class="links">Name</th><th>Status</th></tr></thead>
+        <tbody>${zeilen}</tbody></table></div>
+      <p class="notiz">Aus allen ${zahl(alle.length, 0)} bewerteten Titeln.
+        «Handelbar» heisst: alle drei Hürden genommen — es heisst nicht, dass
+        der Titel auf der Ideenliste steht, dorthin kommen nur die besten nach
+        Score.</p>`,
+  };
+}
+
+function antwortDepots() {
+  const eq = WISSEN.equity;
+  if (!eq || !eq.statistik || !eq.statistik.ki) {
+    return {
+      titel: 'Depotvergleich',
+      html: `<p>Noch keine Handelshistorie. Beide Depots starten mit
+        ${zahl(100000, 0)} USD; sobald der erste Abrechnungslauf durch ist,
+        stehen hier Rendite, Trefferquote und Erwartung je Trade.</p>`,
+    };
+  }
+  const a = eq.statistik.ki, z = eq.statistik.zufall || {};
+  const start = eq.start_capital || 100000;
+  const spy = eq.spy && eq.spy.length
+    ? (eq.spy[eq.spy.length - 1].equity / start - 1) * 100 : null;
+
+  return {
+    titel: 'Schlägt die Analyse den Zufall?',
+    html: `${paarBlock([
+      ['Analyse', a.return_pct === null || a.return_pct === undefined ? null
+        : `<span class="${a.return_pct >= 0 ? 'auf' : 'ab'}">${prozent(a.return_pct, 2, true)}</span>`],
+      ['Zufall', z.return_pct === undefined ? null
+        : `<span class="${z.return_pct >= 0 ? 'auf' : 'ab'}">${prozent(z.return_pct, 2, true)}</span>`],
+      ['SPY', spy === null ? null
+        : `<span class="${spy >= 0 ? 'auf' : 'ab'}">${prozent(spy, 2, true)}</span>`],
+      ['Trades Analyse', zahl(a.trades, 0)],
+      ['Trefferquote', a.win_rate === null ? null : prozent(a.win_rate)],
+      ['Erwartung je Trade', rWert(a.expectancy_r)],
+      ['Profitfaktor', a.profit_factor === null ? null : zahl(a.profit_factor, 2)],
+      ['Grösster Rückgang', a.max_drawdown_pct === null ? null
+        : `<span class="ab">${prozent(a.max_drawdown_pct, 2)}</span>`],
+    ])}
+    <p>${esc(vorsprungText(eq.statistik) || 'Der Vergleich steht oben im '
+      + 'Abschnitt zum Depotvergleich.')}</p>`,
+  };
+}
+
+function antwortLernen() {
+  const w = WISSEN.gewichte;
+  if (!w) {
+    return {
+      titel: 'Was das System gelernt hat',
+      html: `<p>Noch nichts. Die Datei mit den gelernten Gewichten entsteht
+        beim ersten Abrechnungslauf.</p>`,
+    };
+  }
+  const verlauf = (w.history || []).filter((e) => e && e.date);
+  const gesehen = w.trades_seen || 0;
+  const min = (w.regeln || {}).min_trades || 20;
+
+  if (!verlauf.length) {
+    return {
+      titel: 'Was das System gelernt hat',
+      html: gesehen < min
+        ? `<p>Noch nichts — und das ist Absicht. Verändert wird erst ab
+           ${zahl(min, 0)} abgeschlossenen Trades des Analysedepots, bisher
+           sind es ${zahl(gesehen, 0)}. Darunter wäre jede Anpassung Rauschen.</p>`
+        : `<p>Aus ${zahl(gesehen, 0)} Trades gelernt, ohne eine einzige
+           Änderung: Kein gemessener Unterschied war deutlich genug. Die
+           Schrittweite richtet sich nach der Sicherheit der Messung, nicht
+           nach ihrer Grösse.</p>`,
+    };
+  }
+
+  // Welches Gewicht hat sich seit dem Start am weitesten bewegt? Das ist
+  // die Antwort, die man eigentlich meint, wenn man "was hat es gelernt"
+  // fragt — nicht die Liste aller Zahlen.
+  const labels = (w.labels || {}).score || {};
+  const start = (w.start || {}).score_weights || {};
+  const bewegung = Object.keys(w.score_weights || {})
+    .map((k) => ({ k, name: labels[k] || k,
+                   von: start[k], nach: w.score_weights[k],
+                   d: (w.score_weights[k] || 0) - (start[k] || 0) }))
+    .filter((r) => r.von !== undefined)
+    .sort((a, b) => Math.abs(b.d) - Math.abs(a.d));
+
+  const letzte = verlauf[verlauf.length - 1];
+  const zeilen = (letzte.changes || []).slice(0, 6);
+
+  return {
+    titel: 'Was das System gelernt hat',
+    html: `<p>${zahl(verlauf.length, 0)} Lernschritte aus
+      ${zahl(gesehen, 0)} abgeschlossenen Trades, zuletzt am
+      ${datumLang(letzte.date)}.</p>
+      ${bewegung.length ? `<p>Am weitesten bewegt hat sich das Gewicht der
+        Komponente <strong>${esc(bewegung[0].name)}</strong>: von
+        ${zahl(bewegung[0].von, 3)} auf ${zahl(bewegung[0].nach, 3)}
+        (${bewegung[0].d >= 0 ? '+' : ''}${zahl(bewegung[0].d, 3)}).</p>` : ''}
+      ${zeilen.length ? `<p class="marke">Der letzte Schritt</p>
+        <div class="schritt">${esc(zeilen.join('\n'))}</div>` : ''}
+      <p class="notiz">Achtung beim Lesen: Nach jedem Schritt wird auf Summe 1
+        normiert, deshalb bewegt sich auch, was gar nicht bewertet wurde. Nur
+        das Protokoll sagt, was wirklich belohnt oder bestraft wurde.</p>`,
+  };
+}
+
+function antwortZustand() {
+  const s = WISSEN.status;
+  const d = WISSEN.latest;
+  if (!s) {
+    return { titel: 'Zustand',
+             html: '<p>Es liegt noch kein Laufprotokoll vor.</p>' };
+  }
+  const name = LAUF_NAME[s.lauf] || s.lauf || 'Lauf';
+  return {
+    titel: 'Zustand des Systems',
+    html: `${paarBlock([
+      ['Letzter Lauf', esc(name)],
+      ['Zeitpunkt', esc(zeitpunkt(s.letzter_lauf))],
+      ['Ergebnis', esc(s.ergebnis || '—')],
+      ['Dauer', s.sekunden === undefined ? null : zahl(s.sekunden, 0) + ' s'],
+      ['Sprachmodell', s.sprachmodell === true ? '<span class="auf">bereit</span>'
+        : s.sprachmodell === false ? '<span class="ab">ausgefallen</span>' : null],
+      ['Bewertete Titel', d && d.scored ? zahl(d.scored, 0) : null],
+    ])}
+    <p class="notiz">Der Vorbörsenlauf startet werktags um 14:15 Schweizer
+      Zeit, die Abrechnung um 00:00. Der Schalter oben auf der Seite hält beide
+      an.</p>`,
+  };
+}
+
+function antwortIdeen() {
+  const ideen = ideenListe();
+  const d = WISSEN.latest;
+  if (!d) {
+    return { titel: 'Ideen des Tages',
+             html: '<p>Noch keine Analyse — der erste Vorbörsenlauf steht aus.</p>' };
+  }
+  if (!ideen.length) {
+    return {
+      titel: 'Ideen des Tages',
+      html: `<p>Für den ${datumLang(d.date)} keine einzige Idee, die alle drei
+        Hürden nimmt. Keine Auswahl ist auch eine Auswahl.</p>`,
+    };
+  }
+  const zeilen = ideen.map((e) => `
+    <tr>
+      <td class="zahl"><a href="#idee-${esc(e.symbol)}">${esc(e.symbol)}</a></td>
+      <td class="zahl">${zahl(e.price)}</td>
+      <td class="zahl auf">${zahl(e.target)}</td>
+      <td class="zahl ${(e.upside_pct || 0) >= 0 ? 'auf' : 'ab'}">${prozent(e.upside_pct, 1, true)}</td>
+      <td class="links">${esc(e.name || '')}</td>
+    </tr>`).join('');
+  return {
+    titel: `Ideen vom ${datumLang(d.date)}`,
+    html: `<div class="tabelle-huelle"><table>
+        <thead><tr><th>Kürzel</th><th>Kurs</th><th>Ziel</th><th>Potenzial</th>
+          <th class="links">Name</th></tr></thead>
+        <tbody>${zeilen}</tbody></table></div>
+      <p class="notiz">Aus ${zahl(d.scored || 0, 0)} bewerteten Titeln. Alle
+        werden zur nächsten Eröffnung virtuell gekauft.</p>`,
+  };
+}
+
+function antwortBegriff(g) {
+  return { titel: g.t, html: `<p>${g.b}</p>` };
+}
+
+function antwortHilfe(roh) {
+  return {
+    titel: 'Das habe ich nicht verstanden',
+    html: `<p>Zu «${esc(String(roh).slice(0, 60))}» finde ich in den Daten
+      dieser Seite nichts. Diese Zeile durchsucht keine Nachrichten und kennt
+      keine Kurse ausserhalb der letzten Analyse — sie antwortet aus den
+      Dateien, die oben dargestellt sind.</p>
+      <p>Was geht: ein Kürzel oder Firmenname (<em>NVDA</em>, <em>Apple</em>),
+      eine Branche (<em>Technologie</em>), eine Rangliste (<em>bestes
+      CRV</em>), der Stand der Depots, was gelernt wurde — und jedes
+      Fachwort der Seite (<em>was heisst Basisquote</em>).</p>`,
+  };
+}
+
+// ── Die Frage auf einen Antwortgeber abbilden ──────────────────────────────
+
+/** Alle plausiblen Antworten mit Punkten. Die beste wird gezeigt, die
+ *  zweitbeste als Verweis angeboten — wer nach "CRV von AAPL" fragt, meint
+ *  vielleicht das eine oder das andere. */
+function kandidaten(roh) {
+  const f = schlicht(roh);
+  if (!f) return [];
+  const aus = [];
+  const zaehle = (worte) => worte.filter((wo) => enthaelt(f, wo)).length;
+
+  const titel = findeTitel(roh, f);
+  if (titel) {
+    aus.push({ punkte: titel.punkte,
+               kurz: titel.eintrag.symbol,
+               bauen: () => antwortTitel(titel.eintrag) });
+  }
+
+  // Branche
+  let branche = null;
+  const branchen = {};
+  universum().forEach((e) => { if (e.sector) branchen[e.sector] = true; });
+  Object.keys(branchen).forEach((b) => {
+    if (enthaelt(f, schlicht(b))) branche = b;
+  });
+  if (!branche) {
+    Object.keys(BRANCHEN_ALIAS).forEach((wo) => {
+      if (enthaelt(f, wo) && branchen[BRANCHEN_ALIAS[wo]]) {
+        branche = BRANCHEN_ALIAS[wo];
+      }
+    });
+  }
+  if (branche) {
+    const knapp = f.split(' ').length <= 2 ? 30 : 0;
+    aus.push({ punkte: 65 + knapp, kurz: branche,
+               bauen: () => antwortBranche(branche) });
+  }
+
+  // Rangliste — der Superlativ entscheidet, ob jemand eine Liste will oder
+  // eine Erklaerung. "was ist der score" und "bester score" sind zwei Fragen.
+  const superlativ = zaehle(['beste', 'besten', 'bester', 'top', 'hoechste',
+                             'hoechsten', 'groesste', 'groessten', 'meiste',
+                             'staerkste', 'rangliste', 'ranking']);
+  if (superlativ) {
+    const arten = [
+      ['crv', ['crv', 'chance', 'risiko', 'reward']],
+      ['upside', ['potenzial', 'upside', 'aufwaerts', 'rendite']],
+      ['treffer', ['trefferquote', 'wahrscheinlich', 'treffer']],
+      ['score', ['score', 'bewertung', 'aktie', 'aktien', 'titel']],
+    ];
+    for (const [art, worte] of arten) {
+      const n = zaehle(worte);
+      if (n) {
+        aus.push({ punkte: 40 + superlativ * 20 + n * 10, kurz: RANGLISTEN[art].name,
+                   bauen: () => antwortRangliste(art) });
+        break;
+      }
+    }
+  }
+
+  const gruppen = [
+    [['depot', 'depots', 'rendite', 'performance', 'zufall', 'schlaegt',
+      'vorsprung', 'trefferquote', 'profitfaktor', 'drawdown', 'rueckgang',
+      'gewinn', 'verlust', 'kurve'], 'Depotvergleich', antwortDepots],
+    [['gelernt', 'lernen', 'lernkurve', 'lernschritt', 'gewicht', 'gewichte',
+      'belohnt', 'bestraft', 'belohnung', 'bestrafung'],
+     'Gelerntes', antwortLernen],
+    [['zustand', 'status', 'laeuft', 'lief', 'pausiert', 'letzter',
+      'zuletzt', 'wann', 'aktualisiert', 'sprachmodell', 'ollama',
+      'aktuell'], 'Zustand', antwortZustand],
+    [['idee', 'ideen', 'heute', 'vorschlag', 'vorschlaege', 'empfehlung',
+      'kaufen', 'gekauft'], 'Ideen des Tages', antwortIdeen],
+  ];
+  gruppen.forEach(([worte, kurz, fn]) => {
+    const n = zaehle(worte);
+    if (n) aus.push({ punkte: 38 + n * 14, kurz, bauen: fn });
+  });
+
+  // Nachschlagewerk
+  const erklaerfrage = zaehle(['was ist', 'was heisst', 'was bedeutet',
+                               'erklaer', 'erklaere', 'bedeutet', 'definition',
+                               'wofuer']) ? 35 : 0;
+  GLOSSAR.forEach((g) => {
+    const n = g.k.split(' ').filter((wo) => enthaelt(f, wo)).length;
+    if (n) {
+      aus.push({ punkte: 42 + n * 9 + erklaerfrage, kurz: g.t,
+                 bauen: () => antwortBegriff(g) });
+    }
+  });
+
+  return aus.sort((a, b) => b.punkte - a.punkte);
+}
+
+function beantworte(roh) {
+  const liste = kandidaten(roh);
+  if (!liste.length) {
+    // Ein Kuerzel, das es nicht gibt, ist etwas anderes als eine unklare
+    // Frage — und verdient eine andere Antwort.
+    const w = schlicht(roh).split(' ').filter(Boolean);
+    const inhalt = w.filter((x) => !KEIN_KUERZEL.has(x));
+    const nachTitel = w.length <= 3 && inhalt.length >= 1 && inhalt.length <= 2;
+    return { antwort: nachTitel ? antwortUnbekannt(roh) : antwortHilfe(roh),
+             weitere: [] };
+  }
+  let antwort = null, i = 0;
+  while (i < liste.length && !antwort) {
+    antwort = liste[i].bauen();       // Kann null sein, wenn Daten fehlen.
+    i += 1;
+  }
+  if (!antwort) return { antwort: antwortHilfe(roh), weitere: [] };
+
+  const weitere = [];
+  liste.slice(i).forEach((k) => {
+    if (k.punkte >= 45 && weitere.length < 3
+        && !weitere.some((x) => x.kurz === k.kurz)) {
+      weitere.push(k);
+    }
+  });
+  return { antwort, weitere };
+}
+
+// ── Die Zeile selbst ───────────────────────────────────────────────────────
+
+const BEISPIELE = ['NVDA', 'Was heisst CRV?', 'Bestes Chance-Risiko',
+                   'Branche Technologie', 'Was hat das System gelernt?'];
+
+let vorschlagIndex = -1;
+
+/** Vorschlaege waehrend des Tippens: Titel zuerst, dann Fachwoerter.
+ *  Bei 528 Titeln ist die Zeile ohne das eine Ratestunde. */
+function vorschlaegeFuer(text) {
+  const f = schlicht(text);
+  if (f.length < 2) return [];
+  const titel = [];
+  universum().forEach((e) => {
+    const sym = schlicht(e.symbol), nam = schlicht(e.name);
+    let rang = -1;
+    if (sym === f) rang = 0;
+    else if (sym.indexOf(f) === 0) rang = 1;
+    else if (nam.indexOf(f) === 0) rang = 2;
+    else if (nam.split(' ').some((wo) => wo.indexOf(f) === 0)) rang = 3;
+    if (rang >= 0) titel.push({ rang, text: e.symbol,
+                                zusatz: e.name || '', art: 'Titel' });
+  });
+
+  const begriffe = [];
+  GLOSSAR.forEach((g) => {
+    const woerter = schlicht(g.t).split(' ').concat(g.k.split(' '));
+    if (woerter.some((wo) => wo.indexOf(f) === 0)) {
+      begriffe.push({ rang: 0, text: g.t, zusatz: '', art: 'Begriff' });
+    }
+  });
+
+  // Getrennt begrenzen und dann zusammenlegen. Bei einer gemeinsamen Grenze
+  // draengen 528 Titel jedes Fachwort aus der Liste: "cr" zeigte sieben
+  // Kuerzel und nicht das CRV, nach dem gefragt war.
+  titel.sort((a, b) => a.rang - b.rang);
+  return titel.slice(0, begriffe.length ? 5 : 7)
+              .concat(begriffe.slice(0, 3))
+              .slice(0, 7);
+}
+
+function zeigeVorschlaege(liste) {
+  const feld = $('#frage-vorschlaege');
+  vorschlagIndex = -1;
+  if (!liste.length) {
+    feld.hidden = true;
+    feld.innerHTML = '';
+    $('#frage-feld').setAttribute('aria-expanded', 'false');
+    return;
+  }
+  feld.hidden = false;
+  feld.innerHTML = liste.map((v, i) => `
+    <button type="button" class="vorschlag" role="option" id="vorschlag-${i}"
+            data-wert="${esc(v.text)}">
+      <span class="${v.art === 'Titel' ? 'zahl kuerzel' : 'begriff'}">${esc(v.text)}</span>
+      ${v.zusatz ? `<span class="leise">${esc(v.zusatz)}</span>` : ''}
+      <span class="marke">${esc(v.art)}</span>
+    </button>`).join('');
+  $('#frage-feld').setAttribute('aria-expanded', 'true');
+}
+
+function markiereVorschlag(richtung) {
+  const knoepfe = Array.prototype.slice.call(
+    document.querySelectorAll('#frage-vorschlaege .vorschlag'));
+  if (!knoepfe.length) return;
+  vorschlagIndex = (vorschlagIndex + richtung + knoepfe.length + 2)
+                   % (knoepfe.length + 1) - 1;
+  knoepfe.forEach((k, i) => {
+    k.setAttribute('aria-selected', i === vorschlagIndex ? 'true' : 'false');
+  });
+  if (vorschlagIndex >= 0) {
+    $('#frage-feld').setAttribute('aria-activedescendant',
+                                  'vorschlag-' + vorschlagIndex);
+    knoepfe[vorschlagIndex].scrollIntoView({ block: 'nearest' });
+  } else {
+    $('#frage-feld').removeAttribute('aria-activedescendant');
+  }
+}
+
+function zeigeAntwort(roh) {
+  const feld = $('#frage-antwort');
+  const { antwort, weitere } = beantworte(roh);
+
+  const mehr = weitere.length ? `
+    <div class="antwort-mehr">
+      <span class="marke">Auch dazu</span>
+      ${weitere.map((w) => `<button type="button" class="knopf klein"
+        data-frage="${esc(w.kurz)}">${esc(w.kurz)}</button>`).join('')}
+    </div>` : '';
+
+  feld.innerHTML = `
+    <div class="karte antwort-karte">
+      <h3>${esc(antwort.titel)}</h3>
+      ${antwort.html}
+      ${mehr}
+    </div>`;
+
+  feld.querySelectorAll('.antwort-mehr .knopf').forEach((k) => {
+    k.addEventListener('click', () => {
+      $('#frage-feld').value = k.dataset.frage;
+      zeigeAntwort(k.dataset.frage);
+    });
+  });
+
+  feld.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+function frageEinrichten() {
+  const form = $('#frage-form');
+  const feld = $('#frage-feld');
+  const vor = $('#frage-vorschlaege');
+
+  $('#frage-beispiele').innerHTML = BEISPIELE.map((b) =>
+    `<button type="button" class="beispiel">${esc(b)}</button>`).join('');
+  $('#frage-beispiele').querySelectorAll('.beispiel').forEach((k) => {
+    k.addEventListener('click', () => {
+      feld.value = k.textContent;
+      zeigeVorschlaege([]);
+      zeigeAntwort(feld.value);
+    });
+  });
+
+  feld.addEventListener('input', () => {
+    zeigeVorschlaege(vorschlaegeFuer(feld.value));
+  });
+
+  feld.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowDown') { e.preventDefault(); markiereVorschlag(1); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); markiereVorschlag(-1); }
+    else if (e.key === 'Escape') { zeigeVorschlaege([]); }
+    else if (e.key === 'Enter' && vorschlagIndex >= 0) {
+      const gewaehlt = vor.querySelectorAll('.vorschlag')[vorschlagIndex];
+      if (gewaehlt) {
+        e.preventDefault();
+        feld.value = gewaehlt.dataset.wert;
+        zeigeVorschlaege([]);
+        feld.blur();
+        zeigeAntwort(feld.value);
+      }
+    }
+  });
+
+  vor.addEventListener('click', (e) => {
+    const knopf = e.target.closest('.vorschlag');
+    if (!knopf) return;
+    feld.value = knopf.dataset.wert;
+    zeigeVorschlaege([]);
+    feld.blur();
+    zeigeAntwort(feld.value);
+  });
+
+  // Ein Klick irgendwohin schliesst die Liste — sonst bleibt sie auf dem
+  // Handy stehen und verdeckt die Antwort.
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.frage-huelle')) zeigeVorschlaege([]);
+  });
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    zeigeVorschlaege([]);
+    feld.blur();
+    const text = feld.value.trim();
+    if (text) zeigeAntwort(text);
+  });
+}
+
 // ── Start ──────────────────────────────────────────────────────────────────
 
 async function start() {
@@ -1012,6 +2022,13 @@ async function start() {
   zeigeIdeen(latest);
   zeigeDepots(equity);
   zeigeLernen(gewichte);
+
+  // Die Fragezeile antwortet aus denselben Dateien — erst wenn sie da sind.
+  WISSEN.latest = latest;
+  WISSEN.equity = equity;
+  WISSEN.gewichte = gewichte;
+  WISSEN.status = status;
+  frageEinrichten();
 
   const kal = latest && latest.kalibrierung;
   $('#kalibrierung').textContent = kal && kal.text ? kal.text

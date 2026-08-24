@@ -70,6 +70,29 @@
     <div id="lernen"></div>
   </section>
 
+  <!-- Fragezeile. Antwortet aus genau den Dateien, die oben stehen —
+       siehe den Kommentar ueber der Fragezeile in app.js. -->
+  <section class="abschnitt" aria-labelledby="frage-titel">
+    <div class="abschnitt-kopf">
+      <h2 id="frage-titel">Fragen an die Zahlen</h2>
+    </div>
+    <div class="frage-huelle">
+      <form class="frage-form" id="frage-form" role="search">
+        <input class="frage-feld" id="frage-feld" type="search"
+               autocomplete="off" autocapitalize="off" spellcheck="false"
+               enterkeyhint="search" role="combobox" aria-expanded="false"
+               aria-autocomplete="list" aria-controls="frage-vorschlaege"
+               placeholder="Kürzel, Firma, Branche oder Fachwort"
+               aria-label="Frage zu den Aktien oder den Kennzahlen">
+        <button type="submit" class="knopf" id="frage-knopf">Fragen</button>
+      </form>
+      <div class="vorschlaege" id="frage-vorschlaege" role="listbox"
+           aria-label="Vorschläge" hidden></div>
+    </div>
+    <div class="beispiele" id="frage-beispiele"></div>
+    <div id="frage-antwort" aria-live="polite"></div>
+  </section>
+
   <footer class="fuss">
     <p id="kalibrierung"></p>
     <p>
