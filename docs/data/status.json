@@ -1,0 +1,13 @@
+{
+ "letzter_lauf": "2026-08-24T13:25:04+00:00",
+ "lauf": "vorboerse",
+ "ergebnis": "fertig",
+ "handelbare_ideen": 511,
+ "sprachmodell": true,
+ "sekunden": 487.8,
+ "steuerung": {
+  "paused": false,
+  "changed_at": null,
+  "changed_by": "standard"
+ }
+}

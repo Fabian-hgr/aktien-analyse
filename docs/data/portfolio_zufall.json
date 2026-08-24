@@ -1,0 +1,192 @@
+{
+ "name": "zufall",
+ "label": "Depot Zufall",
+ "start_capital": 100000.0,
+ "cash": 100000.0,
+ "positions": [],
+ "pending": [
+  {
+   "symbol": "TRGP",
+   "name": "Targa Resources",
+   "sector": "Energie",
+   "score": 0.5907,
+   "target": 320.31,
+   "stop": 287.01,
+   "atr_at_entry": 8.463165563643136,
+   "ziel_atr": 2.51,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.38,
+   "basis_erwartung_r": 0.2604,
+   "score_components": {
+    "trend": 0.89,
+    "setup": 0.675,
+    "volumen": 0.583,
+    "qualitaet": 0.489,
+    "bewertung": 0.25,
+    "analysten": 0.441
+   },
+   "target_methods": {
+    "atr": 317.69,
+    "struktur": 326.99
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-24"
+  },
+  {
+   "symbol": "AVY",
+   "name": "Avery Dennison",
+   "sector": "Grundstoffe",
+   "score": 0.5875,
+   "target": 195.13,
+   "stop": 176.83,
+   "atr_at_entry": 4.282328193380995,
+   "ziel_atr": 2.6,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3431,
+   "basis_erwartung_r": 0.117,
+   "score_components": {
+    "trend": 0.997,
+    "setup": 0.701,
+    "volumen": 0.0,
+    "qualitaet": 0.547,
+    "bewertung": 0.374,
+    "analysten": 0.503
+   },
+   "target_methods": {
+    "atr": 192.73,
+    "struktur": 197.68
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-24"
+  },
+  {
+   "symbol": "KKR",
+   "name": "KKR & Co.",
+   "sector": "Finanzen",
+   "score": 0.6514,
+   "target": 116.38,
+   "stop": 102.39,
+   "atr_at_entry": 3.7863496456386643,
+   "ziel_atr": 2.09,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4208,
+   "basis_erwartung_r": 0.1198,
+   "score_components": {
+    "trend": 0.887,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.42,
+    "bewertung": 0.611,
+    "analysten": 0.681
+   },
+   "target_methods": {
+    "atr": 116.11,
+    "struktur": 116.5
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-24"
+  },
+  {
+   "symbol": "KIM",
+   "name": "Kimco Realty",
+   "sector": "Immobilien",
+   "score": 0.433,
+   "target": 24.97,
+   "stop": 23.39,
+   "atr_at_entry": 0.3726977947033447,
+   "ziel_atr": 2.62,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.2904,
+   "basis_erwartung_r": 0.0631,
+   "score_components": {
+    "trend": 0.374,
+    "setup": 0.501,
+    "volumen": 0.003,
+    "qualitaet": 0.523,
+    "bewertung": 0.453,
+    "analysten": 0.627
+   },
+   "target_methods": {
+    "atr": 24.69,
+    "struktur": 25.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-24"
+  },
+  {
+   "symbol": "DLTR",
+   "name": "Dollar Tree",
+   "sector": "Konsum defensiv",
+   "score": 0.3299,
+   "target": 139.91,
+   "stop": 125.25,
+   "atr_at_entry": 3.5370646073298624,
+   "ziel_atr": 2.39,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.3586,
+   "basis_erwartung_r": 0.0515,
+   "score_components": {
+    "trend": 0.937,
+    "setup": 0.823,
+    "volumen": 0.22,
+    "qualitaet": 0.457,
+    "bewertung": 0.462,
+    "analysten": 0.303
+   },
+   "target_methods": {
+    "atr": 138.27,
+    "struktur": 142.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-24"
+  },
+  {
+   "symbol": "EW",
+   "name": "Edwards Lifesciences",
+   "sector": "Gesundheit",
+   "score": 0.6,
+   "target": 94.64,
+   "stop": 86.61,
+   "atr_at_entry": 1.9903058482038491,
+   "ziel_atr": 2.44,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3544,
+   "basis_erwartung_r": 0.1261,
+   "score_components": {
+    "trend": 0.868,
+    "setup": 0.976,
+    "volumen": 0.0,
+    "qualitaet": 0.577,
+    "bewertung": 0.06,
+    "analysten": 0.649
+   },
+   "target_methods": {
+    "atr": 93.82,
+    "struktur": 95.99
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-24"
+  }
+ ],
+ "closed": [],
+ "equity_curve": [],
+ "skipped": []
+}
