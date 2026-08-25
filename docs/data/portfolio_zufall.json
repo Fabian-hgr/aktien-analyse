@@ -227,7 +227,188 @@
    "mae_price": 89.48
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "LRCX",
+   "name": "Lam Research",
+   "sector": "Technologie",
+   "score": 0.5979,
+   "target": 364.16,
+   "stop": 277.13,
+   "atr_at_entry": 19.75893430094444,
+   "ziel_atr": 2.72,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3439,
+   "basis_erwartung_r": 0.1452,
+   "score_components": {
+    "trend": 0.341,
+    "setup": 0.888,
+    "volumen": 0.018,
+    "qualitaet": 0.974,
+    "bewertung": 0.352,
+    "analysten": 0.825
+   },
+   "target_methods": {
+    "atr": 352.27,
+    "struktur": 377.76
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  },
+  {
+   "symbol": "KMI",
+   "name": "Kinder Morgan",
+   "sector": "Energie",
+   "score": 0.4328,
+   "target": 32.75,
+   "stop": 29.96,
+   "atr_at_entry": 0.7287417033280091,
+   "ziel_atr": 2.4,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.3984,
+   "basis_erwartung_r": 0.2549,
+   "score_components": {
+    "trend": 0.279,
+    "setup": 0.625,
+    "volumen": 0.335,
+    "qualitaet": 0.544,
+    "bewertung": 0.027,
+    "analysten": 0.67
+   },
+   "target_methods": {
+    "atr": 32.6,
+    "struktur": 33.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  },
+  {
+   "symbol": "AMP",
+   "name": "Ameriprise Financial",
+   "sector": "Finanzen",
+   "score": 0.6424,
+   "target": 577.34,
+   "stop": 544.46,
+   "atr_at_entry": 10.17618873318907,
+   "ziel_atr": 1.62,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.5079,
+   "basis_erwartung_r": 0.0991,
+   "score_components": {
+    "trend": 0.952,
+    "setup": 0.842,
+    "volumen": 0.0,
+    "qualitaet": 0.773,
+    "bewertung": 0.539,
+    "analysten": 0.396
+   },
+   "target_methods": {
+    "atr": 581.35,
+    "struktur": 571.56
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  },
+  {
+   "symbol": "OKE",
+   "name": "Oneok",
+   "sector": "Energie",
+   "score": 0.5767,
+   "target": 97.8,
+   "stop": 89.87,
+   "atr_at_entry": 2.2290160661986334,
+   "ziel_atr": 2.13,
+   "stop_atr": 1.42,
+   "basis_p_ziel": 0.4435,
+   "basis_erwartung_r": 0.2417,
+   "score_components": {
+    "trend": 0.748,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.56,
+    "bewertung": 0.34,
+    "analysten": 0.484
+   },
+   "target_methods": {
+    "atr": 97.95,
+    "struktur": 97.8
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  },
+  {
+   "symbol": "PSA",
+   "name": "Public Storage",
+   "sector": "Immobilien",
+   "score": 0.6357,
+   "target": 336.04,
+   "stop": 315.4,
+   "atr_at_entry": 5.820898714947384,
+   "ziel_atr": 1.9,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.4271,
+   "basis_erwartung_r": 0.071,
+   "score_components": {
+    "trend": 0.784,
+    "setup": 0.964,
+    "volumen": 0.558,
+    "qualitaet": 0.651,
+    "bewertung": 0.327,
+    "analysten": 0.352
+   },
+   "target_methods": {
+    "atr": 335.79,
+    "struktur": 335.35
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology",
+   "sector": "Technologie",
+   "score": 0.3917,
+   "target": 276.45,
+   "stop": 199.04,
+   "atr_at_entry": 18.007252509537974,
+   "ziel_atr": 2.62,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3573,
+   "basis_erwartung_r": 0.1389,
+   "score_components": {
+    "trend": 0.888,
+    "setup": 1.0,
+    "volumen": 0.02,
+    "qualitaet": 0.837,
+    "bewertung": 0.25,
+    "analysten": 0.718
+   },
+   "target_methods": {
+    "atr": 267.52,
+    "struktur": 290.75
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  }
+ ],
  "closed": [],
  "equity_curve": [
   {

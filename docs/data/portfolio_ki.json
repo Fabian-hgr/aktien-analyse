@@ -228,7 +228,190 @@
    "mae_price": 48.77
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk",
+   "sector": "Technologie",
+   "score": 0.75,
+   "target": 1997.7,
+   "stop": 1231.14,
+   "atr_at_entry": 154.98855414311478,
+   "ziel_atr": 3.26,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.2785,
+   "basis_erwartung_r": 0.174,
+   "score_components": {
+    "trend": 0.556,
+    "setup": 0.989,
+    "volumen": 0.062,
+    "qualitaet": 1.0,
+    "bewertung": 1.0,
+    "analysten": 0.911,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 1820.57,
+    "struktur": 2020.5
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "sector": "Technologie",
+   "score": 0.7479,
+   "target": 513.79,
+   "stop": 467.37,
+   "atr_at_entry": 11.85992445351545,
+   "ziel_atr": 2.23,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.4125,
+   "basis_erwartung_r": 0.1153,
+   "score_components": {
+    "trend": 0.969,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.916,
+    "bewertung": 0.501,
+    "analysten": 0.794,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 512.47,
+    "struktur": 512.75
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  },
+  {
+   "symbol": "AMCR",
+   "name": "Amcor",
+   "sector": "Grundstoffe",
+   "score": 0.7239,
+   "target": 51.37,
+   "stop": 45.88,
+   "atr_at_entry": 1.2042887300402778,
+   "ziel_atr": 2.88,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3034,
+   "basis_erwartung_r": 0.1282,
+   "score_components": {
+    "trend": 0.923,
+    "setup": 0.808,
+    "volumen": 1.0,
+    "qualitaet": 0.448,
+    "bewertung": 0.767,
+    "analysten": 0.439
+   },
+   "target_methods": {
+    "atr": 50.35,
+    "struktur": 51.75
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  },
+  {
+   "symbol": "SYF",
+   "name": "Synchrony Financial",
+   "sector": "Finanzen",
+   "score": 0.7206,
+   "target": 85.67,
+   "stop": 76.84,
+   "atr_at_entry": 1.9823187232382697,
+   "ziel_atr": 2.85,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.295,
+   "basis_erwartung_r": 0.1442,
+   "score_components": {
+    "trend": 0.877,
+    "setup": 0.813,
+    "volumen": 0.46,
+    "qualitaet": 0.631,
+    "bewertung": 0.818,
+    "analysten": 0.618
+   },
+   "target_methods": {
+    "atr": 84.03,
+    "struktur": 86.07
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  },
+  {
+   "symbol": "CHTR",
+   "name": "Charter Communications",
+   "sector": "Kommunikation",
+   "score": 0.7176,
+   "target": 168.37,
+   "stop": 137.28,
+   "atr_at_entry": 7.329269759022344,
+   "ziel_atr": 2.47,
+   "stop_atr": 1.77,
+   "basis_p_ziel": 0.3339,
+   "basis_erwartung_r": 0.0392,
+   "score_components": {
+    "trend": 0.595,
+    "setup": 1.0,
+    "volumen": 0.989,
+    "qualitaet": 0.358,
+    "bewertung": 0.906,
+    "analysten": 0.651
+   },
+   "target_methods": {
+    "atr": 164.04,
+    "struktur": 167.75
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  },
+  {
+   "symbol": "SE",
+   "name": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
+   "sector": "Konsum zyklisch",
+   "score": 0.7109,
+   "target": 126.98,
+   "stop": 108.16,
+   "atr_at_entry": 4.403991027444197,
+   "ziel_atr": 2.56,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3351,
+   "basis_erwartung_r": 0.0792,
+   "score_components": {
+    "trend": 0.93,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.593,
+    "bewertung": 0.293,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 124.34,
+    "struktur": 129.17
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-25"
+  }
+ ],
  "closed": [],
  "equity_curve": [
   {
