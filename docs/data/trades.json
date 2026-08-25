@@ -1,15 +1,69 @@
 {
- "updated_at": "2026-08-24T22:32:25+00:00",
+ "updated_at": "2026-08-25T22:33:17+00:00",
  "ki": [],
- "zufall": [],
+ "zufall": [
+  {
+   "symbol": "TRGP",
+   "name": "Targa Resources",
+   "sector": "Energie",
+   "depot": "zufall",
+   "entry_date": "2026-08-24",
+   "entry_price": 296.233,
+   "exit_date": "2026-08-25",
+   "exit_price": 286.8665,
+   "exit_reason": "stop",
+   "shares": 3.375721,
+   "stop": 287.01,
+   "target": 320.31,
+   "pnl": -31.62,
+   "pnl_pct": -3.162,
+   "r_multiple": -1.016,
+   "days_held": 2,
+   "mfe_price": 296.085,
+   "mae_price": 286.865,
+   "mfe_r": -0.016,
+   "atr_at_entry": 8.463165563643136,
+   "ziel_atr": 2.51,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.38,
+   "basis_erwartung_r": 0.2604,
+   "score": 0.5907,
+   "score_components": {
+    "trend": 0.89,
+    "setup": 0.675,
+    "volumen": 0.583,
+    "qualitaet": 0.489,
+    "bewertung": 0.25,
+    "analysten": 0.441
+   },
+   "target_methods": {
+    "atr": 317.69,
+    "struktur": 326.99
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 765.79,
+    "benchmark_sma200": 705.88,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.08487762419181322,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": 0.03646206943222574
+   }
+  }
+ ],
  "statistik": {
   "ki": {
    "depot": "ki",
    "label": "Depot KI",
-   "equity": 99958.19,
-   "cash": 94000.89,
-   "open_positions": 6,
-   "return_pct": -0.04,
+   "equity": 100128.77,
+   "cash": 87998.58,
+   "open_positions": 12,
+   "return_pct": 0.13,
    "trades": 0,
    "max_drawdown_pct": 0.0,
    "win_rate": null,
@@ -20,16 +74,24 @@
   "zufall": {
    "depot": "zufall",
    "label": "Depot Zufall",
-   "equity": 100022.25,
-   "cash": 94000.35,
-   "open_positions": 6,
-   "return_pct": 0.02,
-   "trades": 0,
-   "max_drawdown_pct": 0.0,
-   "win_rate": null,
-   "expectancy_r": null,
-   "profit_factor": null,
-   "avg_hold_days": null
+   "equity": 99976.01,
+   "cash": 88971.11,
+   "open_positions": 11,
+   "return_pct": -0.02,
+   "trades": 1,
+   "max_drawdown_pct": -0.05,
+   "win_rate": 0.0,
+   "wins": 0,
+   "losses": 1,
+   "expectancy_r": -1.016,
+   "avg_win_r": null,
+   "avg_loss_r": -1.016,
+   "profit_factor": 0.0,
+   "avg_hold_days": 2.0,
+   "exit_reasons": {
+    "stop": 1
+   },
+   "total_pnl": -31.62
   }
  }
 }

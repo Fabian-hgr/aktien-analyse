@@ -2,7 +2,7 @@
  "name": "ki",
  "label": "Depot KI",
  "start_capital": 100000.0,
- "cash": 94000.88966008782,
+ "cash": 87998.57594923709,
  "positions": [
   {
    "symbol": "TSM",
@@ -37,8 +37,8 @@
    "entry_price": 413.6667,
    "entry_date": "2026-08-24",
    "entry_open": 413.46,
-   "days_held": 1,
-   "mfe_price": 414.025,
+   "days_held": 2,
+   "mfe_price": 419.655,
    "mae_price": 405.22
   },
   {
@@ -74,8 +74,8 @@
    "entry_price": 186.3331,
    "entry_date": "2026-08-24",
    "entry_open": 186.24,
-   "days_held": 1,
-   "mfe_price": 190.21,
+   "days_held": 2,
+   "mfe_price": 192.91,
    "mae_price": 186.225
   },
   {
@@ -112,8 +112,8 @@
    "entry_price": 935.7276,
    "entry_date": "2026-08-24",
    "entry_open": 935.26,
-   "days_held": 1,
-   "mfe_price": 935.26,
+   "days_held": 2,
+   "mfe_price": 946.38,
    "mae_price": 888.0
   },
   {
@@ -149,9 +149,9 @@
    "entry_price": 219.4997,
    "entry_date": "2026-08-24",
    "entry_open": 219.39,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 221.37,
-   "mae_price": 216.21
+   "mae_price": 215.07
   },
   {
    "symbol": "NU",
@@ -186,8 +186,8 @@
    "entry_price": 14.4272,
    "entry_date": "2026-08-24",
    "entry_open": 14.42,
-   "days_held": 1,
-   "mfe_price": 15.045,
+   "days_held": 2,
+   "mfe_price": 15.165,
    "mae_price": 14.345
   },
   {
@@ -223,12 +223,10 @@
    "entry_price": 50.2301,
    "entry_date": "2026-08-24",
    "entry_open": 50.205,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 50.305,
-   "mae_price": 48.77
-  }
- ],
- "pending": [
+   "mae_price": 48.66
+  },
   {
    "symbol": "SNDK",
    "name": "Sandisk",
@@ -258,7 +256,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 0.652005,
+   "entry_price": 1534.6169,
+   "entry_date": "2026-08-25",
+   "entry_open": 1533.85,
+   "days_held": 1,
+   "mfe_price": 1561.66,
+   "mae_price": 1468.09
   },
   {
    "symbol": "MSFT",
@@ -289,7 +294,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 2.058898,
+   "entry_price": 485.8078,
+   "entry_date": "2026-08-25",
+   "entry_open": 485.565,
+   "days_held": 1,
+   "mfe_price": 492.37,
+   "mae_price": 484.425
   },
   {
    "symbol": "AMCR",
@@ -319,7 +331,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 20.821473,
+   "entry_price": 48.044,
+   "entry_date": "2026-08-25",
+   "entry_open": 48.02,
+   "days_held": 1,
+   "mfe_price": 48.02,
+   "mae_price": 47.02
   },
   {
    "symbol": "SYF",
@@ -349,7 +368,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 12.445503,
+   "entry_price": 80.3652,
+   "entry_date": "2026-08-25",
+   "entry_open": 80.325,
+   "days_held": 1,
+   "mfe_price": 80.87,
+   "mae_price": 79.345
   },
   {
    "symbol": "CHTR",
@@ -379,7 +405,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 6.771444,
+   "entry_price": 147.7138,
+   "entry_date": "2026-08-25",
+   "entry_open": 147.64,
+   "days_held": 1,
+   "mfe_price": 156.02,
+   "mae_price": 145.245
   },
   {
    "symbol": "SE",
@@ -409,9 +442,17 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 8.56222,
+   "entry_price": 116.8784,
+   "entry_date": "2026-08-25",
+   "entry_open": 116.82,
+   "days_held": 1,
+   "mfe_price": 123.73,
+   "mae_price": 116.8
   }
  ],
+ "pending": [],
  "closed": [],
  "equity_curve": [
   {
@@ -421,6 +462,14 @@
    "positions": 6,
    "invested_pct": 5.96,
    "return_pct": -0.042
+  },
+  {
+   "date": "2026-08-25",
+   "equity": 100128.77,
+   "cash": 87998.58,
+   "positions": 12,
+   "invested_pct": 12.11,
+   "return_pct": 0.129
   }
  ],
  "skipped": []

@@ -2,45 +2,8 @@
  "name": "zufall",
  "label": "Depot Zufall",
  "start_capital": 100000.0,
- "cash": 94000.34821650441,
+ "cash": 88971.11096968666,
  "positions": [
-  {
-   "symbol": "TRGP",
-   "name": "Targa Resources",
-   "sector": "Energie",
-   "score": 0.5907,
-   "target": 320.31,
-   "stop": 287.01,
-   "atr_at_entry": 8.463165563643136,
-   "ziel_atr": 2.51,
-   "stop_atr": 1.43,
-   "basis_p_ziel": 0.38,
-   "basis_erwartung_r": 0.2604,
-   "score_components": {
-    "trend": 0.89,
-    "setup": 0.675,
-    "volumen": 0.583,
-    "qualitaet": 0.489,
-    "bewertung": 0.25,
-    "analysten": 0.441
-   },
-   "target_methods": {
-    "atr": 317.69,
-    "struktur": 326.99
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-24",
-   "shares": 3.375721,
-   "entry_price": 296.233,
-   "entry_date": "2026-08-24",
-   "entry_open": 296.085,
-   "days_held": 1,
-   "mfe_price": 296.085,
-   "mae_price": 291.15
-  },
   {
    "symbol": "AVY",
    "name": "Avery Dennison",
@@ -74,9 +37,9 @@
    "entry_price": 184.092,
    "entry_date": "2026-08-24",
    "entry_open": 184.0,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 185.45,
-   "mae_price": 182.25
+   "mae_price": 179.62
   },
   {
    "symbol": "KKR",
@@ -111,9 +74,9 @@
    "entry_price": 108.144,
    "entry_date": "2026-08-24",
    "entry_open": 108.09,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 109.33,
-   "mae_price": 107.14
+   "mae_price": 106.04
   },
   {
    "symbol": "KIM",
@@ -148,9 +111,9 @@
    "entry_price": 24.1671,
    "entry_date": "2026-08-24",
    "entry_open": 24.155,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 24.325,
-   "mae_price": 24.035
+   "mae_price": 23.995
   },
   {
    "symbol": "DLTR",
@@ -185,7 +148,7 @@
    "entry_price": 133.3216,
    "entry_date": "2026-08-24",
    "entry_open": 133.255,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 137.05,
    "mae_price": 132.44
   },
@@ -222,12 +185,10 @@
    "entry_price": 89.6148,
    "entry_date": "2026-08-24",
    "entry_open": 89.57,
-   "days_held": 1,
-   "mfe_price": 91.09,
+   "days_held": 2,
+   "mfe_price": 91.215,
    "mae_price": 89.48
-  }
- ],
- "pending": [
+  },
   {
    "symbol": "LRCX",
    "name": "Lam Research",
@@ -256,7 +217,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 3.15526,
+   "entry_price": 316.7983,
+   "entry_date": "2026-08-25",
+   "entry_open": 316.64,
+   "days_held": 1,
+   "mfe_price": 317.67,
+   "mae_price": 308.12
   },
   {
    "symbol": "KMI",
@@ -286,7 +254,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 32.610222,
+   "entry_price": 30.6503,
+   "entry_date": "2026-08-25",
+   "entry_open": 30.635,
+   "days_held": 1,
+   "mfe_price": 31.355,
+   "mae_price": 30.635
   },
   {
    "symbol": "AMP",
@@ -316,7 +291,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 1.795499,
+   "entry_price": 556.7282,
+   "entry_date": "2026-08-25",
+   "entry_open": 556.45,
+   "days_held": 1,
+   "mfe_price": 561.53,
+   "mae_price": 556.45
   },
   {
    "symbol": "OKE",
@@ -346,7 +328,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 10.877083,
+   "entry_price": 91.9059,
+   "entry_date": "2026-08-25",
+   "entry_open": 91.86,
+   "days_held": 1,
+   "mfe_price": 92.94,
+   "mae_price": 91.67
   },
   {
    "symbol": "PSA",
@@ -376,7 +365,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 3.085918,
+   "entry_price": 323.9369,
+   "entry_date": "2026-08-25",
+   "entry_open": 323.775,
+   "days_held": 1,
+   "mfe_price": 323.775,
+   "mae_price": 320.49
   },
   {
    "symbol": "MRVL",
@@ -406,10 +402,72 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-25"
+   "order_date": "2026-08-25",
+   "shares": 4.22188,
+   "entry_price": 236.7683,
+   "entry_date": "2026-08-25",
+   "entry_open": 236.65,
+   "days_held": 1,
+   "mfe_price": 246.645,
+   "mae_price": 236.04
   }
  ],
- "closed": [],
+ "pending": [],
+ "closed": [
+  {
+   "symbol": "TRGP",
+   "name": "Targa Resources",
+   "sector": "Energie",
+   "depot": "zufall",
+   "entry_date": "2026-08-24",
+   "entry_price": 296.233,
+   "exit_date": "2026-08-25",
+   "exit_price": 286.8665,
+   "exit_reason": "stop",
+   "shares": 3.375721,
+   "stop": 287.01,
+   "target": 320.31,
+   "pnl": -31.62,
+   "pnl_pct": -3.162,
+   "r_multiple": -1.016,
+   "days_held": 2,
+   "mfe_price": 296.085,
+   "mae_price": 286.865,
+   "mfe_r": -0.016,
+   "atr_at_entry": 8.463165563643136,
+   "ziel_atr": 2.51,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.38,
+   "basis_erwartung_r": 0.2604,
+   "score": 0.5907,
+   "score_components": {
+    "trend": 0.89,
+    "setup": 0.675,
+    "volumen": 0.583,
+    "qualitaet": 0.489,
+    "bewertung": 0.25,
+    "analysten": 0.441
+   },
+   "target_methods": {
+    "atr": 317.69,
+    "struktur": 326.99
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 765.79,
+    "benchmark_sma200": 705.88,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.08487762419181322,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": 0.03646206943222574
+   }
+  }
+ ],
  "equity_curve": [
   {
    "date": "2026-08-24",
@@ -418,6 +476,14 @@
    "positions": 6,
    "invested_pct": 6.02,
    "return_pct": 0.022
+  },
+  {
+   "date": "2026-08-25",
+   "equity": 99976.01,
+   "cash": 88971.11,
+   "positions": 11,
+   "invested_pct": 11.01,
+   "return_pct": -0.024
   }
  ],
  "skipped": []
