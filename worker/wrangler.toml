@@ -1,0 +1,30 @@
+# Der Vermittler zwischen der Seite und dem Sprachmodell.
+#
+# Es steht bewusst kein Geheimnis in dieser Datei. Workers AI laeuft ueber die
+# Bindung [ai] und nicht ueber einen Schluessel — es gibt also nichts, was
+# versehentlich in einen Commit rutschen koennte.
+
+name = "aktien-frage"
+main = "src/worker.js"
+compatibility_date = "2026-08-25"
+
+# Das Sprachmodell.
+[ai]
+binding = "AI"
+
+[vars]
+# "gemma" oder "qwen" — siehe MODELLE in src/worker.js. Beide laufen im
+# Gratis-Kontingent, Gemma ist im Deutschen etwas sicherer, Qwen guenstiger.
+MODELL = "gemma"
+
+# Bremse gegen Missbrauch. Die Worker-Adresse steht im Quelltext der
+# oeffentlichen Seite; ohne diese Bremse koennte ein Einzelner das
+# Tageskontingent von 10 000 Neuronen in Minuten aufbrauchen.
+# period darf nur 10 oder 60 sein.
+[[ratelimits]]
+name = "BEGRENZER"
+namespace_id = "1001"
+
+  [ratelimits.simple]
+  limit = 20
+  period = 60

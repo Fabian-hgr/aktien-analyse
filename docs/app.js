@@ -1821,14 +1821,14 @@ function beantworte(roh) {
     const inhalt = w.filter((x) => !KEIN_KUERZEL.has(x));
     const nachTitel = w.length <= 3 && inhalt.length >= 1 && inhalt.length <= 2;
     return { antwort: nachTitel ? antwortUnbekannt(roh) : antwortHilfe(roh),
-             weitere: [] };
+             weitere: [], notfall: true };
   }
   let antwort = null, i = 0;
   while (i < liste.length && !antwort) {
     antwort = liste[i].bauen();       // Kann null sein, wenn Daten fehlen.
     i += 1;
   }
-  if (!antwort) return { antwort: antwortHilfe(roh), weitere: [] };
+  if (!antwort) return { antwort: antwortHilfe(roh), weitere: [], notfall: true };
 
   const weitere = [];
   liste.slice(i).forEach((k) => {
@@ -1840,10 +1840,499 @@ function beantworte(roh) {
   return { antwort, weitere };
 }
 
+// ── Frei gestellte Fragen ──────────────────────────────────────────────────
+
+/* Die Fragezeile oben trifft acht feste Ziele: Titel, Branche, Rangliste,
+ * Depot, Gelerntes, Zustand, Ideen, Fachwort. Das deckt Nachschlagefragen ab
+ * und scheitert an allem, was wirklich eine Frage ist — "ist MU riskanter als
+ * TSM", "warum steht ANET drin und NVDA nicht", "erklaer mir das einfacher".
+ *
+ * Dafuer dieser zweite Weg. Er aendert nicht, woher die Zahlen kommen: die
+ * Seite sucht wie bisher heraus, worum es geht, und schickt die gefundenen
+ * Zahlen zusammen mit der Frage an einen kleinen Cloudflare-Worker. Dort
+ * formuliert ein Sprachmodell — mehr nicht. Es bekommt die Zahlen vorgesetzt
+ * und ist angewiesen, keine eigenen zu nennen.
+ *
+ * Der Umweg ueber den Worker ist noetig, weil diese Seite statisch auf GitHub
+ * Pages liegt: ein Schluessel in ihrem Quelltext waere ein veroeffentlichter
+ * Schluessel. Der Worker haelt die Verbindung zum Modell, und weil Workers AI
+ * ueber eine Bindung laeuft statt ueber einen Schluessel, gibt es dort gar
+ * kein Geheimnis.
+ *
+ * Faellt der Worker aus oder ist das Handy offline, bleibt die Karte mit den
+ * Zahlen stehen. Sie ist der verlaessliche Teil, die Prosa die Zugabe.
+ */
+
+/** Adresse des Vermittlers. Leer heisst: nur die Zahlen-Antworten, genau wie
+ *  vorher. Die Seite bleibt so auch ohne Worker vollstaendig benutzbar.
+ *
+ *  Dass die Adresse hier offen steht, ist kein Versehen: Es gibt hinter ihr
+ *  kein Geheimnis. Der Worker nimmt nur Anfragen von dieser Seite an, hat ein
+ *  Anfragelimit je Adresse und gibt nichts zurueck ausser Text. */
+const KI_ADRESSE = 'https://aktien-frage.kursziele.workers.dev';
+
+const KI_FRIST = 45000;   // ms, bis eine Antwort abgebrochen wird
+
+function kiAn() { return Boolean(KI_ADRESSE); }
+
+// ── Die Zahlen zur Frage einsammeln ────────────────────────────────────────
+
+/** Wie findeTitel, aber sammelnd statt entscheidend. Fuer Vergleichsfragen
+ *  ("MU oder TSM") braucht es beide Titel, nicht den staerkeren Treffer. */
+function findeTitelAlle(roh, frageNorm, hoechstens) {
+  const alle = universum();
+  if (!alle.length) return [];
+  const nachKuerzel = {};
+  alle.forEach((e) => { nachKuerzel[String(e.symbol).toUpperCase()] = e; });
+
+  const aus = [], gesehen = {};
+  const nimm = (e) => {
+    if (!e || gesehen[e.symbol]) return;
+    gesehen[e.symbol] = true;
+    aus.push(e);
+  };
+
+  (String(roh).match(/\b[A-Z][A-Z0-9.]{0,5}\b/g) || [])
+    .forEach((w) => nimm(nachKuerzel[w]));
+
+  const worte = frageNorm.split(' ');
+  worte.forEach((w) => {
+    if (w.length < 3 || KEIN_KUERZEL.has(w)) return;
+    nimm(nachKuerzel[w.toUpperCase()]);
+    if (KUERZEL_ALIAS[w]) nimm(nachKuerzel[KUERZEL_ALIAS[w]]);
+  });
+
+  const gefragt = new Set(worte);
+  alle.forEach((e) => {
+    schlicht(e.name).split(' ').forEach((teil) => {
+      if (teil.length < 4 || KEIN_NAME.has(teil) || KEIN_KUERZEL.has(teil)) return;
+      if (gefragt.has(teil)) nimm(e);
+    });
+  });
+
+  return aus.slice(0, hoechstens || 3);
+}
+
+/** Der schlanke Eintrag aus dem Universum hat 13 Felder, die volle Herleitung
+ *  steht nur bei den Ideen und der Vorauswahl. */
+function vollstaendig(symbol) {
+  const d = WISSEN.latest || {};
+  const such = (liste) => (liste || []).filter((x) => x.symbol === symbol)[0];
+  return such(d.ideen) || such(d.vorauswahl) || such(d.universum) || null;
+}
+
+/** Zahl oder ein ehrliches "fehlt" — niemals eine stille Null. Was das Modell
+ *  nicht sieht, kann es nicht behaupten. */
+function fz(wert, formatierer) {
+  if (wert === null || wert === undefined || Number.isNaN(wert)) return 'fehlt';
+  return formatierer(wert);
+}
+
+const fUsd = (v) => zahl(v, 2) + ' USD';
+const fPct = (v) => prozent(v, 1, true);
+const fAnt = (v) => anteil(v, 1);
+const f3 = (v) => zahl(v, 3);
+const f2 = (v) => zahl(v, 2);
+const f1 = (v) => zahl(v, 1);
+const fR = (v) => rWert(v);
+const fPz = (v) => zahl(v * 100, 1) + ' %';
+const fPzS = (v) => (v > 0 ? '+' : '') + zahl(v * 100, 1) + ' %';
+
+/** Die Glossartexte sind fuer die Seite geschrieben und tragen Auszeichnung.
+ *  Das Modell soll den Inhalt sehen, nicht die Tags. */
+function ohneTags(text) {
+  return String(text).replace(/<[^>]+>/g, '')
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+    .replace(/\s+/g, ' ').trim();
+}
+
+function faktenTitel(symbol, tief) {
+  const e = vollstaendig(symbol);
+  if (!e) return '';
+  const bewertet = universum()
+    .filter((x) => x.score !== null && x.score !== undefined)
+    .slice().sort((a, b) => b.score - a.score);
+  const rang = bewertet.findIndex((x) => x.symbol === symbol) + 1;
+  const idee = ideenListe().filter((i) => i.symbol === symbol)[0];
+
+  const z = [];
+  z.push(e.symbol + ' — ' + (e.name || 'Name fehlt')
+         + ' (Branche: ' + (e.sector || 'unbekannt') + ')');
+  z.push('  Heute auf der Ideenliste: ' + (idee ? 'JA' : 'NEIN')
+         + (!idee && e.reject_reason ? ' (Ausschlussgrund: ' + e.reject_reason + ')' : '')
+         + (!idee && !e.reject_reason && e.tradeable === true
+            ? ' (alle Hürden genommen, aber der Score reichte nicht unter die'
+              + ' besten; möglich ist auch die Branchengrenze)' : ''));
+  z.push('  Kurs ' + fz(e.price, fUsd) + ', Kursziel ' + fz(e.target, fUsd)
+         + ' (' + fz(e.upside_pct, fPct) + '), Stop ' + fz(e.stop, fUsd));
+  z.push('  Chance-Risiko-Verhältnis ' + fz(e.reward_risk, f2)
+         + ', Score ' + fz(e.score, f3)
+         + (rang ? ', Rang ' + rang + ' von ' + bewertet.length
+                   + ' bewerteten Titeln' : '')
+         + ', Datenabdeckung ' + fz(e.coverage, fAnt));
+  z.push('  Gemessene Wahrscheinlichkeit, dass zuerst das Ziel berührt wird: '
+         + fz(e.p_ziel, fAnt) + '; Erwartung aus der Basisquote '
+         + fz(e.basis_erwartung_r, fR));
+
+  const l = e.llm || {};
+  if (l.these) z.push('  These des Sprachmodells: ' + l.these);
+  if ((l.katalysatoren || []).length) {
+    z.push('  Katalysatoren: ' + l.katalysatoren.join('; '));
+  }
+  if ((l.risiken || []).length) z.push('  Risiken: ' + l.risiken.join('; '));
+  if (l.sentiment !== undefined && l.sentiment !== null) {
+    z.push('  News-Sentiment ' + zahl(l.sentiment, 2) + ' aus '
+           + (l.news_count || 0) + ' Meldungen');
+  }
+
+  if (!tief) return z.join('\n');
+
+  const t = e.targets || {}, s = e.snapshot || {}, sc = e.scoring || {};
+  if (t.band_low !== undefined) {
+    z.push('  Erwartungsbereich (1 Sigma) ' + fz(t.band_low, fUsd) + ' bis '
+           + fz(t.band_high, fUsd) + '; Streuung zwischen den Methoden '
+           + fz(t.method_spread, fUsd));
+  }
+  (t.methods || []).forEach((m) => {
+    z.push('  Kursziel-Methode ' + m.label + ' (' + m.role + '): '
+           + fz(m.value, fUsd));
+    (m.steps || []).forEach((sr) => z.push('      ' + sr));
+  });
+  (t.blend_steps || []).forEach((sr) => z.push('    ' + sr));
+  (t.stop_steps || []).forEach((sr) => z.push('    ' + sr));
+  (t.probability_steps || []).forEach((sr) => z.push('    ' + sr));
+  if (t.analyst_target_12m) {
+    z.push('  Analysten: 12-Monats-Ziel ' + fz(t.analyst_target_12m, fUsd)
+           + ' aus ' + (t.analyst_count || 0) + ' Schätzungen, Konsens '
+           + (t.analyst_recommendation || 'unbekannt')
+           + '. Wirkt nur als Neigung (' + fz(t.analyst_tilt, f2)
+           + '), nicht als Niveau.');
+  }
+  (sc.components || []).forEach((c) => {
+    z.push('  Score-Komponente ' + c.label + ': ' + fz(c.score, f2)
+           + ' bei Gewicht ' + fz(c.weight, f2)
+           + ((c.reasons || []).length ? ' — ' + c.reasons.join('; ') : ''));
+  });
+  (sc.penalties || []).forEach((p) => z.push('  Abzug: ' + p));
+  if (s.close !== undefined) {
+    z.push('  Technik am ' + datumLang(s.date) + ': ATR(14) ' + fz(s.atr, fUsd)
+           + ' (' + fz(s.atr_pct, fPz) + ' vom Kurs)'
+           + ', RSI ' + fz(s.rsi, f1) + ', ADX ' + fz(s.adx, f1)
+           + ', EMA21 ' + fz(s.ema21, fUsd) + ', SMA200 ' + fz(s.sma200, fUsd)
+           + ', 63 Tage ' + fz(s.chg_63d, fPzS)
+           + ', relative Stärke zu SPY ' + fz(s.rel_strength_63d, fPzS));
+  }
+  return z.join('\n');
+}
+
+function faktenBranche(branche) {
+  const alle = universum().filter((e) => e.sector === branche);
+  if (!alle.length) return '';
+  const bewertet = alle.filter((e) => e.score !== null && e.score !== undefined)
+                       .slice().sort((a, b) => b.score - a.score);
+  const handelbar = alle.filter((e) => e.tradeable === true).length;
+  const ideen = ideenListe().filter((i) => i.sector === branche);
+  const w = WISSEN.gewichte || {};
+  const mult = (w.sector_multiplier || {})[branche];
+  const pe = ((WISSEN.latest || {}).sector_median_pe || {})[branche];
+
+  const z = ['Branche ' + branche + ': ' + alle.length + ' Titel, davon '
+             + bewertet.length + ' bewertet, ' + handelbar + ' heute handelbar, '
+             + ideen.length + ' auf der Ideenliste.'];
+  if (pe !== undefined) {
+    z.push('  Median-Forward-KGV der Branche: ' + zahl(pe, 2));
+  }
+  if (mult !== undefined && mult !== null) {
+    z.push('  Gelernter Score-Multiplikator: ' + zahl(mult, 3)
+           + ' (über 1 = Trades dieser Branche liefen besser als alle übrigen)');
+  }
+  bewertet.slice(0, 8).forEach((e, i) => {
+    z.push('  ' + (i + 1) + '. ' + e.symbol + ' ' + (e.name || '')
+           + ' — Score ' + fz(e.score, f3)
+           + ', Potenzial ' + fz(e.upside_pct, fPct)
+           + ', CRV ' + fz(e.reward_risk, f2));
+  });
+  return z.join('\n');
+}
+
+function faktenRangliste(art) {
+  const def = RANGLISTEN[art];
+  const alle = universum().filter((e) => {
+    const v = e[def.feld];
+    return v !== null && v !== undefined;
+  });
+  if (!alle.length) return '';
+  const sortiert = alle.slice().sort((a, b) => b[def.feld] - a[def.feld]);
+  const z = ['Rangliste «' + def.name + '» aus allen ' + alle.length
+             + ' bewerteten Titeln:'];
+  sortiert.slice(0, 12).forEach((e, i) => {
+    z.push('  ' + (i + 1) + '. ' + e.symbol + ' ' + (e.name || '')
+           + ' — ' + def.format(e) + ', Score ' + fz(e.score, f3)
+           + ', ' + (e.tradeable === true ? 'handelbar' : 'nicht handelbar'));
+  });
+  return z.join('\n');
+}
+
+/** Was immer mitgeht: Zustand, Marktphase, die Ideen, die Depots, das
+ *  Gelernte. Ohne das kann das Modell auch die einfachste Rueckfrage nicht
+ *  beantworten. */
+function faktenGrundlage() {
+  const d = WISSEN.latest, st = WISSEN.status;
+  const z = [];
+
+  z.push('## Zustand');
+  if (st) {
+    z.push('Letzter Lauf: ' + zeitpunkt(st.letzter_lauf)
+           + ' (' + (LAUF_NAME[st.lauf] || st.lauf || 'unbekannt')
+           + '), Ergebnis ' + (st.ergebnis || 'unbekannt')
+           + ', Dauer ' + fz(st.sekunden, (v) => zahl(v, 0) + ' s') + '.');
+    z.push('Das Sprachmodell fuer die Thesen lief bei diesem Lauf: '
+           + (st.sprachmodell ? 'ja' : 'nein') + '.');
+    z.push('Die Simulation ist '
+           + ((st.steuerung || {}).paused ? 'PAUSIERT' : 'aktiv') + '.');
+  } else {
+    z.push('Kein Lauf verzeichnet.');
+  }
+
+  if (!d) {
+    z.push('Es liegt noch keine Analyse vor. Es gibt keine Kurse, keine Ziele'
+           + ' und keine Ideen, über die sich etwas sagen liesse.');
+    return z.join('\n');
+  }
+
+  z.push('');
+  z.push('## Analyse');
+  z.push('Stand ' + datumLang(d.date) + ', erzeugt ' + zeitpunkt(d.generated_at) + '.');
+  z.push('Universum ' + (d.universe_size || 0) + ' Titel, davon '
+         + (d.scored || 0) + ' bewertet und ' + (d.excluded || 0)
+         + ' ausgeschlossen.');
+  z.push('Gekauft werden pro Tag ' + (d.picks_per_day || 0) + ' Ideen, je '
+         + fz(d.position_pct, fPz) + ' des Depots.');
+  const r = d.regime || {};
+  z.push('Marktphase: ' + (r.benchmark || 'SPY') + ' bei '
+         + fz(r.benchmark_close, fUsd) + ', 200-Tage-Linie '
+         + fz(r.benchmark_sma200, fUsd) + ', Trend ' + (r.trend || 'unbekannt')
+         + ', Abstand ' + fz(r.gap_to_sma200, fPzS)
+         + ', VIX ' + fz(r.vix, f2) + ' (' + (r.vix_level || '?') + ')'
+         + ', 21 Tage ' + fz(r.chg_21d, fPzS) + '.');
+  const bq = d.basisquote_gesamt || {};
+  if (bq.n) {
+    z.push('Basisquote über ' + zahl(bq.n, 0) + ' historische Beobachtungen'
+           + ' bei 15 Handelstagen Horizont: Ziel zuerst ' + fz(bq.p_ziel, fAnt)
+           + ', Stop zuerst ' + fz(bq.p_stop, fAnt)
+           + ', Zeitablauf ' + fz(bq.p_zeit, fAnt)
+           + ', Erwartung ' + fz(bq.erwartung_r, fR) + '.');
+  }
+  if ((d.kalibrierung || {}).text) z.push(d.kalibrierung.text);
+
+  const ideen = ideenListe();
+  z.push('');
+  z.push('## Die ' + ideen.length + ' Ideen von heute');
+  if (!ideen.length) z.push('Heute keine.');
+  ideen.forEach((i, n) => {
+    z.push((n + 1) + '. ' + faktenTitel(i.symbol, false));
+  });
+
+  z.push('');
+  z.push('## Depots');
+  const eq = WISSEN.equity;
+  const stat = (eq && eq.statistik) || d.statistik || null;
+  if (!stat || !stat.ki || !stat.ki.trades) {
+    z.push('Noch keine abgeschlossenen Trades. Beide Depots stehen beim'
+           + ' Startkapital von 100 000 USD; Rendite, Trefferquote und'
+           + ' Erwartung entstehen erst nach dem ersten Abrechnungslauf.');
+  } else {
+    const start = (eq && eq.start_capital) || 100000;
+    ['ki', 'zufall'].forEach((k) => {
+      const a = stat[k] || {};
+      z.push((a.label || k) + ': Rendite '
+             + fz(a.return_pct, (v) => prozent(v, 2, true))
+             + ', ' + zahl(a.trades || 0, 0) + ' Trades'
+             + ', Trefferquote ' + fz(a.win_rate, (v) => prozent(v, 1))
+             + ', Erwartung je Trade ' + fz(a.expectancy_r, fR)
+             + ', Profitfaktor ' + fz(a.profit_factor, f2)
+             + ', grösster Rückgang ' + fz(a.max_drawdown_pct, (v) => prozent(v, 2))
+             + ', offene Positionen ' + zahl(a.open_positions || 0, 0) + '.');
+    });
+    if (eq && eq.spy && eq.spy.length) {
+      const spy = (eq.spy[eq.spy.length - 1].equity / start - 1) * 100;
+      z.push('SPY buy-and-hold im selben Zeitraum: ' + prozent(spy, 2, true) + '.');
+    }
+  }
+
+  z.push('');
+  z.push('## Gelerntes');
+  const w = WISSEN.gewichte;
+  if (!w) {
+    z.push('Noch keine Lerndatei — sie entsteht beim ersten Abrechnungslauf.');
+  } else {
+    const verlauf = (w.history || []).filter((x) => x && x.date);
+    const min = (w.regeln || {}).min_trades || 20;
+    z.push(verlauf.length + ' Lernschritte aus ' + zahl(w.trades_seen || 0, 0)
+           + ' abgeschlossenen Trades. Verändert wird erst ab ' + min
+           + ' Trades, darunter wäre jede Anpassung Rauschen.');
+    const labels = (w.labels || {}).score || {};
+    const start = (w.start || {}).score_weights || {};
+    Object.keys(w.score_weights || {}).forEach((k) => {
+      z.push('  Gewicht ' + (labels[k] || k) + ': Start ' + fz(start[k], f3)
+             + ' -> jetzt ' + fz(w.score_weights[k], f3));
+    });
+    if (verlauf.length) {
+      const letzte = verlauf[verlauf.length - 1];
+      z.push('  Letzter Schritt am ' + datumLang(letzte.date) + ': '
+             + ((letzte.changes || []).slice(0, 6).join('; ') || 'ohne Änderung'));
+    }
+  }
+  return z.join('\n');
+}
+
+const RANG_WORTE = {
+  crv: ['crv', 'chance', 'risiko', 'reward'],
+  upside: ['potenzial', 'upside', 'rendite'],
+  treffer: ['trefferquote', 'treffer', 'wahrscheinlich'],
+  score: ['score', 'beste', 'besten', 'bester', 'top', 'rangliste', 'ranking'],
+};
+
+/** Alles, was das Modell fuer diese eine Frage braucht — und nichts sonst.
+ *  528 Titel mitzuschicken waere weder bezahlbar noch hilfreich. */
+function faktenText(roh) {
+  const teile = [faktenGrundlage()];
+  const f = schlicht(roh);
+  const nach = [];
+
+  findeTitelAlle(roh, f, 3).forEach((e) => {
+    const t = faktenTitel(e.symbol, true);
+    if (t) nach.push(t);
+  });
+
+  const branchen = {};
+  universum().forEach((e) => { if (e.sector) branchen[e.sector] = true; });
+  const genommen = {};
+  const nimmBranche = (b) => {
+    if (!b || genommen[b] || !branchen[b]) return;
+    const t = faktenBranche(b);
+    if (t) { genommen[b] = true; nach.push(t); }
+  };
+  Object.keys(branchen).forEach((b) => {
+    if (enthaelt(f, schlicht(b))) nimmBranche(b);
+  });
+  Object.keys(BRANCHEN_ALIAS).forEach((wo) => {
+    if (enthaelt(f, wo)) nimmBranche(BRANCHEN_ALIAS[wo]);
+  });
+
+  Object.keys(RANG_WORTE).forEach((art) => {
+    if (RANG_WORTE[art].some((wo) => enthaelt(f, wo))) {
+      const t = faktenRangliste(art);
+      if (t) nach.push(t);
+    }
+  });
+
+  GLOSSAR.forEach((g) => {
+    if (g.k.split(' ').some((wo) => enthaelt(f, wo))) {
+      nach.push('Fachwort ' + ohneTags(g.t) + ': ' + ohneTags(g.b));
+    }
+  });
+
+  if (nach.length) {
+    teile.push('');
+    teile.push('## Ausdrücklich zur Frage nachgeschlagen');
+    teile.push(nach.join('\n\n'));
+  }
+  return teile.join('\n');
+}
+
+// ── Den Vermittler fragen ──────────────────────────────────────────────────
+
+/** Ruft `aufText` mit jedem Stueck, sobald es eintrifft. Zwei Antwortformen,
+ *  weil Workers AI je nach Modell mal `response` liefert und mal die
+ *  OpenAI-Form mit choices/delta. */
+async function frageAnKi(frage, fakten, aufText, abbruch) {
+  const antwort = await fetch(KI_ADRESSE.replace(/\/+$/, '') + '/frage', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ frage: frage, fakten: fakten }),
+    signal: abbruch.signal,
+  });
+
+  if (!antwort.ok) {
+    let grund = 'Der Vermittler antwortet mit ' + antwort.status + '.';
+    try {
+      const j = await antwort.json();
+      if (j && j.fehler) grund = j.fehler;
+    } catch (e) { /* dann eben die nackte Nummer */ }
+    throw new Error(grund);
+  }
+  if (!antwort.body) throw new Error('Keine Antwort erhalten.');
+
+  const leser = antwort.body.getReader();
+  const dekoder = new TextDecoder();
+  let puffer = '', etwas = false, sauber = false;
+
+  for (;;) {
+    const gelesen = await leser.read();
+    if (gelesen.done) break;
+    puffer += dekoder.decode(gelesen.value, { stream: true });
+    const zeilen = puffer.split('\n');
+    puffer = zeilen.pop();
+    zeilen.forEach((zeile) => {
+      if (zeile.indexOf('data:') !== 0) return;
+      const roh = zeile.slice(5).trim();
+      if (roh === '[DONE]') { sauber = true; return; }
+      if (!roh) return;
+      let stueck = '';
+      try {
+        const j = JSON.parse(roh);
+        // Das Token "0" kommt als JSON-Zahl 0 an, nicht als Zeichenkette.
+        // Weil 0 falsch-wertig ist, verschluckt jedes `|| ''` und jedes
+        // `if (stueck)` genau diese Token: aus "100 %" wird "1 %", aus
+        // "212'350" wird "212'35". Auf einer Seite mit Kurszielen ist das
+        // der schlimmste denkbare Fehler, weil die Zahl richtig aussieht.
+        // Deshalb hier ueberall gegen null/undefined pruefen, nie auf
+        // Wahrheitswert.
+        let roher = j.response;
+        if (roher === undefined || roher === null) {
+          roher = (((j.choices || [])[0] || {}).delta || {}).content;
+        }
+        stueck = roher === undefined || roher === null ? '' : String(roher);
+      } catch (e) { return; }
+      if (stueck !== '') { etwas = true; aufText(stueck); }
+    });
+  }
+  if (!etwas) throw new Error('Das Modell hat nichts zurueckgegeben.');
+  return sauber;
+}
+
+/** Freitext des Modells in schlichtes HTML. Absaetze an Leerzeilen,
+ *  Aufzaehlung an fuehrenden Strichen — mehr braucht es nicht, und mehr
+ *  waere eine Einladung, fremdes HTML durchzulassen. */
+function kiHtml(text) {
+  return String(text).split(/\n{2,}/).map((b) => {
+    const zeilen = b.split('\n').filter((zi) => zi.trim());
+    if (!zeilen.length) return '';
+    const punkte = zeilen.filter((zi) => /^\s*[-*•]\s+/.test(zi));
+    if (punkte.length && punkte.length === zeilen.length) {
+      return '<ul>' + zeilen.map((zi) =>
+        '<li>' + esc(zi.replace(/^\s*[-*•]\s+/, '')) + '</li>').join('')
+        + '</ul>';
+    }
+    return '<p>' + esc(zeilen.join(' ')) + '</p>';
+  }).join('');
+}
+
 // ── Die Zeile selbst ───────────────────────────────────────────────────────
 
 const BEISPIELE = ['NVDA', 'Was heisst CRV?', 'Bestes Chance-Risiko',
                    'Branche Technologie', 'Was hat das System gelernt?'];
+
+/* Mit Vermittler lohnen sich ganze Fragen. Ohne ihn waeren sie eine
+ * Einladung, die die Zeile nicht einloesen kann — dann bleiben Stichwoerter
+ * das ehrlichere Angebot. */
+const BEISPIELE_KI = ['Warum ist NVDA heute nicht dabei?',
+                      'Ist MU riskanter als TSM?',
+                      'Erklär mir die erste Idee einfach',
+                      'Schlägt die Analyse den Zufall?',
+                      'Was heisst CRV?'];
 
 let vorschlagIndex = -1;
 
@@ -1919,9 +2408,77 @@ function markiereVorschlag(richtung) {
   }
 }
 
+let kiAbbruch = null;
+
+/** Die Prosa des Modells nachtragen, waehrend sie eintrifft. Bricht sie ab,
+ *  tritt die Zahlenkarte an ihre Stelle — nie beides weg. */
+async function kiStarten(roh, ersatz) {
+  const ziel = $('#ki-text');
+  if (!ziel) return;
+  const abbruch = new AbortController();
+  kiAbbruch = abbruch;
+  const uhr = setTimeout(() => abbruch.abort(), KI_FRIST);
+  let text = '';
+  const halb = `<p class="notiz ki-fehler">Die Antwort brach vorzeitig ab —
+    was hier steht, ist unvollständig.</p>`;
+
+  try {
+    const sauber = await frageAnKi(roh, faktenText(roh), (stueck) => {
+      text += stueck;
+      ziel.innerHTML = kiHtml(text) + '<span class="ki-strich"></span>';
+    }, abbruch);
+    ziel.innerHTML = kiHtml(text) + (sauber ? '' : halb);
+  } catch (fehler) {
+    // Eine neue Frage hat die alte abgeloest: dann ist das kein Fehler,
+    // sondern der Nutzer, der weitergetippt hat.
+    if (kiAbbruch !== abbruch) return;
+    const offline = typeof navigator !== 'undefined' && navigator.onLine === false;
+    const roh = String((fehler && fehler.message) || fehler);
+    // «Failed to fetch» ist die Standardmeldung des Browsers, wenn die
+    // Verbindung gar nicht zustande kam. Sie hier unuebersetzt stehen zu
+    // lassen, hiesse dem Leser Browser-Innereien vorzusetzen.
+    const netz = /failed to fetch|networkerror|load failed/i.test(roh);
+    const grund = offline
+      ? 'Du bist offline — das Sprachmodell ist nicht erreichbar.'
+      : abbruch.signal.aborted
+        ? 'Die Antwort hat zu lange gedauert und wurde abgebrochen.'
+        : netz
+          ? 'Der Vermittler ist gerade nicht erreichbar.'
+          : roh;
+    // Was schon eingetroffen ist, bleibt stehen. Es ist nicht falsch,
+    // nur unvollstaendig — und das steht dann dabei.
+    ziel.innerHTML = kiHtml(text) + `<p class="ki-fehler">${esc(grund)}</p>
+      <p class="notiz">Die Zahlen stehen unabhängig davon zur Verfügung —
+        sie liegen auf dem Gerät.</p>`;
+    if (ersatz) {
+      const huelle = document.createElement('div');
+      huelle.innerHTML = ersatz;
+      $('#frage-antwort').appendChild(huelle.firstElementChild);
+      verdrahteMehr();
+    }
+  } finally {
+    clearTimeout(uhr);
+    if (kiAbbruch === abbruch) kiAbbruch = null;
+  }
+}
+
+function verdrahteMehr() {
+  $('#frage-antwort').querySelectorAll('.antwort-mehr .knopf').forEach((k) => {
+    if (k.dataset.verdrahtet) return;
+    k.dataset.verdrahtet = '1';
+    k.addEventListener('click', () => {
+      $('#frage-feld').value = k.dataset.frage;
+      zeigeAntwort(k.dataset.frage);
+    });
+  });
+}
+
 function zeigeAntwort(roh) {
   const feld = $('#frage-antwort');
-  const { antwort, weitere } = beantworte(roh);
+  const { antwort, weitere, notfall } = beantworte(roh);
+
+  // Eine laufende Antwort auf die vorige Frage ist ab jetzt uninteressant.
+  if (kiAbbruch) { const alt = kiAbbruch; kiAbbruch = null; alt.abort(); }
 
   const mehr = weitere.length ? `
     <div class="antwort-mehr">
@@ -1930,21 +2487,36 @@ function zeigeAntwort(roh) {
         data-frage="${esc(w.kurz)}">${esc(w.kurz)}</button>`).join('')}
     </div>` : '';
 
-  feld.innerHTML = `
+  const zahlenKarte = `
     <div class="karte antwort-karte">
+      ${kiAn() ? '<span class="marke">Die Zahlen dazu</span>' : ''}
       <h3>${esc(antwort.titel)}</h3>
       ${antwort.html}
       ${mehr}
     </div>`;
 
-  feld.querySelectorAll('.antwort-mehr .knopf').forEach((k) => {
-    k.addEventListener('click', () => {
-      $('#frage-feld').value = k.dataset.frage;
-      zeigeAntwort(k.dataset.frage);
-    });
-  });
+  if (!kiAn()) {
+    feld.innerHTML = zahlenKarte;
+    verdrahteMehr();
+    feld.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    return;
+  }
 
+  // Hat die Stichwortsuche nichts gefunden, waere "nicht verstanden" unter
+  // einer gelungenen Antwort nur verwirrend. Die Karte kommt dann erst, wenn
+  // das Modell ausfaellt.
+  feld.innerHTML = `
+    <div class="karte antwort-karte ki-karte">
+      <span class="marke">Antwort</span>
+      <div class="ki-text" id="ki-text"><span class="ki-warte">Denkt nach</span></div>
+      <p class="notiz ki-fuss">Formuliert von einem Sprachmodell — aus genau
+        den Zahlen dieser Seite, nicht aus seinem Gedächtnis. Simulation zu
+        Lernzwecken, keine Anlageberatung.</p>
+    </div>` + (notfall ? '' : zahlenKarte);
+
+  verdrahteMehr();
   feld.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  kiStarten(roh, notfall ? zahlenKarte : '');
 }
 
 function frageEinrichten() {
@@ -1952,7 +2524,11 @@ function frageEinrichten() {
   const feld = $('#frage-feld');
   const vor = $('#frage-vorschlaege');
 
-  $('#frage-beispiele').innerHTML = BEISPIELE.map((b) =>
+  if (kiAn()) {
+    feld.placeholder = 'Frag etwas — zu einer Aktie, einer Zahl oder der Analyse';
+  }
+
+  $('#frage-beispiele').innerHTML = (kiAn() ? BEISPIELE_KI : BEISPIELE).map((b) =>
     `<button type="button" class="beispiel">${esc(b)}</button>`).join('');
   $('#frage-beispiele').querySelectorAll('.beispiel').forEach((k) => {
     k.addEventListener('click', () => {
