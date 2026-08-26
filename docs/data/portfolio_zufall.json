@@ -412,7 +412,188 @@
    "mae_price": 236.04
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "BE",
+   "name": "Bloom Energy Corporation",
+   "sector": "Industrie",
+   "score": 0.4939,
+   "target": 274.72,
+   "stop": 182.27,
+   "atr_at_entry": 21.62041397209412,
+   "ziel_atr": 2.65,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3404,
+   "basis_erwartung_r": 0.1473,
+   "score_components": {
+    "trend": 0.277,
+    "setup": 1.0,
+    "volumen": 0.088,
+    "qualitaet": 0.579,
+    "bewertung": 0.306,
+    "analysten": 0.871
+   },
+   "target_methods": {
+    "atr": 262.98,
+    "struktur": 287.67
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  },
+  {
+   "symbol": "NDSN",
+   "name": "Nordson Corporation",
+   "sector": "Industrie",
+   "score": 0.4857,
+   "target": 349.14,
+   "stop": 323.44,
+   "atr_at_entry": 6.276940353569118,
+   "ziel_atr": 2.47,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3671,
+   "basis_erwartung_r": 0.1388,
+   "score_components": {
+    "trend": 0.947,
+    "setup": 0.444,
+    "volumen": 0.258,
+    "qualitaet": 0.603,
+    "bewertung": 0.348,
+    "analysten": 0.039
+   },
+   "target_methods": {
+    "atr": 346.87,
+    "struktur": 354.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "sector": "Kommunikation",
+   "score": 0.4977,
+   "target": 87.61,
+   "stop": 78.14,
+   "atr_at_entry": 2.320508452928557,
+   "ziel_atr": 2.31,
+   "stop_atr": 1.77,
+   "basis_p_ziel": 0.3617,
+   "basis_erwartung_r": 0.0387,
+   "score_components": {
+    "trend": 0.327,
+    "setup": 0.597,
+    "volumen": 0.153,
+    "qualitaet": 0.859,
+    "bewertung": 0.239,
+    "analysten": 0.667
+   },
+   "target_methods": {
+    "atr": 86.61,
+    "struktur": 89.16
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  },
+  {
+   "symbol": "PG",
+   "name": "Procter & Gamble",
+   "sector": "Konsum defensiv",
+   "score": 0.4565,
+   "target": 151.72,
+   "stop": 140.77,
+   "atr_at_entry": 2.639647036851534,
+   "ziel_atr": 2.4,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.3575,
+   "basis_erwartung_r": 0.0516,
+   "score_components": {
+    "trend": 0.13,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.674,
+    "bewertung": 0.203,
+    "analysten": 0.604
+   },
+   "target_methods": {
+    "atr": 150.48,
+    "struktur": 153.3
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  },
+  {
+   "symbol": "TDG",
+   "name": "TransDigm Group",
+   "sector": "Industrie",
+   "score": 0.4632,
+   "target": 1276.25,
+   "stop": 1144.14,
+   "atr_at_entry": 29.98357704880743,
+   "ziel_atr": 2.78,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3218,
+   "basis_erwartung_r": 0.1531,
+   "score_components": {
+    "trend": 0.131,
+    "setup": 0.579,
+    "volumen": 0.0,
+    "qualitaet": 0.881,
+    "bewertung": 0.215,
+    "analysten": 0.847
+   },
+   "target_methods": {
+    "atr": 1256.07,
+    "struktur": 1290.31
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  },
+  {
+   "symbol": "DECK",
+   "name": "Deckers Brands",
+   "sector": "Konsum zyklisch",
+   "score": 0.5893,
+   "target": 97.78,
+   "stop": 83.5,
+   "atr_at_entry": 3.056607629827178,
+   "ziel_atr": 2.96,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.2786,
+   "basis_erwartung_r": 0.0914,
+   "score_components": {
+    "trend": 0.145,
+    "setup": 0.528,
+    "volumen": 0.666,
+    "qualitaet": 0.743,
+    "bewertung": 0.799,
+    "analysten": 0.898
+   },
+   "target_methods": {
+    "atr": 94.72,
+    "struktur": 98.07
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  }
+ ],
  "closed": [
   {
    "symbol": "TRGP",

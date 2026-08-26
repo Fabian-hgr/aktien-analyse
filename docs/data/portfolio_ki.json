@@ -452,7 +452,191 @@
    "mae_price": 116.8
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "CPAY",
+   "name": "Corpay",
+   "sector": "Finanzen",
+   "score": 0.7482,
+   "target": 429.15,
+   "stop": 397.38,
+   "atr_at_entry": 9.531845615963732,
+   "ziel_atr": 1.73,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4883,
+   "basis_erwartung_r": 0.1038,
+   "score_components": {
+    "trend": 0.982,
+    "setup": 0.897,
+    "volumen": 0.538,
+    "qualitaet": 0.736,
+    "bewertung": 0.621,
+    "analysten": 0.523,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 431.94,
+    "struktur": 425.88
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  },
+  {
+   "symbol": "EOG",
+   "name": "EOG Resources",
+   "sector": "Energie",
+   "score": 0.7271,
+   "target": 154.91,
+   "stop": 141.63,
+   "atr_at_entry": 3.5784805037713525,
+   "ziel_atr": 2.29,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.4174,
+   "basis_erwartung_r": 0.2494,
+   "score_components": {
+    "trend": 0.855,
+    "setup": 0.984,
+    "volumen": 0.036,
+    "qualitaet": 0.904,
+    "bewertung": 0.73,
+    "analysten": 0.581
+   },
+   "target_methods": {
+    "atr": 154.6,
+    "struktur": 153.54
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  },
+  {
+   "symbol": "UAL",
+   "name": "United Airlines Holdings",
+   "sector": "Industrie",
+   "score": 0.719,
+   "target": 129.92,
+   "stop": 111.09,
+   "atr_at_entry": 3.9349613060427164,
+   "ziel_atr": 3.16,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.2707,
+   "basis_erwartung_r": 0.1676,
+   "score_components": {
+    "trend": 0.68,
+    "setup": 0.748,
+    "volumen": 0.734,
+    "qualitaet": 0.463,
+    "bewertung": 0.6,
+    "analysten": 0.986,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 125.77,
+    "struktur": 130.27
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  },
+  {
+   "symbol": "DVN",
+   "name": "Devon Energy",
+   "sector": "Energie",
+   "score": 0.7186,
+   "target": 50.24,
+   "stop": 45.05,
+   "atr_at_entry": 1.3072047953765866,
+   "ziel_atr": 2.55,
+   "stop_atr": 1.42,
+   "basis_p_ziel": 0.3742,
+   "basis_erwartung_r": 0.2622,
+   "score_components": {
+    "trend": 0.807,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.702,
+    "bewertung": 0.51,
+    "analysten": 0.953
+   },
+   "target_methods": {
+    "atr": 49.78,
+    "struktur": 49.72
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  },
+  {
+   "symbol": "VLTO",
+   "name": "Veralto",
+   "sector": "Industrie",
+   "score": 0.7166,
+   "target": 102.6,
+   "stop": 95.57,
+   "atr_at_entry": 1.9620362697616105,
+   "ziel_atr": 1.96,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.4488,
+   "basis_erwartung_r": 0.1088,
+   "score_components": {
+    "trend": 0.949,
+    "setup": 0.938,
+    "volumen": 0.51,
+    "qualitaet": 0.67,
+    "bewertung": 0.327,
+    "analysten": 0.63
+   },
+   "target_methods": {
+    "atr": 102.89,
+    "struktur": 101.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  },
+  {
+   "symbol": "DAL",
+   "name": "Delta Air Lines",
+   "sector": "Industrie",
+   "score": 0.7118,
+   "target": 91.0,
+   "stop": 79.85,
+   "atr_at_entry": 2.344159593254513,
+   "ziel_atr": 3.13,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.2746,
+   "basis_erwartung_r": 0.1666,
+   "score_components": {
+    "trend": 0.643,
+    "setup": 0.626,
+    "volumen": 0.559,
+    "qualitaet": 0.541,
+    "bewertung": 1.0,
+    "analysten": 0.932,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 88.6,
+    "struktur": 91.28
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-26"
+  }
+ ],
  "closed": [],
  "equity_curve": [
   {
