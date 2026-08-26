@@ -2138,27 +2138,74 @@ function faktenGrundlage() {
   z.push('## Depots');
   const eq = WISSEN.equity;
   const stat = (eq && eq.statistik) || d.statistik || null;
-  if (!stat || !stat.ki || !stat.ki.trades) {
-    z.push('Noch keine abgeschlossenen Trades. Beide Depots stehen beim'
-           + ' Startkapital von 100 000 USD; Rendite, Trefferquote und'
-           + ' Erwartung entstehen erst nach dem ersten Abrechnungslauf.');
+  if (!stat || !stat.ki) {
+    z.push('Noch keine Depotdaten. Die Datei dazu entsteht beim ersten'
+           + ' Abrechnungslauf.');
   } else {
     const start = (eq && eq.start_capital) || 100000;
+    // Immer die echten Zahlen nennen, auch wenn noch kein Trade
+    // ABGESCHLOSSEN ist. Der frueheren Fassung galt `!stat.ki.trades` als
+    // "noch nichts passiert" — bei 12 offenen Positionen und einem Depotwert
+    // ueber dem Startkapital war das schlicht falsch, und das Modell hat die
+    // Falschaussage brav weitergereicht. Eine 0 ist eine Zahl, kein leerer
+    // Zustand.
     ['ki', 'zufall'].forEach((k) => {
       const a = stat[k] || {};
-      z.push((a.label || k) + ': Rendite '
-             + fz(a.return_pct, (v) => prozent(v, 2, true))
-             + ', ' + zahl(a.trades || 0, 0) + ' Trades'
-             + ', Trefferquote ' + fz(a.win_rate, (v) => prozent(v, 1))
-             + ', Erwartung je Trade ' + fz(a.expectancy_r, fR)
-             + ', Profitfaktor ' + fz(a.profit_factor, f2)
-             + ', grösster Rückgang ' + fz(a.max_drawdown_pct, (v) => prozent(v, 2))
-             + ', offene Positionen ' + zahl(a.open_positions || 0, 0) + '.');
+      const teile = [(a.label || k) + ': Depotwert ' + fz(a.equity, fUsd)];
+      teile.push('Rendite ' + fz(a.return_pct, (v) => prozent(v, 2, true)));
+      teile.push('Barbestand ' + fz(a.cash, fUsd));
+      teile.push('offene Positionen ' + zahl(a.open_positions || 0, 0));
+      teile.push('abgeschlossene Trades ' + zahl(a.trades || 0, 0));
+      if (a.trades) {
+        teile.push('Trefferquote ' + fz(a.win_rate, (v) => prozent(v, 1)));
+        teile.push('Erwartung je Trade ' + fz(a.expectancy_r, fR));
+        teile.push('Profitfaktor ' + fz(a.profit_factor, f2));
+        teile.push('grösster Rückgang '
+                   + fz(a.max_drawdown_pct, (v) => prozent(v, 2)));
+      }
+      z.push(teile.join(', ') + '.');
     });
+    // Die beiden Depots koennen unterschiedlich weit sein: das Zufallsdepot
+    // hatte schon einen Ausstieg, als das Analysedepot noch keinen hatte.
+    // Ein pauschaler Satz ueber "beide" waere hier falsch.
+    ['ki', 'zufall'].forEach((k) => {
+      const a = stat[k] || {};
+      if (a.trades) return;
+      z.push('Im ' + (a.label || k) + ' ist noch kein Trade abgeschlossen:'
+             + ' Trefferquote, Erwartung je Trade und Profitfaktor gibt es dort'
+             + ' deshalb noch nicht. Offene Positionen zählen erst mit, wenn'
+             + ' sie geschlossen sind — im Depotwert stecken sie hingegen'
+             + ' bereits.');
+    });
+    let spy = null;
     if (eq && eq.spy && eq.spy.length) {
-      const spy = (eq.spy[eq.spy.length - 1].equity / start - 1) * 100;
+      spy = (eq.spy[eq.spy.length - 1].equity / start - 1) * 100;
       z.push('SPY buy-and-hold im selben Zeitraum: ' + prozent(spy, 2, true) + '.');
     }
+
+    // Die Richtung des Vergleichs vorrechnen, statt sie das Modell aus zwei
+    // Renditen ableiten zu lassen. Beim ersten Versuch verwechselte es
+    // "schlaegt den Zufall" mit "schlaegt SPY" und drehte die Aussage um.
+    const rk = (stat.ki || {}).return_pct, rz = (stat.zufall || {}).return_pct;
+    const richtung = (d2) => d2 > 0 ? 'VOR' : d2 < 0 ? 'HINTER' : 'GLEICHAUF mit';
+    if (rk !== null && rk !== undefined && rz !== null && rz !== undefined) {
+      z.push('Vergleich, vorgerechnet: Das Analysedepot liegt mit '
+             + prozent(Math.abs(rk - rz), 2) + ' ' + richtung(rk - rz)
+             + ' dem Zufallsdepot'
+             + (spy === null ? '.' : ' und mit ' + prozent(Math.abs(rk - spy), 2)
+                + ' ' + richtung(rk - spy) + ' SPY.'));
+    }
+    const nMin = Math.min((stat.ki || {}).trades || 0,
+                          (stat.zufall || {}).trades || 0);
+    if (nMin < 200) {
+      z.push('WICHTIG zur Einordnung: Erst ' + zahl(nMin, 0)
+             + ' abgeschlossene Trades je Depot. Das genuegt nicht, um zu'
+             + ' entscheiden, ob die Analyse besser ist als der Zufall —'
+             + ' belastbar wird der Vergleich erst ab rund 200 Trades je Depot.'
+             + ' Nenne den Stand, aber ziehe daraus kein Urteil.');
+    }
+    const vt = typeof vorsprungText === 'function' ? vorsprungText(stat) : '';
+    if (vt) z.push(vt.replace(/\s+/g, ' ').trim());
   }
 
   z.push('');
