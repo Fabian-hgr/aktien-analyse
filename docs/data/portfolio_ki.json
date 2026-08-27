@@ -641,6 +641,191 @@
    },
    "order_date": "2026-08-26",
    "tries": 1
+  },
+  {
+   "symbol": "SCHW",
+   "name": "Charles Schwab Corporation",
+   "sector": "Finanzen",
+   "score": 0.8117,
+   "target": 114.25,
+   "stop": 105.84,
+   "atr_at_entry": 2.1987002601415857,
+   "ziel_atr": 2.22,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3989,
+   "basis_erwartung_r": 0.1244,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.748,
+    "bewertung": 0.556,
+    "analysten": 0.643,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 113.81,
+    "struktur": 114.53
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit",
+   "sector": "Technologie",
+   "score": 0.7716,
+   "target": 380.09,
+   "stop": 320.31,
+   "atr_at_entry": 15.129610651137396,
+   "ziel_atr": 2.27,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.4068,
+   "basis_erwartung_r": 0.1176,
+   "score_components": {
+    "trend": 0.744,
+    "setup": 0.964,
+    "volumen": 1.0,
+    "qualitaet": 0.762,
+    "bewertung": 0.868,
+    "analysten": 0.83,
+    "sentiment": 0.35
+   },
+   "target_methods": {
+    "atr": 377.85,
+    "struktur": 372.77
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
+  },
+  {
+   "symbol": "LLY",
+   "name": "Lilly (Eli)",
+   "sector": "Gesundheit",
+   "score": 0.7597,
+   "target": 1275.8,
+   "stop": 1125.84,
+   "atr_at_entry": 39.692790157259154,
+   "ziel_atr": 2.18,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3985,
+   "basis_erwartung_r": 0.1175,
+   "score_components": {
+    "trend": 0.886,
+    "setup": 0.832,
+    "volumen": 0.904,
+    "qualitaet": 0.87,
+    "bewertung": 0.238,
+    "analysten": 0.62,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 1269.81,
+    "struktur": 1292.51
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
+  },
+  {
+   "symbol": "CRM",
+   "name": "Salesforce",
+   "sector": "Technologie",
+   "score": 0.7386,
+   "target": 229.23,
+   "stop": 193.29,
+   "atr_at_entry": 7.4076467133759625,
+   "ziel_atr": 3.17,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.2894,
+   "basis_erwartung_r": 0.1696,
+   "score_components": {
+    "trend": 0.915,
+    "setup": 0.832,
+    "volumen": 0.309,
+    "qualitaet": 0.597,
+    "bewertung": 0.785,
+    "analysten": 0.746,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 221.46,
+    "struktur": 231.02
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
+  },
+  {
+   "symbol": "ACGL",
+   "name": "Arch Capital Group",
+   "sector": "Finanzen",
+   "score": 0.7341,
+   "target": 105.52,
+   "stop": 97.93,
+   "atr_at_entry": 1.7213256957514278,
+   "ziel_atr": 2.8,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3027,
+   "basis_erwartung_r": 0.1429,
+   "score_components": {
+    "trend": 0.834,
+    "setup": 1.0,
+    "volumen": 0.52,
+    "qualitaet": 0.628,
+    "bewertung": 0.731,
+    "analysten": 0.587
+   },
+   "target_methods": {
+    "atr": 104.17,
+    "struktur": 105.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "sector": "Technologie",
+   "score": 0.7316,
+   "target": 228.22,
+   "stop": 199.34,
+   "atr_at_entry": 6.198488236198372,
+   "ziel_atr": 2.98,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3117,
+   "basis_erwartung_r": 0.1604,
+   "score_components": {
+    "trend": 0.751,
+    "setup": 0.772,
+    "volumen": 0.307,
+    "qualitaet": 0.995,
+    "bewertung": 0.807,
+    "analysten": 1.0,
+    "sentiment": 0.7
+   },
+   "target_methods": {
+    "atr": 222.92,
+    "struktur": 227.9
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
   }
  ],
  "closed": [],

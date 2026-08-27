@@ -598,6 +598,186 @@
    },
    "order_date": "2026-08-26",
    "tries": 1
+  },
+  {
+   "symbol": "DG",
+   "name": "Dollar General",
+   "sector": "Konsum defensiv",
+   "score": 0.4128,
+   "target": 130.08,
+   "stop": 116.81,
+   "atr_at_entry": 3.3596824988499097,
+   "ziel_atr": 2.2,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.3905,
+   "basis_erwartung_r": 0.0489,
+   "score_components": {
+    "trend": 0.661,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.31,
+    "bewertung": 0.475,
+    "analysten": 0.581
+   },
+   "target_methods": {
+    "atr": 129.18,
+    "struktur": 130.53
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
+  },
+  {
+   "symbol": "SE",
+   "name": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
+   "sector": "Konsum zyklisch",
+   "score": 0.7127,
+   "target": 130.12,
+   "stop": 111.09,
+   "atr_at_entry": 4.664563691796933,
+   "ziel_atr": 2.37,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3661,
+   "basis_erwartung_r": 0.0747,
+   "score_components": {
+    "trend": 0.932,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.593,
+    "bewertung": 0.304,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 128.22,
+    "struktur": 131.86
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
+  },
+  {
+   "symbol": "CINF",
+   "name": "Cincinnati Financial",
+   "sector": "Finanzen",
+   "score": 0.5441,
+   "target": 179.3,
+   "stop": 167.72,
+   "atr_at_entry": 2.8972956223060713,
+   "ziel_atr": 2.39,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3685,
+   "basis_erwartung_r": 0.1308,
+   "score_components": {
+    "trend": 0.479,
+    "setup": 0.891,
+    "volumen": 0.278,
+    "qualitaet": 0.897,
+    "bewertung": 0.119,
+    "analysten": 0.393
+   },
+   "target_methods": {
+    "atr": 178.22,
+    "struktur": 181.21
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
+  },
+  {
+   "symbol": "ELV",
+   "name": "Elevance Health",
+   "sector": "Gesundheit",
+   "score": 0.6067,
+   "target": 429.26,
+   "stop": 387.41,
+   "atr_at_entry": 9.4604003012878,
+   "ziel_atr": 2.82,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.2972,
+   "basis_erwartung_r": 0.1342,
+   "score_components": {
+    "trend": 0.763,
+    "setup": 1.0,
+    "volumen": 0.139,
+    "qualitaet": 0.289,
+    "bewertung": 0.646,
+    "analysten": 0.608
+   },
+   "target_methods": {
+    "atr": 421.73,
+    "struktur": 432.02
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
+  },
+  {
+   "symbol": "AMGN",
+   "name": "Amgen",
+   "sector": "Gesundheit",
+   "score": 0.5514,
+   "target": 463.32,
+   "stop": 425.11,
+   "atr_at_entry": 9.522395761617291,
+   "ziel_atr": 2.41,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3585,
+   "basis_erwartung_r": 0.1253,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.557,
+    "volumen": 0.004,
+    "qualitaet": 0.646,
+    "bewertung": 0.315,
+    "analysten": 0.375
+   },
+   "target_methods": {
+    "atr": 459.65,
+    "struktur": 470.01
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
+  },
+  {
+   "symbol": "JBHT",
+   "name": "J.B. Hunt",
+   "sector": "Industrie",
+   "score": 0.4327,
+   "target": 284.23,
+   "stop": 250.65,
+   "atr_at_entry": 7.874527520338118,
+   "ziel_atr": 2.64,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.3423,
+   "basis_erwartung_r": 0.1467,
+   "score_components": {
+    "trend": 0.343,
+    "setup": 0.611,
+    "volumen": 0.0,
+    "qualitaet": 0.571,
+    "bewertung": 0.195,
+    "analysten": 0.684
+   },
+   "target_methods": {
+    "atr": 280.05,
+    "struktur": 289.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-27"
   }
  ],
  "closed": [
