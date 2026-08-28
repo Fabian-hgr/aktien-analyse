@@ -832,6 +832,190 @@
    },
    "order_date": "2026-08-27",
    "tries": 1
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk",
+   "sector": "Technologie",
+   "score": 0.7682,
+   "target": 298.22,
+   "stop": 255.51,
+   "atr_at_entry": 9.134640143883361,
+   "ziel_atr": 2.99,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3096,
+   "basis_erwartung_r": 0.1613,
+   "score_components": {
+    "trend": 0.941,
+    "setup": 0.499,
+    "volumen": 1.0,
+    "qualitaet": 0.811,
+    "bewertung": 0.689,
+    "analysten": 0.782,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 290.25,
+    "struktur": 302.03
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "EXPE",
+   "name": "Expedia Group",
+   "sector": "Konsum zyklisch",
+   "score": 0.7343,
+   "target": 343.28,
+   "stop": 299.49,
+   "atr_at_entry": 11.418908186316804,
+   "ziel_atr": 2.12,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.4083,
+   "basis_erwartung_r": 0.0697,
+   "score_components": {
+    "trend": 0.982,
+    "setup": 0.984,
+    "volumen": 0.581,
+    "qualitaet": 0.58,
+    "bewertung": 0.734,
+    "analysten": 0.545,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 341.42,
+    "struktur": 340.76
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "WDAY",
+   "name": "Workday, Inc.",
+   "sector": "Technologie",
+   "score": 0.7302,
+   "target": 221.97,
+   "stop": 178.38,
+   "atr_at_entry": 9.330565141002527,
+   "ziel_atr": 2.99,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.31,
+   "basis_erwartung_r": 0.1612,
+   "score_components": {
+    "trend": 0.979,
+    "setup": 1.0,
+    "volumen": 0.727,
+    "qualitaet": 0.47,
+    "bewertung": 0.828,
+    "analysten": 0.406,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 213.86,
+    "struktur": 225.9
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "REGN",
+   "name": "Regeneron Pharmaceuticals",
+   "sector": "Gesundheit",
+   "score": 0.7242,
+   "target": 847.95,
+   "stop": 779.61,
+   "atr_at_entry": 17.540535307056967,
+   "ziel_atr": 2.3,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3782,
+   "basis_erwartung_r": 0.1215,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.414,
+    "qualitaet": 0.764,
+    "bewertung": 0.655,
+    "analysten": 0.517,
+    "sentiment": 0.5
+   },
+   "target_methods": {
+    "atr": 843.22,
+    "struktur": 846.51
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "HAS",
+   "name": "Hasbro",
+   "sector": "Konsum zyklisch",
+   "score": 0.7166,
+   "target": 98.73,
+   "stop": 90.41,
+   "atr_at_entry": 2.207115850006893,
+   "ziel_atr": 2.06,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.4198,
+   "basis_erwartung_r": 0.0683,
+   "score_components": {
+    "trend": 0.927,
+    "setup": 0.965,
+    "volumen": 0.261,
+    "qualitaet": 0.618,
+    "bewertung": 0.536,
+    "analysten": 0.711
+   },
+   "target_methods": {
+    "atr": 98.52,
+    "struktur": 98.14
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "ZBRA",
+   "name": "Zebra Technologies",
+   "sector": "Technologie",
+   "score": 0.7141,
+   "target": 388.4,
+   "stop": 342.84,
+   "atr_at_entry": 10.946235734830099,
+   "ziel_atr": 2.48,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3751,
+   "basis_erwartung_r": 0.1307,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.556,
+    "bewertung": 0.82,
+    "analysten": 0.61
+   },
+   "target_methods": {
+    "atr": 384.47,
+    "struktur": 385.96
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
   }
  ],
  "closed": [],

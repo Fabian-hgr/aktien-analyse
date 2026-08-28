@@ -784,6 +784,186 @@
    },
    "order_date": "2026-08-27",
    "tries": 1
+  },
+  {
+   "symbol": "HLT",
+   "name": "Hilton Worldwide",
+   "sector": "Konsum zyklisch",
+   "score": 0.5335,
+   "target": 341.4,
+   "stop": 314.24,
+   "atr_at_entry": 6.694688848708836,
+   "ziel_atr": 2.35,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3699,
+   "basis_erwartung_r": 0.0743,
+   "score_components": {
+    "trend": 0.509,
+    "setup": 0.979,
+    "volumen": 0.0,
+    "qualitaet": 0.659,
+    "bewertung": 0.182,
+    "analysten": 0.585
+   },
+   "target_methods": {
+    "atr": 338.82,
+    "struktur": 346.16
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "sector": "Technologie",
+   "score": 0.3948,
+   "target": 107.73,
+   "stop": 82.33,
+   "atr_at_entry": 5.763980582790991,
+   "ziel_atr": 2.72,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3439,
+   "basis_erwartung_r": 0.1452,
+   "score_components": {
+    "trend": 0.283,
+    "setup": 0.805,
+    "volumen": 0.056,
+    "qualitaet": 0.411,
+    "bewertung": 0.228,
+    "analysten": 0.739
+   },
+   "target_methods": {
+    "atr": 104.26,
+    "struktur": 111.69
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "VMRK",
+   "name": "Vivmark Residential",
+   "sector": "Immobilien",
+   "score": 0.4769,
+   "target": 68.53,
+   "stop": 63.27,
+   "atr_at_entry": 1.360586448356382,
+   "ziel_atr": 2.22,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3617,
+   "basis_erwartung_r": 0.0675,
+   "score_components": {
+    "trend": 0.344,
+    "setup": 0.784,
+    "volumen": 0.2,
+    "qualitaet": 0.546,
+    "bewertung": 0.287,
+    "analysten": 0.59
+   },
+   "target_methods": {
+    "atr": 68.03,
+    "struktur": 69.29
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "FERG",
+   "name": "Ferguson Enterprises",
+   "sector": "Industrie",
+   "score": 0.4741,
+   "target": 252.62,
+   "stop": 222.69,
+   "atr_at_entry": 6.535081106612693,
+   "ziel_atr": 2.96,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.2969,
+   "basis_erwartung_r": 0.1607,
+   "score_components": {
+    "trend": 0.377,
+    "setup": 0.642,
+    "volumen": 0.0,
+    "qualitaet": 0.356,
+    "bewertung": 0.597,
+    "analysten": 0.789
+   },
+   "target_methods": {
+    "atr": 247.09,
+    "struktur": 254.55
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "MDT",
+   "name": "Medtronic",
+   "sector": "Gesundheit",
+   "score": 0.4201,
+   "target": 94.69,
+   "stop": 86.79,
+   "atr_at_entry": 1.9849616663378047,
+   "ziel_atr": 2.38,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.364,
+   "basis_erwartung_r": 0.1242,
+   "score_components": {
+    "trend": 0.936,
+    "setup": 1.0,
+    "volumen": 0.16,
+    "qualitaet": 0.484,
+    "bewertung": 0.547,
+    "analysten": 0.593
+   },
+   "target_methods": {
+    "atr": 93.99,
+    "struktur": 94.7
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "ATO",
+   "name": "Atmos Energy",
+   "sector": "Versorger",
+   "score": 0.3849,
+   "target": 173.07,
+   "stop": 163.29,
+   "atr_at_entry": 2.437492848288279,
+   "ziel_atr": 2.45,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3318,
+   "basis_erwartung_r": 0.104,
+   "score_components": {
+    "trend": 0.115,
+    "setup": 0.602,
+    "volumen": 0.227,
+    "qualitaet": 0.575,
+    "bewertung": 0.373,
+    "analysten": 0.451
+   },
+   "target_methods": {
+    "atr": 171.83,
+    "struktur": 174.15
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-28"
   }
  ],
  "closed": [
