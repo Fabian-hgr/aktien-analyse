@@ -442,7 +442,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-26",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NDSN",
@@ -473,7 +473,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-26",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NFLX",
@@ -504,7 +504,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-26",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PG",
@@ -535,7 +535,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-26",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TDG",
@@ -566,7 +566,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-26",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "DECK",
@@ -597,7 +597,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-26",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "DG",
@@ -627,7 +627,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-27"
+   "order_date": "2026-08-27",
+   "tries": 1
   },
   {
    "symbol": "SE",
@@ -657,7 +658,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-27"
+   "order_date": "2026-08-27",
+   "tries": 1
   },
   {
    "symbol": "CINF",
@@ -687,7 +689,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-27"
+   "order_date": "2026-08-27",
+   "tries": 1
   },
   {
    "symbol": "ELV",
@@ -717,7 +720,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-27"
+   "order_date": "2026-08-27",
+   "tries": 1
   },
   {
    "symbol": "AMGN",
@@ -747,7 +751,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-27"
+   "order_date": "2026-08-27",
+   "tries": 1
   },
   {
    "symbol": "JBHT",
@@ -777,7 +782,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-08-27"
+   "order_date": "2026-08-27",
+   "tries": 1
   }
  ],
  "closed": [
@@ -854,6 +860,14 @@
   },
   {
    "date": "2026-08-27",
+   "equity": 99968.38,
+   "cash": 88971.11,
+   "positions": 11,
+   "invested_pct": 11.0,
+   "return_pct": -0.032
+  },
+  {
+   "date": "2026-08-28",
    "equity": 99968.38,
    "cash": 88971.11,
    "positions": 11,
