@@ -964,6 +964,186 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "CAT",
+   "name": "Caterpillar Inc.",
+   "sector": "Industrie",
+   "score": 0.4759,
+   "target": 880.16,
+   "stop": 751.65,
+   "atr_at_entry": 29.604864559880188,
+   "ziel_atr": 2.72,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.33,
+   "basis_erwartung_r": 0.1485,
+   "score_components": {
+    "trend": 0.256,
+    "setup": 0.554,
+    "volumen": 0.128,
+    "qualitaet": 0.68,
+    "bewertung": 0.346,
+    "analysten": 0.806
+   },
+   "target_methods": {
+    "atr": 861.99,
+    "struktur": 895.71
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
+  },
+  {
+   "symbol": "GL",
+   "name": "Globe Life",
+   "sector": "Finanzen",
+   "score": 0.557,
+   "target": 181.56,
+   "stop": 167.81,
+   "atr_at_entry": 3.1229704513425633,
+   "ziel_atr": 2.79,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3038,
+   "basis_erwartung_r": 0.1408,
+   "score_components": {
+    "trend": 0.699,
+    "setup": 0.617,
+    "volumen": 0.071,
+    "qualitaet": 0.658,
+    "bewertung": 0.658,
+    "analysten": 0.464
+   },
+   "target_methods": {
+    "atr": 179.13,
+    "struktur": 182.36
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
+  },
+  {
+   "symbol": "CRDO",
+   "name": "Credo Technology Group Holding Ltd Ordinary Shares",
+   "sector": "Technologie",
+   "score": 0.3601,
+   "target": 284.51,
+   "stop": 202.53,
+   "atr_at_entry": 18.350537583275443,
+   "ziel_atr": 2.81,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3335,
+   "basis_erwartung_r": 0.1588,
+   "score_components": {
+    "trend": 0.523,
+    "setup": 0.946,
+    "volumen": 0.085,
+    "qualitaet": 0.999,
+    "bewertung": 0.324,
+    "analysten": 0.827
+   },
+   "target_methods": {
+    "atr": 271.98,
+    "struktur": 295.68
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
+  },
+  {
+   "symbol": "OXY",
+   "name": "Occidental Petroleum",
+   "sector": "Energie",
+   "score": 0.6904,
+   "target": 62.25,
+   "stop": 56.99,
+   "atr_at_entry": 1.4737600783290072,
+   "ziel_atr": 2.14,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.4419,
+   "basis_erwartung_r": 0.2406,
+   "score_components": {
+    "trend": 0.82,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.779,
+    "bewertung": 0.591,
+    "analysten": 0.646
+   },
+   "target_methods": {
+    "atr": 62.33,
+    "struktur": 62.14
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
+  },
+  {
+   "symbol": "HD",
+   "name": "Home Depot (The)",
+   "sector": "Konsum zyklisch",
+   "score": 0.452,
+   "target": 349.17,
+   "stop": 316.99,
+   "atr_at_entry": 7.665207268540732,
+   "ziel_atr": 2.49,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3475,
+   "basis_erwartung_r": 0.0797,
+   "score_components": {
+    "trend": 0.376,
+    "setup": 0.621,
+    "volumen": 0.15,
+    "qualitaet": 0.44,
+    "bewertung": 0.329,
+    "analysten": 0.679
+   },
+   "target_methods": {
+    "atr": 345.19,
+    "struktur": 353.63
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
+  },
+  {
+   "symbol": "RSG",
+   "name": "Republic Services",
+   "sector": "Industrie",
+   "score": 0.6195,
+   "target": 228.58,
+   "stop": 216.2,
+   "atr_at_entry": 3.621190613146244,
+   "ziel_atr": 1.8,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.4777,
+   "basis_erwartung_r": 0.0997,
+   "score_components": {
+    "trend": 0.913,
+    "setup": 0.943,
+    "volumen": 0.242,
+    "qualitaet": 0.472,
+    "bewertung": 0.151,
+    "analysten": 0.615
+   },
+   "target_methods": {
+    "atr": 229.69,
+    "struktur": 228.07
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
   }
  ],
  "closed": [

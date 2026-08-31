@@ -1016,6 +1016,187 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-28"
+  },
+  {
+   "symbol": "INCY",
+   "name": "Incyte",
+   "sector": "Gesundheit",
+   "score": 0.7747,
+   "target": 132.18,
+   "stop": 119.28,
+   "atr_at_entry": 3.200211949058919,
+   "ziel_atr": 2.44,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3549,
+   "basis_erwartung_r": 0.1283,
+   "score_components": {
+    "trend": 0.91,
+    "setup": 1.0,
+    "volumen": 0.643,
+    "qualitaet": 1.0,
+    "bewertung": 0.399,
+    "analysten": 0.481
+   },
+   "target_methods": {
+    "atr": 130.88,
+    "struktur": 132.59
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
+  },
+  {
+   "symbol": "A",
+   "name": "Agilent Technologies",
+   "sector": "Gesundheit",
+   "score": 0.7619,
+   "target": 162.01,
+   "stop": 147.29,
+   "atr_at_entry": 4.066067819350313,
+   "ziel_atr": 2.02,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4251,
+   "basis_erwartung_r": 0.1141,
+   "score_components": {
+    "trend": 0.954,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.683,
+    "bewertung": 0.307,
+    "analysten": 0.492
+   },
+   "target_methods": {
+    "atr": 162.03,
+    "struktur": 163.23
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
+  },
+  {
+   "symbol": "B",
+   "name": "Barrick Mining Corporation",
+   "sector": "Grundstoffe",
+   "score": 0.7578,
+   "target": 49.42,
+   "stop": 42.85,
+   "atr_at_entry": 1.6295050486218645,
+   "ziel_atr": 2.39,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3822,
+   "basis_erwartung_r": 0.1332,
+   "score_components": {
+    "trend": 0.889,
+    "setup": 1.0,
+    "volumen": 0.244,
+    "qualitaet": 0.96,
+    "bewertung": 0.569,
+    "analysten": 0.615,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 48.92,
+    "struktur": 49.0
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
+  },
+  {
+   "symbol": "RJF",
+   "name": "Raymond James Financial",
+   "sector": "Finanzen",
+   "score": 0.7412,
+   "target": 188.28,
+   "stop": 173.88,
+   "atr_at_entry": 3.4493651363032507,
+   "ziel_atr": 2.56,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.339,
+   "basis_erwartung_r": 0.1345,
+   "score_components": {
+    "trend": 0.911,
+    "setup": 0.804,
+    "volumen": 1.0,
+    "qualitaet": 0.645,
+    "bewertung": 0.671,
+    "analysten": 0.422
+   },
+   "target_methods": {
+    "atr": 186.38,
+    "struktur": 189.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
+  },
+  {
+   "symbol": "SHEL",
+   "name": "Shell plc American Depositary Shares (Each represents two Ordinary shares)",
+   "sector": "Energie",
+   "score": 0.7385,
+   "target": 94.66,
+   "stop": 88.96,
+   "atr_at_entry": 1.3523592929171817,
+   "ziel_atr": 2.79,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.3365,
+   "basis_erwartung_r": 0.2684,
+   "score_components": {
+    "trend": 0.9,
+    "setup": 1.0,
+    "volumen": 0.613,
+    "qualitaet": 0.616,
+    "bewertung": 0.684,
+    "analysten": 0.504
+   },
+   "target_methods": {
+    "atr": 93.86,
+    "struktur": 94.69
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
+  },
+  {
+   "symbol": "BKNG",
+   "name": "Booking Holdings",
+   "sector": "Konsum zyklisch",
+   "score": 0.7313,
+   "target": 217.83,
+   "stop": 194.76,
+   "atr_at_entry": 6.35168094612307,
+   "ziel_atr": 1.92,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.4462,
+   "basis_erwartung_r": 0.0661,
+   "score_components": {
+    "trend": 0.939,
+    "setup": 0.948,
+    "volumen": 0.098,
+    "qualitaet": 0.744,
+    "bewertung": 0.653,
+    "analysten": 0.699
+   },
+   "target_methods": {
+    "atr": 218.12,
+    "struktur": 216.37
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-08-31"
   }
  ],
  "closed": [],
