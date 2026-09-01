@@ -2,7 +2,7 @@
  "name": "ki",
  "label": "Depot KI",
  "start_capital": 100000.0,
- "cash": 87998.57594923709,
+ "cash": 71835.50450920027,
  "positions": [
   {
    "symbol": "TSM",
@@ -37,7 +37,7 @@
    "entry_price": 413.6667,
    "entry_date": "2026-08-24",
    "entry_open": 413.46,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 419.655,
    "mae_price": 405.22
   },
@@ -74,8 +74,8 @@
    "entry_price": 186.3331,
    "entry_date": "2026-08-24",
    "entry_open": 186.24,
-   "days_held": 2,
-   "mfe_price": 192.91,
+   "days_held": 3,
+   "mfe_price": 196.25,
    "mae_price": 186.225
   },
   {
@@ -112,8 +112,8 @@
    "entry_price": 935.7276,
    "entry_date": "2026-08-24",
    "entry_open": 935.26,
-   "days_held": 2,
-   "mfe_price": 946.38,
+   "days_held": 3,
+   "mfe_price": 969.39,
    "mae_price": 888.0
   },
   {
@@ -149,9 +149,9 @@
    "entry_price": 219.4997,
    "entry_date": "2026-08-24",
    "entry_open": 219.39,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 221.37,
-   "mae_price": 215.07
+   "mae_price": 210.56
   },
   {
    "symbol": "NU",
@@ -186,46 +186,9 @@
    "entry_price": 14.4272,
    "entry_date": "2026-08-24",
    "entry_open": 14.42,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 15.165,
    "mae_price": 14.345
-  },
-  {
-   "symbol": "BSX",
-   "name": "Boston Scientific",
-   "sector": "Gesundheit",
-   "score": 0.7274,
-   "target": 53.73,
-   "stop": 47.63,
-   "atr_at_entry": 1.7176682959097416,
-   "ziel_atr": 1.95,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.4386,
-   "basis_erwartung_r": 0.1085,
-   "score_components": {
-    "trend": 0.483,
-    "setup": 0.913,
-    "volumen": 1.0,
-    "qualitaet": 0.577,
-    "bewertung": 0.725,
-    "analysten": 0.838
-   },
-   "target_methods": {
-    "atr": 53.86,
-    "struktur": 52.92
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-24",
-   "shares": 19.904892,
-   "entry_price": 50.2301,
-   "entry_date": "2026-08-24",
-   "entry_open": 50.205,
-   "days_held": 2,
-   "mfe_price": 50.305,
-   "mae_price": 48.66
   },
   {
    "symbol": "SNDK",
@@ -261,8 +224,8 @@
    "entry_price": 1534.6169,
    "entry_date": "2026-08-25",
    "entry_open": 1533.85,
-   "days_held": 1,
-   "mfe_price": 1561.66,
+   "days_held": 2,
+   "mfe_price": 1609.475,
    "mae_price": 1468.09
   },
   {
@@ -299,83 +262,9 @@
    "entry_price": 485.8078,
    "entry_date": "2026-08-25",
    "entry_open": 485.565,
-   "days_held": 1,
-   "mfe_price": 492.37,
+   "days_held": 2,
+   "mfe_price": 505.91,
    "mae_price": 484.425
-  },
-  {
-   "symbol": "AMCR",
-   "name": "Amcor",
-   "sector": "Grundstoffe",
-   "score": 0.7239,
-   "target": 51.37,
-   "stop": 45.88,
-   "atr_at_entry": 1.2042887300402778,
-   "ziel_atr": 2.88,
-   "stop_atr": 1.68,
-   "basis_p_ziel": 0.3034,
-   "basis_erwartung_r": 0.1282,
-   "score_components": {
-    "trend": 0.923,
-    "setup": 0.808,
-    "volumen": 1.0,
-    "qualitaet": 0.448,
-    "bewertung": 0.767,
-    "analysten": 0.439
-   },
-   "target_methods": {
-    "atr": 50.35,
-    "struktur": 51.75
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-25",
-   "shares": 20.821473,
-   "entry_price": 48.044,
-   "entry_date": "2026-08-25",
-   "entry_open": 48.02,
-   "days_held": 1,
-   "mfe_price": 48.02,
-   "mae_price": 47.02
-  },
-  {
-   "symbol": "SYF",
-   "name": "Synchrony Financial",
-   "sector": "Finanzen",
-   "score": 0.7206,
-   "target": 85.67,
-   "stop": 76.84,
-   "atr_at_entry": 1.9823187232382697,
-   "ziel_atr": 2.85,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.295,
-   "basis_erwartung_r": 0.1442,
-   "score_components": {
-    "trend": 0.877,
-    "setup": 0.813,
-    "volumen": 0.46,
-    "qualitaet": 0.631,
-    "bewertung": 0.818,
-    "analysten": 0.618
-   },
-   "target_methods": {
-    "atr": 84.03,
-    "struktur": 86.07
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-25",
-   "shares": 12.445503,
-   "entry_price": 80.3652,
-   "entry_date": "2026-08-25",
-   "entry_open": 80.325,
-   "days_held": 1,
-   "mfe_price": 80.87,
-   "mae_price": 79.345
   },
   {
    "symbol": "CHTR",
@@ -410,9 +299,9 @@
    "entry_price": 147.7138,
    "entry_date": "2026-08-25",
    "entry_open": 147.64,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 156.02,
-   "mae_price": 145.245
+   "mae_price": 144.98
   },
   {
    "symbol": "SE",
@@ -447,12 +336,10 @@
    "entry_price": 116.8784,
    "entry_date": "2026-08-25",
    "entry_open": 116.82,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 123.73,
-   "mae_price": 116.8
-  }
- ],
- "pending": [
+   "mae_price": 110.96
+  },
   {
    "symbol": "SCHW",
    "name": "Charles Schwab Corporation",
@@ -483,7 +370,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-27",
-   "tries": 2
+   "shares": 9.170875,
+   "entry_price": 108.8544,
+   "entry_date": "2026-09-01",
+   "entry_open": 108.8,
+   "days_held": 1,
+   "mfe_price": 109.79,
+   "mae_price": 107.99
   },
   {
    "symbol": "INTU",
@@ -515,7 +408,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-27",
-   "tries": 2
+   "shares": 2.817998,
+   "entry_price": 354.237,
+   "entry_date": "2026-09-01",
+   "entry_open": 354.06,
+   "days_held": 1,
+   "mfe_price": 357.06,
+   "mae_price": 343.145
   },
   {
    "symbol": "LLY",
@@ -547,39 +446,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-27",
-   "tries": 2
-  },
-  {
-   "symbol": "CRM",
-   "name": "Salesforce",
-   "sector": "Technologie",
-   "score": 0.7386,
-   "target": 229.23,
-   "stop": 193.29,
-   "atr_at_entry": 7.4076467133759625,
-   "ziel_atr": 3.17,
-   "stop_atr": 1.68,
-   "basis_p_ziel": 0.2894,
-   "basis_erwartung_r": 0.1696,
-   "score_components": {
-    "trend": 0.915,
-    "setup": 0.832,
-    "volumen": 0.309,
-    "qualitaet": 0.597,
-    "bewertung": 0.785,
-    "analysten": 0.746,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 221.46,
-    "struktur": 231.02
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-27",
-   "tries": 2
+   "shares": 0.841887,
+   "entry_price": 1185.4024,
+   "entry_date": "2026-09-01",
+   "entry_open": 1184.81,
+   "days_held": 1,
+   "mfe_price": 1187.905,
+   "mae_price": 1157.35
   },
   {
    "symbol": "ACGL",
@@ -610,7 +483,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-27",
-   "tries": 2
+   "shares": 10.021669,
+   "entry_price": 99.5598,
+   "entry_date": "2026-09-01",
+   "entry_open": 99.51,
+   "days_held": 1,
+   "mfe_price": 99.555,
+   "mae_price": 98.02
   },
   {
    "symbol": "NVDA",
@@ -642,39 +521,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-27",
-   "tries": 2
-  },
-  {
-   "symbol": "ADSK",
-   "name": "Autodesk",
-   "sector": "Technologie",
-   "score": 0.7682,
-   "target": 298.22,
-   "stop": 255.51,
-   "atr_at_entry": 9.134640143883361,
-   "ziel_atr": 2.99,
-   "stop_atr": 1.68,
-   "basis_p_ziel": 0.3096,
-   "basis_erwartung_r": 0.1613,
-   "score_components": {
-    "trend": 0.941,
-    "setup": 0.499,
-    "volumen": 1.0,
-    "qualitaet": 0.811,
-    "bewertung": 0.689,
-    "analysten": 0.782,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 290.25,
-    "struktur": 302.03
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-28",
-   "tries": 1
+   "shares": 4.6009,
+   "entry_price": 216.8384,
+   "entry_date": "2026-09-01",
+   "entry_open": 216.73,
+   "days_held": 1,
+   "mfe_price": 220.395,
+   "mae_price": 215.12
   },
   {
    "symbol": "EXPE",
@@ -706,7 +559,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-28",
-   "tries": 1
+   "shares": 3.188323,
+   "entry_price": 312.8363,
+   "entry_date": "2026-09-01",
+   "entry_open": 312.68,
+   "days_held": 1,
+   "mfe_price": 315.35,
+   "mae_price": 302.88
   },
   {
    "symbol": "WDAY",
@@ -738,7 +597,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-28",
-   "tries": 1
+   "shares": 5.082097,
+   "entry_price": 196.2081,
+   "entry_date": "2026-09-01",
+   "entry_open": 196.11,
+   "days_held": 1,
+   "mfe_price": 205.205,
+   "mae_price": 196.0
   },
   {
    "symbol": "REGN",
@@ -770,7 +635,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-28",
-   "tries": 1
+   "shares": 1.237745,
+   "entry_price": 805.7026,
+   "entry_date": "2026-09-01",
+   "entry_open": 805.3,
+   "days_held": 1,
+   "mfe_price": 824.375,
+   "mae_price": 805.3
   },
   {
    "symbol": "HAS",
@@ -801,38 +672,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-28",
-   "tries": 1
-  },
-  {
-   "symbol": "ZBRA",
-   "name": "Zebra Technologies",
-   "sector": "Technologie",
-   "score": 0.7141,
-   "target": 388.4,
-   "stop": 342.84,
-   "atr_at_entry": 10.946235734830099,
-   "ziel_atr": 2.48,
-   "stop_atr": 1.68,
-   "basis_p_ziel": 0.3751,
-   "basis_erwartung_r": 0.1307,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 0.556,
-    "bewertung": 0.82,
-    "analysten": 0.61
-   },
-   "target_methods": {
-    "atr": 384.47,
-    "struktur": 385.96
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-28",
-   "tries": 1
+   "shares": 10.658344,
+   "entry_price": 93.5868,
+   "entry_date": "2026-09-01",
+   "entry_open": 93.54,
+   "days_held": 1,
+   "mfe_price": 94.62,
+   "mae_price": 93.0
   },
   {
    "symbol": "INCY",
@@ -863,7 +709,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-31",
-   "tries": 1
+   "shares": 7.96829,
+   "entry_price": 125.1425,
+   "entry_date": "2026-09-01",
+   "entry_open": 125.08,
+   "days_held": 1,
+   "mfe_price": 125.08,
+   "mae_price": 122.815
   },
   {
    "symbol": "A",
@@ -894,7 +746,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-31",
-   "tries": 1
+   "shares": 6.484877,
+   "entry_price": 153.7668,
+   "entry_date": "2026-09-01",
+   "entry_open": 153.69,
+   "days_held": 1,
+   "mfe_price": 153.69,
+   "mae_price": 149.19
   },
   {
    "symbol": "B",
@@ -926,38 +784,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-31",
-   "tries": 1
-  },
-  {
-   "symbol": "RJF",
-   "name": "Raymond James Financial",
-   "sector": "Finanzen",
-   "score": 0.7412,
-   "target": 188.28,
-   "stop": 173.88,
-   "atr_at_entry": 3.4493651363032507,
-   "ziel_atr": 2.56,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.339,
-   "basis_erwartung_r": 0.1345,
-   "score_components": {
-    "trend": 0.911,
-    "setup": 0.804,
-    "volumen": 1.0,
-    "qualitaet": 0.645,
-    "bewertung": 0.671,
-    "analysten": 0.422
-   },
-   "target_methods": {
-    "atr": 186.38,
-    "struktur": 189.95
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-31",
-   "tries": 1
+   "shares": 22.937514,
+   "entry_price": 43.4617,
+   "entry_date": "2026-09-01",
+   "entry_open": 43.44,
+   "days_held": 1,
+   "mfe_price": 44.515,
+   "mae_price": 43.02
   },
   {
    "symbol": "SHEL",
@@ -988,7 +821,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-31",
-   "tries": 1
+   "shares": 10.745298,
+   "entry_price": 92.7564,
+   "entry_date": "2026-09-01",
+   "entry_open": 92.71,
+   "days_held": 1,
+   "mfe_price": 93.85,
+   "mae_price": 92.47
   },
   {
    "symbol": "BKNG",
@@ -1019,37 +858,13 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-08-31",
-   "tries": 1
-  },
-  {
-   "symbol": "UNP",
-   "name": "Union Pacific Corporation",
-   "sector": "Industrie",
-   "score": 0.7872,
-   "target": 313.15,
-   "stop": 292.36,
-   "atr_at_entry": 5.214683944038264,
-   "ziel_atr": 2.36,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.383,
-   "basis_erwartung_r": 0.1313,
-   "score_components": {
-    "trend": 0.926,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.767,
-    "bewertung": 0.297,
-    "analysten": 0.595
-   },
-   "target_methods": {
-    "atr": 311.8,
-    "struktur": 314.05
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-01"
+   "shares": 5.015751,
+   "entry_price": 198.7293,
+   "entry_date": "2026-09-01",
+   "entry_open": 198.63,
+   "days_held": 1,
+   "mfe_price": 201.395,
+   "mae_price": 195.51
   },
   {
    "symbol": "ABNB",
@@ -1080,7 +895,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-01"
+   "order_date": "2026-09-01",
+   "shares": 5.497837,
+   "entry_price": 181.2106,
+   "entry_date": "2026-09-01",
+   "entry_open": 181.12,
+   "days_held": 1,
+   "mfe_price": 184.215,
+   "mae_price": 180.84
   },
   {
    "symbol": "WFC",
@@ -1110,7 +932,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-01"
+   "order_date": "2026-09-01",
+   "shares": 11.53925,
+   "entry_price": 86.3431,
+   "entry_date": "2026-09-01",
+   "entry_open": 86.3,
+   "days_held": 1,
+   "mfe_price": 87.94,
+   "mae_price": 86.12
   },
   {
    "symbol": "VLTO",
@@ -1140,7 +969,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-01"
+   "order_date": "2026-09-01",
+   "shares": 10.05675,
+   "entry_price": 99.0795,
+   "entry_date": "2026-09-01",
+   "entry_open": 99.03,
+   "days_held": 1,
+   "mfe_price": 99.03,
+   "mae_price": 96.66
   },
   {
    "symbol": "AEM",
@@ -1171,7 +1007,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-01"
+   "order_date": "2026-09-01",
+   "shares": 5.069834,
+   "entry_price": 196.4982,
+   "entry_date": "2026-09-01",
+   "entry_open": 196.4,
+   "days_held": 1,
+   "mfe_price": 200.6,
+   "mae_price": 193.34
   },
   {
    "symbol": "GPN",
@@ -1202,10 +1045,445 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-01"
+   "order_date": "2026-09-01",
+   "shares": 11.021315,
+   "entry_price": 90.3752,
+   "entry_date": "2026-09-01",
+   "entry_open": 90.33,
+   "days_held": 1,
+   "mfe_price": 91.96,
+   "mae_price": 90.04
   }
  ],
- "closed": [],
+ "pending": [],
+ "closed": [
+  {
+   "symbol": "BSX",
+   "name": "Boston Scientific",
+   "sector": "Gesundheit",
+   "depot": "ki",
+   "entry_date": "2026-08-24",
+   "entry_price": 50.2301,
+   "exit_date": "2026-09-01",
+   "exit_price": 47.6062,
+   "exit_reason": "stop",
+   "shares": 19.904892,
+   "stop": 47.63,
+   "target": 53.73,
+   "pnl": -52.23,
+   "pnl_pct": -5.224,
+   "r_multiple": -1.009,
+   "days_held": 3,
+   "mfe_price": 50.305,
+   "mae_price": 47.28,
+   "mfe_r": 0.029,
+   "atr_at_entry": 1.7176682959097416,
+   "ziel_atr": 1.95,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4386,
+   "basis_erwartung_r": 0.1085,
+   "score": 0.7274,
+   "score_components": {
+    "trend": 0.483,
+    "setup": 0.913,
+    "volumen": 1.0,
+    "qualitaet": 0.577,
+    "bewertung": 0.725,
+    "analysten": 0.838
+   },
+   "target_methods": {
+    "atr": 53.86,
+    "struktur": 52.92
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 761.63,
+    "benchmark_sma200": 708.25,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07537205546250281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": 0.005160217494589059
+   }
+  },
+  {
+   "symbol": "AMCR",
+   "name": "Amcor",
+   "sector": "Grundstoffe",
+   "depot": "ki",
+   "entry_date": "2026-08-25",
+   "entry_price": 48.044,
+   "exit_date": "2026-09-01",
+   "exit_price": 45.8571,
+   "exit_reason": "stop",
+   "shares": 20.821473,
+   "stop": 45.88,
+   "target": 51.37,
+   "pnl": -45.54,
+   "pnl_pct": -4.552,
+   "r_multiple": -1.011,
+   "days_held": 2,
+   "mfe_price": 48.02,
+   "mae_price": 45.49,
+   "mfe_r": -0.011,
+   "atr_at_entry": 1.2042887300402778,
+   "ziel_atr": 2.88,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3034,
+   "basis_erwartung_r": 0.1282,
+   "score": 0.7239,
+   "score_components": {
+    "trend": 0.923,
+    "setup": 0.808,
+    "volumen": 1.0,
+    "qualitaet": 0.448,
+    "bewertung": 0.767,
+    "analysten": 0.439
+   },
+   "target_methods": {
+    "atr": 50.35,
+    "struktur": 51.75
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 761.63,
+    "benchmark_sma200": 708.25,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07537205546250281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": 0.005160217494589059
+   }
+  },
+  {
+   "symbol": "SYF",
+   "name": "Synchrony Financial",
+   "sector": "Finanzen",
+   "depot": "ki",
+   "entry_date": "2026-08-25",
+   "entry_price": 80.3652,
+   "exit_date": "2026-09-01",
+   "exit_price": 76.5267,
+   "exit_reason": "stop_luecke",
+   "shares": 12.445503,
+   "stop": 76.84,
+   "target": 85.67,
+   "pnl": -47.77,
+   "pnl_pct": -4.776,
+   "r_multiple": -1.089,
+   "days_held": 2,
+   "mfe_price": 80.87,
+   "mae_price": 76.31,
+   "mfe_r": 0.143,
+   "atr_at_entry": 1.9823187232382697,
+   "ziel_atr": 2.85,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.295,
+   "basis_erwartung_r": 0.1442,
+   "score": 0.7206,
+   "score_components": {
+    "trend": 0.877,
+    "setup": 0.813,
+    "volumen": 0.46,
+    "qualitaet": 0.631,
+    "bewertung": 0.818,
+    "analysten": 0.618
+   },
+   "target_methods": {
+    "atr": 84.03,
+    "struktur": 86.07
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 761.63,
+    "benchmark_sma200": 708.25,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07537205546250281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": 0.005160217494589059
+   }
+  },
+  {
+   "symbol": "CRM",
+   "name": "Salesforce",
+   "sector": "Technologie",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 258.2291,
+   "exit_date": "2026-09-01",
+   "exit_price": 257.971,
+   "exit_reason": "ziel_luecke",
+   "shares": 3.863851,
+   "stop": 193.29,
+   "target": 229.23,
+   "pnl": -1.0,
+   "pnl_pct": -0.1,
+   "r_multiple": -0.004,
+   "days_held": 1,
+   "mfe_price": 262.305,
+   "mae_price": 254.41,
+   "mfe_r": 0.063,
+   "atr_at_entry": 7.4076467133759625,
+   "ziel_atr": 3.17,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.2894,
+   "basis_erwartung_r": 0.1696,
+   "score": 0.7386,
+   "score_components": {
+    "trend": 0.915,
+    "setup": 0.832,
+    "volumen": 0.309,
+    "qualitaet": 0.597,
+    "bewertung": 0.785,
+    "analysten": 0.746,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 221.46,
+    "struktur": 231.02
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 761.63,
+    "benchmark_sma200": 708.25,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07537205546250281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": 0.005160217494589059
+   }
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk",
+   "sector": "Technologie",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 254.212,
+   "exit_date": "2026-09-01",
+   "exit_price": 253.958,
+   "exit_reason": "stop_luecke",
+   "shares": 3.924604,
+   "stop": 255.51,
+   "target": 298.22,
+   "pnl": -1.0,
+   "pnl_pct": -0.1,
+   "r_multiple": 0.0,
+   "days_held": 1,
+   "mfe_price": 256.24,
+   "mae_price": 247.44,
+   "mfe_r": 0.0,
+   "atr_at_entry": 9.134640143883361,
+   "ziel_atr": 2.99,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3096,
+   "basis_erwartung_r": 0.1613,
+   "score": 0.7682,
+   "score_components": {
+    "trend": 0.941,
+    "setup": 0.499,
+    "volumen": 1.0,
+    "qualitaet": 0.811,
+    "bewertung": 0.689,
+    "analysten": 0.782,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 290.25,
+    "struktur": 302.03
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 761.63,
+    "benchmark_sma200": 708.25,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07537205546250281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": 0.005160217494589059
+   }
+  },
+  {
+   "symbol": "ZBRA",
+   "name": "Zebra Technologies",
+   "sector": "Technologie",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 353.0614,
+   "exit_date": "2026-09-01",
+   "exit_price": 342.6686,
+   "exit_reason": "stop",
+   "shares": 2.825114,
+   "stop": 342.84,
+   "target": 388.4,
+   "pnl": -29.36,
+   "pnl_pct": -2.944,
+   "r_multiple": -1.017,
+   "days_held": 1,
+   "mfe_price": 352.885,
+   "mae_price": 342.62,
+   "mfe_r": -0.017,
+   "atr_at_entry": 10.946235734830099,
+   "ziel_atr": 2.48,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3751,
+   "basis_erwartung_r": 0.1307,
+   "score": 0.7141,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.556,
+    "bewertung": 0.82,
+    "analysten": 0.61
+   },
+   "target_methods": {
+    "atr": 384.47,
+    "struktur": 385.96
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 761.63,
+    "benchmark_sma200": 708.25,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07537205546250281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": 0.005160217494589059
+   }
+  },
+  {
+   "symbol": "RJF",
+   "name": "Raymond James Financial",
+   "sector": "Finanzen",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 175.6578,
+   "exit_date": "2026-09-01",
+   "exit_price": 173.7931,
+   "exit_reason": "stop",
+   "shares": 5.674782,
+   "stop": 173.88,
+   "target": 188.28,
+   "pnl": -10.58,
+   "pnl_pct": -1.062,
+   "r_multiple": -1.049,
+   "days_held": 1,
+   "mfe_price": 176.17,
+   "mae_price": 172.365,
+   "mfe_r": 0.288,
+   "atr_at_entry": 3.4493651363032507,
+   "ziel_atr": 2.56,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.339,
+   "basis_erwartung_r": 0.1345,
+   "score": 0.7412,
+   "score_components": {
+    "trend": 0.911,
+    "setup": 0.804,
+    "volumen": 1.0,
+    "qualitaet": 0.645,
+    "bewertung": 0.671,
+    "analysten": 0.422
+   },
+   "target_methods": {
+    "atr": 186.38,
+    "struktur": 189.95
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 761.63,
+    "benchmark_sma200": 708.25,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07537205546250281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": 0.005160217494589059
+   }
+  },
+  {
+   "symbol": "UNP",
+   "name": "Union Pacific Corporation",
+   "sector": "Industrie",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 301.5157,
+   "exit_date": "2026-09-01",
+   "exit_price": 292.2138,
+   "exit_reason": "stop",
+   "shares": 3.305398,
+   "stop": 292.36,
+   "target": 313.15,
+   "pnl": -30.75,
+   "pnl_pct": -3.085,
+   "r_multiple": -1.016,
+   "days_held": 1,
+   "mfe_price": 301.365,
+   "mae_price": 288.78,
+   "mfe_r": -0.016,
+   "atr_at_entry": 5.214683944038264,
+   "ziel_atr": 2.36,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.383,
+   "basis_erwartung_r": 0.1313,
+   "score": 0.7872,
+   "score_components": {
+    "trend": 0.926,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.767,
+    "bewertung": 0.297,
+    "analysten": 0.595
+   },
+   "target_methods": {
+    "atr": 311.8,
+    "struktur": 314.05
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 761.63,
+    "benchmark_sma200": 708.25,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07537205546250281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": 0.005160217494589059
+   }
+  }
+ ],
  "equity_curve": [
   {
    "date": "2026-08-24",
@@ -1246,6 +1524,14 @@
    "positions": 12,
    "invested_pct": 12.0,
    "return_pct": -0.0
+  },
+  {
+   "date": "2026-09-01",
+   "equity": 99621.27,
+   "cash": 71835.5,
+   "positions": 28,
+   "invested_pct": 27.89,
+   "return_pct": -0.379
   }
  ],
  "skipped": [
