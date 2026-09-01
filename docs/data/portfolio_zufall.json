@@ -970,6 +970,186 @@
    },
    "order_date": "2026-08-31",
    "tries": 1
+  },
+  {
+   "symbol": "CCL",
+   "name": "Carnival Corporation",
+   "sector": "Konsum zyklisch",
+   "score": 0.4513,
+   "target": 26.44,
+   "stop": 22.43,
+   "atr_at_entry": 0.8580474628940069,
+   "ziel_atr": 2.97,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.2788,
+   "basis_erwartung_r": 0.0952,
+   "score_components": {
+    "trend": 0.085,
+    "setup": 0.421,
+    "volumen": 0.475,
+    "qualitaet": 0.476,
+    "bewertung": 0.883,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 25.58,
+    "struktur": 26.53
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
+  },
+  {
+   "symbol": "EXC",
+   "name": "Exelon",
+   "sector": "Versorger",
+   "score": 0.3518,
+   "target": 45.95,
+   "stop": 42.4,
+   "atr_at_entry": 0.8497738329363249,
+   "ziel_atr": 2.63,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.3024,
+   "basis_erwartung_r": 0.1012,
+   "score_components": {
+    "trend": 0.152,
+    "setup": 0.517,
+    "volumen": 0.241,
+    "qualitaet": 0.361,
+    "bewertung": 0.408,
+    "analysten": 0.48
+   },
+   "target_methods": {
+    "atr": 45.36,
+    "struktur": 46.17
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
+  },
+  {
+   "symbol": "IBM",
+   "name": "IBM",
+   "sector": "Technologie",
+   "score": 0.4685,
+   "target": 254.5,
+   "stop": 222.18,
+   "atr_at_entry": 6.979362579794042,
+   "ziel_atr": 2.97,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3132,
+   "basis_erwartung_r": 0.1689,
+   "score_components": {
+    "trend": 0.248,
+    "setup": 0.988,
+    "volumen": 0.0,
+    "qualitaet": 0.536,
+    "bewertung": 0.427,
+    "analysten": 0.515
+   },
+   "target_methods": {
+    "atr": 248.6,
+    "struktur": 257.61
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
+  },
+  {
+   "symbol": "EVRG",
+   "name": "Evergy",
+   "sector": "Versorger",
+   "score": 0.4448,
+   "target": 84.13,
+   "stop": 79.08,
+   "atr_at_entry": 1.2516584321813105,
+   "ziel_atr": 2.48,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3253,
+   "basis_erwartung_r": 0.0993,
+   "score_components": {
+    "trend": 0.37,
+    "setup": 0.594,
+    "volumen": 0.38,
+    "qualitaet": 0.375,
+    "bewertung": 0.352,
+    "analysten": 0.57
+   },
+   "target_methods": {
+    "atr": 83.45,
+    "struktur": 84.64
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
+  },
+  {
+   "symbol": "CFG",
+   "name": "Citizens Financial Group",
+   "sector": "Finanzen",
+   "score": 0.6277,
+   "target": 72.6,
+   "stop": 66.77,
+   "atr_at_entry": 1.3146766079133374,
+   "ziel_atr": 2.82,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2989,
+   "basis_erwartung_r": 0.1418,
+   "score_components": {
+    "trend": 0.705,
+    "setup": 0.552,
+    "volumen": 0.577,
+    "qualitaet": 0.621,
+    "bewertung": 0.584,
+    "analysten": 0.671
+   },
+   "target_methods": {
+    "atr": 71.53,
+    "struktur": 72.89
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
+  },
+  {
+   "symbol": "ODFL",
+   "name": "Old Dominion",
+   "sector": "Industrie",
+   "score": 0.4434,
+   "target": 214.2,
+   "stop": 190.98,
+   "atr_at_entry": 5.547780099378907,
+   "ziel_atr": 2.56,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3525,
+   "basis_erwartung_r": 0.1418,
+   "score_components": {
+    "trend": 0.315,
+    "setup": 0.531,
+    "volumen": 0.258,
+    "qualitaet": 0.759,
+    "bewertung": 0.074,
+    "analysten": 0.581
+   },
+   "target_methods": {
+    "atr": 211.66,
+    "struktur": 217.98
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
   }
  ],
  "closed": [

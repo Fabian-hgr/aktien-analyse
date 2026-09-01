@@ -1020,6 +1020,189 @@
    },
    "order_date": "2026-08-31",
    "tries": 1
+  },
+  {
+   "symbol": "UNP",
+   "name": "Union Pacific Corporation",
+   "sector": "Industrie",
+   "score": 0.7872,
+   "target": 313.15,
+   "stop": 292.36,
+   "atr_at_entry": 5.214683944038264,
+   "ziel_atr": 2.36,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.383,
+   "basis_erwartung_r": 0.1313,
+   "score_components": {
+    "trend": 0.926,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.767,
+    "bewertung": 0.297,
+    "analysten": 0.595
+   },
+   "target_methods": {
+    "atr": 311.8,
+    "struktur": 314.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
+  },
+  {
+   "symbol": "ABNB",
+   "name": "Airbnb",
+   "sector": "Konsum zyklisch",
+   "score": 0.771,
+   "target": 192.59,
+   "stop": 173.85,
+   "atr_at_entry": 5.4455993602186785,
+   "ziel_atr": 1.73,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.482,
+   "basis_erwartung_r": 0.0598,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.98,
+    "volumen": 1.0,
+    "qualitaet": 0.849,
+    "bewertung": 0.094,
+    "analysten": 0.399,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 193.88,
+    "struktur": 193.41
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
+  },
+  {
+   "symbol": "WFC",
+   "name": "Wells Fargo",
+   "sector": "Finanzen",
+   "score": 0.7475,
+   "target": 89.91,
+   "stop": 83.75,
+   "atr_at_entry": 1.638184744237746,
+   "ziel_atr": 2.15,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.409,
+   "basis_erwartung_r": 0.1194,
+   "score_components": {
+    "trend": 0.658,
+    "setup": 0.984,
+    "volumen": 1.0,
+    "qualitaet": 0.621,
+    "bewertung": 0.594,
+    "analysten": 0.692
+   },
+   "target_methods": {
+    "atr": 89.68,
+    "struktur": 89.5
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
+  },
+  {
+   "symbol": "VLTO",
+   "name": "Veralto",
+   "sector": "Industrie",
+   "score": 0.7466,
+   "target": 102.31,
+   "stop": 95.71,
+   "atr_at_entry": 1.7804320573748256,
+   "ziel_atr": 2.08,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.428,
+   "basis_erwartung_r": 0.115,
+   "score_components": {
+    "trend": 0.94,
+    "setup": 0.98,
+    "volumen": 0.734,
+    "qualitaet": 0.67,
+    "bewertung": 0.327,
+    "analysten": 0.62
+   },
+   "target_methods": {
+    "atr": 102.35,
+    "struktur": 101.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
+  },
+  {
+   "symbol": "AEM",
+   "name": "Agnico Eagle Mines Ltd.",
+   "sector": "Grundstoffe",
+   "score": 0.745,
+   "target": 221.33,
+   "stop": 190.03,
+   "atr_at_entry": 7.778600072322229,
+   "ziel_atr": 2.38,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3839,
+   "basis_erwartung_r": 0.1326,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.485,
+    "qualitaet": 0.929,
+    "bewertung": 0.237,
+    "analysten": 0.473,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 219.02,
+    "struktur": 223.96
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
+  },
+  {
+   "symbol": "GPN",
+   "name": "Global Payments",
+   "sector": "Finanzen",
+   "score": 0.7421,
+   "target": 96.56,
+   "stop": 87.06,
+   "atr_at_entry": 2.466643378047249,
+   "ziel_atr": 2.24,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.394,
+   "basis_erwartung_r": 0.1227,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.992,
+    "volumen": 0.411,
+    "qualitaet": 0.371,
+    "bewertung": 1.0,
+    "analysten": 0.66,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 96.0,
+    "struktur": 95.86
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-01"
   }
  ],
  "closed": [],
