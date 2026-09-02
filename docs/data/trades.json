@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-01T23:54:49+00:00",
+ "updated_at": "2026-09-02T23:56:30+00:00",
  "ki": [
   {
    "symbol": "BSX",
@@ -425,6 +425,166 @@
     "vix": null,
     "vix_level": null,
     "chg_21d": 0.005160217494589059
+   }
+  },
+  {
+   "symbol": "ACGL",
+   "name": "Arch Capital Group",
+   "sector": "Finanzen",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 99.5598,
+   "exit_date": "2026-09-02",
+   "exit_price": 97.881,
+   "exit_reason": "stop",
+   "shares": 10.021669,
+   "stop": 97.93,
+   "target": 105.52,
+   "pnl": -16.82,
+   "pnl_pct": -1.686,
+   "r_multiple": -1.03,
+   "days_held": 2,
+   "mfe_price": 99.555,
+   "mae_price": 97.88,
+   "mfe_r": -0.003,
+   "atr_at_entry": 1.7213256957514278,
+   "ziel_atr": 2.8,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3027,
+   "basis_erwartung_r": 0.1429,
+   "score": 0.7341,
+   "score_components": {
+    "trend": 0.834,
+    "setup": 1.0,
+    "volumen": 0.52,
+    "qualitaet": 0.628,
+    "bewertung": 0.731,
+    "analysten": 0.587
+   },
+   "target_methods": {
+    "atr": 104.17,
+    "struktur": 105.95
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 765.13,
+    "benchmark_sma200": 708.74,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07956228576887092,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0077550544020956735
+   }
+  },
+  {
+   "symbol": "REGN",
+   "name": "Regeneron Pharmaceuticals",
+   "sector": "Gesundheit",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 805.7026,
+   "exit_date": "2026-09-02",
+   "exit_price": 847.526,
+   "exit_reason": "ziel",
+   "shares": 1.237745,
+   "stop": 779.61,
+   "target": 847.95,
+   "pnl": 51.77,
+   "pnl_pct": 5.191,
+   "r_multiple": 1.603,
+   "days_held": 2,
+   "mfe_price": 854.32,
+   "mae_price": 805.3,
+   "mfe_r": 1.863,
+   "atr_at_entry": 17.540535307056967,
+   "ziel_atr": 2.3,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3782,
+   "basis_erwartung_r": 0.1215,
+   "score": 0.7242,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.414,
+    "qualitaet": 0.764,
+    "bewertung": 0.655,
+    "analysten": 0.517,
+    "sentiment": 0.5
+   },
+   "target_methods": {
+    "atr": 843.22,
+    "struktur": 846.51
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 765.13,
+    "benchmark_sma200": 708.74,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07956228576887092,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0077550544020956735
+   }
+  },
+  {
+   "symbol": "WFC",
+   "name": "Wells Fargo",
+   "sector": "Finanzen",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 86.3431,
+   "exit_date": "2026-09-02",
+   "exit_price": 89.865,
+   "exit_reason": "ziel",
+   "shares": 11.53925,
+   "stop": 83.75,
+   "target": 89.91,
+   "pnl": 40.64,
+   "pnl_pct": 4.079,
+   "r_multiple": 1.358,
+   "days_held": 2,
+   "mfe_price": 90.08,
+   "mae_price": 86.12,
+   "mfe_r": 1.441,
+   "atr_at_entry": 1.638184744237746,
+   "ziel_atr": 2.15,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.409,
+   "basis_erwartung_r": 0.1194,
+   "score": 0.7475,
+   "score_components": {
+    "trend": 0.658,
+    "setup": 0.984,
+    "volumen": 1.0,
+    "qualitaet": 0.621,
+    "bewertung": 0.594,
+    "analysten": 0.692
+   },
+   "target_methods": {
+    "atr": 89.68,
+    "struktur": 89.5
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 765.13,
+    "benchmark_sma200": 708.74,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07956228576887092,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0077550544020956735
    }
   }
  ],
@@ -1011,57 +1171,111 @@
     "vix_level": null,
     "chg_21d": 0.005160217494589059
    }
+  },
+  {
+   "symbol": "CRDO",
+   "name": "Credo Technology Group Holding Ltd Ordinary Shares",
+   "sector": "Technologie",
+   "depot": "zufall",
+   "entry_date": "2026-09-01",
+   "entry_price": 220.3301,
+   "exit_date": "2026-09-02",
+   "exit_price": 188.4457,
+   "exit_reason": "stop_luecke",
+   "shares": 4.524581,
+   "stop": 202.53,
+   "target": 284.51,
+   "pnl": -144.26,
+   "pnl_pct": -14.471,
+   "r_multiple": -1.791,
+   "days_held": 2,
+   "mfe_price": 221.57,
+   "mae_price": 161.965,
+   "mfe_r": 0.07,
+   "atr_at_entry": 18.350537583275443,
+   "ziel_atr": 2.81,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3335,
+   "basis_erwartung_r": 0.1588,
+   "score": 0.3601,
+   "score_components": {
+    "trend": 0.523,
+    "setup": 0.946,
+    "volumen": 0.085,
+    "qualitaet": 0.999,
+    "bewertung": 0.324,
+    "analysten": 0.827
+   },
+   "target_methods": {
+    "atr": 271.98,
+    "struktur": 295.68
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 765.13,
+    "benchmark_sma200": 708.74,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07956228576887092,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0077550544020956735
+   }
   }
  ],
  "statistik": {
   "ki": {
    "depot": "ki",
    "label": "Depot KI",
-   "equity": 99621.27,
-   "cash": 71835.5,
-   "open_positions": 28,
-   "return_pct": -0.38,
-   "trades": 8,
-   "max_drawdown_pct": -0.51,
-   "win_rate": 0.0,
-   "wins": 0,
-   "losses": 8,
-   "expectancy_r": -0.774,
-   "avg_win_r": null,
-   "avg_loss_r": -0.774,
-   "profit_factor": 0.0,
-   "avg_hold_days": 1.5,
-   "exit_reasons": {
-    "stop": 5,
-    "stop_luecke": 2,
-    "ziel_luecke": 1
-   },
-   "total_pnl": -218.23
-  },
-  "zufall": {
-   "depot": "zufall",
-   "label": "Depot Zufall",
-   "equity": 99595.25,
-   "cash": 74923.64,
-   "open_positions": 25,
-   "return_pct": -0.4,
+   "equity": 100074.35,
+   "cash": 68898.47,
+   "open_positions": 31,
+   "return_pct": 0.07,
    "trades": 11,
-   "max_drawdown_pct": -0.43,
-   "win_rate": 27.3,
-   "wins": 3,
-   "losses": 8,
-   "expectancy_r": -0.586,
-   "avg_win_r": 1.143,
-   "avg_loss_r": -1.234,
-   "profit_factor": 0.42,
-   "avg_hold_days": 1.5,
+   "max_drawdown_pct": -0.51,
+   "win_rate": 18.2,
+   "wins": 2,
+   "losses": 9,
+   "expectancy_r": -0.388,
+   "avg_win_r": 1.481,
+   "avg_loss_r": -0.803,
+   "profit_factor": 0.39,
+   "avg_hold_days": 1.6,
    "exit_reasons": {
     "stop": 6,
     "stop_luecke": 2,
     "ziel": 2,
     "ziel_luecke": 1
    },
-   "total_pnl": -137.11
+   "total_pnl": -142.64
+  },
+  "zufall": {
+   "depot": "zufall",
+   "label": "Depot Zufall",
+   "equity": 99720.62,
+   "cash": 69804.98,
+   "open_positions": 30,
+   "return_pct": -0.28,
+   "trades": 12,
+   "max_drawdown_pct": -0.43,
+   "win_rate": 25.0,
+   "wins": 3,
+   "losses": 9,
+   "expectancy_r": -0.686,
+   "avg_win_r": 1.143,
+   "avg_loss_r": -1.296,
+   "profit_factor": 0.26,
+   "avg_hold_days": 1.6,
+   "exit_reasons": {
+    "stop": 6,
+    "stop_luecke": 3,
+    "ziel": 2,
+    "ziel_luecke": 1
+   },
+   "total_pnl": -281.37
   }
  }
 }

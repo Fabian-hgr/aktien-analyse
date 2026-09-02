@@ -2,7 +2,7 @@
  "name": "zufall",
  "label": "Depot Zufall",
  "start_capital": 100000.0,
- "cash": 74923.64475083302,
+ "cash": 69804.97566134787,
  "positions": [
   {
    "symbol": "KKR",
@@ -37,9 +37,9 @@
    "entry_price": 108.144,
    "entry_date": "2026-08-24",
    "entry_open": 108.09,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 109.33,
-   "mae_price": 105.8
+   "mae_price": 105.74
   },
   {
    "symbol": "KIM",
@@ -74,7 +74,7 @@
    "entry_price": 24.1671,
    "entry_date": "2026-08-24",
    "entry_open": 24.155,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 24.325,
    "mae_price": 23.78
   },
@@ -111,7 +111,7 @@
    "entry_price": 133.3216,
    "entry_date": "2026-08-24",
    "entry_open": 133.255,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 137.05,
    "mae_price": 128.4
   },
@@ -148,7 +148,7 @@
    "entry_price": 89.6148,
    "entry_date": "2026-08-24",
    "entry_open": 89.57,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 92.85,
    "mae_price": 89.48
   },
@@ -185,9 +185,9 @@
    "entry_price": 316.7983,
    "entry_date": "2026-08-25",
    "entry_open": 316.64,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 317.67,
-   "mae_price": 286.78
+   "mae_price": 284.86
   },
   {
    "symbol": "KMI",
@@ -222,7 +222,7 @@
    "entry_price": 30.6503,
    "entry_date": "2026-08-25",
    "entry_open": 30.635,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 32.69,
    "mae_price": 30.635
   },
@@ -259,7 +259,7 @@
    "entry_price": 236.7683,
    "entry_date": "2026-08-25",
    "entry_open": 236.65,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 246.645,
    "mae_price": 200.67
   },
@@ -296,8 +296,8 @@
    "entry_price": 171.6258,
    "entry_date": "2026-09-01",
    "entry_open": 171.54,
-   "days_held": 1,
-   "mfe_price": 171.95,
+   "days_held": 2,
+   "mfe_price": 172.5,
    "mae_price": 170.17
   },
   {
@@ -333,8 +333,8 @@
    "entry_price": 397.1385,
    "entry_date": "2026-09-01",
    "entry_open": 396.94,
-   "days_held": 1,
-   "mfe_price": 404.645,
+   "days_held": 2,
+   "mfe_price": 408.5,
    "mae_price": 396.94
   },
   {
@@ -370,8 +370,8 @@
    "entry_price": 432.7062,
    "entry_date": "2026-09-01",
    "entry_open": 432.49,
-   "days_held": 1,
-   "mfe_price": 438.38,
+   "days_held": 2,
+   "mfe_price": 445.355,
    "mae_price": 431.15
   },
   {
@@ -407,9 +407,9 @@
    "entry_price": 261.9009,
    "entry_date": "2026-09-01",
    "entry_open": 261.77,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 264.66,
-   "mae_price": 255.735
+   "mae_price": 254.865
   },
   {
    "symbol": "INTC",
@@ -444,8 +444,8 @@
    "entry_price": 86.9284,
    "entry_date": "2026-09-01",
    "entry_open": 86.885,
-   "days_held": 1,
-   "mfe_price": 89.41,
+   "days_held": 2,
+   "mfe_price": 90.425,
    "mae_price": 85.74
   },
   {
@@ -481,9 +481,9 @@
    "entry_price": 65.0825,
    "entry_date": "2026-09-01",
    "entry_open": 65.05,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 65.68,
-   "mae_price": 65.01
+   "mae_price": 64.275
   },
   {
    "symbol": "ATO",
@@ -518,9 +518,9 @@
    "entry_price": 167.6438,
    "entry_date": "2026-09-01",
    "entry_open": 167.56,
-   "days_held": 1,
-   "mfe_price": 167.64,
-   "mae_price": 166.66
+   "days_held": 2,
+   "mfe_price": 168.34,
+   "mae_price": 166.175
   },
   {
    "symbol": "CAT",
@@ -555,9 +555,9 @@
    "entry_price": 786.0128,
    "entry_date": "2026-09-01",
    "entry_open": 785.62,
-   "days_held": 1,
-   "mfe_price": 790.215,
-   "mae_price": 774.76
+   "days_held": 2,
+   "mfe_price": 793.91,
+   "mae_price": 772.0
   },
   {
    "symbol": "GL",
@@ -592,46 +592,9 @@
    "entry_price": 173.2766,
    "entry_date": "2026-09-01",
    "entry_open": 173.19,
-   "days_held": 1,
-   "mfe_price": 173.815,
+   "days_held": 2,
+   "mfe_price": 175.36,
    "mae_price": 171.85
-  },
-  {
-   "symbol": "CRDO",
-   "name": "Credo Technology Group Holding Ltd Ordinary Shares",
-   "sector": "Technologie",
-   "score": 0.3601,
-   "target": 284.51,
-   "stop": 202.53,
-   "atr_at_entry": 18.350537583275443,
-   "ziel_atr": 2.81,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3335,
-   "basis_erwartung_r": 0.1588,
-   "score_components": {
-    "trend": 0.523,
-    "setup": 0.946,
-    "volumen": 0.085,
-    "qualitaet": 0.999,
-    "bewertung": 0.324,
-    "analysten": 0.827
-   },
-   "target_methods": {
-    "atr": 271.98,
-    "struktur": 295.68
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-31",
-   "shares": 4.524581,
-   "entry_price": 220.3301,
-   "entry_date": "2026-09-01",
-   "entry_open": 220.22,
-   "days_held": 1,
-   "mfe_price": 221.57,
-   "mae_price": 206.115
   },
   {
    "symbol": "OXY",
@@ -666,7 +629,7 @@
    "entry_price": 61.1005,
    "entry_date": "2026-09-01",
    "entry_open": 61.07,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 61.16,
    "mae_price": 60.055
   },
@@ -703,9 +666,9 @@
    "entry_price": 326.3431,
    "entry_date": "2026-09-01",
    "entry_open": 326.18,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 326.39,
-   "mae_price": 318.855
+   "mae_price": 317.745
   },
   {
    "symbol": "RSG",
@@ -740,7 +703,7 @@
    "entry_price": 223.9619,
    "entry_date": "2026-09-01",
    "entry_open": 223.85,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 224.39,
    "mae_price": 220.65
   },
@@ -777,7 +740,7 @@
    "entry_price": 23.6618,
    "entry_date": "2026-09-01",
    "entry_open": 23.65,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 23.97,
    "mae_price": 23.075
   },
@@ -814,9 +777,9 @@
    "entry_price": 43.942,
    "entry_date": "2026-09-01",
    "entry_open": 43.92,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 44.2,
-   "mae_price": 43.565
+   "mae_price": 43.22
   },
   {
    "symbol": "IBM",
@@ -851,9 +814,9 @@
    "entry_price": 230.8254,
    "entry_date": "2026-09-01",
    "entry_open": 230.71,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 233.0,
-   "mae_price": 229.935
+   "mae_price": 229.16
   },
   {
    "symbol": "EVRG",
@@ -888,9 +851,9 @@
    "entry_price": 81.4907,
    "entry_date": "2026-09-01",
    "entry_open": 81.45,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 81.7,
-   "mae_price": 80.96
+   "mae_price": 80.5
   },
   {
    "symbol": "CFG",
@@ -925,12 +888,10 @@
    "entry_price": 68.7193,
    "entry_date": "2026-09-01",
    "entry_open": 68.685,
-   "days_held": 1,
-   "mfe_price": 69.265,
+   "days_held": 2,
+   "mfe_price": 70.65,
    "mae_price": 67.69
-  }
- ],
- "pending": [
+  },
   {
    "symbol": "COP",
    "name": "ConocoPhillips",
@@ -959,7 +920,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 7.36503,
+   "entry_price": 135.0775,
+   "entry_date": "2026-09-02",
+   "entry_open": 135.01,
+   "days_held": 1,
+   "mfe_price": 137.36,
+   "mae_price": 134.875
   },
   {
    "symbol": "TPR",
@@ -989,7 +957,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 8.072304,
+   "entry_price": 123.2616,
+   "entry_date": "2026-09-02",
+   "entry_open": 123.2,
+   "days_held": 1,
+   "mfe_price": 124.33,
+   "mae_price": 122.08
   },
   {
    "symbol": "FIS",
@@ -1019,7 +994,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 24.220594,
+   "entry_price": 41.0805,
+   "entry_date": "2026-09-02",
+   "entry_open": 41.06,
+   "days_held": 1,
+   "mfe_price": 42.31,
+   "mae_price": 40.93
   },
   {
    "symbol": "BMY",
@@ -1049,7 +1031,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 14.857188,
+   "entry_price": 66.9835,
+   "entry_date": "2026-09-02",
+   "entry_open": 66.95,
+   "days_held": 1,
+   "mfe_price": 67.73,
+   "mae_price": 66.77
   },
   {
    "symbol": "XYZ",
@@ -1079,7 +1068,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 12.922697,
+   "entry_price": 77.0185,
+   "entry_date": "2026-09-02",
+   "entry_open": 76.98,
+   "days_held": 1,
+   "mfe_price": 83.07,
+   "mae_price": 76.98
   },
   {
    "symbol": "USB",
@@ -1109,9 +1105,17 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 16.131694,
+   "entry_price": 61.7409,
+   "entry_date": "2026-09-02",
+   "entry_open": 61.71,
+   "days_held": 1,
+   "mfe_price": 63.175,
+   "mae_price": 61.53
   }
  ],
+ "pending": [],
  "closed": [
   {
    "symbol": "TRGP",
@@ -1695,6 +1699,59 @@
     "vix_level": null,
     "chg_21d": 0.005160217494589059
    }
+  },
+  {
+   "symbol": "CRDO",
+   "name": "Credo Technology Group Holding Ltd Ordinary Shares",
+   "sector": "Technologie",
+   "depot": "zufall",
+   "entry_date": "2026-09-01",
+   "entry_price": 220.3301,
+   "exit_date": "2026-09-02",
+   "exit_price": 188.4457,
+   "exit_reason": "stop_luecke",
+   "shares": 4.524581,
+   "stop": 202.53,
+   "target": 284.51,
+   "pnl": -144.26,
+   "pnl_pct": -14.471,
+   "r_multiple": -1.791,
+   "days_held": 2,
+   "mfe_price": 221.57,
+   "mae_price": 161.965,
+   "mfe_r": 0.07,
+   "atr_at_entry": 18.350537583275443,
+   "ziel_atr": 2.81,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3335,
+   "basis_erwartung_r": 0.1588,
+   "score": 0.3601,
+   "score_components": {
+    "trend": 0.523,
+    "setup": 0.946,
+    "volumen": 0.085,
+    "qualitaet": 0.999,
+    "bewertung": 0.324,
+    "analysten": 0.827
+   },
+   "target_methods": {
+    "atr": 271.98,
+    "struktur": 295.68
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 765.13,
+    "benchmark_sma200": 708.74,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07956228576887092,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0077550544020956735
+   }
   }
  ],
  "equity_curve": [
@@ -1745,6 +1802,14 @@
    "positions": 25,
    "invested_pct": 24.77,
    "return_pct": -0.405
+  },
+  {
+   "date": "2026-09-02",
+   "equity": 99720.62,
+   "cash": 69804.98,
+   "positions": 30,
+   "invested_pct": 30.0,
+   "return_pct": -0.279
   }
  ],
  "skipped": [

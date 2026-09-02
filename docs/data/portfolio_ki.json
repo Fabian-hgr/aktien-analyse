@@ -2,7 +2,7 @@
  "name": "ki",
  "label": "Depot KI",
  "start_capital": 100000.0,
- "cash": 71835.50450920027,
+ "cash": 68898.46506896064,
  "positions": [
   {
    "symbol": "TSM",
@@ -37,7 +37,7 @@
    "entry_price": 413.6667,
    "entry_date": "2026-08-24",
    "entry_open": 413.46,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 419.655,
    "mae_price": 405.22
   },
@@ -74,9 +74,9 @@
    "entry_price": 186.3331,
    "entry_date": "2026-08-24",
    "entry_open": 186.24,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 196.25,
-   "mae_price": 186.225
+   "mae_price": 184.1
   },
   {
    "symbol": "MU",
@@ -112,7 +112,7 @@
    "entry_price": 935.7276,
    "entry_date": "2026-08-24",
    "entry_open": 935.26,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 969.39,
    "mae_price": 888.0
   },
@@ -149,7 +149,7 @@
    "entry_price": 219.4997,
    "entry_date": "2026-08-24",
    "entry_open": 219.39,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 221.37,
    "mae_price": 210.56
   },
@@ -186,8 +186,8 @@
    "entry_price": 14.4272,
    "entry_date": "2026-08-24",
    "entry_open": 14.42,
-   "days_held": 3,
-   "mfe_price": 15.165,
+   "days_held": 4,
+   "mfe_price": 15.475,
    "mae_price": 14.345
   },
   {
@@ -224,7 +224,7 @@
    "entry_price": 1534.6169,
    "entry_date": "2026-08-25",
    "entry_open": 1533.85,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 1609.475,
    "mae_price": 1468.09
   },
@@ -262,7 +262,7 @@
    "entry_price": 485.8078,
    "entry_date": "2026-08-25",
    "entry_open": 485.565,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 505.91,
    "mae_price": 484.425
   },
@@ -299,8 +299,8 @@
    "entry_price": 147.7138,
    "entry_date": "2026-08-25",
    "entry_open": 147.64,
-   "days_held": 2,
-   "mfe_price": 156.02,
+   "days_held": 3,
+   "mfe_price": 159.87,
    "mae_price": 144.98
   },
   {
@@ -336,7 +336,7 @@
    "entry_price": 116.8784,
    "entry_date": "2026-08-25",
    "entry_open": 116.82,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 123.73,
    "mae_price": 110.96
   },
@@ -374,8 +374,8 @@
    "entry_price": 108.8544,
    "entry_date": "2026-09-01",
    "entry_open": 108.8,
-   "days_held": 1,
-   "mfe_price": 109.79,
+   "days_held": 2,
+   "mfe_price": 109.86,
    "mae_price": 107.99
   },
   {
@@ -412,9 +412,9 @@
    "entry_price": 354.237,
    "entry_date": "2026-09-01",
    "entry_open": 354.06,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 357.06,
-   "mae_price": 343.145
+   "mae_price": 339.445
   },
   {
    "symbol": "LLY",
@@ -450,46 +450,9 @@
    "entry_price": 1185.4024,
    "entry_date": "2026-09-01",
    "entry_open": 1184.81,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 1187.905,
    "mae_price": 1157.35
-  },
-  {
-   "symbol": "ACGL",
-   "name": "Arch Capital Group",
-   "sector": "Finanzen",
-   "score": 0.7341,
-   "target": 105.52,
-   "stop": 97.93,
-   "atr_at_entry": 1.7213256957514278,
-   "ziel_atr": 2.8,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.3027,
-   "basis_erwartung_r": 0.1429,
-   "score_components": {
-    "trend": 0.834,
-    "setup": 1.0,
-    "volumen": 0.52,
-    "qualitaet": 0.628,
-    "bewertung": 0.731,
-    "analysten": 0.587
-   },
-   "target_methods": {
-    "atr": 104.17,
-    "struktur": 105.95
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-27",
-   "shares": 10.021669,
-   "entry_price": 99.5598,
-   "entry_date": "2026-09-01",
-   "entry_open": 99.51,
-   "days_held": 1,
-   "mfe_price": 99.555,
-   "mae_price": 98.02
   },
   {
    "symbol": "NVDA",
@@ -525,8 +488,8 @@
    "entry_price": 216.8384,
    "entry_date": "2026-09-01",
    "entry_open": 216.73,
-   "days_held": 1,
-   "mfe_price": 220.395,
+   "days_held": 2,
+   "mfe_price": 227.95,
    "mae_price": 215.12
   },
   {
@@ -563,7 +526,7 @@
    "entry_price": 312.8363,
    "entry_date": "2026-09-01",
    "entry_open": 312.68,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 315.35,
    "mae_price": 302.88
   },
@@ -601,47 +564,9 @@
    "entry_price": 196.2081,
    "entry_date": "2026-09-01",
    "entry_open": 196.11,
-   "days_held": 1,
-   "mfe_price": 205.205,
+   "days_held": 2,
+   "mfe_price": 205.56,
    "mae_price": 196.0
-  },
-  {
-   "symbol": "REGN",
-   "name": "Regeneron Pharmaceuticals",
-   "sector": "Gesundheit",
-   "score": 0.7242,
-   "target": 847.95,
-   "stop": 779.61,
-   "atr_at_entry": 17.540535307056967,
-   "ziel_atr": 2.3,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.3782,
-   "basis_erwartung_r": 0.1215,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 1.0,
-    "volumen": 0.414,
-    "qualitaet": 0.764,
-    "bewertung": 0.655,
-    "analysten": 0.517,
-    "sentiment": 0.5
-   },
-   "target_methods": {
-    "atr": 843.22,
-    "struktur": 846.51
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-28",
-   "shares": 1.237745,
-   "entry_price": 805.7026,
-   "entry_date": "2026-09-01",
-   "entry_open": 805.3,
-   "days_held": 1,
-   "mfe_price": 824.375,
-   "mae_price": 805.3
   },
   {
    "symbol": "HAS",
@@ -676,9 +601,9 @@
    "entry_price": 93.5868,
    "entry_date": "2026-09-01",
    "entry_open": 93.54,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 94.62,
-   "mae_price": 93.0
+   "mae_price": 92.675
   },
   {
    "symbol": "INCY",
@@ -713,8 +638,8 @@
    "entry_price": 125.1425,
    "entry_date": "2026-09-01",
    "entry_open": 125.08,
-   "days_held": 1,
-   "mfe_price": 125.08,
+   "days_held": 2,
+   "mfe_price": 129.4,
    "mae_price": 122.815
   },
   {
@@ -750,9 +675,9 @@
    "entry_price": 153.7668,
    "entry_date": "2026-09-01",
    "entry_open": 153.69,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 153.69,
-   "mae_price": 149.19
+   "mae_price": 148.075
   },
   {
    "symbol": "B",
@@ -788,9 +713,9 @@
    "entry_price": 43.4617,
    "entry_date": "2026-09-01",
    "entry_open": 43.44,
-   "days_held": 1,
-   "mfe_price": 44.515,
-   "mae_price": 43.02
+   "days_held": 2,
+   "mfe_price": 44.91,
+   "mae_price": 42.86
   },
   {
    "symbol": "SHEL",
@@ -825,7 +750,7 @@
    "entry_price": 92.7564,
    "entry_date": "2026-09-01",
    "entry_open": 92.71,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 93.85,
    "mae_price": 92.47
   },
@@ -862,7 +787,7 @@
    "entry_price": 198.7293,
    "entry_date": "2026-09-01",
    "entry_open": 198.63,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 201.395,
    "mae_price": 195.51
   },
@@ -900,46 +825,9 @@
    "entry_price": 181.2106,
    "entry_date": "2026-09-01",
    "entry_open": 181.12,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 184.215,
-   "mae_price": 180.84
-  },
-  {
-   "symbol": "WFC",
-   "name": "Wells Fargo",
-   "sector": "Finanzen",
-   "score": 0.7475,
-   "target": 89.91,
-   "stop": 83.75,
-   "atr_at_entry": 1.638184744237746,
-   "ziel_atr": 2.15,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.409,
-   "basis_erwartung_r": 0.1194,
-   "score_components": {
-    "trend": 0.658,
-    "setup": 0.984,
-    "volumen": 1.0,
-    "qualitaet": 0.621,
-    "bewertung": 0.594,
-    "analysten": 0.692
-   },
-   "target_methods": {
-    "atr": 89.68,
-    "struktur": 89.5
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-01",
-   "shares": 11.53925,
-   "entry_price": 86.3431,
-   "entry_date": "2026-09-01",
-   "entry_open": 86.3,
-   "days_held": 1,
-   "mfe_price": 87.94,
-   "mae_price": 86.12
+   "mae_price": 180.295
   },
   {
    "symbol": "VLTO",
@@ -974,7 +862,7 @@
    "entry_price": 99.0795,
    "entry_date": "2026-09-01",
    "entry_open": 99.03,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 99.03,
    "mae_price": 96.66
   },
@@ -1012,7 +900,7 @@
    "entry_price": 196.4982,
    "entry_date": "2026-09-01",
    "entry_open": 196.4,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 200.6,
    "mae_price": 193.34
   },
@@ -1050,12 +938,10 @@
    "entry_price": 90.3752,
    "entry_date": "2026-09-01",
    "entry_open": 90.33,
-   "days_held": 1,
-   "mfe_price": 91.96,
+   "days_held": 2,
+   "mfe_price": 93.59,
    "mae_price": 90.04
-  }
- ],
- "pending": [
+  },
   {
    "symbol": "ZBRA",
    "name": "Zebra Technologies",
@@ -1084,7 +970,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 2.894031,
+   "entry_price": 345.7028,
+   "entry_date": "2026-09-02",
+   "entry_open": 345.53,
+   "days_held": 1,
+   "mfe_price": 354.26,
+   "mae_price": 343.16
   },
   {
    "symbol": "EOG",
@@ -1115,7 +1008,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 6.775079,
+   "entry_price": 147.6938,
+   "entry_date": "2026-09-02",
+   "entry_open": 147.62,
+   "days_held": 1,
+   "mfe_price": 149.075,
+   "mae_price": 147.12
   },
   {
    "symbol": "AMT",
@@ -1145,7 +1045,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 5.76696,
+   "entry_price": 173.5267,
+   "entry_date": "2026-09-02",
+   "entry_open": 173.44,
+   "days_held": 1,
+   "mfe_price": 174.615,
+   "mae_price": 171.83
   },
   {
    "symbol": "MDT",
@@ -1176,7 +1083,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 10.825708,
+   "entry_price": 92.4362,
+   "entry_date": "2026-09-02",
+   "entry_open": 92.39,
+   "days_held": 1,
+   "mfe_price": 94.59,
+   "mae_price": 91.895
   },
   {
    "symbol": "J",
@@ -1206,7 +1120,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 6.883417,
+   "entry_price": 145.3726,
+   "entry_date": "2026-09-02",
+   "entry_open": 145.3,
+   "days_held": 1,
+   "mfe_price": 147.98,
+   "mae_price": 145.3
   },
   {
    "symbol": "NEM",
@@ -1237,9 +1158,17 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-02"
+   "order_date": "2026-09-02",
+   "shares": 7.984399,
+   "entry_price": 125.3426,
+   "entry_date": "2026-09-02",
+   "entry_open": 125.28,
+   "days_held": 1,
+   "mfe_price": 127.095,
+   "mae_price": 123.57
   }
  ],
+ "pending": [],
  "closed": [
   {
    "symbol": "BSX",
@@ -1666,6 +1595,166 @@
     "vix_level": null,
     "chg_21d": 0.005160217494589059
    }
+  },
+  {
+   "symbol": "ACGL",
+   "name": "Arch Capital Group",
+   "sector": "Finanzen",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 99.5598,
+   "exit_date": "2026-09-02",
+   "exit_price": 97.881,
+   "exit_reason": "stop",
+   "shares": 10.021669,
+   "stop": 97.93,
+   "target": 105.52,
+   "pnl": -16.82,
+   "pnl_pct": -1.686,
+   "r_multiple": -1.03,
+   "days_held": 2,
+   "mfe_price": 99.555,
+   "mae_price": 97.88,
+   "mfe_r": -0.003,
+   "atr_at_entry": 1.7213256957514278,
+   "ziel_atr": 2.8,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3027,
+   "basis_erwartung_r": 0.1429,
+   "score": 0.7341,
+   "score_components": {
+    "trend": 0.834,
+    "setup": 1.0,
+    "volumen": 0.52,
+    "qualitaet": 0.628,
+    "bewertung": 0.731,
+    "analysten": 0.587
+   },
+   "target_methods": {
+    "atr": 104.17,
+    "struktur": 105.95
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 765.13,
+    "benchmark_sma200": 708.74,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07956228576887092,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0077550544020956735
+   }
+  },
+  {
+   "symbol": "REGN",
+   "name": "Regeneron Pharmaceuticals",
+   "sector": "Gesundheit",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 805.7026,
+   "exit_date": "2026-09-02",
+   "exit_price": 847.526,
+   "exit_reason": "ziel",
+   "shares": 1.237745,
+   "stop": 779.61,
+   "target": 847.95,
+   "pnl": 51.77,
+   "pnl_pct": 5.191,
+   "r_multiple": 1.603,
+   "days_held": 2,
+   "mfe_price": 854.32,
+   "mae_price": 805.3,
+   "mfe_r": 1.863,
+   "atr_at_entry": 17.540535307056967,
+   "ziel_atr": 2.3,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3782,
+   "basis_erwartung_r": 0.1215,
+   "score": 0.7242,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.414,
+    "qualitaet": 0.764,
+    "bewertung": 0.655,
+    "analysten": 0.517,
+    "sentiment": 0.5
+   },
+   "target_methods": {
+    "atr": 843.22,
+    "struktur": 846.51
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 765.13,
+    "benchmark_sma200": 708.74,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07956228576887092,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0077550544020956735
+   }
+  },
+  {
+   "symbol": "WFC",
+   "name": "Wells Fargo",
+   "sector": "Finanzen",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 86.3431,
+   "exit_date": "2026-09-02",
+   "exit_price": 89.865,
+   "exit_reason": "ziel",
+   "shares": 11.53925,
+   "stop": 83.75,
+   "target": 89.91,
+   "pnl": 40.64,
+   "pnl_pct": 4.079,
+   "r_multiple": 1.358,
+   "days_held": 2,
+   "mfe_price": 90.08,
+   "mae_price": 86.12,
+   "mfe_r": 1.441,
+   "atr_at_entry": 1.638184744237746,
+   "ziel_atr": 2.15,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.409,
+   "basis_erwartung_r": 0.1194,
+   "score": 0.7475,
+   "score_components": {
+    "trend": 0.658,
+    "setup": 0.984,
+    "volumen": 1.0,
+    "qualitaet": 0.621,
+    "bewertung": 0.594,
+    "analysten": 0.692
+   },
+   "target_methods": {
+    "atr": 89.68,
+    "struktur": 89.5
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 765.13,
+    "benchmark_sma200": 708.74,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07956228576887092,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0077550544020956735
+   }
   }
  ],
  "equity_curve": [
@@ -1716,6 +1805,14 @@
    "positions": 28,
    "invested_pct": 27.89,
    "return_pct": -0.379
+  },
+  {
+   "date": "2026-09-02",
+   "equity": 100074.35,
+   "cash": 68898.47,
+   "positions": 31,
+   "invested_pct": 31.15,
+   "return_pct": 0.074
   }
  ],
  "skipped": [
