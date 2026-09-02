@@ -1055,7 +1055,191 @@
    "mae_price": 90.04
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "ZBRA",
+   "name": "Zebra Technologies",
+   "sector": "Technologie",
+   "score": 0.7987,
+   "target": 376.84,
+   "stop": 326.32,
+   "atr_at_entry": 10.421966081647719,
+   "ziel_atr": 3.19,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.2879,
+   "basis_erwartung_r": 0.1795,
+   "score_components": {
+    "trend": 0.982,
+    "setup": 0.807,
+    "volumen": 0.907,
+    "qualitaet": 0.556,
+    "bewertung": 0.82,
+    "analysten": 0.702
+   },
+   "target_methods": {
+    "atr": 365.77,
+    "struktur": 379.22
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  },
+  {
+   "symbol": "EOG",
+   "name": "EOG Resources",
+   "sector": "Energie",
+   "score": 0.7746,
+   "target": 155.44,
+   "stop": 143.38,
+   "atr_at_entry": 3.448588631374968,
+   "ziel_atr": 2.07,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.4539,
+   "basis_erwartung_r": 0.2374,
+   "score_components": {
+    "trend": 0.843,
+    "setup": 0.92,
+    "volumen": 0.746,
+    "qualitaet": 0.904,
+    "bewertung": 0.736,
+    "analysten": 0.577,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 155.88,
+    "struktur": 153.54
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  },
+  {
+   "symbol": "AMT",
+   "name": "American Tower",
+   "sector": "Immobilien",
+   "score": 0.7657,
+   "target": 186.24,
+   "stop": 169.79,
+   "atr_at_entry": 3.8056059697341205,
+   "ziel_atr": 2.68,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.2798,
+   "basis_erwartung_r": 0.0626,
+   "score_components": {
+    "trend": 0.712,
+    "setup": 1.0,
+    "volumen": 0.812,
+    "qualitaet": 0.631,
+    "bewertung": 0.634,
+    "analysten": 0.794
+   },
+   "target_methods": {
+    "atr": 183.09,
+    "struktur": 186.61
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  },
+  {
+   "symbol": "MDT",
+   "name": "Medtronic",
+   "sector": "Gesundheit",
+   "score": 0.7631,
+   "target": 96.02,
+   "stop": 88.71,
+   "atr_at_entry": 2.0926843227109235,
+   "ziel_atr": 1.9,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.4479,
+   "basis_erwartung_r": 0.1073,
+   "score_components": {
+    "trend": 0.933,
+    "setup": 0.924,
+    "volumen": 1.0,
+    "qualitaet": 0.484,
+    "bewertung": 0.547,
+    "analysten": 0.554,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 96.29,
+    "struktur": 95.28
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  },
+  {
+   "symbol": "J",
+   "name": "Jacobs Solutions",
+   "sector": "Industrie",
+   "score": 0.7623,
+   "target": 153.3,
+   "stop": 141.56,
+   "atr_at_entry": 2.948198937336739,
+   "ziel_atr": 2.36,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3836,
+   "basis_erwartung_r": 0.1311,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.739,
+    "qualitaet": 0.409,
+    "bewertung": 0.789,
+    "analysten": 0.559
+   },
+   "target_methods": {
+    "atr": 152.55,
+    "struktur": 153.0
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  },
+  {
+   "symbol": "NEM",
+   "name": "Newmont",
+   "sector": "Grundstoffe",
+   "score": 0.7595,
+   "target": 134.42,
+   "stop": 115.49,
+   "atr_at_entry": 4.3250654135103614,
+   "ziel_atr": 2.74,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3331,
+   "basis_erwartung_r": 0.1502,
+   "score_components": {
+    "trend": 0.986,
+    "setup": 1.0,
+    "volumen": 0.229,
+    "qualitaet": 0.864,
+    "bewertung": 0.412,
+    "analysten": 0.558,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 131.6,
+    "struktur": 135.27
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  }
+ ],
  "closed": [
   {
    "symbol": "BSX",

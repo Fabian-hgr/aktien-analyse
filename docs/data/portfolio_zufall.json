@@ -930,7 +930,188 @@
    "mae_price": 67.69
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "COP",
+   "name": "ConocoPhillips",
+   "sector": "Energie",
+   "score": 0.6163,
+   "target": 144.51,
+   "stop": 131.86,
+   "atr_at_entry": 3.02138456808454,
+   "ziel_atr": 2.76,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.3406,
+   "basis_erwartung_r": 0.2675,
+   "score_components": {
+    "trend": 0.939,
+    "setup": 0.465,
+    "volumen": 0.184,
+    "qualitaet": 0.686,
+    "bewertung": 0.621,
+    "analysten": 0.552
+   },
+   "target_methods": {
+    "atr": 142.81,
+    "struktur": 146.11
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  },
+  {
+   "symbol": "TPR",
+   "name": "Tapestry, Inc.",
+   "sector": "Konsum zyklisch",
+   "score": 0.44,
+   "target": 135.02,
+   "stop": 114.47,
+   "atr_at_entry": 4.447213240161554,
+   "ziel_atr": 2.91,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.2876,
+   "basis_erwartung_r": 0.0931,
+   "score_components": {
+    "trend": 0.154,
+    "setup": 0.437,
+    "volumen": 0.0,
+    "qualitaet": 0.595,
+    "bewertung": 0.549,
+    "analysten": 0.891
+   },
+   "target_methods": {
+    "atr": 130.83,
+    "struktur": 135.72
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  },
+  {
+   "symbol": "FIS",
+   "name": "Fidelity National Information Services",
+   "sector": "Finanzen",
+   "score": 0.6113,
+   "target": 44.67,
+   "stop": 38.75,
+   "atr_at_entry": 1.3039862062207865,
+   "ziel_atr": 2.93,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2811,
+   "basis_erwartung_r": 0.1451,
+   "score_components": {
+    "trend": 0.137,
+    "setup": 0.826,
+    "volumen": 0.249,
+    "qualitaet": 0.817,
+    "bewertung": 1.0,
+    "analysten": 0.805
+   },
+   "target_methods": {
+    "atr": 43.47,
+    "struktur": 44.82
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  },
+  {
+   "symbol": "BMY",
+   "name": "Bristol Myers Squibb",
+   "sector": "Gesundheit",
+   "score": 0.6349,
+   "target": 69.49,
+   "stop": 64.55,
+   "atr_at_entry": 1.4846672745932277,
+   "ziel_atr": 1.73,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.4784,
+   "basis_erwartung_r": 0.0976,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.86,
+    "volumen": 0.0,
+    "qualitaet": 0.604,
+    "bewertung": 0.555,
+    "analysten": 0.43
+   },
+   "target_methods": {
+    "atr": 69.93,
+    "struktur": 68.64
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  },
+  {
+   "symbol": "XYZ",
+   "name": "Block, Inc.",
+   "sector": "Finanzen",
+   "score": 0.5299,
+   "target": 84.9,
+   "stop": 73.46,
+   "atr_at_entry": 2.7051111093588958,
+   "ziel_atr": 2.62,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3306,
+   "basis_erwartung_r": 0.136,
+   "score_components": {
+    "trend": 0.827,
+    "setup": 0.625,
+    "volumen": 0.07,
+    "qualitaet": 0.31,
+    "bewertung": 0.501,
+    "analysten": 0.868
+   },
+   "target_methods": {
+    "atr": 83.26,
+    "struktur": 86.06
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  },
+  {
+   "symbol": "USB",
+   "name": "U.S. Bancorp",
+   "sector": "Finanzen",
+   "score": 0.5764,
+   "target": 64.11,
+   "stop": 59.54,
+   "atr_at_entry": 1.0346140959464993,
+   "ziel_atr": 2.8,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3021,
+   "basis_erwartung_r": 0.1411,
+   "score_components": {
+    "trend": 0.692,
+    "setup": 0.543,
+    "volumen": 0.26,
+    "qualitaet": 0.631,
+    "bewertung": 0.495,
+    "analysten": 0.667
+   },
+   "target_methods": {
+    "atr": 63.29,
+    "struktur": 64.36
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-02"
+  }
+ ],
  "closed": [
   {
    "symbol": "TRGP",
