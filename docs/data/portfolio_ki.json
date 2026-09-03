@@ -1168,7 +1168,190 @@
    "mae_price": 123.57
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "PTC",
+   "name": "PTC Inc.",
+   "sector": "Technologie",
+   "score": 0.7702,
+   "target": 159.87,
+   "stop": 141.94,
+   "atr_at_entry": 4.328095424283421,
+   "ziel_atr": 2.48,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3746,
+   "basis_erwartung_r": 0.1387,
+   "score_components": {
+    "trend": 0.931,
+    "setup": 1.0,
+    "volumen": 0.476,
+    "qualitaet": 0.713,
+    "bewertung": 0.628,
+    "analysten": 0.675
+   },
+   "target_methods": {
+    "atr": 158.32,
+    "struktur": 158.99
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  },
+  {
+   "symbol": "RJF",
+   "name": "Raymond James Financial",
+   "sector": "Finanzen",
+   "score": 0.7502,
+   "target": 182.93,
+   "stop": 170.11,
+   "atr_at_entry": 3.615951241123402,
+   "ziel_atr": 1.93,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4475,
+   "basis_erwartung_r": 0.1106,
+   "score_components": {
+    "trend": 0.914,
+    "setup": 0.941,
+    "volumen": 0.819,
+    "qualitaet": 0.645,
+    "bewertung": 0.671,
+    "analysten": 0.454
+   },
+   "target_methods": {
+    "atr": 183.21,
+    "struktur": 182.29
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  },
+  {
+   "symbol": "WFC",
+   "name": "Wells Fargo",
+   "sector": "Finanzen",
+   "score": 0.7397,
+   "target": 94.04,
+   "stop": 86.46,
+   "atr_at_entry": 1.748945009156426,
+   "ziel_atr": 2.72,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3143,
+   "basis_erwartung_r": 0.139,
+   "score_components": {
+    "trend": 0.866,
+    "setup": 0.721,
+    "volumen": 1.0,
+    "qualitaet": 0.621,
+    "bewertung": 0.594,
+    "analysten": 0.633
+   },
+   "target_methods": {
+    "atr": 92.8,
+    "struktur": 94.61
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  },
+  {
+   "symbol": "BLK",
+   "name": "BlackRock",
+   "sector": "Finanzen",
+   "score": 0.7385,
+   "target": 1162.34,
+   "stop": 1071.37,
+   "atr_at_entry": 22.231223069093385,
+   "ziel_atr": 2.48,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3525,
+   "basis_erwartung_r": 0.1319,
+   "score_components": {
+    "trend": 0.933,
+    "setup": 0.627,
+    "volumen": 1.0,
+    "qualitaet": 0.793,
+    "bewertung": 0.372,
+    "analysten": 0.695,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 1151.93,
+    "struktur": 1174.94
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  },
+  {
+   "symbol": "DELL",
+   "name": "Dell Technologies",
+   "sector": "Technologie",
+   "score": 0.7378,
+   "target": 575.57,
+   "stop": 442.27,
+   "atr_at_entry": 30.084950809673447,
+   "ziel_atr": 2.77,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3382,
+   "basis_erwartung_r": 0.1565,
+   "score_components": {
+    "trend": 0.844,
+    "setup": 0.784,
+    "volumen": 1.0,
+    "qualitaet": 0.591,
+    "bewertung": 0.682,
+    "analysten": 0.498,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 556.15,
+    "struktur": 594.99
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  },
+  {
+   "symbol": "PAYX",
+   "name": "Paychex",
+   "sector": "Industrie",
+   "score": 0.7141,
+   "target": 128.87,
+   "stop": 119.41,
+   "atr_at_entry": 2.82790302589618,
+   "ziel_atr": 1.72,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.4921,
+   "basis_erwartung_r": 0.0956,
+   "score_components": {
+    "trend": 0.964,
+    "setup": 0.897,
+    "volumen": 1.0,
+    "qualitaet": 0.729,
+    "bewertung": 0.41,
+    "analysten": 0.195
+   },
+   "target_methods": {
+    "atr": 129.95,
+    "struktur": 127.91
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  }
+ ],
  "closed": [
   {
    "symbol": "BSX",

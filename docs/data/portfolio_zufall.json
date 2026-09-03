@@ -1115,7 +1115,188 @@
    "mae_price": 61.53
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "ECHO",
+   "name": "EchoStar",
+   "sector": "Kommunikation",
+   "score": 0.4297,
+   "target": 95.22,
+   "stop": 81.48,
+   "atr_at_entry": 2.9541046605945502,
+   "ziel_atr": 2.89,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.2808,
+   "basis_erwartung_r": 0.0599,
+   "score_components": {
+    "trend": 0.092,
+    "setup": 0.822,
+    "volumen": 0.0,
+    "qualitaet": 0.109,
+    "bewertung": 0.834,
+    "analysten": 0.825
+   },
+   "target_methods": {
+    "atr": 92.28,
+    "struktur": 95.54
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  },
+  {
+   "symbol": "VRSN",
+   "name": "Verisign",
+   "sector": "Technologie",
+   "score": 0.6353,
+   "target": 303.05,
+   "stop": 278.68,
+   "atr_at_entry": 6.989257351127629,
+   "ziel_atr": 1.83,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.476,
+   "basis_erwartung_r": 0.0948,
+   "score_components": {
+    "trend": 0.755,
+    "setup": 0.941,
+    "volumen": 0.709,
+    "qualitaet": 0.712,
+    "bewertung": 0.181,
+    "analysten": 0.346
+   },
+   "target_methods": {
+    "atr": 305.13,
+    "struktur": 301.79
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  },
+  {
+   "symbol": "ACN",
+   "name": "Accenture",
+   "sector": "Technologie",
+   "score": 0.5656,
+   "target": 207.41,
+   "stop": 176.73,
+   "atr_at_entry": 6.5774050578051675,
+   "ziel_atr": 3.0,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3088,
+   "basis_erwartung_r": 0.171,
+   "score_components": {
+    "trend": 0.677,
+    "setup": 0.773,
+    "volumen": 0.0,
+    "qualitaet": 0.59,
+    "bewertung": 0.771,
+    "analysten": 0.425
+   },
+   "target_methods": {
+    "atr": 201.62,
+    "struktur": 210.11
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  },
+  {
+   "symbol": "GD",
+   "name": "General Dynamics",
+   "sector": "Industrie",
+   "score": 0.6056,
+   "target": 382.95,
+   "stop": 353.16,
+   "atr_at_entry": 6.680381514797509,
+   "ziel_atr": 2.84,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3131,
+   "basis_erwartung_r": 0.1535,
+   "score_components": {
+    "trend": 0.705,
+    "setup": 0.466,
+    "volumen": 1.0,
+    "qualitaet": 0.507,
+    "bewertung": 0.33,
+    "analysten": 0.633
+   },
+   "target_methods": {
+    "atr": 378.06,
+    "struktur": 385.67
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  },
+  {
+   "symbol": "FAST",
+   "name": "Fastenal",
+   "sector": "Industrie",
+   "score": 0.4775,
+   "target": 50.44,
+   "stop": 46.29,
+   "atr_at_entry": 1.020684275905207,
+   "ziel_atr": 2.44,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.3708,
+   "basis_erwartung_r": 0.1358,
+   "score_components": {
+    "trend": 0.627,
+    "setup": 0.563,
+    "volumen": 0.346,
+    "qualitaet": 0.791,
+    "bewertung": 0.0,
+    "analysten": 0.286
+   },
+   "target_methods": {
+    "atr": 50.1,
+    "struktur": 51.26
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  },
+  {
+   "symbol": "SOLV",
+   "name": "Solventum",
+   "sector": "Gesundheit",
+   "score": 0.6408,
+   "target": 95.44,
+   "stop": 88.6,
+   "atr_at_entry": 2.080052678426433,
+   "ziel_atr": 1.69,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4864,
+   "basis_erwartung_r": 0.095,
+   "score_components": {
+    "trend": 0.968,
+    "setup": 0.83,
+    "volumen": 0.0,
+    "qualitaet": 0.629,
+    "bewertung": 0.712,
+    "analysten": 0.406
+   },
+   "target_methods": {
+    "atr": 96.14,
+    "struktur": 94.13
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-03"
+  }
+ ],
  "closed": [
   {
    "symbol": "TRGP",
