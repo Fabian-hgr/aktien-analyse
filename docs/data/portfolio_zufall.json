@@ -2,7 +2,7 @@
  "name": "zufall",
  "label": "Depot Zufall",
  "start_capital": 100000.0,
- "cash": 64774.55252258004,
+ "cash": 58778.32572014724,
  "positions": [
   {
    "symbol": "KKR",
@@ -37,7 +37,7 @@
    "entry_price": 108.144,
    "entry_date": "2026-08-24",
    "entry_open": 108.09,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 110.48,
    "mae_price": 105.74
   },
@@ -74,9 +74,9 @@
    "entry_price": 24.1671,
    "entry_date": "2026-08-24",
    "entry_open": 24.155,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 24.325,
-   "mae_price": 23.78
+   "mae_price": 23.56
   },
   {
    "symbol": "DLTR",
@@ -111,7 +111,7 @@
    "entry_price": 133.3216,
    "entry_date": "2026-08-24",
    "entry_open": 133.255,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 137.05,
    "mae_price": 128.4
   },
@@ -148,9 +148,9 @@
    "entry_price": 89.6148,
    "entry_date": "2026-08-24",
    "entry_open": 89.57,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 92.85,
-   "mae_price": 89.335
+   "mae_price": 88.7
   },
   {
    "symbol": "LRCX",
@@ -185,7 +185,7 @@
    "entry_price": 316.7983,
    "entry_date": "2026-08-25",
    "entry_open": 316.64,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 317.67,
    "mae_price": 278.17
   },
@@ -222,7 +222,7 @@
    "entry_price": 30.6503,
    "entry_date": "2026-08-25",
    "entry_open": 30.635,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 32.69,
    "mae_price": 30.635
   },
@@ -259,7 +259,7 @@
    "entry_price": 236.7683,
    "entry_date": "2026-08-25",
    "entry_open": 236.65,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 246.645,
    "mae_price": 200.67
   },
@@ -296,7 +296,7 @@
    "entry_price": 171.6258,
    "entry_date": "2026-09-01",
    "entry_open": 171.54,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 174.97,
    "mae_price": 170.17
   },
@@ -333,7 +333,7 @@
    "entry_price": 397.1385,
    "entry_date": "2026-09-01",
    "entry_open": 396.94,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 416.28,
    "mae_price": 396.94
   },
@@ -370,7 +370,7 @@
    "entry_price": 432.7062,
    "entry_date": "2026-09-01",
    "entry_open": 432.49,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 445.49,
    "mae_price": 431.15
   },
@@ -407,8 +407,8 @@
    "entry_price": 261.9009,
    "entry_date": "2026-09-01",
    "entry_open": 261.77,
-   "days_held": 3,
-   "mfe_price": 266.695,
+   "days_held": 4,
+   "mfe_price": 274.01,
    "mae_price": 254.865
   },
   {
@@ -444,8 +444,8 @@
    "entry_price": 86.9284,
    "entry_date": "2026-09-01",
    "entry_open": 86.885,
-   "days_held": 3,
-   "mfe_price": 92.37,
+   "days_held": 4,
+   "mfe_price": 95.935,
    "mae_price": 85.74
   },
   {
@@ -481,8 +481,8 @@
    "entry_price": 65.0825,
    "entry_date": "2026-09-01",
    "entry_open": 65.05,
-   "days_held": 3,
-   "mfe_price": 65.68,
+   "days_held": 4,
+   "mfe_price": 65.885,
    "mae_price": 64.275
   },
   {
@@ -518,7 +518,7 @@
    "entry_price": 167.6438,
    "entry_date": "2026-09-01",
    "entry_open": 167.56,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 169.295,
    "mae_price": 166.175
   },
@@ -555,8 +555,8 @@
    "entry_price": 786.0128,
    "entry_date": "2026-09-01",
    "entry_open": 785.62,
-   "days_held": 3,
-   "mfe_price": 803.58,
+   "days_held": 4,
+   "mfe_price": 820.74,
    "mae_price": 772.0
   },
   {
@@ -592,7 +592,7 @@
    "entry_price": 173.2766,
    "entry_date": "2026-09-01",
    "entry_open": 173.19,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 176.45,
    "mae_price": 171.85
   },
@@ -629,9 +629,9 @@
    "entry_price": 61.1005,
    "entry_date": "2026-09-01",
    "entry_open": 61.07,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 61.33,
-   "mae_price": 60.055
+   "mae_price": 59.35
   },
   {
    "symbol": "RSG",
@@ -666,7 +666,7 @@
    "entry_price": 223.9619,
    "entry_date": "2026-09-01",
    "entry_open": 223.85,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 225.6,
    "mae_price": 220.65
   },
@@ -703,7 +703,7 @@
    "entry_price": 23.6618,
    "entry_date": "2026-09-01",
    "entry_open": 23.65,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 23.97,
    "mae_price": 23.075
   },
@@ -740,7 +740,7 @@
    "entry_price": 43.942,
    "entry_date": "2026-09-01",
    "entry_open": 43.92,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 44.58,
    "mae_price": 43.22
   },
@@ -777,7 +777,7 @@
    "entry_price": 230.8254,
    "entry_date": "2026-09-01",
    "entry_open": 230.71,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 237.83,
    "mae_price": 229.16
   },
@@ -814,8 +814,8 @@
    "entry_price": 81.4907,
    "entry_date": "2026-09-01",
    "entry_open": 81.45,
-   "days_held": 3,
-   "mfe_price": 82.24,
+   "days_held": 4,
+   "mfe_price": 82.28,
    "mae_price": 80.5
   },
   {
@@ -851,7 +851,7 @@
    "entry_price": 68.7193,
    "entry_date": "2026-09-01",
    "entry_open": 68.685,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 71.18,
    "mae_price": 67.69
   },
@@ -888,9 +888,9 @@
    "entry_price": 135.0775,
    "entry_date": "2026-09-02",
    "entry_open": 135.01,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 137.42,
-   "mae_price": 134.875
+   "mae_price": 132.68
   },
   {
    "symbol": "TPR",
@@ -925,8 +925,8 @@
    "entry_price": 123.2616,
    "entry_date": "2026-09-02",
    "entry_open": 123.2,
-   "days_held": 2,
-   "mfe_price": 124.39,
+   "days_held": 3,
+   "mfe_price": 124.51,
    "mae_price": 121.84
   },
   {
@@ -962,7 +962,7 @@
    "entry_price": 41.0805,
    "entry_date": "2026-09-02",
    "entry_open": 41.06,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 42.76,
    "mae_price": 40.93
   },
@@ -999,9 +999,9 @@
    "entry_price": 66.9835,
    "entry_date": "2026-09-02",
    "entry_open": 66.95,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 68.19,
-   "mae_price": 66.615
+   "mae_price": 66.58
   },
   {
    "symbol": "XYZ",
@@ -1036,7 +1036,7 @@
    "entry_price": 77.0185,
    "entry_date": "2026-09-02",
    "entry_open": 76.98,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 84.55,
    "mae_price": 76.98
   },
@@ -1073,7 +1073,7 @@
    "entry_price": 61.7409,
    "entry_date": "2026-09-02",
    "entry_open": 61.71,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 63.705,
    "mae_price": 61.53
   },
@@ -1110,8 +1110,8 @@
    "entry_price": 87.5337,
    "entry_date": "2026-09-03",
    "entry_open": 87.49,
-   "days_held": 1,
-   "mfe_price": 89.975,
+   "days_held": 2,
+   "mfe_price": 90.205,
    "mae_price": 87.095
   },
   {
@@ -1147,9 +1147,9 @@
    "entry_price": 294.0419,
    "entry_date": "2026-09-03",
    "entry_open": 293.895,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 295.38,
-   "mae_price": 289.47
+   "mae_price": 287.64
   },
   {
    "symbol": "ACN",
@@ -1184,9 +1184,9 @@
    "entry_price": 190.095,
    "entry_date": "2026-09-03",
    "entry_open": 190.0,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 195.32,
-   "mae_price": 189.23
+   "mae_price": 186.085
   },
   {
    "symbol": "GD",
@@ -1221,9 +1221,9 @@
    "entry_price": 366.4431,
    "entry_date": "2026-09-03",
    "entry_open": 366.26,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 366.26,
-   "mae_price": 359.52
+   "mae_price": 358.09
   },
   {
    "symbol": "FAST",
@@ -1258,8 +1258,8 @@
    "entry_price": 48.3442,
    "entry_date": "2026-09-03",
    "entry_open": 48.32,
-   "days_held": 1,
-   "mfe_price": 49.285,
+   "days_held": 2,
+   "mfe_price": 50.42,
    "mae_price": 47.83
   },
   {
@@ -1295,12 +1295,10 @@
    "entry_price": 93.5367,
    "entry_date": "2026-09-03",
    "entry_open": 93.49,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 93.615,
-   "mae_price": 91.46
-  }
- ],
- "pending": [
+   "mae_price": 91.39
+  },
   {
    "symbol": "JBL",
    "name": "Jabil",
@@ -1329,7 +1327,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-04"
+   "order_date": "2026-09-04",
+   "shares": 3.226161,
+   "entry_price": 309.7098,
+   "entry_date": "2026-09-04",
+   "entry_open": 309.555,
+   "days_held": 1,
+   "mfe_price": 315.38,
+   "mae_price": 308.1
   },
   {
    "symbol": "MSTR",
@@ -1359,7 +1364,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-04"
+   "order_date": "2026-09-04",
+   "shares": 7.277542,
+   "entry_price": 137.2986,
+   "entry_date": "2026-09-04",
+   "entry_open": 137.23,
+   "days_held": 1,
+   "mfe_price": 144.4,
+   "mae_price": 137.165
   },
   {
    "symbol": "AVGO",
@@ -1389,7 +1401,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-04"
+   "order_date": "2026-09-04",
+   "shares": 2.775315,
+   "entry_price": 360.17,
+   "entry_date": "2026-09-04",
+   "entry_open": 359.99,
+   "days_held": 1,
+   "mfe_price": 359.99,
+   "mae_price": 353.74
   },
   {
    "symbol": "VRSK",
@@ -1419,7 +1438,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-04"
+   "order_date": "2026-09-04",
+   "shares": 5.308858,
+   "entry_price": 188.2741,
+   "entry_date": "2026-09-04",
+   "entry_open": 188.18,
+   "days_held": 1,
+   "mfe_price": 188.18,
+   "mae_price": 182.58
   },
   {
    "symbol": "MTB",
@@ -1449,7 +1475,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-04"
+   "order_date": "2026-09-04",
+   "shares": 4.16303,
+   "entry_price": 240.06,
+   "entry_date": "2026-09-04",
+   "entry_open": 239.94,
+   "days_held": 1,
+   "mfe_price": 241.2,
+   "mae_price": 239.56
   },
   {
    "symbol": "IEX",
@@ -1479,9 +1512,17 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-04"
+   "order_date": "2026-09-04",
+   "shares": 4.482677,
+   "entry_price": 222.9414,
+   "entry_date": "2026-09-04",
+   "entry_open": 222.83,
+   "days_held": 1,
+   "mfe_price": 224.35,
+   "mae_price": 222.005
   }
  ],
+ "pending": [],
  "closed": [
   {
    "symbol": "TRGP",
@@ -2237,6 +2278,14 @@
    "positions": 35,
    "invested_pct": 35.21,
    "return_pct": -0.03
+  },
+  {
+   "date": "2026-09-04",
+   "equity": 99941.08,
+   "cash": 58778.33,
+   "positions": 41,
+   "invested_pct": 41.19,
+   "return_pct": -0.059
   }
  ],
  "skipped": [

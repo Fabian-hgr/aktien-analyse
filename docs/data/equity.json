@@ -1,39 +1,39 @@
 {
- "updated_at": "2026-09-03T23:53:03+00:00",
+ "updated_at": "2026-09-04T23:51:11+00:00",
  "start_capital": 100000.0,
  "statistik": {
   "ki": {
    "depot": "ki",
    "label": "Depot KI",
-   "equity": 100400.25,
-   "cash": 65961.86,
-   "open_positions": 34,
-   "return_pct": 0.4,
-   "trades": 14,
+   "equity": 100204.34,
+   "cash": 64751.73,
+   "open_positions": 35,
+   "return_pct": 0.2,
+   "trades": 19,
    "max_drawdown_pct": -0.51,
-   "win_rate": 28.6,
+   "win_rate": 21.1,
    "wins": 4,
-   "losses": 10,
-   "expectancy_r": -0.224,
+   "losses": 15,
+   "expectancy_r": -0.432,
    "avg_win_r": 1.277,
-   "avg_loss_r": -0.825,
-   "profit_factor": 0.79,
-   "avg_hold_days": 2.0,
+   "avg_loss_r": -0.888,
+   "profit_factor": 0.45,
+   "avg_hold_days": 2.2,
    "exit_reasons": {
-    "stop": 7,
+    "stop": 12,
     "ziel": 4,
     "stop_luecke": 2,
     "ziel_luecke": 1
    },
-   "total_pnl": -54.12
+   "total_pnl": -249.04
   },
   "zufall": {
    "depot": "zufall",
    "label": "Depot Zufall",
-   "equity": 99970.25,
-   "cash": 64774.55,
-   "open_positions": 35,
-   "return_pct": -0.03,
+   "equity": 99941.08,
+   "cash": 58778.33,
+   "open_positions": 41,
+   "return_pct": -0.06,
    "trades": 13,
    "max_drawdown_pct": -0.43,
    "win_rate": 23.1,
@@ -117,6 +117,14 @@
    "positions": 34,
    "invested_pct": 34.3,
    "return_pct": 0.4
+  },
+  {
+   "date": "2026-09-04",
+   "equity": 100204.34,
+   "cash": 64751.73,
+   "positions": 35,
+   "invested_pct": 35.38,
+   "return_pct": 0.204
   }
  ],
  "zufall": [
@@ -183,6 +191,14 @@
    "positions": 35,
    "invested_pct": 35.21,
    "return_pct": -0.03
+  },
+  {
+   "date": "2026-09-04",
+   "equity": 99941.08,
+   "cash": 58778.33,
+   "positions": 41,
+   "invested_pct": 41.19,
+   "return_pct": -0.059
   }
  ],
  "spy": [
@@ -238,6 +254,12 @@
    "date": "2026-09-03",
    "equity": 101264.64,
    "return_pct": 1.265,
+   "basis": 763.46
+  },
+  {
+   "date": "2026-09-04",
+   "equity": 100880.2,
+   "return_pct": 0.88,
    "basis": 763.46
   }
  ]
