@@ -1279,7 +1279,192 @@
    "mae_price": 123.55
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "HPE",
+   "name": "Hewlett Packard Enterprise",
+   "sector": "Technologie",
+   "score": 0.7836,
+   "target": 63.44,
+   "stop": 49.35,
+   "atr_at_entry": 3.061367832787657,
+   "ziel_atr": 2.94,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3163,
+   "basis_erwartung_r": 0.1673,
+   "score_components": {
+    "trend": 0.769,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.528,
+    "bewertung": 0.836,
+    "analysten": 0.796,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 60.94,
+    "struktur": 63.44
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  },
+  {
+   "symbol": "DVN",
+   "name": "Devon Energy",
+   "sector": "Energie",
+   "score": 0.7587,
+   "target": 52.59,
+   "stop": 47.09,
+   "atr_at_entry": 1.1950230868515395,
+   "ziel_atr": 3.17,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.2826,
+   "basis_erwartung_r": 0.2825,
+   "score_components": {
+    "trend": 0.827,
+    "setup": 0.796,
+    "volumen": 0.512,
+    "qualitaet": 0.702,
+    "bewertung": 0.51,
+    "analysten": 0.877,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 51.42,
+    "struktur": 52.73
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  },
+  {
+   "symbol": "ACGL",
+   "name": "Arch Capital Group",
+   "sector": "Finanzen",
+   "score": 0.7521,
+   "target": 104.67,
+   "stop": 97.09,
+   "atr_at_entry": 1.6994910143133315,
+   "ziel_atr": 2.85,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2947,
+   "basis_erwartung_r": 0.1425,
+   "score_components": {
+    "trend": 0.65,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.628,
+    "bewertung": 0.748,
+    "analysten": 0.602
+   },
+   "target_methods": {
+    "atr": 103.25,
+    "struktur": 105.01
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "sector": "Technologie",
+   "score": 0.7472,
+   "target": 542.44,
+   "stop": 490.76,
+   "atr_at_entry": 11.679323506312503,
+   "ziel_atr": 2.77,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3389,
+   "basis_erwartung_r": 0.1562,
+   "score_components": {
+    "trend": 0.988,
+    "setup": 0.703,
+    "volumen": 0.584,
+    "qualitaet": 0.916,
+    "bewertung": 0.433,
+    "analysten": 0.717,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 534.97,
+    "struktur": 550.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk",
+   "sector": "Technologie",
+   "score": 0.745,
+   "target": 267.64,
+   "stop": 221.44,
+   "atr_at_entry": 9.650207836223416,
+   "ziel_atr": 3.13,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.2948,
+   "basis_erwartung_r": 0.1767,
+   "score_components": {
+    "trend": 0.611,
+    "setup": 0.663,
+    "volumen": 0.692,
+    "qualitaet": 0.791,
+    "bewertung": 0.737,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 257.97,
+    "struktur": 270.43
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  },
+  {
+   "symbol": "CBRE",
+   "name": "CBRE Group",
+   "sector": "Immobilien",
+   "score": 0.7433,
+   "target": 157.75,
+   "stop": 141.79,
+   "atr_at_entry": 4.275014108128408,
+   "ziel_atr": 2.09,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3857,
+   "basis_erwartung_r": 0.0682,
+   "score_components": {
+    "trend": 0.693,
+    "setup": 0.96,
+    "volumen": 0.598,
+    "qualitaet": 0.42,
+    "bewertung": 0.94,
+    "analysten": 0.725,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 156.73,
+    "struktur": 156.32
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  }
+ ],
  "closed": [
   {
    "symbol": "BSX",

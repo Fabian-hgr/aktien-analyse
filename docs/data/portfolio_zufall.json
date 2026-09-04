@@ -1300,7 +1300,188 @@
    "mae_price": 91.46
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "JBL",
+   "name": "Jabil",
+   "sector": "Technologie",
+   "score": 0.6059,
+   "target": 343.29,
+   "stop": 285.7,
+   "atr_at_entry": 12.219338591787334,
+   "ziel_atr": 3.05,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3033,
+   "basis_erwartung_r": 0.1733,
+   "score_components": {
+    "trend": 0.316,
+    "setup": 0.629,
+    "volumen": 1.0,
+    "qualitaet": 0.421,
+    "bewertung": 0.677,
+    "analysten": 0.844
+   },
+   "target_methods": {
+    "atr": 331.95,
+    "struktur": 347.72
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc Common Stock Class A",
+   "sector": "Technologie",
+   "score": 0.6265,
+   "target": 173.21,
+   "stop": 130.45,
+   "atr_at_entry": 8.673653218967859,
+   "ziel_atr": 3.27,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.2785,
+   "basis_erwartung_r": 0.1834,
+   "score_components": {
+    "trend": 0.972,
+    "setup": 0.393,
+    "volumen": 0.787,
+    "qualitaet": 0.287,
+    "bewertung": 0.6,
+    "analysten": 0.932
+   },
+   "target_methods": {
+    "atr": 163.28,
+    "struktur": 174.48
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "sector": "Technologie",
+   "score": 0.6724,
+   "target": 397.84,
+   "stop": 334.98,
+   "atr_at_entry": 13.378375507125648,
+   "ziel_atr": 3.04,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3049,
+   "basis_erwartung_r": 0.1726,
+   "score_components": {
+    "trend": 0.113,
+    "setup": 0.541,
+    "volumen": 1.0,
+    "qualitaet": 0.952,
+    "bewertung": 0.749,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 385.61,
+    "struktur": 402.89
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  },
+  {
+   "symbol": "VRSK",
+   "name": "Verisk Analytics",
+   "sector": "Industrie",
+   "score": 0.6548,
+   "target": 207.03,
+   "stop": 181.05,
+   "atr_at_entry": 5.859169936474397,
+   "ziel_atr": 2.81,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3167,
+   "basis_erwartung_r": 0.1524,
+   "score_components": {
+    "trend": 0.625,
+    "setup": 1.0,
+    "volumen": 0.136,
+    "qualitaet": 0.688,
+    "bewertung": 0.467,
+    "analysten": 0.788
+   },
+   "target_methods": {
+    "atr": 202.89,
+    "struktur": 209.56
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  },
+  {
+   "symbol": "MTB",
+   "name": "M&T Bank",
+   "sector": "Finanzen",
+   "score": 0.5754,
+   "target": 250.72,
+   "stop": 233.52,
+   "atr_at_entry": 3.97715237098469,
+   "ziel_atr": 2.71,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3162,
+   "basis_erwartung_r": 0.1386,
+   "score_components": {
+    "trend": 0.692,
+    "setup": 0.941,
+    "volumen": 0.0,
+    "qualitaet": 0.563,
+    "bewertung": 0.619,
+    "analysten": 0.42
+   },
+   "target_methods": {
+    "atr": 247.94,
+    "struktur": 252.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  },
+  {
+   "symbol": "IEX",
+   "name": "IDEX Corporation",
+   "sector": "Industrie",
+   "score": 0.518,
+   "target": 235.31,
+   "stop": 215.91,
+   "atr_at_entry": 4.509220712204333,
+   "ziel_atr": 2.68,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3354,
+   "basis_erwartung_r": 0.1469,
+   "score_components": {
+    "trend": 0.626,
+    "setup": 0.56,
+    "volumen": 0.244,
+    "qualitaet": 0.511,
+    "bewertung": 0.402,
+    "analysten": 0.599
+   },
+   "target_methods": {
+    "atr": 232.71,
+    "struktur": 237.85
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-04"
+  }
+ ],
  "closed": [
   {
    "symbol": "TRGP",

@@ -1,61 +1,82 @@
 {
- "fetched_at": "2026-09-03T16:30:54+00:00",
+ "fetched_at": "2026-09-04T16:39:15+00:00",
  "market": [
   {
    "source": "MarketWatch",
-   "headline": "Here\u2019s what Nvidia\u2019s $13 billion Hugging Face deal means for the world of AI",
-   "summary": "The acquisition will give Nvidia access to \u201cone of the most important parcels of real estate in the AI market\u201d and promote open-source technology.",
-   "url": "https://www.marketwatch.com/story/heres-what-nvidias-13-billion-hugging-face-deal-means-for-the-world-of-ai-360e9fd1?mod=mw_rss_topstories",
-   "published": "Thu, 03 Sep 2026 16:26:00 GMT"
+   "headline": "Think of Nvidia\u2019s $13 billion deal for Hugging Face as a form of \u2018health insurance\u2019",
+   "summary": "As long as open-source AI models dominate, Nvidia\u2019s custom chip competitors won\u2019t be able to take over its share of the market, an analyst says",
+   "url": "https://www.marketwatch.com/story/think-of-nvidias-13-billion-deal-for-hugging-face-as-a-form-of-health-insurance-04c37535?mod=mw_rss_topstories",
+   "published": "Fri, 04 Sep 2026 16:19:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "I offered to buy my friend a birthday drink. She ordered $180 worth of food and expects me to pay. Should I Venmo her for half?",
-   "summary": "\u201cMy offer was cocktails.\u201d",
-   "url": "https://www.marketwatch.com/story/i-offered-to-buy-my-friend-a-birthday-drink-she-ordered-180-worth-of-food-and-expects-me-to-pay-should-i-venmo-her-for-half-0efc941c?mod=mw_rss_topstories",
-   "published": "Thu, 03 Sep 2026 15:39:00 GMT"
+   "headline": "Here\u2019s how people are building their nest eggs using \u2018rent and invest\u2019 strategies",
+   "summary": "Also in Weekend Reads: The disrupted bond market, a warning for traders who borrow money, and advice from the Moneyist.",
+   "url": "https://www.marketwatch.com/story/heres-how-people-are-building-their-nest-eggs-using-rent-and-invest-strategies-253b069e?mod=mw_rss_topstories",
+   "published": "Fri, 04 Sep 2026 15:57:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "Snowflake has a secret weapon that\u2019s powering its stock toward a huge gain",
-   "summary": "The company\u2019s AI-powered coding assistant is driving major sales momentum.",
-   "url": "https://www.marketwatch.com/story/shares-in-snowflake-are-surging-heres-what-wall-street-analysts-are-saying-0b6343c0?mod=mw_rss_topstories",
-   "published": "Thu, 03 Sep 2026 15:20:00 GMT"
+   "headline": "Jobs and Iran add to Trump\u2019s midterm headaches. Why that\u2019s good for bonds and bad for energy stocks.",
+   "summary": "The president needs lower gasoline prices and mortgage rates \u2014 fast.",
+   "url": "https://www.marketwatch.com/story/jobs-and-iran-add-to-trumps-midterm-headaches-why-thats-good-for-bonds-and-bad-for-energy-stocks-551cb765?mod=mw_rss_topstories",
+   "published": "Fri, 04 Sep 2026 15:48:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "My wife and I are in our 70s. Should we move to California and take on a bigger mortgage to be near our kids?",
-   "summary": "\u201cWe currently live in a relatively low-cost, lower-tax Northwest state.\u201d",
-   "url": "https://www.marketwatch.com/story/my-wife-and-i-are-in-our-70s-should-we-move-to-california-and-take-on-a-bigger-mortgage-to-be-near-our-kids-1d619084?mod=mw_rss_topstories",
-   "published": "Thu, 03 Sep 2026 15:00:00 GMT"
+   "headline": "S&P 500 changes are coming soon. These stocks could be named to the index today.",
+   "summary": "Twilio, Bloom Energy and Cheniere Energy are among the top contenders to join the S&P 500 in the upcoming quarterly rebalancing.",
+   "url": "https://www.marketwatch.com/story/s-p-500-changes-are-coming-soon-these-stocks-could-be-named-to-the-index-today-2d0d7c14?mod=mw_rss_topstories",
+   "published": "Fri, 04 Sep 2026 15:39:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "How to invest in a booming stock market that\u2019s way cheaper than the S&P 500",
-   "summary": "Poland\u2019s reclassification as a developed economy from an emerging market opens it up for investment by many more investors.",
-   "url": "https://www.marketwatch.com/story/how-to-invest-in-a-booming-stock-market-thats-way-cheaper-than-the-s-p-500-b2f5ef5d?mod=mw_rss_topstories",
-   "published": "Thu, 03 Sep 2026 14:57:00 GMT"
+   "headline": "Rising interest rates pose a major threat to stock prices and other assets",
+   "summary": "How \u201cBondmageddon\u201d may reset financial markets.",
+   "url": "https://www.marketwatch.com/story/rising-interest-rates-pose-a-major-threat-to-stock-prices-and-other-assets-0f9f3208?mod=mw_rss_topstories",
+   "published": "Fri, 04 Sep 2026 15:05:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "The U.S. economy powers up as summer winds down, but it\u2019s not free of trip wires",
-   "summary": "The largest part of the economy grew in August at the fastest pace in six months despite higher inflation and a new round of White House tariffs, suggesting the six-year-old U.S. expansion has plenty more room to run.",
-   "url": "https://www.marketwatch.com/story/the-u-s-economy-powers-up-as-summer-winds-down-but-its-not-free-of-tripwires-2208ae5a?mod=mw_rss_topstories",
-   "published": "Thu, 03 Sep 2026 14:44:00 GMT"
+   "headline": "A Democratic midterm sweep could make bonds the fourth-quarter contrarian play, says B. of A.\u2019s Hartnett",
+   "summary": "Lower growth assumptions and weaker stocks would enhance the appeal of bonds, says equity-market strategist  and \u201cFlow Show\u201d author.",
+   "url": "https://www.marketwatch.com/story/a-democratic-midterm-sweep-could-make-bonds-the-fourth-quarter-contrarian-play-says-b-of-a-s-hartnett-badfa59c?mod=mw_rss_topstories",
+   "published": "Fri, 04 Sep 2026 14:53:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "Victoria\u2019s Secret sees strong \u2018bras and Pink\u2019 sales, but not enough to satisfy investors",
-   "summary": "The company delivered sales near the high end of its forecasted range, but Wall Street was expecting more, and the stock is headed for its worst day in more than a year.",
-   "url": "https://www.marketwatch.com/story/victorias-secret-sees-strong-bras-and-pink-sales-but-not-enough-to-satisfy-investors-48bfe36c?mod=mw_rss_topstories",
-   "published": "Thu, 03 Sep 2026 14:32:00 GMT"
+   "headline": "Adobe just announced its next CEO. Here\u2019s why its stock is dropping.",
+   "summary": "Incoming CEO Anil Chakravarthy is a company veteran. But another longtime business head will be departing Adobe, potentially foreshadowing further turnover in leadership.",
+   "url": "https://www.marketwatch.com/story/adobe-just-announced-its-next-ceo-heres-why-its-stock-is-dropping-bad9ed8a?mod=mw_rss_topstories",
+   "published": "Fri, 04 Sep 2026 13:42:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "Think you maxed out your 401(k)? The real limit is actually almost $50,000 higher.",
-   "summary": "You can unlock greater retirement wealth by reading this document that nearly everyone ignores.",
-   "url": "https://www.marketwatch.com/story/think-you-maxed-out-your-401-k-the-real-limit-is-actually-almost-50-000-higher-217a89ee?mod=mw_rss_topstories",
-   "published": "Thu, 03 Sep 2026 14:30:00 GMT"
+   "headline": "Six reasons that the risk of a stock-market selloff is rising. Here\u2019s what investors should be doing.",
+   "summary": "Many markets are priced for perfection warns Longview Economics.",
+   "url": "https://www.marketwatch.com/story/six-reasons-that-the-risk-of-a-stock-market-selloff-is-rising-heres-what-investors-should-be-doing-4c3d84ec?mod=mw_rss_topstories",
+   "published": "Fri, 04 Sep 2026 13:30:00 GMT"
+  },
+  {
+   "source": "CNBC",
+   "headline": "Stocks making the biggest moves midday: Sandisk, Tesla, Lululemon, Quanex, AMC & more",
+   "summary": "These are the stocks posting the largest moves midday.",
+   "url": "https://www.cnbc.com/2026/09/04/stocks-making-the-biggest-moves-midday-sndk-tsla-nx-amc.html",
+   "published": "Fri, 04 Sep 2026 16:00:44 GMT"
+  },
+  {
+   "source": "CNBC",
+   "headline": "Bitcoin heads for third winning week in a row as macro pressures mount",
+   "summary": "Bitcoin headed for its third straight winning week, as traders searched for refuge amid volatile moves in equities, currencies and bond markets.",
+   "url": "https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html",
+   "published": "Fri, 04 Sep 2026 14:36:48 GMT"
+  },
+  {
+   "source": "CNBC",
+   "headline": "Stocks making the biggest moves premarket: AMC, USA Rare Earth, Lululemon, Adobe & more",
+   "summary": "These are the stocks posting the largest moves in the premarket.",
+   "url": "https://www.cnbc.com/2026/09/04/stocks-making-the-biggest-moves-premarket-.html",
+   "published": "Fri, 04 Sep 2026 13:52:56 GMT"
   },
   {
    "source": "CNBC",
@@ -93,234 +114,197 @@
    "published": "Wed, 02 Sep 2026 11:09:15 GMT"
   },
   {
-   "source": "CNBC",
-   "headline": "Nepal\u2019s mountain tourism industry faces \u2018serious warning\u2019 after Himalayan flood disaster",
-   "summary": "Nepal's devastating floods have raised fresh concerns for the country's vital adventure tourism industry ahead of its peak travel season.",
-   "url": "https://www.cnbc.com/2026/09/02/nepal-tibet-floods-adventure-tourism-economy.html",
-   "published": "Wed, 02 Sep 2026 09:23:18 GMT"
-  },
-  {
-   "source": "CNBC",
-   "headline": "Stocks making the biggest moves after hours: Dell, MongoDB, GitLab and more",
-   "summary": "These are the stocks posting the largest moves in after-hours trading.",
-   "url": "https://www.cnbc.com/2026/09/01/stocks-making-the-biggest-moves-after-hours-dell-mdb-gtlb-and-more.html",
-   "published": "Tue, 01 Sep 2026 20:52:26 GMT"
-  },
-  {
-   "source": "CNBC",
-   "headline": "Prediction market traders think job creation rebounded in August",
-   "summary": "Traders see 50-50 odds that the U.S. economy added more than 50,000 jobs last month.",
-   "url": "https://www.cnbc.com/2026/09/01/prediction-market-traders-think-job-creation-rebounded-in-august.html",
-   "published": "Tue, 01 Sep 2026 18:57:14 GMT"
+   "source": "Yahoo Finance",
+   "headline": "GoPro Zooms 34% Higher on Starman Optical Merger and Markiplier Stake; Coherent Climbs 7%, Lumentum Gains 3%",
+   "summary": "GoPro is surging on a merger that turns a camera company into an optical-transceiver play, and a famous YouTuber just became its largest individual shareholder. Here is what the move actually means against a backdrop of proven incumbents already delivering billion-dollar datacenter revenue.",
+   "url": "https://247wallst.com/investing/2026/09/04/gopro-zooms-34-higher-on-starman-optical-merger-and-markiplier-stake-coherent-climbs-7-lumentum-gains-3/?.tsrc=rss",
+   "published": "Fri, 04 Sep 2026 16:20:33 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "Planet Labs Sinks 8% Despite New Defense Contract, Intuitive Machines Pulls Back, AST SpaceMobile Sits Out Broad-Market Rally",
-   "summary": "A new European defense contract and a fresh analyst Buy rating landed for Planet Labs on Thursday, yet the stock cratered anyway while the broader market rallied. Something specific to this sector is spooking investors ahead of a closely watched earnings release tonight.",
-   "url": "https://247wallst.com/investing/2026/09/03/planet-labs-sinks-8-despite-new-defense-contract-intuitive-machines-pulls-back-ast-spacemobile-sits-out-broad-market-rally/?.tsrc=rss",
-   "published": "Thu, 03 Sep 2026 15:07:06 +0000"
+   "headline": "Zscaler Falls 4% as FY2027 Growth Guidance Overshadows Earnings Beat; CrowdStrike Slips, Palo Alto Holds Steady",
+   "summary": "Zscaler posted a clean earnings beat and still sent the whole cybersecurity sector into retreat, raising an uncomfortable question about whether even the strongest growth numbers can justify where these stocks are priced right now.",
+   "url": "https://247wallst.com/investing/2026/09/04/zscaler-falls-4-as-fy2027-growth-guidance-overshadows-earnings-beat-crowdstrike-slips-palo-alto-holds-steady/?.tsrc=rss",
+   "published": "Fri, 04 Sep 2026 16:06:50 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "Affirm Rallies 6% on $104 Price Target From BofA, Sezzle Climbs 4%, PayPal Rises 3%",
-   "summary": "Bank of America dropped a fresh price target on Affirm just as yields began to ease, and the combination sent buy-now-pay-later stocks racing ahead of a sleepy broad market. Whether the rally holds depends on a credit question Levchin himself flagged on live television.",
-   "url": "https://247wallst.com/investing/2026/09/02/affirm-rallies-6-on-104-price-target-from-bofa-sezzle-climbs-4-paypal-rises-3/?.tsrc=rss",
-   "published": "Wed, 02 Sep 2026 15:45:36 +0000"
+   "headline": "SanDisk Rises 8%, Micron Gains 5%: Is the NAND Pricing Cycle Still Accelerating?",
+   "summary": "Memory and storage names are catching a strong bid Friday morning even as the broader market softens. The Roundhill Memory ETF (CBOE:DRAM) is up 4% to $58.45, and the SPDR S&P 500 ETF Trust (NYSEARCA:SPY) is down 0.45% to $769.66. This puts the memory/storage segment in a lonely leadership spot on a tape that\u2019s otherwise [\u2026]",
+   "url": "https://247wallst.com/investing/2026/09/04/sandisk-soars-8-is-the-nand-pricing-cycle-still-accelerating/?.tsrc=rss",
+   "published": "Fri, 04 Sep 2026 15:00:36 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "These ETFs Generate the Most Revenue",
-   "summary": "The largest ETFs by assets aren't necessarily the most profitable for issuers.",
-   "url": "http://www.etf.com/sections/features/these-etfs-generate-most-revenue?utm_source=yahoo-finance&utm_medium=rss&utm_campaign=yahoo-finance-rss&.tsrc=rss",
-   "published": "Tue, 01 Sep 2026 22:24:15 +0000"
+   "headline": "Adobe Sinks 7% as Internal CEO Pick Lands Ahead of Earnings, Workday Falls 4%",
+   "summary": "Adobe named an internal successor days before a scheduled earnings report, and investors are not treating the timing as a coincidence. The question hanging over the stock is whether the new CEO can answer what the AI era actually means for the company's core business.",
+   "url": "https://247wallst.com/investing/2026/09/04/adobe-sinks-7-as-internal-ceo-pick-lands-ahead-of-earnings-workday-falls-4/?.tsrc=rss",
+   "published": "Fri, 04 Sep 2026 14:57:20 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "AeroVironment Rises 6% on $464.8M Army Laser Award, Unusual Machines and Red Cat Tick Up",
-   "summary": "The U.S. Army just crossed a threshold it has never crossed before, and one battered defense stock is suddenly the center of a sector-wide scramble to figure out what comes next.",
-   "url": "https://247wallst.com/investing/2026/09/03/aerovironment-rises-4-on-464-8m-army-laser-award-unusual-machines-and-red-cat-tick-up/?.tsrc=rss",
-   "published": "Thu, 03 Sep 2026 13:25:04 +0000"
+   "headline": "AMC Rises 6% as CEO Blasts Tokenized Shares, Robinhood Slips",
+   "summary": "AMC's CEO just called out Robinhood by name in a scorching public attack over tokens tied to his company's stock, and the fallout is splitting two of retail's biggest names in opposite directions on a quiet Friday morning.",
+   "url": "https://247wallst.com/investing/2026/09/04/amc-rises-6-as-ceo-blasts-tokenized-shares-robinhood-slips/?.tsrc=rss",
+   "published": "Fri, 04 Sep 2026 14:10:45 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "Broadcom Is Sitting at $370 and Wall Street Suddenly Has Doubts About Its AI Business",
-   "summary": "Broadcom's AI revenue has nearly doubled in a single quarter, yet the stock sits 25% below its summer peak as long-dated options signal that big money is bracing for something to go wrong before the critical December earnings report.",
-   "url": "https://247wallst.com/investing/2026/09/03/broadcom-is-sitting-at-370-and-wall-street-suddenly-has-doubts-about-its-ai-business/?.tsrc=rss",
-   "published": "Thu, 03 Sep 2026 12:18:22 +0000"
+   "headline": "Exchange-Traded Funds Higher, Equity Futures Mixed Pre-Bell Friday After August Jobs Report Tops Estimates",
+   "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was up 0.03%, and the actively tr",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-higher-equity-133330774.html?.tsrc=rss",
+   "published": "Fri, 04 Sep 2026 13:33:30 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "Why Are Nasdaq, S&P 500 Futures Rising Premarket? TSLA, AVGO, SNOW, HPE, PLTR, LULU Stocks In Focus",
-   "summary": "Retail sentiment on Stocktwits remained \u2018bearish\u2019 on SPY and moderated to \u2018neutral\u2019 on QQQ.",
-   "url": "https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-sp500-futures-rising-premarket-tsla-avgo-snow-hpe-pltr-lulu-stocks-in-focus/cZsMAmhRJvG?.tsrc=rss",
-   "published": "Thu, 03 Sep 2026 08:38:35 +0000"
+   "headline": "Netflix Falls 4% as Rate Repricing Pressures Long-Duration Growth; Disney Dips, Warner Bros. Discovery Sits Tight",
+   "summary": "Rising Treasury yields are carving a sharp divide inside the streaming sector, and not every media stock is absorbing the pressure equally. The gap between the biggest loser and the name sitting virtually unchanged tells you something important about how rate risk hides in plain sight.",
+   "url": "https://247wallst.com/investing/2026/09/04/netflix-falls-4-as-rate-repricing-pressures-long-duration-growth-disney-dips-warner-bros-discovery-sits-tight/?.tsrc=rss",
+   "published": "Fri, 04 Sep 2026 16:24:40 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "FuboTV Rallies 7%, Disney Ticks Up: Is the Hulu Live TV Deal Finally Getting Credit?",
-   "summary": "FuboTV is surging midday with no earnings release, no filing, and no corporate announcement to explain it. Something is shifting in how the market values the combined live TV bundle, and it shows up very differently across three tickers.",
-   "url": "https://247wallst.com/investing/2026/09/02/fubotv-rallies-7-disney-ticks-up-is-the-hulu-live-tv-deal-finally-getting-credit/?.tsrc=rss",
-   "published": "Wed, 02 Sep 2026 15:43:35 +0000"
-  },
-  {
-   "source": "Yahoo Finance",
-   "headline": "Reddit Rallies 7% as Baird Says Renewal Risk Is Already Priced In, Pinterest Holds Flat",
-   "summary": "Baird just reframed the biggest risk hanging over Reddit stock, and the market responded with its sharpest single-day move in months. Here is what two expiring AI licensing deals actually mean for the bull and bear cases.",
-   "url": "https://247wallst.com/investing/2026/09/02/reddit-rallies-7-as-baird-says-renewal-risk-is-already-priced-in-pinterest-holds-flat/?.tsrc=rss",
-   "published": "Wed, 02 Sep 2026 14:55:52 +0000"
+   "headline": "IREN Climbs 4% on $2.4B Blue Owl-Led GPU Financing; Cipher Digital Gains 2%",
+   "summary": "Blue Owl just handed IREN a massive GPU financing deal, but the coupon rate buried in the fine print reveals something uncomfortable about how Wall Street really values this emerging asset class.",
+   "url": "https://247wallst.com/investing/2026/09/04/iren-climbs-4-on-2-4b-blue-owl-led-gpu-financing-cipher-digital-gains-2/?.tsrc=rss",
+   "published": "Fri, 04 Sep 2026 16:12:48 +0000"
   },
   {
    "source": "Investing.com",
-   "headline": "US-Hypothekenzinsen klettern auf 6,71 %",
+   "headline": "Goldman Sachs: Indien steht vor gro\u00dfer Liquidit\u00e4tsherausforderung",
    "summary": "",
-   "url": "https://de.investing.com/news/economy-news/ushypothekenzinsen-klettern-auf-671--93CH-3649190",
-   "published": "2026-09-03 16:04:22"
+   "url": "https://de.investing.com/news/stock-market-news/goldman-sachs-indien-steht-vor-groser-liquiditatsherausforderung-93CH-3650812",
+   "published": "2026-09-04 16:21:30"
   },
   {
    "source": "Investing.com",
-   "headline": "Insider-Trades bei Raiffeisen Bank International, innoscripta und DHL",
+   "headline": "Evercore: SpaceX bereitet ersten orbitalen Starship-Flug vor und steht vor Energiekrise",
    "summary": "",
-   "url": "https://de.investing.com/news/insider-trading-news/insidertrades-bei-raiffeisen-bank-international-innoscripta-und-dhl-93CH-3649186",
-   "published": "2026-09-03 16:02:05"
+   "url": "https://de.investing.com/news/stock-market-news/evercore-spacex-bereitet-ersten-orbitalen-starshipflug-vor-und-steht-vor-energiekrise-93CH-3650811",
+   "published": "2026-09-04 16:19:40"
   },
   {
    "source": "Investing.com",
-   "headline": "Analyst: Gold-Rally getrieben von Investmentnachfrage, nicht von US-Anleihek\u00e4ufen",
+   "headline": "Benzinmargen in Nordwesteuropa geben nach, bleiben aber nahe Krisenh\u00f6chstst\u00e4nden",
    "summary": "",
-   "url": "https://de.investing.com/news/commodities-news/analyst-goldrally-getrieben-von-investmentnachfrage-nicht-von-usanleihekaufen-3649191",
-   "published": "2026-09-03 16:01:07"
+   "url": "https://de.investing.com/news/commodities-news/benzinmargen-in-nordwesteuropa-geben-nach-bleiben-aber-nahe-krisenhochststanden-93CH-3650810",
+   "published": "2026-09-04 16:15:27"
   },
   {
    "source": "Investing.com",
-   "headline": "Deutsche Anleihen: Kursgewinne - H\u00f6henflug der Renditen zun\u00e4chst gestoppt",
+   "headline": "Reul: Polizei st\u00fcrmt Fahrzeug von Sabotage-Verd\u00e4chtigem",
    "summary": "",
-   "url": "https://de.investing.com/news/economy-news/deutsche-anleihen-kursgewinne--hohenflug-der-renditen-zunachst-gestoppt-3649183",
-   "published": "2026-09-03 16:00:06"
+   "url": "https://de.investing.com/news/economy-news/reul-polizei-sturmt-fahrzeug-von-sabotageverdachtigem-3650809",
+   "published": "2026-09-04 16:15:05"
   },
   {
    "source": "Investing.com",
-   "headline": "ROUNDUP/Aktien Frankfurt Schluss: Dax beendet dreit\u00e4gigen R\u00fccksetzer",
+   "headline": "Stromnetz-Sabotage: Sprengstoff bei Verd\u00e4chtigem gefunden",
    "summary": "",
-   "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-beendet-dreitagigen-rucksetzer-3649182",
-   "published": "2026-09-03 16:00:05"
+   "url": "https://de.investing.com/news/economy-news/stromnetzsabotage-sprengstoff-bei-verdachtigem-gefunden-3650808",
+   "published": "2026-09-04 16:15:04"
   },
   {
    "source": "Investing.com",
-   "headline": "ROUNDUP: Ex-Fraktionschef Spahn geht in den Haushaltsausschuss",
+   "headline": "Aktien Europa Schluss: Anleger halten vor dem Wochenende die F\u00fc\u00dfe still",
    "summary": "",
-   "url": "https://de.investing.com/news/stock-market-news/roundup-exfraktionschef-spahn-geht-in-den-haushaltsausschuss-3649181",
-   "published": "2026-09-03 16:00:04"
+   "url": "https://de.investing.com/news/economy-news/aktien-europa-schluss-anleger-halten-vor-dem-wochenende-die-fuse-still-3650806",
+   "published": "2026-09-04 16:15:03"
   },
   {
    "source": "Investing.com",
-   "headline": "Leipzig: Lettland \u00e4u\u00dfert sich zu mutma\u00dflichem Tatverd\u00e4chtigen",
+   "headline": "ROUNDUP/Aktien Frankfurt Schluss: Dax trotzt starken US-Jobdaten",
    "summary": "",
-   "url": "https://de.investing.com/news/economy-news/leipzig-lettland-ausert-sich-zu-mutmaslichem-tatverdachtigen-3649179",
-   "published": "2026-09-03 16:00:03"
+   "url": "https://de.investing.com/news/stock-market-news/roundupaktien-frankfurt-schluss-dax-trotzt-starken-usjobdaten-3650807",
+   "published": "2026-09-04 16:15:03"
   },
   {
    "source": "Investing.com",
-   "headline": "Cloudflare-Aktie steigt: Neue KI-Partnerschaft und positives Marktumfeld geben Auftrieb",
+   "headline": "Emden bangt um Zukunft des VW-Werks - \u2019T\u00fcr ist nicht zu\u2019",
    "summary": "",
-   "url": "https://de.investing.com/news/stock-market-news/cloudflareaktie-steigt-neue-kipartnerschaft-und-positives-marktumfeld-geben-auftrieb-93CH-3649178",
-   "published": "2026-09-03 15:59:46"
+   "url": "https://de.investing.com/news/economy-news/emden-bangt-um-zukunft-des-vwwerks--tur-ist-nicht-zu-3650805",
+   "published": "2026-09-04 16:15:02"
   }
  ],
  "by_symbol": {
   "MSFT": [
    {
-    "headline": "Snowflake Signals Surging AI Data Cloud Demand; Broadcom Sees Strong Chip Demand Through 2028; Yen Strengthens",
-    "summary": "\n\n\n\nAI Trade\n\n\n\nPlease click here for an enlarged chart of Snowflake Inc (NYSE:SNOW).\n\n\n\nNote the following:\n\n\n\n\nThis article is about the big picture.\u00a0 The chart of SNOW stock is being used to illustrate the point.",
-    "ts": "2026-09-03T16:26:46Z",
-    "url": "https://www.benzinga.com/Opinion/26/09/61609642/snowflake-signals-surging-ai-data-cloud-demand-broadcom-sees-strong-chip-demand-through-2028-yen-strengthens",
+    "headline": "Microsoft Stock: Why Satya Nadella's $44 Million Sale May Not Spook Investors",
+    "summary": "Satya Nadella&#39;s planned $44M Microsoft stock sale may not rattle investors. Here&#39;s why the market could look past the SEC filing.",
+    "ts": "2026-09-04T16:08:33Z",
+    "url": "https://www.benzinga.com/trading-ideas/insider-trades/26/09/61633915/microsoft-stock-nadella-sale",
     "source": "benzinga"
    },
    {
-    "headline": "'Nvidia\u2019s New RTX Spark Laptops Launch In October With Two Different Configs; Nvidia\u2019s N1X Laptop Will Ship In Two Different Configurations For Laptops And Mini PCs' - The Verge",
+    "headline": "'Anthropic\u2019s In-House Payments Tech Push Could Chip Away at Stripe' - The Information",
     "summary": "",
-    "ts": "2026-09-03T16:15:02Z",
-    "url": "https://www.benzinga.com/news/26/09/61609188/nvidia-s-new-rtx-spark-laptops-launch-october-two-different-configs-nvidia-s-n1x-laptop-will-ship-tw",
+    "ts": "2026-09-04T15:33:41Z",
+    "url": "https://www.benzinga.com/news/26/09/61632568/anthropic-s-house-payments-tech-push-could-chip-away-stripe-information",
     "source": "benzinga"
    },
    {
-    "headline": "OpenAI Says It Is Investigating Elevated Errors Across ChatGPT And Codex; Status Page Shows Degraded Performance With 15 ChatGPT Components And 4 Codex Components Affected",
+    "headline": "Assessing Microsoft's Performance Against Competitors In Software Industry",
+    "summary": "In the fast-paced and highly competitive business world of today, conducting thorough company analysis is essential for investors and industry observers. In this article, we will conduct an extensive industry",
+    "ts": "2026-09-04T09:58:29Z",
+    "url": "https://www.benzinga.com/news/26/09/61622532/assessing-microsoft-s-performance-against-competitors-software-industry",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Mark Zuckerberg Opposes Federal AI Watchdog in Call With Trump: Report",
+    "summary": "Meta CEO Mark Zuckerberg reportedly opposed Trump\u2019s proposed FINRA-style AI regulator, urging light-touch oversight.",
+    "ts": "2026-09-04T04:37:18Z",
+    "url": "https://www.benzinga.com/markets/tech/26/09/61620790/mark-zuckerberg-opposes-federal-ai-watchdog-trump-call-report",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Elastic To Bring OpenAI GPT Cyber Models Into Elastic Security",
     "summary": "",
-    "ts": "2026-09-03T15:10:20Z",
-    "url": "https://www.benzinga.com/news/26/09/61606836/openai-says-it-is-investigating-elevated-errors-across-chatgpt-and-codex-status-page-shows-degraded-performance-with-15-chatgpt-components-and-4-codex-components-affected",
+    "ts": "2026-09-03T21:06:57Z",
+    "url": "https://www.benzinga.com/news/26/09/61617455/elastic-bring-openai-gpt-cyber-models-elastic-security",
     "source": "benzinga"
    },
    {
-    "headline": "'User Reports Indicate Problems At OpenAI, Claude, Grok, Cursor For Users In The U.S.' - DownDetector",
+    "headline": "SentinelOne Announces An Expanded Set Of Offerings For Wayfinder Frontier AI Services, Powered By OpenAI Daybreak Models Through The Daybreak Defense Network",
     "summary": "",
-    "ts": "2026-09-03T15:02:27Z",
-    "url": "https://www.benzinga.com/news/26/09/61606580/user-reports-indicate-problems-openai-claude-grok-cursor-users-u-s-downdetector",
-    "source": "benzinga"
-   },
-   {
-    "headline": "Microsoft Consolidates Business Into Two Segments in Sweeping AI-Driven Overhaul",
-    "summary": "Microsoft (MSFT) stock jumps nearly 3% as the tech giant overhauls its financial reporting into two AI-focused business segments.",
-    "ts": "2026-09-03T15:02:05Z",
-    "url": "https://www.benzinga.com/markets/tech/26/09/61606546/microsoft-consolidates-business-into-two-segments-in-sweeping-ai-driven-overhaul",
-    "source": "benzinga"
-   },
-   {
-    "headline": "Jensen Huang Says AI Is a 'Five-Layer Cake.' Nvidia Is Just One Slice",
-    "summary": "Jensen Huang&#39;s &#34;five-layer cake&#34; AI framework reveals how companies beyond Nvidia could benefit from the next phase of AI investment.",
-    "ts": "2026-09-03T14:46:31Z",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61605791/jensen-huang-ai-five-layers",
+    "ts": "2026-09-03T21:05:16Z",
+    "url": "https://www.benzinga.com/news/26/09/61617365/sentinelone-announces-expanded-set-offerings-wayfinder-frontier-ai-services-powered-openai-daybreak-",
     "source": "benzinga"
    }
   ],
-  "NVDA": [
+  "SNDK": [
    {
-    "headline": "Snowflake Signals Surging AI Data Cloud Demand; Broadcom Sees Strong Chip Demand Through 2028; Yen Strengthens",
-    "summary": "\n\n\n\nAI Trade\n\n\n\nPlease click here for an enlarged chart of Snowflake Inc (NYSE:SNOW).\n\n\n\nNote the following:\n\n\n\n\nThis article is about the big picture.\u00a0 The chart of SNOW stock is being used to illustrate the point.",
-    "ts": "2026-09-03T16:26:46Z",
-    "url": "https://www.benzinga.com/Opinion/26/09/61609642/snowflake-signals-surging-ai-data-cloud-demand-broadcom-sees-strong-chip-demand-through-2028-yen-strengthens",
+    "headline": "Quanex Building Products, Concrete Pumping, SanDisk And Other Big Stocks Moving Higher On Friday",
+    "summary": "U.S. stocks mostly fell, but Quanex surged 16.6% after beating earnings and sales estimates; Reading, BBCP, Astera Labs and others also gained.",
+    "ts": "2026-09-04T15:26:03Z",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61632320/quanex-building-products-concrete-pumping-sandisk-and-other-big-stocks-moving-higher-on-friday",
     "source": "benzinga"
    },
    {
-    "headline": "'Nvidia\u2019s New RTX Spark Laptops Launch In October With Two Different Configs; Nvidia\u2019s N1X Laptop Will Ship In Two Different Configurations For Laptops And Mini PCs' - The Verge",
-    "summary": "",
-    "ts": "2026-09-03T16:15:02Z",
-    "url": "https://www.benzinga.com/news/26/09/61609188/nvidia-s-new-rtx-spark-laptops-launch-october-two-different-configs-nvidia-s-n1x-laptop-will-ship-tw",
+    "headline": "Micron, SanDisk Jump 4% Even as Hot Jobs Report Briefly Flips Fed Hike Odds Above 50%",
+    "summary": "Micron and SanDisk jumped as memory shortages outweighed a hot jobs report that briefly pushed September Fed hike odds above 50%.",
+    "ts": "2026-09-04T15:10:13Z",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61631763/micron-sandisk-hot-jobs-report",
     "source": "benzinga"
    },
    {
-    "headline": "NVIDIA Buys Hugging Face, the Heart of Open-Source AI",
-    "summary": "NVIDIA agrees to acquire open-source platform Hugging Face for $12.93 billion, expanding its reach across 18M+ AI developers.",
-    "ts": "2026-09-03T16:08:15Z",
-    "url": "https://www.benzinga.com/m-a/26/09/61608988/nvidia-buys-hugging-face-the-heart-of-open-source-ai",
+    "headline": "What's Going On With Sandisk Stock Friday?",
+    "summary": "Sandisk (SNDK) stock surged Friday on strong tech momentum and rising AI-driven demand for memory infrastructure.",
+    "ts": "2026-09-04T12:28:20Z",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61624846/whats-going-on-with-sandisk-stock-friday-4",
     "source": "benzinga"
    },
    {
-    "headline": "Broadcom Q2 AI Revenue Grows Over 200%, Guidance Restricted By Supply Constraints",
-    "summary": "Broadcom shares fell despite strong Q3; analysts raised targets, citing surging AI demand. Constrained supply impacts FY27-28 outlook.",
-    "ts": "2026-09-03T15:26:20Z",
-    "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61607542/broadcom-q2-ai-revenue-grows-over-200-supply-constraints",
+    "headline": "Micron, SanDisk Lag Tech Rally as China Grabs Memory Market Share",
+    "summary": "Chinese memory makers are gaining DRAM and NAND share as Micron and SanDisk slip, raising new questions about future pricing pressure.",
+    "ts": "2026-09-03T18:36:03Z",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61613454/china-memory-market-share-micron-sandisk",
     "source": "benzinga"
    },
    {
-    "headline": "Congressional Trading Report: Sen. Sheldon Whitehouse Sold Over $19K In NVIDIA Stock",
-    "summary": "On September 2, 2026, it was reported that Senator Sheldon Whitehouse executed a sale of NVIDIA (NASDAQ:NVDA) stock, valued between $19,005 and $110,000. The transaction, recorded in the September filing, was made on",
-    "ts": "2026-09-03T15:00:27Z",
-    "url": "https://www.benzinga.com/government/26/09/61606432/congressional-trading-report-sen-sheldon-whitehouse-sold-over-19k-nvidia-stock",
-    "source": "benzinga"
-   },
-   {
-    "headline": "Recent Report Shows That Rep. Cleo Fields Bought Up to $15K Worth of Apple Stock",
-    "summary": "A report on September 2, 2026 shows that Representative Cleo Fields from Louisiana purchase stock in Apple (NASDAQ:AAPL), valued between $1,001 and $15,000. According to the September filing, the transaction occurred on",
-    "ts": "2026-09-03T15:00:26Z",
-    "url": "https://www.benzinga.com/government/26/09/61606431/recent-report-shows-rep-cleo-fields-bought-15k-worth-apple-stock",
-    "source": "benzinga"
-   }
-  ],
-  "MU": [
-   {
-    "headline": "Broadcom\u2019s AI Boom Has A Memory Problem",
-    "summary": "Broadcom guided fourth-quarter gross margin to 73% from 78% a year ago as memory content inside its AI chips climbs. Shares fell on record results.",
-    "ts": "2026-09-03T12:28:37Z",
-    "url": "https://www.benzinga.com/markets/tech/26/09/61599551/broadcom-ai-boom-memory-problem-gross-margin",
+    "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
+    "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
+    "ts": "2026-09-03T17:35:19Z",
+    "url": "https://www.benzinga.com/markets/options/26/09/61611617/10-information-technology-stocks-whale-alerts-today-s-session",
     "source": "benzinga"
    },
    {
@@ -329,37 +313,37 @@
     "ts": "2026-09-03T11:17:48Z",
     "url": "https://www.benzinga.com/markets/tech/26/09/61597809/why-this-analyst-says-memory-stock-valuations-make-a-lot-of-sense",
     "source": "benzinga"
-   },
-   {
-    "headline": "Why Is Netlist Stock Falling Wednesday? (UPDATED)",
-    "summary": "Netlist (NLST) stock falls as Federal Circuit upholds PTAB decision invalidating &#39;339 patent claims in Micron dispute.",
-    "ts": "2026-09-02T17:59:38Z",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/09/61585265/netlist-stock-falls-after-court-rules-against-key-memory-patent-claims",
-    "source": "benzinga"
-   },
-   {
-    "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
-    "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
-    "ts": "2026-09-02T17:35:25Z",
-    "url": "https://www.benzinga.com/markets/options/26/09/61584569/10-information-technology-stocks-whale-alerts-today-s-session",
-    "source": "benzinga"
-   },
-   {
-    "headline": "The S&P 500 Got Cheaper While It Rallied. Here's What Bond Bears Are Missing",
-    "summary": "S&amp;P 500 earnings grew 52% in the second quarter while Treasury yields rose past 5%. Why bond yields matter less than the market thinks.",
-    "ts": "2026-09-02T15:24:05Z",
-    "url": "https://www.benzinga.com/markets/large-cap/26/09/61580224/sp500-earnings-growth-bond-yields-debt-myth",
-    "source": "benzinga"
-   },
-   {
-    "headline": "EXCLUSIVE: Top 12 Most-Searched Tickers in August on Benzinga Pro \u2013 SpaceX, Nebius Climb, Palantir Returns",
-    "summary": "A look at the most-searched stock tickers on Benzinga Pro for the month of August. The leaderboard saw Palantir back in the top 12.",
-    "ts": "2026-09-02T14:37:23Z",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61578191/top-12-most-searched-tickers-in-august-on-benzinga-pro-spacex-nebius-climb-up-list-palantir-rejoins-leaderboard",
-    "source": "benzinga"
    }
   ],
   "DELL": [
+   {
+    "headline": "Micron, SanDisk Jump 4% Even as Hot Jobs Report Briefly Flips Fed Hike Odds Above 50%",
+    "summary": "Micron and SanDisk jumped as memory shortages outweighed a hot jobs report that briefly pushed September Fed hike odds above 50%.",
+    "ts": "2026-09-04T15:10:13Z",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61631763/micron-sandisk-hot-jobs-report",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Michael Dell's Wealth Surges Past $100B in 2026 as Dell Stock Hits Record Highs",
+    "summary": "Michael Dell has added more than $100 billion to his net worth in 2026 thanks to a strong surge in DELL stock this year.",
+    "ts": "2026-09-03T19:18:26Z",
+    "url": "https://www.benzinga.com/markets/tech/26/09/61614414/michael-dells-wealth-surges-past-100b-in-2026-as-dell-stock-hits-record-highs",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Dell COO Jeff Clarke Reveals AI Boom Runs on Endless Scrambling for Scarce Parts: 'This Is What We Do' and 'We Love It' (CORRECTED)",
+    "summary": "Dell posted a blowout quarter fueled by AI demand, and COO Jeff Clarke said that involves a nonstop hunt for parts.",
+    "ts": "2026-09-03T18:54:19Z",
+    "url": "https://www.benzinga.com/markets/earnings/26/09/61566528/dell-ceo-admits-ai-hardware-shortage-difficult-task",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Wall Street Rallies as Fed\u2019s Waller Hints at September Rate Hold: Stock Market Today",
+    "summary": "Stocks rallied and Treasury yields retreated from three-year highs after Fed Governor Waller signaled he could back a rate hold, sending bitcoin above $80,000.",
+    "ts": "2026-09-03T17:47:45Z",
+    "url": "https://www.benzinga.com/markets/market-summary/26/09/61611969/waller-cools-rate-hike-bets-bitcoin-tops-80000-whats-moving-markets-thursday",
+    "source": "benzinga"
+   },
    {
     "headline": "What's Going On With Dell Stock on Thursday?",
     "summary": "Dell Technologies Inc. (NYSE: DELL) stock faces short-term consolidation Thursday following a 15.76% post-earnings rally fueled by strong Q2 results.",
@@ -373,141 +357,270 @@
     "ts": "2026-09-03T06:35:50Z",
     "url": "https://www.benzinga.com/markets/market-summary/26/09/61594490/dow-jumps-around-300-points-ahead-of-jobs-report-investor-sentiment-improves-but-fear-greed-index-remains-in-fear-zone",
     "source": "benzinga"
-   },
+   }
+  ],
+  "MU": [
    {
-    "headline": "Dell Shares Rise 10% After Key Trading Signal",
-    "summary": "A key trading signal flashed for Dell shares at a price of $441.06, after which DELL rose 10% to an intraday high.",
-    "ts": "2026-09-02T19:27:21Z",
-    "url": "https://www.benzinga.com/Opinion/26/09/61587735/dell-shares-rise-10-percent-after-key-trading-signal",
+    "headline": "Micron, SanDisk Jump 4% Even as Hot Jobs Report Briefly Flips Fed Hike Odds Above 50%",
+    "summary": "Micron and SanDisk jumped as memory shortages outweighed a hot jobs report that briefly pushed September Fed hike odds above 50%.",
+    "ts": "2026-09-04T15:10:13Z",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61631763/micron-sandisk-hot-jobs-report",
     "source": "benzinga"
    },
    {
-    "headline": "Citigroup Maintains Buy on Dell Technologies, Raises Price Target to $600",
-    "summary": "",
-    "ts": "2026-09-02T18:44:03Z",
-    "url": "https://www.benzinga.com/news/26/09/61586463/citigroup-maintains-buy-dell-technologies-raises-price-target-600",
+    "headline": "AI Memory Crunch Is About to Hit \u201810 Out of 10\u2019 Craziness",
+    "summary": "AI demand triggers historic memory crunch: TechInsights predicts DRAM prices will jump 200%+ as supply tightens through 2027.",
+    "ts": "2026-09-04T10:23:30Z",
+    "url": "https://www.benzinga.com/markets/tech/26/09/61623070/ai-memory-crunch-is-about-to-hit-10-out-of-10-craziness",
     "source": "benzinga"
    },
    {
-    "headline": "JP Morgan Maintains Overweight on Dell Technologies, Raises Price Target to $635",
-    "summary": "",
-    "ts": "2026-09-02T18:06:12Z",
-    "url": "https://www.benzinga.com/news/26/09/61585454/jp-morgan-maintains-overweight-dell-technologies-raises-price-target-635",
+    "headline": "South Korea Lands $2 Billion From 4 US Companies as Trump Turns Up Pressure on Foreign Chipmakers: GLW, APD, ACLS Among Stocks in Focus",
+    "summary": "Four U.S. companies filed investment reports totaling $2 billion for projects in South Korea&#39;s semiconductor and clean energy sectors.",
+    "ts": "2026-09-04T08:35:14Z",
+    "url": "https://www.benzinga.com/markets/equities/26/09/61621888/four-us-companies-pledge-2-billion-to-south-korea-in-chip-and-energy-investment",
     "source": "benzinga"
    },
    {
-    "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
-    "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
-    "ts": "2026-09-02T17:35:25Z",
-    "url": "https://www.benzinga.com/markets/options/26/09/61584569/10-information-technology-stocks-whale-alerts-today-s-session",
+    "headline": "Micron, SanDisk Lag Tech Rally as China Grabs Memory Market Share",
+    "summary": "Chinese memory makers are gaining DRAM and NAND share as Micron and SanDisk slip, raising new questions about future pricing pressure.",
+    "ts": "2026-09-03T18:36:03Z",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61613454/china-memory-market-share-micron-sandisk",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Wall Street Rallies as Fed\u2019s Waller Hints at September Rate Hold: Stock Market Today",
+    "summary": "Stocks rallied and Treasury yields retreated from three-year highs after Fed Governor Waller signaled he could back a rate hold, sending bitcoin above $80,000.",
+    "ts": "2026-09-03T17:47:45Z",
+    "url": "https://www.benzinga.com/markets/market-summary/26/09/61611969/waller-cools-rate-hike-bets-bitcoin-tops-80000-whats-moving-markets-thursday",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Broadcom\u2019s AI Boom Has A Memory Problem",
+    "summary": "Broadcom guided fourth-quarter gross margin to 73% from 78% a year ago as memory content inside its AI chips climbs. Shares fell on record results.",
+    "ts": "2026-09-03T12:28:37Z",
+    "url": "https://www.benzinga.com/markets/tech/26/09/61599551/broadcom-ai-boom-memory-problem-gross-margin",
     "source": "benzinga"
    }
   ],
-  "SNDK": [
+  "NVDA": [
    {
-    "headline": "Why This Analyst Says Memory Stock Valuations \u2018Make a Lot of Sense\u2019",
-    "summary": "Memory stocks stabilize as analyst Drew Pettit sees secular growth driving the industry toward 3x revenue expansion by 2030.",
-    "ts": "2026-09-03T11:17:48Z",
-    "url": "https://www.benzinga.com/markets/tech/26/09/61597809/why-this-analyst-says-memory-stock-valuations-make-a-lot-of-sense",
+    "headline": "Musk Could Need $1 Trillion to Build Enough Chips for His AI Ambitions, ARK Says",
+    "summary": "ARK says Elon Musk may need about $1 trillion in chip investment as SpaceX and Tesla scale AI, satellites and Optimus.",
+    "ts": "2026-09-04T14:54:19Z",
+    "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61631088/elon-musk-1-trillion-ai-chips",
+    "source": "benzinga"
+   },
+   {
+    "headline": "AI Exuberance or Opportunity? NVIDIA, Broadcom Growth Keeps This Investor Bullish",
+    "summary": "NVIDIA &amp; Broadcom remain top AI infrastructure plays amid strong cash flow &amp; 30% hyperscaler capex growth, says NewEdge&#39;s Jay Peters.",
+    "ts": "2026-09-04T14:30:56Z",
+    "url": "https://www.benzinga.com/markets/tech/26/09/61630169/ai-exuberance-or-opportunity-nvidia-broadcom-growth-keeps-this-investor-bullish",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Xi Jinping Set To Bring Top Chinese Business Leaders To Trump Summit In Washington: Report",
+    "summary": "Chinese President Xi Jinping is reportedly planning a large business delegation for his Sept. 24 Washington summit with Trump",
+    "ts": "2026-09-04T13:35:13Z",
+    "url": "https://www.benzinga.com/news/politics/26/09/61626418/xi-jinping-set-to-bring-top-chinese-business-leaders-to-trump-summit-in-washington-report",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Taiwan Semiconductor Scrambles to Feed the AI Boom",
+    "summary": "Taiwan Semiconductor (TSM) scales up equipment buys amid tight capacity. Get the full stock analysis, ETF exposure, and outlook.",
+    "ts": "2026-09-04T11:08:08Z",
+    "url": "https://www.benzinga.com/markets/tech/26/09/61623740/taiwan-semiconductor-scrambles-to-feed-the-ai-boom",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Needham Reiterates Buy on NVIDIA, Maintains $300 Price Target",
+    "summary": "",
+    "ts": "2026-09-04T11:08:13Z",
+    "url": "https://www.benzinga.com/news/26/09/61623741/needham-reiterates-buy-nvidia-maintains-300-price-target",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Nvidia, ServiceNow, Spotify And A Financial Stock On CNBC\u2019s \u2018Final Trades\u2019",
+    "summary": "CNBC Halftime Report guests picked Capital One, ServiceNow, Nvidia and Spotify, citing analyst support, AI expansion and buybacks.",
+    "ts": "2026-09-04T11:02:46Z",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61623563/nvidia-servicenow-spotify-and-a-financial-stock-on-cnbcs-final-trades",
+    "source": "benzinga"
+   }
+  ],
+  "HPE": [
+   {
+    "headline": "Argus Research Reiterates Buy on Hewlett Packard, Maintains $70 Price Target",
+    "summary": "",
+    "ts": "2026-09-04T12:39:53Z",
+    "url": "https://www.benzinga.com/news/26/09/61625269/argus-research-reiterates-buy-hewlett-packard-maintains-70-price-target",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Raymond James Maintains Outperform on Hewlett Packard, Raises Price Target to $86",
+    "summary": "",
+    "ts": "2026-09-03T18:19:43Z",
+    "url": "https://www.benzinga.com/news/26/09/61612963/raymond-james-maintains-outperform-hewlett-packard-raises-price-target-86",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Wall Street Rallies as Fed\u2019s Waller Hints at September Rate Hold: Stock Market Today",
+    "summary": "Stocks rallied and Treasury yields retreated from three-year highs after Fed Governor Waller signaled he could back a rate hold, sending bitcoin above $80,000.",
+    "ts": "2026-09-03T17:47:45Z",
+    "url": "https://www.benzinga.com/markets/market-summary/26/09/61611969/waller-cools-rate-hike-bets-bitcoin-tops-80000-whats-moving-markets-thursday",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Piper Sandler Reiterates Neutral on Hewlett Packard, Lowers Price Target to $57",
+    "summary": "",
+    "ts": "2026-09-03T17:40:16Z",
+    "url": "https://www.benzinga.com/news/26/09/61611765/piper-sandler-reiterates-neutral-hewlett-packard-lowers-price-target-57",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Evercore ISI Group Maintains Outperform on Hewlett Packard, Lowers Price Target to $65",
+    "summary": "",
+    "ts": "2026-09-03T17:09:08Z",
+    "url": "https://www.benzinga.com/news/26/09/61610912/evercore-isi-group-maintains-outperform-hewlett-packard-lowers-price-target-65",
+    "source": "benzinga"
+   },
+   {
+    "headline": "Citigroup Maintains Buy on Hewlett Packard, Raises Price Target to $76",
+    "summary": "",
+    "ts": "2026-09-03T16:15:36Z",
+    "url": "https://www.benzinga.com/news/26/09/61609222/citigroup-maintains-buy-hewlett-packard-raises-price-target-76",
+    "source": "benzinga"
+   }
+  ],
+  "A": [
+   {
+    "headline": "Agilent Technologies Rolls Out Agilent S540MD Slide Scanner System In U.S.",
+    "summary": "",
+    "ts": "2026-09-04T12:03:26Z",
+    "url": "https://www.benzinga.com/news/26/09/61624395/agilent-technologies-rolls-out-agilent-s540md-slide-scanner-system-u-s",
+    "source": "benzinga"
+   }
+  ],
+  "TSM": [
+   {
+    "headline": "Taiwan Semiconductor Scrambles to Feed the AI Boom",
+    "summary": "Taiwan Semiconductor (TSM) scales up equipment buys amid tight capacity. Get the full stock analysis, ETF exposure, and outlook.",
+    "ts": "2026-09-04T11:08:08Z",
+    "url": "https://www.benzinga.com/markets/tech/26/09/61623740/taiwan-semiconductor-scrambles-to-feed-the-ai-boom",
     "source": "benzinga"
    },
    {
     "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
     "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
-    "ts": "2026-09-02T17:35:25Z",
-    "url": "https://www.benzinga.com/markets/options/26/09/61584569/10-information-technology-stocks-whale-alerts-today-s-session",
+    "ts": "2026-09-03T17:35:19Z",
+    "url": "https://www.benzinga.com/markets/options/26/09/61611617/10-information-technology-stocks-whale-alerts-today-s-session",
     "source": "benzinga"
    },
    {
-    "headline": "EXCLUSIVE: Top 12 Most-Searched Tickers in August on Benzinga Pro \u2013 SpaceX, Nebius Climb, Palantir Returns",
-    "summary": "A look at the most-searched stock tickers on Benzinga Pro for the month of August. The leaderboard saw Palantir back in the top 12.",
-    "ts": "2026-09-02T14:37:23Z",
-    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61578191/top-12-most-searched-tickers-in-august-on-benzinga-pro-spacex-nebius-climb-up-list-palantir-rejoins-leaderboard",
+    "headline": "Recent Report Shows That Rep. Cleo Fields Bought Up to $15K Worth of Apple Stock",
+    "summary": "A report on September 2, 2026 shows that Representative Cleo Fields from Louisiana purchase stock in Apple (NASDAQ:AAPL), valued between $1,001 and $15,000. According to the September filing, the transaction occurred on",
+    "ts": "2026-09-03T15:00:26Z",
+    "url": "https://www.benzinga.com/government/26/09/61606431/recent-report-shows-rep-cleo-fields-bought-15k-worth-apple-stock",
     "source": "benzinga"
    },
    {
-    "headline": "Billionaire David Tepper Exited SanDisk During Its Historic Rally\u2013 The Stock Has Since Fallen Over 30%",
-    "summary": "David Tepper exited SanDisk during its record rally when the stock gained over 200%. The stock has since fallen more than 30%.",
-    "ts": "2026-09-02T14:02:37Z",
-    "url": "https://www.benzinga.com/markets/equities/26/09/61576298/tepper-sandisk-exit",
+    "headline": "Jensen Huang Says AI Is a 'Five-Layer Cake.' Nvidia Is Just One Slice",
+    "summary": "Jensen Huang&#39;s &#34;five-layer cake&#34; AI framework reveals how companies beyond Nvidia could benefit from the next phase of AI investment.",
+    "ts": "2026-09-03T14:46:31Z",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61605791/jensen-huang-ai-five-layers",
+    "source": "benzinga"
+   }
+  ],
+  "COF": [
+   {
+    "headline": "Nvidia, ServiceNow, Spotify And A Financial Stock On CNBC\u2019s \u2018Final Trades\u2019",
+    "summary": "CNBC Halftime Report guests picked Capital One, ServiceNow, Nvidia and Spotify, citing analyst support, AI expansion and buybacks.",
+    "ts": "2026-09-04T11:02:46Z",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61623563/nvidia-servicenow-spotify-and-a-financial-stock-on-cnbcs-final-trades",
+    "source": "benzinga"
+   },
+   {
+    "headline": "6 Financials Stocks Whale Activity In Today\u2019s Session",
+    "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
+    "ts": "2026-09-03T17:35:19Z",
+    "url": "https://www.benzinga.com/markets/options/26/09/61611618/6-financials-stocks-whale-activity-today-s-session",
+    "source": "benzinga"
+   },
+   {
+    "headline": "CNBC Halftime Report Final Trades: Nvidia, ServiceNow, Capital One Financial, Spotify Technology",
+    "summary": "",
+    "ts": "2026-09-03T17:01:36Z",
+    "url": "https://www.benzinga.com/quote/NOW",
+    "source": "benzinga"
+   }
+  ],
+  "CBRE": [
+   {
+    "headline": "Here\u2019s How Much You Would Have Made Owning CBRE Group Stock In The Last 10 Years",
+    "summary": "CBRE Group (NYSE:CBRE) has outperformed the market over the past 10 years by 3.96% on an annualized basis producing an average annual return of 17.41%. Currently, CBRE Group has a market capitalization of $43.07",
+    "ts": "2026-09-03T23:30:32Z",
+    "url": "https://www.benzinga.com/news/26/09/61619703/here-s-how-much-you-would-have-made-owning-cbre-group-stock-last-10-years",
+    "source": "benzinga"
+   }
+  ],
+  "BAC": [
+   {
+    "headline": "6 Financials Stocks Whale Activity In Today\u2019s Session",
+    "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
+    "ts": "2026-09-03T17:35:19Z",
+    "url": "https://www.benzinga.com/markets/options/26/09/61611618/6-financials-stocks-whale-activity-today-s-session",
+    "source": "benzinga"
+   }
+  ],
+  "APH": [
+   {
+    "headline": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
+    "summary": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often",
+    "ts": "2026-09-03T17:35:19Z",
+    "url": "https://www.benzinga.com/markets/options/26/09/61611617/10-information-technology-stocks-whale-alerts-today-s-session",
     "source": "benzinga"
    }
   ],
   "B": [
+   {
+    "headline": "Citigroup Reinstates Neutral on Barrick Mining, Announces $45 Price Target",
+    "summary": "",
+    "ts": "2026-09-03T16:33:50Z",
+    "url": "https://www.benzinga.com/news/26/09/61609834/citigroup-reinstates-neutral-barrick-mining-announces-45-price-target",
+    "source": "benzinga"
+   },
    {
     "headline": "The Gold Supercycle Is Just Starting, and Miners Haven't Caught Up",
     "summary": "Gold breaks away from real yield rules as central banks dump Treasuries for bullion. Discover why silver could be set to target $100+.",
     "ts": "2026-09-03T11:05:43Z",
     "url": "https://www.benzinga.com/markets/commodities/26/09/61597569/the-gold-supercycle-is-just-starting-and-miners-havent-caught-up",
     "source": "benzinga"
-   },
-   {
-    "headline": "'Barrick Is Said to Weigh Delaying North America Gold IPO to 2027' - Bloomberg",
-    "summary": "",
-    "ts": "2026-09-02T16:57:58Z",
-    "url": "https://www.benzinga.com/news/26/09/61583523/barrick-said-weigh-delaying-north-america-gold-ipo-2027-bloomberg",
-    "source": "benzinga"
    }
   ],
-  "KKR": [
+  "ANET": [
    {
-    "headline": "Michael Burry Warns of a Private Credit 'Shell Game' That Could Leave Taxpayers on the Hook: APO, KKR, OWL In Focus",
-    "summary": "Michael Burry warns of a private equity &#39;shell game&#39; where giants like Apollo, KKR, and Blue Owl use life insurers to socialize credit risk.",
-    "ts": "2026-09-03T07:47:43Z",
-    "url": "https://www.benzinga.com/markets/private-markets/26/09/61594844/michael-burry-warns-of-a-private-credit-shell-game-that-could-leave-taxpayers-on-the-hook-apo-kkr-owl-in-focus",
-    "source": "benzinga"
-   }
-  ],
-  "CPAY": [
-   {
-    "headline": "Scotiabank Initiates Coverage On Corpay with Sector Outperform Rating, Announces Price Target of $536",
-    "summary": "",
-    "ts": "2026-09-02T18:57:04Z",
-    "url": "https://www.benzinga.com/news/26/09/61586795/scotiabank-initiates-coverage-corpay-sector-outperform-rating-announces-price-target-536",
-    "source": "benzinga"
-   }
-  ],
-  "SHEL": [
-   {
-    "headline": "BP Agrees To Sell 50% Stake In Tupinamba Exploration Block To Shell Offshore Brazil; Financial Terms Undisclosed",
-    "summary": "",
-    "ts": "2026-09-02T18:43:57Z",
-    "url": "https://www.benzinga.com/m/26/09/61586449/bp-agrees-sell-50-stake-tupinamba-exploration-block-shell-offshore-brazil-financial-terms-undisclose",
+    "headline": "Jensen Huang Says AI Is a 'Five-Layer Cake.' Nvidia Is Just One Slice",
+    "summary": "Jensen Huang&#39;s &#34;five-layer cake&#34; AI framework reveals how companies beyond Nvidia could benefit from the next phase of AI investment.",
+    "ts": "2026-09-03T14:46:31Z",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61605791/jensen-huang-ai-five-layers",
     "source": "benzinga"
    },
    {
-    "headline": "According To O Globo Citing British Petroleum, Shell Will Be Acquiring A 50% Stake In Tupinamb\u00e1 Exploration Block, With BP Retaining The Remaining 50% And Continuing As Operator",
-    "summary": "",
-    "ts": "2026-09-02T18:09:38Z",
-    "url": "https://www.benzinga.com/news/26/09/61585533/according-o-globo-citing-british-petroleum-shell-will-be-acquiring-50-stake-tupinamb-exploration-blo",
+    "headline": "Jensen Huang Just Gave Governments an AI FOMO Pitch\u2014Here\u2019s Who Wins",
+    "summary": "Jensen Huang&#39;s G20 remarks position AI infrastructure as a national asset, akin to highways or electricity grids. These stocks could benefit.",
+    "ts": "2026-09-03T13:10:06Z",
+    "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/09/61601012/jensen-huang-ai-fomo",
     "source": "benzinga"
    }
   ],
-  "BLK": [
+  "DVN": [
    {
-    "headline": "BlackRock: AI Boom Still in Phase 1 as Amazon, Google, Microsoft Fuel 'Massive Build-Out'",
-    "summary": "BlackRock\u2019s Wei Li says AI is still in Phase 1 despite nearly $600 billion in Big Tech spending, with adoption and productivity still ahead.",
-    "ts": "2026-09-02T14:42:36Z",
-    "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61578412/blackrock-ai-boom-phase-1-big-tech",
-    "source": "benzinga"
-   },
-   {
-    "headline": "How Bitcoin ETFs Are Changing Institutions' Appetite for Crypto",
-    "summary": "Bitcoin ETFs are driving fresh, broad-based inflows, integrating BTC into traditional portfolios and creating a more durable institutional bid.",
-    "ts": "2026-09-02T13:42:01Z",
-    "url": "https://www.benzinga.com/crypto/cryptocurrency/26/09/61575161/how-bitcoin-etfs-are-changing-institutions-appetite-for-crypto",
-    "source": "benzinga"
-   }
-  ],
-  "ADSK": [
-   {
-    "headline": "Argus Research Reiterates Buy on Autodesk, Maintains $355 Price Target",
+    "headline": "Seaport Global Initiates Coverage On Devon Energy with Buy Rating, Announces Price Target of $65",
     "summary": "",
-    "ts": "2026-09-02T12:31:55Z",
-    "url": "https://www.benzinga.com/news/26/09/61572631/argus-research-reiterates-buy-autodesk-maintains-355-price-target",
+    "ts": "2026-09-03T09:37:33Z",
+    "url": "https://www.benzinga.com/news/26/09/61595755/seaport-global-initiates-coverage-devon-energy-buy-rating-announces-price-target-65",
     "source": "benzinga"
    }
   ]
  },
- "symbols_with_news": 11
+ "symbols_with_news": 15
 }
