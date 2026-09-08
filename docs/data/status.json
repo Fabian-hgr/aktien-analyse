@@ -1,18 +1,18 @@
 {
- "letzter_lauf": "2026-09-04T23:51:11+00:00",
+ "letzter_lauf": "2026-09-08T00:06:58+00:00",
  "lauf": "abrechnung",
  "ergebnis": "fertig",
- "tag": "2026-09-04",
+ "tag": "2026-09-08",
  "gefuellt": {
-  "ki": 6,
-  "zufall": 6
+  "ki": 0,
+  "zufall": 0
  },
  "geschlossen": {
-  "ki": 5,
+  "ki": 0,
   "zufall": 0
  },
  "lernschritte": [],
- "sekunden": 1.0,
+ "sekunden": 1.2,
  "steuerung": {
   "paused": false,
   "changed_at": null,

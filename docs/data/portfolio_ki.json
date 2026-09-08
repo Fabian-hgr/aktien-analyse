@@ -2407,6 +2407,14 @@
    "positions": 35,
    "invested_pct": 35.38,
    "return_pct": 0.204
+  },
+  {
+   "date": "2026-09-08",
+   "equity": 99750.97,
+   "cash": 64751.73,
+   "positions": 35,
+   "invested_pct": 35.09,
+   "return_pct": -0.249
   }
  ],
  "skipped": [
