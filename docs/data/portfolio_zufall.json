@@ -1522,7 +1522,189 @@
    "mae_price": 222.005
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "RTX",
+   "name": "RTX Corporation",
+   "sector": "Industrie",
+   "score": 0.5038,
+   "target": 211.47,
+   "stop": 194.01,
+   "atr_at_entry": 4.110276002456182,
+   "ziel_atr": 2.61,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.3428,
+   "basis_erwartung_r": 0.1355,
+   "score_components": {
+    "trend": 0.697,
+    "setup": 0.503,
+    "volumen": 0.142,
+    "qualitaet": 0.489,
+    "bewertung": 0.208,
+    "analysten": 0.7
+   },
+   "target_methods": {
+    "atr": 209.25,
+    "struktur": 213.93
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  },
+  {
+   "symbol": "LYB",
+   "name": "LyondellBasell",
+   "sector": "Grundstoffe",
+   "score": 0.586,
+   "target": 68.61,
+   "stop": 60.13,
+   "atr_at_entry": 2.062623674114984,
+   "ziel_atr": 2.47,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3689,
+   "basis_erwartung_r": 0.134,
+   "score_components": {
+    "trend": 0.752,
+    "setup": 0.982,
+    "volumen": 0.217,
+    "qualitaet": 0.3,
+    "bewertung": 0.716,
+    "analysten": 0.414
+   },
+   "target_methods": {
+    "atr": 67.79,
+    "struktur": 68.41
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  },
+  {
+   "symbol": "CTSH",
+   "name": "Cognizant",
+   "sector": "Technologie",
+   "score": 0.7152,
+   "target": 66.47,
+   "stop": 58.79,
+   "atr_at_entry": 2.115120715132479,
+   "ziel_atr": 1.96,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.4525,
+   "basis_erwartung_r": 0.097,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.91,
+    "volumen": 0.275,
+    "qualitaet": 0.49,
+    "bewertung": 0.902,
+    "analysten": 0.5,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 66.77,
+    "struktur": 65.42
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  },
+  {
+   "symbol": "NI",
+   "name": "NiSource",
+   "sector": "Versorger",
+   "score": 0.4016,
+   "target": 43.24,
+   "stop": 40.24,
+   "atr_at_entry": 0.7445596406589813,
+   "ziel_atr": 2.47,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.3234,
+   "basis_erwartung_r": 0.0974,
+   "score_components": {
+    "trend": 0.177,
+    "setup": 0.747,
+    "volumen": 0.0,
+    "qualitaet": 0.356,
+    "bewertung": 0.355,
+    "analysten": 0.7
+   },
+   "target_methods": {
+    "atr": 42.82,
+    "struktur": 43.53
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  },
+  {
+   "symbol": "IVZ",
+   "name": "Invesco",
+   "sector": "Finanzen",
+   "score": 0.5972,
+   "target": 35.5,
+   "stop": 31.64,
+   "atr_at_entry": 0.8904416942591725,
+   "ziel_atr": 2.74,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3093,
+   "basis_erwartung_r": 0.1379,
+   "score_components": {
+    "trend": 0.921,
+    "setup": 0.773,
+    "volumen": 0.125,
+    "qualitaet": 0.403,
+    "bewertung": 0.775,
+    "analysten": 0.38
+   },
+   "target_methods": {
+    "atr": 34.83,
+    "struktur": 35.75
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  },
+  {
+   "symbol": "PYPL",
+   "name": "PayPal",
+   "sector": "Finanzen",
+   "score": 0.6021,
+   "target": 60.37,
+   "stop": 51.81,
+   "atr_at_entry": 1.9642359907502183,
+   "ziel_atr": 2.76,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3059,
+   "basis_erwartung_r": 0.1384,
+   "score_components": {
+    "trend": 0.797,
+    "setup": 0.649,
+    "volumen": 0.235,
+    "qualitaet": 0.592,
+    "bewertung": 0.813,
+    "analysten": 0.409
+   },
+   "target_methods": {
+    "atr": 58.86,
+    "struktur": 60.89
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  }
+ ],
  "closed": [
   {
    "symbol": "TRGP",

@@ -1318,7 +1318,189 @@
    "mae_price": 145.78
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "AMP",
+   "name": "Ameriprise Financial",
+   "sector": "Finanzen",
+   "score": 0.7613,
+   "target": 577.38,
+   "stop": 544.05,
+   "atr_at_entry": 10.228477759905664,
+   "ziel_atr": 1.66,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4988,
+   "basis_erwartung_r": 0.0989,
+   "score_components": {
+    "trend": 0.902,
+    "setup": 0.848,
+    "volumen": 1.0,
+    "qualitaet": 0.773,
+    "bewertung": 0.618,
+    "analysten": 0.411
+   },
+   "target_methods": {
+    "atr": 580.76,
+    "struktur": 571.56
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  },
+  {
+   "symbol": "APH",
+   "name": "Amphenol",
+   "sector": "Technologie",
+   "score": 0.7546,
+   "target": 88.72,
+   "stop": 78.18,
+   "atr_at_entry": 2.7546080647604776,
+   "ziel_atr": 2.15,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.4229,
+   "basis_erwartung_r": 0.1089,
+   "score_components": {
+    "trend": 0.846,
+    "setup": 1.0,
+    "volumen": 0.458,
+    "qualitaet": 0.816,
+    "bewertung": 0.452,
+    "analysten": 0.726
+   },
+   "target_methods": {
+    "atr": 88.58,
+    "struktur": 89.22
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "sector": "Technologie",
+   "score": 0.738,
+   "target": 253.74,
+   "stop": 217.9,
+   "atr_at_entry": 7.330374267243839,
+   "ziel_atr": 3.21,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.2822,
+   "basis_erwartung_r": 0.1689,
+   "score_components": {
+    "trend": 0.864,
+    "setup": 0.767,
+    "volumen": 0.22,
+    "qualitaet": 0.986,
+    "bewertung": 0.828,
+    "analysten": 1.0,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 245.58,
+    "struktur": 255.03
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  },
+  {
+   "symbol": "WTW",
+   "name": "Willis Towers Watson",
+   "sector": "Finanzen",
+   "score": 0.7328,
+   "target": 350.29,
+   "stop": 323.49,
+   "atr_at_entry": 7.024855077556969,
+   "ziel_atr": 2.21,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3956,
+   "basis_erwartung_r": 0.121,
+   "score_components": {
+    "trend": 0.955,
+    "setup": 0.966,
+    "volumen": 0.55,
+    "qualitaet": 0.578,
+    "bewertung": 0.515,
+    "analysten": 0.625
+   },
+   "target_methods": {
+    "atr": 348.7,
+    "struktur": 351.49
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  },
+  {
+   "symbol": "TYL",
+   "name": "Tyler Technologies",
+   "sector": "Technologie",
+   "score": 0.728,
+   "target": 392.11,
+   "stop": 342.1,
+   "atr_at_entry": 13.024432317312352,
+   "ziel_atr": 2.16,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.4205,
+   "basis_erwartung_r": 0.1098,
+   "score_components": {
+    "trend": 0.972,
+    "setup": 1.0,
+    "volumen": 0.636,
+    "qualitaet": 0.479,
+    "bewertung": 0.334,
+    "analysten": 0.704
+   },
+   "target_methods": {
+    "atr": 391.27,
+    "struktur": 393.47
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  },
+  {
+   "symbol": "BAC",
+   "name": "Bank of America",
+   "sector": "Finanzen",
+   "score": 0.7255,
+   "target": 64.95,
+   "stop": 61.02,
+   "atr_at_entry": 1.0357358143953228,
+   "ziel_atr": 2.2,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3987,
+   "basis_erwartung_r": 0.1204,
+   "score_components": {
+    "trend": 0.908,
+    "setup": 1.0,
+    "volumen": 0.359,
+    "qualitaet": 0.68,
+    "bewertung": 0.699,
+    "analysten": 0.516
+   },
+   "target_methods": {
+    "atr": 64.74,
+    "struktur": 64.89
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-08"
+  }
+ ],
  "closed": [
   {
    "symbol": "BSX",
