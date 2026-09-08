@@ -1,56 +1,56 @@
 {
- "updated_at": "2026-09-08T00:06:58+00:00",
+ "updated_at": "2026-09-08T23:58:00+00:00",
  "start_capital": 100000.0,
  "statistik": {
   "ki": {
    "depot": "ki",
    "label": "Depot KI",
-   "equity": 99750.97,
-   "cash": 64751.73,
-   "open_positions": 35,
-   "return_pct": -0.25,
-   "trades": 19,
-   "max_drawdown_pct": -0.65,
-   "win_rate": 21.1,
-   "wins": 4,
-   "losses": 15,
-   "expectancy_r": -0.432,
-   "avg_win_r": 1.277,
-   "avg_loss_r": -0.888,
-   "profit_factor": 0.45,
-   "avg_hold_days": 2.2,
+   "equity": 99673.23,
+   "cash": 67402.85,
+   "open_positions": 32,
+   "return_pct": -0.33,
+   "trades": 28,
+   "max_drawdown_pct": -0.72,
+   "win_rate": 17.9,
+   "wins": 5,
+   "losses": 23,
+   "expectancy_r": -0.575,
+   "avg_win_r": 1.127,
+   "avg_loss_r": -0.945,
+   "profit_factor": 0.27,
+   "avg_hold_days": 2.8,
    "exit_reasons": {
-    "stop": 12,
+    "stop": 17,
+    "stop_luecke": 5,
     "ziel": 4,
-    "stop_luecke": 2,
-    "ziel_luecke": 1
+    "ziel_luecke": 2
    },
-   "total_pnl": -249.04
+   "total_pnl": -608.14
   },
   "zufall": {
    "depot": "zufall",
    "label": "Depot Zufall",
-   "equity": 99689.59,
-   "cash": 58778.33,
-   "open_positions": 41,
-   "return_pct": -0.31,
-   "trades": 13,
-   "max_drawdown_pct": -0.43,
-   "win_rate": 23.1,
+   "equity": 99575.68,
+   "cash": 57563.11,
+   "open_positions": 42,
+   "return_pct": -0.42,
+   "trades": 18,
+   "max_drawdown_pct": -0.45,
+   "win_rate": 16.7,
    "wins": 3,
-   "losses": 10,
-   "expectancy_r": -0.712,
+   "losses": 15,
+   "expectancy_r": -0.929,
    "avg_win_r": 1.143,
-   "avg_loss_r": -1.268,
-   "profit_factor": 0.25,
-   "avg_hold_days": 1.7,
+   "avg_loss_r": -1.344,
+   "profit_factor": 0.16,
+   "avg_hold_days": 2.6,
    "exit_reasons": {
-    "stop": 7,
-    "stop_luecke": 3,
+    "stop": 10,
+    "stop_luecke": 5,
     "ziel": 2,
     "ziel_luecke": 1
    },
-   "total_pnl": -310.41
+   "total_pnl": -544.05
   }
  },
  "ki": [
@@ -133,6 +133,14 @@
    "positions": 35,
    "invested_pct": 35.09,
    "return_pct": -0.249
+  },
+  {
+   "date": "2026-09-08",
+   "equity": 99673.23,
+   "cash": 67402.85,
+   "positions": 32,
+   "invested_pct": 32.38,
+   "return_pct": -0.327
   }
  ],
  "zufall": [
@@ -215,6 +223,14 @@
    "positions": 41,
    "invested_pct": 41.04,
    "return_pct": -0.31
+  },
+  {
+   "date": "2026-09-08",
+   "equity": 99575.68,
+   "cash": 57563.11,
+   "positions": 42,
+   "invested_pct": 42.19,
+   "return_pct": -0.424
   }
  ],
  "spy": [
@@ -276,6 +292,12 @@
    "date": "2026-09-04",
    "equity": 100880.2,
    "return_pct": 0.88,
+   "basis": 763.46
+  },
+  {
+   "date": "2026-09-08",
+   "equity": 100340.55,
+   "return_pct": 0.341,
    "basis": 763.46
   }
  ]

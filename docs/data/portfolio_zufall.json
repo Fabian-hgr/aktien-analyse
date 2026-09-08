@@ -2,7 +2,7 @@
  "name": "zufall",
  "label": "Depot Zufall",
  "start_capital": 100000.0,
- "cash": 58778.32572014724,
+ "cash": 57563.11104843969,
  "positions": [
   {
    "symbol": "KKR",
@@ -37,9 +37,9 @@
    "entry_price": 108.144,
    "entry_date": "2026-08-24",
    "entry_open": 108.09,
-   "days_held": 6,
+   "days_held": 7,
    "mfe_price": 110.48,
-   "mae_price": 105.74
+   "mae_price": 105.465
   },
   {
    "symbol": "KIM",
@@ -74,83 +74,9 @@
    "entry_price": 24.1671,
    "entry_date": "2026-08-24",
    "entry_open": 24.155,
-   "days_held": 6,
+   "days_held": 7,
    "mfe_price": 24.325,
-   "mae_price": 23.56
-  },
-  {
-   "symbol": "DLTR",
-   "name": "Dollar Tree",
-   "sector": "Konsum defensiv",
-   "score": 0.3299,
-   "target": 139.91,
-   "stop": 125.25,
-   "atr_at_entry": 3.5370646073298624,
-   "ziel_atr": 2.39,
-   "stop_atr": 1.75,
-   "basis_p_ziel": 0.3586,
-   "basis_erwartung_r": 0.0515,
-   "score_components": {
-    "trend": 0.937,
-    "setup": 0.823,
-    "volumen": 0.22,
-    "qualitaet": 0.457,
-    "bewertung": 0.462,
-    "analysten": 0.303
-   },
-   "target_methods": {
-    "atr": 138.27,
-    "struktur": 142.04
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-24",
-   "shares": 7.499627,
-   "entry_price": 133.3216,
-   "entry_date": "2026-08-24",
-   "entry_open": 133.255,
-   "days_held": 6,
-   "mfe_price": 137.05,
-   "mae_price": 128.4
-  },
-  {
-   "symbol": "EW",
-   "name": "Edwards Lifesciences",
-   "sector": "Gesundheit",
-   "score": 0.6,
-   "target": 94.64,
-   "stop": 86.61,
-   "atr_at_entry": 1.9903058482038491,
-   "ziel_atr": 2.44,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.3544,
-   "basis_erwartung_r": 0.1261,
-   "score_components": {
-    "trend": 0.868,
-    "setup": 0.976,
-    "volumen": 0.0,
-    "qualitaet": 0.577,
-    "bewertung": 0.06,
-    "analysten": 0.649
-   },
-   "target_methods": {
-    "atr": 93.82,
-    "struktur": 95.99
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-24",
-   "shares": 11.160204,
-   "entry_price": 89.6148,
-   "entry_date": "2026-08-24",
-   "entry_open": 89.57,
-   "days_held": 6,
-   "mfe_price": 92.85,
-   "mae_price": 88.7
+   "mae_price": 23.55
   },
   {
    "symbol": "LRCX",
@@ -185,8 +111,8 @@
    "entry_price": 316.7983,
    "entry_date": "2026-08-25",
    "entry_open": 316.64,
-   "days_held": 5,
-   "mfe_price": 317.67,
+   "days_held": 6,
+   "mfe_price": 321.72,
    "mae_price": 278.17
   },
   {
@@ -222,7 +148,7 @@
    "entry_price": 30.6503,
    "entry_date": "2026-08-25",
    "entry_open": 30.635,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 32.69,
    "mae_price": 30.635
   },
@@ -259,7 +185,7 @@
    "entry_price": 236.7683,
    "entry_date": "2026-08-25",
    "entry_open": 236.65,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 246.645,
    "mae_price": 200.67
   },
@@ -296,9 +222,9 @@
    "entry_price": 171.6258,
    "entry_date": "2026-09-01",
    "entry_open": 171.54,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 174.97,
-   "mae_price": 170.17
+   "mae_price": 168.87
   },
   {
    "symbol": "ELV",
@@ -333,46 +259,9 @@
    "entry_price": 397.1385,
    "entry_date": "2026-09-01",
    "entry_open": 396.94,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 416.28,
    "mae_price": 396.94
-  },
-  {
-   "symbol": "AMGN",
-   "name": "Amgen",
-   "sector": "Gesundheit",
-   "score": 0.5514,
-   "target": 463.32,
-   "stop": 425.11,
-   "atr_at_entry": 9.522395761617291,
-   "ziel_atr": 2.41,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.3585,
-   "basis_erwartung_r": 0.1253,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 0.557,
-    "volumen": 0.004,
-    "qualitaet": 0.646,
-    "bewertung": 0.315,
-    "analysten": 0.375
-   },
-   "target_methods": {
-    "atr": 459.65,
-    "struktur": 470.01
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-27",
-   "shares": 2.305284,
-   "entry_price": 432.7062,
-   "entry_date": "2026-09-01",
-   "entry_open": 432.49,
-   "days_held": 4,
-   "mfe_price": 445.49,
-   "mae_price": 431.15
   },
   {
    "symbol": "JBHT",
@@ -407,8 +296,8 @@
    "entry_price": 261.9009,
    "entry_date": "2026-09-01",
    "entry_open": 261.77,
-   "days_held": 4,
-   "mfe_price": 274.01,
+   "days_held": 5,
+   "mfe_price": 276.16,
    "mae_price": 254.865
   },
   {
@@ -444,8 +333,8 @@
    "entry_price": 86.9284,
    "entry_date": "2026-09-01",
    "entry_open": 86.885,
-   "days_held": 4,
-   "mfe_price": 95.935,
+   "days_held": 5,
+   "mfe_price": 106.07,
    "mae_price": 85.74
   },
   {
@@ -481,8 +370,8 @@
    "entry_price": 65.0825,
    "entry_date": "2026-09-01",
    "entry_open": 65.05,
-   "days_held": 4,
-   "mfe_price": 65.885,
+   "days_held": 5,
+   "mfe_price": 66.255,
    "mae_price": 64.275
   },
   {
@@ -518,7 +407,7 @@
    "entry_price": 167.6438,
    "entry_date": "2026-09-01",
    "entry_open": 167.56,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 169.295,
    "mae_price": 166.175
   },
@@ -555,8 +444,8 @@
    "entry_price": 786.0128,
    "entry_date": "2026-09-01",
    "entry_open": 785.62,
-   "days_held": 4,
-   "mfe_price": 820.74,
+   "days_held": 5,
+   "mfe_price": 830.13,
    "mae_price": 772.0
   },
   {
@@ -592,9 +481,9 @@
    "entry_price": 173.2766,
    "entry_date": "2026-09-01",
    "entry_open": 173.19,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 176.45,
-   "mae_price": 171.85
+   "mae_price": 169.93
   },
   {
    "symbol": "OXY",
@@ -629,8 +518,8 @@
    "entry_price": 61.1005,
    "entry_date": "2026-09-01",
    "entry_open": 61.07,
-   "days_held": 4,
-   "mfe_price": 61.33,
+   "days_held": 5,
+   "mfe_price": 62.01,
    "mae_price": 59.35
   },
   {
@@ -666,9 +555,9 @@
    "entry_price": 223.9619,
    "entry_date": "2026-09-01",
    "entry_open": 223.85,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 225.6,
-   "mae_price": 220.65
+   "mae_price": 220.39
   },
   {
    "symbol": "CCL",
@@ -703,7 +592,7 @@
    "entry_price": 23.6618,
    "entry_date": "2026-09-01",
    "entry_open": 23.65,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 23.97,
    "mae_price": 23.075
   },
@@ -740,7 +629,7 @@
    "entry_price": 43.942,
    "entry_date": "2026-09-01",
    "entry_open": 43.92,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 44.58,
    "mae_price": 43.22
   },
@@ -777,7 +666,7 @@
    "entry_price": 230.8254,
    "entry_date": "2026-09-01",
    "entry_open": 230.71,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 237.83,
    "mae_price": 229.16
   },
@@ -814,8 +703,8 @@
    "entry_price": 81.4907,
    "entry_date": "2026-09-01",
    "entry_open": 81.45,
-   "days_held": 4,
-   "mfe_price": 82.28,
+   "days_held": 5,
+   "mfe_price": 82.59,
    "mae_price": 80.5
   },
   {
@@ -851,7 +740,7 @@
    "entry_price": 68.7193,
    "entry_date": "2026-09-01",
    "entry_open": 68.685,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 71.18,
    "mae_price": 67.69
   },
@@ -888,7 +777,7 @@
    "entry_price": 135.0775,
    "entry_date": "2026-09-02",
    "entry_open": 135.01,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 137.42,
    "mae_price": 132.68
   },
@@ -925,9 +814,9 @@
    "entry_price": 123.2616,
    "entry_date": "2026-09-02",
    "entry_open": 123.2,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 124.51,
-   "mae_price": 121.84
+   "mae_price": 116.995
   },
   {
    "symbol": "FIS",
@@ -962,46 +851,9 @@
    "entry_price": 41.0805,
    "entry_date": "2026-09-02",
    "entry_open": 41.06,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 42.76,
-   "mae_price": 40.93
-  },
-  {
-   "symbol": "BMY",
-   "name": "Bristol Myers Squibb",
-   "sector": "Gesundheit",
-   "score": 0.6349,
-   "target": 69.49,
-   "stop": 64.55,
-   "atr_at_entry": 1.4846672745932277,
-   "ziel_atr": 1.73,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.4784,
-   "basis_erwartung_r": 0.0976,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 0.86,
-    "volumen": 0.0,
-    "qualitaet": 0.604,
-    "bewertung": 0.555,
-    "analysten": 0.43
-   },
-   "target_methods": {
-    "atr": 69.93,
-    "struktur": 68.64
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-02",
-   "shares": 14.857188,
-   "entry_price": 66.9835,
-   "entry_date": "2026-09-02",
-   "entry_open": 66.95,
-   "days_held": 3,
-   "mfe_price": 68.19,
-   "mae_price": 66.58
+   "mae_price": 39.37
   },
   {
    "symbol": "XYZ",
@@ -1036,7 +888,7 @@
    "entry_price": 77.0185,
    "entry_date": "2026-09-02",
    "entry_open": 76.98,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 84.55,
    "mae_price": 76.98
   },
@@ -1073,7 +925,7 @@
    "entry_price": 61.7409,
    "entry_date": "2026-09-02",
    "entry_open": 61.71,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 63.705,
    "mae_price": 61.53
   },
@@ -1110,8 +962,8 @@
    "entry_price": 87.5337,
    "entry_date": "2026-09-03",
    "entry_open": 87.49,
-   "days_held": 2,
-   "mfe_price": 90.205,
+   "days_held": 3,
+   "mfe_price": 94.84,
    "mae_price": 87.095
   },
   {
@@ -1147,9 +999,9 @@
    "entry_price": 294.0419,
    "entry_date": "2026-09-03",
    "entry_open": 293.895,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 295.38,
-   "mae_price": 287.64
+   "mae_price": 280.17
   },
   {
    "symbol": "ACN",
@@ -1184,9 +1036,9 @@
    "entry_price": 190.095,
    "entry_date": "2026-09-03",
    "entry_open": 190.0,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 195.32,
-   "mae_price": 186.085
+   "mae_price": 177.06
   },
   {
    "symbol": "GD",
@@ -1221,9 +1073,9 @@
    "entry_price": 366.4431,
    "entry_date": "2026-09-03",
    "entry_open": 366.26,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 366.26,
-   "mae_price": 358.09
+   "mae_price": 355.33
   },
   {
    "symbol": "FAST",
@@ -1258,7 +1110,7 @@
    "entry_price": 48.3442,
    "entry_date": "2026-09-03",
    "entry_open": 48.32,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 50.42,
    "mae_price": 47.83
   },
@@ -1295,9 +1147,9 @@
    "entry_price": 93.5367,
    "entry_date": "2026-09-03",
    "entry_open": 93.49,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 93.615,
-   "mae_price": 91.39
+   "mae_price": 89.35
   },
   {
    "symbol": "JBL",
@@ -1332,7 +1184,7 @@
    "entry_price": 309.7098,
    "entry_date": "2026-09-04",
    "entry_open": 309.555,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 315.38,
    "mae_price": 308.1
   },
@@ -1369,9 +1221,9 @@
    "entry_price": 137.2986,
    "entry_date": "2026-09-04",
    "entry_open": 137.23,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 144.4,
-   "mae_price": 137.165
+   "mae_price": 135.47
   },
   {
    "symbol": "AVGO",
@@ -1406,46 +1258,9 @@
    "entry_price": 360.17,
    "entry_date": "2026-09-04",
    "entry_open": 359.99,
-   "days_held": 1,
-   "mfe_price": 359.99,
+   "days_held": 2,
+   "mfe_price": 372.68,
    "mae_price": 353.74
-  },
-  {
-   "symbol": "VRSK",
-   "name": "Verisk Analytics",
-   "sector": "Industrie",
-   "score": 0.6548,
-   "target": 207.03,
-   "stop": 181.05,
-   "atr_at_entry": 5.859169936474397,
-   "ziel_atr": 2.81,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3167,
-   "basis_erwartung_r": 0.1524,
-   "score_components": {
-    "trend": 0.625,
-    "setup": 1.0,
-    "volumen": 0.136,
-    "qualitaet": 0.688,
-    "bewertung": 0.467,
-    "analysten": 0.788
-   },
-   "target_methods": {
-    "atr": 202.89,
-    "struktur": 209.56
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-04",
-   "shares": 5.308858,
-   "entry_price": 188.2741,
-   "entry_date": "2026-09-04",
-   "entry_open": 188.18,
-   "days_held": 1,
-   "mfe_price": 188.18,
-   "mae_price": 182.58
   },
   {
    "symbol": "MTB",
@@ -1480,9 +1295,9 @@
    "entry_price": 240.06,
    "entry_date": "2026-09-04",
    "entry_open": 239.94,
-   "days_held": 1,
-   "mfe_price": 241.2,
-   "mae_price": 239.56
+   "days_held": 2,
+   "mfe_price": 242.76,
+   "mae_price": 238.395
   },
   {
    "symbol": "IEX",
@@ -1517,12 +1332,10 @@
    "entry_price": 222.9414,
    "entry_date": "2026-09-04",
    "entry_open": 222.83,
-   "days_held": 1,
-   "mfe_price": 224.35,
+   "days_held": 2,
+   "mfe_price": 226.42,
    "mae_price": 222.005
-  }
- ],
- "pending": [
+  },
   {
    "symbol": "RTX",
    "name": "RTX Corporation",
@@ -1551,7 +1364,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 4.992061,
+   "entry_price": 199.4797,
+   "entry_date": "2026-09-08",
+   "entry_open": 199.38,
+   "days_held": 1,
+   "mfe_price": 201.52,
+   "mae_price": 198.2
   },
   {
    "symbol": "LYB",
@@ -1581,7 +1401,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 15.392537,
+   "entry_price": 64.6923,
+   "entry_date": "2026-09-08",
+   "entry_open": 64.66,
+   "days_held": 1,
+   "mfe_price": 65.805,
+   "mae_price": 64.515
   },
   {
    "symbol": "CTSH",
@@ -1612,7 +1439,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 16.132032,
+   "entry_price": 61.7258,
+   "entry_date": "2026-09-08",
+   "entry_open": 61.695,
+   "days_held": 1,
+   "mfe_price": 61.695,
+   "mae_price": 59.12
   },
   {
    "symbol": "NI",
@@ -1642,7 +1476,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 23.969534,
+   "entry_price": 41.5308,
+   "entry_date": "2026-09-08",
+   "entry_open": 41.51,
+   "days_held": 1,
+   "mfe_price": 42.17,
+   "mae_price": 41.485
   },
   {
    "symbol": "IVZ",
@@ -1672,7 +1513,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 30.17188,
+   "entry_price": 32.9965,
+   "entry_date": "2026-09-08",
+   "entry_open": 32.98,
+   "days_held": 1,
+   "mfe_price": 33.11,
+   "mae_price": 32.32
   },
   {
    "symbol": "PYPL",
@@ -1702,9 +1550,17 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 18.286493,
+   "entry_price": 54.4322,
+   "entry_date": "2026-09-08",
+   "entry_open": 54.405,
+   "days_held": 1,
+   "mfe_price": 54.51,
+   "mae_price": 53.035
   }
  ],
+ "pending": [],
  "closed": [
   {
    "symbol": "TRGP",
@@ -2394,6 +2250,271 @@
     "vix_level": null,
     "chg_21d": 0.004319359825406988
    }
+  },
+  {
+   "symbol": "DLTR",
+   "name": "Dollar Tree",
+   "sector": "Konsum defensiv",
+   "depot": "zufall",
+   "entry_date": "2026-08-24",
+   "entry_price": 133.3216,
+   "exit_date": "2026-09-08",
+   "exit_price": 125.1874,
+   "exit_reason": "stop",
+   "shares": 7.499627,
+   "stop": 125.25,
+   "target": 139.91,
+   "pnl": -61.0,
+   "pnl_pct": -6.101,
+   "r_multiple": -1.008,
+   "days_held": 7,
+   "mfe_price": 137.05,
+   "mae_price": 123.64,
+   "mfe_r": 0.462,
+   "atr_at_entry": 3.5370646073298624,
+   "ziel_atr": 2.39,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.3586,
+   "basis_erwartung_r": 0.0515,
+   "score": 0.3299,
+   "score_components": {
+    "trend": 0.937,
+    "setup": 0.823,
+    "volumen": 0.22,
+    "qualitaet": 0.457,
+    "bewertung": 0.462,
+    "analysten": 0.303
+   },
+   "target_methods": {
+    "atr": 138.27,
+    "struktur": 142.04
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "EW",
+   "name": "Edwards Lifesciences",
+   "sector": "Gesundheit",
+   "depot": "zufall",
+   "entry_date": "2026-08-24",
+   "entry_price": 89.6148,
+   "exit_date": "2026-09-08",
+   "exit_price": 86.5667,
+   "exit_reason": "stop",
+   "shares": 11.160204,
+   "stop": 86.61,
+   "target": 94.64,
+   "pnl": -34.02,
+   "pnl_pct": -3.401,
+   "r_multiple": -1.014,
+   "days_held": 7,
+   "mfe_price": 92.85,
+   "mae_price": 86.5,
+   "mfe_r": 1.077,
+   "atr_at_entry": 1.9903058482038491,
+   "ziel_atr": 2.44,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3544,
+   "basis_erwartung_r": 0.1261,
+   "score": 0.6,
+   "score_components": {
+    "trend": 0.868,
+    "setup": 0.976,
+    "volumen": 0.0,
+    "qualitaet": 0.577,
+    "bewertung": 0.06,
+    "analysten": 0.649
+   },
+   "target_methods": {
+    "atr": 93.82,
+    "struktur": 95.99
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "AMGN",
+   "name": "Amgen",
+   "sector": "Gesundheit",
+   "depot": "zufall",
+   "entry_date": "2026-09-01",
+   "entry_price": 432.7062,
+   "exit_date": "2026-09-08",
+   "exit_price": 407.796,
+   "exit_reason": "stop_luecke",
+   "shares": 2.305284,
+   "stop": 425.11,
+   "target": 463.32,
+   "pnl": -57.43,
+   "pnl_pct": -5.757,
+   "r_multiple": -3.279,
+   "days_held": 5,
+   "mfe_price": 445.49,
+   "mae_price": 391.23,
+   "mfe_r": 1.683,
+   "atr_at_entry": 9.522395761617291,
+   "ziel_atr": 2.41,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3585,
+   "basis_erwartung_r": 0.1253,
+   "score": 0.5514,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.557,
+    "volumen": 0.004,
+    "qualitaet": 0.646,
+    "bewertung": 0.315,
+    "analysten": 0.375
+   },
+   "target_methods": {
+    "atr": 459.65,
+    "struktur": 470.01
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "BMY",
+   "name": "Bristol Myers Squibb",
+   "sector": "Gesundheit",
+   "depot": "zufall",
+   "entry_date": "2026-09-02",
+   "entry_price": 66.9835,
+   "exit_date": "2026-09-08",
+   "exit_price": 64.5177,
+   "exit_reason": "stop",
+   "shares": 14.857188,
+   "stop": 64.55,
+   "target": 69.49,
+   "pnl": -36.63,
+   "pnl_pct": -3.681,
+   "r_multiple": -1.013,
+   "days_held": 4,
+   "mfe_price": 68.19,
+   "mae_price": 64.4,
+   "mfe_r": 0.496,
+   "atr_at_entry": 1.4846672745932277,
+   "ziel_atr": 1.73,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.4784,
+   "basis_erwartung_r": 0.0976,
+   "score": 0.6349,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.86,
+    "volumen": 0.0,
+    "qualitaet": 0.604,
+    "bewertung": 0.555,
+    "analysten": 0.43
+   },
+   "target_methods": {
+    "atr": 69.93,
+    "struktur": 68.64
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "VRSK",
+   "name": "Verisk Analytics",
+   "sector": "Industrie",
+   "depot": "zufall",
+   "entry_date": "2026-09-04",
+   "entry_price": 188.2741,
+   "exit_date": "2026-09-08",
+   "exit_price": 179.88,
+   "exit_reason": "stop_luecke",
+   "shares": 5.308858,
+   "stop": 181.05,
+   "target": 207.03,
+   "pnl": -44.56,
+   "pnl_pct": -4.458,
+   "r_multiple": -1.162,
+   "days_held": 2,
+   "mfe_price": 188.18,
+   "mae_price": 175.375,
+   "mfe_r": -0.013,
+   "atr_at_entry": 5.859169936474397,
+   "ziel_atr": 2.81,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3167,
+   "basis_erwartung_r": 0.1524,
+   "score": 0.6548,
+   "score_components": {
+    "trend": 0.625,
+    "setup": 1.0,
+    "volumen": 0.136,
+    "qualitaet": 0.688,
+    "bewertung": 0.467,
+    "analysten": 0.788
+   },
+   "target_methods": {
+    "atr": 202.89,
+    "struktur": 209.56
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
   }
  ],
  "equity_curve": [
@@ -2476,6 +2597,14 @@
    "positions": 41,
    "invested_pct": 41.04,
    "return_pct": -0.31
+  },
+  {
+   "date": "2026-09-08",
+   "equity": 99575.68,
+   "cash": 57563.11,
+   "positions": 42,
+   "invested_pct": 42.19,
+   "return_pct": -0.424
   }
  ],
  "skipped": [

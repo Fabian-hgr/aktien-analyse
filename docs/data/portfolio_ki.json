@@ -2,7 +2,7 @@
  "name": "ki",
  "label": "Depot KI",
  "start_capital": 100000.0,
- "cash": 64751.730072998165,
+ "cash": 67402.8452440536,
  "positions": [
   {
    "symbol": "TSM",
@@ -37,8 +37,8 @@
    "entry_price": 413.6667,
    "entry_date": "2026-08-24",
    "entry_open": 413.46,
-   "days_held": 6,
-   "mfe_price": 429.2,
+   "days_held": 7,
+   "mfe_price": 444.26,
    "mae_price": 405.22
   },
   {
@@ -74,8 +74,8 @@
    "entry_price": 186.3331,
    "entry_date": "2026-08-24",
    "entry_open": 186.24,
-   "days_held": 6,
-   "mfe_price": 196.84,
+   "days_held": 7,
+   "mfe_price": 200.675,
    "mae_price": 181.44
   },
   {
@@ -112,8 +112,8 @@
    "entry_price": 935.7276,
    "entry_date": "2026-08-24",
    "entry_open": 935.26,
-   "days_held": 6,
-   "mfe_price": 1017.77,
+   "days_held": 7,
+   "mfe_price": 1040.79,
    "mae_price": 888.0
   },
   {
@@ -149,7 +149,7 @@
    "entry_price": 219.4997,
    "entry_date": "2026-08-24",
    "entry_open": 219.39,
-   "days_held": 6,
+   "days_held": 7,
    "mfe_price": 221.37,
    "mae_price": 210.56
   },
@@ -186,7 +186,7 @@
    "entry_price": 14.4272,
    "entry_date": "2026-08-24",
    "entry_open": 14.42,
-   "days_held": 6,
+   "days_held": 7,
    "mfe_price": 15.84,
    "mae_price": 14.345
   },
@@ -224,8 +224,8 @@
    "entry_price": 1534.6169,
    "entry_date": "2026-08-25",
    "entry_open": 1533.85,
-   "days_held": 5,
-   "mfe_price": 1739.915,
+   "days_held": 6,
+   "mfe_price": 1806.955,
    "mae_price": 1468.09
   },
   {
@@ -261,9 +261,9 @@
    "entry_price": 147.7138,
    "entry_date": "2026-08-25",
    "entry_open": 147.64,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 160.31,
-   "mae_price": 144.98
+   "mae_price": 144.975
   },
   {
    "symbol": "SE",
@@ -298,9 +298,9 @@
    "entry_price": 116.8784,
    "entry_date": "2026-08-25",
    "entry_open": 116.82,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 123.73,
-   "mae_price": 110.96
+   "mae_price": 110.31
   },
   {
    "symbol": "SCHW",
@@ -336,85 +336,9 @@
    "entry_price": 108.8544,
    "entry_date": "2026-09-01",
    "entry_open": 108.8,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 110.69,
-   "mae_price": 107.99
-  },
-  {
-   "symbol": "INTU",
-   "name": "Intuit",
-   "sector": "Technologie",
-   "score": 0.7716,
-   "target": 380.09,
-   "stop": 320.31,
-   "atr_at_entry": 15.129610651137396,
-   "ziel_atr": 2.27,
-   "stop_atr": 1.68,
-   "basis_p_ziel": 0.4068,
-   "basis_erwartung_r": 0.1176,
-   "score_components": {
-    "trend": 0.744,
-    "setup": 0.964,
-    "volumen": 1.0,
-    "qualitaet": 0.762,
-    "bewertung": 0.868,
-    "analysten": 0.83,
-    "sentiment": 0.35
-   },
-   "target_methods": {
-    "atr": 377.85,
-    "struktur": 372.77
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-27",
-   "shares": 2.817998,
-   "entry_price": 354.237,
-   "entry_date": "2026-09-01",
-   "entry_open": 354.06,
-   "days_held": 4,
-   "mfe_price": 363.7,
-   "mae_price": 330.53
-  },
-  {
-   "symbol": "LLY",
-   "name": "Lilly (Eli)",
-   "sector": "Gesundheit",
-   "score": 0.7597,
-   "target": 1275.8,
-   "stop": 1125.84,
-   "atr_at_entry": 39.692790157259154,
-   "ziel_atr": 2.18,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.3985,
-   "basis_erwartung_r": 0.1175,
-   "score_components": {
-    "trend": 0.886,
-    "setup": 0.832,
-    "volumen": 0.904,
-    "qualitaet": 0.87,
-    "bewertung": 0.238,
-    "analysten": 0.62,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 1269.81,
-    "struktur": 1292.51
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-27",
-   "shares": 0.841887,
-   "entry_price": 1185.4024,
-   "entry_date": "2026-09-01",
-   "entry_open": 1184.81,
-   "days_held": 4,
-   "mfe_price": 1187.905,
-   "mae_price": 1137.795
+   "mae_price": 106.825
   },
   {
    "symbol": "WDAY",
@@ -450,46 +374,9 @@
    "entry_price": 196.2081,
    "entry_date": "2026-09-01",
    "entry_open": 196.11,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 211.74,
-   "mae_price": 195.42
-  },
-  {
-   "symbol": "HAS",
-   "name": "Hasbro",
-   "sector": "Konsum zyklisch",
-   "score": 0.7166,
-   "target": 98.73,
-   "stop": 90.41,
-   "atr_at_entry": 2.207115850006893,
-   "ziel_atr": 2.06,
-   "stop_atr": 1.71,
-   "basis_p_ziel": 0.4198,
-   "basis_erwartung_r": 0.0683,
-   "score_components": {
-    "trend": 0.927,
-    "setup": 0.965,
-    "volumen": 0.261,
-    "qualitaet": 0.618,
-    "bewertung": 0.536,
-    "analysten": 0.711
-   },
-   "target_methods": {
-    "atr": 98.52,
-    "struktur": 98.14
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-28",
-   "shares": 10.658344,
-   "entry_price": 93.5868,
-   "entry_date": "2026-09-01",
-   "entry_open": 93.54,
-   "days_held": 4,
-   "mfe_price": 94.62,
-   "mae_price": 91.21
+   "mae_price": 184.65
   },
   {
    "symbol": "INCY",
@@ -524,46 +411,9 @@
    "entry_price": 125.1425,
    "entry_date": "2026-09-01",
    "entry_open": 125.08,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 129.4,
    "mae_price": 122.815
-  },
-  {
-   "symbol": "A",
-   "name": "Agilent Technologies",
-   "sector": "Gesundheit",
-   "score": 0.7619,
-   "target": 162.01,
-   "stop": 147.29,
-   "atr_at_entry": 4.066067819350313,
-   "ziel_atr": 2.02,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.4251,
-   "basis_erwartung_r": 0.1141,
-   "score_components": {
-    "trend": 0.954,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.683,
-    "bewertung": 0.307,
-    "analysten": 0.492
-   },
-   "target_methods": {
-    "atr": 162.03,
-    "struktur": 163.23
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-31",
-   "shares": 6.484877,
-   "entry_price": 153.7668,
-   "entry_date": "2026-09-01",
-   "entry_open": 153.69,
-   "days_held": 4,
-   "mfe_price": 153.86,
-   "mae_price": 147.88
   },
   {
    "symbol": "B",
@@ -599,84 +449,9 @@
    "entry_price": 43.4617,
    "entry_date": "2026-09-01",
    "entry_open": 43.44,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 45.81,
    "mae_price": 42.86
-  },
-  {
-   "symbol": "SHEL",
-   "name": "Shell plc American Depositary Shares (Each represents two Ordinary shares)",
-   "sector": "Energie",
-   "score": 0.7385,
-   "target": 94.66,
-   "stop": 88.96,
-   "atr_at_entry": 1.3523592929171817,
-   "ziel_atr": 2.79,
-   "stop_atr": 1.43,
-   "basis_p_ziel": 0.3365,
-   "basis_erwartung_r": 0.2684,
-   "score_components": {
-    "trend": 0.9,
-    "setup": 1.0,
-    "volumen": 0.613,
-    "qualitaet": 0.616,
-    "bewertung": 0.684,
-    "analysten": 0.504
-   },
-   "target_methods": {
-    "atr": 93.86,
-    "struktur": 94.69
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-31",
-   "shares": 10.745298,
-   "entry_price": 92.7564,
-   "entry_date": "2026-09-01",
-   "entry_open": 92.71,
-   "days_held": 4,
-   "mfe_price": 93.85,
-   "mae_price": 92.18
-  },
-  {
-   "symbol": "ABNB",
-   "name": "Airbnb",
-   "sector": "Konsum zyklisch",
-   "score": 0.771,
-   "target": 192.59,
-   "stop": 173.85,
-   "atr_at_entry": 5.4455993602186785,
-   "ziel_atr": 1.73,
-   "stop_atr": 1.71,
-   "basis_p_ziel": 0.482,
-   "basis_erwartung_r": 0.0598,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 0.98,
-    "volumen": 1.0,
-    "qualitaet": 0.849,
-    "bewertung": 0.094,
-    "analysten": 0.399,
-    "sentiment": 0.85
-   },
-   "target_methods": {
-    "atr": 193.88,
-    "struktur": 193.41
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-01",
-   "shares": 5.497837,
-   "entry_price": 181.2106,
-   "entry_date": "2026-09-01",
-   "entry_open": 181.12,
-   "days_held": 4,
-   "mfe_price": 187.29,
-   "mae_price": 180.295
   },
   {
    "symbol": "AEM",
@@ -712,7 +487,7 @@
    "entry_price": 196.4982,
    "entry_date": "2026-09-01",
    "entry_open": 196.4,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 207.68,
    "mae_price": 193.34
   },
@@ -750,9 +525,9 @@
    "entry_price": 90.3752,
    "entry_date": "2026-09-01",
    "entry_open": 90.33,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 95.07,
-   "mae_price": 90.04
+   "mae_price": 89.15
   },
   {
    "symbol": "ZBRA",
@@ -787,7 +562,7 @@
    "entry_price": 345.7028,
    "entry_date": "2026-09-02",
    "entry_open": 345.53,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 364.75,
    "mae_price": 343.16
   },
@@ -824,8 +599,8 @@
    "entry_price": 173.5267,
    "entry_date": "2026-09-02",
    "entry_open": 173.44,
-   "days_held": 3,
-   "mfe_price": 179.05,
+   "days_held": 4,
+   "mfe_price": 179.105,
    "mae_price": 171.83
   },
   {
@@ -862,7 +637,7 @@
    "entry_price": 92.4362,
    "entry_date": "2026-09-02",
    "entry_open": 92.39,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 94.72,
    "mae_price": 90.97
   },
@@ -899,9 +674,9 @@
    "entry_price": 145.3726,
    "entry_date": "2026-09-02",
    "entry_open": 145.3,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 150.0,
-   "mae_price": 145.22
+   "mae_price": 143.095
   },
   {
    "symbol": "NEM",
@@ -937,7 +712,7 @@
    "entry_price": 125.3426,
    "entry_date": "2026-09-02",
    "entry_open": 125.28,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 130.66,
    "mae_price": 123.57
   },
@@ -974,9 +749,9 @@
    "entry_price": 178.2091,
    "entry_date": "2026-09-03",
    "entry_open": 178.12,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 181.34,
-   "mae_price": 177.35
+   "mae_price": 176.45
   },
   {
    "symbol": "WFC",
@@ -1011,9 +786,9 @@
    "entry_price": 89.7348,
    "entry_date": "2026-09-03",
    "entry_open": 89.69,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 90.33,
-   "mae_price": 88.685
+   "mae_price": 87.97
   },
   {
    "symbol": "BLK",
@@ -1049,9 +824,9 @@
    "entry_price": 1114.0567,
    "entry_date": "2026-09-03",
    "entry_open": 1113.5,
-   "days_held": 2,
+   "days_held": 3,
    "mfe_price": 1132.24,
-   "mae_price": 1111.17
+   "mae_price": 1094.59
   },
   {
    "symbol": "DELL",
@@ -1087,46 +862,9 @@
    "entry_price": 484.8523,
    "entry_date": "2026-09-03",
    "entry_open": 484.61,
-   "days_held": 2,
-   "mfe_price": 534.71,
+   "days_held": 3,
+   "mfe_price": 537.885,
    "mae_price": 478.68
-  },
-  {
-   "symbol": "PAYX",
-   "name": "Paychex",
-   "sector": "Industrie",
-   "score": 0.7141,
-   "target": 128.87,
-   "stop": 119.41,
-   "atr_at_entry": 2.82790302589618,
-   "ziel_atr": 1.72,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.4921,
-   "basis_erwartung_r": 0.0956,
-   "score_components": {
-    "trend": 0.964,
-    "setup": 0.897,
-    "volumen": 1.0,
-    "qualitaet": 0.729,
-    "bewertung": 0.41,
-    "analysten": 0.195
-   },
-   "target_methods": {
-    "atr": 129.95,
-    "struktur": 127.91
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-03",
-   "shares": 8.070257,
-   "entry_price": 124.3972,
-   "entry_date": "2026-09-03",
-   "entry_open": 124.335,
-   "days_held": 2,
-   "mfe_price": 126.23,
-   "mae_price": 121.68
   },
   {
    "symbol": "HPE",
@@ -1162,8 +900,8 @@
    "entry_price": 53.9269,
    "entry_date": "2026-09-04",
    "entry_open": 53.9,
-   "days_held": 1,
-   "mfe_price": 54.6,
+   "days_held": 2,
+   "mfe_price": 56.17,
    "mae_price": 51.5
   },
   {
@@ -1200,84 +938,9 @@
    "entry_price": 48.3992,
    "entry_date": "2026-09-04",
    "entry_open": 48.375,
-   "days_held": 1,
-   "mfe_price": 48.43,
+   "days_held": 2,
+   "mfe_price": 49.03,
    "mae_price": 47.45
-  },
-  {
-   "symbol": "ACGL",
-   "name": "Arch Capital Group",
-   "sector": "Finanzen",
-   "score": 0.7521,
-   "target": 104.67,
-   "stop": 97.09,
-   "atr_at_entry": 1.6994910143133315,
-   "ziel_atr": 2.85,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.2947,
-   "basis_erwartung_r": 0.1425,
-   "score_components": {
-    "trend": 0.65,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.628,
-    "bewertung": 0.748,
-    "analysten": 0.602
-   },
-   "target_methods": {
-    "atr": 103.25,
-    "struktur": 105.01
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-04",
-   "shares": 10.076423,
-   "entry_price": 99.5047,
-   "entry_date": "2026-09-04",
-   "entry_open": 99.455,
-   "days_held": 1,
-   "mfe_price": 99.455,
-   "mae_price": 97.89
-  },
-  {
-   "symbol": "MSFT",
-   "name": "Microsoft",
-   "sector": "Technologie",
-   "score": 0.7472,
-   "target": 542.44,
-   "stop": 490.76,
-   "atr_at_entry": 11.679323506312503,
-   "ziel_atr": 2.77,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3389,
-   "basis_erwartung_r": 0.1562,
-   "score_components": {
-    "trend": 0.988,
-    "setup": 0.703,
-    "volumen": 0.584,
-    "qualitaet": 0.916,
-    "bewertung": 0.433,
-    "analysten": 0.717,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 534.97,
-    "struktur": 550.05
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-04",
-   "shares": 1.964347,
-   "entry_price": 510.3551,
-   "entry_date": "2026-09-04",
-   "entry_open": 510.1,
-   "days_held": 1,
-   "mfe_price": 510.82,
-   "mae_price": 499.38
   },
   {
    "symbol": "CBRE",
@@ -1313,12 +976,10 @@
    "entry_price": 145.8529,
    "entry_date": "2026-09-04",
    "entry_open": 145.78,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 147.835,
-   "mae_price": 145.78
-  }
- ],
- "pending": [
+   "mae_price": 142.21
+  },
   {
    "symbol": "AMP",
    "name": "Ameriprise Financial",
@@ -1347,7 +1008,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 1.793922,
+   "entry_price": 556.0329,
+   "entry_date": "2026-09-08",
+   "entry_open": 555.755,
+   "days_held": 1,
+   "mfe_price": 560.915,
+   "mae_price": 555.755
   },
   {
    "symbol": "APH",
@@ -1377,7 +1045,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 11.948705,
+   "entry_price": 83.4817,
+   "entry_date": "2026-09-08",
+   "entry_open": 83.44,
+   "days_held": 1,
+   "mfe_price": 83.905,
+   "mae_price": 81.575
   },
   {
    "symbol": "NVDA",
@@ -1408,7 +1083,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 4.274235,
+   "entry_price": 233.3266,
+   "entry_date": "2026-09-08",
+   "entry_open": 233.21,
+   "days_held": 1,
+   "mfe_price": 233.69,
+   "mae_price": 224.86
   },
   {
    "symbol": "WTW",
@@ -1438,7 +1120,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 3.015049,
+   "entry_price": 330.6652,
+   "entry_date": "2026-09-08",
+   "entry_open": 330.5,
+   "days_held": 1,
+   "mfe_price": 330.56,
+   "mae_price": 324.73
   },
   {
    "symbol": "TYL",
@@ -1468,7 +1157,14 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 2.813647,
+   "entry_price": 354.2771,
+   "entry_date": "2026-09-08",
+   "entry_open": 354.1,
+   "days_held": 1,
+   "mfe_price": 354.1,
+   "mae_price": 343.99
   },
   {
    "symbol": "BAC",
@@ -1498,9 +1194,17 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-08"
+   "order_date": "2026-09-08",
+   "shares": 15.930494,
+   "entry_price": 62.5613,
+   "entry_date": "2026-09-08",
+   "entry_open": 62.53,
+   "days_held": 1,
+   "mfe_price": 62.815,
+   "mae_price": 62.11
   }
  ],
+ "pending": [],
  "closed": [
   {
    "symbol": "BSX",
@@ -2515,6 +2219,487 @@
     "vix_level": null,
     "chg_21d": 0.002003538717735065
    }
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit",
+   "sector": "Technologie",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 354.237,
+   "exit_date": "2026-09-08",
+   "exit_price": 320.1498,
+   "exit_reason": "stop",
+   "shares": 2.817998,
+   "stop": 320.31,
+   "target": 380.09,
+   "pnl": -96.06,
+   "pnl_pct": -9.623,
+   "r_multiple": -1.005,
+   "days_held": 5,
+   "mfe_price": 363.7,
+   "mae_price": 313.095,
+   "mfe_r": 0.279,
+   "atr_at_entry": 15.129610651137396,
+   "ziel_atr": 2.27,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.4068,
+   "basis_erwartung_r": 0.1176,
+   "score": 0.7716,
+   "score_components": {
+    "trend": 0.744,
+    "setup": 0.964,
+    "volumen": 1.0,
+    "qualitaet": 0.762,
+    "bewertung": 0.868,
+    "analysten": 0.83,
+    "sentiment": 0.35
+   },
+   "target_methods": {
+    "atr": 377.85,
+    "struktur": 372.77
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "LLY",
+   "name": "Lilly (Eli)",
+   "sector": "Gesundheit",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 1185.4024,
+   "exit_date": "2026-09-08",
+   "exit_price": 1125.2771,
+   "exit_reason": "stop",
+   "shares": 0.841887,
+   "stop": 1125.84,
+   "target": 1275.8,
+   "pnl": -50.62,
+   "pnl_pct": -5.072,
+   "r_multiple": -1.009,
+   "days_held": 5,
+   "mfe_price": 1187.905,
+   "mae_price": 1114.935,
+   "mfe_r": 0.042,
+   "atr_at_entry": 39.692790157259154,
+   "ziel_atr": 2.18,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3985,
+   "basis_erwartung_r": 0.1175,
+   "score": 0.7597,
+   "score_components": {
+    "trend": 0.886,
+    "setup": 0.832,
+    "volumen": 0.904,
+    "qualitaet": 0.87,
+    "bewertung": 0.238,
+    "analysten": 0.62,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 1269.81,
+    "struktur": 1292.51
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "HAS",
+   "name": "Hasbro",
+   "sector": "Konsum zyklisch",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 93.5868,
+   "exit_date": "2026-09-08",
+   "exit_price": 90.3648,
+   "exit_reason": "stop",
+   "shares": 10.658344,
+   "stop": 90.41,
+   "target": 98.73,
+   "pnl": -34.34,
+   "pnl_pct": -3.443,
+   "r_multiple": -1.014,
+   "days_held": 5,
+   "mfe_price": 94.62,
+   "mae_price": 89.25,
+   "mfe_r": 0.325,
+   "atr_at_entry": 2.207115850006893,
+   "ziel_atr": 2.06,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.4198,
+   "basis_erwartung_r": 0.0683,
+   "score": 0.7166,
+   "score_components": {
+    "trend": 0.927,
+    "setup": 0.965,
+    "volumen": 0.261,
+    "qualitaet": 0.618,
+    "bewertung": 0.536,
+    "analysten": 0.711
+   },
+   "target_methods": {
+    "atr": 98.52,
+    "struktur": 98.14
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "A",
+   "name": "Agilent Technologies",
+   "sector": "Gesundheit",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 153.7668,
+   "exit_date": "2026-09-08",
+   "exit_price": 147.2164,
+   "exit_reason": "stop_luecke",
+   "shares": 6.484877,
+   "stop": 147.29,
+   "target": 162.01,
+   "pnl": -42.48,
+   "pnl_pct": -4.26,
+   "r_multiple": -1.011,
+   "days_held": 5,
+   "mfe_price": 153.86,
+   "mae_price": 145.97,
+   "mfe_r": 0.014,
+   "atr_at_entry": 4.066067819350313,
+   "ziel_atr": 2.02,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4251,
+   "basis_erwartung_r": 0.1141,
+   "score": 0.7619,
+   "score_components": {
+    "trend": 0.954,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.683,
+    "bewertung": 0.307,
+    "analysten": 0.492
+   },
+   "target_methods": {
+    "atr": 162.03,
+    "struktur": 163.23
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "SHEL",
+   "name": "Shell plc American Depositary Shares (Each represents two Ordinary shares)",
+   "sector": "Energie",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 92.7564,
+   "exit_date": "2026-09-08",
+   "exit_price": 94.7526,
+   "exit_reason": "ziel_luecke",
+   "shares": 10.745298,
+   "stop": 88.96,
+   "target": 94.66,
+   "pnl": 21.45,
+   "pnl_pct": 2.152,
+   "r_multiple": 0.526,
+   "days_held": 5,
+   "mfe_price": 95.805,
+   "mae_price": 92.18,
+   "mfe_r": 0.803,
+   "atr_at_entry": 1.3523592929171817,
+   "ziel_atr": 2.79,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.3365,
+   "basis_erwartung_r": 0.2684,
+   "score": 0.7385,
+   "score_components": {
+    "trend": 0.9,
+    "setup": 1.0,
+    "volumen": 0.613,
+    "qualitaet": 0.616,
+    "bewertung": 0.684,
+    "analysten": 0.504
+   },
+   "target_methods": {
+    "atr": 93.86,
+    "struktur": 94.69
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "ABNB",
+   "name": "Airbnb",
+   "sector": "Konsum zyklisch",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 181.2106,
+   "exit_date": "2026-09-08",
+   "exit_price": 173.7631,
+   "exit_reason": "stop",
+   "shares": 5.497837,
+   "stop": 173.85,
+   "target": 192.59,
+   "pnl": -40.95,
+   "pnl_pct": -4.11,
+   "r_multiple": -1.012,
+   "days_held": 5,
+   "mfe_price": 187.29,
+   "mae_price": 173.125,
+   "mfe_r": 0.826,
+   "atr_at_entry": 5.4455993602186785,
+   "ziel_atr": 1.73,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.482,
+   "basis_erwartung_r": 0.0598,
+   "score": 0.771,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.98,
+    "volumen": 1.0,
+    "qualitaet": 0.849,
+    "bewertung": 0.094,
+    "analysten": 0.399,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 193.88,
+    "struktur": 193.41
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "PAYX",
+   "name": "Paychex",
+   "sector": "Industrie",
+   "depot": "ki",
+   "entry_date": "2026-09-03",
+   "entry_price": 124.3972,
+   "exit_date": "2026-09-08",
+   "exit_price": 118.2708,
+   "exit_reason": "stop_luecke",
+   "shares": 8.070257,
+   "stop": 119.41,
+   "target": 128.87,
+   "pnl": -49.44,
+   "pnl_pct": -4.925,
+   "r_multiple": -1.228,
+   "days_held": 3,
+   "mfe_price": 126.23,
+   "mae_price": 116.53,
+   "mfe_r": 0.368,
+   "atr_at_entry": 2.82790302589618,
+   "ziel_atr": 1.72,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.4921,
+   "basis_erwartung_r": 0.0956,
+   "score": 0.7141,
+   "score_components": {
+    "trend": 0.964,
+    "setup": 0.897,
+    "volumen": 1.0,
+    "qualitaet": 0.729,
+    "bewertung": 0.41,
+    "analysten": 0.195
+   },
+   "target_methods": {
+    "atr": 129.95,
+    "struktur": 127.91
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "ACGL",
+   "name": "Arch Capital Group",
+   "sector": "Finanzen",
+   "depot": "ki",
+   "entry_date": "2026-09-04",
+   "entry_price": 99.5047,
+   "exit_date": "2026-09-08",
+   "exit_price": 96.7566,
+   "exit_reason": "stop_luecke",
+   "shares": 10.076423,
+   "stop": 97.09,
+   "target": 104.67,
+   "pnl": -27.69,
+   "pnl_pct": -2.762,
+   "r_multiple": -1.138,
+   "days_held": 2,
+   "mfe_price": 99.455,
+   "mae_price": 95.655,
+   "mfe_r": -0.021,
+   "atr_at_entry": 1.6994910143133315,
+   "ziel_atr": 2.85,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2947,
+   "basis_erwartung_r": 0.1425,
+   "score": 0.7521,
+   "score_components": {
+    "trend": 0.65,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.628,
+    "bewertung": 0.748,
+    "analysten": 0.602
+   },
+   "target_methods": {
+    "atr": 103.25,
+    "struktur": 105.01
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "sector": "Technologie",
+   "depot": "ki",
+   "entry_date": "2026-09-04",
+   "entry_price": 510.3551,
+   "exit_date": "2026-09-08",
+   "exit_price": 490.5146,
+   "exit_reason": "stop",
+   "shares": 1.964347,
+   "stop": 490.76,
+   "target": 542.44,
+   "pnl": -38.97,
+   "pnl_pct": -3.888,
+   "r_multiple": -1.013,
+   "days_held": 2,
+   "mfe_price": 510.82,
+   "mae_price": 490.16,
+   "mfe_r": 0.024,
+   "atr_at_entry": 11.679323506312503,
+   "ziel_atr": 2.77,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3389,
+   "basis_erwartung_r": 0.1562,
+   "score": 0.7472,
+   "score_components": {
+    "trend": 0.988,
+    "setup": 0.703,
+    "volumen": 0.584,
+    "qualitaet": 0.916,
+    "bewertung": 0.433,
+    "analysten": 0.717,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 534.97,
+    "struktur": 550.05
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 766.06,
+    "benchmark_sma200": 710.38,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07837872545125513,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.009183092762170886
+   }
   }
  ],
  "equity_curve": [
@@ -2597,6 +2782,14 @@
    "positions": 35,
    "invested_pct": 35.09,
    "return_pct": -0.249
+  },
+  {
+   "date": "2026-09-08",
+   "equity": 99673.23,
+   "cash": 67402.85,
+   "positions": 32,
+   "invested_pct": 32.38,
+   "return_pct": -0.327
   }
  ],
  "skipped": [

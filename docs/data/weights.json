@@ -1,6 +1,6 @@
 {
- "updated_at": null,
- "trades_seen": 19,
+ "updated_at": "2026-09-08T23:58:00+00:00",
+ "trades_seen": 28,
  "start": {
   "score_weights": {
    "trend": 0.2,
@@ -17,22 +17,53 @@
   }
  },
  "score_weights": {
-  "trend": 0.2,
-  "setup": 0.15,
-  "volumen": 0.1,
-  "qualitaet": 0.15,
-  "bewertung": 0.1,
-  "analysten": 0.15,
-  "sentiment": 0.15
+  "trend": 0.199,
+  "setup": 0.1524,
+  "volumen": 0.0974,
+  "qualitaet": 0.1509,
+  "bewertung": 0.0989,
+  "analysten": 0.152,
+  "sentiment": 0.1494
  },
  "target_method_weights": {
-  "atr": 1.0,
-  "struktur": 1.0
+  "atr": 0.9975,
+  "struktur": 1.0025
  },
  "sector_k_mult": {},
  "sector_multiplier": {},
  "regime_multiplier": {},
- "history": [],
+ "history": [
+  {
+   "date": "2026-09-08",
+   "trades_total": 28,
+   "window": 28,
+   "damping": 0.216,
+   "mean_r": -0.575,
+   "score_weights": {
+    "trend": 0.199,
+    "setup": 0.1524,
+    "volumen": 0.0974,
+    "qualitaet": 0.1509,
+    "bewertung": 0.0989,
+    "analysten": 0.152,
+    "sentiment": 0.1494
+   },
+   "target_method_weights": {
+    "atr": 0.9975,
+    "struktur": 1.0025
+   },
+   "changes": [
+    "Kursziel-Methode «ATR-Projektion» bestraft: Ziel in 21 % der 28 Trades erreichbar, gemessene Erwartung 41 % (t = -2.09, relativ -0.08) → Gewicht 1.000 auf 0.998",
+    "Kursziel-Methode «Struktur / gemessene Bewegung» belohnt: Ziel in 21 % der 28 Trades erreichbar, gemessene Erwartung 37 % (t = -1.70, relativ +0.08) → Gewicht 1.000 auf 1.002",
+    "Komponente «Trend & relative Stärke» bestraft: obere Hälfte -0.59 R gegen untere -0.56 R aus 28 Trades (t = -0.09) → Gewicht 0.200 auf 0.200",
+    "Komponente «Setup-Qualität» belohnt: obere Hälfte -0.38 R gegen untere -0.77 R aus 28 Trades (t = +1.21) → Gewicht 0.150 auf 0.153",
+    "Komponente «Volumenbestätigung» bestraft: obere Hälfte -0.80 R gegen untere -0.35 R aus 28 Trades (t = -1.36) → Gewicht 0.100 auf 0.098",
+    "Komponente «Fundamentale Qualität» belohnt: obere Hälfte -0.47 R gegen untere -0.68 R aus 28 Trades (t = +0.62) → Gewicht 0.150 auf 0.152",
+    "Komponente «Bewertung vs. Branche» bestraft: obere Hälfte -0.66 R gegen untere -0.49 R aus 28 Trades (t = -0.48) → Gewicht 0.100 auf 0.099",
+    "Komponente «Analysten-Rückenwind» belohnt: obere Hälfte -0.40 R gegen untere -0.75 R aus 28 Trades (t = +1.06) → Gewicht 0.150 auf 0.153"
+   ]
+  }
+ ],
  "regeln": {
   "min_trades": 20,
   "fenster": 100,
