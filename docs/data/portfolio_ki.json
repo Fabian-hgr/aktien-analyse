@@ -2,7 +2,7 @@
  "name": "ki",
  "label": "Depot KI",
  "start_capital": 100000.0,
- "cash": 67402.8452440536,
+ "cash": 68117.02487636732,
  "positions": [
   {
    "symbol": "TSM",
@@ -37,7 +37,7 @@
    "entry_price": 413.6667,
    "entry_date": "2026-08-24",
    "entry_open": 413.46,
-   "days_held": 7,
+   "days_held": 8,
    "mfe_price": 444.26,
    "mae_price": 405.22
   },
@@ -74,7 +74,7 @@
    "entry_price": 186.3331,
    "entry_date": "2026-08-24",
    "entry_open": 186.24,
-   "days_held": 7,
+   "days_held": 8,
    "mfe_price": 200.675,
    "mae_price": 181.44
   },
@@ -112,8 +112,8 @@
    "entry_price": 935.7276,
    "entry_date": "2026-08-24",
    "entry_open": 935.26,
-   "days_held": 7,
-   "mfe_price": 1040.79,
+   "days_held": 8,
+   "mfe_price": 1042.38,
    "mae_price": 888.0
   },
   {
@@ -149,7 +149,7 @@
    "entry_price": 219.4997,
    "entry_date": "2026-08-24",
    "entry_open": 219.39,
-   "days_held": 7,
+   "days_held": 8,
    "mfe_price": 221.37,
    "mae_price": 210.56
   },
@@ -186,7 +186,7 @@
    "entry_price": 14.4272,
    "entry_date": "2026-08-24",
    "entry_open": 14.42,
-   "days_held": 7,
+   "days_held": 8,
    "mfe_price": 15.84,
    "mae_price": 14.345
   },
@@ -224,83 +224,9 @@
    "entry_price": 1534.6169,
    "entry_date": "2026-08-25",
    "entry_open": 1533.85,
-   "days_held": 6,
-   "mfe_price": 1806.955,
+   "days_held": 7,
+   "mfe_price": 1807.01,
    "mae_price": 1468.09
-  },
-  {
-   "symbol": "CHTR",
-   "name": "Charter Communications",
-   "sector": "Kommunikation",
-   "score": 0.7176,
-   "target": 168.37,
-   "stop": 137.28,
-   "atr_at_entry": 7.329269759022344,
-   "ziel_atr": 2.47,
-   "stop_atr": 1.77,
-   "basis_p_ziel": 0.3339,
-   "basis_erwartung_r": 0.0392,
-   "score_components": {
-    "trend": 0.595,
-    "setup": 1.0,
-    "volumen": 0.989,
-    "qualitaet": 0.358,
-    "bewertung": 0.906,
-    "analysten": 0.651
-   },
-   "target_methods": {
-    "atr": 164.04,
-    "struktur": 167.75
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-25",
-   "shares": 6.771444,
-   "entry_price": 147.7138,
-   "entry_date": "2026-08-25",
-   "entry_open": 147.64,
-   "days_held": 6,
-   "mfe_price": 160.31,
-   "mae_price": 144.975
-  },
-  {
-   "symbol": "SE",
-   "name": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
-   "sector": "Konsum zyklisch",
-   "score": 0.7109,
-   "target": 126.98,
-   "stop": 108.16,
-   "atr_at_entry": 4.403991027444197,
-   "ziel_atr": 2.56,
-   "stop_atr": 1.71,
-   "basis_p_ziel": 0.3351,
-   "basis_erwartung_r": 0.0792,
-   "score_components": {
-    "trend": 0.93,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 0.593,
-    "bewertung": 0.293,
-    "analysten": 1.0
-   },
-   "target_methods": {
-    "atr": 124.34,
-    "struktur": 129.17
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-08-25",
-   "shares": 8.56222,
-   "entry_price": 116.8784,
-   "entry_date": "2026-08-25",
-   "entry_open": 116.82,
-   "days_held": 6,
-   "mfe_price": 123.73,
-   "mae_price": 110.31
   },
   {
    "symbol": "SCHW",
@@ -336,9 +262,9 @@
    "entry_price": 108.8544,
    "entry_date": "2026-09-01",
    "entry_open": 108.8,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 110.69,
-   "mae_price": 106.825
+   "mae_price": 106.24
   },
   {
    "symbol": "WDAY",
@@ -374,9 +300,9 @@
    "entry_price": 196.2081,
    "entry_date": "2026-09-01",
    "entry_open": 196.11,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 211.74,
-   "mae_price": 184.65
+   "mae_price": 183.55
   },
   {
    "symbol": "INCY",
@@ -411,7 +337,7 @@
    "entry_price": 125.1425,
    "entry_date": "2026-09-01",
    "entry_open": 125.08,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 129.4,
    "mae_price": 122.815
   },
@@ -449,7 +375,7 @@
    "entry_price": 43.4617,
    "entry_date": "2026-09-01",
    "entry_open": 43.44,
-   "days_held": 5,
+   "days_held": 6,
    "mfe_price": 45.81,
    "mae_price": 42.86
   },
@@ -487,47 +413,9 @@
    "entry_price": 196.4982,
    "entry_date": "2026-09-01",
    "entry_open": 196.4,
-   "days_held": 5,
-   "mfe_price": 207.68,
+   "days_held": 6,
+   "mfe_price": 208.415,
    "mae_price": 193.34
-  },
-  {
-   "symbol": "GPN",
-   "name": "Global Payments",
-   "sector": "Finanzen",
-   "score": 0.7421,
-   "target": 96.56,
-   "stop": 87.06,
-   "atr_at_entry": 2.466643378047249,
-   "ziel_atr": 2.24,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.394,
-   "basis_erwartung_r": 0.1227,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 0.992,
-    "volumen": 0.411,
-    "qualitaet": 0.371,
-    "bewertung": 1.0,
-    "analysten": 0.66,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 96.0,
-    "struktur": 95.86
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-01",
-   "shares": 11.021315,
-   "entry_price": 90.3752,
-   "entry_date": "2026-09-01",
-   "entry_open": 90.33,
-   "days_held": 5,
-   "mfe_price": 95.07,
-   "mae_price": 89.15
   },
   {
    "symbol": "ZBRA",
@@ -562,7 +450,7 @@
    "entry_price": 345.7028,
    "entry_date": "2026-09-02",
    "entry_open": 345.53,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 364.75,
    "mae_price": 343.16
   },
@@ -599,7 +487,7 @@
    "entry_price": 173.5267,
    "entry_date": "2026-09-02",
    "entry_open": 173.44,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 179.105,
    "mae_price": 171.83
   },
@@ -637,7 +525,7 @@
    "entry_price": 92.4362,
    "entry_date": "2026-09-02",
    "entry_open": 92.39,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 94.72,
    "mae_price": 90.97
   },
@@ -674,9 +562,9 @@
    "entry_price": 145.3726,
    "entry_date": "2026-09-02",
    "entry_open": 145.3,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 150.0,
-   "mae_price": 143.095
+   "mae_price": 141.68
   },
   {
    "symbol": "NEM",
@@ -712,7 +600,7 @@
    "entry_price": 125.3426,
    "entry_date": "2026-09-02",
    "entry_open": 125.28,
-   "days_held": 4,
+   "days_held": 5,
    "mfe_price": 130.66,
    "mae_price": 123.57
   },
@@ -749,9 +637,9 @@
    "entry_price": 178.2091,
    "entry_date": "2026-09-03",
    "entry_open": 178.12,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 181.34,
-   "mae_price": 176.45
+   "mae_price": 174.4
   },
   {
    "symbol": "WFC",
@@ -786,47 +674,9 @@
    "entry_price": 89.7348,
    "entry_date": "2026-09-03",
    "entry_open": 89.69,
-   "days_held": 3,
+   "days_held": 4,
    "mfe_price": 90.33,
-   "mae_price": 87.97
-  },
-  {
-   "symbol": "BLK",
-   "name": "BlackRock",
-   "sector": "Finanzen",
-   "score": 0.7385,
-   "target": 1162.34,
-   "stop": 1071.37,
-   "atr_at_entry": 22.231223069093385,
-   "ziel_atr": 2.48,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.3525,
-   "basis_erwartung_r": 0.1319,
-   "score_components": {
-    "trend": 0.933,
-    "setup": 0.627,
-    "volumen": 1.0,
-    "qualitaet": 0.793,
-    "bewertung": 0.372,
-    "analysten": 0.695,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 1151.93,
-    "struktur": 1174.94
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-03",
-   "shares": 0.900461,
-   "entry_price": 1114.0567,
-   "entry_date": "2026-09-03",
-   "entry_open": 1113.5,
-   "days_held": 3,
-   "mfe_price": 1132.24,
-   "mae_price": 1094.59
+   "mae_price": 87.225
   },
   {
    "symbol": "DELL",
@@ -862,8 +712,8 @@
    "entry_price": 484.8523,
    "entry_date": "2026-09-03",
    "entry_open": 484.61,
-   "days_held": 3,
-   "mfe_price": 537.885,
+   "days_held": 4,
+   "mfe_price": 562.41,
    "mae_price": 478.68
   },
   {
@@ -900,8 +750,8 @@
    "entry_price": 53.9269,
    "entry_date": "2026-09-04",
    "entry_open": 53.9,
-   "days_held": 2,
-   "mfe_price": 56.17,
+   "days_held": 3,
+   "mfe_price": 58.915,
    "mae_price": 51.5
   },
   {
@@ -938,47 +788,9 @@
    "entry_price": 48.3992,
    "entry_date": "2026-09-04",
    "entry_open": 48.375,
-   "days_held": 2,
-   "mfe_price": 49.03,
+   "days_held": 3,
+   "mfe_price": 49.38,
    "mae_price": 47.45
-  },
-  {
-   "symbol": "CBRE",
-   "name": "CBRE Group",
-   "sector": "Immobilien",
-   "score": 0.7433,
-   "target": 157.75,
-   "stop": 141.79,
-   "atr_at_entry": 4.275014108128408,
-   "ziel_atr": 2.09,
-   "stop_atr": 1.64,
-   "basis_p_ziel": 0.3857,
-   "basis_erwartung_r": 0.0682,
-   "score_components": {
-    "trend": 0.693,
-    "setup": 0.96,
-    "volumen": 0.598,
-    "qualitaet": 0.42,
-    "bewertung": 0.94,
-    "analysten": 0.725,
-    "sentiment": 0.9
-   },
-   "target_methods": {
-    "atr": 156.73,
-    "struktur": 156.32
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-04",
-   "shares": 6.868872,
-   "entry_price": 145.8529,
-   "entry_date": "2026-09-04",
-   "entry_open": 145.78,
-   "days_held": 2,
-   "mfe_price": 147.835,
-   "mae_price": 142.21
   },
   {
    "symbol": "AMP",
@@ -1013,9 +825,9 @@
    "entry_price": 556.0329,
    "entry_date": "2026-09-08",
    "entry_open": 555.755,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 560.915,
-   "mae_price": 555.755
+   "mae_price": 548.32
   },
   {
    "symbol": "APH",
@@ -1050,9 +862,9 @@
    "entry_price": 83.4817,
    "entry_date": "2026-09-08",
    "entry_open": 83.44,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 83.905,
-   "mae_price": 81.575
+   "mae_price": 80.88
   },
   {
    "symbol": "NVDA",
@@ -1088,83 +900,9 @@
    "entry_price": 233.3266,
    "entry_date": "2026-09-08",
    "entry_open": 233.21,
-   "days_held": 1,
+   "days_held": 2,
    "mfe_price": 233.69,
-   "mae_price": 224.86
-  },
-  {
-   "symbol": "WTW",
-   "name": "Willis Towers Watson",
-   "sector": "Finanzen",
-   "score": 0.7328,
-   "target": 350.29,
-   "stop": 323.49,
-   "atr_at_entry": 7.024855077556969,
-   "ziel_atr": 2.21,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.3956,
-   "basis_erwartung_r": 0.121,
-   "score_components": {
-    "trend": 0.955,
-    "setup": 0.966,
-    "volumen": 0.55,
-    "qualitaet": 0.578,
-    "bewertung": 0.515,
-    "analysten": 0.625
-   },
-   "target_methods": {
-    "atr": 348.7,
-    "struktur": 351.49
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-08",
-   "shares": 3.015049,
-   "entry_price": 330.6652,
-   "entry_date": "2026-09-08",
-   "entry_open": 330.5,
-   "days_held": 1,
-   "mfe_price": 330.56,
-   "mae_price": 324.73
-  },
-  {
-   "symbol": "TYL",
-   "name": "Tyler Technologies",
-   "sector": "Technologie",
-   "score": 0.728,
-   "target": 392.11,
-   "stop": 342.1,
-   "atr_at_entry": 13.024432317312352,
-   "ziel_atr": 2.16,
-   "stop_atr": 1.68,
-   "basis_p_ziel": 0.4205,
-   "basis_erwartung_r": 0.1098,
-   "score_components": {
-    "trend": 0.972,
-    "setup": 1.0,
-    "volumen": 0.636,
-    "qualitaet": 0.479,
-    "bewertung": 0.334,
-    "analysten": 0.704
-   },
-   "target_methods": {
-    "atr": 391.27,
-    "struktur": 393.47
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-08",
-   "shares": 2.813647,
-   "entry_price": 354.2771,
-   "entry_date": "2026-09-08",
-   "entry_open": 354.1,
-   "days_held": 1,
-   "mfe_price": 354.1,
-   "mae_price": 343.99
+   "mae_price": 223.46
   },
   {
    "symbol": "BAC",
@@ -1199,12 +937,10 @@
    "entry_price": 62.5613,
    "entry_date": "2026-09-08",
    "entry_open": 62.53,
-   "days_held": 1,
-   "mfe_price": 62.815,
-   "mae_price": 62.11
-  }
- ],
- "pending": [
+   "days_held": 2,
+   "mfe_price": 63.185,
+   "mae_price": 61.44
+  },
   {
    "symbol": "NBIS",
    "name": "Nebius Group N.V. Class A Ordinary Shares",
@@ -1234,7 +970,14 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-09"
+   "order_date": "2026-09-09",
+   "shares": 4.014934,
+   "entry_price": 247.7788,
+   "entry_date": "2026-09-09",
+   "entry_open": 247.655,
+   "days_held": 1,
+   "mfe_price": 250.21,
+   "mae_price": 240.22
   },
   {
    "symbol": "CPAY",
@@ -1264,7 +1007,14 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-09"
+   "order_date": "2026-09-09",
+   "shares": 2.46493,
+   "entry_price": 403.4666,
+   "entry_date": "2026-09-09",
+   "entry_open": 403.265,
+   "days_held": 1,
+   "mfe_price": 408.53,
+   "mae_price": 403.265
   },
   {
    "symbol": "MSFT",
@@ -1295,7 +1045,14 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-09"
+   "order_date": "2026-09-09",
+   "shares": 2.0182,
+   "entry_price": 492.8063,
+   "entry_date": "2026-09-09",
+   "entry_open": 492.56,
+   "days_held": 1,
+   "mfe_price": 494.22,
+   "mae_price": 489.8
   },
   {
    "symbol": "DXCM",
@@ -1325,7 +1082,14 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-09"
+   "order_date": "2026-09-09",
+   "shares": 11.862304,
+   "entry_price": 83.8419,
+   "entry_date": "2026-09-09",
+   "entry_open": 83.8,
+   "days_held": 1,
+   "mfe_price": 85.11,
+   "mae_price": 82.895
   },
   {
    "symbol": "REGN",
@@ -1355,7 +1119,14 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-09"
+   "order_date": "2026-09-09",
+   "shares": 1.240166,
+   "entry_price": 801.9608,
+   "entry_date": "2026-09-09",
+   "entry_open": 801.56,
+   "days_held": 1,
+   "mfe_price": 808.245,
+   "mae_price": 797.07
   },
   {
    "symbol": "META",
@@ -1386,9 +1157,17 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-09"
+   "order_date": "2026-09-09",
+   "shares": 1.533333,
+   "entry_price": 648.6742,
+   "entry_date": "2026-09-09",
+   "entry_open": 648.35,
+   "days_held": 1,
+   "mfe_price": 657.83,
+   "mae_price": 638.71
   }
  ],
+ "pending": [],
  "closed": [
   {
    "symbol": "BSX",
@@ -2884,6 +2663,380 @@
     "vix_level": null,
     "chg_21d": -0.009183092762170886
    }
+  },
+  {
+   "symbol": "CHTR",
+   "name": "Charter Communications",
+   "sector": "Kommunikation",
+   "depot": "ki",
+   "entry_date": "2026-08-25",
+   "entry_price": 147.7138,
+   "exit_date": "2026-09-09",
+   "exit_price": 137.2114,
+   "exit_reason": "stop",
+   "shares": 6.771444,
+   "stop": 137.28,
+   "target": 168.37,
+   "pnl": -71.12,
+   "pnl_pct": -7.11,
+   "r_multiple": -1.007,
+   "days_held": 7,
+   "mfe_price": 160.31,
+   "mae_price": 133.385,
+   "mfe_r": 1.207,
+   "atr_at_entry": 7.329269759022344,
+   "ziel_atr": 2.47,
+   "stop_atr": 1.77,
+   "basis_p_ziel": 0.3339,
+   "basis_erwartung_r": 0.0392,
+   "score": 0.7176,
+   "score_components": {
+    "trend": 0.595,
+    "setup": 1.0,
+    "volumen": 0.989,
+    "qualitaet": 0.358,
+    "bewertung": 0.906,
+    "analysten": 0.651
+   },
+   "target_methods": {
+    "atr": 164.04,
+    "struktur": 167.75
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 762.425,
+    "benchmark_sma200": 710.91,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07246746007057281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0137059843212336
+   }
+  },
+  {
+   "symbol": "SE",
+   "name": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
+   "sector": "Konsum zyklisch",
+   "depot": "ki",
+   "entry_date": "2026-08-25",
+   "entry_price": 116.8784,
+   "exit_date": "2026-09-09",
+   "exit_price": 108.1059,
+   "exit_reason": "stop",
+   "shares": 8.56222,
+   "stop": 108.16,
+   "target": 126.98,
+   "pnl": -75.11,
+   "pnl_pct": -7.506,
+   "r_multiple": -1.006,
+   "days_held": 7,
+   "mfe_price": 123.73,
+   "mae_price": 107.86,
+   "mfe_r": 0.786,
+   "atr_at_entry": 4.403991027444197,
+   "ziel_atr": 2.56,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3351,
+   "basis_erwartung_r": 0.0792,
+   "score": 0.7109,
+   "score_components": {
+    "trend": 0.93,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.593,
+    "bewertung": 0.293,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 124.34,
+    "struktur": 129.17
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 762.425,
+    "benchmark_sma200": 710.91,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07246746007057281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0137059843212336
+   }
+  },
+  {
+   "symbol": "GPN",
+   "name": "Global Payments",
+   "sector": "Finanzen",
+   "depot": "ki",
+   "entry_date": "2026-09-01",
+   "entry_price": 90.3752,
+   "exit_date": "2026-09-09",
+   "exit_price": 87.0165,
+   "exit_reason": "stop",
+   "shares": 11.021315,
+   "stop": 87.06,
+   "target": 96.56,
+   "pnl": -37.02,
+   "pnl_pct": -3.716,
+   "r_multiple": -1.013,
+   "days_held": 6,
+   "mfe_price": 95.07,
+   "mae_price": 87.05,
+   "mfe_r": 1.416,
+   "atr_at_entry": 2.466643378047249,
+   "ziel_atr": 2.24,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.394,
+   "basis_erwartung_r": 0.1227,
+   "score": 0.7421,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.992,
+    "volumen": 0.411,
+    "qualitaet": 0.371,
+    "bewertung": 1.0,
+    "analysten": 0.66,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 96.0,
+    "struktur": 95.86
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 762.425,
+    "benchmark_sma200": 710.91,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07246746007057281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0137059843212336
+   }
+  },
+  {
+   "symbol": "BLK",
+   "name": "BlackRock",
+   "sector": "Finanzen",
+   "depot": "ki",
+   "entry_date": "2026-09-03",
+   "entry_price": 1114.0567,
+   "exit_date": "2026-09-09",
+   "exit_price": 1070.8343,
+   "exit_reason": "stop",
+   "shares": 0.900461,
+   "stop": 1071.37,
+   "target": 1162.34,
+   "pnl": -38.92,
+   "pnl_pct": -3.88,
+   "r_multiple": -1.013,
+   "days_held": 4,
+   "mfe_price": 1132.24,
+   "mae_price": 1071.195,
+   "mfe_r": 0.426,
+   "atr_at_entry": 22.231223069093385,
+   "ziel_atr": 2.48,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3525,
+   "basis_erwartung_r": 0.1319,
+   "score": 0.7385,
+   "score_components": {
+    "trend": 0.933,
+    "setup": 0.627,
+    "volumen": 1.0,
+    "qualitaet": 0.793,
+    "bewertung": 0.372,
+    "analysten": 0.695,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 1151.93,
+    "struktur": 1174.94
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 762.425,
+    "benchmark_sma200": 710.91,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07246746007057281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0137059843212336
+   }
+  },
+  {
+   "symbol": "CBRE",
+   "name": "CBRE Group",
+   "sector": "Immobilien",
+   "depot": "ki",
+   "entry_date": "2026-09-04",
+   "entry_price": 145.8529,
+   "exit_date": "2026-09-09",
+   "exit_price": 141.5692,
+   "exit_reason": "stop_luecke",
+   "shares": 6.868872,
+   "stop": 141.79,
+   "target": 157.75,
+   "pnl": -29.42,
+   "pnl_pct": -2.937,
+   "r_multiple": -1.054,
+   "days_held": 3,
+   "mfe_price": 147.835,
+   "mae_price": 139.72,
+   "mfe_r": 0.488,
+   "atr_at_entry": 4.275014108128408,
+   "ziel_atr": 2.09,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3857,
+   "basis_erwartung_r": 0.0682,
+   "score": 0.7433,
+   "score_components": {
+    "trend": 0.693,
+    "setup": 0.96,
+    "volumen": 0.598,
+    "qualitaet": 0.42,
+    "bewertung": 0.94,
+    "analysten": 0.725,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 156.73,
+    "struktur": 156.32
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 762.425,
+    "benchmark_sma200": 710.91,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07246746007057281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0137059843212336
+   }
+  },
+  {
+   "symbol": "WTW",
+   "name": "Willis Towers Watson",
+   "sector": "Finanzen",
+   "depot": "ki",
+   "entry_date": "2026-09-08",
+   "entry_price": 330.6652,
+   "exit_date": "2026-09-09",
+   "exit_price": 321.4992,
+   "exit_reason": "stop_luecke",
+   "shares": 3.015049,
+   "stop": 323.49,
+   "target": 350.29,
+   "pnl": -27.64,
+   "pnl_pct": -2.772,
+   "r_multiple": -1.277,
+   "days_held": 2,
+   "mfe_price": 330.56,
+   "mae_price": 312.8,
+   "mfe_r": -0.015,
+   "atr_at_entry": 7.024855077556969,
+   "ziel_atr": 2.21,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3956,
+   "basis_erwartung_r": 0.121,
+   "score": 0.7328,
+   "score_components": {
+    "trend": 0.955,
+    "setup": 0.966,
+    "volumen": 0.55,
+    "qualitaet": 0.578,
+    "bewertung": 0.515,
+    "analysten": 0.625
+   },
+   "target_methods": {
+    "atr": 348.7,
+    "struktur": 351.49
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 762.425,
+    "benchmark_sma200": 710.91,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07246746007057281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0137059843212336
+   }
+  },
+  {
+   "symbol": "TYL",
+   "name": "Tyler Technologies",
+   "sector": "Technologie",
+   "depot": "ki",
+   "entry_date": "2026-09-08",
+   "entry_price": 354.2771,
+   "exit_date": "2026-09-09",
+   "exit_price": 341.929,
+   "exit_reason": "stop",
+   "shares": 2.813647,
+   "stop": 342.1,
+   "target": 392.11,
+   "pnl": -34.74,
+   "pnl_pct": -3.485,
+   "r_multiple": -1.014,
+   "days_held": 2,
+   "mfe_price": 354.1,
+   "mae_price": 336.7,
+   "mfe_r": -0.015,
+   "atr_at_entry": 13.024432317312352,
+   "ziel_atr": 2.16,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.4205,
+   "basis_erwartung_r": 0.1098,
+   "score": 0.728,
+   "score_components": {
+    "trend": 0.972,
+    "setup": 1.0,
+    "volumen": 0.636,
+    "qualitaet": 0.479,
+    "bewertung": 0.334,
+    "analysten": 0.704
+   },
+   "target_methods": {
+    "atr": 391.27,
+    "struktur": 393.47
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 762.425,
+    "benchmark_sma200": 710.91,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.07246746007057281,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.0137059843212336
+   }
   }
  ],
  "equity_curve": [
@@ -2974,6 +3127,14 @@
    "positions": 32,
    "invested_pct": 32.38,
    "return_pct": -0.327
+  },
+  {
+   "date": "2026-09-09",
+   "equity": 99518.89,
+   "cash": 68117.02,
+   "positions": 31,
+   "invested_pct": 31.55,
+   "return_pct": -0.481
   }
  ],
  "skipped": [
