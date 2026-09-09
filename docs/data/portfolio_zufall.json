@@ -1560,7 +1560,188 @@
    "mae_price": 53.035
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "CDNS",
+   "name": "Cadence Design Systems",
+   "sector": "Technologie",
+   "score": 0.5466,
+   "target": 316.94,
+   "stop": 264.05,
+   "atr_at_entry": 11.962657000417732,
+   "ziel_atr": 2.75,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3383,
+   "basis_erwartung_r": 0.1441,
+   "score_components": {
+    "trend": 0.106,
+    "setup": 0.389,
+    "volumen": 1.0,
+    "qualitaet": 0.878,
+    "bewertung": 0.028,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 309.21,
+    "struktur": 324.64
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  },
+  {
+   "symbol": "DG",
+   "name": "Dollar General",
+   "sector": "Konsum defensiv",
+   "score": 0.6016,
+   "target": 134.96,
+   "stop": 121.23,
+   "atr_at_entry": 3.9700935594721183,
+   "ziel_atr": 1.76,
+   "stop_atr": 1.7,
+   "basis_p_ziel": 0.4723,
+   "basis_erwartung_r": 0.064,
+   "score_components": {
+    "trend": 0.879,
+    "setup": 0.912,
+    "volumen": 0.133,
+    "qualitaet": 0.343,
+    "bewertung": 0.442,
+    "analysten": 0.587
+   },
+   "target_methods": {
+    "atr": 135.79,
+    "struktur": 133.82
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  },
+  {
+   "symbol": "WTW",
+   "name": "Willis Towers Watson",
+   "sector": "Finanzen",
+   "score": 0.6282,
+   "target": 344.0,
+   "stop": 313.71,
+   "atr_at_entry": 7.238794000440813,
+   "ziel_atr": 2.58,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3335,
+   "basis_erwartung_r": 0.1336,
+   "score_components": {
+    "trend": 0.948,
+    "setup": 0.666,
+    "volumen": 0.033,
+    "qualitaet": 0.578,
+    "bewertung": 0.515,
+    "analysten": 0.677
+   },
+   "target_methods": {
+    "atr": 339.69,
+    "struktur": 347.17
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  },
+  {
+   "symbol": "EOG",
+   "name": "EOG Resources",
+   "sector": "Energie",
+   "score": 0.7056,
+   "target": 154.01,
+   "stop": 140.69,
+   "atr_at_entry": 3.286739246721358,
+   "ziel_atr": 2.62,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.3606,
+   "basis_erwartung_r": 0.2559,
+   "score_components": {
+    "trend": 0.766,
+    "setup": 0.989,
+    "volumen": 0.0,
+    "qualitaet": 0.904,
+    "bewertung": 0.685,
+    "analysten": 0.611
+   },
+   "target_methods": {
+    "atr": 152.63,
+    "struktur": 153.54
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  },
+  {
+   "symbol": "NEM",
+   "name": "Newmont",
+   "sector": "Grundstoffe",
+   "score": 0.7172,
+   "target": 136.24,
+   "stop": 119.9,
+   "atr_at_entry": 4.357904235198425,
+   "ziel_atr": 2.11,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.4256,
+   "basis_erwartung_r": 0.1147,
+   "score_components": {
+    "trend": 0.975,
+    "setup": 0.97,
+    "volumen": 0.204,
+    "qualitaet": 0.864,
+    "bewertung": 0.427,
+    "analysten": 0.498
+   },
+   "target_methods": {
+    "atr": 136.07,
+    "struktur": 134.99
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  },
+  {
+   "symbol": "J",
+   "name": "Jacobs Solutions",
+   "sector": "Industrie",
+   "score": 0.716,
+   "target": 152.32,
+   "stop": 139.52,
+   "atr_at_entry": 2.9219989008798954,
+   "ziel_atr": 2.75,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.3236,
+   "basis_erwartung_r": 0.141,
+   "score_components": {
+    "trend": 0.991,
+    "setup": 0.81,
+    "volumen": 0.611,
+    "qualitaet": 0.409,
+    "bewertung": 0.794,
+    "analysten": 0.584
+   },
+   "target_methods": {
+    "atr": 150.36,
+    "struktur": 153.0
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  }
+ ],
  "closed": [
   {
    "symbol": "TRGP",

@@ -1,27 +1,10 @@
 {
- "letzter_lauf": "2026-09-08T23:58:00+00:00",
- "lauf": "abrechnung",
+ "letzter_lauf": "2026-09-09T16:54:18+00:00",
+ "lauf": "vorboerse",
  "ergebnis": "fertig",
- "tag": "2026-09-08",
- "gefuellt": {
-  "ki": 6,
-  "zufall": 6
- },
- "geschlossen": {
-  "ki": 9,
-  "zufall": 5
- },
- "lernschritte": [
-  "Kursziel-Methode \u00abATR-Projektion\u00bb bestraft: Ziel in 21 % der 28 Trades erreichbar, gemessene Erwartung 41 % (t = -2.09, relativ -0.08) \u2192 Gewicht 1.000 auf 0.998",
-  "Kursziel-Methode \u00abStruktur / gemessene Bewegung\u00bb belohnt: Ziel in 21 % der 28 Trades erreichbar, gemessene Erwartung 37 % (t = -1.70, relativ +0.08) \u2192 Gewicht 1.000 auf 1.002",
-  "Komponente \u00abTrend & relative St\u00e4rke\u00bb bestraft: obere H\u00e4lfte -0.59 R gegen untere -0.56 R aus 28 Trades (t = -0.09) \u2192 Gewicht 0.200 auf 0.200",
-  "Komponente \u00abSetup-Qualit\u00e4t\u00bb belohnt: obere H\u00e4lfte -0.38 R gegen untere -0.77 R aus 28 Trades (t = +1.21) \u2192 Gewicht 0.150 auf 0.153",
-  "Komponente \u00abVolumenbest\u00e4tigung\u00bb bestraft: obere H\u00e4lfte -0.80 R gegen untere -0.35 R aus 28 Trades (t = -1.36) \u2192 Gewicht 0.100 auf 0.098",
-  "Komponente \u00abFundamentale Qualit\u00e4t\u00bb belohnt: obere H\u00e4lfte -0.47 R gegen untere -0.68 R aus 28 Trades (t = +0.62) \u2192 Gewicht 0.150 auf 0.152",
-  "Komponente \u00abBewertung vs. Branche\u00bb bestraft: obere H\u00e4lfte -0.66 R gegen untere -0.49 R aus 28 Trades (t = -0.48) \u2192 Gewicht 0.100 auf 0.099",
-  "Komponente \u00abAnalysten-R\u00fcckenwind\u00bb belohnt: obere H\u00e4lfte -0.40 R gegen untere -0.75 R aus 28 Trades (t = +1.06) \u2192 Gewicht 0.150 auf 0.153"
- ],
- "sekunden": 0.7,
+ "handelbare_ideen": 518,
+ "sprachmodell": true,
+ "sekunden": 579.0,
  "steuerung": {
   "paused": false,
   "changed_at": null,

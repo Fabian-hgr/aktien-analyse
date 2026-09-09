@@ -1204,7 +1204,191 @@
    "mae_price": 62.11
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V. Class A Ordinary Shares",
+   "sector": "Kommunikation",
+   "score": 0.8042,
+   "target": 292.24,
+   "stop": 210.81,
+   "atr_at_entry": 18.95722533564362,
+   "ziel_atr": 2.56,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.3261,
+   "basis_erwartung_r": 0.0593,
+   "score_components": {
+    "trend": 0.83,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.409,
+    "bewertung": 1.0,
+    "analysten": 0.669,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 279.86,
+    "struktur": 299.72
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  },
+  {
+   "symbol": "CPAY",
+   "name": "Corpay",
+   "sector": "Finanzen",
+   "score": 0.7814,
+   "target": 426.14,
+   "stop": 392.52,
+   "atr_at_entry": 8.946850132541558,
+   "ziel_atr": 2.15,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4057,
+   "basis_erwartung_r": 0.1189,
+   "score_components": {
+    "trend": 0.968,
+    "setup": 1.0,
+    "volumen": 0.537,
+    "qualitaet": 0.736,
+    "bewertung": 0.667,
+    "analysten": 0.594
+   },
+   "target_methods": {
+    "atr": 424.63,
+    "struktur": 425.88
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "sector": "Technologie",
+   "score": 0.7525,
+   "target": 518.33,
+   "stop": 474.65,
+   "atr_at_entry": 11.499569754421064,
+   "ziel_atr": 2.12,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.4267,
+   "basis_erwartung_r": 0.1074,
+   "score_components": {
+    "trend": 0.984,
+    "setup": 1.0,
+    "volumen": 0.086,
+    "qualitaet": 0.916,
+    "bewertung": 0.433,
+    "analysten": 0.775,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 518.06,
+    "struktur": 517.75
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  },
+  {
+   "symbol": "DXCM",
+   "name": "Dexcom",
+   "sector": "Gesundheit",
+   "score": 0.7349,
+   "target": 90.38,
+   "stop": 80.63,
+   "atr_at_entry": 2.4360926295776935,
+   "ziel_atr": 2.42,
+   "stop_atr": 1.58,
+   "basis_p_ziel": 0.3552,
+   "basis_erwartung_r": 0.1278,
+   "score_components": {
+    "trend": 0.903,
+    "setup": 0.642,
+    "volumen": 1.0,
+    "qualitaet": 0.8,
+    "bewertung": 0.222,
+    "analysten": 0.708
+   },
+   "target_methods": {
+    "atr": 89.41,
+    "struktur": 92.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  },
+  {
+   "symbol": "REGN",
+   "name": "Regeneron Pharmaceuticals",
+   "sector": "Gesundheit",
+   "score": 0.7271,
+   "target": 858.12,
+   "stop": 779.34,
+   "atr_at_entry": 19.57825070475812,
+   "ziel_atr": 2.44,
+   "stop_atr": 1.58,
+   "basis_p_ziel": 0.3519,
+   "basis_erwartung_r": 0.1284,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.051,
+    "qualitaet": 0.764,
+    "bewertung": 0.697,
+    "analysten": 0.512
+   },
+   "target_methods": {
+    "atr": 849.94,
+    "struktur": 858.17
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "sector": "Kommunikation",
+   "score": 0.7257,
+   "target": 662.41,
+   "stop": 579.47,
+   "atr_at_entry": 19.477307689916056,
+   "ziel_atr": 2.52,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.3311,
+   "basis_erwartung_r": 0.0585,
+   "score_components": {
+    "trend": 0.376,
+    "setup": 1.0,
+    "volumen": 0.646,
+    "qualitaet": 0.964,
+    "bewertung": 0.581,
+    "analysten": 0.891,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 650.41,
+    "struktur": 671.91
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-09"
+  }
+ ],
  "closed": [
   {
    "symbol": "BSX",
