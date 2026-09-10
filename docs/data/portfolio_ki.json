@@ -1167,7 +1167,190 @@
    "mae_price": 638.71
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "T",
+   "name": "AT&T",
+   "sector": "Kommunikation",
+   "score": 0.7931,
+   "target": 26.46,
+   "stop": 24.22,
+   "atr_at_entry": 0.5353813204288852,
+   "ziel_atr": 2.44,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.3448,
+   "basis_erwartung_r": 0.0572,
+   "score_components": {
+    "trend": 0.957,
+    "setup": 0.948,
+    "volumen": 1.0,
+    "qualitaet": 0.494,
+    "bewertung": 0.689,
+    "analysten": 0.662
+   },
+   "target_methods": {
+    "atr": 26.17,
+    "struktur": 26.44
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  },
+  {
+   "symbol": "CRM",
+   "name": "Salesforce",
+   "sector": "Technologie",
+   "score": 0.7718,
+   "target": 269.4,
+   "stop": 226.89,
+   "atr_at_entry": 10.353150496939566,
+   "ziel_atr": 2.43,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3799,
+   "basis_erwartung_r": 0.1256,
+   "score_components": {
+    "trend": 0.984,
+    "setup": 1.0,
+    "volumen": 0.524,
+    "qualitaet": 0.651,
+    "bewertung": 0.687,
+    "analysten": 0.616,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 265.97,
+    "struktur": 268.13
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  },
+  {
+   "symbol": "SOLV",
+   "name": "Solventum",
+   "sector": "Gesundheit",
+   "score": 0.7372,
+   "target": 94.49,
+   "stop": 86.93,
+   "atr_at_entry": 1.9633189182877202,
+   "ziel_atr": 2.26,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3824,
+   "basis_erwartung_r": 0.1228,
+   "score_components": {
+    "trend": 0.929,
+    "setup": 1.0,
+    "volumen": 0.582,
+    "qualitaet": 0.629,
+    "bewertung": 0.722,
+    "analysten": 0.439
+   },
+   "target_methods": {
+    "atr": 94.01,
+    "struktur": 94.13
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  },
+  {
+   "symbol": "STX",
+   "name": "Seagate Technology",
+   "sector": "Technologie",
+   "score": 0.7322,
+   "target": 1054.17,
+   "stop": 795.09,
+   "atr_at_entry": 54.04405185743207,
+   "ziel_atr": 3.12,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.2929,
+   "basis_erwartung_r": 0.1646,
+   "score_components": {
+    "trend": 0.776,
+    "setup": 1.0,
+    "volumen": 0.339,
+    "qualitaet": 0.856,
+    "bewertung": 0.834,
+    "analysten": 0.914,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 999.11,
+    "struktur": 1068.83
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  },
+  {
+   "symbol": "CF",
+   "name": "CF Industries",
+   "sector": "Grundstoffe",
+   "score": 0.7241,
+   "target": 151.76,
+   "stop": 129.87,
+   "atr_at_entry": 5.01178371202339,
+   "ziel_atr": 2.73,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3332,
+   "basis_erwartung_r": 0.1458,
+   "score_components": {
+    "trend": 0.914,
+    "setup": 0.716,
+    "volumen": 0.783,
+    "qualitaet": 0.905,
+    "bewertung": 0.796,
+    "analysten": 0.229
+   },
+   "target_methods": {
+    "atr": 148.46,
+    "struktur": 154.45
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple Inc.",
+   "sector": "Technologie",
+   "score": 0.719,
+   "target": 334.53,
+   "stop": 302.72,
+   "atr_at_entry": 7.575564872226613,
+   "ziel_atr": 2.52,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3664,
+   "basis_erwartung_r": 0.131,
+   "score_components": {
+    "trend": 0.819,
+    "setup": 0.949,
+    "volumen": 1.0,
+    "qualitaet": 0.866,
+    "bewertung": 0.0,
+    "analysten": 0.499
+   },
+   "target_methods": {
+    "atr": 331.32,
+    "struktur": 341.09
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  }
+ ],
  "closed": [
   {
    "symbol": "BSX",

@@ -1559,7 +1559,188 @@
    "mae_price": 141.68
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "TPL",
+   "name": "Texas Pacific Land Corporation",
+   "sector": "Energie",
+   "score": 0.5258,
+   "target": 413.85,
+   "stop": 353.57,
+   "atr_at_entry": 13.658827790619322,
+   "ziel_atr": 2.98,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.3041,
+   "basis_erwartung_r": 0.2671,
+   "score_components": {
+    "trend": 0.108,
+    "setup": 1.0,
+    "volumen": 0.466,
+    "qualitaet": 0.999,
+    "bewertung": 0.0,
+    "analysten": 0.488
+   },
+   "target_methods": {
+    "atr": 403.21,
+    "struktur": 417.74
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  },
+  {
+   "symbol": "GE",
+   "name": "GE Aerospace",
+   "sector": "Industrie",
+   "score": 0.5641,
+   "target": 347.84,
+   "stop": 311.31,
+   "atr_at_entry": 8.625628844711432,
+   "ziel_atr": 2.6,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.3446,
+   "basis_erwartung_r": 0.1349,
+   "score_components": {
+    "trend": 0.36,
+    "setup": 0.508,
+    "volumen": 0.777,
+    "qualitaet": 0.79,
+    "bewertung": 0.0,
+    "analysten": 0.885
+   },
+   "target_methods": {
+    "atr": 343.29,
+    "struktur": 353.12
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  },
+  {
+   "symbol": "PPL",
+   "name": "PPL Corporation",
+   "sector": "Versorger",
+   "score": 0.4206,
+   "target": 35.77,
+   "stop": 33.36,
+   "atr_at_entry": 0.5847618355996048,
+   "ziel_atr": 2.56,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3106,
+   "basis_erwartung_r": 0.0983,
+   "score_components": {
+    "trend": 0.095,
+    "setup": 0.743,
+    "volumen": 0.062,
+    "qualitaet": 0.366,
+    "bewertung": 0.584,
+    "analysten": 0.684
+   },
+   "target_methods": {
+    "atr": 35.39,
+    "struktur": 35.94
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  },
+  {
+   "symbol": "TMUS",
+   "name": "T-Mobile US",
+   "sector": "Kommunikation",
+   "score": 0.5751,
+   "target": 190.19,
+   "stop": 169.43,
+   "atr_at_entry": 4.531718405851476,
+   "ziel_atr": 2.84,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.2882,
+   "basis_erwartung_r": 0.0653,
+   "score_components": {
+    "trend": 0.307,
+    "setup": 0.728,
+    "volumen": 0.264,
+    "qualitaet": 0.404,
+    "bewertung": 0.788,
+    "analysten": 0.99
+   },
+   "target_methods": {
+    "atr": 185.94,
+    "struktur": 190.94
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  },
+  {
+   "symbol": "HAS",
+   "name": "Hasbro",
+   "sector": "Konsum zyklisch",
+   "score": 0.6667,
+   "target": 94.66,
+   "stop": 85.49,
+   "atr_at_entry": 2.010736238400505,
+   "ziel_atr": 2.84,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.2943,
+   "basis_erwartung_r": 0.0833,
+   "score_components": {
+    "trend": 0.633,
+    "setup": 0.546,
+    "volumen": 0.863,
+    "qualitaet": 0.618,
+    "bewertung": 0.57,
+    "analysten": 0.819
+   },
+   "target_methods": {
+    "atr": 92.85,
+    "struktur": 95.06
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple Inc.",
+   "sector": "Technologie",
+   "score": 0.719,
+   "target": 334.53,
+   "stop": 302.72,
+   "atr_at_entry": 7.575564872226613,
+   "ziel_atr": 2.52,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3664,
+   "basis_erwartung_r": 0.131,
+   "score_components": {
+    "trend": 0.819,
+    "setup": 0.949,
+    "volumen": 1.0,
+    "qualitaet": 0.866,
+    "bewertung": 0.0,
+    "analysten": 0.499
+   },
+   "target_methods": {
+    "atr": 331.32,
+    "struktur": 341.09
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-10"
+  }
+ ],
  "closed": [
   {
    "symbol": "TRGP",
