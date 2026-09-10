@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-09T23:58:15+00:00",
+ "updated_at": "2026-09-10T23:54:04+00:00",
  "ki": [
   {
    "symbol": "BSX",
@@ -1869,6 +1869,220 @@
     "vix_level": null,
     "chg_21d": -0.0137059843212336
    }
+  },
+  {
+   "symbol": "COF",
+   "name": "Capital One",
+   "sector": "Finanzen",
+   "depot": "ki",
+   "entry_date": "2026-08-24",
+   "entry_price": 219.4997,
+   "exit_date": "2026-09-10",
+   "exit_price": 207.7661,
+   "exit_reason": "stop_luecke",
+   "shares": 4.554668,
+   "stop": 209.94,
+   "target": 229.08,
+   "pnl": -53.44,
+   "pnl_pct": -5.346,
+   "r_multiple": -1.227,
+   "days_held": 9,
+   "mfe_price": 221.37,
+   "mae_price": 205.53,
+   "mfe_r": 0.196,
+   "atr_at_entry": 4.990141892051115,
+   "ziel_atr": 2.23,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3966,
+   "basis_erwartung_r": 0.1249,
+   "score": 0.7537,
+   "score_components": {
+    "trend": 0.903,
+    "setup": 0.979,
+    "volumen": 0.14,
+    "qualitaet": 0.691,
+    "bewertung": 0.877,
+    "analysten": 0.719
+   },
+   "target_methods": {
+    "atr": 228.03,
+    "struktur": 227.32
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 757.87,
+    "benchmark_sma200": 711.46,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.06522973729220038,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.016417484296319285
+   }
+  },
+  {
+   "symbol": "J",
+   "name": "Jacobs Solutions",
+   "sector": "Industrie",
+   "depot": "ki",
+   "entry_date": "2026-09-02",
+   "entry_price": 145.3726,
+   "exit_date": "2026-09-10",
+   "exit_price": 140.7496,
+   "exit_reason": "stop_luecke",
+   "shares": 6.883417,
+   "stop": 141.56,
+   "target": 153.3,
+   "pnl": -31.82,
+   "pnl_pct": -3.18,
+   "r_multiple": -1.213,
+   "days_held": 6,
+   "mfe_price": 150.0,
+   "mae_price": 140.26,
+   "mfe_r": 1.214,
+   "atr_at_entry": 2.948198937336739,
+   "ziel_atr": 2.36,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3836,
+   "basis_erwartung_r": 0.1311,
+   "score": 0.7623,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.739,
+    "qualitaet": 0.409,
+    "bewertung": 0.789,
+    "analysten": 0.559
+   },
+   "target_methods": {
+    "atr": 152.55,
+    "struktur": 153.0
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 757.87,
+    "benchmark_sma200": 711.46,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.06522973729220038,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.016417484296319285
+   }
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "sector": "Technologie",
+   "depot": "ki",
+   "entry_date": "2026-09-08",
+   "entry_price": 233.3266,
+   "exit_date": "2026-09-10",
+   "exit_price": 217.7911,
+   "exit_reason": "stop",
+   "shares": 4.274235,
+   "stop": 217.9,
+   "target": 253.74,
+   "pnl": -66.4,
+   "pnl_pct": -6.658,
+   "r_multiple": -1.007,
+   "days_held": 3,
+   "mfe_price": 233.69,
+   "mae_price": 217.21,
+   "mfe_r": 0.024,
+   "atr_at_entry": 7.330374267243839,
+   "ziel_atr": 3.21,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.2822,
+   "basis_erwartung_r": 0.1689,
+   "score": 0.738,
+   "score_components": {
+    "trend": 0.864,
+    "setup": 0.767,
+    "volumen": 0.22,
+    "qualitaet": 0.986,
+    "bewertung": 0.828,
+    "analysten": 1.0,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 245.58,
+    "struktur": 255.03
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 757.87,
+    "benchmark_sma200": 711.46,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.06522973729220038,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.016417484296319285
+   }
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "sector": "Kommunikation",
+   "depot": "ki",
+   "entry_date": "2026-09-09",
+   "entry_price": 648.6742,
+   "exit_date": "2026-09-10",
+   "exit_price": 662.0788,
+   "exit_reason": "ziel",
+   "shares": 1.533333,
+   "stop": 579.47,
+   "target": 662.41,
+   "pnl": 20.55,
+   "pnl_pct": 2.066,
+   "r_multiple": 0.194,
+   "days_held": 2,
+   "mfe_price": 663.095,
+   "mae_price": 638.71,
+   "mfe_r": 0.208,
+   "atr_at_entry": 19.477307689916056,
+   "ziel_atr": 2.52,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.3311,
+   "basis_erwartung_r": 0.0585,
+   "score": 0.7257,
+   "score_components": {
+    "trend": 0.376,
+    "setup": 1.0,
+    "volumen": 0.646,
+    "qualitaet": 0.964,
+    "bewertung": 0.581,
+    "analysten": 0.891,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 650.41,
+    "struktur": 671.91
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 757.87,
+    "benchmark_sma200": 711.46,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.06522973729220038,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.016417484296319285
+   }
   }
  ],
  "zufall": [
@@ -3144,58 +3358,376 @@
     "vix_level": null,
     "chg_21d": -0.0137059843212336
    }
+  },
+  {
+   "symbol": "KKR",
+   "name": "KKR & Co.",
+   "sector": "Finanzen",
+   "depot": "zufall",
+   "entry_date": "2026-08-24",
+   "entry_price": 108.144,
+   "exit_date": "2026-09-10",
+   "exit_price": 102.3388,
+   "exit_reason": "stop",
+   "shares": 9.246106,
+   "stop": 102.39,
+   "target": 116.38,
+   "pnl": -53.68,
+   "pnl_pct": -5.368,
+   "r_multiple": -1.009,
+   "days_held": 9,
+   "mfe_price": 110.48,
+   "mae_price": 99.795,
+   "mfe_r": 0.406,
+   "atr_at_entry": 3.7863496456386643,
+   "ziel_atr": 2.09,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4208,
+   "basis_erwartung_r": 0.1198,
+   "score": 0.6514,
+   "score_components": {
+    "trend": 0.887,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.42,
+    "bewertung": 0.611,
+    "analysten": 0.681
+   },
+   "target_methods": {
+    "atr": 116.11,
+    "struktur": 116.5
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 757.87,
+    "benchmark_sma200": 711.46,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.06522973729220038,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.016417484296319285
+   }
+  },
+  {
+   "symbol": "KIM",
+   "name": "Kimco Realty",
+   "sector": "Immobilien",
+   "depot": "zufall",
+   "entry_date": "2026-08-24",
+   "entry_price": 24.1671,
+   "exit_date": "2026-09-10",
+   "exit_price": 23.3783,
+   "exit_reason": "stop",
+   "shares": 41.371841,
+   "stop": 23.39,
+   "target": 24.97,
+   "pnl": -32.63,
+   "pnl_pct": -3.264,
+   "r_multiple": -1.015,
+   "days_held": 9,
+   "mfe_price": 24.325,
+   "mae_price": 23.155,
+   "mfe_r": 0.203,
+   "atr_at_entry": 0.3726977947033447,
+   "ziel_atr": 2.62,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.2904,
+   "basis_erwartung_r": 0.0631,
+   "score": 0.433,
+   "score_components": {
+    "trend": 0.374,
+    "setup": 0.501,
+    "volumen": 0.003,
+    "qualitaet": 0.523,
+    "bewertung": 0.453,
+    "analysten": 0.627
+   },
+   "target_methods": {
+    "atr": 24.69,
+    "struktur": 25.04
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 757.87,
+    "benchmark_sma200": 711.46,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.06522973729220038,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.016417484296319285
+   }
+  },
+  {
+   "symbol": "CCL",
+   "name": "Carnival Corporation",
+   "sector": "Konsum zyklisch",
+   "depot": "zufall",
+   "entry_date": "2026-09-01",
+   "entry_price": 23.6618,
+   "exit_date": "2026-09-10",
+   "exit_price": 22.4188,
+   "exit_reason": "stop_luecke",
+   "shares": 42.094556,
+   "stop": 22.43,
+   "target": 26.44,
+   "pnl": -52.32,
+   "pnl_pct": -5.253,
+   "r_multiple": -1.009,
+   "days_held": 7,
+   "mfe_price": 23.97,
+   "mae_price": 22.285,
+   "mfe_r": 0.25,
+   "atr_at_entry": 0.8580474628940069,
+   "ziel_atr": 2.97,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.2788,
+   "basis_erwartung_r": 0.0952,
+   "score": 0.4513,
+   "score_components": {
+    "trend": 0.085,
+    "setup": 0.421,
+    "volumen": 0.475,
+    "qualitaet": 0.476,
+    "bewertung": 0.883,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 25.58,
+    "struktur": 26.53
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 757.87,
+    "benchmark_sma200": 711.46,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.06522973729220038,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.016417484296319285
+   }
+  },
+  {
+   "symbol": "SOLV",
+   "name": "Solventum",
+   "sector": "Gesundheit",
+   "depot": "zufall",
+   "entry_date": "2026-09-03",
+   "entry_price": 93.5367,
+   "exit_date": "2026-09-10",
+   "exit_price": 88.5557,
+   "exit_reason": "stop",
+   "shares": 10.689534,
+   "stop": 88.6,
+   "target": 95.44,
+   "pnl": -53.24,
+   "pnl_pct": -5.325,
+   "r_multiple": -1.009,
+   "days_held": 5,
+   "mfe_price": 93.615,
+   "mae_price": 87.64,
+   "mfe_r": 0.016,
+   "atr_at_entry": 2.080052678426433,
+   "ziel_atr": 1.69,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4864,
+   "basis_erwartung_r": 0.095,
+   "score": 0.6408,
+   "score_components": {
+    "trend": 0.968,
+    "setup": 0.83,
+    "volumen": 0.0,
+    "qualitaet": 0.629,
+    "bewertung": 0.712,
+    "analysten": 0.406
+   },
+   "target_methods": {
+    "atr": 96.14,
+    "struktur": 94.13
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 757.87,
+    "benchmark_sma200": 711.46,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.06522973729220038,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.016417484296319285
+   }
+  },
+  {
+   "symbol": "MSTR",
+   "name": "Strategy Inc Common Stock Class A",
+   "sector": "Technologie",
+   "depot": "zufall",
+   "entry_date": "2026-09-04",
+   "entry_price": 137.2986,
+   "exit_date": "2026-09-10",
+   "exit_price": 128.4657,
+   "exit_reason": "stop_luecke",
+   "shares": 7.277542,
+   "stop": 130.45,
+   "target": 173.21,
+   "pnl": -64.28,
+   "pnl_pct": -6.433,
+   "r_multiple": -1.29,
+   "days_held": 4,
+   "mfe_price": 144.4,
+   "mae_price": 126.975,
+   "mfe_r": 1.037,
+   "atr_at_entry": 8.673653218967859,
+   "ziel_atr": 3.27,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.2785,
+   "basis_erwartung_r": 0.1834,
+   "score": 0.6265,
+   "score_components": {
+    "trend": 0.972,
+    "setup": 0.393,
+    "volumen": 0.787,
+    "qualitaet": 0.287,
+    "bewertung": 0.6,
+    "analysten": 0.932
+   },
+   "target_methods": {
+    "atr": 163.28,
+    "struktur": 174.48
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 757.87,
+    "benchmark_sma200": 711.46,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.06522973729220038,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.016417484296319285
+   }
+  },
+  {
+   "symbol": "PYPL",
+   "name": "PayPal",
+   "sector": "Finanzen",
+   "depot": "zufall",
+   "entry_date": "2026-09-08",
+   "entry_price": 54.4322,
+   "exit_date": "2026-09-10",
+   "exit_price": 50.9345,
+   "exit_reason": "stop_luecke",
+   "shares": 18.286493,
+   "stop": 51.81,
+   "target": 60.37,
+   "pnl": -63.96,
+   "pnl_pct": -6.426,
+   "r_multiple": -1.334,
+   "days_held": 3,
+   "mfe_price": 54.51,
+   "mae_price": 50.96,
+   "mfe_r": 0.03,
+   "atr_at_entry": 1.9642359907502183,
+   "ziel_atr": 2.76,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3059,
+   "basis_erwartung_r": 0.1384,
+   "score": 0.6021,
+   "score_components": {
+    "trend": 0.797,
+    "setup": 0.649,
+    "volumen": 0.235,
+    "qualitaet": 0.592,
+    "bewertung": 0.813,
+    "analysten": 0.409
+   },
+   "target_methods": {
+    "atr": 58.86,
+    "struktur": 60.89
+   },
+   "regime_at_entry": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "regime_at_exit": {
+    "benchmark": "SPY",
+    "benchmark_close": 757.87,
+    "benchmark_sma200": 711.46,
+    "trend": "aufwaerts",
+    "gap_to_sma200": 0.06522973729220038,
+    "vix": null,
+    "vix_level": null,
+    "chg_21d": -0.016417484296319285
+   }
   }
  ],
  "statistik": {
   "ki": {
    "depot": "ki",
    "label": "Depot KI",
-   "equity": 99518.89,
-   "cash": 68117.02,
-   "open_positions": 31,
-   "return_pct": -0.48,
-   "trades": 35,
-   "max_drawdown_pct": -0.88,
-   "win_rate": 14.3,
-   "wins": 5,
-   "losses": 30,
-   "expectancy_r": -0.671,
-   "avg_win_r": 1.127,
-   "avg_loss_r": -0.971,
+   "equity": 99038.87,
+   "cash": 66037.44,
+   "open_positions": 33,
+   "return_pct": -0.96,
+   "trades": 39,
+   "max_drawdown_pct": -1.36,
+   "win_rate": 15.4,
+   "wins": 6,
+   "losses": 33,
+   "expectancy_r": -0.686,
+   "avg_win_r": 0.971,
+   "avg_loss_r": -0.987,
    "profit_factor": 0.19,
-   "avg_hold_days": 3.1,
+   "avg_hold_days": 3.3,
    "exit_reasons": {
-    "stop": 22,
-    "stop_luecke": 7,
-    "ziel": 4,
+    "stop": 23,
+    "stop_luecke": 9,
+    "ziel": 5,
     "ziel_luecke": 2
    },
-   "total_pnl": -922.11
+   "total_pnl": -1053.22
   },
   "zufall": {
    "depot": "zufall",
    "label": "Depot Zufall",
-   "equity": 99246.66,
-   "cash": 57276.7,
+   "equity": 98910.12,
+   "cash": 57013.4,
    "open_positions": 42,
-   "return_pct": -0.75,
-   "trades": 24,
-   "max_drawdown_pct": -0.78,
-   "win_rate": 12.5,
+   "return_pct": -1.09,
+   "trades": 30,
+   "max_drawdown_pct": -1.11,
+   "win_rate": 10.0,
    "wins": 3,
-   "losses": 21,
-   "expectancy_r": -0.95,
+   "losses": 27,
+   "expectancy_r": -0.982,
    "avg_win_r": 1.143,
-   "avg_loss_r": -1.249,
-   "profit_factor": 0.11,
-   "avg_hold_days": 2.8,
+   "avg_loss_r": -1.218,
+   "profit_factor": 0.08,
+   "avg_hold_days": 3.5,
    "exit_reasons": {
-    "stop": 16,
-    "stop_luecke": 5,
+    "stop": 19,
+    "stop_luecke": 8,
     "ziel": 2,
     "ziel_luecke": 1
    },
-   "total_pnl": -853.19
+   "total_pnl": -1173.3
   }
  }
 }
