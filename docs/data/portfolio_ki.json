@@ -1241,7 +1241,190 @@
    "mae_price": 316.635
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "ORCL",
+   "name": "Oracle Corporation",
+   "sector": "Technologie",
+   "score": 0.7448,
+   "target": 171.64,
+   "stop": 137.52,
+   "atr_at_entry": 7.662230810720425,
+   "ziel_atr": 2.79,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3298,
+   "basis_erwartung_r": 0.1422,
+   "score_components": {
+    "trend": 0.486,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.8,
+    "bewertung": 0.828,
+    "analysten": 0.925,
+    "sentiment": 0.35
+   },
+   "target_methods": {
+    "atr": 166.17,
+    "struktur": 170.59
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "sector": "Kommunikation",
+   "score": 0.7328,
+   "target": 686.83,
+   "stop": 611.3,
+   "atr_at_entry": 21.12284439102795,
+   "ziel_atr": 1.84,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.4488,
+   "basis_erwartung_r": 0.0486,
+   "score_components": {
+    "trend": 0.892,
+    "setup": 0.852,
+    "volumen": 0.052,
+    "qualitaet": 0.964,
+    "bewertung": 0.52,
+    "analysten": 0.796,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 687.79,
+    "struktur": 685.98
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  },
+  {
+   "symbol": "EOG",
+   "name": "EOG Resources",
+   "sector": "Energie",
+   "score": 0.7291,
+   "target": 154.53,
+   "stop": 142.59,
+   "atr_at_entry": 3.2644428284273226,
+   "ziel_atr": 2.21,
+   "stop_atr": 1.45,
+   "basis_p_ziel": 0.4255,
+   "basis_erwartung_r": 0.2266,
+   "score_components": {
+    "trend": 0.802,
+    "setup": 0.985,
+    "volumen": 0.172,
+    "qualitaet": 0.904,
+    "bewertung": 0.635,
+    "analysten": 0.594
+   },
+   "target_methods": {
+    "atr": 154.4,
+    "struktur": 153.54
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica, Inc.",
+   "sector": "Technologie",
+   "score": 0.727,
+   "target": 386.85,
+   "stop": 313.94,
+   "atr_at_entry": 19.534421450178268,
+   "ziel_atr": 2.06,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.4318,
+   "basis_erwartung_r": 0.1006,
+   "score_components": {
+    "trend": 0.454,
+    "setup": 0.939,
+    "volumen": 0.558,
+    "qualitaet": 0.754,
+    "bewertung": 0.704,
+    "analysten": 0.939
+   },
+   "target_methods": {
+    "atr": 386.98,
+    "struktur": 378.5
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  },
+  {
+   "symbol": "ICE",
+   "name": "Intercontinental Exchange",
+   "sector": "Finanzen",
+   "score": 0.7174,
+   "target": 163.99,
+   "stop": 152.34,
+   "atr_at_entry": 3.2228276411127292,
+   "ziel_atr": 2.03,
+   "stop_atr": 1.58,
+   "basis_p_ziel": 0.4265,
+   "basis_erwartung_r": 0.1203,
+   "score_components": {
+    "trend": 0.971,
+    "setup": 0.99,
+    "volumen": 0.394,
+    "qualitaet": 0.617,
+    "bewertung": 0.163,
+    "analysten": 0.751
+   },
+   "target_methods": {
+    "atr": 163.77,
+    "struktur": 164.64
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  },
+  {
+   "symbol": "TXN",
+   "name": "Texas Instruments",
+   "sector": "Technologie",
+   "score": 0.712,
+   "target": 290.96,
+   "stop": 254.91,
+   "atr_at_entry": 8.276836609848253,
+   "ziel_atr": 2.69,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3423,
+   "basis_erwartung_r": 0.1366,
+   "score_components": {
+    "trend": 0.319,
+    "setup": 1.0,
+    "volumen": 0.833,
+    "qualitaet": 0.919,
+    "bewertung": 0.472,
+    "analysten": 0.781
+   },
+   "target_methods": {
+    "atr": 285.86,
+    "struktur": 296.48
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  }
+ ],
  "closed": [
   {
    "symbol": "BSX",

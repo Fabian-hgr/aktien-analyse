@@ -1559,7 +1559,188 @@
    "mae_price": 316.635
   }
  ],
- "pending": [],
+ "pending": [
+  {
+   "symbol": "SMCI",
+   "name": "Supermicro",
+   "sector": "Technologie",
+   "score": 0.6795,
+   "target": 46.96,
+   "stop": 36.28,
+   "atr_at_entry": 2.286026173664319,
+   "ziel_atr": 3.0,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3023,
+   "basis_erwartung_r": 0.1546,
+   "score_components": {
+    "trend": 0.928,
+    "setup": 0.828,
+    "volumen": 0.249,
+    "qualitaet": 0.632,
+    "bewertung": 0.918,
+    "analysten": 0.377
+   },
+   "target_methods": {
+    "atr": 44.83,
+    "struktur": 47.76
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  },
+  {
+   "symbol": "DD",
+   "name": "DuPont",
+   "sector": "Industrie",
+   "score": 0.3802,
+   "target": 135.58,
+   "stop": 122.33,
+   "atr_at_entry": 2.83076979979237,
+   "ziel_atr": 3.03,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.2785,
+   "basis_erwartung_r": 0.1341,
+   "score_components": {
+    "trend": 0.123,
+    "setup": 0.415,
+    "volumen": 0.0,
+    "qualitaet": 0.266,
+    "bewertung": 0.605,
+    "analysten": 0.864
+   },
+   "target_methods": {
+    "atr": 132.75,
+    "struktur": 135.94
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  },
+  {
+   "symbol": "VST",
+   "name": "Vistra Corp.",
+   "sector": "Versorger",
+   "score": 0.6332,
+   "target": 161.49,
+   "stop": 140.85,
+   "atr_at_entry": 4.87748412430563,
+   "ziel_atr": 2.67,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.2892,
+   "basis_erwartung_r": 0.09,
+   "score_components": {
+    "trend": 0.361,
+    "setup": 1.0,
+    "volumen": 0.236,
+    "qualitaet": 0.389,
+    "bewertung": 0.824,
+    "analysten": 0.959
+   },
+   "target_methods": {
+    "atr": 157.63,
+    "struktur": 162.2
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  },
+  {
+   "symbol": "CSCO",
+   "name": "Cisco",
+   "sector": "Technologie",
+   "score": 0.6441,
+   "target": 119.75,
+   "stop": 107.78,
+   "atr_at_entry": 2.641840002113445,
+   "ziel_atr": 2.86,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3202,
+   "basis_erwartung_r": 0.1465,
+   "score_components": {
+    "trend": 0.311,
+    "setup": 1.0,
+    "volumen": 0.228,
+    "qualitaet": 0.813,
+    "bewertung": 0.603,
+    "analysten": 0.803
+   },
+   "target_methods": {
+    "atr": 117.66,
+    "struktur": 121.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  },
+  {
+   "symbol": "CRL",
+   "name": "Charles River Laboratories",
+   "sector": "Gesundheit",
+   "score": 0.5538,
+   "target": 296.82,
+   "stop": 265.39,
+   "atr_at_entry": 7.980293867331668,
+   "ziel_atr": 2.35,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3634,
+   "basis_erwartung_r": 0.1179,
+   "score_components": {
+    "trend": 0.985,
+    "setup": 0.896,
+    "volumen": 0.0,
+    "qualitaet": 0.135,
+    "bewertung": 0.564,
+    "analysten": 0.403
+   },
+   "target_methods": {
+    "atr": 294.02,
+    "struktur": 302.43
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  },
+  {
+   "symbol": "CMS",
+   "name": "CMS Energy",
+   "sector": "Versorger",
+   "score": 0.334,
+   "target": 69.79,
+   "stop": 65.52,
+   "atr_at_entry": 1.0541894770290046,
+   "ziel_atr": 2.5,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3155,
+   "basis_erwartung_r": 0.0885,
+   "score_components": {
+    "trend": 0.089,
+    "setup": 0.461,
+    "volumen": 0.181,
+    "qualitaet": 0.27,
+    "bewertung": 0.361,
+    "analysten": 0.646
+   },
+   "target_methods": {
+    "atr": 69.14,
+    "struktur": 70.13
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-14"
+  }
+ ],
  "closed": [
   {
    "symbol": "TRGP",
