@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-10T23:54:04+00:00",
+ "updated_at": "2026-09-15T00:25:14+00:00",
  "ki": [
   {
    "symbol": "BSX",
@@ -3682,12 +3682,12 @@
   "ki": {
    "depot": "ki",
    "label": "Depot KI",
-   "equity": 99038.87,
+   "equity": 98946.79,
    "cash": 66037.44,
    "open_positions": 33,
-   "return_pct": -0.96,
+   "return_pct": -1.05,
    "trades": 39,
-   "max_drawdown_pct": -1.36,
+   "max_drawdown_pct": -1.45,
    "win_rate": 15.4,
    "wins": 6,
    "losses": 33,
@@ -3707,12 +3707,12 @@
   "zufall": {
    "depot": "zufall",
    "label": "Depot Zufall",
-   "equity": 98910.12,
+   "equity": 98826.69,
    "cash": 57013.4,
    "open_positions": 42,
-   "return_pct": -1.09,
+   "return_pct": -1.17,
    "trades": 30,
-   "max_drawdown_pct": -1.11,
+   "max_drawdown_pct": -1.2,
    "win_rate": 10.0,
    "wins": 3,
    "losses": 27,

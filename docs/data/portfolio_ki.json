@@ -1271,7 +1271,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   },
   {
    "symbol": "META",
@@ -1302,7 +1303,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   },
   {
    "symbol": "EOG",
@@ -1332,7 +1334,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   },
   {
    "symbol": "CLS",
@@ -1362,7 +1365,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   },
   {
    "symbol": "ICE",
@@ -1392,7 +1396,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   },
   {
    "symbol": "TXN",
@@ -1422,7 +1427,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   }
  ],
  "closed": [
@@ -3614,6 +3620,14 @@
    "positions": 33,
    "invested_pct": 33.32,
    "return_pct": -0.961
+  },
+  {
+   "date": "2026-09-15",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [

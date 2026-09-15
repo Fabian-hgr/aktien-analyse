@@ -1588,7 +1588,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   },
   {
    "symbol": "DD",
@@ -1618,7 +1619,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   },
   {
    "symbol": "VST",
@@ -1648,7 +1650,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   },
   {
    "symbol": "CSCO",
@@ -1678,7 +1681,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   },
   {
    "symbol": "CRL",
@@ -1708,7 +1712,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   },
   {
    "symbol": "CMS",
@@ -1738,7 +1743,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-14"
+   "order_date": "2026-09-14",
+   "tries": 1
   }
  ],
  "closed": [
@@ -3438,6 +3444,14 @@
    "positions": 42,
    "invested_pct": 42.36,
    "return_pct": -1.09
+  },
+  {
+   "date": "2026-09-15",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
