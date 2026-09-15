@@ -1429,6 +1429,187 @@
    },
    "order_date": "2026-09-14",
    "tries": 1
+  },
+  {
+   "symbol": "GPN",
+   "name": "Global Payments",
+   "sector": "Finanzen",
+   "score": 0.8057,
+   "target": 96.09,
+   "stop": 86.18,
+   "atr_at_entry": 2.545686543585198,
+   "ziel_atr": 2.31,
+   "stop_atr": 1.58,
+   "basis_p_ziel": 0.3784,
+   "basis_erwartung_r": 0.1299,
+   "score_components": {
+    "trend": 0.946,
+    "setup": 1.0,
+    "volumen": 0.923,
+    "qualitaet": 0.371,
+    "bewertung": 1.0,
+    "analysten": 0.684
+   },
+   "target_methods": {
+    "atr": 95.21,
+    "struktur": 95.58
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-15"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies",
+   "sector": "Technologie",
+   "score": 0.7469,
+   "target": 187.7,
+   "stop": 161.01,
+   "atr_at_entry": 7.387845501502706,
+   "ziel_atr": 1.95,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.4507,
+   "basis_erwartung_r": 0.093,
+   "score_components": {
+    "trend": 0.917,
+    "setup": 1.0,
+    "volumen": 0.4,
+    "qualitaet": 0.998,
+    "bewertung": 0.178,
+    "analysten": 0.657,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 188.63,
+    "struktur": 188.32
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-15"
+  },
+  {
+   "symbol": "JKHY",
+   "name": "Jack Henry & Associates",
+   "sector": "Finanzen",
+   "score": 0.7397,
+   "target": 172.69,
+   "stop": 157.98,
+   "atr_at_entry": 4.107081075962824,
+   "ziel_atr": 2.0,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.4329,
+   "basis_erwartung_r": 0.119,
+   "score_components": {
+    "trend": 0.91,
+    "setup": 1.0,
+    "volumen": 0.797,
+    "qualitaet": 0.705,
+    "bewertung": 0.108,
+    "analysten": 0.638
+   },
+   "target_methods": {
+    "atr": 172.56,
+    "struktur": 173.55
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-15"
+  },
+  {
+   "symbol": "CFG",
+   "name": "Citizens Financial Group",
+   "sector": "Finanzen",
+   "score": 0.7303,
+   "target": 74.17,
+   "stop": 68.48,
+   "atr_at_entry": 1.322916504744671,
+   "ziel_atr": 2.71,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.312,
+   "basis_erwartung_r": 0.1416,
+   "score_components": {
+    "trend": 0.613,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.621,
+    "bewertung": 0.577,
+    "analysten": 0.641
+   },
+   "target_methods": {
+    "atr": 73.18,
+    "struktur": 74.54
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-15"
+  },
+  {
+   "symbol": "OXY",
+   "name": "Occidental Petroleum",
+   "sector": "Energie",
+   "score": 0.7211,
+   "target": 65.53,
+   "stop": 59.71,
+   "atr_at_entry": 1.4355383019827264,
+   "ziel_atr": 2.6,
+   "stop_atr": 1.45,
+   "basis_p_ziel": 0.3591,
+   "basis_erwartung_r": 0.2397,
+   "score_components": {
+    "trend": 0.865,
+    "setup": 0.804,
+    "volumen": 0.688,
+    "qualitaet": 0.779,
+    "bewertung": 0.422,
+    "analysten": 0.6
+   },
+   "target_methods": {
+    "atr": 64.9,
+    "struktur": 66.44
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-15"
+  },
+  {
+   "symbol": "BR",
+   "name": "Broadridge Financial Solutions",
+   "sector": "Industrie",
+   "score": 0.7207,
+   "target": 186.15,
+   "stop": 166.73,
+   "atr_at_entry": 4.586684504036559,
+   "ziel_atr": 2.58,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.3426,
+   "basis_erwartung_r": 0.1184,
+   "score_components": {
+    "trend": 0.932,
+    "setup": 1.0,
+    "volumen": 0.167,
+    "qualitaet": 0.635,
+    "bewertung": 0.574,
+    "analysten": 0.664
+   },
+   "target_methods": {
+    "atr": 183.62,
+    "struktur": 185.46
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-15"
   }
  ],
  "closed": [
