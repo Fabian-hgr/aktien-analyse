@@ -1931,6 +1931,186 @@
    },
    "order_date": "2026-09-15",
    "tries": 1
+  },
+  {
+   "symbol": "DIS",
+   "name": "Walt Disney Company (The)",
+   "sector": "Kommunikation",
+   "score": 0.7304,
+   "target": 111.61,
+   "stop": 102.57,
+   "atr_at_entry": 2.216671325607751,
+   "ziel_atr": 2.34,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.3586,
+   "basis_erwartung_r": 0.0546,
+   "score_components": {
+    "trend": 0.854,
+    "setup": 1.0,
+    "volumen": 0.706,
+    "qualitaet": 0.401,
+    "bewertung": 0.353,
+    "analysten": 0.852
+   },
+   "target_methods": {
+    "atr": 110.6,
+    "struktur": 111.81
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-16"
+  },
+  {
+   "symbol": "CRDO",
+   "name": "Credo Technology Group Holding Ltd Ordinary Shares",
+   "sector": "Technologie",
+   "score": 0.4961,
+   "target": 197.03,
+   "stop": 125.23,
+   "atr_at_entry": 14.896928703121691,
+   "ziel_atr": 3.15,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.2857,
+   "basis_erwartung_r": 0.1614,
+   "score_components": {
+    "trend": 0.108,
+    "setup": 0.418,
+    "volumen": 0.0,
+    "qualitaet": 0.999,
+    "bewertung": 0.7,
+    "analysten": 0.959
+   },
+   "target_methods": {
+    "atr": 180.93,
+    "struktur": 200.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-16"
+  },
+  {
+   "symbol": "ED",
+   "name": "Consolidated Edison",
+   "sector": "Versorger",
+   "score": 0.3609,
+   "target": 108.83,
+   "stop": 102.96,
+   "atr_at_entry": 1.482318712153513,
+   "ziel_atr": 2.4,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3332,
+   "basis_erwartung_r": 0.0885,
+   "score_components": {
+    "trend": 0.135,
+    "setup": 0.57,
+    "volumen": 0.235,
+    "qualitaet": 0.454,
+    "bewertung": 0.414,
+    "analysten": 0.362
+   },
+   "target_methods": {
+    "atr": 108.06,
+    "struktur": 109.45
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-16"
+  },
+  {
+   "symbol": "EIX",
+   "name": "Edison International",
+   "sector": "Versorger",
+   "score": 0.3952,
+   "target": 62.91,
+   "stop": 49.84,
+   "atr_at_entry": 3.0419663396956205,
+   "ziel_atr": 2.74,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.2795,
+   "basis_erwartung_r": 0.0906,
+   "score_components": {
+    "trend": 0.156,
+    "setup": 0.453,
+    "volumen": 0.087,
+    "qualitaet": 0.404,
+    "bewertung": 0.59,
+    "analysten": 0.666
+   },
+   "target_methods": {
+    "atr": 60.3,
+    "struktur": 63.16
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-16"
+  },
+  {
+   "symbol": "SWKS",
+   "name": "Skyworks Solutions",
+   "sector": "Technologie",
+   "score": 0.4859,
+   "target": 101.94,
+   "stop": 82.23,
+   "atr_at_entry": 4.657714011110284,
+   "ziel_atr": 2.56,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3579,
+   "basis_erwartung_r": 0.1295,
+   "score_components": {
+    "trend": 0.927,
+    "setup": 0.422,
+    "volumen": 0.572,
+    "qualitaet": 0.294,
+    "bewertung": 0.414,
+    "analysten": 0.215
+   },
+   "target_methods": {
+    "atr": 99.65,
+    "struktur": 105.62
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-16"
+  },
+  {
+   "symbol": "UBER",
+   "name": "Uber",
+   "sector": "Industrie",
+   "score": 0.5647,
+   "target": 78.78,
+   "stop": 67.47,
+   "atr_at_entry": 2.425636595985189,
+   "ziel_atr": 3.01,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.2805,
+   "basis_erwartung_r": 0.1337,
+   "score_components": {
+    "trend": 0.351,
+    "setup": 0.612,
+    "volumen": 0.063,
+    "qualitaet": 0.76,
+    "bewertung": 0.426,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 76.4,
+    "struktur": 79.13
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-16"
   }
  ],
  "closed": [
