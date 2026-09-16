@@ -1589,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "DD",
@@ -1620,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "VST",
@@ -1651,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CSCO",
@@ -1682,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CRL",
@@ -1713,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CMS",
@@ -1744,7 +1744,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "KMB",
@@ -1774,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-15"
+   "order_date": "2026-09-15",
+   "tries": 1
   },
   {
    "symbol": "LUV",
@@ -1804,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-15"
+   "order_date": "2026-09-15",
+   "tries": 1
   },
   {
    "symbol": "PKG",
@@ -1834,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-15"
+   "order_date": "2026-09-15",
+   "tries": 1
   },
   {
    "symbol": "LDOS",
@@ -1864,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-15"
+   "order_date": "2026-09-15",
+   "tries": 1
   },
   {
    "symbol": "SHW",
@@ -1894,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-15"
+   "order_date": "2026-09-15",
+   "tries": 1
   },
   {
    "symbol": "CCL",
@@ -1924,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-15"
+   "order_date": "2026-09-15",
+   "tries": 1
   }
  ],
  "closed": [
@@ -3627,6 +3633,14 @@
   },
   {
    "date": "2026-09-15",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
+  },
+  {
+   "date": "2026-09-16",
    "equity": 98826.69,
    "cash": 57013.4,
    "positions": 42,
