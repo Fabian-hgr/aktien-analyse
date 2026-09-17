@@ -1931,6 +1931,186 @@
    },
    "order_date": "2026-09-16",
    "tries": 1
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit",
+   "sector": "Technologie",
+   "score": 0.6426,
+   "target": 362.94,
+   "stop": 294.57,
+   "atr_at_entry": 14.095981162250565,
+   "ziel_atr": 3.18,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.2822,
+   "basis_erwartung_r": 0.1628,
+   "score_components": {
+    "trend": 0.475,
+    "setup": 0.642,
+    "volumen": 0.141,
+    "qualitaet": 0.762,
+    "bewertung": 0.816,
+    "analysten": 0.886
+   },
+   "target_methods": {
+    "atr": 347.27,
+    "struktur": 365.36
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-17"
+  },
+  {
+   "symbol": "KLAC",
+   "name": "KLA Corporation",
+   "sector": "Technologie",
+   "score": 0.5116,
+   "target": 190.95,
+   "stop": 153.13,
+   "atr_at_entry": 8.525675525325884,
+   "ziel_atr": 2.77,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.332,
+   "basis_erwartung_r": 0.1412,
+   "score_components": {
+    "trend": 0.099,
+    "setup": 0.533,
+    "volumen": 0.171,
+    "qualitaet": 0.841,
+    "bewertung": 0.305,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 185.01,
+    "struktur": 195.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-17"
+  },
+  {
+   "symbol": "GEHC",
+   "name": "GE HealthCare",
+   "sector": "Gesundheit",
+   "score": 0.5367,
+   "target": 68.17,
+   "stop": 61.02,
+   "atr_at_entry": 1.565765107103071,
+   "ziel_atr": 2.98,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2672,
+   "basis_erwartung_r": 0.1275,
+   "score_components": {
+    "trend": 0.254,
+    "setup": 0.387,
+    "volumen": 0.787,
+    "qualitaet": 0.471,
+    "bewertung": 0.662,
+    "analysten": 0.876
+   },
+   "target_methods": {
+    "atr": 66.63,
+    "struktur": 68.28
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-17"
+  },
+  {
+   "symbol": "DASH",
+   "name": "DoorDash",
+   "sector": "Konsum zyklisch",
+   "score": 0.5498,
+   "target": 214.57,
+   "stop": 184.3,
+   "atr_at_entry": 7.218279429262521,
+   "ziel_atr": 2.47,
+   "stop_atr": 1.73,
+   "basis_p_ziel": 0.3456,
+   "basis_erwartung_r": 0.0641,
+   "score_components": {
+    "trend": 0.738,
+    "setup": 0.544,
+    "volumen": 0.0,
+    "qualitaet": 0.526,
+    "bewertung": 0.041,
+    "analysten": 0.919
+   },
+   "target_methods": {
+    "atr": 210.69,
+    "struktur": 218.48
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-17"
+  },
+  {
+   "symbol": "ZTS",
+   "name": "Zoetis",
+   "sector": "Gesundheit",
+   "score": 0.4818,
+   "target": 78.94,
+   "stop": 69.83,
+   "atr_at_entry": 1.9937307577692909,
+   "ziel_atr": 2.98,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2672,
+   "basis_erwartung_r": 0.1274,
+   "score_components": {
+    "trend": 0.074,
+    "setup": 0.659,
+    "volumen": 0.081,
+    "qualitaet": 0.59,
+    "bewertung": 0.499,
+    "analysten": 0.857
+   },
+   "target_methods": {
+    "atr": 76.98,
+    "struktur": 79.08
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-17"
+  },
+  {
+   "symbol": "DUK",
+   "name": "Duke Energy",
+   "sector": "Versorger",
+   "score": 0.3599,
+   "target": 121.94,
+   "stop": 115.13,
+   "atr_at_entry": 1.6900397475008984,
+   "ziel_atr": 2.48,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3193,
+   "basis_erwartung_r": 0.0885,
+   "score_components": {
+    "trend": 0.138,
+    "setup": 0.495,
+    "volumen": 0.028,
+    "qualitaet": 0.362,
+    "bewertung": 0.383,
+    "analysten": 0.63
+   },
+   "target_methods": {
+    "atr": 120.94,
+    "struktur": 122.52
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-17"
   }
  ],
  "closed": [
