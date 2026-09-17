@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T00:04:42+00:00",
+ "updated_at": "2026-09-17T00:15:00+00:00",
  "trades_seen": 39,
  "start": {
   "score_weights": {
@@ -17,13 +17,13 @@
   }
  },
  "score_weights": {
-  "trend": 0.1901,
-  "setup": 0.1652,
-  "volumen": 0.0881,
-  "qualitaet": 0.1572,
-  "bewertung": 0.0901,
-  "analysten": 0.1633,
-  "sentiment": 0.1461
+  "trend": 0.1875,
+  "setup": 0.1686,
+  "volumen": 0.0859,
+  "qualitaet": 0.1589,
+  "bewertung": 0.0876,
+  "analysten": 0.1663,
+  "sentiment": 0.1452
  },
  "target_method_weights": {
   "atr": 0.9975,
@@ -173,6 +173,34 @@
     "Komponente «Fundamentale Qualität» belohnt: obere Hälfte -0.56 R gegen untere -0.79 R aus 39 Trades (t = +0.90) → Gewicht 0.155 auf 0.158",
     "Komponente «Bewertung vs. Branche» bestraft: obere Hälfte -0.85 R gegen untere -0.58 R aus 39 Trades (t = -1.09) → Gewicht 0.093 auf 0.091",
     "Komponente «Analysten-Rückenwind» belohnt: obere Hälfte -0.51 R gegen untere -0.84 R aus 39 Trades (t = +1.30) → Gewicht 0.160 auf 0.164"
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "trades_total": 39,
+   "window": 39,
+   "damping": 0.255,
+   "mean_r": -0.686,
+   "score_weights": {
+    "trend": 0.1875,
+    "setup": 0.1686,
+    "volumen": 0.0859,
+    "qualitaet": 0.1589,
+    "bewertung": 0.0876,
+    "analysten": 0.1663,
+    "sentiment": 0.1452
+   },
+   "target_method_weights": {
+    "atr": 0.9975,
+    "struktur": 1.0025
+   },
+   "changes": [
+    "Komponente «Trend & relative Stärke» bestraft: obere Hälfte -0.72 R gegen untere -0.63 R aus 39 Trades (t = -0.37) → Gewicht 0.190 auf 0.189",
+    "Komponente «Setup-Qualität» belohnt: obere Hälfte -0.49 R gegen untere -0.85 R aus 39 Trades (t = +1.43) → Gewicht 0.165 auf 0.170",
+    "Komponente «Volumenbestätigung» bestraft: obere Hälfte -0.80 R gegen untere -0.55 R aus 39 Trades (t = -0.96) → Gewicht 0.088 auf 0.086",
+    "Komponente «Fundamentale Qualität» belohnt: obere Hälfte -0.56 R gegen untere -0.79 R aus 39 Trades (t = +0.90) → Gewicht 0.157 auf 0.160",
+    "Komponente «Bewertung vs. Branche» bestraft: obere Hälfte -0.85 R gegen untere -0.58 R aus 39 Trades (t = -1.09) → Gewicht 0.090 auf 0.088",
+    "Komponente «Analysten-Rückenwind» belohnt: obere Hälfte -0.51 R gegen untere -0.84 R aus 39 Trades (t = +1.30) → Gewicht 0.163 auf 0.167"
    ]
   }
  ],
