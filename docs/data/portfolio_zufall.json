@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "KMB",
-   "name": "Kimberly-Clark",
-   "sector": "Konsum defensiv",
-   "score": 0.4527,
-   "target": 105.53,
-   "stop": 95.1,
-   "atr_at_entry": 2.348797287856859,
-   "ziel_atr": 2.75,
-   "stop_atr": 1.69,
-   "basis_p_ziel": 0.3029,
-   "basis_erwartung_r": 0.0749,
-   "score_components": {
-    "trend": 0.147,
-    "setup": 0.465,
-    "volumen": 0.652,
-    "qualitaet": 0.438,
-    "bewertung": 0.499,
-    "analysten": 0.682
-   },
-   "target_methods": {
-    "atr": 103.7,
-    "struktur": 106.16
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-15",
-   "tries": 2
-  },
-  {
-   "symbol": "LUV",
-   "name": "Southwest Airlines",
-   "sector": "Industrie",
-   "score": 0.5889,
-   "target": 43.05,
-   "stop": 37.64,
-   "atr_at_entry": 1.1557754085806569,
-   "ziel_atr": 3.03,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.2784,
-   "basis_erwartung_r": 0.1342,
-   "score_components": {
-    "trend": 0.17,
-    "setup": 0.728,
-    "volumen": 0.872,
-    "qualitaet": 0.395,
-    "bewertung": 1.0,
-    "analysten": 0.743
-   },
-   "target_methods": {
-    "atr": 41.89,
-    "struktur": 43.2
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-15",
-   "tries": 2
-  },
-  {
-   "symbol": "PKG",
-   "name": "Packaging Corporation of America",
-   "sector": "Grundstoffe",
-   "score": 0.4445,
-   "target": 243.67,
-   "stop": 223.4,
-   "atr_at_entry": 4.736822916754276,
-   "ziel_atr": 2.62,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3433,
-   "basis_erwartung_r": 0.1248,
-   "score_components": {
-    "trend": 0.417,
-    "setup": 0.611,
-    "volumen": 0.0,
-    "qualitaet": 0.475,
-    "bewertung": 0.436,
-    "analysten": 0.536
-   },
-   "target_methods": {
-    "atr": 240.92,
-    "struktur": 246.51
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-15",
-   "tries": 2
-  },
-  {
-   "symbol": "LDOS",
-   "name": "Leidos",
-   "sector": "Industrie",
-   "score": 0.629,
-   "target": 143.43,
-   "stop": 126.27,
-   "atr_at_entry": 3.711783919106831,
-   "ziel_atr": 2.97,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.2865,
-   "basis_erwartung_r": 0.1323,
-   "score_components": {
-    "trend": 0.496,
-    "setup": 0.968,
-    "volumen": 0.442,
-    "qualitaet": 0.524,
-    "bewertung": 0.597,
-    "analysten": 0.672
-   },
-   "target_methods": {
-    "atr": 139.94,
-    "struktur": 144.12
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-15",
-   "tries": 2
-  },
-  {
-   "symbol": "SHW",
-   "name": "Sherwin-Williams",
-   "sector": "Grundstoffe",
-   "score": 0.4491,
-   "target": 342.86,
-   "stop": 312.54,
-   "atr_at_entry": 7.194327622548205,
-   "ziel_atr": 2.55,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3521,
-   "basis_erwartung_r": 0.1223,
-   "score_components": {
-    "trend": 0.218,
-    "setup": 0.571,
-    "volumen": 0.469,
-    "qualitaet": 0.486,
-    "bewertung": 0.105,
-    "analysten": 0.755
-   },
-   "target_methods": {
-    "atr": 339.14,
-    "struktur": 347.64
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-15",
-   "tries": 2
-  },
-  {
-   "symbol": "CCL",
-   "name": "Carnival Corporation",
-   "sector": "Konsum zyklisch",
-   "score": 0.445,
-   "target": 24.68,
-   "stop": 21.3,
-   "atr_at_entry": 0.7274650366170141,
-   "ziel_atr": 2.91,
-   "stop_atr": 1.73,
-   "basis_p_ziel": 0.2815,
-   "basis_erwartung_r": 0.0753,
-   "score_components": {
-    "trend": 0.153,
-    "setup": 0.405,
-    "volumen": 0.21,
-    "qualitaet": 0.476,
-    "bewertung": 0.928,
-    "analysten": 0.925
-   },
-   "target_methods": {
-    "atr": 23.96,
-    "struktur": 24.75
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-15",
-   "tries": 2
-  },
-  {
    "symbol": "DIS",
    "name": "Walt Disney Company (The)",
    "sector": "Kommunikation",
@@ -1775,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CRDO",
@@ -1806,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ED",
@@ -1837,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "EIX",
@@ -1868,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SWKS",
@@ -1899,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "UBER",
@@ -1930,7 +1744,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "INTU",
@@ -1960,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-17"
+   "order_date": "2026-09-17",
+   "tries": 1
   },
   {
    "symbol": "KLAC",
@@ -1990,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-17"
+   "order_date": "2026-09-17",
+   "tries": 1
   },
   {
    "symbol": "GEHC",
@@ -2020,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-17"
+   "order_date": "2026-09-17",
+   "tries": 1
   },
   {
    "symbol": "DASH",
@@ -2050,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-17"
+   "order_date": "2026-09-17",
+   "tries": 1
   },
   {
    "symbol": "ZTS",
@@ -2080,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-17"
+   "order_date": "2026-09-17",
+   "tries": 1
   },
   {
    "symbol": "DUK",
@@ -2110,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-17"
+   "order_date": "2026-09-17",
+   "tries": 1
   }
  ],
  "closed": [
@@ -3834,6 +3654,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-09-18",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -3895,6 +3723,36 @@
   {
    "date": "2026-09-17",
    "symbol": "CMS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-18",
+   "symbol": "KMB",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-18",
+   "symbol": "LUV",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-18",
+   "symbol": "PKG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-18",
+   "symbol": "LDOS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-18",
+   "symbol": "SHW",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-18",
+   "symbol": "CCL",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
