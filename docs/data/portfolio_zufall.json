@@ -1931,6 +1931,186 @@
    },
    "order_date": "2026-09-17",
    "tries": 1
+  },
+  {
+   "symbol": "CRCL",
+   "name": "Circle Internet Group, Inc.",
+   "sector": "Finanzen",
+   "score": 0.6221,
+   "target": 100.46,
+   "stop": 74.31,
+   "atr_at_entry": 6.785305109666717,
+   "ziel_atr": 2.27,
+   "stop_atr": 1.58,
+   "basis_p_ziel": 0.3854,
+   "basis_erwartung_r": 0.1285,
+   "score_components": {
+    "trend": 0.675,
+    "setup": 0.883,
+    "volumen": 0.316,
+    "qualitaet": 0.586,
+    "bewertung": 0.0,
+    "analysten": 0.798
+   },
+   "target_methods": {
+    "atr": 98.38,
+    "struktur": 103.24
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-18"
+  },
+  {
+   "symbol": "PH",
+   "name": "Parker Hannifin",
+   "sector": "Industrie",
+   "score": 0.4634,
+   "target": 982.02,
+   "stop": 890.24,
+   "atr_at_entry": 21.210768735598112,
+   "ziel_atr": 2.67,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.329,
+   "basis_erwartung_r": 0.1218,
+   "score_components": {
+    "trend": 0.185,
+    "setup": 0.514,
+    "volumen": 0.03,
+    "qualitaet": 0.682,
+    "bewertung": 0.23,
+    "analysten": 0.84
+   },
+   "target_methods": {
+    "atr": 968.32,
+    "struktur": 992.22
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-18"
+  },
+  {
+   "symbol": "DELL",
+   "name": "Dell Technologies",
+   "sector": "Technologie",
+   "score": 0.5834,
+   "target": 675.18,
+   "stop": 533.48,
+   "atr_at_entry": 32.93725488746209,
+   "ziel_atr": 2.63,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3489,
+   "basis_erwartung_r": 0.1336,
+   "score_components": {
+    "trend": 0.893,
+    "setup": 0.547,
+    "volumen": 0.152,
+    "qualitaet": 0.619,
+    "bewertung": 0.698,
+    "analysten": 0.406
+   },
+   "target_methods": {
+    "atr": 656.63,
+    "struktur": 698.89
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-18"
+  },
+  {
+   "symbol": "HRL",
+   "name": "Hormel Foods",
+   "sector": "Konsum defensiv",
+   "score": 0.3742,
+   "target": 22.05,
+   "stop": 19.99,
+   "atr_at_entry": 0.4596149357174677,
+   "ziel_atr": 2.79,
+   "stop_atr": 1.7,
+   "basis_p_ziel": 0.2964,
+   "basis_erwartung_r": 0.0745,
+   "score_components": {
+    "trend": 0.192,
+    "setup": 0.4,
+    "volumen": 0.0,
+    "qualitaet": 0.248,
+    "bewertung": 0.597,
+    "analysten": 0.74
+   },
+   "target_methods": {
+    "atr": 21.67,
+    "struktur": 22.16
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-18"
+  },
+  {
+   "symbol": "BR",
+   "name": "Broadridge Financial Solutions",
+   "sector": "Industrie",
+   "score": 0.5877,
+   "target": 177.91,
+   "stop": 157.0,
+   "atr_at_entry": 4.4378647434221055,
+   "ziel_atr": 3.06,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.2749,
+   "basis_erwartung_r": 0.1349,
+   "score_components": {
+    "trend": 0.513,
+    "setup": 0.614,
+    "volumen": 0.13,
+    "qualitaet": 0.635,
+    "bewertung": 0.574,
+    "analysten": 0.831
+   },
+   "target_methods": {
+    "atr": 173.34,
+    "struktur": 178.34
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-18"
+  },
+  {
+   "symbol": "HII",
+   "name": "Huntington Ingalls Industries",
+   "sector": "Industrie",
+   "score": 0.4837,
+   "target": 297.35,
+   "stop": 266.22,
+   "atr_at_entry": 6.6058125195496045,
+   "ziel_atr": 3.06,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.2747,
+   "basis_erwartung_r": 0.1349,
+   "score_components": {
+    "trend": 0.15,
+    "setup": 0.46,
+    "volumen": 0.227,
+    "qualitaet": 0.428,
+    "bewertung": 0.838,
+    "analysten": 0.873
+   },
+   "target_methods": {
+    "atr": 290.54,
+    "struktur": 297.98
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-18"
   }
  ],
  "closed": [
