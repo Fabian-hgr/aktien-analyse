@@ -1800,6 +1800,187 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-18"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet Inc. (Class A)",
+   "sector": "Kommunikation",
+   "score": 0.7462,
+   "target": 368.67,
+   "stop": 334.62,
+   "atr_at_entry": 8.312353468795918,
+   "ziel_atr": 2.34,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.3514,
+   "basis_erwartung_r": 0.037,
+   "score_components": {
+    "trend": 0.481,
+    "setup": 1.0,
+    "volumen": 0.762,
+    "qualitaet": 0.978,
+    "bewertung": 0.246,
+    "analysten": 0.884,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 364.65,
+    "struktur": 373.56
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-21"
+  },
+  {
+   "symbol": "VEEV",
+   "name": "Veeva Systems",
+   "sector": "Gesundheit",
+   "score": 0.7377,
+   "target": 279.72,
+   "stop": 247.25,
+   "atr_at_entry": 8.157311037392775,
+   "ziel_atr": 2.38,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3535,
+   "basis_erwartung_r": 0.1042,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.122,
+    "qualitaet": 0.781,
+    "bewertung": 0.285,
+    "analysten": 0.677
+   },
+   "target_methods": {
+    "atr": 276.45,
+    "struktur": 284.9
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-21"
+  },
+  {
+   "symbol": "NDAQ",
+   "name": "Nasdaq, Inc.",
+   "sector": "Finanzen",
+   "score": 0.7331,
+   "target": 98.33,
+   "stop": 90.18,
+   "atr_at_entry": 2.053280668889922,
+   "ziel_atr": 2.35,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3661,
+   "basis_erwartung_r": 0.1103,
+   "score_components": {
+    "trend": 0.744,
+    "setup": 0.966,
+    "volumen": 1.0,
+    "qualitaet": 0.719,
+    "bewertung": 0.154,
+    "analysten": 0.657
+   },
+   "target_methods": {
+    "atr": 97.46,
+    "struktur": 99.57
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-21"
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "sector": "Technologie",
+   "score": 0.7297,
+   "target": 503.55,
+   "stop": 409.09,
+   "atr_at_entry": 21.27646213931178,
+   "ziel_atr": 2.77,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3253,
+   "basis_erwartung_r": 0.1262,
+   "score_components": {
+    "trend": 0.308,
+    "setup": 0.792,
+    "volumen": 0.752,
+    "qualitaet": 0.975,
+    "bewertung": 0.498,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 488.0,
+    "struktur": 515.13
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-21"
+  },
+  {
+   "symbol": "BP",
+   "name": "BP p.l.c.",
+   "sector": "Energie",
+   "score": 0.723,
+   "target": 47.17,
+   "stop": 43.13,
+   "atr_at_entry": 1.0191907631160517,
+   "ziel_atr": 2.53,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.3698,
+   "basis_erwartung_r": 0.2421,
+   "score_components": {
+    "trend": 0.908,
+    "setup": 1.0,
+    "volumen": 0.506,
+    "qualitaet": 0.443,
+    "bewertung": 0.851,
+    "analysten": 0.547
+   },
+   "target_methods": {
+    "atr": 46.81,
+    "struktur": 47.03
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-21"
+  },
+  {
+   "symbol": "DAL",
+   "name": "Delta Air Lines",
+   "sector": "Industrie",
+   "score": 0.723,
+   "target": 86.05,
+   "stop": 76.02,
+   "atr_at_entry": 2.144087383372063,
+   "ziel_atr": 3.0,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.2754,
+   "basis_erwartung_r": 0.1098,
+   "score_components": {
+    "trend": 0.356,
+    "setup": 0.843,
+    "volumen": 0.811,
+    "qualitaet": 0.541,
+    "bewertung": 1.0,
+    "analysten": 0.992
+   },
+   "target_methods": {
+    "atr": 83.86,
+    "struktur": 86.26
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-21"
   }
  ],
  "closed": [
