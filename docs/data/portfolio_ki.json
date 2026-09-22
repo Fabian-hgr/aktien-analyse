@@ -1243,194 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "RMD",
-   "name": "ResMed|",
-   "sector": "Gesundheit",
-   "score": 0.7512,
-   "target": 241.93,
-   "stop": 219.59,
-   "atr_at_entry": 6.2502572692834155,
-   "ziel_atr": 1.98,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.427,
-   "basis_erwartung_r": 0.1078,
-   "score_components": {
-    "trend": 0.69,
-    "setup": 0.991,
-    "volumen": 1.0,
-    "qualitaet": 0.796,
-    "bewertung": 0.56,
-    "analysten": 0.508
-   },
-   "target_methods": {
-    "atr": 242.01,
-    "struktur": 241.7
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-16",
-   "tries": 2
-  },
-  {
-   "symbol": "FOXA",
-   "name": "Fox Corporation (Class A)",
-   "sector": "Kommunikation",
-   "score": 0.7463,
-   "target": 71.22,
-   "stop": 64.41,
-   "atr_at_entry": 1.8234387735266506,
-   "ziel_atr": 2.0,
-   "stop_atr": 1.74,
-   "basis_p_ziel": 0.4179,
-   "basis_erwartung_r": 0.0523,
-   "score_components": {
-    "trend": 0.92,
-    "setup": 0.945,
-    "volumen": 0.717,
-    "qualitaet": 0.61,
-    "bewertung": 0.718,
-    "analysten": 0.506
-   },
-   "target_methods": {
-    "atr": 71.01,
-    "struktur": 70.62
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-16",
-   "tries": 2
-  },
-  {
-   "symbol": "EXPE",
-   "name": "Expedia Group",
-   "sector": "Konsum zyklisch",
-   "score": 0.745,
-   "target": 326.14,
-   "stop": 273.11,
-   "atr_at_entry": 11.685834964300426,
-   "ziel_atr": 2.81,
-   "stop_atr": 1.73,
-   "basis_p_ziel": 0.2958,
-   "basis_erwartung_r": 0.0729,
-   "score_components": {
-    "trend": 0.742,
-    "setup": 0.825,
-    "volumen": 0.877,
-    "qualitaet": 0.58,
-    "bewertung": 0.833,
-    "analysten": 0.707
-   },
-   "target_methods": {
-    "atr": 315.83,
-    "struktur": 328.43
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-16",
-   "tries": 2
-  },
-  {
-   "symbol": "JPM",
-   "name": "JPMorgan Chase",
-   "sector": "Finanzen",
-   "score": 0.7442,
-   "target": 365.75,
-   "stop": 342.78,
-   "atr_at_entry": 6.379885887213896,
-   "ziel_atr": 2.02,
-   "stop_atr": 1.58,
-   "basis_p_ziel": 0.4291,
-   "basis_erwartung_r": 0.1198,
-   "score_components": {
-    "trend": 0.661,
-    "setup": 0.886,
-    "volumen": 1.0,
-    "qualitaet": 0.847,
-    "bewertung": 0.445,
-    "analysten": 0.53,
-    "sentiment": 0.85
-   },
-   "target_methods": {
-    "atr": 365.42,
-    "struktur": 366.3
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-16",
-   "tries": 2
-  },
-  {
-   "symbol": "V",
-   "name": "Visa Inc.",
-   "sector": "Finanzen",
-   "score": 0.7351,
-   "target": 385.47,
-   "stop": 366.43,
-   "atr_at_entry": 5.681211036311653,
-   "ziel_atr": 1.77,
-   "stop_atr": 1.58,
-   "basis_p_ziel": 0.477,
-   "basis_erwartung_r": 0.11,
-   "score_components": {
-    "trend": 0.892,
-    "setup": 0.963,
-    "volumen": 0.351,
-    "qualitaet": 0.857,
-    "bewertung": 0.164,
-    "analysten": 0.712,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 386.58,
-    "struktur": 385.54
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-16",
-   "tries": 2
-  },
-  {
-   "symbol": "EG",
-   "name": "Everest Group",
-   "sector": "Finanzen",
-   "score": 0.7323,
-   "target": 397.11,
-   "stop": 369.52,
-   "atr_at_entry": 6.400134853365093,
-   "ziel_atr": 2.73,
-   "stop_atr": 1.58,
-   "basis_p_ziel": 0.3099,
-   "basis_erwartung_r": 0.142,
-   "score_components": {
-    "trend": 0.859,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.394,
-    "bewertung": 0.906,
-    "analysten": 0.399
-   },
-   "target_methods": {
-    "atr": 392.23,
-    "struktur": 398.44
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-16",
-   "tries": 2
-  },
-  {
    "symbol": "EOG",
    "name": "EOG Resources",
    "sector": "Energie",
@@ -1460,7 +1272,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-17",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "APA",
@@ -1492,7 +1304,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-17",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PBR",
@@ -1523,7 +1335,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-17",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ADP",
@@ -1554,7 +1366,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-17",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "KDP",
@@ -1585,7 +1397,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-17",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "LITE",
@@ -1617,7 +1429,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-17",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BMNR",
@@ -1647,7 +1459,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-18"
+   "order_date": "2026-09-18",
+   "tries": 1
   },
   {
    "symbol": "OXY",
@@ -1677,7 +1490,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-18"
+   "order_date": "2026-09-18",
+   "tries": 1
   },
   {
    "symbol": "COP",
@@ -1707,7 +1521,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-18"
+   "order_date": "2026-09-18",
+   "tries": 1
   },
   {
    "symbol": "SMCI",
@@ -1738,7 +1553,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-18"
+   "order_date": "2026-09-18",
+   "tries": 1
   },
   {
    "symbol": "CLS",
@@ -1768,7 +1584,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-18"
+   "order_date": "2026-09-18",
+   "tries": 1
   },
   {
    "symbol": "NVDA",
@@ -1799,7 +1616,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-18"
+   "order_date": "2026-09-18",
+   "tries": 1
   },
   {
    "symbol": "GOOGL",
@@ -1830,7 +1648,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-21"
+   "order_date": "2026-09-21",
+   "tries": 1
   },
   {
    "symbol": "VEEV",
@@ -1860,7 +1679,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-21"
+   "order_date": "2026-09-21",
+   "tries": 1
   },
   {
    "symbol": "NDAQ",
@@ -1890,7 +1710,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-21"
+   "order_date": "2026-09-21",
+   "tries": 1
   },
   {
    "symbol": "AMAT",
@@ -1920,7 +1741,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-21"
+   "order_date": "2026-09-21",
+   "tries": 1
   },
   {
    "symbol": "BP",
@@ -1950,7 +1772,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-21"
+   "order_date": "2026-09-21",
+   "tries": 1
   },
   {
    "symbol": "DAL",
@@ -1980,7 +1803,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-21"
+   "order_date": "2026-09-21",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4204,6 +4028,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-09-22",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4295,6 +4127,36 @@
   {
    "date": "2026-09-18",
    "symbol": "BR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-22",
+   "symbol": "RMD",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-22",
+   "symbol": "FOXA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-22",
+   "symbol": "EXPE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-22",
+   "symbol": "JPM",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-22",
+   "symbol": "V",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-22",
+   "symbol": "EG",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]

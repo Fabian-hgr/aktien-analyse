@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-18T00:01:14+00:00",
+ "updated_at": "2026-09-22T00:40:22+00:00",
  "start_capital": 100000.0,
  "statistik": {
   "ki": {
@@ -189,6 +189,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-09-22",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "zufall": [
@@ -327,115 +335,135 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-09-22",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "spy": [
   {
    "date": "2026-08-24",
-   "equity": 100000.0,
-   "return_pct": 0.0,
+   "equity": 99752.44,
+   "return_pct": -0.248,
    "basis": 763.46
   },
   {
    "date": "2026-08-25",
-   "equity": 100305.19,
-   "return_pct": 0.305,
+   "equity": 100056.32,
+   "return_pct": 0.056,
    "basis": 763.46
   },
   {
    "date": "2026-08-26",
-   "equity": 100324.84,
-   "return_pct": 0.325,
+   "equity": 100075.97,
+   "return_pct": 0.076,
    "basis": 763.46
   },
   {
    "date": "2026-08-27",
-   "equity": 101011.19,
-   "return_pct": 1.011,
+   "equity": 100761.01,
+   "return_pct": 0.761,
    "basis": 763.46
   },
   {
    "date": "2026-08-28",
-   "equity": 100762.32,
-   "return_pct": 0.762,
+   "equity": 100512.14,
+   "return_pct": 0.512,
    "basis": 763.46
   },
   {
    "date": "2026-08-31",
-   "equity": 100446.65,
-   "return_pct": 0.447,
+   "equity": 100197.78,
+   "return_pct": 0.198,
    "basis": 763.46
   },
   {
    "date": "2026-09-01",
-   "equity": 99760.3,
-   "return_pct": -0.24,
+   "equity": 99512.74,
+   "return_pct": -0.487,
    "basis": 763.46
   },
   {
    "date": "2026-09-02",
-   "equity": 100218.74,
-   "return_pct": 0.219,
+   "equity": 99969.87,
+   "return_pct": -0.03,
    "basis": 763.46
   },
   {
    "date": "2026-09-03",
-   "equity": 101264.64,
-   "return_pct": 1.265,
+   "equity": 101013.81,
+   "return_pct": 1.014,
    "basis": 763.46
   },
   {
    "date": "2026-09-04",
-   "equity": 100880.2,
-   "return_pct": 0.88,
+   "equity": 100630.03,
+   "return_pct": 0.63,
    "basis": 763.46
   },
   {
    "date": "2026-09-08",
-   "equity": 100340.55,
-   "return_pct": 0.341,
+   "equity": 100091.69,
+   "return_pct": 0.092,
    "basis": 763.46
   },
   {
    "date": "2026-09-09",
-   "equity": 99864.43,
-   "return_pct": -0.136,
+   "equity": 99617.53,
+   "return_pct": -0.382,
    "basis": 763.46
   },
   {
    "date": "2026-09-10",
-   "equity": 99267.81,
-   "return_pct": -0.732,
+   "equity": 99021.56,
+   "return_pct": -0.978,
    "basis": 763.46
   },
   {
    "date": "2026-09-11",
-   "equity": 100089.07,
-   "return_pct": 0.089,
+   "equity": 99841.51,
+   "return_pct": -0.158,
    "basis": 763.46
   },
   {
    "date": "2026-09-14",
-   "equity": 99645.69,
-   "return_pct": -0.354,
+   "equity": 99398.79,
+   "return_pct": -0.601,
    "basis": 763.46
   },
   {
    "date": "2026-09-15",
-   "equity": 99208.86,
-   "return_pct": -0.791,
+   "equity": 98962.62,
+   "return_pct": -1.037,
    "basis": 763.46
   },
   {
    "date": "2026-09-16",
-   "equity": 98767.45,
-   "return_pct": -1.233,
+   "equity": 98522.52,
+   "return_pct": -1.477,
    "basis": 763.46
   },
   {
    "date": "2026-09-17",
-   "equity": 99892.59,
-   "return_pct": -0.107,
+   "equity": 99645.04,
+   "return_pct": -0.355,
+   "basis": 763.46
+  },
+  {
+   "date": "2026-09-18",
+   "equity": 99758.99,
+   "return_pct": -0.241,
+   "basis": 763.46
+  },
+  {
+   "date": "2026-09-21",
+   "equity": 101317.69,
+   "return_pct": 1.318,
    "basis": 763.46
   }
  ]
