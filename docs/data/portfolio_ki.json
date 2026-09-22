@@ -1805,6 +1805,189 @@
    },
    "order_date": "2026-09-21",
    "tries": 1
+  },
+  {
+   "symbol": "LRCX",
+   "name": "Lam Research",
+   "sector": "Technologie",
+   "score": 0.7583,
+   "target": 343.28,
+   "stop": 276.39,
+   "atr_at_entry": 15.408965265663,
+   "ziel_atr": 2.67,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3375,
+   "basis_erwartung_r": 0.1206,
+   "score_components": {
+    "trend": 0.264,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.974,
+    "bewertung": 0.384,
+    "analysten": 0.898
+   },
+   "target_methods": {
+    "atr": 333.54,
+    "struktur": 353.18
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-22"
+  },
+  {
+   "symbol": "WDC",
+   "name": "Western Digital",
+   "sector": "Technologie",
+   "score": 0.7437,
+   "target": 534.57,
+   "stop": 402.39,
+   "atr_at_entry": 27.365806306695386,
+   "ziel_atr": 3.16,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.2788,
+   "basis_erwartung_r": 0.1463,
+   "score_components": {
+    "trend": 0.277,
+    "setup": 0.963,
+    "volumen": 0.836,
+    "qualitaet": 0.989,
+    "bewertung": 0.814,
+    "analysten": 0.99,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 503.89,
+    "struktur": 538.79
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-22"
+  },
+  {
+   "symbol": "MPWR",
+   "name": "Monolithic Power Systems",
+   "sector": "Technologie",
+   "score": 0.7405,
+   "target": 1413.38,
+   "stop": 1192.33,
+   "atr_at_entry": 50.83895011417648,
+   "ziel_atr": 2.68,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3367,
+   "basis_erwartung_r": 0.121,
+   "score_components": {
+    "trend": 0.304,
+    "setup": 1.0,
+    "volumen": 0.56,
+    "qualitaet": 0.913,
+    "bewertung": 0.318,
+    "analysten": 0.932,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 1380.89,
+    "struktur": 1445.71
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-22"
+  },
+  {
+   "symbol": "PSX",
+   "name": "Phillips 66",
+   "sector": "Energie",
+   "score": 0.7332,
+   "target": 278.12,
+   "stop": 250.54,
+   "atr_at_entry": 7.832806129778928,
+   "ziel_atr": 2.09,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.4469,
+   "basis_erwartung_r": 0.227,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.99,
+    "volumen": 0.707,
+    "qualitaet": 0.64,
+    "bewertung": 0.6,
+    "analysten": 0.354
+   },
+   "target_methods": {
+    "atr": 278.87,
+    "struktur": 276.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-22"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "sector": "Konsum zyklisch",
+   "score": 0.7241,
+   "target": 272.77,
+   "stop": 247.84,
+   "atr_at_entry": 5.976321073739735,
+   "ziel_atr": 2.4,
+   "stop_atr": 1.77,
+   "basis_p_ziel": 0.3503,
+   "basis_erwartung_r": 0.0403,
+   "score_components": {
+    "trend": 0.623,
+    "setup": 1.0,
+    "volumen": 0.3,
+    "qualitaet": 0.828,
+    "bewertung": 0.229,
+    "analysten": 0.953,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 269.68,
+    "struktur": 276.11
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-22"
+  },
+  {
+   "symbol": "VLTO",
+   "name": "Veralto",
+   "sector": "Industrie",
+   "score": 0.7125,
+   "target": 99.43,
+   "stop": 92.52,
+   "atr_at_entry": 1.5787721495120124,
+   "ziel_atr": 2.7,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3187,
+   "basis_erwartung_r": 0.099,
+   "score_components": {
+    "trend": 0.684,
+    "setup": 0.836,
+    "volumen": 0.957,
+    "qualitaet": 0.67,
+    "bewertung": 0.378,
+    "analysten": 0.702
+   },
+   "target_methods": {
+    "atr": 98.3,
+    "struktur": 100.07
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-22"
   }
  ],
  "closed": [
