@@ -1243,195 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "EOG",
-   "name": "EOG Resources",
-   "sector": "Energie",
-   "score": 0.8006,
-   "target": 154.65,
-   "stop": 139.22,
-   "atr_at_entry": 3.930738299298279,
-   "ziel_atr": 2.48,
-   "stop_atr": 1.45,
-   "basis_p_ziel": 0.3785,
-   "basis_erwartung_r": 0.2365,
-   "score_components": {
-    "trend": 0.853,
-    "setup": 0.848,
-    "volumen": 1.0,
-    "qualitaet": 0.904,
-    "bewertung": 0.635,
-    "analysten": 0.623,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 153.43,
-    "struktur": 154.15
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-17",
-   "tries": 2
-  },
-  {
-   "symbol": "APA",
-   "name": "APA Corporation",
-   "sector": "Energie",
-   "score": 0.774,
-   "target": 48.04,
-   "stop": 42.45,
-   "atr_at_entry": 1.615104894697332,
-   "ziel_atr": 2.01,
-   "stop_atr": 1.45,
-   "basis_p_ziel": 0.4604,
-   "basis_erwartung_r": 0.2192,
-   "score_components": {
-    "trend": 0.945,
-    "setup": 0.94,
-    "volumen": 1.0,
-    "qualitaet": 0.731,
-    "bewertung": 0.663,
-    "analysten": 0.374,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 48.29,
-    "struktur": 47.44
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-17",
-   "tries": 2
-  },
-  {
-   "symbol": "PBR",
-   "name": "PETROLEO BRASILEIRO S.A.-PETROBRAS ADS (REP 1 COMMON SHARE)",
-   "sector": "Energie",
-   "score": 0.7708,
-   "target": 22.26,
-   "stop": 20.02,
-   "atr_at_entry": 0.6216736131136092,
-   "ziel_atr": 2.16,
-   "stop_atr": 1.45,
-   "basis_p_ziel": 0.4353,
-   "basis_erwartung_r": 0.2245,
-   "score_components": {
-    "trend": 0.97,
-    "setup": 0.952,
-    "volumen": 0.405,
-    "qualitaet": 0.931,
-    "bewertung": 0.6,
-    "analysten": 0.489
-   },
-   "target_methods": {
-    "atr": 22.27,
-    "struktur": 21.98
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-17",
-   "tries": 2
-  },
-  {
-   "symbol": "ADP",
-   "name": "Automatic Data Processing",
-   "sector": "Industrie",
-   "score": 0.7367,
-   "target": 285.24,
-   "stop": 263.79,
-   "atr_at_entry": 5.538026177075657,
-   "ziel_atr": 2.22,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.399,
-   "basis_erwartung_r": 0.102,
-   "score_components": {
-    "trend": 0.934,
-    "setup": 0.987,
-    "volumen": 1.0,
-    "qualitaet": 0.716,
-    "bewertung": 0.316,
-    "analysten": 0.365
-   },
-   "target_methods": {
-    "atr": 284.17,
-    "struktur": 286.02
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-17",
-   "tries": 2
-  },
-  {
-   "symbol": "KDP",
-   "name": "Keurig Dr Pepper",
-   "sector": "Konsum defensiv",
-   "score": 0.7346,
-   "target": 33.68,
-   "stop": 30.61,
-   "atr_at_entry": 0.7109966415902523,
-   "ziel_atr": 2.63,
-   "stop_atr": 1.69,
-   "basis_p_ziel": 0.3222,
-   "basis_erwartung_r": 0.0758,
-   "score_components": {
-    "trend": 0.803,
-    "setup": 1.0,
-    "volumen": 0.813,
-    "qualitaet": 0.457,
-    "bewertung": 0.731,
-    "analysten": 0.616
-   },
-   "target_methods": {
-    "atr": 33.21,
-    "struktur": 33.8
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-17",
-   "tries": 2
-  },
-  {
-   "symbol": "LITE",
-   "name": "Lumentum",
-   "sector": "Technologie",
-   "score": 0.7261,
-   "target": 1044.88,
-   "stop": 806.49,
-   "atr_at_entry": 67.43759134534625,
-   "ziel_atr": 1.87,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.4639,
-   "basis_erwartung_r": 0.0875,
-   "score_components": {
-    "trend": 0.794,
-    "setup": 0.93,
-    "volumen": 0.579,
-    "qualitaet": 0.421,
-    "bewertung": 0.639,
-    "analysten": 0.923,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 1058.64,
-    "struktur": 1025.51
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-17",
-   "tries": 2
-  },
-  {
    "symbol": "BMNR",
    "name": "BitMine Immersion Technologies, Inc.",
    "sector": "Finanzen",
@@ -1460,7 +1271,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "OXY",
@@ -1491,7 +1302,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "COP",
@@ -1522,7 +1333,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SMCI",
@@ -1554,7 +1365,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CLS",
@@ -1585,7 +1396,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NVDA",
@@ -1617,7 +1428,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "GOOGL",
@@ -1649,7 +1460,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "VEEV",
@@ -1680,7 +1491,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NDAQ",
@@ -1711,7 +1522,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AMAT",
@@ -1742,7 +1553,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BP",
@@ -1773,7 +1584,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "DAL",
@@ -1804,7 +1615,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "LRCX",
@@ -1834,7 +1645,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-22"
+   "order_date": "2026-09-22",
+   "tries": 1
   },
   {
    "symbol": "WDC",
@@ -1865,7 +1677,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-22"
+   "order_date": "2026-09-22",
+   "tries": 1
   },
   {
    "symbol": "MPWR",
@@ -1896,7 +1709,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-22"
+   "order_date": "2026-09-22",
+   "tries": 1
   },
   {
    "symbol": "PSX",
@@ -1926,7 +1740,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-22"
+   "order_date": "2026-09-22",
+   "tries": 1
   },
   {
    "symbol": "AMZN",
@@ -1957,7 +1772,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-22"
+   "order_date": "2026-09-22",
+   "tries": 1
   },
   {
    "symbol": "VLTO",
@@ -1987,7 +1803,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-22"
+   "order_date": "2026-09-22",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4219,6 +4036,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-09-23",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4340,6 +4165,36 @@
   {
    "date": "2026-09-22",
    "symbol": "EG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-23",
+   "symbol": "EOG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-23",
+   "symbol": "APA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-23",
+   "symbol": "PBR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-23",
+   "symbol": "ADP",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-23",
+   "symbol": "KDP",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-23",
+   "symbol": "LITE",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
