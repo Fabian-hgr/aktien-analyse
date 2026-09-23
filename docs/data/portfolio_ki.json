@@ -1805,6 +1805,186 @@
    },
    "order_date": "2026-09-22",
    "tries": 1
+  },
+  {
+   "symbol": "PBR",
+   "name": "PETROLEO BRASILEIRO S.A.-PETROBRAS ADS (REP 1 COMMON SHARE)",
+   "sector": "Energie",
+   "score": 0.7741,
+   "target": 22.14,
+   "stop": 19.93,
+   "atr_at_entry": 0.574004024004573,
+   "ziel_atr": 2.41,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.3894,
+   "basis_erwartung_r": 0.2385,
+   "score_components": {
+    "trend": 0.97,
+    "setup": 1.0,
+    "volumen": 0.277,
+    "qualitaet": 0.931,
+    "bewertung": 0.6,
+    "analysten": 0.502
+   },
+   "target_methods": {
+    "atr": 22.0,
+    "struktur": 21.98
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
+  },
+  {
+   "symbol": "GDDY",
+   "name": "GoDaddy",
+   "sector": "Technologie",
+   "score": 0.7726,
+   "target": 107.5,
+   "stop": 90.85,
+   "atr_at_entry": 4.401238086848251,
+   "ziel_atr": 2.11,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.4179,
+   "basis_erwartung_r": 0.09,
+   "score_components": {
+    "trend": 0.873,
+    "setup": 0.928,
+    "volumen": 1.0,
+    "qualitaet": 0.561,
+    "bewertung": 0.994,
+    "analysten": 0.504
+   },
+   "target_methods": {
+    "atr": 107.18,
+    "struktur": 105.97
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
+  },
+  {
+   "symbol": "TXN",
+   "name": "Texas Instruments",
+   "sector": "Technologie",
+   "score": 0.7387,
+   "target": 293.3,
+   "stop": 257.58,
+   "atr_at_entry": 8.267134531775042,
+   "ziel_atr": 2.65,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3401,
+   "basis_erwartung_r": 0.1194,
+   "score_components": {
+    "trend": 0.48,
+    "setup": 1.0,
+    "volumen": 0.572,
+    "qualitaet": 0.919,
+    "bewertung": 0.48,
+    "analysten": 0.762
+   },
+   "target_methods": {
+    "atr": 288.25,
+    "struktur": 298.79
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
+  },
+  {
+   "symbol": "SHEL",
+   "name": "Shell plc American Depositary Shares (Each represents two Ordinary shares)",
+   "sector": "Energie",
+   "score": 0.7277,
+   "target": 98.75,
+   "stop": 91.62,
+   "atr_at_entry": 1.6108132029950217,
+   "ziel_atr": 2.99,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.2978,
+   "basis_erwartung_r": 0.2565,
+   "score_components": {
+    "trend": 0.947,
+    "setup": 0.996,
+    "volumen": 0.48,
+    "qualitaet": 0.616,
+    "bewertung": 0.625,
+    "analysten": 0.493
+   },
+   "target_methods": {
+    "atr": 97.45,
+    "struktur": 99.16
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
+  },
+  {
+   "symbol": "PTC",
+   "name": "PTC Inc.",
+   "sector": "Technologie",
+   "score": 0.7269,
+   "target": 154.43,
+   "stop": 132.15,
+   "atr_at_entry": 4.701034825734901,
+   "ziel_atr": 3.07,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.289,
+   "basis_erwartung_r": 0.1423,
+   "score_components": {
+    "trend": 0.517,
+    "setup": 1.0,
+    "volumen": 0.499,
+    "qualitaet": 0.713,
+    "bewertung": 0.696,
+    "analysten": 0.794
+   },
+   "target_methods": {
+    "atr": 149.59,
+    "struktur": 155.58
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
+  },
+  {
+   "symbol": "KO",
+   "name": "Coca-Cola Company (The)",
+   "sector": "Konsum defensiv",
+   "score": 0.725,
+   "target": 91.3,
+   "stop": 86.45,
+   "atr_at_entry": 1.2649292036287683,
+   "ziel_atr": 2.12,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.402,
+   "basis_erwartung_r": 0.0586,
+   "score_components": {
+    "trend": 0.835,
+    "setup": 1.0,
+    "volumen": 0.92,
+    "qualitaet": 0.755,
+    "bewertung": 0.0,
+    "analysten": 0.548
+   },
+   "target_methods": {
+    "atr": 91.06,
+    "struktur": 91.93
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
   }
  ],
  "closed": [

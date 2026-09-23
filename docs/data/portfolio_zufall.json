@@ -2117,6 +2117,186 @@
    },
    "order_date": "2026-09-22",
    "tries": 1
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla, Inc.",
+   "sector": "Konsum zyklisch",
+   "score": 0.5217,
+   "target": 407.29,
+   "stop": 356.44,
+   "atr_at_entry": 12.681862709181384,
+   "ziel_atr": 2.24,
+   "stop_atr": 1.77,
+   "basis_p_ziel": 0.3783,
+   "basis_erwartung_r": 0.0382,
+   "score_components": {
+    "trend": 0.542,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.479,
+    "bewertung": 0.0,
+    "analysten": 0.529
+   },
+   "target_methods": {
+    "atr": 402.78,
+    "struktur": 416.41
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
+  },
+  {
+   "symbol": "CVX",
+   "name": "Chevron Corporation",
+   "sector": "Energie",
+   "score": 0.6707,
+   "target": 213.78,
+   "stop": 196.25,
+   "atr_at_entry": 4.327295946002238,
+   "ziel_atr": 2.62,
+   "stop_atr": 1.44,
+   "basis_p_ziel": 0.3567,
+   "basis_erwartung_r": 0.2446,
+   "score_components": {
+    "trend": 0.943,
+    "setup": 0.667,
+    "volumen": 0.509,
+    "qualitaet": 0.625,
+    "bewertung": 0.471,
+    "analysten": 0.604
+   },
+   "target_methods": {
+    "atr": 211.91,
+    "struktur": 216.55
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
+  },
+  {
+   "symbol": "ROL",
+   "name": "Rollins, Inc.",
+   "sector": "Industrie",
+   "score": 0.5131,
+   "target": 35.07,
+   "stop": 31.47,
+   "atr_at_entry": 0.8408853026271934,
+   "ziel_atr": 2.61,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3311,
+   "basis_erwartung_r": 0.0959,
+   "score_components": {
+    "trend": 0.162,
+    "setup": 0.417,
+    "volumen": 1.0,
+    "qualitaet": 0.658,
+    "bewertung": 0.185,
+    "analysten": 0.765
+   },
+   "target_methods": {
+    "atr": 34.55,
+    "struktur": 35.49
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
+  },
+  {
+   "symbol": "TTD",
+   "name": "Trade Desk (The)",
+   "sector": "Kommunikation",
+   "score": 0.4633,
+   "target": 14.88,
+   "stop": 11.98,
+   "atr_at_entry": 0.6789995261468327,
+   "ziel_atr": 2.51,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.3217,
+   "basis_erwartung_r": 0.0374,
+   "score_components": {
+    "trend": 0.072,
+    "setup": 0.536,
+    "volumen": 1.0,
+    "qualitaet": 0.521,
+    "bewertung": 0.665,
+    "analysten": 0.399
+   },
+   "target_methods": {
+    "atr": 14.43,
+    "struktur": 15.16
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
+  },
+  {
+   "symbol": "TJX",
+   "name": "TJX Companies",
+   "sector": "Konsum zyklisch",
+   "score": 0.5485,
+   "target": 137.81,
+   "stop": 125.69,
+   "atr_at_entry": 2.8845847992841307,
+   "ziel_atr": 2.43,
+   "stop_atr": 1.77,
+   "basis_p_ziel": 0.3452,
+   "basis_erwartung_r": 0.0407,
+   "score_components": {
+    "trend": 0.2,
+    "setup": 0.799,
+    "volumen": 0.468,
+    "qualitaet": 0.546,
+    "bewertung": 0.114,
+    "analysten": 0.888
+   },
+   "target_methods": {
+    "atr": 136.23,
+    "struktur": 139.33
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk",
+   "sector": "Technologie",
+   "score": 0.6134,
+   "target": 246.54,
+   "stop": 205.31,
+   "atr_at_entry": 8.581705909584649,
+   "ziel_atr": 3.13,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.2816,
+   "basis_erwartung_r": 0.1452,
+   "score_components": {
+    "trend": 0.302,
+    "setup": 0.656,
+    "volumen": 0.0,
+    "qualitaet": 0.791,
+    "bewertung": 0.78,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 237.14,
+    "struktur": 248.08
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-23"
   }
  ],
  "closed": [
