@@ -1931,6 +1931,187 @@
    },
    "order_date": "2026-09-23",
    "tries": 1
+  },
+  {
+   "symbol": "PSX",
+   "name": "Phillips 66",
+   "sector": "Energie",
+   "score": 0.708,
+   "target": 276.17,
+   "stop": 244.42,
+   "atr_at_entry": 8.280455285579624,
+   "ziel_atr": 2.4,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.392,
+   "basis_erwartung_r": 0.2377,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.64,
+    "bewertung": 0.6,
+    "analysten": 0.386,
+    "sentiment": 0.35
+   },
+   "target_methods": {
+    "atr": 274.37,
+    "struktur": 276.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-24"
+  },
+  {
+   "symbol": "SPCX",
+   "name": "Space Exploration Technologies Corp. Class A Common Stock",
+   "sector": "Industrie",
+   "score": 0.6269,
+   "target": 160.28,
+   "stop": 136.46,
+   "atr_at_entry": 7.103246372275086,
+   "ziel_atr": 1.68,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.4878,
+   "basis_erwartung_r": 0.0574,
+   "score_components": {
+    "trend": 0.666,
+    "setup": 0.895,
+    "volumen": 0.074,
+    "qualitaet": 0.567,
+    "bewertung": 0.0,
+    "analysten": 0.884
+   },
+   "target_methods": {
+    "atr": 162.44,
+    "struktur": 158.12
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-24"
+  },
+  {
+   "symbol": "TECH",
+   "name": "Bio-Techne",
+   "sector": "Gesundheit",
+   "score": 0.5752,
+   "target": 73.02,
+   "stop": 72.17,
+   "atr_at_entry": 0.21916851404929694,
+   "ziel_atr": 2.25,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3763,
+   "basis_erwartung_r": 0.1011,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.788,
+    "volumen": 0.86,
+    "qualitaet": 0.461,
+    "bewertung": 0.078,
+    "analysten": 0.135
+   },
+   "target_methods": {
+    "atr": 72.96,
+    "struktur": 73.18
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-24"
+  },
+  {
+   "symbol": "IDXX",
+   "name": "Idexx Laboratories",
+   "sector": "Gesundheit",
+   "score": 0.542,
+   "target": 553.06,
+   "stop": 502.06,
+   "atr_at_entry": 12.442137306398704,
+   "ziel_atr": 2.49,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3327,
+   "basis_erwartung_r": 0.1068,
+   "score_components": {
+    "trend": 0.081,
+    "setup": 0.891,
+    "volumen": 0.039,
+    "qualitaet": 0.818,
+    "bewertung": 0.0,
+    "analysten": 0.843
+   },
+   "target_methods": {
+    "atr": 546.6,
+    "struktur": 559.49
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-24"
+  },
+  {
+   "symbol": "BSX",
+   "name": "Boston Scientific",
+   "sector": "Gesundheit",
+   "score": 0.6151,
+   "target": 49.16,
+   "stop": 42.17,
+   "atr_at_entry": 1.5493869110082954,
+   "ziel_atr": 2.9,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2734,
+   "basis_erwartung_r": 0.1106,
+   "score_components": {
+    "trend": 0.151,
+    "setup": 0.816,
+    "volumen": 0.357,
+    "qualitaet": 0.577,
+    "bewertung": 0.826,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 47.72,
+    "struktur": 49.32
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-24"
+  },
+  {
+   "symbol": "FE",
+   "name": "FirstEnergy",
+   "sector": "Versorger",
+   "score": 0.4155,
+   "target": 45.42,
+   "stop": 42.58,
+   "atr_at_entry": 0.6914615962181537,
+   "ziel_atr": 2.53,
+   "stop_atr": 1.58,
+   "basis_p_ziel": 0.303,
+   "basis_erwartung_r": 0.0691,
+   "score_components": {
+    "trend": 0.138,
+    "setup": 0.34,
+    "volumen": 0.713,
+    "qualitaet": 0.282,
+    "bewertung": 0.563,
+    "analysten": 0.698
+   },
+   "target_methods": {
+    "atr": 44.95,
+    "struktur": 45.59
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-24"
   }
  ],
  "closed": [
