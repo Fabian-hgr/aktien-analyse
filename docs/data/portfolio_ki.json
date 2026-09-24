@@ -1243,381 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "BMNR",
-   "name": "BitMine Immersion Technologies, Inc.",
-   "sector": "Finanzen",
-   "score": 0.7673,
-   "target": 27.06,
-   "stop": 21.22,
-   "atr_at_entry": 1.6758867215169615,
-   "ziel_atr": 1.91,
-   "stop_atr": 1.58,
-   "basis_p_ziel": 0.4502,
-   "basis_erwartung_r": 0.1155,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 0.974,
-    "volumen": 0.041,
-    "qualitaet": 0.45,
-    "analysten": 0.85,
-    "sentiment": 0.9
-   },
-   "target_methods": {
-    "atr": 27.16,
-    "struktur": 26.96
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "OXY",
-   "name": "Occidental Petroleum",
-   "sector": "Energie",
-   "score": 0.7594,
-   "target": 63.22,
-   "stop": 56.94,
-   "atr_at_entry": 1.6174390122289066,
-   "ziel_atr": 2.44,
-   "stop_atr": 1.45,
-   "basis_p_ziel": 0.3862,
-   "basis_erwartung_r": 0.2347,
-   "score_components": {
-    "trend": 0.88,
-    "setup": 0.855,
-    "volumen": 0.778,
-    "qualitaet": 0.779,
-    "bewertung": 0.422,
-    "analysten": 0.673
-   },
-   "target_methods": {
-    "atr": 62.79,
-    "struktur": 63.77
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "COP",
-   "name": "ConocoPhillips",
-   "sector": "Energie",
-   "score": 0.7462,
-   "target": 141.07,
-   "stop": 128.23,
-   "atr_at_entry": 3.4462447099990237,
-   "ziel_atr": 2.28,
-   "stop_atr": 1.45,
-   "basis_p_ziel": 0.4133,
-   "basis_erwartung_r": 0.2292,
-   "score_components": {
-    "trend": 0.929,
-    "setup": 1.0,
-    "volumen": 0.508,
-    "qualitaet": 0.686,
-    "bewertung": 0.481,
-    "analysten": 0.598
-   },
-   "target_methods": {
-    "atr": 140.68,
-    "struktur": 141.62
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "SMCI",
-   "name": "Supermicro",
-   "sector": "Technologie",
-   "score": 0.7335,
-   "target": 47.67,
-   "stop": 36.27,
-   "atr_at_entry": 2.4424570115253914,
-   "ziel_atr": 3.0,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3028,
-   "basis_erwartung_r": 0.1545,
-   "score_components": {
-    "trend": 0.915,
-    "setup": 0.801,
-    "volumen": 1.0,
-    "qualitaet": 0.632,
-    "bewertung": 0.918,
-    "analysten": 0.366,
-    "sentiment": 0.7
-   },
-   "target_methods": {
-    "atr": 45.4,
-    "struktur": 48.53
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "CLS",
-   "name": "Celestica, Inc.",
-   "sector": "Technologie",
-   "score": 0.7331,
-   "target": 380.84,
-   "stop": 296.42,
-   "atr_at_entry": 20.063527981863356,
-   "ziel_atr": 2.54,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3608,
-   "basis_erwartung_r": 0.1282,
-   "score_components": {
-    "trend": 0.459,
-    "setup": 1.0,
-    "volumen": 0.364,
-    "qualitaet": 0.754,
-    "bewertung": 0.704,
-    "analysten": 0.939
-   },
-   "target_methods": {
-    "atr": 371.44,
-    "struktur": 378.5
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "sector": "Technologie",
-   "score": 0.7325,
-   "target": 236.24,
-   "stop": 208.57,
-   "atr_at_entry": 6.494419898941844,
-   "ziel_atr": 2.59,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.354,
-   "basis_erwartung_r": 0.1313,
-   "score_components": {
-    "trend": 0.609,
-    "setup": 1.0,
-    "volumen": 0.1,
-    "qualitaet": 0.986,
-    "bewertung": 0.883,
-    "analysten": 1.0,
-    "sentiment": 0.6
-   },
-   "target_methods": {
-    "atr": 232.85,
-    "struktur": 234.49
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "GOOGL",
-   "name": "Alphabet Inc. (Class A)",
-   "sector": "Kommunikation",
-   "score": 0.7462,
-   "target": 368.67,
-   "stop": 334.62,
-   "atr_at_entry": 8.312353468795918,
-   "ziel_atr": 2.34,
-   "stop_atr": 1.76,
-   "basis_p_ziel": 0.3514,
-   "basis_erwartung_r": 0.037,
-   "score_components": {
-    "trend": 0.481,
-    "setup": 1.0,
-    "volumen": 0.762,
-    "qualitaet": 0.978,
-    "bewertung": 0.246,
-    "analysten": 0.884,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 364.65,
-    "struktur": 373.56
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
-   "symbol": "VEEV",
-   "name": "Veeva Systems",
-   "sector": "Gesundheit",
-   "score": 0.7377,
-   "target": 279.72,
-   "stop": 247.25,
-   "atr_at_entry": 8.157311037392775,
-   "ziel_atr": 2.38,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.3535,
-   "basis_erwartung_r": 0.1042,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 1.0,
-    "volumen": 0.122,
-    "qualitaet": 0.781,
-    "bewertung": 0.285,
-    "analysten": 0.677
-   },
-   "target_methods": {
-    "atr": 276.45,
-    "struktur": 284.9
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
-   "symbol": "NDAQ",
-   "name": "Nasdaq, Inc.",
-   "sector": "Finanzen",
-   "score": 0.7331,
-   "target": 98.33,
-   "stop": 90.18,
-   "atr_at_entry": 2.053280668889922,
-   "ziel_atr": 2.35,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3661,
-   "basis_erwartung_r": 0.1103,
-   "score_components": {
-    "trend": 0.744,
-    "setup": 0.966,
-    "volumen": 1.0,
-    "qualitaet": 0.719,
-    "bewertung": 0.154,
-    "analysten": 0.657
-   },
-   "target_methods": {
-    "atr": 97.46,
-    "struktur": 99.57
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "sector": "Technologie",
-   "score": 0.7297,
-   "target": 503.55,
-   "stop": 409.09,
-   "atr_at_entry": 21.27646213931178,
-   "ziel_atr": 2.77,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3253,
-   "basis_erwartung_r": 0.1262,
-   "score_components": {
-    "trend": 0.308,
-    "setup": 0.792,
-    "volumen": 0.752,
-    "qualitaet": 0.975,
-    "bewertung": 0.498,
-    "analysten": 1.0
-   },
-   "target_methods": {
-    "atr": 488.0,
-    "struktur": 515.13
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
-   "symbol": "BP",
-   "name": "BP p.l.c.",
-   "sector": "Energie",
-   "score": 0.723,
-   "target": 47.17,
-   "stop": 43.13,
-   "atr_at_entry": 1.0191907631160517,
-   "ziel_atr": 2.53,
-   "stop_atr": 1.43,
-   "basis_p_ziel": 0.3698,
-   "basis_erwartung_r": 0.2421,
-   "score_components": {
-    "trend": 0.908,
-    "setup": 1.0,
-    "volumen": 0.506,
-    "qualitaet": 0.443,
-    "bewertung": 0.851,
-    "analysten": 0.547
-   },
-   "target_methods": {
-    "atr": 46.81,
-    "struktur": 47.03
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
-   "symbol": "DAL",
-   "name": "Delta Air Lines",
-   "sector": "Industrie",
-   "score": 0.723,
-   "target": 86.05,
-   "stop": 76.02,
-   "atr_at_entry": 2.144087383372063,
-   "ziel_atr": 3.0,
-   "stop_atr": 1.68,
-   "basis_p_ziel": 0.2754,
-   "basis_erwartung_r": 0.1098,
-   "score_components": {
-    "trend": 0.356,
-    "setup": 0.843,
-    "volumen": 0.811,
-    "qualitaet": 0.541,
-    "bewertung": 1.0,
-    "analysten": 0.992
-   },
-   "target_methods": {
-    "atr": 83.86,
-    "struktur": 86.26
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
    "symbol": "LRCX",
    "name": "Lam Research",
    "sector": "Technologie",
@@ -1646,7 +1271,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "WDC",
@@ -1678,7 +1303,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MPWR",
@@ -1710,7 +1335,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PSX",
@@ -1741,7 +1366,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AMZN",
@@ -1773,7 +1398,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "VLTO",
@@ -1804,7 +1429,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PBR",
@@ -1834,7 +1459,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   },
   {
    "symbol": "GDDY",
@@ -1864,7 +1490,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   },
   {
    "symbol": "TXN",
@@ -1894,7 +1521,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   },
   {
    "symbol": "SHEL",
@@ -1924,7 +1552,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   },
   {
    "symbol": "PTC",
@@ -1954,7 +1583,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   },
   {
    "symbol": "KO",
@@ -1984,7 +1614,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4224,6 +3855,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-09-24",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4375,6 +4014,66 @@
   {
    "date": "2026-09-23",
    "symbol": "LITE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "BMNR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "OXY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "COP",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "SMCI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "CLS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "NVDA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "GOOGL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "VEEV",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "NDAQ",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "AMAT",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "BP",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "DAL",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]

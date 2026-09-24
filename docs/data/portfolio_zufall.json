@@ -1561,378 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "CRCL",
-   "name": "Circle Internet Group, Inc.",
-   "sector": "Finanzen",
-   "score": 0.6221,
-   "target": 100.46,
-   "stop": 74.31,
-   "atr_at_entry": 6.785305109666717,
-   "ziel_atr": 2.27,
-   "stop_atr": 1.58,
-   "basis_p_ziel": 0.3854,
-   "basis_erwartung_r": 0.1285,
-   "score_components": {
-    "trend": 0.675,
-    "setup": 0.883,
-    "volumen": 0.316,
-    "qualitaet": 0.586,
-    "bewertung": 0.0,
-    "analysten": 0.798
-   },
-   "target_methods": {
-    "atr": 98.38,
-    "struktur": 103.24
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "PH",
-   "name": "Parker Hannifin",
-   "sector": "Industrie",
-   "score": 0.4634,
-   "target": 982.02,
-   "stop": 890.24,
-   "atr_at_entry": 21.210768735598112,
-   "ziel_atr": 2.67,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.329,
-   "basis_erwartung_r": 0.1218,
-   "score_components": {
-    "trend": 0.185,
-    "setup": 0.514,
-    "volumen": 0.03,
-    "qualitaet": 0.682,
-    "bewertung": 0.23,
-    "analysten": 0.84
-   },
-   "target_methods": {
-    "atr": 968.32,
-    "struktur": 992.22
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "DELL",
-   "name": "Dell Technologies",
-   "sector": "Technologie",
-   "score": 0.5834,
-   "target": 675.18,
-   "stop": 533.48,
-   "atr_at_entry": 32.93725488746209,
-   "ziel_atr": 2.63,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3489,
-   "basis_erwartung_r": 0.1336,
-   "score_components": {
-    "trend": 0.893,
-    "setup": 0.547,
-    "volumen": 0.152,
-    "qualitaet": 0.619,
-    "bewertung": 0.698,
-    "analysten": 0.406
-   },
-   "target_methods": {
-    "atr": 656.63,
-    "struktur": 698.89
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "HRL",
-   "name": "Hormel Foods",
-   "sector": "Konsum defensiv",
-   "score": 0.3742,
-   "target": 22.05,
-   "stop": 19.99,
-   "atr_at_entry": 0.4596149357174677,
-   "ziel_atr": 2.79,
-   "stop_atr": 1.7,
-   "basis_p_ziel": 0.2964,
-   "basis_erwartung_r": 0.0745,
-   "score_components": {
-    "trend": 0.192,
-    "setup": 0.4,
-    "volumen": 0.0,
-    "qualitaet": 0.248,
-    "bewertung": 0.597,
-    "analysten": 0.74
-   },
-   "target_methods": {
-    "atr": 21.67,
-    "struktur": 22.16
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "BR",
-   "name": "Broadridge Financial Solutions",
-   "sector": "Industrie",
-   "score": 0.5877,
-   "target": 177.91,
-   "stop": 157.0,
-   "atr_at_entry": 4.4378647434221055,
-   "ziel_atr": 3.06,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.2749,
-   "basis_erwartung_r": 0.1349,
-   "score_components": {
-    "trend": 0.513,
-    "setup": 0.614,
-    "volumen": 0.13,
-    "qualitaet": 0.635,
-    "bewertung": 0.574,
-    "analysten": 0.831
-   },
-   "target_methods": {
-    "atr": 173.34,
-    "struktur": 178.34
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "HII",
-   "name": "Huntington Ingalls Industries",
-   "sector": "Industrie",
-   "score": 0.4837,
-   "target": 297.35,
-   "stop": 266.22,
-   "atr_at_entry": 6.6058125195496045,
-   "ziel_atr": 3.06,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.2747,
-   "basis_erwartung_r": 0.1349,
-   "score_components": {
-    "trend": 0.15,
-    "setup": 0.46,
-    "volumen": 0.227,
-    "qualitaet": 0.428,
-    "bewertung": 0.838,
-    "analysten": 0.873
-   },
-   "target_methods": {
-    "atr": 290.54,
-    "struktur": 297.98
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-18",
-   "tries": 2
-  },
-  {
-   "symbol": "EQT",
-   "name": "EQT Corporation",
-   "sector": "Energie",
-   "score": 0.4899,
-   "target": 53.95,
-   "stop": 48.01,
-   "atr_at_entry": 1.3751176702311874,
-   "ziel_atr": 2.88,
-   "stop_atr": 1.44,
-   "basis_p_ziel": 0.3151,
-   "basis_erwartung_r": 0.2529,
-   "score_components": {
-    "trend": 0.175,
-    "setup": 0.39,
-    "volumen": 0.256,
-    "qualitaet": 0.554,
-    "bewertung": 0.472,
-    "analysten": 1.0
-   },
-   "target_methods": {
-    "atr": 52.99,
-    "struktur": 54.46
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
-   "symbol": "PG",
-   "name": "Procter & Gamble",
-   "sector": "Konsum defensiv",
-   "score": 0.5649,
-   "target": 151.69,
-   "stop": 142.38,
-   "atr_at_entry": 2.2945598199728354,
-   "ziel_atr": 2.34,
-   "stop_atr": 1.72,
-   "basis_p_ziel": 0.3643,
-   "basis_erwartung_r": 0.06,
-   "score_components": {
-    "trend": 0.493,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 0.674,
-    "bewertung": 0.136,
-    "analysten": 0.593
-   },
-   "target_methods": {
-    "atr": 150.75,
-    "struktur": 153.17
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
-   "symbol": "BP",
-   "name": "BP p.l.c.",
-   "sector": "Energie",
-   "score": 0.723,
-   "target": 47.17,
-   "stop": 43.13,
-   "atr_at_entry": 1.0191907631160517,
-   "ziel_atr": 2.53,
-   "stop_atr": 1.43,
-   "basis_p_ziel": 0.3698,
-   "basis_erwartung_r": 0.2421,
-   "score_components": {
-    "trend": 0.908,
-    "setup": 1.0,
-    "volumen": 0.506,
-    "qualitaet": 0.443,
-    "bewertung": 0.851,
-    "analysten": 0.547
-   },
-   "target_methods": {
-    "atr": 46.81,
-    "struktur": 47.03
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
-   "symbol": "HONA",
-   "name": "Honeywell Aerospace",
-   "sector": "Industrie",
-   "score": 0.5839,
-   "target": 183.48,
-   "stop": 151.84,
-   "atr_at_entry": 7.0144154937989835,
-   "ziel_atr": 2.84,
-   "stop_atr": 1.68,
-   "basis_p_ziel": 0.2987,
-   "basis_erwartung_r": 0.104,
-   "score_components": {
-    "trend": 0.12,
-    "setup": 1.0,
-    "volumen": 0.567,
-    "qualitaet": 0.395,
-    "bewertung": 0.655,
-    "analysten": 0.82
-   },
-   "target_methods": {
-    "atr": 177.49,
-    "struktur": 185.35
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
-   "symbol": "SHEL",
-   "name": "Shell plc American Depositary Shares (Each represents two Ordinary shares)",
-   "sector": "Energie",
-   "score": 0.7064,
-   "target": 99.01,
-   "stop": 92.22,
-   "atr_at_entry": 1.6147301052124041,
-   "ziel_atr": 2.77,
-   "stop_atr": 1.44,
-   "basis_p_ziel": 0.3332,
-   "basis_erwartung_r": 0.2492,
-   "score_components": {
-    "trend": 0.962,
-    "setup": 1.0,
-    "volumen": 0.25,
-    "qualitaet": 0.616,
-    "bewertung": 0.625,
-    "analysten": 0.482
-   },
-   "target_methods": {
-    "atr": 98.06,
-    "struktur": 99.16
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
-   "symbol": "NRG",
-   "name": "NRG Energy",
-   "sector": "Versorger",
-   "score": 0.4579,
-   "target": 115.5,
-   "stop": 96.72,
-   "atr_at_entry": 4.36690096071843,
-   "ziel_atr": 2.73,
-   "stop_atr": 1.57,
-   "basis_p_ziel": 0.2735,
-   "basis_erwartung_r": 0.0697,
-   "score_components": {
-    "trend": 0.097,
-    "setup": 0.512,
-    "volumen": 0.01,
-    "qualitaet": 0.352,
-    "bewertung": 0.966,
-    "analysten": 0.864
-   },
-   "target_methods": {
-    "atr": 111.67,
-    "struktur": 115.69
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-21",
-   "tries": 2
-  },
-  {
    "symbol": "ON",
    "name": "ON Semiconductor",
    "sector": "Technologie",
@@ -1961,7 +1589,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TXT",
@@ -1992,7 +1620,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "LUV",
@@ -2023,7 +1651,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TROW",
@@ -2054,7 +1682,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "FICO",
@@ -2085,7 +1713,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "HIG",
@@ -2116,7 +1744,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TSLA",
@@ -2146,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   },
   {
    "symbol": "CVX",
@@ -2176,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   },
   {
    "symbol": "ROL",
@@ -2206,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   },
   {
    "symbol": "TTD",
@@ -2236,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   },
   {
    "symbol": "TJX",
@@ -2266,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   },
   {
    "symbol": "ADSK",
@@ -2296,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-23"
+   "order_date": "2026-09-23",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4044,6 +3678,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-09-24",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -4195,6 +3837,66 @@
   {
    "date": "2026-09-23",
    "symbol": "DUK",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "CRCL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "PH",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "DELL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "HRL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "BR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "HII",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "EQT",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "PG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "BP",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "HONA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "SHEL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-24",
+   "symbol": "NRG",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
