@@ -1618,6 +1618,188 @@
    },
    "order_date": "2026-09-24",
    "tries": 1
+  },
+  {
+   "symbol": "VEEV",
+   "name": "Veeva Systems",
+   "sector": "Gesundheit",
+   "score": 0.7834,
+   "target": 292.02,
+   "stop": 262.34,
+   "atr_at_entry": 7.7800768082369505,
+   "ziel_atr": 2.21,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3826,
+   "basis_erwartung_r": 0.1006,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.988,
+    "volumen": 0.554,
+    "qualitaet": 0.781,
+    "bewertung": 0.285,
+    "analysten": 0.582,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 290.19,
+    "struktur": 296.24
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "NXPI",
+   "name": "NXP Semiconductors",
+   "sector": "Technologie",
+   "score": 0.7466,
+   "target": 253.01,
+   "stop": 217.99,
+   "atr_at_entry": 7.251333823893803,
+   "ziel_atr": 3.16,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.2788,
+   "basis_erwartung_r": 0.1463,
+   "score_components": {
+    "trend": 0.289,
+    "setup": 1.0,
+    "volumen": 0.396,
+    "qualitaet": 0.829,
+    "bewertung": 0.918,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 244.88,
+    "struktur": 254.13
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "VLTO",
+   "name": "Veralto",
+   "sector": "Industrie",
+   "score": 0.7368,
+   "target": 100.28,
+   "stop": 93.71,
+   "atr_at_entry": 1.5101575848655937,
+   "ziel_atr": 2.68,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3211,
+   "basis_erwartung_r": 0.0984,
+   "score_components": {
+    "trend": 0.62,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.67,
+    "bewertung": 0.378,
+    "analysten": 0.681
+   },
+   "target_methods": {
+    "atr": 99.23,
+    "struktur": 100.92
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "BP",
+   "name": "BP p.l.c.",
+   "sector": "Energie",
+   "score": 0.7358,
+   "target": 47.21,
+   "stop": 42.81,
+   "atr_at_entry": 1.1145678204542306,
+   "ziel_atr": 2.52,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.372,
+   "basis_erwartung_r": 0.2418,
+   "score_components": {
+    "trend": 0.89,
+    "setup": 1.0,
+    "volumen": 0.668,
+    "qualitaet": 0.443,
+    "bewertung": 0.851,
+    "analysten": 0.554,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 46.84,
+    "struktur": 47.03
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "MPWR",
+   "name": "Monolithic Power Systems",
+   "sector": "Technologie",
+   "score": 0.7348,
+   "target": 1486.09,
+   "stop": 1242.74,
+   "atr_at_entry": 55.967111296230044,
+   "ziel_atr": 2.68,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3367,
+   "basis_erwartung_r": 0.121,
+   "score_components": {
+    "trend": 0.51,
+    "setup": 1.0,
+    "volumen": 0.154,
+    "qualitaet": 0.913,
+    "bewertung": 0.318,
+    "analysten": 0.932
+   },
+   "target_methods": {
+    "atr": 1450.33,
+    "struktur": 1521.68
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica, Inc.",
+   "sector": "Technologie",
+   "score": 0.7259,
+   "target": 428.39,
+   "stop": 341.69,
+   "atr_at_entry": 18.930871266251796,
+   "ziel_atr": 2.91,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3079,
+   "basis_erwartung_r": 0.1342,
+   "score_components": {
+    "trend": 0.778,
+    "setup": 0.612,
+    "volumen": 0.481,
+    "qualitaet": 0.754,
+    "bewertung": 0.685,
+    "analysten": 0.886
+   },
+   "target_methods": {
+    "atr": 411.9,
+    "struktur": 436.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
   }
  ],
  "closed": [

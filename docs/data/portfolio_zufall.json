@@ -1932,6 +1932,187 @@
    },
    "order_date": "2026-09-24",
    "tries": 1
+  },
+  {
+   "symbol": "LII",
+   "name": "Lennox International",
+   "sector": "Industrie",
+   "score": 0.5451,
+   "target": 397.44,
+   "stop": 351.29,
+   "atr_at_entry": 9.8693105793194,
+   "ziel_atr": 3.0,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.2753,
+   "basis_erwartung_r": 0.1098,
+   "score_components": {
+    "trend": 0.194,
+    "setup": 0.52,
+    "volumen": 0.383,
+    "qualitaet": 0.57,
+    "bewertung": 0.81,
+    "analysten": 0.843
+   },
+   "target_methods": {
+    "atr": 387.38,
+    "struktur": 398.43
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv",
+   "sector": "Industrie",
+   "score": 0.5324,
+   "target": 277.7,
+   "stop": 224.32,
+   "atr_at_entry": 12.568223749699348,
+   "ziel_atr": 2.57,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3362,
+   "basis_erwartung_r": 0.0947,
+   "score_components": {
+    "trend": 0.074,
+    "setup": 0.732,
+    "volumen": 0.006,
+    "qualitaet": 0.817,
+    "bewertung": 0.444,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 270.28,
+    "struktur": 284.35
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "ABT",
+   "name": "Abbott Laboratories",
+   "sector": "Gesundheit",
+   "score": 0.5035,
+   "target": 107.1,
+   "stop": 97.37,
+   "atr_at_entry": 2.3050244968231004,
+   "ziel_atr": 2.62,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3145,
+   "basis_erwartung_r": 0.108,
+   "score_components": {
+    "trend": 0.471,
+    "setup": 0.502,
+    "volumen": 0.078,
+    "qualitaet": 0.495,
+    "bewertung": 0.428,
+    "analysten": 0.752
+   },
+   "target_methods": {
+    "atr": 105.62,
+    "struktur": 108.01
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "sector": "Technologie",
+   "score": 0.8066,
+   "target": 519.18,
+   "stop": 479.57,
+   "atr_at_entry": 10.77662619669216,
+   "ziel_atr": 2.0,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.4342,
+   "basis_erwartung_r": 0.0842,
+   "score_components": {
+    "trend": 0.954,
+    "setup": 0.979,
+    "volumen": 0.518,
+    "qualitaet": 0.916,
+    "bewertung": 0.465,
+    "analysten": 0.772,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 519.54,
+    "struktur": 517.75
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "sector": "Kommunikation",
+   "score": 0.5765,
+   "target": 355.61,
+   "stop": 283.48,
+   "atr_at_entry": 16.535283249018267,
+   "ziel_atr": 2.6,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.3095,
+   "basis_erwartung_r": 0.0392,
+   "score_components": {
+    "trend": 0.083,
+    "setup": 0.765,
+    "volumen": 0.162,
+    "qualitaet": 0.911,
+    "bewertung": 0.66,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 343.22,
+    "struktur": 360.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "BKR",
+   "name": "Baker Hughes",
+   "sector": "Energie",
+   "score": 0.48,
+   "target": 61.77,
+   "stop": 54.91,
+   "atr_at_entry": 1.6639767447567997,
+   "ziel_atr": 2.69,
+   "stop_atr": 1.44,
+   "basis_p_ziel": 0.3453,
+   "basis_erwartung_r": 0.2468,
+   "score_components": {
+    "trend": 0.154,
+    "setup": 0.545,
+    "volumen": 0.647,
+    "qualitaet": 0.406,
+    "bewertung": 0.18,
+    "analysten": 0.851
+   },
+   "target_methods": {
+    "atr": 60.93,
+    "struktur": 62.72
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-25"
   }
  ],
  "closed": [
