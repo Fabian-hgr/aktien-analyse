@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "ON",
-   "name": "ON Semiconductor",
-   "sector": "Technologie",
-   "score": 0.5942,
-   "target": 83.16,
-   "stop": 65.57,
-   "atr_at_entry": 3.679506543588963,
-   "ziel_atr": 3.11,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.2842,
-   "basis_erwartung_r": 0.1442,
-   "score_components": {
-    "trend": 0.126,
-    "setup": 0.881,
-    "volumen": 0.425,
-    "qualitaet": 0.421,
-    "bewertung": 0.834,
-    "analysten": 0.925
-   },
-   "target_methods": {
-    "atr": 79.22,
-    "struktur": 83.91
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-22",
-   "tries": 2
-  },
-  {
-   "symbol": "TXT",
-   "name": "Textron",
-   "sector": "Industrie",
-   "score": 0.4826,
-   "target": 84.22,
-   "stop": 76.71,
-   "atr_at_entry": 1.610305204660634,
-   "ziel_atr": 2.99,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.2767,
-   "basis_erwartung_r": 0.1095,
-   "score_components": {
-    "trend": 0.112,
-    "setup": 0.528,
-    "volumen": 0.287,
-    "qualitaet": 0.37,
-    "bewertung": 0.887,
-    "analysten": 0.834
-   },
-   "target_methods": {
-    "atr": 82.6,
-    "struktur": 84.4
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-22",
-   "tries": 2
-  },
-  {
-   "symbol": "LUV",
-   "name": "Southwest Airlines",
-   "sector": "Industrie",
-   "score": 0.5721,
-   "target": 45.27,
-   "stop": 39.76,
-   "atr_at_entry": 1.198849862973821,
-   "ziel_atr": 2.92,
-   "stop_atr": 1.68,
-   "basis_p_ziel": 0.2869,
-   "basis_erwartung_r": 0.1069,
-   "score_components": {
-    "trend": 0.148,
-    "setup": 1.0,
-    "volumen": 0.378,
-    "qualitaet": 0.395,
-    "bewertung": 1.0,
-    "analysten": 0.638
-   },
-   "target_methods": {
-    "atr": 44.14,
-    "struktur": 45.49
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-22",
-   "tries": 2
-  },
-  {
-   "symbol": "TROW",
-   "name": "T. Rowe Price",
-   "sector": "Finanzen",
-   "score": 0.5136,
-   "target": 109.67,
-   "stop": 101.55,
-   "atr_at_entry": 1.9046644518505946,
-   "ziel_atr": 2.64,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3172,
-   "basis_erwartung_r": 0.1182,
-   "score_components": {
-    "trend": 0.404,
-    "setup": 0.554,
-    "volumen": 0.623,
-    "qualitaet": 0.772,
-    "bewertung": 0.439,
-    "analysten": 0.331
-   },
-   "target_methods": {
-    "atr": 108.3,
-    "struktur": 110.25
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-22",
-   "tries": 2
-  },
-  {
-   "symbol": "FICO",
-   "name": "Fair Isaac",
-   "sector": "Technologie",
-   "score": 0.5632,
-   "target": 1062.95,
-   "stop": 843.23,
-   "atr_at_entry": 46.80825738937192,
-   "ziel_atr": 3.02,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.294,
-   "basis_erwartung_r": 0.1404,
-   "score_components": {
-    "trend": 0.088,
-    "setup": 0.481,
-    "volumen": 0.084,
-    "qualitaet": 1.0,
-    "bewertung": 0.734,
-    "analysten": 0.884
-   },
-   "target_methods": {
-    "atr": 1016.84,
-    "struktur": 1076.52
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-22",
-   "tries": 2
-  },
-  {
-   "symbol": "HIG",
-   "name": "Hartford (The)",
-   "sector": "Finanzen",
-   "score": 0.5398,
-   "target": 136.48,
-   "stop": 127.51,
-   "atr_at_entry": 2.0449433663617342,
-   "ziel_atr": 2.77,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.2982,
-   "basis_erwartung_r": 0.1206,
-   "score_components": {
-    "trend": 0.161,
-    "setup": 0.48,
-    "volumen": 0.778,
-    "qualitaet": 0.641,
-    "bewertung": 0.852,
-    "analysten": 0.643
-   },
-   "target_methods": {
-    "atr": 134.76,
-    "struktur": 136.86
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-22",
-   "tries": 2
-  },
-  {
    "symbol": "TSLA",
    "name": "Tesla, Inc.",
    "sector": "Konsum zyklisch",
@@ -1775,7 +1589,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-23",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CVX",
@@ -1806,7 +1620,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-23",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ROL",
@@ -1837,7 +1651,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-23",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TTD",
@@ -1868,7 +1682,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-23",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TJX",
@@ -1899,7 +1713,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-23",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ADSK",
@@ -1930,7 +1744,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-23",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PSX",
@@ -1961,7 +1775,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-24"
+   "order_date": "2026-09-24",
+   "tries": 1
   },
   {
    "symbol": "SPCX",
@@ -1991,7 +1806,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-24"
+   "order_date": "2026-09-24",
+   "tries": 1
   },
   {
    "symbol": "TECH",
@@ -2021,7 +1837,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-24"
+   "order_date": "2026-09-24",
+   "tries": 1
   },
   {
    "symbol": "IDXX",
@@ -2051,7 +1868,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-24"
+   "order_date": "2026-09-24",
+   "tries": 1
   },
   {
    "symbol": "BSX",
@@ -2081,7 +1899,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-24"
+   "order_date": "2026-09-24",
+   "tries": 1
   },
   {
    "symbol": "FE",
@@ -2111,7 +1930,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-09-24"
+   "order_date": "2026-09-24",
+   "tries": 1
   }
  ],
  "closed": [
@@ -3867,6 +3687,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-09-25",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -4078,6 +3906,36 @@
   {
    "date": "2026-09-24",
    "symbol": "NRG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-25",
+   "symbol": "ON",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-25",
+   "symbol": "TXT",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-25",
+   "symbol": "LUV",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-25",
+   "symbol": "TROW",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-25",
+   "symbol": "FICO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-25",
+   "symbol": "HIG",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
