@@ -1800,6 +1800,188 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "MCHP",
+   "name": "Microchip Technology",
+   "sector": "Technologie",
+   "score": 0.766,
+   "target": 86.93,
+   "stop": 74.12,
+   "atr_at_entry": 2.7278826015203825,
+   "ziel_atr": 3.04,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.2897,
+   "basis_erwartung_r": 0.1454,
+   "score_components": {
+    "trend": 0.477,
+    "setup": 0.991,
+    "volumen": 1.0,
+    "qualitaet": 0.517,
+    "bewertung": 0.812,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 84.19,
+    "struktur": 87.63
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
+  },
+  {
+   "symbol": "PSX",
+   "name": "Phillips 66",
+   "sector": "Energie",
+   "score": 0.748,
+   "target": 276.13,
+   "stop": 244.13,
+   "atr_at_entry": 8.148045628433106,
+   "ziel_atr": 2.51,
+   "stop_atr": 1.42,
+   "basis_p_ziel": 0.373,
+   "basis_erwartung_r": 0.2464,
+   "score_components": {
+    "trend": 0.996,
+    "setup": 1.0,
+    "volumen": 0.651,
+    "qualitaet": 0.64,
+    "bewertung": 0.749,
+    "analysten": 0.39
+   },
+   "target_methods": {
+    "atr": 273.43,
+    "struktur": 276.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
+  },
+  {
+   "symbol": "MA",
+   "name": "Mastercard",
+   "sector": "Finanzen",
+   "score": 0.7312,
+   "target": 588.17,
+   "stop": 552.96,
+   "atr_at_entry": 8.869253040019368,
+   "ziel_atr": 2.33,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3668,
+   "basis_erwartung_r": 0.0983,
+   "score_components": {
+    "trend": 0.665,
+    "setup": 0.923,
+    "volumen": 0.817,
+    "qualitaet": 0.709,
+    "bewertung": 0.204,
+    "analysten": 0.803
+   },
+   "target_methods": {
+    "atr": 584.4,
+    "struktur": 593.52
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet Inc. (Class C)",
+   "sector": "Kommunikation",
+   "score": 0.7213,
+   "target": 360.73,
+   "stop": 326.33,
+   "atr_at_entry": 8.382905743918295,
+   "ziel_atr": 2.35,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.3496,
+   "basis_erwartung_r": 0.0382,
+   "score_components": {
+    "trend": 0.526,
+    "setup": 1.0,
+    "volumen": 0.077,
+    "qualitaet": 0.978,
+    "bewertung": 0.292,
+    "analysten": 0.835
+   },
+   "target_methods": {
+    "atr": 356.6,
+    "struktur": 365.58
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
+  },
+  {
+   "symbol": "TWLO",
+   "name": "Twilio Inc.",
+   "sector": "Technologie",
+   "score": 0.7173,
+   "target": 300.41,
+   "stop": 254.46,
+   "atr_at_entry": 12.89772877002373,
+   "ziel_atr": 1.91,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.4491,
+   "basis_erwartung_r": 0.0805,
+   "score_components": {
+    "trend": 0.944,
+    "setup": 0.946,
+    "volumen": 1.0,
+    "qualitaet": 0.748,
+    "bewertung": 0.4,
+    "analysten": 0.381,
+    "sentiment": 0.55
+   },
+   "target_methods": {
+    "atr": 302.07,
+    "struktur": 304.45
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
+  },
+  {
+   "symbol": "AKAM",
+   "name": "Akamai Technologies",
+   "sector": "Technologie",
+   "score": 0.715,
+   "target": 131.23,
+   "stop": 103.3,
+   "atr_at_entry": 6.380803238606327,
+   "ziel_atr": 2.72,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3291,
+   "basis_erwartung_r": 0.1275,
+   "score_components": {
+    "trend": 0.572,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.283,
+    "bewertung": 0.662,
+    "analysten": 0.911,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 126.85,
+    "struktur": 131.07
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
   }
  ],
  "closed": [

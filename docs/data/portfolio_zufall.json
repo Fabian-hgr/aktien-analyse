@@ -2113,6 +2113,186 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-25"
+  },
+  {
+   "symbol": "HSY",
+   "name": "Hershey Company (The)",
+   "sector": "Konsum defensiv",
+   "score": 0.4745,
+   "target": 174.39,
+   "stop": 160.84,
+   "atr_at_entry": 3.1976772850063817,
+   "ziel_atr": 2.52,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.3306,
+   "basis_erwartung_r": 0.0507,
+   "score_components": {
+    "trend": 0.099,
+    "setup": 0.455,
+    "volumen": 0.253,
+    "qualitaet": 0.59,
+    "bewertung": 0.584,
+    "analysten": 0.796
+   },
+   "target_methods": {
+    "atr": 172.44,
+    "struktur": 175.85
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
+  },
+  {
+   "symbol": "COO",
+   "name": "Cooper Companies (The)",
+   "sector": "Gesundheit",
+   "score": 0.4318,
+   "target": 61.07,
+   "stop": 52.14,
+   "atr_at_entry": 2.002143563156744,
+   "ziel_atr": 2.84,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.2789,
+   "basis_erwartung_r": 0.0997,
+   "score_components": {
+    "trend": 0.2,
+    "setup": 0.421,
+    "volumen": 0.018,
+    "qualitaet": 0.4,
+    "bewertung": 0.866,
+    "analysten": 0.686
+   },
+   "target_methods": {
+    "atr": 59.29,
+    "struktur": 61.37
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
+  },
+  {
+   "symbol": "LMT",
+   "name": "Lockheed Martin",
+   "sector": "Industrie",
+   "score": 0.5297,
+   "target": 554.61,
+   "stop": 499.3,
+   "atr_at_entry": 12.12083420014601,
+   "ziel_atr": 2.9,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.2896,
+   "basis_erwartung_r": 0.109,
+   "score_components": {
+    "trend": 0.217,
+    "setup": 0.538,
+    "volumen": 0.531,
+    "qualitaet": 0.49,
+    "bewertung": 0.74,
+    "analysten": 0.771
+   },
+   "target_methods": {
+    "atr": 543.43,
+    "struktur": 557.06
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
+  },
+  {
+   "symbol": "NVR",
+   "name": "NVR, Inc.",
+   "sector": "Konsum zyklisch",
+   "score": 0.4325,
+   "target": 6576.02,
+   "stop": 6078.43,
+   "atr_at_entry": 117.67069980685268,
+   "ziel_atr": 2.44,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.3383,
+   "basis_erwartung_r": 0.0283,
+   "score_components": {
+    "trend": 0.039,
+    "setup": 1.0,
+    "volumen": 0.024,
+    "qualitaet": 0.566,
+    "bewertung": 0.329,
+    "analysten": 0.32
+   },
+   "target_methods": {
+    "atr": 6506.39,
+    "struktur": 6632.3
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
+  },
+  {
+   "symbol": "ULTA",
+   "name": "Ulta Beauty",
+   "sector": "Konsum zyklisch",
+   "score": 0.6304,
+   "target": 570.61,
+   "stop": 519.45,
+   "atr_at_entry": 14.346541076159236,
+   "ziel_atr": 1.78,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.4569,
+   "basis_erwartung_r": 0.0195,
+   "score_components": {
+    "trend": 0.637,
+    "setup": 0.937,
+    "volumen": 0.0,
+    "qualitaet": 0.602,
+    "bewertung": 0.389,
+    "analysten": 0.7
+   },
+   "target_methods": {
+    "atr": 571.62,
+    "struktur": 568.27
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
+  },
+  {
+   "symbol": "MAS",
+   "name": "Masco",
+   "sector": "Industrie",
+   "score": 0.5116,
+   "target": 73.79,
+   "stop": 65.98,
+   "atr_at_entry": 1.7128138859483164,
+   "ziel_atr": 2.89,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.2901,
+   "basis_erwartung_r": 0.1089,
+   "score_components": {
+    "trend": 0.066,
+    "setup": 0.815,
+    "volumen": 0.285,
+    "qualitaet": 0.509,
+    "bewertung": 0.649,
+    "analysten": 0.668
+   },
+   "target_methods": {
+    "atr": 72.22,
+    "struktur": 74.14
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-09-28"
   }
  ],
  "closed": [
