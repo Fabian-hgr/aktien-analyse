@@ -1243,197 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "sector": "Technologie",
-   "score": 0.7898,
-   "target": 238.17,
-   "stop": 215.43,
-   "atr_at_entry": 6.093363097057398,
-   "ziel_atr": 2.06,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.4257,
-   "basis_erwartung_r": 0.0872,
-   "score_components": {
-    "trend": 0.855,
-    "setup": 0.909,
-    "volumen": 0.002,
-    "qualitaet": 0.986,
-    "bewertung": 0.87,
-    "analysten": 1.0,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 238.03,
-    "struktur": 234.49
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-24",
-   "tries": 2
-  },
-  {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "sector": "Technologie",
-   "score": 0.7488,
-   "target": 531.02,
-   "stop": 439.87,
-   "atr_at_entry": 20.72154785689501,
-   "ziel_atr": 2.73,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3304,
-   "basis_erwartung_r": 0.1239,
-   "score_components": {
-    "trend": 0.288,
-    "setup": 1.0,
-    "volumen": 0.127,
-    "qualitaet": 0.975,
-    "bewertung": 0.498,
-    "analysten": 1.0,
-    "sentiment": 0.9
-   },
-   "target_methods": {
-    "atr": 516.73,
-    "struktur": 543.15
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-24",
-   "tries": 2
-  },
-  {
-   "symbol": "VLO",
-   "name": "Valero Energy",
-   "sector": "Energie",
-   "score": 0.7389,
-   "target": 413.95,
-   "stop": 355.38,
-   "atr_at_entry": 14.322759052670936,
-   "ziel_atr": 2.66,
-   "stop_atr": 1.43,
-   "basis_p_ziel": 0.3504,
-   "basis_erwartung_r": 0.2459,
-   "score_components": {
-    "trend": 0.977,
-    "setup": 0.972,
-    "volumen": 1.0,
-    "qualitaet": 0.71,
-    "bewertung": 0.36,
-    "analysten": 0.334,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 407.19,
-    "struktur": 418.69
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-24",
-   "tries": 2
-  },
-  {
-   "symbol": "GOOGL",
-   "name": "Alphabet Inc. (Class A)",
-   "sector": "Kommunikation",
-   "score": 0.7365,
-   "target": 359.26,
-   "stop": 321.87,
-   "atr_at_entry": 9.061190077910995,
-   "ziel_atr": 2.37,
-   "stop_atr": 1.76,
-   "basis_p_ziel": 0.3462,
-   "basis_erwartung_r": 0.0371,
-   "score_components": {
-    "trend": 0.497,
-    "setup": 0.767,
-    "volumen": 0.77,
-    "qualitaet": 0.978,
-    "bewertung": 0.246,
-    "analysten": 0.949,
-    "sentiment": 0.7
-   },
-   "target_methods": {
-    "atr": 354.6,
-    "struktur": 364.32
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-24",
-   "tries": 2
-  },
-  {
-   "symbol": "JNJ",
-   "name": "Johnson & Johnson",
-   "sector": "Gesundheit",
-   "score": 0.7326,
-   "target": 279.36,
-   "stop": 261.02,
-   "atr_at_entry": 5.0953196102100975,
-   "ziel_atr": 1.99,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.4203,
-   "basis_erwartung_r": 0.0957,
-   "score_components": {
-    "trend": 0.856,
-    "setup": 1.0,
-    "volumen": 0.922,
-    "qualitaet": 0.716,
-    "bewertung": 0.123,
-    "analysten": 0.484,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 279.26,
-    "struktur": 281.0
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-24",
-   "tries": 2
-  },
-  {
-   "symbol": "APA",
-   "name": "APA Corporation",
-   "sector": "Energie",
-   "score": 0.7199,
-   "target": 47.47,
-   "stop": 41.5,
-   "atr_at_entry": 1.5374200329847807,
-   "ziel_atr": 2.45,
-   "stop_atr": 1.43,
-   "basis_p_ziel": 0.3832,
-   "basis_erwartung_r": 0.2396,
-   "score_components": {
-    "trend": 0.93,
-    "setup": 1.0,
-    "volumen": 0.295,
-    "qualitaet": 0.731,
-    "bewertung": 0.656,
-    "analysten": 0.427
-   },
-   "target_methods": {
-    "atr": 47.06,
-    "struktur": 47.44
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-24",
-   "tries": 2
-  },
-  {
    "symbol": "VEEV",
    "name": "Veeva Systems",
    "sector": "Gesundheit",
@@ -1463,7 +1272,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-25",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NXPI",
@@ -1494,7 +1303,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-25",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "VLTO",
@@ -1525,7 +1334,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-25",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BP",
@@ -1557,7 +1366,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-25",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MPWR",
@@ -1588,7 +1397,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-25",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CLS",
@@ -1619,7 +1428,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-25",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MCHP",
@@ -1650,7 +1459,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PSX",
@@ -1681,7 +1490,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MA",
@@ -1712,7 +1521,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "GOOG",
@@ -1743,7 +1552,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TWLO",
@@ -1775,7 +1584,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AKAM",
@@ -1807,7 +1616,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-09-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "META",
@@ -1838,7 +1647,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-29"
+   "order_date": "2026-09-29",
+   "tries": 1
   },
   {
    "symbol": "TEL",
@@ -1868,7 +1678,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-29"
+   "order_date": "2026-09-29",
+   "tries": 1
   },
   {
    "symbol": "PBR",
@@ -1899,7 +1710,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-29"
+   "order_date": "2026-09-29",
+   "tries": 1
   },
   {
    "symbol": "FIX",
@@ -1929,7 +1741,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-29"
+   "order_date": "2026-09-29",
+   "tries": 1
   },
   {
    "symbol": "CVX",
@@ -1960,7 +1773,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-29"
+   "order_date": "2026-09-29",
+   "tries": 1
   },
   {
    "symbol": "LITE",
@@ -1991,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-09-29"
+   "order_date": "2026-09-29",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4255,6 +4070,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-09-30",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4526,6 +4349,36 @@
   {
    "date": "2026-09-29",
    "symbol": "KO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-30",
+   "symbol": "NVDA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-30",
+   "symbol": "AMAT",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-30",
+   "symbol": "VLO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-30",
+   "symbol": "GOOGL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-30",
+   "symbol": "JNJ",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-09-30",
+   "symbol": "APA",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
