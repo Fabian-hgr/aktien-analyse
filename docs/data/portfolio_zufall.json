@@ -2118,6 +2118,186 @@
    },
    "order_date": "2026-09-29",
    "tries": 1
+  },
+  {
+   "symbol": "MET",
+   "name": "MetLife",
+   "sector": "Finanzen",
+   "score": 0.5786,
+   "target": 99.86,
+   "stop": 92.4,
+   "atr_at_entry": 1.71206750588312,
+   "ziel_atr": 2.72,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.303,
+   "basis_erwartung_r": 0.1076,
+   "score_components": {
+    "trend": 0.664,
+    "setup": 0.727,
+    "volumen": 0.332,
+    "qualitaet": 0.321,
+    "bewertung": 0.867,
+    "analysten": 0.566
+   },
+   "target_methods": {
+    "atr": 98.47,
+    "struktur": 100.23
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-30"
+  },
+  {
+   "symbol": "BALL",
+   "name": "Ball Corporation",
+   "sector": "Grundstoffe",
+   "score": 0.4517,
+   "target": 59.86,
+   "stop": 54.69,
+   "atr_at_entry": 1.143685389063545,
+   "ziel_atr": 2.81,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.299,
+   "basis_erwartung_r": 0.0814,
+   "score_components": {
+    "trend": 0.104,
+    "setup": 0.382,
+    "volumen": 0.134,
+    "qualitaet": 0.501,
+    "bewertung": 0.697,
+    "analysten": 0.82
+   },
+   "target_methods": {
+    "atr": 58.86,
+    "struktur": 60.15
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-30"
+  },
+  {
+   "symbol": "MO",
+   "name": "Altria",
+   "sector": "Konsum defensiv",
+   "score": 0.61,
+   "target": 72.03,
+   "stop": 66.56,
+   "atr_at_entry": 1.2553721439295875,
+   "ziel_atr": 2.64,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.3119,
+   "basis_erwartung_r": 0.0506,
+   "score_components": {
+    "trend": 0.709,
+    "setup": 1.0,
+    "volumen": 0.289,
+    "qualitaet": 0.639,
+    "bewertung": 0.433,
+    "analysten": 0.282
+   },
+   "target_methods": {
+    "atr": 71.11,
+    "struktur": 72.45
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-30"
+  },
+  {
+   "symbol": "HUM",
+   "name": "Humana",
+   "sector": "Gesundheit",
+   "score": 0.6091,
+   "target": 416.76,
+   "stop": 366.38,
+   "atr_at_entry": 12.776778487970688,
+   "ziel_atr": 2.32,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.359,
+   "basis_erwartung_r": 0.0923,
+   "score_components": {
+    "trend": 0.554,
+    "setup": 0.964,
+    "volumen": 0.574,
+    "qualitaet": 0.418,
+    "bewertung": 0.323,
+    "analysten": 0.589
+   },
+   "target_methods": {
+    "atr": 412.04,
+    "struktur": 425.3
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-30"
+  },
+  {
+   "symbol": "BSX",
+   "name": "Boston Scientific",
+   "sector": "Gesundheit",
+   "score": 0.5706,
+   "target": 48.02,
+   "stop": 41.58,
+   "atr_at_entry": 1.4247851048297353,
+   "ziel_atr": 2.9,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.2707,
+   "basis_erwartung_r": 0.1002,
+   "score_components": {
+    "trend": 0.191,
+    "setup": 0.672,
+    "volumen": 0.0,
+    "qualitaet": 0.577,
+    "bewertung": 0.82,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 46.67,
+    "struktur": 48.15
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-30"
+  },
+  {
+   "symbol": "SYK",
+   "name": "Stryker Corporation",
+   "sector": "Gesundheit",
+   "score": 0.5551,
+   "target": 298.55,
+   "stop": 265.58,
+   "atr_at_entry": 7.657784309552947,
+   "ziel_atr": 2.69,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3013,
+   "basis_erwartung_r": 0.0981,
+   "score_components": {
+    "trend": 0.157,
+    "setup": 0.571,
+    "volumen": 0.469,
+    "qualitaet": 0.557,
+    "bewertung": 0.569,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 292.94,
+    "struktur": 300.89
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-09-30"
   }
  ],
  "closed": [
