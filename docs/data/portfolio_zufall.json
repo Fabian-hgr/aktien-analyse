@@ -1931,6 +1931,186 @@
    },
    "order_date": "2026-09-30",
    "tries": 1
+  },
+  {
+   "symbol": "SHEL",
+   "name": "Shell plc American Depositary Shares (Each represents two Ordinary shares)",
+   "sector": "Energie",
+   "score": 0.7629,
+   "target": 99.18,
+   "stop": 92.9,
+   "atr_at_entry": 1.5205718368267225,
+   "ziel_atr": 2.71,
+   "stop_atr": 1.42,
+   "basis_p_ziel": 0.341,
+   "basis_erwartung_r": 0.2518,
+   "score_components": {
+    "trend": 0.936,
+    "setup": 1.0,
+    "volumen": 0.872,
+    "qualitaet": 0.616,
+    "bewertung": 0.628,
+    "analysten": 0.507
+   },
+   "target_methods": {
+    "atr": 98.37,
+    "struktur": 99.16
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-01"
+  },
+  {
+   "symbol": "COO",
+   "name": "Cooper Companies (The)",
+   "sector": "Gesundheit",
+   "score": 0.5089,
+   "target": 61.8,
+   "stop": 53.52,
+   "atr_at_entry": 1.86421807969169,
+   "ziel_atr": 2.82,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.2814,
+   "basis_erwartung_r": 0.0995,
+   "score_components": {
+    "trend": 0.2,
+    "setup": 0.502,
+    "volumen": 0.799,
+    "qualitaet": 0.4,
+    "bewertung": 0.866,
+    "analysten": 0.648
+   },
+   "target_methods": {
+    "atr": 60.18,
+    "struktur": 62.11
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-01"
+  },
+  {
+   "symbol": "FDX",
+   "name": "FedEx",
+   "sector": "Industrie",
+   "score": 0.4966,
+   "target": 304.82,
+   "stop": 274.09,
+   "atr_at_entry": 6.651187678000637,
+   "ziel_atr": 2.95,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.2816,
+   "basis_erwartung_r": 0.1111,
+   "score_components": {
+    "trend": 0.192,
+    "setup": 0.472,
+    "volumen": 0.367,
+    "qualitaet": 0.392,
+    "bewertung": 0.747,
+    "analysten": 0.839
+   },
+   "target_methods": {
+    "atr": 298.31,
+    "struktur": 305.79
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-01"
+  },
+  {
+   "symbol": "STX",
+   "name": "Seagate Technology",
+   "sector": "Technologie",
+   "score": 0.7301,
+   "target": 1026.29,
+   "stop": 845.9,
+   "atr_at_entry": 46.286038662419635,
+   "ziel_atr": 2.24,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3962,
+   "basis_erwartung_r": 0.1002,
+   "score_components": {
+    "trend": 0.743,
+    "setup": 0.991,
+    "volumen": 0.0,
+    "qualitaet": 0.856,
+    "bewertung": 0.812,
+    "analysten": 0.8
+   },
+   "target_methods": {
+    "atr": 1016.74,
+    "struktur": 1012.66
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-01"
+  },
+  {
+   "symbol": "WM",
+   "name": "Waste Management",
+   "sector": "Industrie",
+   "score": 0.4675,
+   "target": 212.23,
+   "stop": 198.99,
+   "atr_at_entry": 3.0639652119738363,
+   "ziel_atr": 2.66,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3236,
+   "basis_erwartung_r": 0.1002,
+   "score_components": {
+    "trend": 0.111,
+    "setup": 0.372,
+    "volumen": 0.548,
+    "qualitaet": 0.469,
+    "bewertung": 0.368,
+    "analysten": 0.883
+   },
+   "target_methods": {
+    "atr": 210.14,
+    "struktur": 213.59
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-01"
+  },
+  {
+   "symbol": "UHS",
+   "name": "Universal Health Services",
+   "sector": "Gesundheit",
+   "score": 0.6326,
+   "target": 186.12,
+   "stop": 166.41,
+   "atr_at_entry": 4.880719960799084,
+   "ziel_atr": 2.42,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.342,
+   "basis_erwartung_r": 0.0945,
+   "score_components": {
+    "trend": 0.655,
+    "setup": 0.91,
+    "volumen": 0.0,
+    "qualitaet": 0.516,
+    "bewertung": 0.858,
+    "analysten": 0.58
+   },
+   "target_methods": {
+    "atr": 183.85,
+    "struktur": 185.78
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-01"
   }
  ],
  "closed": [
