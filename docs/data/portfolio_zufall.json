@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "CRM",
-   "name": "Salesforce",
-   "sector": "Technologie",
-   "score": 0.7163,
-   "target": 254.99,
-   "stop": 212.61,
-   "atr_at_entry": 8.916842346993693,
-   "ziel_atr": 3.1,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.2834,
-   "basis_erwartung_r": 0.1478,
-   "score_components": {
-    "trend": 0.916,
-    "setup": 0.667,
-    "volumen": 0.142,
-    "qualitaet": 0.651,
-    "bewertung": 0.828,
-    "analysten": 0.825
-   },
-   "target_methods": {
-    "atr": 245.53,
-    "struktur": 256.77
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
-   "symbol": "WMB",
-   "name": "Williams Companies",
-   "sector": "Energie",
-   "score": 0.4581,
-   "target": 73.39,
-   "stop": 66.62,
-   "atr_at_entry": 1.6584912410585828,
-   "ziel_atr": 2.66,
-   "stop_atr": 1.42,
-   "basis_p_ziel": 0.3485,
-   "basis_erwartung_r": 0.2506,
-   "score_components": {
-    "trend": 0.071,
-    "setup": 0.514,
-    "volumen": 0.134,
-    "qualitaet": 0.611,
-    "bewertung": 0.102,
-    "analysten": 0.894
-   },
-   "target_methods": {
-    "atr": 72.58,
-    "struktur": 74.35
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
-   "symbol": "V",
-   "name": "Visa Inc.",
-   "sector": "Finanzen",
-   "score": 0.7017,
-   "target": 381.0,
-   "stop": 358.52,
-   "atr_at_entry": 5.698646287731016,
-   "ziel_atr": 2.31,
-   "stop_atr": 1.64,
-   "basis_p_ziel": 0.3712,
-   "basis_erwartung_r": 0.0976,
-   "score_components": {
-    "trend": 0.616,
-    "setup": 0.926,
-    "volumen": 0.387,
-    "qualitaet": 0.857,
-    "bewertung": 0.168,
-    "analysten": 0.749
-   },
-   "target_methods": {
-    "atr": 378.72,
-    "struktur": 384.58
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
-   "symbol": "CMS",
-   "name": "CMS Energy",
-   "sector": "Versorger",
-   "score": 0.4149,
-   "target": 65.07,
-   "stop": 61.05,
-   "atr_at_entry": 0.9832575376065353,
-   "ziel_atr": 2.5,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3038,
-   "basis_erwartung_r": 0.0571,
-   "score_components": {
-    "trend": 0.188,
-    "setup": 0.333,
-    "volumen": 0.618,
-    "qualitaet": 0.27,
-    "bewertung": 0.398,
-    "analysten": 0.768
-   },
-   "target_methods": {
-    "atr": 64.41,
-    "struktur": 65.31
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
-   "symbol": "CCL",
-   "name": "Carnival Corporation",
-   "sector": "Konsum zyklisch",
-   "score": 0.2991,
-   "target": 24.25,
-   "stop": 20.82,
-   "atr_at_entry": 0.7460848338731939,
-   "ziel_atr": 2.82,
-   "stop_atr": 1.78,
-   "basis_p_ziel": 0.284,
-   "basis_erwartung_r": 0.0365,
-   "score_components": {
-    "trend": 0.152,
-    "setup": 0.515,
-    "volumen": 1.0,
-    "qualitaet": 0.476,
-    "bewertung": 0.924,
-    "analysten": 0.925
-   },
-   "target_methods": {
-    "atr": 23.53,
-    "struktur": 24.33
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
-   "symbol": "SNPS",
-   "name": "Synopsys",
-   "sector": "Technologie",
-   "score": 0.6367,
-   "target": 456.84,
-   "stop": 394.29,
-   "atr_at_entry": 14.084974476697507,
-   "ziel_atr": 2.78,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3211,
-   "basis_erwartung_r": 0.1312,
-   "score_components": {
-    "trend": 0.284,
-    "setup": 1.0,
-    "volumen": 0.156,
-    "qualitaet": 0.559,
-    "bewertung": 0.272,
-    "analysten": 1.0
-   },
-   "target_methods": {
-    "atr": 446.28,
-    "struktur": 464.04
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
    "symbol": "MET",
    "name": "MetLife",
    "sector": "Finanzen",
@@ -1775,7 +1589,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BALL",
@@ -1806,7 +1620,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MO",
@@ -1837,7 +1651,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "HUM",
@@ -1868,7 +1682,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BSX",
@@ -1899,7 +1713,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SYK",
@@ -1930,7 +1744,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SHEL",
@@ -1960,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   },
   {
    "symbol": "COO",
@@ -1990,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   },
   {
    "symbol": "FDX",
@@ -2020,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   },
   {
    "symbol": "STX",
@@ -2050,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   },
   {
    "symbol": "WM",
@@ -2080,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   },
   {
    "symbol": "UHS",
@@ -2110,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   }
  ],
  "closed": [
@@ -3898,6 +3718,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-10-02",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -4259,6 +4087,36 @@
   {
    "date": "2026-10-01",
    "symbol": "MAS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "CRM",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "WMB",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "V",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "CMS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "CCL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "SNPS",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]

@@ -1243,196 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "META",
-   "name": "Meta Platforms",
-   "sector": "Kommunikation",
-   "score": 0.8193,
-   "target": 770.3,
-   "stop": 666.86,
-   "atr_at_entry": 27.753993442480343,
-   "ziel_atr": 1.97,
-   "stop_atr": 1.75,
-   "basis_p_ziel": 0.4157,
-   "basis_erwartung_r": 0.036,
-   "score_components": {
-    "trend": 0.998,
-    "setup": 1.0,
-    "volumen": 0.65,
-    "qualitaet": 0.964,
-    "bewertung": 0.412,
-    "analysten": 0.693,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 767.08,
-    "struktur": 779.8
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
-   "symbol": "TEL",
-   "name": "TE Connectivity",
-   "sector": "Technologie",
-   "score": 0.7637,
-   "target": 224.62,
-   "stop": 205.6,
-   "atr_at_entry": 5.578740718270344,
-   "ziel_atr": 1.75,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.4756,
-   "basis_erwartung_r": 0.0705,
-   "score_components": {
-    "trend": 0.833,
-    "setup": 0.855,
-    "volumen": 0.827,
-    "qualitaet": 0.692,
-    "bewertung": 0.728,
-    "analysten": 0.659
-   },
-   "target_methods": {
-    "atr": 226.19,
-    "struktur": 221.15
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
-   "symbol": "PBR",
-   "name": "PETROLEO BRASILEIRO S.A.-PETROBRAS ADS (REP 1 COMMON SHARE)",
-   "sector": "Energie",
-   "score": 0.7621,
-   "target": 22.11,
-   "stop": 19.82,
-   "atr_at_entry": 0.5829976814291424,
-   "ziel_atr": 2.51,
-   "stop_atr": 1.42,
-   "basis_p_ziel": 0.3734,
-   "basis_erwartung_r": 0.2461,
-   "score_components": {
-    "trend": 0.956,
-    "setup": 1.0,
-    "volumen": 0.311,
-    "qualitaet": 0.931,
-    "bewertung": 0.6,
-    "analysten": 0.549,
-    "sentiment": 0.6
-   },
-   "target_methods": {
-    "atr": 21.92,
-    "struktur": 21.98
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
-   "symbol": "FIX",
-   "name": "Comfort Systems USA",
-   "sector": "Industrie",
-   "score": 0.7556,
-   "target": 1828.61,
-   "stop": 1547.18,
-   "atr_at_entry": 66.74316224768685,
-   "ziel_atr": 2.55,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3386,
-   "basis_erwartung_r": 0.0963,
-   "score_components": {
-    "trend": 0.44,
-    "setup": 1.0,
-    "volumen": 0.716,
-    "qualitaet": 0.844,
-    "bewertung": 0.502,
-    "analysten": 0.834
-   },
-   "target_methods": {
-    "atr": 1790.19,
-    "struktur": 1865.27
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
-   "symbol": "CVX",
-   "name": "Chevron Corporation",
-   "sector": "Energie",
-   "score": 0.7393,
-   "target": 216.29,
-   "stop": 200.51,
-   "atr_at_entry": 4.134031120617194,
-   "ziel_atr": 2.4,
-   "stop_atr": 1.42,
-   "basis_p_ziel": 0.3924,
-   "basis_erwartung_r": 0.2433,
-   "score_components": {
-    "trend": 0.911,
-    "setup": 0.977,
-    "volumen": 0.551,
-    "qualitaet": 0.625,
-    "bewertung": 0.544,
-    "analysten": 0.583,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 215.38,
-    "struktur": 217.74
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
-   "symbol": "LITE",
-   "name": "Lumentum",
-   "sector": "Technologie",
-   "score": 0.7339,
-   "target": 1035.45,
-   "stop": 821.24,
-   "atr_at_entry": 60.74611418491679,
-   "ziel_atr": 1.87,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.4554,
-   "basis_erwartung_r": 0.0782,
-   "score_components": {
-    "trend": 0.806,
-    "setup": 0.951,
-    "volumen": 0.73,
-    "qualitaet": 0.421,
-    "bewertung": 0.521,
-    "analysten": 0.916,
-    "sentiment": 0.6
-   },
-   "target_methods": {
-    "atr": 1045.46,
-    "struktur": 1025.51
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-09-29",
-   "tries": 2
-  },
-  {
    "symbol": "NVDA",
    "name": "Nvidia",
    "sector": "Technologie",
@@ -1462,7 +1272,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AMAT",
@@ -1494,7 +1304,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TER",
@@ -1526,7 +1336,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SHEL",
@@ -1557,7 +1367,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "RCL",
@@ -1589,7 +1399,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "LLY",
@@ -1621,7 +1431,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-09-30",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PSX",
@@ -1652,7 +1462,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   },
   {
    "symbol": "MPWR",
@@ -1682,7 +1493,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   },
   {
    "symbol": "CLS",
@@ -1713,7 +1525,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   },
   {
    "symbol": "NXPI",
@@ -1744,7 +1557,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   },
   {
    "symbol": "EMR",
@@ -1774,7 +1588,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   },
   {
    "symbol": "BMNR",
@@ -1804,7 +1619,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-01"
+   "order_date": "2026-10-01",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4084,6 +3900,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-10-02",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4445,6 +4269,36 @@
   {
    "date": "2026-10-01",
    "symbol": "AKAM",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "META",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "TEL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "PBR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "FIX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "CVX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-02",
+   "symbol": "LITE",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
