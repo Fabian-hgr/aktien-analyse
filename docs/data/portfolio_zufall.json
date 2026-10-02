@@ -1931,6 +1931,187 @@
    },
    "order_date": "2026-10-01",
    "tries": 1
+  },
+  {
+   "symbol": "CASY",
+   "name": "Casey's",
+   "sector": "Konsum defensiv",
+   "score": 0.5203,
+   "target": 671.28,
+   "stop": 582.87,
+   "atr_at_entry": 21.329874331091577,
+   "ziel_atr": 2.42,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.3461,
+   "basis_erwartung_r": 0.0501,
+   "score_components": {
+    "trend": 0.187,
+    "setup": 0.538,
+    "volumen": 0.692,
+    "qualitaet": 0.587,
+    "bewertung": 0.0,
+    "analysten": 0.846
+   },
+   "target_methods": {
+    "atr": 660.23,
+    "struktur": 683.01
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-02"
+  },
+  {
+   "symbol": "FCX",
+   "name": "Freeport-McMoRan",
+   "sector": "Grundstoffe",
+   "score": 0.5273,
+   "target": 75.68,
+   "stop": 64.76,
+   "atr_at_entry": 2.6441285451270855,
+   "ziel_atr": 2.42,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3543,
+   "basis_erwartung_r": 0.0689,
+   "score_components": {
+    "trend": 0.656,
+    "setup": 0.684,
+    "volumen": 0.437,
+    "qualitaet": 0.408,
+    "bewertung": 0.206,
+    "analysten": 0.505
+   },
+   "target_methods": {
+    "atr": 74.39,
+    "struktur": 77.38
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-02"
+  },
+  {
+   "symbol": "HD",
+   "name": "Home Depot (The)",
+   "sector": "Konsum zyklisch",
+   "score": 0.5026,
+   "target": 298.79,
+   "stop": 271.06,
+   "atr_at_entry": 6.425299967438996,
+   "ziel_atr": 2.53,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.3243,
+   "basis_erwartung_r": 0.0297,
+   "score_components": {
+    "trend": 0.155,
+    "setup": 0.349,
+    "volumen": 1.0,
+    "qualitaet": 0.44,
+    "bewertung": 0.254,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 294.43,
+    "struktur": 301.3
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-02"
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit",
+   "sector": "Technologie",
+   "score": 0.6231,
+   "target": 322.64,
+   "stop": 261.82,
+   "atr_at_entry": 12.66325195924567,
+   "ziel_atr": 3.15,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.2777,
+   "basis_erwartung_r": 0.15,
+   "score_components": {
+    "trend": 0.216,
+    "setup": 0.548,
+    "volumen": 0.317,
+    "qualitaet": 0.762,
+    "bewertung": 0.924,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 308.56,
+    "struktur": 324.53
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-02"
+  },
+  {
+   "symbol": "YUM",
+   "name": "Yum! Brands",
+   "sector": "Konsum zyklisch",
+   "score": 0.5629,
+   "target": 144.17,
+   "stop": 131.17,
+   "atr_at_entry": 3.0770103386641097,
+   "ziel_atr": 2.44,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.3388,
+   "basis_erwartung_r": 0.0283,
+   "score_components": {
+    "trend": 0.111,
+    "setup": 0.549,
+    "volumen": 0.461,
+    "qualitaet": 0.806,
+    "bewertung": 0.338,
+    "analysten": 0.857
+   },
+   "target_methods": {
+    "atr": 142.36,
+    "struktur": 145.65
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-02"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "sector": "Technologie",
+   "score": 0.7938,
+   "target": 249.24,
+   "stop": 221.46,
+   "atr_at_entry": 5.782127278633259,
+   "ziel_atr": 3.15,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.2777,
+   "basis_erwartung_r": 0.15,
+   "score_components": {
+    "trend": 0.875,
+    "setup": 0.766,
+    "volumen": 0.145,
+    "qualitaet": 0.986,
+    "bewertung": 0.875,
+    "analysten": 1.0,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 242.81,
+    "struktur": 250.1
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-02"
   }
  ],
  "closed": [
