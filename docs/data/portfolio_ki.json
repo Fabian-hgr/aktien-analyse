@@ -1243,197 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "sector": "Technologie",
-   "score": 0.7772,
-   "target": 238.68,
-   "stop": 217.34,
-   "atr_at_entry": 5.973236371011795,
-   "ziel_atr": 1.92,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.4475,
-   "basis_erwartung_r": 0.0811,
-   "score_components": {
-    "trend": 0.872,
-    "setup": 0.869,
-    "volumen": 0.168,
-    "qualitaet": 0.986,
-    "bewertung": 0.875,
-    "analysten": 1.0,
-    "sentiment": 0.6
-   },
-   "target_methods": {
-    "atr": 239.39,
-    "struktur": 234.49
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-30",
-   "tries": 2
-  },
-  {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "sector": "Technologie",
-   "score": 0.7715,
-   "target": 564.82,
-   "stop": 478.9,
-   "atr_at_entry": 19.993010291680214,
-   "ziel_atr": 2.64,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.339,
-   "basis_erwartung_r": 0.1229,
-   "score_components": {
-    "trend": 0.478,
-    "setup": 0.899,
-    "volumen": 0.797,
-    "qualitaet": 0.975,
-    "bewertung": 0.465,
-    "analysten": 0.917,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 552.7,
-    "struktur": 577.91
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-30",
-   "tries": 2
-  },
-  {
-   "symbol": "TER",
-   "name": "Teradyne",
-   "sector": "Technologie",
-   "score": 0.7318,
-   "target": 440.98,
-   "stop": 371.21,
-   "atr_at_entry": 19.35431079170018,
-   "ziel_atr": 1.95,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.4418,
-   "basis_erwartung_r": 0.0833,
-   "score_components": {
-    "trend": 0.667,
-    "setup": 1.0,
-    "volumen": 0.245,
-    "qualitaet": 0.998,
-    "bewertung": 0.354,
-    "analysten": 0.554,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 442.65,
-    "struktur": 443.95
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-30",
-   "tries": 2
-  },
-  {
-   "symbol": "SHEL",
-   "name": "Shell plc American Depositary Shares (Each represents two Ordinary shares)",
-   "sector": "Energie",
-   "score": 0.7297,
-   "target": 99.26,
-   "stop": 92.89,
-   "atr_at_entry": 1.5671542858430603,
-   "ziel_atr": 2.64,
-   "stop_atr": 1.42,
-   "basis_p_ziel": 0.3517,
-   "basis_erwartung_r": 0.2498,
-   "score_components": {
-    "trend": 0.94,
-    "setup": 1.0,
-    "volumen": 0.46,
-    "qualitaet": 0.616,
-    "bewertung": 0.628,
-    "analysten": 0.506
-   },
-   "target_methods": {
-    "atr": 98.53,
-    "struktur": 99.16
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-30",
-   "tries": 2
-  },
-  {
-   "symbol": "RCL",
-   "name": "Royal Caribbean Group",
-   "sector": "Konsum zyklisch",
-   "score": 0.7217,
-   "target": 289.05,
-   "stop": 242.42,
-   "atr_at_entry": 10.237353857512485,
-   "ziel_atr": 2.77,
-   "stop_atr": 1.78,
-   "basis_p_ziel": 0.2907,
-   "basis_erwartung_r": 0.0353,
-   "score_components": {
-    "trend": 0.179,
-    "setup": 1.0,
-    "volumen": 0.8,
-    "qualitaet": 0.648,
-    "bewertung": 0.763,
-    "analysten": 0.925,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 279.65,
-    "struktur": 290.6
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-30",
-   "tries": 2
-  },
-  {
-   "symbol": "LLY",
-   "name": "Lilly (Eli)",
-   "sector": "Gesundheit",
-   "score": 0.7159,
-   "target": 1255.33,
-   "stop": 1136.53,
-   "atr_at_entry": 29.996286496601765,
-   "ziel_atr": 2.34,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3558,
-   "basis_erwartung_r": 0.0927,
-   "score_components": {
-    "trend": 0.743,
-    "setup": 1.0,
-    "volumen": 0.051,
-    "qualitaet": 0.87,
-    "bewertung": 0.307,
-    "analysten": 0.644,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 1243.7,
-    "struktur": 1274.84
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-09-30",
-   "tries": 2
-  },
-  {
    "symbol": "PSX",
    "name": "Phillips 66",
    "sector": "Energie",
@@ -1463,7 +1272,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-01",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MPWR",
@@ -1494,7 +1303,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-01",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CLS",
@@ -1526,7 +1335,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-01",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NXPI",
@@ -1558,7 +1367,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-01",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "EMR",
@@ -1589,7 +1398,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-01",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BMNR",
@@ -1620,7 +1429,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-01",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PBR",
@@ -1650,7 +1459,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-02"
+   "order_date": "2026-10-02",
+   "tries": 1
   },
   {
    "symbol": "PTC",
@@ -1680,7 +1490,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-02"
+   "order_date": "2026-10-02",
+   "tries": 1
   },
   {
    "symbol": "ASML",
@@ -1710,7 +1521,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-02"
+   "order_date": "2026-10-02",
+   "tries": 1
   },
   {
    "symbol": "OXY",
@@ -1741,7 +1553,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-02"
+   "order_date": "2026-10-02",
+   "tries": 1
   },
   {
    "symbol": "META",
@@ -1772,7 +1585,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-02"
+   "order_date": "2026-10-02",
+   "tries": 1
   },
   {
    "symbol": "HAS",
@@ -1802,7 +1616,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-02"
+   "order_date": "2026-10-02",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4090,6 +3905,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-10-06",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4481,6 +4304,36 @@
   {
    "date": "2026-10-02",
    "symbol": "LITE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-06",
+   "symbol": "NVDA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-06",
+   "symbol": "AMAT",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-06",
+   "symbol": "TER",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-06",
+   "symbol": "SHEL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-06",
+   "symbol": "RCL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-06",
+   "symbol": "LLY",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
