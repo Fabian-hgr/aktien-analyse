@@ -1932,6 +1932,186 @@
    },
    "order_date": "2026-10-06",
    "tries": 1
+  },
+  {
+   "symbol": "DLR",
+   "name": "Digital Realty",
+   "sector": "Immobilien",
+   "score": 0.6354,
+   "target": 193.89,
+   "stop": 177.75,
+   "atr_at_entry": 4.195217339385904,
+   "ziel_atr": 2.16,
+   "stop_atr": 1.69,
+   "basis_p_ziel": 0.3594,
+   "basis_erwartung_r": 0.0309,
+   "score_components": {
+    "trend": 0.396,
+    "setup": 1.0,
+    "volumen": 0.256,
+    "qualitaet": 0.538,
+    "bewertung": 0.0,
+    "analysten": 0.857
+   },
+   "target_methods": {
+    "atr": 192.2,
+    "struktur": 196.09
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
+  },
+  {
+   "symbol": "PKG",
+   "name": "Packaging Corporation of America",
+   "sector": "Grundstoffe",
+   "score": 0.4744,
+   "target": 240.42,
+   "stop": 222.5,
+   "atr_at_entry": 4.355129501905984,
+   "ziel_atr": 2.4,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3574,
+   "basis_erwartung_r": 0.0683,
+   "score_components": {
+    "trend": 0.386,
+    "setup": 0.655,
+    "volumen": 0.0,
+    "qualitaet": 0.475,
+    "bewertung": 0.35,
+    "analysten": 0.549
+   },
+   "target_methods": {
+    "atr": 238.37,
+    "struktur": 243.29
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
+  },
+  {
+   "symbol": "AWK",
+   "name": "American Water Works",
+   "sector": "Versorger",
+   "score": 0.3649,
+   "target": 133.47,
+   "stop": 124.32,
+   "atr_at_entry": 2.3933990230998075,
+   "ziel_atr": 2.24,
+   "stop_atr": 1.58,
+   "basis_p_ziel": 0.3517,
+   "basis_erwartung_r": 0.0595,
+   "score_components": {
+    "trend": 0.187,
+    "setup": 0.492,
+    "volumen": 0.0,
+    "qualitaet": 0.49,
+    "bewertung": 0.252,
+    "analysten": 0.417
+   },
+   "target_methods": {
+    "atr": 132.49,
+    "struktur": 134.68
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
+  },
+  {
+   "symbol": "SNPS",
+   "name": "Synopsys",
+   "sector": "Technologie",
+   "score": 0.5517,
+   "target": 554.16,
+   "stop": 474.35,
+   "atr_at_entry": 18.734272530834435,
+   "ziel_atr": 2.6,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3436,
+   "basis_erwartung_r": 0.1208,
+   "score_components": {
+    "trend": 0.921,
+    "setup": 0.218,
+    "volumen": 0.51,
+    "qualitaet": 0.559,
+    "bewertung": 0.186,
+    "analysten": 0.729
+   },
+   "target_methods": {
+    "atr": 543.49,
+    "struktur": 567.12
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
+  },
+  {
+   "symbol": "MAS",
+   "name": "Masco",
+   "sector": "Industrie",
+   "score": 0.5905,
+   "target": 74.58,
+   "stop": 67.24,
+   "atr_at_entry": 1.6130608274282956,
+   "ziel_atr": 2.88,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.2921,
+   "basis_erwartung_r": 0.1083,
+   "score_components": {
+    "trend": 0.251,
+    "setup": 1.0,
+    "volumen": 0.119,
+    "qualitaet": 0.509,
+    "bewertung": 0.648,
+    "analysten": 0.64
+   },
+   "target_methods": {
+    "atr": 73.12,
+    "struktur": 74.93
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
+  },
+  {
+   "symbol": "KDP",
+   "name": "Keurig Dr Pepper",
+   "sector": "Konsum defensiv",
+   "score": 0.6401,
+   "target": 32.95,
+   "stop": 29.77,
+   "atr_at_entry": 0.792849846700465,
+   "ziel_atr": 2.28,
+   "stop_atr": 1.73,
+   "basis_p_ziel": 0.3697,
+   "basis_erwartung_r": 0.0488,
+   "score_components": {
+    "trend": 0.534,
+    "setup": 1.0,
+    "volumen": 0.116,
+    "qualitaet": 0.457,
+    "bewertung": 0.719,
+    "analysten": 0.655
+   },
+   "target_methods": {
+    "atr": 32.65,
+    "struktur": 32.92
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
   }
  ],
  "closed": [

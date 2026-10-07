@@ -1619,6 +1619,188 @@
    },
    "order_date": "2026-10-06",
    "tries": 1
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "sector": "Technologie",
+   "score": 0.7752,
+   "target": 571.72,
+   "stop": 499.48,
+   "atr_at_entry": 18.792982621557094,
+   "ziel_atr": 2.19,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.4043,
+   "basis_erwartung_r": 0.0972,
+   "score_components": {
+    "trend": 0.702,
+    "setup": 0.919,
+    "volumen": 0.0,
+    "qualitaet": 0.975,
+    "bewertung": 0.434,
+    "analysten": 0.849,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 568.84,
+    "struktur": 575.68
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
+  },
+  {
+   "symbol": "SKHY",
+   "name": "SK hynix Inc. American Depositary Shares",
+   "sector": "Technologie",
+   "score": 0.761,
+   "target": 203.25,
+   "stop": 168.0,
+   "atr_at_entry": 8.777348634463214,
+   "ziel_atr": 2.36,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3782,
+   "basis_erwartung_r": 0.1068,
+   "score_components": {
+    "trend": 0.843,
+    "setup": 0.926,
+    "volumen": 0.506,
+    "qualitaet": 0.994,
+    "bewertung": 1.0,
+    "analysten": 0.85,
+    "sentiment": 0.35
+   },
+   "target_methods": {
+    "atr": 200.4,
+    "struktur": 199.78
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
+  },
+  {
+   "symbol": "NTRA",
+   "name": "Natera, Inc. Common Stock",
+   "sector": "Gesundheit",
+   "score": 0.7597,
+   "target": 432.6,
+   "stop": 376.61,
+   "atr_at_entry": 14.924720089141045,
+   "ziel_atr": 2.13,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3924,
+   "basis_erwartung_r": 0.0881,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.44,
+    "analysten": 0.43,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 429.93,
+    "struktur": 436.94
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
+  },
+  {
+   "symbol": "MPWR",
+   "name": "Monolithic Power Systems",
+   "sector": "Technologie",
+   "score": 0.751,
+   "target": 1570.07,
+   "stop": 1390.38,
+   "atr_at_entry": 50.64601133904164,
+   "ziel_atr": 1.89,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.4516,
+   "basis_erwartung_r": 0.0796,
+   "score_components": {
+    "trend": 0.91,
+    "setup": 0.774,
+    "volumen": 0.0,
+    "qualitaet": 0.913,
+    "bewertung": 0.278,
+    "analysten": 0.85
+   },
+   "target_methods": {
+    "atr": 1577.31,
+    "struktur": 1565.9
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet Inc. (Class C)",
+   "sector": "Kommunikation",
+   "score": 0.7275,
+   "target": 363.72,
+   "stop": 330.34,
+   "atr_at_entry": 8.165355196394403,
+   "ziel_atr": 2.33,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.3522,
+   "basis_erwartung_r": 0.0381,
+   "score_components": {
+    "trend": 0.484,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.978,
+    "bewertung": 0.274,
+    "analysten": 0.795
+   },
+   "target_methods": {
+    "atr": 359.82,
+    "struktur": 368.57
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "sector": "Konsum zyklisch",
+   "score": 0.7257,
+   "target": 269.4,
+   "stop": 246.51,
+   "atr_at_entry": 5.494682594452181,
+   "ziel_atr": 2.38,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.3491,
+   "basis_erwartung_r": 0.0276,
+   "score_components": {
+    "trend": 0.35,
+    "setup": 1.0,
+    "volumen": 0.196,
+    "qualitaet": 0.828,
+    "bewertung": 0.209,
+    "analysten": 0.984
+   },
+   "target_methods": {
+    "atr": 266.49,
+    "struktur": 272.37
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-07"
   }
  ],
  "closed": [
