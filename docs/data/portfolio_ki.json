@@ -1243,195 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "PSX",
-   "name": "Phillips 66",
-   "sector": "Energie",
-   "score": 0.7721,
-   "target": 275.64,
-   "stop": 244.05,
-   "atr_at_entry": 7.885596299608982,
-   "ziel_atr": 2.59,
-   "stop_atr": 1.42,
-   "basis_p_ziel": 0.3607,
-   "basis_erwartung_r": 0.2485,
-   "score_components": {
-    "trend": 0.964,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.64,
-    "bewertung": 0.749,
-    "analysten": 0.392,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 272.41,
-    "struktur": 276.95
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-01",
-   "tries": 2
-  },
-  {
-   "symbol": "MPWR",
-   "name": "Monolithic Power Systems",
-   "sector": "Technologie",
-   "score": 0.7598,
-   "target": 1479.08,
-   "stop": 1259.86,
-   "atr_at_entry": 50.70739265605912,
-   "ziel_atr": 2.67,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3358,
-   "basis_erwartung_r": 0.1244,
-   "score_components": {
-    "trend": 0.602,
-    "setup": 1.0,
-    "volumen": 0.155,
-    "qualitaet": 0.913,
-    "bewertung": 0.294,
-    "analysten": 0.903
-   },
-   "target_methods": {
-    "atr": 1447.02,
-    "struktur": 1510.97
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-01",
-   "tries": 2
-  },
-  {
-   "symbol": "CLS",
-   "name": "Celestica, Inc.",
-   "sector": "Technologie",
-   "score": 0.7592,
-   "target": 418.13,
-   "stop": 329.67,
-   "atr_at_entry": 19.112867281152294,
-   "ziel_atr": 2.97,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.2977,
-   "basis_erwartung_r": 0.142,
-   "score_components": {
-    "trend": 0.781,
-    "setup": 0.826,
-    "volumen": 0.031,
-    "qualitaet": 0.754,
-    "bewertung": 0.672,
-    "analysten": 0.945,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 400.22,
-    "struktur": 424.32
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-01",
-   "tries": 2
-  },
-  {
-   "symbol": "NXPI",
-   "name": "NXP Semiconductors",
-   "sector": "Technologie",
-   "score": 0.7523,
-   "target": 259.2,
-   "stop": 226.0,
-   "atr_at_entry": 6.911049180883017,
-   "ziel_atr": 3.15,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.2777,
-   "basis_erwartung_r": 0.15,
-   "score_components": {
-    "trend": 0.28,
-    "setup": 1.0,
-    "volumen": 0.066,
-    "qualitaet": 0.829,
-    "bewertung": 0.917,
-    "analysten": 0.925,
-    "sentiment": 0.9
-   },
-   "target_methods": {
-    "atr": 251.51,
-    "struktur": 260.22
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-01",
-   "tries": 2
-  },
-  {
-   "symbol": "EMR",
-   "name": "Emerson Electric",
-   "sector": "Industrie",
-   "score": 0.7475,
-   "target": 163.77,
-   "stop": 149.34,
-   "atr_at_entry": 3.4048978842940536,
-   "ziel_atr": 2.57,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3356,
-   "basis_erwartung_r": 0.0971,
-   "score_components": {
-    "trend": 0.874,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.49,
-    "bewertung": 0.402,
-    "analysten": 0.641
-   },
-   "target_methods": {
-    "atr": 161.73,
-    "struktur": 165.57
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-01",
-   "tries": 2
-  },
-  {
-   "symbol": "BMNR",
-   "name": "BitMine Immersion Technologies, Inc.",
-   "sector": "Finanzen",
-   "score": 0.7349,
-   "target": 29.19,
-   "stop": 23.78,
-   "atr_at_entry": 1.620812497254764,
-   "ziel_atr": 1.7,
-   "stop_atr": 1.64,
-   "basis_p_ziel": 0.4835,
-   "basis_erwartung_r": 0.0801,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 0.915,
-    "volumen": 0.144,
-    "qualitaet": 0.45,
-    "analysten": 0.85,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 29.52,
-    "struktur": 28.85
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-01",
-   "tries": 2
-  },
-  {
    "symbol": "PBR",
    "name": "PETROLEO BRASILEIRO S.A.-PETROBRAS ADS (REP 1 COMMON SHARE)",
    "sector": "Energie",
@@ -1460,7 +1271,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-02",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PTC",
@@ -1491,7 +1302,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-02",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ASML",
@@ -1522,7 +1333,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-02",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "OXY",
@@ -1554,7 +1365,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-02",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "META",
@@ -1586,7 +1397,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-02",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "HAS",
@@ -1617,7 +1428,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-02",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NVDA",
@@ -1648,7 +1459,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-06"
+   "order_date": "2026-10-06",
+   "tries": 1
   },
   {
    "symbol": "ACN",
@@ -1679,7 +1491,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-06"
+   "order_date": "2026-10-06",
+   "tries": 1
   },
   {
    "symbol": "AVGO",
@@ -1710,7 +1523,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-06"
+   "order_date": "2026-10-06",
+   "tries": 1
   },
   {
    "symbol": "GOOGL",
@@ -1741,7 +1555,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-06"
+   "order_date": "2026-10-06",
+   "tries": 1
   },
   {
    "symbol": "WAB",
@@ -1771,7 +1586,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-06"
+   "order_date": "2026-10-06",
+   "tries": 1
   },
   {
    "symbol": "EME",
@@ -1801,7 +1617,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-06"
+   "order_date": "2026-10-06",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4097,6 +3914,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-10-07",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4518,6 +4343,36 @@
   {
    "date": "2026-10-06",
    "symbol": "LLY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-07",
+   "symbol": "PSX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-07",
+   "symbol": "MPWR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-07",
+   "symbol": "CLS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-07",
+   "symbol": "NXPI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-07",
+   "symbol": "EMR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-07",
+   "symbol": "BMNR",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
