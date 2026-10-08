@@ -1931,6 +1931,186 @@
    },
    "order_date": "2026-10-07",
    "tries": 1
+  },
+  {
+   "symbol": "LULU",
+   "name": "Lululemon Athletica",
+   "sector": "Konsum zyklisch",
+   "score": 0.4662,
+   "target": 101.86,
+   "stop": 85.3,
+   "atr_at_entry": 3.68772048761968,
+   "ziel_atr": 2.71,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.2999,
+   "basis_erwartung_r": 0.0338,
+   "score_components": {
+    "trend": 0.153,
+    "setup": 0.446,
+    "volumen": 0.103,
+    "qualitaet": 0.573,
+    "bewertung": 0.799,
+    "analysten": 0.645
+   },
+   "target_methods": {
+    "atr": 98.71,
+    "struktur": 102.66
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
+  },
+  {
+   "symbol": "BP",
+   "name": "BP p.l.c.",
+   "sector": "Energie",
+   "score": 0.7067,
+   "target": 47.25,
+   "stop": 43.03,
+   "atr_at_entry": 1.0502363684173033,
+   "ziel_atr": 2.59,
+   "stop_atr": 1.42,
+   "basis_p_ziel": 0.3591,
+   "basis_erwartung_r": 0.2489,
+   "score_components": {
+    "trend": 0.874,
+    "setup": 1.0,
+    "volumen": 0.052,
+    "qualitaet": 0.443,
+    "bewertung": 0.859,
+    "analysten": 0.656
+   },
+   "target_methods": {
+    "atr": 46.81,
+    "struktur": 47.03
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
+  },
+  {
+   "symbol": "PEP",
+   "name": "PepsiCo",
+   "sector": "Konsum defensiv",
+   "score": 0.2021,
+   "target": 129.39,
+   "stop": 119.84,
+   "atr_at_entry": 2.2017230040034903,
+   "ziel_atr": 2.62,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.3151,
+   "basis_erwartung_r": 0.0506,
+   "score_components": {
+    "trend": 0.151,
+    "setup": 0.333,
+    "volumen": 0.74,
+    "qualitaet": 0.483,
+    "bewertung": 0.581,
+    "analysten": 0.652
+   },
+   "target_methods": {
+    "atr": 127.82,
+    "struktur": 130.18
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
+  },
+  {
+   "symbol": "MCO",
+   "name": "Moody's Corporation",
+   "sector": "Finanzen",
+   "score": 0.5205,
+   "target": 472.37,
+   "stop": 433.99,
+   "atr_at_entry": 9.538327094172192,
+   "ziel_atr": 2.38,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3574,
+   "basis_erwartung_r": 0.0999,
+   "score_components": {
+    "trend": 0.116,
+    "setup": 0.553,
+    "volumen": 0.201,
+    "qualitaet": 0.725,
+    "bewertung": 0.192,
+    "analysten": 0.819
+   },
+   "target_methods": {
+    "atr": 467.8,
+    "struktur": 477.61
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
+  },
+  {
+   "symbol": "BG",
+   "name": "Bunge Global",
+   "sector": "Konsum defensiv",
+   "score": 0.4665,
+   "target": 114.73,
+   "stop": 100.06,
+   "atr_at_entry": 3.1869040194936633,
+   "ziel_atr": 2.88,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.275,
+   "basis_erwartung_r": 0.0502,
+   "score_components": {
+    "trend": 0.136,
+    "setup": 0.467,
+    "volumen": 0.059,
+    "qualitaet": 0.407,
+    "bewertung": 0.737,
+    "analysten": 0.816
+   },
+   "target_methods": {
+    "atr": 111.62,
+    "struktur": 115.02
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
+  },
+  {
+   "symbol": "PFE",
+   "name": "Pfizer",
+   "sector": "Gesundheit",
+   "score": 0.6135,
+   "target": 29.23,
+   "stop": 27.13,
+   "atr_at_entry": 0.5274641574113966,
+   "ziel_atr": 2.35,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.354,
+   "basis_erwartung_r": 0.0929,
+   "score_components": {
+    "trend": 0.725,
+    "setup": 1.0,
+    "volumen": 0.36,
+    "qualitaet": 0.286,
+    "bewertung": 0.556,
+    "analysten": 0.506
+   },
+   "target_methods": {
+    "atr": 29.02,
+    "struktur": 29.21
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
   }
  ],
  "closed": [

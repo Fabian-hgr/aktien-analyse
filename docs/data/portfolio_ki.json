@@ -1619,6 +1619,189 @@
    },
    "order_date": "2026-10-07",
    "tries": 1
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "sector": "Kommunikation",
+   "score": 0.7844,
+   "target": 769.25,
+   "stop": 680.08,
+   "atr_at_entry": 23.374148282870333,
+   "ziel_atr": 2.06,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.3998,
+   "basis_erwartung_r": 0.0367,
+   "score_components": {
+    "trend": 0.996,
+    "setup": 1.0,
+    "volumen": 0.001,
+    "qualitaet": 0.964,
+    "bewertung": 0.386,
+    "analysten": 0.69,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 764.49,
+    "struktur": 779.8
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica, Inc.",
+   "sector": "Technologie",
+   "score": 0.7725,
+   "target": 405.46,
+   "stop": 340.82,
+   "atr_at_entry": 18.677826501561217,
+   "ziel_atr": 1.81,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.4665,
+   "basis_erwartung_r": 0.0739,
+   "score_components": {
+    "trend": 0.82,
+    "setup": 0.863,
+    "volumen": 0.039,
+    "qualitaet": 0.754,
+    "bewertung": 0.675,
+    "analysten": 0.913
+   },
+   "target_methods": {
+    "atr": 409.76,
+    "struktur": 393.72
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
+  },
+  {
+   "symbol": "FIX",
+   "name": "Comfort Systems USA",
+   "sector": "Industrie",
+   "score": 0.7638,
+   "target": 1879.89,
+   "stop": 1622.78,
+   "atr_at_entry": 70.50048649236142,
+   "ziel_atr": 1.98,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.4288,
+   "basis_erwartung_r": 0.0699,
+   "score_components": {
+    "trend": 0.506,
+    "setup": 1.0,
+    "volumen": 0.755,
+    "qualitaet": 0.844,
+    "bewertung": 0.431,
+    "analysten": 0.75
+   },
+   "target_methods": {
+    "atr": 1879.47,
+    "struktur": 1883.49
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
+  },
+  {
+   "symbol": "NXPI",
+   "name": "NXP Semiconductors",
+   "sector": "Technologie",
+   "score": 0.7593,
+   "target": 257.62,
+   "stop": 223.43,
+   "atr_at_entry": 7.118442339838253,
+   "ziel_atr": 3.15,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.2777,
+   "basis_erwartung_r": 0.15,
+   "score_components": {
+    "trend": 0.281,
+    "setup": 0.999,
+    "volumen": 0.464,
+    "qualitaet": 0.829,
+    "bewertung": 0.933,
+    "analysten": 0.925,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 249.7,
+    "struktur": 258.68
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
+  },
+  {
+   "symbol": "LRCX",
+   "name": "Lam Research",
+   "sector": "Technologie",
+   "score": 0.7544,
+   "target": 353.73,
+   "stop": 307.37,
+   "atr_at_entry": 13.280375525708374,
+   "ziel_atr": 1.84,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.4614,
+   "basis_erwartung_r": 0.0759,
+   "score_components": {
+    "trend": 0.685,
+    "setup": 0.956,
+    "volumen": 0.054,
+    "qualitaet": 0.974,
+    "bewertung": 0.336,
+    "analysten": 0.749
+   },
+   "target_methods": {
+    "atr": 356.39,
+    "struktur": 352.41
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
+  },
+  {
+   "symbol": "LLY",
+   "name": "Lilly (Eli)",
+   "sector": "Gesundheit",
+   "score": 0.7429,
+   "target": 1263.65,
+   "stop": 1136.15,
+   "atr_at_entry": 32.209277450650255,
+   "ziel_atr": 2.34,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3562,
+   "basis_erwartung_r": 0.0927,
+   "score_components": {
+    "trend": 0.75,
+    "setup": 1.0,
+    "volumen": 0.432,
+    "qualitaet": 0.87,
+    "bewertung": 0.331,
+    "analysten": 0.639,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 1251.24,
+    "struktur": 1284.67
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-08"
   }
  ],
  "closed": [
