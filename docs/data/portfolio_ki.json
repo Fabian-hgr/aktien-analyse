@@ -1243,196 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "sector": "Technologie",
-   "score": 0.7632,
-   "target": 257.46,
-   "stop": 229.26,
-   "atr_at_entry": 5.871298519612644,
-   "ziel_atr": 3.15,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.2777,
-   "basis_erwartung_r": 0.15,
-   "score_components": {
-    "trend": 0.886,
-    "setup": 0.578,
-    "volumen": 0.605,
-    "qualitaet": 0.986,
-    "bewertung": 0.889,
-    "analysten": 1.0,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 250.93,
-    "struktur": 258.33
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
-   "symbol": "ACN",
-   "name": "Accenture",
-   "sector": "Technologie",
-   "score": 0.7596,
-   "target": 223.5,
-   "stop": 179.43,
-   "atr_at_entry": 9.421940630102535,
-   "ziel_atr": 3.02,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.2917,
-   "basis_erwartung_r": 0.1446,
-   "score_components": {
-    "trend": 0.895,
-    "setup": 1.0,
-    "volumen": 0.352,
-    "qualitaet": 0.607,
-    "bewertung": 0.775,
-    "analysten": 0.672,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 214.2,
-    "struktur": 226.08
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "sector": "Technologie",
-   "score": 0.7468,
-   "target": 394.65,
-   "stop": 344.97,
-   "atr_at_entry": 10.600015407066396,
-   "ziel_atr": 3.03,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.2907,
-   "basis_erwartung_r": 0.145,
-   "score_components": {
-    "trend": 0.142,
-    "setup": 1.0,
-    "volumen": 0.106,
-    "qualitaet": 0.952,
-    "bewertung": 0.781,
-    "analysten": 1.0,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 384.09,
-    "struktur": 397.46
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
-   "symbol": "GOOGL",
-   "name": "Alphabet Inc. (Class A)",
-   "sector": "Kommunikation",
-   "score": 0.7464,
-   "target": 366.77,
-   "stop": 331.3,
-   "atr_at_entry": 8.640455237809329,
-   "ziel_atr": 2.35,
-   "stop_atr": 1.75,
-   "basis_p_ziel": 0.3495,
-   "basis_erwartung_r": 0.0381,
-   "score_components": {
-    "trend": 0.474,
-    "setup": 1.0,
-    "volumen": 0.222,
-    "qualitaet": 0.978,
-    "bewertung": 0.263,
-    "analysten": 0.905,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 362.51,
-    "struktur": 371.76
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
-   "symbol": "WAB",
-   "name": "Wabtec",
-   "sector": "Industrie",
-   "score": 0.7436,
-   "target": 303.73,
-   "stop": 282.97,
-   "atr_at_entry": 5.2219817337709316,
-   "ziel_atr": 2.31,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.376,
-   "basis_erwartung_r": 0.0854,
-   "score_components": {
-    "trend": 0.851,
-    "setup": 1.0,
-    "volumen": 0.835,
-    "qualitaet": 0.531,
-    "bewertung": 0.452,
-    "analysten": 0.644
-   },
-   "target_methods": {
-    "atr": 301.98,
-    "struktur": 305.64
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
-   "symbol": "EME",
-   "name": "Emcor",
-   "sector": "Industrie",
-   "score": 0.7408,
-   "target": 831.96,
-   "stop": 746.33,
-   "atr_at_entry": 19.53012814566737,
-   "ziel_atr": 2.72,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3149,
-   "basis_erwartung_r": 0.1024,
-   "score_components": {
-    "trend": 0.551,
-    "setup": 1.0,
-    "volumen": 0.246,
-    "qualitaet": 0.739,
-    "bewertung": 0.654,
-    "analysten": 0.825
-   },
-   "target_methods": {
-    "atr": 817.44,
-    "struktur": 839.41
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
    "symbol": "AMAT",
    "name": "Applied Materials",
    "sector": "Technologie",
@@ -1462,7 +1272,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SKHY",
@@ -1494,7 +1304,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NTRA",
@@ -1525,7 +1335,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MPWR",
@@ -1556,7 +1366,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "GOOG",
@@ -1587,7 +1397,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AMZN",
@@ -1618,7 +1428,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "META",
@@ -1649,7 +1459,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   },
   {
    "symbol": "CLS",
@@ -1679,7 +1490,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   },
   {
    "symbol": "FIX",
@@ -1709,7 +1521,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   },
   {
    "symbol": "NXPI",
@@ -1740,7 +1553,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   },
   {
    "symbol": "LRCX",
@@ -1770,7 +1584,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   },
   {
    "symbol": "LLY",
@@ -1801,7 +1616,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4113,6 +3929,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-10-09",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4594,6 +4418,36 @@
   {
    "date": "2026-10-08",
    "symbol": "HAS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "NVDA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "ACN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "AVGO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "GOOGL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "WAB",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "EME",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]

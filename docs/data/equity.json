@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-08T01:40:54+00:00",
+ "updated_at": "2026-10-09T01:54:11+00:00",
  "start_capital": 100000.0,
  "statistik": {
   "ki": {
@@ -277,6 +277,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-10-09",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "zufall": [
@@ -503,6 +511,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-10-09",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "spy": [
@@ -696,6 +712,12 @@
    "date": "2026-10-07",
    "equity": 101793.15,
    "return_pct": 1.793,
+   "basis": 763.46
+  },
+  {
+   "date": "2026-10-08",
+   "equity": 101364.84,
+   "return_pct": 1.365,
    "basis": 763.46
   }
  ]

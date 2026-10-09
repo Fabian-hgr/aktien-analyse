@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "ICE",
-   "name": "Intercontinental Exchange",
-   "sector": "Finanzen",
-   "score": 0.6044,
-   "target": 159.49,
-   "stop": 147.07,
-   "atr_at_entry": 3.0972921559684488,
-   "ziel_atr": 2.37,
-   "stop_atr": 1.64,
-   "basis_p_ziel": 0.3598,
-   "basis_erwartung_r": 0.0995,
-   "score_components": {
-    "trend": 0.476,
-    "setup": 0.788,
-    "volumen": 0.375,
-    "qualitaet": 0.617,
-    "bewertung": 0.185,
-    "analysten": 0.725
-   },
-   "target_methods": {
-    "atr": 158.05,
-    "struktur": 161.24
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
-   "symbol": "VLTO",
-   "name": "Veralto",
-   "sector": "Industrie",
-   "score": 0.6849,
-   "target": 100.67,
-   "stop": 93.89,
-   "atr_at_entry": 1.5642678701909953,
-   "ziel_atr": 2.67,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3222,
-   "basis_erwartung_r": 0.1005,
-   "score_components": {
-    "trend": 0.562,
-    "setup": 1.0,
-    "volumen": 0.406,
-    "qualitaet": 0.67,
-    "bewertung": 0.362,
-    "analysten": 0.674
-   },
-   "target_methods": {
-    "atr": 99.58,
-    "struktur": 101.34
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
-   "symbol": "NCLH",
-   "name": "Norwegian Cruise Line Holdings",
-   "sector": "Konsum zyklisch",
-   "score": 0.6203,
-   "target": 16.5,
-   "stop": 13.84,
-   "atr_at_entry": 0.5784601808262624,
-   "ziel_atr": 2.82,
-   "stop_atr": 1.78,
-   "basis_p_ziel": 0.2839,
-   "basis_erwartung_r": 0.0366,
-   "score_components": {
-    "trend": 0.119,
-    "setup": 0.941,
-    "volumen": 0.3,
-    "qualitaet": 0.422,
-    "bewertung": 0.79,
-    "analysten": 0.925
-   },
-   "target_methods": {
-    "atr": 15.94,
-    "struktur": 16.56
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
-   "symbol": "Q",
-   "name": "Qnity Electronics",
-   "sector": "Technologie",
-   "score": 0.7455,
-   "target": 143.29,
-   "stop": 124.69,
-   "atr_at_entry": 4.161053438843268,
-   "ziel_atr": 2.81,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3175,
-   "basis_erwartung_r": 0.1329,
-   "score_components": {
-    "trend": 0.493,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.53,
-    "bewertung": 0.476,
-    "analysten": 0.884
-   },
-   "target_methods": {
-    "atr": 140.05,
-    "struktur": 145.29
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
-   "symbol": "JCI",
-   "name": "Johnson Controls",
-   "sector": "Industrie",
-   "score": 0.5572,
-   "target": 165.04,
-   "stop": 151.13,
-   "atr_at_entry": 3.4139723186892783,
-   "ziel_atr": 2.41,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3602,
-   "basis_erwartung_r": 0.0901,
-   "score_components": {
-    "trend": 0.864,
-    "setup": 0.51,
-    "volumen": 0.431,
-    "qualitaet": 0.528,
-    "bewertung": 0.294,
-    "analysten": 0.51
-   },
-   "target_methods": {
-    "atr": 163.56,
-    "struktur": 167.4
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
-   "symbol": "DIS",
-   "name": "Walt Disney Company (The)",
-   "sector": "Kommunikation",
-   "score": 0.6173,
-   "target": 109.01,
-   "stop": 99.94,
-   "atr_at_entry": 2.0849901417157595,
-   "ziel_atr": 2.59,
-   "stop_atr": 1.76,
-   "basis_p_ziel": 0.3112,
-   "basis_erwartung_r": 0.0406,
-   "score_components": {
-    "trend": 0.593,
-    "setup": 0.834,
-    "volumen": 0.063,
-    "qualitaet": 0.401,
-    "bewertung": 0.355,
-    "analysten": 0.877
-   },
-   "target_methods": {
-    "atr": 107.47,
-    "struktur": 109.7
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-06",
-   "tries": 2
-  },
-  {
    "symbol": "DLR",
    "name": "Digital Realty",
    "sector": "Immobilien",
@@ -1775,7 +1589,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PKG",
@@ -1806,7 +1620,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AWK",
@@ -1837,7 +1651,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SNPS",
@@ -1868,7 +1682,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MAS",
@@ -1899,7 +1713,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "KDP",
@@ -1930,7 +1744,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-07",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "LULU",
@@ -1960,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   },
   {
    "symbol": "BP",
@@ -1990,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   },
   {
    "symbol": "PEP",
@@ -2020,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   },
   {
    "symbol": "MCO",
@@ -2050,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   },
   {
    "symbol": "BG",
@@ -2080,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   },
   {
    "symbol": "PFE",
@@ -2110,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "ruhig"
    },
-   "order_date": "2026-10-08"
+   "order_date": "2026-10-08",
+   "tries": 1
   }
  ],
  "closed": [
@@ -3930,6 +3750,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-10-09",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -4411,6 +4239,36 @@
   {
    "date": "2026-10-08",
    "symbol": "NVDA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "ICE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "VLTO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "NCLH",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "Q",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "JCI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-09",
+   "symbol": "DIS",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
