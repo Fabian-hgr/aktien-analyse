@@ -1618,6 +1618,190 @@
    },
    "order_date": "2026-10-08",
    "tries": 1
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "sector": "Technologie",
+   "score": 0.8074,
+   "target": 244.94,
+   "stop": 221.14,
+   "atr_at_entry": 5.692796228393817,
+   "ziel_atr": 2.52,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3536,
+   "basis_erwartung_r": 0.1161,
+   "score_components": {
+    "trend": 0.862,
+    "setup": 1.0,
+    "volumen": 0.539,
+    "qualitaet": 0.986,
+    "bewertung": 0.889,
+    "analysten": 1.0,
+    "sentiment": 0.35
+   },
+   "target_methods": {
+    "atr": 242.15,
+    "struktur": 243.34
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "sector": "Technologie",
+   "score": 0.7855,
+   "target": 394.95,
+   "stop": 341.02,
+   "atr_at_entry": 11.489873856354105,
+   "ziel_atr": 3.04,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.29,
+   "basis_erwartung_r": 0.1453,
+   "score_components": {
+    "trend": 0.289,
+    "setup": 1.0,
+    "volumen": 0.361,
+    "qualitaet": 0.952,
+    "bewertung": 0.781,
+    "analysten": 1.0,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 383.43,
+    "struktur": 397.92
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
+  },
+  {
+   "symbol": "TER",
+   "name": "Teradyne",
+   "sector": "Technologie",
+   "score": 0.7848,
+   "target": 443.01,
+   "stop": 365.82,
+   "atr_at_entry": 19.922812882599565,
+   "ziel_atr": 2.22,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3996,
+   "basis_erwartung_r": 0.0989,
+   "score_components": {
+    "trend": 0.874,
+    "setup": 1.0,
+    "volumen": 0.333,
+    "qualitaet": 0.998,
+    "bewertung": 0.336,
+    "analysten": 0.573
+   },
+   "target_methods": {
+    "atr": 439.35,
+    "struktur": 451.7
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
+  },
+  {
+   "symbol": "EOG",
+   "name": "EOG Resources",
+   "sector": "Energie",
+   "score": 0.7747,
+   "target": 155.56,
+   "stop": 143.66,
+   "atr_at_entry": 3.4159208695829006,
+   "ziel_atr": 2.06,
+   "stop_atr": 1.42,
+   "basis_p_ziel": 0.4516,
+   "basis_erwartung_r": 0.234,
+   "score_components": {
+    "trend": 0.854,
+    "setup": 0.942,
+    "volumen": 0.402,
+    "qualitaet": 0.904,
+    "bewertung": 0.665,
+    "analysten": 0.617,
+    "sentiment": 0.7
+   },
+   "target_methods": {
+    "atr": 155.94,
+    "struktur": 154.15
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
+  },
+  {
+   "symbol": "MA",
+   "name": "Mastercard",
+   "sector": "Finanzen",
+   "score": 0.7665,
+   "target": 594.83,
+   "stop": 558.91,
+   "atr_at_entry": 9.123428368870657,
+   "ziel_atr": 2.3,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3723,
+   "basis_erwartung_r": 0.0974,
+   "score_components": {
+    "trend": 0.651,
+    "setup": 1.0,
+    "volumen": 0.89,
+    "qualitaet": 0.709,
+    "bewertung": 0.212,
+    "analysten": 0.783
+   },
+   "target_methods": {
+    "atr": 591.25,
+    "struktur": 600.2
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
+  },
+  {
+   "symbol": "V",
+   "name": "Visa Inc.",
+   "sector": "Finanzen",
+   "score": 0.7644,
+   "target": 385.27,
+   "stop": 365.52,
+   "atr_at_entry": 5.8283990797025895,
+   "ziel_atr": 1.75,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.4732,
+   "basis_erwartung_r": 0.0816,
+   "score_components": {
+    "trend": 0.827,
+    "setup": 0.966,
+    "volumen": 0.733,
+    "qualitaet": 0.857,
+    "bewertung": 0.166,
+    "analysten": 0.714,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 386.18,
+    "struktur": 385.54
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
   }
  ],
  "closed": [

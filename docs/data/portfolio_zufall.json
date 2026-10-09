@@ -1931,6 +1931,186 @@
    },
    "order_date": "2026-10-08",
    "tries": 1
+  },
+  {
+   "symbol": "DLTR",
+   "name": "Dollar Tree",
+   "sector": "Konsum defensiv",
+   "score": 0.6324,
+   "target": 127.58,
+   "stop": 112.45,
+   "atr_at_entry": 3.5635746441337863,
+   "ziel_atr": 2.52,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.3297,
+   "basis_erwartung_r": 0.0507,
+   "score_components": {
+    "trend": 0.345,
+    "setup": 1.0,
+    "volumen": 0.373,
+    "qualitaet": 0.467,
+    "bewertung": 0.587,
+    "analysten": 0.695
+   },
+   "target_methods": {
+    "atr": 125.37,
+    "struktur": 129.18
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
+  },
+  {
+   "symbol": "VRTX",
+   "name": "Vertex Pharmaceuticals",
+   "sector": "Gesundheit",
+   "score": 0.6362,
+   "target": 527.76,
+   "stop": 486.24,
+   "atr_at_entry": 10.454365690563321,
+   "ziel_atr": 2.35,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3539,
+   "basis_erwartung_r": 0.093,
+   "score_components": {
+    "trend": 0.605,
+    "setup": 0.571,
+    "volumen": 0.78,
+    "qualitaet": 0.823,
+    "bewertung": 0.142,
+    "analysten": 0.667
+   },
+   "target_methods": {
+    "atr": 523.59,
+    "struktur": 534.44
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
+  },
+  {
+   "symbol": "TSN",
+   "name": "Tyson Foods",
+   "sector": "Konsum defensiv",
+   "score": 0.5527,
+   "target": 54.99,
+   "stop": 50.66,
+   "atr_at_entry": 0.9767230972218025,
+   "ziel_atr": 2.7,
+   "stop_atr": 1.73,
+   "basis_p_ziel": 0.302,
+   "basis_erwartung_r": 0.0504,
+   "score_components": {
+    "trend": 0.078,
+    "setup": 1.0,
+    "volumen": 0.483,
+    "qualitaet": 0.218,
+    "bewertung": 0.687,
+    "analysten": 0.71
+   },
+   "target_methods": {
+    "atr": 54.21,
+    "struktur": 55.25
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
+  },
+  {
+   "symbol": "WMT",
+   "name": "Walmart",
+   "sector": "Konsum defensiv",
+   "score": 0.5779,
+   "target": 115.42,
+   "stop": 106.84,
+   "atr_at_entry": 2.1772848630994672,
+   "ziel_atr": 2.22,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.3798,
+   "basis_erwartung_r": 0.0483,
+   "score_components": {
+    "trend": 0.302,
+    "setup": 0.997,
+    "volumen": 0.399,
+    "qualitaet": 0.443,
+    "bewertung": 0.0,
+    "analysten": 0.684
+   },
+   "target_methods": {
+    "atr": 114.74,
+    "struktur": 116.57
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
+  },
+  {
+   "symbol": "HOOD",
+   "name": "Robinhood Markets",
+   "sector": "Finanzen",
+   "score": 0.6198,
+   "target": 120.39,
+   "stop": 97.82,
+   "atr_at_entry": 5.613841385530836,
+   "ziel_atr": 2.38,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3578,
+   "basis_erwartung_r": 0.0998,
+   "score_components": {
+    "trend": 0.504,
+    "setup": 0.631,
+    "volumen": 0.987,
+    "qualitaet": 0.744,
+    "bewertung": 0.106,
+    "analysten": 0.84
+   },
+   "target_methods": {
+    "atr": 117.72,
+    "struktur": 123.49
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
+  },
+  {
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices",
+   "sector": "Technologie",
+   "score": 0.6546,
+   "target": 660.15,
+   "stop": 581.41,
+   "atr_at_entry": 23.801429736210828,
+   "ziel_atr": 1.65,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.4929,
+   "basis_erwartung_r": 0.064,
+   "score_components": {
+    "trend": 0.922,
+    "setup": 0.93,
+    "volumen": 0.269,
+    "qualitaet": 0.684,
+    "bewertung": 0.372,
+    "analysten": 0.55
+   },
+   "target_methods": {
+    "atr": 669.27,
+    "struktur": 658.45
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "ruhig"
+   },
+   "order_date": "2026-10-09"
   }
  ],
  "closed": [
