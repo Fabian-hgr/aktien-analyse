@@ -1,25 +1,10 @@
 {
- "letzter_lauf": "2026-10-14T01:01:59+00:00",
- "lauf": "abrechnung",
+ "letzter_lauf": "2026-10-14T17:24:52+00:00",
+ "lauf": "vorboerse",
  "ergebnis": "fertig",
- "tag": "2026-10-14",
- "gefuellt": {
-  "ki": 0,
-  "zufall": 0
- },
- "geschlossen": {
-  "ki": 0,
-  "zufall": 0
- },
- "lernschritte": [
-  "Komponente \u00abTrend & relative St\u00e4rke\u00bb bestraft: obere H\u00e4lfte -0.72 R gegen untere -0.63 R aus 39 Trades (t = -0.37) \u2192 Gewicht 0.150 auf 0.149",
-  "Komponente \u00abSetup-Qualit\u00e4t\u00bb belohnt: obere H\u00e4lfte -0.49 R gegen untere -0.85 R aus 39 Trades (t = +1.43) \u2192 Gewicht 0.218 auf 0.224",
-  "Komponente \u00abVolumenbest\u00e4tigung\u00bb bestraft: obere H\u00e4lfte -0.80 R gegen untere -0.55 R aus 39 Trades (t = -0.96) \u2192 Gewicht 0.059 auf 0.058",
-  "Komponente \u00abFundamentale Qualit\u00e4t\u00bb belohnt: obere H\u00e4lfte -0.56 R gegen untere -0.79 R aus 39 Trades (t = +0.90) \u2192 Gewicht 0.179 auf 0.182",
-  "Komponente \u00abBewertung vs. Branche\u00bb bestraft: obere H\u00e4lfte -0.85 R gegen untere -0.58 R aus 39 Trades (t = -1.09) \u2192 Gewicht 0.058 auf 0.056",
-  "Komponente \u00abAnalysten-R\u00fcckenwind\u00bb belohnt: obere H\u00e4lfte -0.51 R gegen untere -0.84 R aus 39 Trades (t = +1.30) \u2192 Gewicht 0.208 auf 0.213"
- ],
- "sekunden": 1.8,
+ "handelbare_ideen": 496,
+ "sprachmodell": true,
+ "sekunden": 362.4,
  "steuerung": {
   "paused": false,
   "changed_at": null,

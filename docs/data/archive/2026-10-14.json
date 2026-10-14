@@ -1,0 +1,2201 @@
+{
+ "date": "2026-10-14",
+ "generated_at": "2026-10-14T17:24:16+00:00",
+ "regime": {
+  "benchmark": "SPY",
+  "benchmark_close": 778.03,
+  "benchmark_sma200": 720.56,
+  "trend": "aufwaerts",
+  "gap_to_sma200": 0.07975501331183854,
+  "vix": 16.41,
+  "vix_level": "erhoeht",
+  "chg_21d": 0.025248066203697572
+ },
+ "kalibrierung": {
+  "gemessen_am": "2026-10-10T12:55:26+00:00",
+  "beobachtungen": 209999,
+  "horizont": 15,
+  "text": "Kalibriert am 10.10.2026 \u00fcber 209'999 Beobachtungen: Median aufw\u00e4rts 1.915 ATR, abw\u00e4rts 1.665 ATR in 15 Handelstagen."
+ },
+ "universe_size": 527,
+ "position_pct": 0.01,
+ "picks_per_day": 6,
+ "scored": 527,
+ "excluded": 0,
+ "sector_median_pe": {
+  "Gesundheit": 16.76,
+  "Technologie": 20.43,
+  "Industrie": 20.51,
+  "Grundstoffe": 12.45,
+  "Energie": 11.3,
+  "Finanzen": 12.13,
+  "Kommunikation": 16.25,
+  "Konsum zyklisch": 15.39,
+  "Konsum defensiv": 14.73,
+  "Versorger": 16.5,
+  "Immobilien": 30.1
+ },
+ "basisquote_gesamt": {
+  "p_ziel": 0.4347,
+  "p_stop": 0.4489,
+  "p_zeit": 0.1164,
+  "erwartung_r": 0.0647,
+  "n": 209999,
+  "quelle": "_gesamt",
+  "geklemmt": false
+ },
+ "ideen": [
+  {
+   "symbol": "CDNS",
+   "name": "Cadence Design Systems",
+   "sector": "Technologie",
+   "score": 0.835,
+   "coverage": 0.873,
+   "price": 334.28,
+   "target": 358.56,
+   "upside_pct": 7.26,
+   "stop": 316.69,
+   "reward_risk": 1.38,
+   "p_ziel": 0.4646,
+   "basis_erwartung_r": 0.1123,
+   "tradeable": true,
+   "reject_reason": "",
+   "snapshot": {
+    "bars": 276,
+    "date": "2026-10-13",
+    "close": 334.28,
+    "open": 344.11,
+    "high": 344.11,
+    "low": 333.8,
+    "volume": 261860.0,
+    "atr": 10.780106471087773,
+    "atr_pct": 0.032248733011510634,
+    "rsi": 52.588405545770776,
+    "adx": 28.345763081745122,
+    "plus_di": 29.51137728724264,
+    "minus_di": 25.56748149174428,
+    "ema9": 343.6998309393418,
+    "ema21": 332.85859849302716,
+    "ema50": 328.4558661164971,
+    "sma200": 326.8888500000002,
+    "bb_mid": 326.78450000000026,
+    "bb_upper": 379.1711142158474,
+    "bb_lower": 274.3978857841531,
+    "donchian_high20": 361.9,
+    "donchian_low20": 274.44,
+    "donchian_high55": 361.9,
+    "donchian_low55": 273.2,
+    "vol_20d": 0.3654524415926548,
+    "chg_5d": -0.07023057881122574,
+    "chg_21d": 0.19766400343950408,
+    "chg_63d": -0.09977647914254173,
+    "gap_to_sma200": 0.022610590725256507,
+    "rel_strength_63d": -0.1331540857304021,
+    "avg_volume_20d": 127514.05,
+    "dollar_volume_20d": 41756029.68375
+   },
+   "fundamentals": {
+    "_ok": true,
+    "symbol": "CDNS",
+    "quote_type": "EQUITY",
+    "sector": "Technology",
+    "industry": "Software - Application",
+    "employees": 15445,
+    "target_mean": 406.2404,
+    "target_high": 470.0,
+    "target_low": 300.0,
+    "recommendation": "strong_buy",
+    "analyst_count": 26.0,
+    "current_price": 334.74,
+    "profit_margin": 0.23605,
+    "operating_margin": 0.28575,
+    "return_on_equity": 0.23229,
+    "revenue_growth": 0.242,
+    "earnings_growth": 1.254,
+    "free_cashflow": 1609676544.0,
+    "total_debt": 2651358976.0,
+    "total_cash": 1531835008.0,
+    "debt_to_equity": 38.661,
+    "forward_pe": 34.98646,
+    "trailing_pe": null,
+    "forward_eps": 9.5677,
+    "trailing_eps": 5.03,
+    "peg_ratio": 2.7,
+    "ev_to_ebitda": 45.026,
+    "price_to_book": 13.442293,
+    "market_cap": 92185051136.0,
+    "beta": 1.128,
+    "next_earnings": "2026-10-26",
+    "_fetched_at": 1791919520.1960926
+   },
+   "llm": null,
+   "scoring": {
+    "score": 0.835,
+    "raw_score": 0.835,
+    "coverage": 0.873,
+    "eligible": true,
+    "components": [
+     {
+      "key": "trend",
+      "label": "Trend & relative St\u00e4rke",
+      "score": 0.742,
+      "weight": 0.148,
+      "reasons": [
+       "EMA9 \u00fcber EMA21",
+       "EMA21 \u00fcber EMA50",
+       "Kurs \u00fcber 200-Tage-Linie (+2.3 %)",
+       "ADX 28 (Trendst\u00e4rke 71 %)",
+       "63 Tage gegen SPY: -13.3 %"
+      ]
+     },
+     {
+      "key": "setup",
+      "label": "Setup-Qualit\u00e4t",
+      "score": 1.0,
+      "weight": 0.222,
+      "reasons": [
+       "Abstand zur EMA21: +0.1 ATR (100 % Eignung)",
+       "RSI 53 (100 % Eignung)",
+       "Luft bis 55-Tage-Hoch: +2.6 ATR"
+      ]
+     },
+     {
+      "key": "volumen",
+      "label": "Volumenbest\u00e4tigung",
+      "score": 1.0,
+      "weight": 0.057,
+      "reasons": [
+       "Tagesvolumen 2.05x des 20-Tage-Schnitts"
+      ]
+     },
+     {
+      "key": "qualitaet",
+      "label": "Fundamentale Qualit\u00e4t",
+      "score": 0.878,
+      "weight": 0.18,
+      "reasons": [
+       "Nettomarge 23.6 %",
+       "Eigenkapitalrendite 23.2 %",
+       "Umsatzwachstum 24.2 %",
+       "Verschuldungsgrad 39 % des Eigenkapitals"
+      ]
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertung vs. Branche",
+      "score": 0.0,
+      "weight": 0.056,
+      "reasons": [
+       "Forward-KGV 35.0 = 1.71x Branchenmedian 20.4",
+       "PEG 2.70"
+      ]
+     },
+     {
+      "key": "analysten",
+      "label": "Analysten-R\u00fcckenwind",
+      "score": 0.867,
+      "weight": 0.211,
+      "reasons": [
+       "Konsensziel +21.5 % \u00fcber Kurs",
+       "Empfehlung: strong_buy",
+       "26 Analysten decken den Titel ab"
+      ]
+     },
+     {
+      "key": "sentiment",
+      "label": "News-Sentiment",
+      "score": null,
+      "weight": 0.127,
+      "reasons": []
+     }
+    ],
+    "penalties": [],
+    "penalty_total": 0.0,
+    "missing": [
+     "sentiment"
+    ]
+   },
+   "targets": {
+    "price": 334.28,
+    "target": 358.56,
+    "upside_pct": 7.26,
+    "band_low": 328.76,
+    "band_high": 388.37,
+    "sigma": 29.8,
+    "method_spread": 5.42,
+    "methods_used": [
+     "atr",
+     "struktur"
+    ],
+    "methods": [
+     {
+      "key": "atr",
+      "label": "ATR-Projektion",
+      "role": "niveau",
+      "value": 356.48,
+      "steps": [
+       "ATR(14) = 10.78 USD, das sind 3.22 % vom Kurs",
+       "Faktor k = 2.06 \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Technologie",
+       "Ziel = 334.28 + 2.06 x 10.78 = 356.48 USD"
+      ],
+      "note": ""
+     },
+     {
+      "key": "struktur",
+      "label": "Struktur / gemessene Bewegung",
+      "role": "niveau",
+      "value": 361.9,
+      "steps": [
+       "55-Tage-Hoch = 361.90 USD, das sind 27.62 USD \u00fcber dem Kurs 334.28",
+       "Abstand gr\u00f6sser als 1 x ATR (10.78 USD) \u2014 echter Widerstand, nicht Rauschen",
+       "Ziel = 361.90 USD (8.26 %)"
+      ],
+      "note": ""
+     },
+     {
+      "key": "analysten",
+      "label": "Analystenkonsens",
+      "role": "neigung",
+      "value": 406.24,
+      "steps": [
+       "Konsensziel auf 12 Monate: 406.24 USD (26 Analysten)",
+       "Abstand zum Kurs 334.28: 21.53 %",
+       "Zeitanteilig auf 15 Handelstage w\u00e4ren das nur 338.56 USD \u2014 deshalb kein eigenes Ziel, sondern Neigung",
+       "Neigung = 21.53 % x 0.30 = 6.46 % auf das Gesamtziel"
+      ],
+      "note": "12-Monats-Sicht. Wirkt als Richtungshinweis, nicht als Kursziel f\u00fcr den Horizont."
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertungsanker",
+      "role": "neigung",
+      "value": 195.46,
+      "steps": [
+       "Erwarteter Gewinn je Aktie (12 Monate): 9.57 USD",
+       "Median-Forward-KGV der Branche Technologie: 20.4",
+       "Fairer Wert = 9.57 x 20.4 = 195.46 USD",
+       "Abweichung zum Kurs: -41.53 % (gekappt auf -30.00 %)",
+       "Neigung = -30.00 % x 0.30 = -9.00 % auf das Gesamtziel"
+      ],
+      "note": "Bewertung wirkt \u00fcber Monate, nicht \u00fcber Wochen \u2014 deshalb nur eine Neigung."
+     }
+    ],
+    "blend_steps": [
+     "Gewichteter Mittelwert der 2 Niveau-Methoden:",
+     "   ATR-Projektion: 356.48 USD x Gewicht 1.00 (50 %)",
+     "   Struktur / gemessene Bewegung: 361.90 USD x Gewicht 1.00 (50 %)",
+     "   = 359.19 USD",
+     "Neigungen: Analysten 21.53 % x 0.30, Bewertung -30.00 % x 0.30 -> Faktor 0.9746 auf den Abstand",
+     "Ziel = 334.28 + 24.91 x 0.9746 = 358.56 USD",
+     "Erwartungsbereich (1 Sigma \u00fcber 15 Tage bei 36.5 % Volatilit\u00e4t): 328.76 bis 388.37 USD"
+    ],
+    "stop": 316.69,
+    "stop_steps": [
+     "Stop-Faktor = 1.63 x ATR \u2014 gemessener Median der Abw\u00e4rtsbewegung",
+     "Stop = 334.28 - 1.63 x 10.78 = 316.69 USD"
+    ],
+    "analyst_tilt": 0.2153,
+    "valuation_tilt": -0.3,
+    "horizon_days": 15,
+    "marks": {
+     "ziel_k": 2.059,
+     "stop_k": 1.632,
+     "basis_ziel_k": 2.059,
+     "k_mult": 1.0,
+     "quelle": "kalibriert",
+     "herkunft_text": " \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Technologie"
+    },
+    "risk": 17.59,
+    "reward": 24.28,
+    "reward_risk": 1.38,
+    "ziel_atr": 2.25,
+    "stop_atr": 1.63,
+    "p_ziel_beruehrt": 0.4646,
+    "p_stop_beruehrt": 0.5029,
+    "basisquote": {
+     "p_ziel": 0.3964,
+     "p_stop": 0.4658,
+     "p_zeit": 0.1377,
+     "erwartung_r": 0.1123,
+     "n": 35584,
+     "quelle": "Technologie",
+     "geklemmt": false
+    },
+    "probability_steps": [
+     "Ziel liegt 2.25 ATR \u00fcber dem Kurs, Stop 1.63 ATR darunter",
+     "Historisch ber\u00fchrt: Ziel in 46 % der F\u00e4lle, Stop in 50 %",
+     "Zuerst erreicht wurde bei diesen Marken das Ziel in 40 %, der Stop in 47 %, Zeitablauf 14 %",
+     "Basisquote einer Zufallsauswahl: +0.112 R je Trade (aus 35'584 Beobachtungen, Branche Technologie)",
+     "Die Analyse muss diese Basisquote schlagen \u2014 sonst ist sie nicht besser als W\u00fcrfeln."
+    ],
+    "analyst_target_12m": 406.24,
+    "analyst_count": 26,
+    "analyst_recommendation": "strong_buy"
+   }
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica, Inc.",
+   "sector": "Technologie",
+   "score": 0.8298,
+   "coverage": 0.873,
+   "price": 357.45,
+   "target": 400.62,
+   "upside_pct": 12.08,
+   "stop": 325.47,
+   "reward_risk": 1.35,
+   "p_ziel": 0.4738,
+   "basis_erwartung_r": 0.1091,
+   "tradeable": true,
+   "reject_reason": "",
+   "snapshot": {
+    "bars": 276,
+    "date": "2026-10-13",
+    "close": 357.45,
+    "open": 338.0,
+    "high": 358.065,
+    "low": 326.17,
+    "volume": 105943.0,
+    "atr": 19.595040934450854,
+    "atr_pct": 0.05481897030200267,
+    "rsi": 51.654895457874574,
+    "adx": 19.159485116364475,
+    "plus_di": 18.413937213157645,
+    "minus_di": 29.988153301666536,
+    "ema9": 362.42781576672843,
+    "ema21": 356.52500642414077,
+    "ema50": 345.8576616573775,
+    "sma200": 333.296625,
+    "bb_mid": 359.93050000000005,
+    "bb_upper": 394.7275298876212,
+    "bb_lower": 325.1334701123789,
+    "donchian_high20": 393.72,
+    "donchian_low20": 318.87,
+    "donchian_high55": 393.72,
+    "donchian_low55": 274.18,
+    "vol_20d": 0.4429295040997511,
+    "chg_5d": -0.07917616600332322,
+    "chg_21d": 0.13113509066168794,
+    "chg_63d": 0.06730166313337893,
+    "gap_to_sma200": 0.07246810555012373,
+    "rel_strength_63d": 0.033924056545518555,
+    "avg_volume_20d": 118058.15,
+    "dollar_volume_20d": 42265138.7605
+   },
+   "fundamentals": {
+    "_ok": true,
+    "symbol": "CLS",
+    "quote_type": "EQUITY",
+    "sector": "Technology",
+    "industry": "Electronic Components",
+    "employees": 23803,
+    "target_mean": 473.9143,
+    "target_high": 550.0,
+    "target_low": 375.0,
+    "recommendation": "strong_buy",
+    "analyst_count": 18.0,
+    "current_price": 350.0,
+    "profit_margin": 0.07159,
+    "operating_margin": 0.098179996,
+    "return_on_equity": 0.52691,
+    "revenue_growth": 0.624,
+    "earnings_growth": 0.742,
+    "free_cashflow": 729075008.0,
+    "total_debt": 981200000.0,
+    "total_cash": 537000000.0,
+    "debt_to_equity": 39.571,
+    "forward_pe": 17.808477,
+    "trailing_pe": null,
+    "forward_eps": 19.65356,
+    "trailing_eps": 9.63,
+    "peg_ratio": 1.0,
+    "ev_to_ebitda": 25.87,
+    "price_to_book": 16.23226,
+    "market_cap": 44138893312.0,
+    "beta": 1.316,
+    "next_earnings": "2026-10-26",
+    "_fetched_at": 1791919433.7352579
+   },
+   "llm": null,
+   "scoring": {
+    "score": 0.8298,
+    "raw_score": 0.8298,
+    "coverage": 0.873,
+    "eligible": true,
+    "components": [
+     {
+      "key": "trend",
+      "label": "Trend & relative St\u00e4rke",
+      "score": 0.83,
+      "weight": 0.148,
+      "reasons": [
+       "EMA9 \u00fcber EMA21",
+       "EMA21 \u00fcber EMA50",
+       "Kurs \u00fcber 200-Tage-Linie (+7.2 %)",
+       "ADX 19 (Trendst\u00e4rke 48 %)",
+       "63 Tage gegen SPY: +3.4 %"
+      ]
+     },
+     {
+      "key": "setup",
+      "label": "Setup-Qualit\u00e4t",
+      "score": 0.975,
+      "weight": 0.222,
+      "reasons": [
+       "Abstand zur EMA21: +0.0 ATR (100 % Eignung)",
+       "RSI 52 (100 % Eignung)",
+       "Luft bis 55-Tage-Hoch: +1.9 ATR"
+      ]
+     },
+     {
+      "key": "volumen",
+      "label": "Volumenbest\u00e4tigung",
+      "score": 0.179,
+      "weight": 0.057,
+      "reasons": [
+       "Tagesvolumen 0.90x des 20-Tage-Schnitts"
+      ]
+     },
+     {
+      "key": "qualitaet",
+      "label": "Fundamentale Qualit\u00e4t",
+      "score": 0.754,
+      "weight": 0.18,
+      "reasons": [
+       "Nettomarge 7.2 %",
+       "Eigenkapitalrendite 52.7 %",
+       "Umsatzwachstum 62.4 %",
+       "Verschuldungsgrad 40 % des Eigenkapitals"
+      ]
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertung vs. Branche",
+      "score": 0.697,
+      "weight": 0.056,
+      "reasons": [
+       "Forward-KGV 17.8 = 0.87x Branchenmedian 20.4",
+       "PEG 1.00"
+      ]
+     },
+     {
+      "key": "analysten",
+      "label": "Analysten-R\u00fcckenwind",
+      "score": 0.952,
+      "weight": 0.211,
+      "reasons": [
+       "Konsensziel +32.6 % \u00fcber Kurs",
+       "Empfehlung: strong_buy",
+       "18 Analysten decken den Titel ab"
+      ]
+     },
+     {
+      "key": "sentiment",
+      "label": "News-Sentiment",
+      "score": null,
+      "weight": 0.127,
+      "reasons": []
+     }
+    ],
+    "penalties": [],
+    "penalty_total": 0.0,
+    "missing": [
+     "sentiment"
+    ]
+   },
+   "targets": {
+    "price": 357.45,
+    "target": 400.62,
+    "upside_pct": 12.08,
+    "band_low": 361.99,
+    "band_high": 439.24,
+    "sigma": 38.63,
+    "method_spread": 4.08,
+    "methods_used": [
+     "atr",
+     "struktur"
+    ],
+    "methods": [
+     {
+      "key": "atr",
+      "label": "ATR-Projektion",
+      "role": "niveau",
+      "value": 397.8,
+      "steps": [
+       "ATR(14) = 19.60 USD, das sind 5.48 % vom Kurs",
+       "Faktor k = 2.06 \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Technologie",
+       "Ziel = 357.45 + 2.06 x 19.60 = 397.80 USD"
+      ],
+      "note": ""
+     },
+     {
+      "key": "struktur",
+      "label": "Struktur / gemessene Bewegung",
+      "role": "niveau",
+      "value": 393.72,
+      "steps": [
+       "55-Tage-Hoch = 393.72 USD, das sind 36.27 USD \u00fcber dem Kurs 357.45",
+       "Abstand gr\u00f6sser als 1 x ATR (19.60 USD) \u2014 echter Widerstand, nicht Rauschen",
+       "Ziel = 393.72 USD (10.15 %)"
+      ],
+      "note": ""
+     },
+     {
+      "key": "analysten",
+      "label": "Analystenkonsens",
+      "role": "neigung",
+      "value": 473.91,
+      "steps": [
+       "Konsensziel auf 12 Monate: 473.91 USD (18 Analysten)",
+       "Abstand zum Kurs 357.45: 32.58 % (gekappt auf 30.00 %)",
+       "Zeitanteilig auf 15 Handelstage w\u00e4ren das nur 364.38 USD \u2014 deshalb kein eigenes Ziel, sondern Neigung",
+       "Neigung = 30.00 % x 0.30 = 9.00 % auf das Gesamtziel"
+      ],
+      "note": "12-Monats-Sicht. Wirkt als Richtungshinweis, nicht als Kursziel f\u00fcr den Horizont."
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertungsanker",
+      "role": "neigung",
+      "value": 401.51,
+      "steps": [
+       "Erwarteter Gewinn je Aktie (12 Monate): 19.65 USD",
+       "Median-Forward-KGV der Branche Technologie: 20.4",
+       "Fairer Wert = 19.65 x 20.4 = 401.51 USD",
+       "Abweichung zum Kurs: 12.33 %",
+       "Neigung = 12.33 % x 0.30 = 3.70 % auf das Gesamtziel"
+      ],
+      "note": "Bewertung wirkt \u00fcber Monate, nicht \u00fcber Wochen \u2014 deshalb nur eine Neigung."
+     }
+    ],
+    "blend_steps": [
+     "Gewichteter Mittelwert der 2 Niveau-Methoden:",
+     "   ATR-Projektion: 397.80 USD x Gewicht 1.00 (50 %)",
+     "   Struktur / gemessene Bewegung: 393.72 USD x Gewicht 1.00 (50 %)",
+     "   = 395.75 USD",
+     "Neigungen: Analysten 30.00 % x 0.30, Bewertung 12.33 % x 0.30 -> Faktor 1.1270 auf den Abstand",
+     "Ziel = 357.45 + 38.30 x 1.1270 = 400.62 USD",
+     "Erwartungsbereich (1 Sigma \u00fcber 15 Tage bei 44.3 % Volatilit\u00e4t): 361.99 bis 439.24 USD"
+    ],
+    "stop": 325.47,
+    "stop_steps": [
+     "Stop-Faktor = 1.63 x ATR \u2014 gemessener Median der Abw\u00e4rtsbewegung",
+     "Stop = 357.45 - 1.63 x 19.60 = 325.47 USD"
+    ],
+    "analyst_tilt": 0.3,
+    "valuation_tilt": 0.1233,
+    "horizon_days": 15,
+    "marks": {
+     "ziel_k": 2.059,
+     "stop_k": 1.632,
+     "basis_ziel_k": 2.059,
+     "k_mult": 1.0,
+     "quelle": "kalibriert",
+     "herkunft_text": " \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Technologie"
+    },
+    "risk": 31.98,
+    "reward": 43.17,
+    "reward_risk": 1.35,
+    "ziel_atr": 2.2,
+    "stop_atr": 1.63,
+    "p_ziel_beruehrt": 0.4738,
+    "p_stop_beruehrt": 0.5028,
+    "basisquote": {
+     "p_ziel": 0.4039,
+     "p_stop": 0.4637,
+     "p_zeit": 0.1323,
+     "erwartung_r": 0.1091,
+     "n": 35584,
+     "quelle": "Technologie",
+     "geklemmt": false
+    },
+    "probability_steps": [
+     "Ziel liegt 2.20 ATR \u00fcber dem Kurs, Stop 1.63 ATR darunter",
+     "Historisch ber\u00fchrt: Ziel in 47 % der F\u00e4lle, Stop in 50 %",
+     "Zuerst erreicht wurde bei diesen Marken das Ziel in 40 %, der Stop in 46 %, Zeitablauf 13 %",
+     "Basisquote einer Zufallsauswahl: +0.109 R je Trade (aus 35'584 Beobachtungen, Branche Technologie)",
+     "Die Analyse muss diese Basisquote schlagen \u2014 sonst ist sie nicht besser als W\u00fcrfeln."
+    ],
+    "analyst_target_12m": 473.91,
+    "analyst_count": 18,
+    "analyst_recommendation": "strong_buy"
+   }
+  },
+  {
+   "symbol": "CSCO",
+   "name": "Cisco",
+   "sector": "Technologie",
+   "score": 0.7779,
+   "coverage": 0.873,
+   "price": 115.08,
+   "target": 122.93,
+   "upside_pct": 6.82,
+   "stop": 110.52,
+   "reward_risk": 1.72,
+   "p_ziel": 0.3731,
+   "basis_erwartung_r": 0.1466,
+   "tradeable": true,
+   "reject_reason": "",
+   "snapshot": {
+    "bars": 276,
+    "date": "2026-10-13",
+    "close": 115.085,
+    "open": 114.13,
+    "high": 115.35,
+    "low": 113.17,
+    "volume": 355772.0,
+    "atr": 2.800044797375379,
+    "atr_pct": 0.024330232414088535,
+    "rsi": 56.97505682427236,
+    "adx": 23.571559669399836,
+    "plus_di": 27.98449331490936,
+    "minus_di": 21.387508400806762,
+    "ema9": 114.37327402813659,
+    "ema21": 112.26692533885243,
+    "ema50": 111.58523485072297,
+    "sma200": 98.33352499999995,
+    "bb_mid": 110.72224999999999,
+    "bb_upper": 119.34030922177377,
+    "bb_lower": 102.10419077822621,
+    "donchian_high20": 118.64,
+    "donchian_low20": 104.11,
+    "donchian_high55": 124.2,
+    "donchian_low55": 104.11,
+    "vol_20d": 0.34273786629709807,
+    "chg_5d": -0.024455370009324406,
+    "chg_21d": 0.049662531922655795,
+    "chg_63d": 0.033728554747147976,
+    "gap_to_sma200": 0.17035365100559607,
+    "rel_strength_63d": 0.0003509481592876007,
+    "avg_volume_20d": 731885.5,
+    "dollar_volume_20d": 80415890.48449999
+   },
+   "fundamentals": {
+    "_ok": true,
+    "symbol": "CSCO",
+    "quote_type": "EQUITY",
+    "sector": "Technology",
+    "industry": "Communication Equipment",
+    "employees": 82400,
+    "target_mean": 136.16,
+    "target_high": 170.0,
+    "target_low": 110.0,
+    "recommendation": "buy",
+    "analyst_count": 25.0,
+    "current_price": 115.04,
+    "profit_margin": 0.20951,
+    "operating_margin": 0.27719,
+    "return_on_equity": 0.27319,
+    "revenue_growth": 0.176,
+    "earnings_growth": 0.521,
+    "free_cashflow": 11182624768.0,
+    "total_debt": 31185000448.0,
+    "total_cash": 15918000128.0,
+    "debt_to_equity": 62.017,
+    "forward_pe": 20.4664,
+    "trailing_pe": null,
+    "forward_eps": 5.62092,
+    "trailing_eps": 3.33,
+    "peg_ratio": 1.09,
+    "ev_to_ebitda": 25.212,
+    "price_to_book": 9.027701,
+    "market_cap": 453555191808.0,
+    "beta": 0.979,
+    "next_earnings": "2026-11-12",
+    "_fetched_at": 1791919487.2938573
+   },
+   "llm": null,
+   "scoring": {
+    "score": 0.7779,
+    "raw_score": 0.7779,
+    "coverage": 0.873,
+    "eligible": true,
+    "components": [
+     {
+      "key": "trend",
+      "label": "Trend & relative St\u00e4rke",
+      "score": 0.818,
+      "weight": 0.148,
+      "reasons": [
+       "EMA9 \u00fcber EMA21",
+       "EMA21 \u00fcber EMA50",
+       "Kurs \u00fcber 200-Tage-Linie (+17.0 %)",
+       "ADX 24 (Trendst\u00e4rke 59 %)",
+       "63 Tage gegen SPY: +0.0 %"
+      ]
+     },
+     {
+      "key": "setup",
+      "label": "Setup-Qualit\u00e4t",
+      "score": 1.0,
+      "weight": 0.222,
+      "reasons": [
+       "Abstand zur EMA21: +1.0 ATR (100 % Eignung)",
+       "RSI 57 (100 % Eignung)",
+       "Luft bis 55-Tage-Hoch: +3.3 ATR"
+      ]
+     },
+     {
+      "key": "volumen",
+      "label": "Volumenbest\u00e4tigung",
+      "score": 0.0,
+      "weight": 0.057,
+      "reasons": [
+       "Tagesvolumen 0.49x des 20-Tage-Schnitts"
+      ]
+     },
+     {
+      "key": "qualitaet",
+      "label": "Fundamentale Qualit\u00e4t",
+      "score": 0.813,
+      "weight": 0.18,
+      "reasons": [
+       "Nettomarge 21.0 %",
+       "Eigenkapitalrendite 27.3 %",
+       "Umsatzwachstum 17.6 %",
+       "Verschuldungsgrad 62 % des Eigenkapitals"
+      ]
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertung vs. Branche",
+      "score": 0.608,
+      "weight": 0.056,
+      "reasons": [
+       "Forward-KGV 20.5 = 1.00x Branchenmedian 20.4",
+       "PEG 1.09"
+      ]
+     },
+     {
+      "key": "analysten",
+      "label": "Analysten-R\u00fcckenwind",
+      "score": 0.741,
+      "weight": 0.211,
+      "reasons": [
+       "Konsensziel +18.3 % \u00fcber Kurs",
+       "Empfehlung: buy",
+       "25 Analysten decken den Titel ab"
+      ]
+     },
+     {
+      "key": "sentiment",
+      "label": "News-Sentiment",
+      "score": null,
+      "weight": 0.127,
+      "reasons": []
+     }
+    ],
+    "penalties": [],
+    "penalty_total": 0.0,
+    "missing": [
+     "sentiment"
+    ]
+   },
+   "targets": {
+    "price": 115.08,
+    "target": 122.93,
+    "upside_pct": 6.82,
+    "band_low": 113.31,
+    "band_high": 132.56,
+    "sigma": 9.62,
+    "method_spread": 3.35,
+    "methods_used": [
+     "atr",
+     "struktur"
+    ],
+    "methods": [
+     {
+      "key": "atr",
+      "label": "ATR-Projektion",
+      "role": "niveau",
+      "value": 120.85,
+      "steps": [
+       "ATR(14) = 2.80 USD, das sind 2.43 % vom Kurs",
+       "Faktor k = 2.06 \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Technologie",
+       "Ziel = 115.08 + 2.06 x 2.80 = 120.85 USD"
+      ],
+      "note": ""
+     },
+     {
+      "key": "struktur",
+      "label": "Struktur / gemessene Bewegung",
+      "role": "niveau",
+      "value": 124.2,
+      "steps": [
+       "55-Tage-Hoch = 124.20 USD, das sind 9.12 USD \u00fcber dem Kurs 115.08",
+       "Abstand gr\u00f6sser als 1 x ATR (2.80 USD) \u2014 echter Widerstand, nicht Rauschen",
+       "Ziel = 124.20 USD (7.92 %)"
+      ],
+      "note": ""
+     },
+     {
+      "key": "analysten",
+      "label": "Analystenkonsens",
+      "role": "neigung",
+      "value": 136.16,
+      "steps": [
+       "Konsensziel auf 12 Monate: 136.16 USD (25 Analysten)",
+       "Abstand zum Kurs 115.08: 18.31 %",
+       "Zeitanteilig auf 15 Handelstage w\u00e4ren das nur 116.34 USD \u2014 deshalb kein eigenes Ziel, sondern Neigung",
+       "Neigung = 18.31 % x 0.30 = 5.49 % auf das Gesamtziel"
+      ],
+      "note": "12-Monats-Sicht. Wirkt als Richtungshinweis, nicht als Kursziel f\u00fcr den Horizont."
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertungsanker",
+      "role": "neigung",
+      "value": 114.83,
+      "steps": [
+       "Erwarteter Gewinn je Aktie (12 Monate): 5.62 USD",
+       "Median-Forward-KGV der Branche Technologie: 20.4",
+       "Fairer Wert = 5.62 x 20.4 = 114.83 USD",
+       "Abweichung zum Kurs: -0.22 %",
+       "Neigung = -0.22 % x 0.30 = -0.07 % auf das Gesamtziel"
+      ],
+      "note": "Bewertung wirkt \u00fcber Monate, nicht \u00fcber Wochen \u2014 deshalb nur eine Neigung."
+     }
+    ],
+    "blend_steps": [
+     "Gewichteter Mittelwert der 2 Niveau-Methoden:",
+     "   ATR-Projektion: 120.85 USD x Gewicht 1.00 (50 %)",
+     "   Struktur / gemessene Bewegung: 124.20 USD x Gewicht 1.00 (50 %)",
+     "   = 122.53 USD",
+     "Neigungen: Analysten 18.31 % x 0.30, Bewertung -0.22 % x 0.30 -> Faktor 1.0543 auf den Abstand",
+     "Ziel = 115.08 + 7.44 x 1.0543 = 122.93 USD",
+     "Erwartungsbereich (1 Sigma \u00fcber 15 Tage bei 34.3 % Volatilit\u00e4t): 113.31 bis 132.56 USD"
+    ],
+    "stop": 110.52,
+    "stop_steps": [
+     "Stop-Faktor = 1.63 x ATR \u2014 gemessener Median der Abw\u00e4rtsbewegung",
+     "Stop = 115.08 - 1.63 x 2.80 = 110.52 USD"
+    ],
+    "analyst_tilt": 0.1831,
+    "valuation_tilt": -0.0022,
+    "horizon_days": 15,
+    "marks": {
+     "ziel_k": 2.059,
+     "stop_k": 1.632,
+     "basis_ziel_k": 2.059,
+     "k_mult": 1.0,
+     "quelle": "kalibriert",
+     "herkunft_text": " \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Technologie"
+    },
+    "risk": 4.57,
+    "reward": 7.85,
+    "reward_risk": 1.72,
+    "ziel_atr": 2.8,
+    "stop_atr": 1.63,
+    "p_ziel_beruehrt": 0.3731,
+    "p_stop_beruehrt": 0.5032,
+    "basisquote": {
+     "p_ziel": 0.3209,
+     "p_stop": 0.4823,
+     "p_zeit": 0.1966,
+     "erwartung_r": 0.1466,
+     "n": 35584,
+     "quelle": "Technologie",
+     "geklemmt": false
+    },
+    "probability_steps": [
+     "Ziel liegt 2.80 ATR \u00fcber dem Kurs, Stop 1.63 ATR darunter",
+     "Historisch ber\u00fchrt: Ziel in 37 % der F\u00e4lle, Stop in 50 %",
+     "Zuerst erreicht wurde bei diesen Marken das Ziel in 32 %, der Stop in 48 %, Zeitablauf 20 %",
+     "Basisquote einer Zufallsauswahl: +0.147 R je Trade (aus 35'584 Beobachtungen, Branche Technologie)",
+     "Die Analyse muss diese Basisquote schlagen \u2014 sonst ist sie nicht besser als W\u00fcrfeln."
+    ],
+    "analyst_target_12m": 136.16,
+    "analyst_count": 25,
+    "analyst_recommendation": "buy"
+   }
+  },
+  {
+   "symbol": "DECK",
+   "name": "Deckers Brands",
+   "sector": "Konsum zyklisch",
+   "score": 0.7741,
+   "coverage": 0.873,
+   "price": 84.02,
+   "target": 90.06,
+   "upside_pct": 7.19,
+   "stop": 80.12,
+   "reward_risk": 1.55,
+   "p_ziel": 0.3174,
+   "basis_erwartung_r": 0.0228,
+   "tradeable": true,
+   "reject_reason": "",
+   "snapshot": {
+    "bars": 276,
+    "date": "2026-10-13",
+    "close": 84.02,
+    "open": 85.06,
+    "high": 86.19,
+    "low": 83.53,
+    "volume": 210561.0,
+    "atr": 2.181478287339938,
+    "atr_pct": 0.025963797754581505,
+    "rsi": 56.13743539365055,
+    "adx": 30.25757263807832,
+    "plus_di": 28.717951314731994,
+    "minus_di": 15.70361165954183,
+    "ema9": 82.06189914502657,
+    "ema21": 81.65031185655329,
+    "ema50": 85.62562902901804,
+    "sma200": 100.6033499999999,
+    "bb_mid": 80.06175,
+    "bb_upper": 83.98305753065863,
+    "bb_lower": 76.14044246934138,
+    "donchian_high20": 86.19,
+    "donchian_low20": 77.22,
+    "donchian_high55": 104.805,
+    "donchian_low55": 77.22,
+    "vol_20d": 0.215425826187351,
+    "chg_5d": 0.028900318393338287,
+    "chg_21d": 0.043597068687119434,
+    "chg_63d": -0.21100572823739316,
+    "gap_to_sma200": -0.16483894422998768,
+    "rel_strength_63d": -0.24438333482525354,
+    "avg_volume_20d": 158392.85,
+    "dollar_volume_20d": 12676005.03325
+   },
+   "fundamentals": {
+    "_ok": true,
+    "symbol": "DECK",
+    "quote_type": "EQUITY",
+    "sector": "Consumer Cyclical",
+    "industry": "Footwear & Accessories",
+    "employees": 6000,
+    "target_mean": 120.40909,
+    "target_high": 184.0,
+    "target_low": 70.0,
+    "recommendation": "buy",
+    "analyst_count": 22.0,
+    "current_price": 84.33,
+    "profit_margin": 0.18361,
+    "operating_margin": 0.15233,
+    "return_on_equity": 0.42558,
+    "revenue_growth": 0.057,
+    "earnings_growth": 0.011,
+    "free_cashflow": 871420352.0,
+    "total_debt": 472334016.0,
+    "total_cash": 1602589056.0,
+    "debt_to_equity": 20.521,
+    "forward_pe": 10.104229,
+    "trailing_pe": null,
+    "forward_eps": 8.34601,
+    "trailing_eps": 7.07,
+    "peg_ratio": 1.03,
+    "ev_to_ebitda": 7.811,
+    "price_to_book": 5.009505,
+    "market_cap": 11484216320.0,
+    "beta": 1.121,
+    "next_earnings": "2026-10-22",
+    "_fetched_at": 1791919582.4511864
+   },
+   "llm": null,
+   "scoring": {
+    "score": 0.7741,
+    "raw_score": 0.7741,
+    "coverage": 0.873,
+    "eligible": true,
+    "components": [
+     {
+      "key": "trend",
+      "label": "Trend & relative St\u00e4rke",
+      "score": 0.351,
+      "weight": 0.148,
+      "reasons": [
+       "EMA9 \u00fcber EMA21",
+       "EMA21 unter EMA50",
+       "Kurs unter 200-Tage-Linie (-16.5 %)",
+       "ADX 30 (Trendst\u00e4rke 76 %)",
+       "63 Tage gegen SPY: -24.4 %"
+      ]
+     },
+     {
+      "key": "setup",
+      "label": "Setup-Qualit\u00e4t",
+      "score": 1.0,
+      "weight": 0.222,
+      "reasons": [
+       "Abstand zur EMA21: +1.1 ATR (100 % Eignung)",
+       "RSI 56 (100 % Eignung)",
+       "Luft bis 55-Tage-Hoch: +9.5 ATR"
+      ]
+     },
+     {
+      "key": "volumen",
+      "label": "Volumenbest\u00e4tigung",
+      "score": 0.572,
+      "weight": 0.057,
+      "reasons": [
+       "Tagesvolumen 1.33x des 20-Tage-Schnitts"
+      ]
+     },
+     {
+      "key": "qualitaet",
+      "label": "Fundamentale Qualit\u00e4t",
+      "score": 0.743,
+      "weight": 0.18,
+      "reasons": [
+       "Nettomarge 18.4 %",
+       "Eigenkapitalrendite 42.6 %",
+       "Umsatzwachstum 5.7 %",
+       "Verschuldungsgrad 21 % des Eigenkapitals"
+      ]
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertung vs. Branche",
+      "score": 0.809,
+      "weight": 0.056,
+      "reasons": [
+       "Forward-KGV 10.1 = 0.66x Branchenmedian 15.4",
+       "PEG 1.03"
+      ]
+     },
+     {
+      "key": "analysten",
+      "label": "Analysten-R\u00fcckenwind",
+      "score": 0.905,
+      "weight": 0.211,
+      "reasons": [
+       "Konsensziel +43.3 % \u00fcber Kurs",
+       "Empfehlung: buy",
+       "22 Analysten decken den Titel ab"
+      ]
+     },
+     {
+      "key": "sentiment",
+      "label": "News-Sentiment",
+      "score": null,
+      "weight": 0.127,
+      "reasons": []
+     }
+    ],
+    "penalties": [],
+    "penalty_total": 0.0,
+    "missing": [
+     "sentiment"
+    ]
+   },
+   "targets": {
+    "price": 84.02,
+    "target": 90.06,
+    "upside_pct": 7.19,
+    "band_low": 85.65,
+    "band_high": 94.48,
+    "sigma": 4.42,
+    "method_spread": 2.32,
+    "methods_used": [
+     "atr",
+     "struktur"
+    ],
+    "methods": [
+     {
+      "key": "atr",
+      "label": "ATR-Projektion",
+      "role": "niveau",
+      "value": 87.98,
+      "steps": [
+       "ATR(14) = 2.18 USD, das sind 2.60 % vom Kurs",
+       "Faktor k = 1.81 \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Konsum zyklisch",
+       "Ziel = 84.02 + 1.81 x 2.18 = 87.98 USD"
+      ],
+      "note": ""
+     },
+     {
+      "key": "struktur",
+      "label": "Struktur / gemessene Bewegung",
+      "role": "niveau",
+      "value": 90.3,
+      "steps": [
+       "55-Tage-Hoch = 104.81 USD, das sind 20.79 USD \u00fcber dem Kurs 84.02",
+       "Abstand gr\u00f6sser als 1 x ATR (2.18 USD) \u2014 echter Widerstand, nicht Rauschen",
+       "Ziel = 104.81 USD (24.74 %)",
+       "Gekappt auf 2.88 x ATR \u00fcber dem Kurs = 90.30 USD \u2014 weiter wurde in Konsum zyklisch historisch nur in 30 % der F\u00e4lle gelaufen"
+      ],
+      "note": ""
+     },
+     {
+      "key": "analysten",
+      "label": "Analystenkonsens",
+      "role": "neigung",
+      "value": 120.41,
+      "steps": [
+       "Konsensziel auf 12 Monate: 120.41 USD (22 Analysten)",
+       "Abstand zum Kurs 84.02: 43.31 % (gekappt auf 30.00 %)",
+       "Zeitanteilig auf 15 Handelstage w\u00e4ren das nur 86.19 USD \u2014 deshalb kein eigenes Ziel, sondern Neigung",
+       "Neigung = 30.00 % x 0.30 = 9.00 % auf das Gesamtziel"
+      ],
+      "note": "12-Monats-Sicht. Wirkt als Richtungshinweis, nicht als Kursziel f\u00fcr den Horizont."
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertungsanker",
+      "role": "neigung",
+      "value": 128.43,
+      "steps": [
+       "Erwarteter Gewinn je Aktie (12 Monate): 8.35 USD",
+       "Median-Forward-KGV der Branche Konsum zyklisch: 15.4",
+       "Fairer Wert = 8.35 x 15.4 = 128.43 USD",
+       "Abweichung zum Kurs: 52.85 % (gekappt auf 30.00 %)",
+       "Neigung = 30.00 % x 0.30 = 9.00 % auf das Gesamtziel"
+      ],
+      "note": "Bewertung wirkt \u00fcber Monate, nicht \u00fcber Wochen \u2014 deshalb nur eine Neigung."
+     }
+    ],
+    "blend_steps": [
+     "Gewichteter Mittelwert der 2 Niveau-Methoden:",
+     "   ATR-Projektion: 87.98 USD x Gewicht 1.00 (50 %)",
+     "   Struktur / gemessene Bewegung: 90.30 USD x Gewicht 1.00 (50 %)",
+     "   = 89.14 USD",
+     "Neigungen: Analysten 30.00 % x 0.30, Bewertung 30.00 % x 0.30 -> Faktor 1.1800 auf den Abstand",
+     "Ziel = 84.02 + 5.12 x 1.1800 = 90.06 USD",
+     "Erwartungsbereich (1 Sigma \u00fcber 15 Tage bei 21.5 % Volatilit\u00e4t): 85.65 bis 94.48 USD"
+    ],
+    "stop": 80.12,
+    "stop_steps": [
+     "Stop-Faktor = 1.79 x ATR \u2014 gemessener Median der Abw\u00e4rtsbewegung",
+     "Stop = 84.02 - 1.79 x 2.18 = 80.12 USD"
+    ],
+    "analyst_tilt": 0.3,
+    "valuation_tilt": 0.3,
+    "horizon_days": 15,
+    "marks": {
+     "ziel_k": 1.814,
+     "stop_k": 1.788,
+     "basis_ziel_k": 1.814,
+     "k_mult": 1.0,
+     "quelle": "kalibriert",
+     "herkunft_text": " \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Konsum zyklisch"
+    },
+    "risk": 3.9,
+    "reward": 6.04,
+    "reward_risk": 1.55,
+    "ziel_atr": 2.77,
+    "stop_atr": 1.79,
+    "p_ziel_beruehrt": 0.3174,
+    "p_stop_beruehrt": 0.5011,
+    "basisquote": {
+     "p_ziel": 0.2853,
+     "p_stop": 0.485,
+     "p_zeit": 0.2298,
+     "erwartung_r": 0.0228,
+     "n": 19796,
+     "quelle": "Konsum zyklisch",
+     "geklemmt": false
+    },
+    "probability_steps": [
+     "Ziel liegt 2.77 ATR \u00fcber dem Kurs, Stop 1.79 ATR darunter",
+     "Historisch ber\u00fchrt: Ziel in 32 % der F\u00e4lle, Stop in 50 %",
+     "Zuerst erreicht wurde bei diesen Marken das Ziel in 29 %, der Stop in 48 %, Zeitablauf 23 %",
+     "Basisquote einer Zufallsauswahl: +0.023 R je Trade (aus 19'796 Beobachtungen, Branche Konsum zyklisch)",
+     "Die Analyse muss diese Basisquote schlagen \u2014 sonst ist sie nicht besser als W\u00fcrfeln."
+    ],
+    "analyst_target_12m": 120.41,
+    "analyst_count": 22,
+    "analyst_recommendation": "buy"
+   }
+  },
+  {
+   "symbol": "GEV",
+   "name": "GE Vernova",
+   "sector": "Industrie",
+   "score": 0.7653,
+   "coverage": 1.0,
+   "price": 1003.16,
+   "target": 1084.81,
+   "upside_pct": 8.14,
+   "stop": 942.85,
+   "reward_risk": 1.35,
+   "p_ziel": 0.4462,
+   "basis_erwartung_r": 0.0836,
+   "tradeable": true,
+   "reject_reason": "",
+   "snapshot": {
+    "bars": 276,
+    "date": "2026-10-13",
+    "close": 1003.16,
+    "open": 972.34,
+    "high": 1005.73,
+    "low": 963.94,
+    "volume": 98611.0,
+    "atr": 36.376940200554735,
+    "atr_pct": 0.036262351170854835,
+    "rsi": 57.39933830106163,
+    "adx": 15.958244605002793,
+    "plus_di": 25.260753620699184,
+    "minus_di": 18.969160010152578,
+    "ema9": 994.0192603528112,
+    "ema21": 977.7610977164478,
+    "ema50": 975.4446864895149,
+    "sma200": 929.2487500000002,
+    "bb_mid": 970.4402500000003,
+    "bb_upper": 1027.9425033884545,
+    "bb_lower": 912.937996611546,
+    "donchian_high20": 1052.49,
+    "donchian_low20": 891.695,
+    "donchian_high55": 1098.81,
+    "donchian_low55": 868.45,
+    "vol_20d": 0.2899718689043861,
+    "chg_5d": -0.025035960035765803,
+    "chg_21d": 0.1469404555016922,
+    "chg_63d": -0.04945278817453924,
+    "gap_to_sma200": 0.07953871339617047,
+    "rel_strength_63d": -0.08283039476239962,
+    "avg_volume_20d": 86405.2,
+    "dollar_volume_20d": 83625995.30250001
+   },
+   "fundamentals": {
+    "_ok": true,
+    "symbol": "GEV",
+    "quote_type": "EQUITY",
+    "sector": "Industrials",
+    "industry": "Specialty Industrial Machinery",
+    "employees": 78000,
+    "target_mean": 1224.8864,
+    "target_high": 1450.0,
+    "target_low": 940.0,
+    "recommendation": "buy",
+    "analyst_count": 33.0,
+    "current_price": 1000.23,
+    "profit_margin": 0.23035,
+    "operating_margin": 0.07466,
+    "return_on_equity": 0.82577,
+    "revenue_growth": 0.219,
+    "earnings_growth": 0.328,
+    "free_cashflow": 15722125312.0,
+    "total_debt": 3720000000.0,
+    "total_cash": 12720000000.0,
+    "debt_to_equity": 28.364,
+    "forward_pe": 39.581245,
+    "trailing_pe": null,
+    "forward_eps": 25.2703,
+    "trailing_eps": 34.88,
+    "peg_ratio": 1.97,
+    "ev_to_ebitda": 65.607,
+    "price_to_book": 22.279318,
+    "market_cap": 266394828800.0,
+    "beta": 0.967,
+    "next_earnings": "2026-10-28",
+    "_fetched_at": 1791919516.9198627
+   },
+   "llm": {
+    "sentiment": 0.2,
+    "these": "Die Nachrichten sind gemischt, mit positiven und negativen Indikatoren f\u00fcr GE Vernova.",
+    "katalysatoren": [
+     "Susquehanna bleibt positiv, reduziert jedoch den Prezzielockenwert.",
+     "Guggenheim st\u00fctzt weiterhin das Unternehmen mit einem Buy-Rating.",
+     "Investor Business Daily SwingTrader kaufte den Aktienstand."
+    ],
+    "risiken": [
+     "Susquehanna reduzierte den Prezzielockenwert, was potenzielle Verkaufssignale erzeugen k\u00f6nnte.",
+     "Die Branche Industrie bleibt oft volatil und kann durch wirtschaftliche Schwankungen beeinflusst werden."
+    ],
+    "news_count": 4
+   },
+   "scoring": {
+    "score": 0.7653,
+    "raw_score": 0.7653,
+    "coverage": 1.0,
+    "eligible": true,
+    "components": [
+     {
+      "key": "trend",
+      "label": "Trend & relative St\u00e4rke",
+      "score": 0.697,
+      "weight": 0.148,
+      "reasons": [
+       "EMA9 \u00fcber EMA21",
+       "EMA21 \u00fcber EMA50",
+       "Kurs \u00fcber 200-Tage-Linie (+8.0 %)",
+       "ADX 16 (Trendst\u00e4rke 40 %)",
+       "63 Tage gegen SPY: -8.3 %"
+      ]
+     },
+     {
+      "key": "setup",
+      "label": "Setup-Qualit\u00e4t",
+      "score": 1.0,
+      "weight": 0.222,
+      "reasons": [
+       "Abstand zur EMA21: +0.7 ATR (100 % Eignung)",
+       "RSI 57 (100 % Eignung)",
+       "Luft bis 55-Tage-Hoch: +2.6 ATR"
+      ]
+     },
+     {
+      "key": "volumen",
+      "label": "Volumenbest\u00e4tigung",
+      "score": 0.401,
+      "weight": 0.057,
+      "reasons": [
+       "Tagesvolumen 1.14x des 20-Tage-Schnitts"
+      ]
+     },
+     {
+      "key": "qualitaet",
+      "label": "Fundamentale Qualit\u00e4t",
+      "score": 0.928,
+      "weight": 0.18,
+      "reasons": [
+       "Nettomarge 23.0 %",
+       "Eigenkapitalrendite 82.6 %",
+       "Umsatzwachstum 21.9 %",
+       "Verschuldungsgrad 28 % des Eigenkapitals"
+      ]
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertung vs. Branche",
+      "score": 0.106,
+      "weight": 0.056,
+      "reasons": [
+       "Forward-KGV 39.6 = 1.93x Branchenmedian 20.5",
+       "PEG 1.97"
+      ]
+     },
+     {
+      "key": "analysten",
+      "label": "Analysten-R\u00fcckenwind",
+      "score": 0.801,
+      "weight": 0.211,
+      "reasons": [
+       "Konsensziel +22.1 % \u00fcber Kurs",
+       "Empfehlung: buy",
+       "33 Analysten decken den Titel ab"
+      ]
+     },
+     {
+      "key": "sentiment",
+      "label": "News-Sentiment",
+      "score": 0.6,
+      "weight": 0.127,
+      "reasons": [
+       "Stimmung +0.20 aus 4 Meldungen",
+       "Die Nachrichten sind gemischt, mit positiven und negativen Indikatoren f\u00fcr GE Vernova."
+      ]
+     }
+    ],
+    "penalties": [],
+    "penalty_total": 0.0,
+    "missing": []
+   },
+   "targets": {
+    "price": 1003.16,
+    "target": 1084.81,
+    "upside_pct": 8.14,
+    "band_low": 1013.84,
+    "band_high": 1155.78,
+    "sigma": 70.97,
+    "method_spread": 24.1,
+    "methods_used": [
+     "atr",
+     "struktur"
+    ],
+    "methods": [
+     {
+      "key": "atr",
+      "label": "ATR-Projektion",
+      "role": "niveau",
+      "value": 1074.71,
+      "steps": [
+       "ATR(14) = 36.38 USD, das sind 3.63 % vom Kurs",
+       "Faktor k = 1.97 \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Industrie",
+       "Ziel = 1'003.16 + 1.97 x 36.38 = 1'074.71 USD"
+      ],
+      "note": ""
+     },
+     {
+      "key": "struktur",
+      "label": "Struktur / gemessene Bewegung",
+      "role": "niveau",
+      "value": 1098.81,
+      "steps": [
+       "55-Tage-Hoch = 1'098.81 USD, das sind 95.65 USD \u00fcber dem Kurs 1'003.16",
+       "Abstand gr\u00f6sser als 1 x ATR (36.38 USD) \u2014 echter Widerstand, nicht Rauschen",
+       "Ziel = 1'098.81 USD (9.53 %)"
+      ],
+      "note": ""
+     },
+     {
+      "key": "analysten",
+      "label": "Analystenkonsens",
+      "role": "neigung",
+      "value": 1224.89,
+      "steps": [
+       "Konsensziel auf 12 Monate: 1'224.89 USD (33 Analysten)",
+       "Abstand zum Kurs 1'003.16: 22.10 %",
+       "Zeitanteilig auf 15 Handelstage w\u00e4ren das nur 1'016.36 USD \u2014 deshalb kein eigenes Ziel, sondern Neigung",
+       "Neigung = 22.10 % x 0.30 = 6.63 % auf das Gesamtziel"
+      ],
+      "note": "12-Monats-Sicht. Wirkt als Richtungshinweis, nicht als Kursziel f\u00fcr den Horizont."
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertungsanker",
+      "role": "neigung",
+      "value": 518.42,
+      "steps": [
+       "Erwarteter Gewinn je Aktie (12 Monate): 25.27 USD",
+       "Median-Forward-KGV der Branche Industrie: 20.5",
+       "Fairer Wert = 25.27 x 20.5 = 518.42 USD",
+       "Abweichung zum Kurs: -48.32 % (gekappt auf -30.00 %)",
+       "Neigung = -30.00 % x 0.30 = -9.00 % auf das Gesamtziel"
+      ],
+      "note": "Bewertung wirkt \u00fcber Monate, nicht \u00fcber Wochen \u2014 deshalb nur eine Neigung."
+     }
+    ],
+    "blend_steps": [
+     "Gewichteter Mittelwert der 2 Niveau-Methoden:",
+     "   ATR-Projektion: 1'074.71 USD x Gewicht 1.00 (50 %)",
+     "   Struktur / gemessene Bewegung: 1'098.81 USD x Gewicht 1.00 (50 %)",
+     "   = 1'086.79 USD",
+     "Neigungen: Analysten 22.10 % x 0.30, Bewertung -30.00 % x 0.30 -> Faktor 0.9763 auf den Abstand",
+     "Ziel = 1'003.16 + 83.63 x 0.9763 = 1'084.81 USD",
+     "Erwartungsbereich (1 Sigma \u00fcber 15 Tage bei 29.0 % Volatilit\u00e4t): 1'013.84 bis 1'155.78 USD"
+    ],
+    "stop": 942.85,
+    "stop_steps": [
+     "Stop-Faktor = 1.66 x ATR \u2014 gemessener Median der Abw\u00e4rtsbewegung",
+     "Stop = 1'003.16 - 1.66 x 36.38 = 942.85 USD"
+    ],
+    "analyst_tilt": 0.221,
+    "valuation_tilt": -0.3,
+    "horizon_days": 15,
+    "marks": {
+     "ziel_k": 1.967,
+     "stop_k": 1.658,
+     "basis_ziel_k": 1.967,
+     "k_mult": 1.0,
+     "quelle": "kalibriert",
+     "herkunft_text": " \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Industrie"
+    },
+    "risk": 60.31,
+    "reward": 81.65,
+    "reward_risk": 1.35,
+    "ziel_atr": 2.24,
+    "stop_atr": 1.66,
+    "p_ziel_beruehrt": 0.4462,
+    "p_stop_beruehrt": 0.5018,
+    "basisquote": {
+     "p_ziel": 0.3854,
+     "p_stop": 0.47,
+     "p_zeit": 0.1446,
+     "erwartung_r": 0.0836,
+     "n": 33159,
+     "quelle": "Industrie",
+     "geklemmt": false
+    },
+    "probability_steps": [
+     "Ziel liegt 2.24 ATR \u00fcber dem Kurs, Stop 1.66 ATR darunter",
+     "Historisch ber\u00fchrt: Ziel in 45 % der F\u00e4lle, Stop in 50 %",
+     "Zuerst erreicht wurde bei diesen Marken das Ziel in 39 %, der Stop in 47 %, Zeitablauf 14 %",
+     "Basisquote einer Zufallsauswahl: +0.084 R je Trade (aus 33'159 Beobachtungen, Branche Industrie)",
+     "Die Analyse muss diese Basisquote schlagen \u2014 sonst ist sie nicht besser als W\u00fcrfeln."
+    ],
+    "analyst_target_12m": 1224.89,
+    "analyst_count": 33,
+    "analyst_recommendation": "buy"
+   }
+  },
+  {
+   "symbol": "FIX",
+   "name": "Comfort Systems USA",
+   "sector": "Industrie",
+   "score": 0.7539,
+   "coverage": 0.873,
+   "price": 1626.29,
+   "target": 1808.63,
+   "upside_pct": 11.21,
+   "stop": 1508.94,
+   "reward_risk": 1.55,
+   "p_ziel": 0.3848,
+   "basis_erwartung_r": 0.0991,
+   "tradeable": true,
+   "reject_reason": "",
+   "snapshot": {
+    "bars": 276,
+    "date": "2026-10-13",
+    "close": 1626.29,
+    "open": 1592.065,
+    "high": 1630.725,
+    "low": 1558.28,
+    "volume": 29025.0,
+    "atr": 70.77516958705208,
+    "atr_pct": 0.04351940280457488,
+    "rsi": 45.3460376494371,
+    "adx": 12.706138611232191,
+    "plus_di": 19.870822326641317,
+    "minus_di": 27.81315676787021,
+    "ema9": 1683.0005719986348,
+    "ema21": 1672.9062205302107,
+    "ema50": 1674.8756092578271,
+    "sma200": 1581.588349999999,
+    "bb_mid": 1667.3160000000012,
+    "bb_upper": 1778.35940226236,
+    "bb_lower": 1556.2725977376424,
+    "donchian_high20": 1834.605,
+    "donchian_low20": 1558.28,
+    "donchian_high55": 1883.49,
+    "donchian_low55": 1491.85,
+    "vol_20d": 0.39936220396245914,
+    "chg_5d": -0.10560847375599458,
+    "chg_21d": 0.028178185772450126,
+    "chg_63d": -0.0624625282479363,
+    "gap_to_sma200": 0.028263770405239086,
+    "rel_strength_63d": -0.09584013483579668,
+    "avg_volume_20d": 17960.55,
+    "dollar_volume_20d": 30127403.415249996
+   },
+   "fundamentals": {
+    "_ok": true,
+    "symbol": "FIX",
+    "quote_type": "EQUITY",
+    "sector": "Industrials",
+    "industry": "Engineering & Construction",
+    "employees": 22700,
+    "target_mean": 2197.0,
+    "target_high": 2500.0,
+    "target_low": 1910.0,
+    "recommendation": "strong_buy",
+    "analyst_count": 8.0,
+    "current_price": 1618.785,
+    "profit_margin": 0.12775,
+    "operating_margin": 0.17062001,
+    "return_on_equity": 0.55292,
+    "revenue_growth": 0.503,
+    "earnings_growth": 0.919,
+    "free_cashflow": 1841915392.0,
+    "total_debt": 369908992.0,
+    "total_cash": 1906397952.0,
+    "debt_to_equity": 11.498,
+    "forward_pe": 26.899734,
+    "trailing_pe": null,
+    "forward_eps": 60.17848,
+    "trailing_eps": 40.64,
+    "peg_ratio": 0.57,
+    "ev_to_ebitda": 27.972,
+    "price_to_book": 17.681976,
+    "market_cap": 56972050432.0,
+    "beta": 1.659,
+    "next_earnings": "2026-10-22",
+    "_fetched_at": 1791919510.5471754
+   },
+   "llm": null,
+   "scoring": {
+    "score": 0.7539,
+    "raw_score": 0.7539,
+    "coverage": 0.873,
+    "eligible": true,
+    "components": [
+     {
+      "key": "trend",
+      "label": "Trend & relative St\u00e4rke",
+      "score": 0.468,
+      "weight": 0.148,
+      "reasons": [
+       "EMA9 \u00fcber EMA21",
+       "EMA21 unter EMA50",
+       "Kurs \u00fcber 200-Tage-Linie (+2.8 %)",
+       "ADX 13 (Trendst\u00e4rke 32 %)",
+       "63 Tage gegen SPY: -9.6 %"
+      ]
+     },
+     {
+      "key": "setup",
+      "label": "Setup-Qualit\u00e4t",
+      "score": 0.78,
+      "weight": 0.222,
+      "reasons": [
+       "Abstand zur EMA21: -0.7 ATR (34 % Eignung)",
+       "RSI 45 (100 % Eignung)",
+       "Luft bis 55-Tage-Hoch: +3.6 ATR"
+      ]
+     },
+     {
+      "key": "volumen",
+      "label": "Volumenbest\u00e4tigung",
+      "score": 0.833,
+      "weight": 0.057,
+      "reasons": [
+       "Tagesvolumen 1.62x des 20-Tage-Schnitts"
+      ]
+     },
+     {
+      "key": "qualitaet",
+      "label": "Fundamentale Qualit\u00e4t",
+      "score": 0.844,
+      "weight": 0.18,
+      "reasons": [
+       "Nettomarge 12.8 %",
+       "Eigenkapitalrendite 55.3 %",
+       "Umsatzwachstum 50.3 %",
+       "Verschuldungsgrad 11 % des Eigenkapitals"
+      ]
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertung vs. Branche",
+      "score": 0.544,
+      "weight": 0.056,
+      "reasons": [
+       "Forward-KGV 26.9 = 1.31x Branchenmedian 20.5",
+       "PEG 0.57"
+      ]
+     },
+     {
+      "key": "analysten",
+      "label": "Analysten-R\u00fcckenwind",
+      "score": 0.884,
+      "weight": 0.211,
+      "reasons": [
+       "Konsensziel +35.1 % \u00fcber Kurs",
+       "Empfehlung: strong_buy",
+       "8 Analysten decken den Titel ab"
+      ]
+     },
+     {
+      "key": "sentiment",
+      "label": "News-Sentiment",
+      "score": null,
+      "weight": 0.127,
+      "reasons": []
+     }
+    ],
+    "penalties": [],
+    "penalty_total": 0.0,
+    "missing": [
+     "sentiment"
+    ]
+   },
+   "targets": {
+    "price": 1626.29,
+    "target": 1808.63,
+    "upside_pct": 11.21,
+    "band_low": 1650.17,
+    "band_high": 1967.09,
+    "sigma": 158.46,
+    "method_spread": 79.69,
+    "methods_used": [
+     "atr",
+     "struktur"
+    ],
+    "methods": [
+     {
+      "key": "atr",
+      "label": "ATR-Projektion",
+      "role": "niveau",
+      "value": 1765.5,
+      "steps": [
+       "ATR(14) = 70.78 USD, das sind 4.35 % vom Kurs",
+       "Faktor k = 1.97 \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Industrie",
+       "Ziel = 1'626.29 + 1.97 x 70.78 = 1'765.50 USD"
+      ],
+      "note": ""
+     },
+     {
+      "key": "struktur",
+      "label": "Struktur / gemessene Bewegung",
+      "role": "niveau",
+      "value": 1845.2,
+      "steps": [
+       "55-Tage-Hoch = 1'883.49 USD, das sind 257.20 USD \u00fcber dem Kurs 1'626.29",
+       "Abstand gr\u00f6sser als 1 x ATR (70.78 USD) \u2014 echter Widerstand, nicht Rauschen",
+       "Ziel = 1'883.49 USD (15.82 %)",
+       "Gekappt auf 3.09 x ATR \u00fcber dem Kurs = 1'845.20 USD \u2014 weiter wurde in Industrie historisch nur in 30 % der F\u00e4lle gelaufen"
+      ],
+      "note": ""
+     },
+     {
+      "key": "analysten",
+      "label": "Analystenkonsens",
+      "role": "neigung",
+      "value": 2197.0,
+      "steps": [
+       "Konsensziel auf 12 Monate: 2'197.00 USD (8 Analysten)",
+       "Abstand zum Kurs 1'626.29: 35.09 % (gekappt auf 30.00 %)",
+       "Zeitanteilig auf 15 Handelstage w\u00e4ren das nur 1'660.26 USD \u2014 deshalb kein eigenes Ziel, sondern Neigung",
+       "Neigung = 30.00 % x 0.30 = 9.00 % auf das Gesamtziel"
+      ],
+      "note": "12-Monats-Sicht. Wirkt als Richtungshinweis, nicht als Kursziel f\u00fcr den Horizont."
+     },
+     {
+      "key": "bewertung",
+      "label": "Bewertungsanker",
+      "role": "neigung",
+      "value": 1234.55,
+      "steps": [
+       "Erwarteter Gewinn je Aktie (12 Monate): 60.18 USD",
+       "Median-Forward-KGV der Branche Industrie: 20.5",
+       "Fairer Wert = 60.18 x 20.5 = 1'234.55 USD",
+       "Abweichung zum Kurs: -24.09 %",
+       "Neigung = -24.09 % x 0.30 = -7.23 % auf das Gesamtziel"
+      ],
+      "note": "Bewertung wirkt \u00fcber Monate, nicht \u00fcber Wochen \u2014 deshalb nur eine Neigung."
+     }
+    ],
+    "blend_steps": [
+     "Gewichteter Mittelwert der 2 Niveau-Methoden:",
+     "   ATR-Projektion: 1'765.50 USD x Gewicht 1.00 (50 %)",
+     "   Struktur / gemessene Bewegung: 1'845.20 USD x Gewicht 1.00 (50 %)",
+     "   = 1'805.45 USD",
+     "Neigungen: Analysten 30.00 % x 0.30, Bewertung -24.09 % x 0.30 -> Faktor 1.0177 auf den Abstand",
+     "Ziel = 1'626.29 + 179.16 x 1.0177 = 1'808.63 USD",
+     "Erwartungsbereich (1 Sigma \u00fcber 15 Tage bei 39.9 % Volatilit\u00e4t): 1'650.17 bis 1'967.09 USD"
+    ],
+    "stop": 1508.94,
+    "stop_steps": [
+     "Stop-Faktor = 1.66 x ATR \u2014 gemessener Median der Abw\u00e4rtsbewegung",
+     "Stop = 1'626.29 - 1.66 x 70.78 = 1'508.94 USD"
+    ],
+    "analyst_tilt": 0.3,
+    "valuation_tilt": -0.2409,
+    "horizon_days": 15,
+    "marks": {
+     "ziel_k": 1.967,
+     "stop_k": 1.658,
+     "basis_ziel_k": 1.967,
+     "k_mult": 1.0,
+     "quelle": "kalibriert",
+     "herkunft_text": " \u2014 gemessener Median der Aufw\u00e4rtsbewegung in Industrie"
+    },
+    "risk": 117.35,
+    "reward": 182.34,
+    "reward_risk": 1.55,
+    "ziel_atr": 2.58,
+    "stop_atr": 1.66,
+    "p_ziel_beruehrt": 0.3848,
+    "p_stop_beruehrt": 0.5018,
+    "basisquote": {
+     "p_ziel": 0.3344,
+     "p_stop": 0.4813,
+     "p_zeit": 0.1843,
+     "erwartung_r": 0.0991,
+     "n": 33159,
+     "quelle": "Industrie",
+     "geklemmt": false
+    },
+    "probability_steps": [
+     "Ziel liegt 2.58 ATR \u00fcber dem Kurs, Stop 1.66 ATR darunter",
+     "Historisch ber\u00fchrt: Ziel in 38 % der F\u00e4lle, Stop in 50 %",
+     "Zuerst erreicht wurde bei diesen Marken das Ziel in 33 %, der Stop in 48 %, Zeitablauf 18 %",
+     "Basisquote einer Zufallsauswahl: +0.099 R je Trade (aus 33'159 Beobachtungen, Branche Industrie)",
+     "Die Analyse muss diese Basisquote schlagen \u2014 sonst ist sie nicht besser als W\u00fcrfeln."
+    ],
+    "analyst_target_12m": 2197.0,
+    "analyst_count": 8,
+    "analyst_recommendation": "strong_buy"
+   }
+  }
+ ],
+ "kaeufe": {
+  "ki": [
+   {
+    "symbol": "CDNS",
+    "name": "Cadence Design Systems",
+    "sector": "Technologie",
+    "score": 0.835,
+    "target": 358.56,
+    "stop": 316.69,
+    "atr_at_entry": 10.780106471087773,
+    "ziel_atr": 2.25,
+    "stop_atr": 1.63,
+    "basis_p_ziel": 0.3964,
+    "basis_erwartung_r": 0.1123,
+    "score_components": {
+     "trend": 0.742,
+     "setup": 1.0,
+     "volumen": 1.0,
+     "qualitaet": 0.878,
+     "bewertung": 0.0,
+     "analysten": 0.867
+    },
+    "target_methods": {
+     "atr": 356.48,
+     "struktur": 361.9
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   },
+   {
+    "symbol": "CLS",
+    "name": "Celestica, Inc.",
+    "sector": "Technologie",
+    "score": 0.8298,
+    "target": 400.62,
+    "stop": 325.47,
+    "atr_at_entry": 19.595040934450854,
+    "ziel_atr": 2.2,
+    "stop_atr": 1.63,
+    "basis_p_ziel": 0.4039,
+    "basis_erwartung_r": 0.1091,
+    "score_components": {
+     "trend": 0.83,
+     "setup": 0.975,
+     "volumen": 0.179,
+     "qualitaet": 0.754,
+     "bewertung": 0.697,
+     "analysten": 0.952
+    },
+    "target_methods": {
+     "atr": 397.8,
+     "struktur": 393.72
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   },
+   {
+    "symbol": "CSCO",
+    "name": "Cisco",
+    "sector": "Technologie",
+    "score": 0.7779,
+    "target": 122.93,
+    "stop": 110.52,
+    "atr_at_entry": 2.800044797375379,
+    "ziel_atr": 2.8,
+    "stop_atr": 1.63,
+    "basis_p_ziel": 0.3209,
+    "basis_erwartung_r": 0.1466,
+    "score_components": {
+     "trend": 0.818,
+     "setup": 1.0,
+     "volumen": 0.0,
+     "qualitaet": 0.813,
+     "bewertung": 0.608,
+     "analysten": 0.741
+    },
+    "target_methods": {
+     "atr": 120.85,
+     "struktur": 124.2
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   },
+   {
+    "symbol": "DECK",
+    "name": "Deckers Brands",
+    "sector": "Konsum zyklisch",
+    "score": 0.7741,
+    "target": 90.06,
+    "stop": 80.12,
+    "atr_at_entry": 2.181478287339938,
+    "ziel_atr": 2.77,
+    "stop_atr": 1.79,
+    "basis_p_ziel": 0.2853,
+    "basis_erwartung_r": 0.0228,
+    "score_components": {
+     "trend": 0.351,
+     "setup": 1.0,
+     "volumen": 0.572,
+     "qualitaet": 0.743,
+     "bewertung": 0.809,
+     "analysten": 0.905
+    },
+    "target_methods": {
+     "atr": 87.98,
+     "struktur": 90.3
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   },
+   {
+    "symbol": "GEV",
+    "name": "GE Vernova",
+    "sector": "Industrie",
+    "score": 0.7653,
+    "target": 1084.81,
+    "stop": 942.85,
+    "atr_at_entry": 36.376940200554735,
+    "ziel_atr": 2.24,
+    "stop_atr": 1.66,
+    "basis_p_ziel": 0.3854,
+    "basis_erwartung_r": 0.0836,
+    "score_components": {
+     "trend": 0.697,
+     "setup": 1.0,
+     "volumen": 0.401,
+     "qualitaet": 0.928,
+     "bewertung": 0.106,
+     "analysten": 0.801,
+     "sentiment": 0.6
+    },
+    "target_methods": {
+     "atr": 1074.71,
+     "struktur": 1098.81
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   },
+   {
+    "symbol": "FIX",
+    "name": "Comfort Systems USA",
+    "sector": "Industrie",
+    "score": 0.7539,
+    "target": 1808.63,
+    "stop": 1508.94,
+    "atr_at_entry": 70.77516958705208,
+    "ziel_atr": 2.58,
+    "stop_atr": 1.66,
+    "basis_p_ziel": 0.3344,
+    "basis_erwartung_r": 0.0991,
+    "score_components": {
+     "trend": 0.468,
+     "setup": 0.78,
+     "volumen": 0.833,
+     "qualitaet": 0.844,
+     "bewertung": 0.544,
+     "analysten": 0.884
+    },
+    "target_methods": {
+     "atr": 1765.5,
+     "struktur": 1845.2
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   }
+  ],
+  "zufall": [
+   {
+    "symbol": "DRI",
+    "name": "Darden Restaurants",
+    "sector": "Konsum zyklisch",
+    "score": 0.6013,
+    "target": 217.14,
+    "stop": 197.05,
+    "atr_at_entry": 4.8053231277009285,
+    "ziel_atr": 2.39,
+    "stop_atr": 1.79,
+    "basis_p_ziel": 0.3418,
+    "basis_erwartung_r": 0.0164,
+    "score_components": {
+     "trend": 0.404,
+     "setup": 1.0,
+     "volumen": 0.051,
+     "qualitaet": 0.44,
+     "bewertung": 0.377,
+     "analysten": 0.666
+    },
+    "target_methods": {
+     "atr": 214.36,
+     "struktur": 219.48
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   },
+   {
+    "symbol": "WELL",
+    "name": "Welltower",
+    "sector": "Immobilien",
+    "score": 0.5788,
+    "target": 239.2,
+    "stop": 222.7,
+    "atr_at_entry": 4.341207248074931,
+    "ziel_atr": 2.07,
+    "stop_atr": 1.73,
+    "basis_p_ziel": 0.3708,
+    "basis_erwartung_r": 0.0073,
+    "score_components": {
+     "trend": 0.319,
+     "setup": 1.0,
+     "volumen": 0.0,
+     "qualitaet": 0.563,
+     "bewertung": 0.0,
+     "analysten": 0.642
+    },
+    "target_methods": {
+     "atr": 237.67,
+     "struktur": 241.66
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   },
+   {
+    "symbol": "HIG",
+    "name": "Hartford (The)",
+    "sector": "Finanzen",
+    "score": 0.6364,
+    "target": 136.53,
+    "stop": 127.81,
+    "atr_at_entry": 2.0058238619828495,
+    "ziel_atr": 2.68,
+    "stop_atr": 1.67,
+    "basis_p_ziel": 0.3056,
+    "basis_erwartung_r": 0.0899,
+    "score_components": {
+     "trend": 0.177,
+     "setup": 1.0,
+     "volumen": 0.264,
+     "qualitaet": 0.641,
+     "bewertung": 0.844,
+     "analysten": 0.618
+    },
+    "target_methods": {
+     "atr": 134.91,
+     "struktur": 136.99
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   },
+   {
+    "symbol": "BBY",
+    "name": "Best Buy",
+    "sector": "Konsum zyklisch",
+    "score": 0.5509,
+    "target": 94.78,
+    "stop": 83.24,
+    "atr_at_entry": 2.6769216260390296,
+    "ziel_atr": 2.52,
+    "stop_atr": 1.79,
+    "basis_p_ziel": 0.32,
+    "basis_erwartung_r": 0.0178,
+    "score_components": {
+     "trend": 0.564,
+     "setup": 0.992,
+     "volumen": 0.0,
+     "qualitaet": 0.454,
+     "bewertung": 0.607,
+     "analysten": 0.295
+    },
+    "target_methods": {
+     "atr": 92.88,
+     "struktur": 95.73
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   },
+   {
+    "symbol": "PEP",
+    "name": "PepsiCo",
+    "sector": "Konsum defensiv",
+    "score": 0.4722,
+    "target": 133.08,
+    "stop": 123.22,
+    "atr_at_entry": 2.3484303589157043,
+    "ziel_atr": 2.46,
+    "stop_atr": 1.73,
+    "basis_p_ziel": 0.3307,
+    "basis_erwartung_r": 0.0326,
+    "score_components": {
+     "trend": 0.15,
+     "setup": 0.731,
+     "volumen": 0.0,
+     "qualitaet": 0.487,
+     "bewertung": 0.57,
+     "analysten": 0.515
+    },
+    "target_methods": {
+     "atr": 131.63,
+     "struktur": 134.11
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   },
+   {
+    "symbol": "KDP",
+    "name": "Keurig Dr Pepper",
+    "sector": "Konsum defensiv",
+    "score": 0.6186,
+    "target": 34.69,
+    "stop": 31.3,
+    "atr_at_entry": 0.789766146598177,
+    "ziel_atr": 2.55,
+    "stop_atr": 1.74,
+    "basis_p_ziel": 0.3167,
+    "basis_erwartung_r": 0.0323,
+    "score_components": {
+     "trend": 0.825,
+     "setup": 0.722,
+     "volumen": 0.301,
+     "qualitaet": 0.457,
+     "bewertung": 0.696,
+     "analysten": 0.569
+    },
+    "target_methods": {
+     "atr": 34.14,
+     "struktur": 34.97
+    },
+    "regime": {
+     "trend": "aufwaerts",
+     "vix_level": "erhoeht"
+    }
+   }
+  ]
+ },
+ "statistik": {
+  "ki": {
+   "depot": "ki",
+   "label": "Depot KI",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "open_positions": 33,
+   "return_pct": -1.05,
+   "trades": 39,
+   "max_drawdown_pct": -1.45,
+   "win_rate": 15.4,
+   "wins": 6,
+   "losses": 33,
+   "expectancy_r": -0.686,
+   "avg_win_r": 0.971,
+   "avg_loss_r": -0.987,
+   "profit_factor": 0.19,
+   "avg_hold_days": 3.3,
+   "exit_reasons": {
+    "stop": 23,
+    "stop_luecke": 9,
+    "ziel": 5,
+    "ziel_luecke": 2
+   },
+   "total_pnl": -1053.22
+  },
+  "zufall": {
+   "depot": "zufall",
+   "label": "Depot Zufall",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "open_positions": 42,
+   "return_pct": -1.17,
+   "trades": 30,
+   "max_drawdown_pct": -1.2,
+   "win_rate": 10.0,
+   "wins": 3,
+   "losses": 27,
+   "expectancy_r": -0.982,
+   "avg_win_r": 1.143,
+   "avg_loss_r": -1.218,
+   "profit_factor": 0.08,
+   "avg_hold_days": 3.5,
+   "exit_reasons": {
+    "stop": 19,
+    "stop_luecke": 8,
+    "ziel": 2,
+    "ziel_luecke": 1
+   },
+   "total_pnl": -1173.3
+  }
+ },
+ "seconds": 362.4
+}
