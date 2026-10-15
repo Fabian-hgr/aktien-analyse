@@ -1618,6 +1618,191 @@
    },
    "order_date": "2026-10-14",
    "tries": 1
+  },
+  {
+   "symbol": "ADI",
+   "name": "Analog Devices",
+   "sector": "Technologie",
+   "score": 0.8343,
+   "target": 424.25,
+   "stop": 385.7,
+   "atr_at_entry": 10.94262942150049,
+   "ziel_atr": 1.89,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.4534,
+   "basis_erwartung_r": 0.0886,
+   "score_components": {
+    "trend": 0.862,
+    "setup": 0.955,
+    "volumen": 1.0,
+    "qualitaet": 0.8,
+    "bewertung": 0.575,
+    "analysten": 0.79,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 426.09,
+    "struktur": 422.49
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-15"
+  },
+  {
+   "symbol": "LLY",
+   "name": "Lilly (Eli)",
+   "sector": "Gesundheit",
+   "score": 0.7948,
+   "target": 1280.19,
+   "stop": 1157.43,
+   "atr_at_entry": 33.54722680966903,
+   "ziel_atr": 2.07,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.4055,
+   "basis_erwartung_r": 0.096,
+   "score_components": {
+    "trend": 0.81,
+    "setup": 1.0,
+    "volumen": 0.706,
+    "qualitaet": 0.87,
+    "bewertung": 0.348,
+    "analysten": 0.608,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 1276.75,
+    "struktur": 1292.51
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-15"
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit",
+   "sector": "Technologie",
+   "score": 0.787,
+   "target": 346.73,
+   "stop": 291.9,
+   "atr_at_entry": 11.400589554531125,
+   "ziel_atr": 3.18,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.2764,
+   "basis_erwartung_r": 0.1668,
+   "score_components": {
+    "trend": 0.416,
+    "setup": 1.0,
+    "volumen": 0.209,
+    "qualitaet": 0.762,
+    "bewertung": 0.878,
+    "analysten": 0.925,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 333.98,
+    "struktur": 348.39
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-15"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet Inc. (Class A)",
+   "sector": "Kommunikation",
+   "score": 0.7853,
+   "target": 367.05,
+   "stop": 333.04,
+   "atr_at_entry": 8.365287358183185,
+   "ziel_atr": 2.3,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.3483,
+   "basis_erwartung_r": 0.0205,
+   "score_components": {
+    "trend": 0.748,
+    "setup": 1.0,
+    "volumen": 0.349,
+    "qualitaet": 0.978,
+    "bewertung": 0.346,
+    "analysten": 0.902,
+    "sentiment": 0.35
+   },
+   "target_methods": {
+    "atr": 362.97,
+    "struktur": 371.7
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-15"
+  },
+  {
+   "symbol": "SNPS",
+   "name": "Synopsys",
+   "sector": "Technologie",
+   "score": 0.7835,
+   "target": 513.16,
+   "stop": 452.24,
+   "atr_at_entry": 16.961799181293497,
+   "ziel_atr": 1.96,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.4415,
+   "basis_erwartung_r": 0.0935,
+   "score_components": {
+    "trend": 0.942,
+    "setup": 0.98,
+    "volumen": 0.728,
+    "qualitaet": 0.559,
+    "bewertung": 0.164,
+    "analysten": 0.831
+   },
+   "target_methods": {
+    "atr": 514.84,
+    "struktur": 511.76
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-15"
+  },
+  {
+   "symbol": "BLK",
+   "name": "BlackRock",
+   "sector": "Finanzen",
+   "score": 0.7734,
+   "target": 1127.45,
+   "stop": 1037.7,
+   "atr_at_entry": 22.315736745133677,
+   "ziel_atr": 2.36,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3585,
+   "basis_erwartung_r": 0.0826,
+   "score_components": {
+    "trend": 0.359,
+    "setup": 0.986,
+    "volumen": 1.0,
+    "qualitaet": 0.793,
+    "bewertung": 0.437,
+    "analysten": 0.824,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 1116.77,
+    "struktur": 1139.82
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-15"
   }
  ],
  "closed": [
