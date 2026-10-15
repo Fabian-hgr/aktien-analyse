@@ -1243,384 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "sector": "Technologie",
-   "score": 0.8074,
-   "target": 244.94,
-   "stop": 221.14,
-   "atr_at_entry": 5.692796228393817,
-   "ziel_atr": 2.52,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3536,
-   "basis_erwartung_r": 0.1161,
-   "score_components": {
-    "trend": 0.862,
-    "setup": 1.0,
-    "volumen": 0.539,
-    "qualitaet": 0.986,
-    "bewertung": 0.889,
-    "analysten": 1.0,
-    "sentiment": 0.35
-   },
-   "target_methods": {
-    "atr": 242.15,
-    "struktur": 243.34
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "sector": "Technologie",
-   "score": 0.7855,
-   "target": 394.95,
-   "stop": 341.02,
-   "atr_at_entry": 11.489873856354105,
-   "ziel_atr": 3.04,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.29,
-   "basis_erwartung_r": 0.1453,
-   "score_components": {
-    "trend": 0.289,
-    "setup": 1.0,
-    "volumen": 0.361,
-    "qualitaet": 0.952,
-    "bewertung": 0.781,
-    "analysten": 1.0,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 383.43,
-    "struktur": 397.92
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "TER",
-   "name": "Teradyne",
-   "sector": "Technologie",
-   "score": 0.7848,
-   "target": 443.01,
-   "stop": 365.82,
-   "atr_at_entry": 19.922812882599565,
-   "ziel_atr": 2.22,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3996,
-   "basis_erwartung_r": 0.0989,
-   "score_components": {
-    "trend": 0.874,
-    "setup": 1.0,
-    "volumen": 0.333,
-    "qualitaet": 0.998,
-    "bewertung": 0.336,
-    "analysten": 0.573
-   },
-   "target_methods": {
-    "atr": 439.35,
-    "struktur": 451.7
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "EOG",
-   "name": "EOG Resources",
-   "sector": "Energie",
-   "score": 0.7747,
-   "target": 155.56,
-   "stop": 143.66,
-   "atr_at_entry": 3.4159208695829006,
-   "ziel_atr": 2.06,
-   "stop_atr": 1.42,
-   "basis_p_ziel": 0.4516,
-   "basis_erwartung_r": 0.234,
-   "score_components": {
-    "trend": 0.854,
-    "setup": 0.942,
-    "volumen": 0.402,
-    "qualitaet": 0.904,
-    "bewertung": 0.665,
-    "analysten": 0.617,
-    "sentiment": 0.7
-   },
-   "target_methods": {
-    "atr": 155.94,
-    "struktur": 154.15
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "MA",
-   "name": "Mastercard",
-   "sector": "Finanzen",
-   "score": 0.7665,
-   "target": 594.83,
-   "stop": 558.91,
-   "atr_at_entry": 9.123428368870657,
-   "ziel_atr": 2.3,
-   "stop_atr": 1.64,
-   "basis_p_ziel": 0.3723,
-   "basis_erwartung_r": 0.0974,
-   "score_components": {
-    "trend": 0.651,
-    "setup": 1.0,
-    "volumen": 0.89,
-    "qualitaet": 0.709,
-    "bewertung": 0.212,
-    "analysten": 0.783
-   },
-   "target_methods": {
-    "atr": 591.25,
-    "struktur": 600.2
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "V",
-   "name": "Visa Inc.",
-   "sector": "Finanzen",
-   "score": 0.7644,
-   "target": 385.27,
-   "stop": 365.52,
-   "atr_at_entry": 5.8283990797025895,
-   "ziel_atr": 1.75,
-   "stop_atr": 1.64,
-   "basis_p_ziel": 0.4732,
-   "basis_erwartung_r": 0.0816,
-   "score_components": {
-    "trend": 0.827,
-    "setup": 0.966,
-    "volumen": 0.733,
-    "qualitaet": 0.857,
-    "bewertung": 0.166,
-    "analysten": 0.714,
-    "sentiment": 0.6
-   },
-   "target_methods": {
-    "atr": 386.18,
-    "struktur": 385.54
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "TXN",
-   "name": "Texas Instruments",
-   "sector": "Technologie",
-   "score": 0.7772,
-   "target": 299.1,
-   "stop": 270.73,
-   "atr_at_entry": 7.910012230896547,
-   "ziel_atr": 1.95,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.4425,
-   "basis_erwartung_r": 0.0931,
-   "score_components": {
-    "trend": 0.72,
-    "setup": 0.984,
-    "volumen": 0.416,
-    "qualitaet": 0.919,
-    "bewertung": 0.456,
-    "analysten": 0.681
-   },
-   "target_methods": {
-    "atr": 299.93,
-    "struktur": 298.69
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
-   "symbol": "ADSK",
-   "name": "Autodesk",
-   "sector": "Technologie",
-   "score": 0.777,
-   "target": 259.51,
-   "stop": 222.96,
-   "atr_at_entry": 7.599646023172157,
-   "ziel_atr": 3.18,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.2764,
-   "basis_erwartung_r": 0.1669,
-   "score_components": {
-    "trend": 0.468,
-    "setup": 0.988,
-    "volumen": 0.224,
-    "qualitaet": 0.791,
-    "bewertung": 0.824,
-    "analysten": 0.925
-   },
-   "target_methods": {
-    "atr": 251.01,
-    "struktur": 260.61
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
-   "symbol": "GOOGL",
-   "name": "Alphabet Inc. (Class A)",
-   "sector": "Kommunikation",
-   "score": 0.7697,
-   "target": 370.53,
-   "stop": 337.04,
-   "atr_at_entry": 8.278952440060104,
-   "ziel_atr": 2.28,
-   "stop_atr": 1.76,
-   "basis_p_ziel": 0.3518,
-   "basis_erwartung_r": 0.0205,
-   "score_components": {
-    "trend": 0.538,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 0.978,
-    "bewertung": 0.263,
-    "analysten": 0.876,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 366.66,
-    "struktur": 375.3
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
-   "symbol": "OXY",
-   "name": "Occidental Petroleum",
-   "sector": "Energie",
-   "score": 0.7551,
-   "target": 63.5,
-   "stop": 57.85,
-   "atr_at_entry": 1.5458424500540449,
-   "ziel_atr": 2.2,
-   "stop_atr": 1.45,
-   "basis_p_ziel": 0.4279,
-   "basis_erwartung_r": 0.2241,
-   "score_components": {
-    "trend": 0.835,
-    "setup": 1.0,
-    "volumen": 0.21,
-    "qualitaet": 0.779,
-    "bewertung": 0.444,
-    "analysten": 0.67
-   },
-   "target_methods": {
-    "atr": 63.43,
-    "struktur": 63.77
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
-   "symbol": "CRDO",
-   "name": "Credo Technology Group Holding Ltd Ordinary Shares",
-   "sector": "Technologie",
-   "score": 0.7524,
-   "target": 258.32,
-   "stop": 192.83,
-   "atr_at_entry": 14.449690943024383,
-   "ziel_atr": 2.9,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.3089,
-   "basis_erwartung_r": 0.1525,
-   "score_components": {
-    "trend": 0.497,
-    "setup": 1.0,
-    "volumen": 0.101,
-    "qualitaet": 0.999,
-    "bewertung": 0.492,
-    "analysten": 0.95
-   },
-   "target_methods": {
-    "atr": 246.17,
-    "struktur": 264.43
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
-   "symbol": "DAL",
-   "name": "Delta Air Lines",
-   "sector": "Industrie",
-   "score": 0.7518,
-   "target": 88.97,
-   "stop": 78.32,
-   "atr_at_entry": 2.3157025174662107,
-   "ziel_atr": 2.94,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.283,
-   "basis_erwartung_r": 0.1129,
-   "score_components": {
-    "trend": 0.479,
-    "setup": 0.934,
-    "volumen": 0.9,
-    "qualitaet": 0.541,
-    "bewertung": 0.989,
-    "analysten": 0.898,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 86.71,
-    "struktur": 89.32
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
    "symbol": "MPWR",
    "name": "Monolithic Power Systems",
    "sector": "Technologie",
@@ -1649,7 +1271,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MRVL",
@@ -1681,7 +1303,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AMAT",
@@ -1713,7 +1335,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AMZN",
@@ -1745,7 +1367,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "EME",
@@ -1776,7 +1398,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "GOOG",
@@ -1808,7 +1430,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CDNS",
@@ -1838,7 +1460,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   },
   {
    "symbol": "CLS",
@@ -1868,7 +1491,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   },
   {
    "symbol": "CSCO",
@@ -1898,7 +1522,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   },
   {
    "symbol": "DECK",
@@ -1928,7 +1553,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   },
   {
    "symbol": "GEV",
@@ -1959,7 +1585,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   },
   {
    "symbol": "FIX",
@@ -1989,7 +1616,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4325,6 +3953,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-10-15",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4896,6 +4532,66 @@
   {
    "date": "2026-10-14",
    "symbol": "LLY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "NVDA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "AVGO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "TER",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "EOG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "MA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "V",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "TXN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "ADSK",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "GOOGL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "OXY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "CRDO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "DAL",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]

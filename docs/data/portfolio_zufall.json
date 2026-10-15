@@ -1561,379 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "DLTR",
-   "name": "Dollar Tree",
-   "sector": "Konsum defensiv",
-   "score": 0.6324,
-   "target": 127.58,
-   "stop": 112.45,
-   "atr_at_entry": 3.5635746441337863,
-   "ziel_atr": 2.52,
-   "stop_atr": 1.72,
-   "basis_p_ziel": 0.3297,
-   "basis_erwartung_r": 0.0507,
-   "score_components": {
-    "trend": 0.345,
-    "setup": 1.0,
-    "volumen": 0.373,
-    "qualitaet": 0.467,
-    "bewertung": 0.587,
-    "analysten": 0.695
-   },
-   "target_methods": {
-    "atr": 125.37,
-    "struktur": 129.18
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "VRTX",
-   "name": "Vertex Pharmaceuticals",
-   "sector": "Gesundheit",
-   "score": 0.6362,
-   "target": 527.76,
-   "stop": 486.24,
-   "atr_at_entry": 10.454365690563321,
-   "ziel_atr": 2.35,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3539,
-   "basis_erwartung_r": 0.093,
-   "score_components": {
-    "trend": 0.605,
-    "setup": 0.571,
-    "volumen": 0.78,
-    "qualitaet": 0.823,
-    "bewertung": 0.142,
-    "analysten": 0.667
-   },
-   "target_methods": {
-    "atr": 523.59,
-    "struktur": 534.44
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "TSN",
-   "name": "Tyson Foods",
-   "sector": "Konsum defensiv",
-   "score": 0.5527,
-   "target": 54.99,
-   "stop": 50.66,
-   "atr_at_entry": 0.9767230972218025,
-   "ziel_atr": 2.7,
-   "stop_atr": 1.73,
-   "basis_p_ziel": 0.302,
-   "basis_erwartung_r": 0.0504,
-   "score_components": {
-    "trend": 0.078,
-    "setup": 1.0,
-    "volumen": 0.483,
-    "qualitaet": 0.218,
-    "bewertung": 0.687,
-    "analysten": 0.71
-   },
-   "target_methods": {
-    "atr": 54.21,
-    "struktur": 55.25
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "WMT",
-   "name": "Walmart",
-   "sector": "Konsum defensiv",
-   "score": 0.5779,
-   "target": 115.42,
-   "stop": 106.84,
-   "atr_at_entry": 2.1772848630994672,
-   "ziel_atr": 2.22,
-   "stop_atr": 1.72,
-   "basis_p_ziel": 0.3798,
-   "basis_erwartung_r": 0.0483,
-   "score_components": {
-    "trend": 0.302,
-    "setup": 0.997,
-    "volumen": 0.399,
-    "qualitaet": 0.443,
-    "bewertung": 0.0,
-    "analysten": 0.684
-   },
-   "target_methods": {
-    "atr": 114.74,
-    "struktur": 116.57
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "HOOD",
-   "name": "Robinhood Markets",
-   "sector": "Finanzen",
-   "score": 0.6198,
-   "target": 120.39,
-   "stop": 97.82,
-   "atr_at_entry": 5.613841385530836,
-   "ziel_atr": 2.38,
-   "stop_atr": 1.64,
-   "basis_p_ziel": 0.3578,
-   "basis_erwartung_r": 0.0998,
-   "score_components": {
-    "trend": 0.504,
-    "setup": 0.631,
-    "volumen": 0.987,
-    "qualitaet": 0.744,
-    "bewertung": 0.106,
-    "analysten": 0.84
-   },
-   "target_methods": {
-    "atr": 117.72,
-    "struktur": 123.49
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "AMD",
-   "name": "Advanced Micro Devices",
-   "sector": "Technologie",
-   "score": 0.6546,
-   "target": 660.15,
-   "stop": 581.41,
-   "atr_at_entry": 23.801429736210828,
-   "ziel_atr": 1.65,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.4929,
-   "basis_erwartung_r": 0.064,
-   "score_components": {
-    "trend": 0.922,
-    "setup": 0.93,
-    "volumen": 0.269,
-    "qualitaet": 0.684,
-    "bewertung": 0.372,
-    "analysten": 0.55
-   },
-   "target_methods": {
-    "atr": 669.27,
-    "struktur": 658.45
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-09",
-   "tries": 2
-  },
-  {
-   "symbol": "ADI",
-   "name": "Analog Devices",
-   "sector": "Technologie",
-   "score": 0.7354,
-   "target": 425.52,
-   "stop": 388.64,
-   "atr_at_entry": 10.729110209425494,
-   "ziel_atr": 1.81,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.4679,
-   "basis_erwartung_r": 0.0827,
-   "score_components": {
-    "trend": 0.846,
-    "setup": 0.92,
-    "volumen": 0.103,
-    "qualitaet": 0.8,
-    "bewertung": 0.6,
-    "analysten": 0.778,
-    "sentiment": 0.5
-   },
-   "target_methods": {
-    "atr": 428.24,
-    "struktur": 422.49
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
-   "symbol": "MCHP",
-   "name": "Microchip Technology",
-   "sector": "Technologie",
-   "score": 0.6517,
-   "target": 84.44,
-   "stop": 70.95,
-   "atr_at_entry": 2.805371730388712,
-   "ziel_atr": 3.18,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.2764,
-   "basis_erwartung_r": 0.1668,
-   "score_components": {
-    "trend": 0.283,
-    "setup": 0.842,
-    "volumen": 0.208,
-    "qualitaet": 0.517,
-    "bewertung": 0.824,
-    "analysten": 0.925
-   },
-   "target_methods": {
-    "atr": 81.31,
-    "struktur": 84.85
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
-   "symbol": "BNY",
-   "name": "BNY Mellon",
-   "sector": "Finanzen",
-   "score": 0.2305,
-   "target": 148.92,
-   "stop": 138.35,
-   "atr_at_entry": 2.5810722294304598,
-   "ziel_atr": 2.43,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3466,
-   "basis_erwartung_r": 0.0843,
-   "score_components": {
-    "trend": 0.393,
-    "setup": 0.362,
-    "volumen": 0.0,
-    "qualitaet": 0.678,
-    "bewertung": 0.531,
-    "analysten": 0.626
-   },
-   "target_methods": {
-    "atr": 147.5,
-    "struktur": 150.17
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
-   "symbol": "OKE",
-   "name": "Oneok",
-   "sector": "Energie",
-   "score": 0.5746,
-   "target": 95.74,
-   "stop": 86.5,
-   "atr_at_entry": 2.2685358295315887,
-   "ziel_atr": 2.62,
-   "stop_atr": 1.45,
-   "basis_p_ziel": 0.3558,
-   "basis_erwartung_r": 0.2359,
-   "score_components": {
-    "trend": 0.332,
-    "setup": 0.944,
-    "volumen": 0.0,
-    "qualitaet": 0.56,
-    "bewertung": 0.341,
-    "analysten": 0.619
-   },
-   "target_methods": {
-    "atr": 94.69,
-    "struktur": 97.12
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
-   "symbol": "DGX",
-   "name": "Quest Diagnostics",
-   "sector": "Gesundheit",
-   "score": 0.5721,
-   "target": 242.33,
-   "stop": 223.55,
-   "atr_at_entry": 4.671414790665065,
-   "ziel_atr": 2.42,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3425,
-   "basis_erwartung_r": 0.1042,
-   "score_components": {
-    "trend": 0.719,
-    "setup": 0.822,
-    "volumen": 0.0,
-    "qualitaet": 0.468,
-    "bewertung": 0.438,
-    "analysten": 0.499
-   },
-   "target_methods": {
-    "atr": 240.17,
-    "struktur": 245.0
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
-   "symbol": "AME",
-   "name": "Ametek",
-   "sector": "Industrie",
-   "score": 0.6822,
-   "target": 257.87,
-   "stop": 240.96,
-   "atr_at_entry": 4.460773153070181,
-   "ziel_atr": 2.13,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.4031,
-   "basis_erwartung_r": 0.0781,
-   "score_components": {
-    "trend": 0.805,
-    "setup": 1.0,
-    "volumen": 0.016,
-    "qualitaet": 0.686,
-    "bewertung": 0.144,
-    "analysten": 0.608
-   },
-   "target_methods": {
-    "atr": 257.13,
-    "struktur": 259.25
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-12",
-   "tries": 2
-  },
-  {
    "symbol": "PSA",
    "name": "Public Storage",
    "sector": "Immobilien",
@@ -1962,7 +1589,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PAYX",
@@ -1993,7 +1620,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "GDDY",
@@ -2024,7 +1651,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AXON",
@@ -2055,7 +1682,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "HCA",
@@ -2086,7 +1713,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "WAT",
@@ -2117,7 +1744,7 @@
     "vix_level": "ruhig"
    },
    "order_date": "2026-10-13",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "DRI",
@@ -2147,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   },
   {
    "symbol": "WELL",
@@ -2177,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   },
   {
    "symbol": "HIG",
@@ -2207,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   },
   {
    "symbol": "BBY",
@@ -2237,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   },
   {
    "symbol": "PEP",
@@ -2267,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   },
   {
    "symbol": "KDP",
@@ -2297,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-14"
+   "order_date": "2026-10-14",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4141,6 +3774,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-10-15",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -4712,6 +4353,66 @@
   {
    "date": "2026-10-14",
    "symbol": "PFE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "DLTR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "VRTX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "TSN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "WMT",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "HOOD",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "AMD",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "ADI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "MCHP",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "BNY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "OKE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "DGX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-15",
+   "symbol": "AME",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
