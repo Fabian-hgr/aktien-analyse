@@ -1619,6 +1619,190 @@
    },
    "order_date": "2026-10-15",
    "tries": 1
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "sector": "Konsum zyklisch",
+   "score": 0.797,
+   "target": 268.41,
+   "stop": 244.36,
+   "atr_at_entry": 5.813786723115955,
+   "ziel_atr": 2.35,
+   "stop_atr": 1.79,
+   "basis_p_ziel": 0.3494,
+   "basis_erwartung_r": 0.016,
+   "score_components": {
+    "trend": 0.758,
+    "setup": 1.0,
+    "volumen": 0.62,
+    "qualitaet": 0.828,
+    "bewertung": 0.194,
+    "analysten": 1.0,
+    "sentiment": 0.4
+   },
+   "target_methods": {
+    "atr": 265.31,
+    "struktur": 271.5
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk",
+   "sector": "Technologie",
+   "score": 0.7904,
+   "target": 268.65,
+   "stop": 232.68,
+   "atr_at_entry": 7.68950073165215,
+   "ziel_atr": 3.05,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.2913,
+   "basis_erwartung_r": 0.1608,
+   "score_components": {
+    "trend": 0.683,
+    "setup": 0.86,
+    "volumen": 0.537,
+    "qualitaet": 0.791,
+    "bewertung": 0.779,
+    "analysten": 0.853
+   },
+   "target_methods": {
+    "atr": 261.06,
+    "struktur": 270.78
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
+  },
+  {
+   "symbol": "NXPI",
+   "name": "NXP Semiconductors",
+   "sector": "Technologie",
+   "score": 0.786,
+   "target": 251.79,
+   "stop": 218.62,
+   "atr_at_entry": 7.589026907578733,
+   "ziel_atr": 2.74,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.3291,
+   "basis_erwartung_r": 0.1426,
+   "score_components": {
+    "trend": 0.078,
+    "setup": 0.975,
+    "volumen": 1.0,
+    "qualitaet": 0.829,
+    "bewertung": 0.94,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 246.64,
+    "struktur": 250.6
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies",
+   "sector": "Technologie",
+   "score": 0.7852,
+   "target": 212.58,
+   "stop": 189.44,
+   "atr_at_entry": 6.769948292337732,
+   "ziel_atr": 1.79,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.4714,
+   "basis_erwartung_r": 0.0813,
+   "score_components": {
+    "trend": 0.977,
+    "setup": 0.972,
+    "volumen": 0.773,
+    "qualitaet": 0.998,
+    "bewertung": 0.138,
+    "analysten": 0.491,
+    "sentiment": 0.7
+   },
+   "target_methods": {
+    "atr": 214.43,
+    "struktur": 212.91
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
+  },
+  {
+   "symbol": "VST",
+   "name": "Vistra Corp.",
+   "sector": "Versorger",
+   "score": 0.7783,
+   "target": 169.74,
+   "stop": 141.89,
+   "atr_at_entry": 7.464583724124101,
+   "ziel_atr": 2.08,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.3696,
+   "basis_erwartung_r": 0.0231,
+   "score_components": {
+    "trend": 0.557,
+    "setup": 0.991,
+    "volumen": 0.76,
+    "qualitaet": 0.389,
+    "bewertung": 0.757,
+    "analysten": 0.966,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 167.34,
+    "struktur": 168.69
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
+  },
+  {
+   "symbol": "GOOG",
+   "name": "Alphabet Inc. (Class C)",
+   "sector": "Kommunikation",
+   "score": 0.773,
+   "target": 364.13,
+   "stop": 330.07,
+   "atr_at_entry": 8.393958505743834,
+   "ziel_atr": 2.29,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.3498,
+   "basis_erwartung_r": 0.0205,
+   "score_components": {
+    "trend": 0.747,
+    "setup": 1.0,
+    "volumen": 0.35,
+    "qualitaet": 0.978,
+    "bewertung": 0.357,
+    "analysten": 0.798,
+    "sentiment": 0.4
+   },
+   "target_methods": {
+    "atr": 360.11,
+    "struktur": 368.86
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
   }
  ],
  "closed": [

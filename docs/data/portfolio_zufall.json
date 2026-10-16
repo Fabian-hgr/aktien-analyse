@@ -1931,6 +1931,186 @@
    },
    "order_date": "2026-10-15",
    "tries": 1
+  },
+  {
+   "symbol": "PSA",
+   "name": "Public Storage",
+   "sector": "Immobilien",
+   "score": 0.6019,
+   "target": 307.75,
+   "stop": 286.28,
+   "atr_at_entry": 5.369932377131604,
+   "ziel_atr": 2.26,
+   "stop_atr": 1.73,
+   "basis_p_ziel": 0.3337,
+   "basis_erwartung_r": 0.0025,
+   "score_components": {
+    "trend": 0.12,
+    "setup": 1.0,
+    "volumen": 0.283,
+    "qualitaet": 0.651,
+    "bewertung": 0.34,
+    "analysten": 0.599
+   },
+   "target_methods": {
+    "atr": 304.8,
+    "struktur": 309.75
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
+  },
+  {
+   "symbol": "MPC",
+   "name": "Marathon Petroleum",
+   "sector": "Energie",
+   "score": 0.5402,
+   "target": 519.08,
+   "stop": 454.87,
+   "atr_at_entry": 14.982534147448225,
+   "ziel_atr": 2.84,
+   "stop_atr": 1.45,
+   "basis_p_ziel": 0.3221,
+   "basis_erwartung_r": 0.2412,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.445,
+    "volumen": 0.0,
+    "qualitaet": 0.66,
+    "bewertung": 0.725,
+    "analysten": 0.327
+   },
+   "target_methods": {
+    "atr": 508.95,
+    "struktur": 525.01
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
+  },
+  {
+   "symbol": "TTWO",
+   "name": "Take-Two Interactive",
+   "sector": "Kommunikation",
+   "score": 0.6029,
+   "target": 225.41,
+   "stop": 197.65,
+   "atr_at_entry": 6.654549658175072,
+   "ziel_atr": 2.41,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.3298,
+   "basis_erwartung_r": 0.02,
+   "score_components": {
+    "trend": 0.103,
+    "setup": 1.0,
+    "volumen": 0.4,
+    "qualitaet": 0.193,
+    "bewertung": 0.215,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 221.46,
+    "struktur": 228.41
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
+  },
+  {
+   "symbol": "AKAM",
+   "name": "Akamai Technologies",
+   "sector": "Technologie",
+   "score": 0.5237,
+   "target": 111.79,
+   "stop": 82.36,
+   "atr_at_entry": 6.120609439077818,
+   "ziel_atr": 3.18,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.2764,
+   "basis_erwartung_r": 0.1669,
+   "score_components": {
+    "trend": 0.077,
+    "setup": 0.482,
+    "volumen": 0.959,
+    "qualitaet": 0.283,
+    "bewertung": 0.734,
+    "analysten": 0.905
+   },
+   "target_methods": {
+    "atr": 104.95,
+    "struktur": 112.68
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
+  },
+  {
+   "symbol": "MRK",
+   "name": "Merck & Co.",
+   "sector": "Gesundheit",
+   "score": 0.6262,
+   "target": 154.84,
+   "stop": 139.2,
+   "atr_at_entry": 3.8199058965384913,
+   "ziel_atr": 2.5,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3293,
+   "basis_erwartung_r": 0.106,
+   "score_components": {
+    "trend": 0.687,
+    "setup": 1.0,
+    "volumen": 0.478,
+    "qualitaet": 0.258,
+    "bewertung": 0.376,
+    "analysten": 0.598
+   },
+   "target_methods": {
+    "atr": 152.79,
+    "struktur": 155.98
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
+  },
+  {
+   "symbol": "AES",
+   "name": "AES Corporation",
+   "sector": "Versorger",
+   "score": 0.6094,
+   "target": 15.04,
+   "stop": 14.89,
+   "atr_at_entry": 0.03885086969917181,
+   "ziel_atr": 2.42,
+   "stop_atr": 1.54,
+   "basis_p_ziel": 0.302,
+   "basis_erwartung_r": 0.0127,
+   "score_components": {
+    "trend": 0.883,
+    "setup": 0.817,
+    "volumen": 0.803,
+    "qualitaet": 0.425,
+    "bewertung": 0.938,
+    "analysten": 0.238
+   },
+   "target_methods": {
+    "atr": 15.02,
+    "struktur": 15.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-16"
   }
  ],
  "closed": [
