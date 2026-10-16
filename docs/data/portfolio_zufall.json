@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "PSA",
-   "name": "Public Storage",
-   "sector": "Immobilien",
-   "score": 0.5853,
-   "target": 300.91,
-   "stop": 280.0,
-   "atr_at_entry": 5.187685227449021,
-   "ziel_atr": 2.3,
-   "stop_atr": 1.73,
-   "basis_p_ziel": 0.3277,
-   "basis_erwartung_r": 0.0017,
-   "score_components": {
-    "trend": 0.138,
-    "setup": 0.965,
-    "volumen": 0.171,
-    "qualitaet": 0.651,
-    "bewertung": 0.34,
-    "analysten": 0.64
-   },
-   "target_methods": {
-    "atr": 297.89,
-    "struktur": 302.67
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
-   "symbol": "PAYX",
-   "name": "Paychex",
-   "sector": "Industrie",
-   "score": 0.5414,
-   "target": 111.59,
-   "stop": 100.56,
-   "atr_at_entry": 2.4790577236065094,
-   "ziel_atr": 2.79,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3043,
-   "basis_erwartung_r": 0.1072,
-   "score_components": {
-    "trend": 0.379,
-    "setup": 0.758,
-    "volumen": 0.0,
-    "qualitaet": 0.741,
-    "bewertung": 0.544,
-    "analysten": 0.413
-   },
-   "target_methods": {
-    "atr": 109.55,
-    "struktur": 112.34
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
-   "symbol": "GDDY",
-   "name": "GoDaddy",
-   "sector": "Technologie",
-   "score": 0.6932,
-   "target": 111.11,
-   "stop": 95.75,
-   "atr_at_entry": 3.9903182156302845,
-   "ziel_atr": 2.22,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.4016,
-   "basis_erwartung_r": 0.1101,
-   "score_components": {
-    "trend": 0.893,
-    "setup": 0.994,
-    "volumen": 0.0,
-    "qualitaet": 0.561,
-    "bewertung": 0.988,
-    "analysten": 0.461
-   },
-   "target_methods": {
-    "atr": 110.48,
-    "struktur": 110.09
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
-   "symbol": "AXON",
-   "name": "Axon Enterprise",
-   "sector": "Industrie",
-   "score": 0.4883,
-   "target": 460.33,
-   "stop": 384.53,
-   "atr_at_entry": 18.09149043061944,
-   "ziel_atr": 2.53,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3407,
-   "basis_erwartung_r": 0.0974,
-   "score_components": {
-    "trend": 0.186,
-    "setup": 0.523,
-    "volumen": 0.0,
-    "qualitaet": 0.496,
-    "bewertung": 0.192,
-    "analysten": 0.884
-   },
-   "target_methods": {
-    "atr": 450.12,
-    "struktur": 470.49
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
-   "symbol": "HCA",
-   "name": "HCA Healthcare",
-   "sector": "Gesundheit",
-   "score": 0.5624,
-   "target": 486.29,
-   "stop": 441.19,
-   "atr_at_entry": 10.723385064244932,
-   "ziel_atr": 2.61,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.313,
-   "basis_erwartung_r": 0.1072,
-   "score_components": {
-    "trend": 0.908,
-    "setup": 0.566,
-    "volumen": 0.528,
-    "qualitaet": 0.399,
-    "bewertung": 0.628,
-    "analysten": 0.441
-   },
-   "target_methods": {
-    "atr": 479.33,
-    "struktur": 490.43
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
-   "symbol": "WAT",
-   "name": "Waters Corporation",
-   "sector": "Gesundheit",
-   "score": 0.6916,
-   "target": 452.47,
-   "stop": 414.23,
-   "atr_at_entry": 11.341216030465384,
-   "ziel_atr": 1.78,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.459,
-   "basis_erwartung_r": 0.0828,
-   "score_components": {
-    "trend": 0.936,
-    "setup": 0.978,
-    "volumen": 0.726,
-    "qualitaet": 0.464,
-    "bewertung": 0.21,
-    "analysten": 0.534
-   },
-   "target_methods": {
-    "atr": 454.57,
-    "struktur": 453.49
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
    "symbol": "DRI",
    "name": "Darden Restaurants",
    "sector": "Konsum zyklisch",
@@ -1775,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "WELL",
@@ -1806,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "HIG",
@@ -1837,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BBY",
@@ -1868,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PEP",
@@ -1899,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "KDP",
@@ -1930,7 +1744,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SOLV",
@@ -1960,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   },
   {
    "symbol": "MRSH",
@@ -1990,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   },
   {
    "symbol": "DUK",
@@ -2020,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   },
   {
    "symbol": "OKE",
@@ -2050,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   },
   {
    "symbol": "GPC",
@@ -2080,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   },
   {
    "symbol": "KEYS",
@@ -2110,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   }
  ],
  "closed": [
@@ -3962,6 +3782,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-10-16",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -4593,6 +4421,36 @@
   {
    "date": "2026-10-15",
    "symbol": "AME",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "PSA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "PAYX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "GDDY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "AXON",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "HCA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "WAT",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]

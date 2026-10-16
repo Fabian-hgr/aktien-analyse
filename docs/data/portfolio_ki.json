@@ -1243,196 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "MPWR",
-   "name": "Monolithic Power Systems",
-   "sector": "Technologie",
-   "score": 0.7882,
-   "target": 1464.94,
-   "stop": 1231.62,
-   "atr_at_entry": 53.95037666237177,
-   "ziel_atr": 2.69,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.3348,
-   "basis_erwartung_r": 0.1398,
-   "score_components": {
-    "trend": 0.738,
-    "setup": 0.815,
-    "volumen": 0.414,
-    "qualitaet": 0.913,
-    "bewertung": 0.292,
-    "analysten": 0.932
-   },
-   "target_methods": {
-    "atr": 1430.75,
-    "struktur": 1498.95
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
-   "symbol": "MRVL",
-   "name": "Marvell Technology",
-   "sector": "Technologie",
-   "score": 0.7815,
-   "target": 298.17,
-   "stop": 242.02,
-   "atr_at_entry": 14.604303794244244,
-   "ziel_atr": 2.21,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.4024,
-   "basis_erwartung_r": 0.1098,
-   "score_components": {
-    "trend": 0.93,
-    "setup": 1.0,
-    "volumen": 0.339,
-    "qualitaet": 0.842,
-    "bewertung": 0.364,
-    "analysten": 0.955,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 295.92,
-    "struktur": 300.96
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "sector": "Technologie",
-   "score": 0.7776,
-   "target": 546.75,
-   "stop": 468.08,
-   "atr_at_entry": 18.072500174720396,
-   "ziel_atr": 2.72,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.3312,
-   "basis_erwartung_r": 0.1415,
-   "score_components": {
-    "trend": 0.687,
-    "setup": 0.994,
-    "volumen": 0.05,
-    "qualitaet": 0.975,
-    "bewertung": 0.494,
-    "analysten": 0.964,
-    "sentiment": 0.4
-   },
-   "target_methods": {
-    "atr": 534.78,
-    "struktur": 557.62
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "sector": "Konsum zyklisch",
-   "score": 0.7717,
-   "target": 273.0,
-   "stop": 249.35,
-   "atr_at_entry": 5.741472812439026,
-   "ziel_atr": 2.33,
-   "stop_atr": 1.79,
-   "basis_p_ziel": 0.3524,
-   "basis_erwartung_r": 0.0158,
-   "score_components": {
-    "trend": 0.781,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 0.828,
-    "bewertung": 0.194,
-    "analysten": 0.962,
-    "sentiment": 0.6
-   },
-   "target_methods": {
-    "atr": 270.04,
-    "struktur": 276.15
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
-   "symbol": "EME",
-   "name": "Emcor",
-   "sector": "Industrie",
-   "score": 0.7512,
-   "target": 842.4,
-   "stop": 741.78,
-   "atr_at_entry": 22.85616538990763,
-   "ziel_atr": 2.74,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3108,
-   "basis_erwartung_r": 0.1055,
-   "score_components": {
-    "trend": 0.555,
-    "setup": 1.0,
-    "volumen": 0.223,
-    "qualitaet": 0.739,
-    "bewertung": 0.713,
-    "analysten": 0.802
-   },
-   "target_methods": {
-    "atr": 824.63,
-    "struktur": 850.37
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
-   "symbol": "GOOG",
-   "name": "Alphabet Inc. (Class C)",
-   "sector": "Kommunikation",
-   "score": 0.7506,
-   "target": 366.93,
-   "stop": 335.07,
-   "atr_at_entry": 7.884136158493959,
-   "ziel_atr": 2.28,
-   "stop_atr": 1.76,
-   "basis_p_ziel": 0.3526,
-   "basis_erwartung_r": 0.0206,
-   "score_components": {
-    "trend": 0.529,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 0.978,
-    "bewertung": 0.357,
-    "analysten": 0.775,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 363.28,
-    "struktur": 371.5
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "ruhig"
-   },
-   "order_date": "2026-10-13",
-   "tries": 2
-  },
-  {
    "symbol": "CDNS",
    "name": "Cadence Design Systems",
    "sector": "Technologie",
@@ -1461,7 +1271,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CLS",
@@ -1492,7 +1302,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CSCO",
@@ -1523,7 +1333,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "DECK",
@@ -1554,7 +1364,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "GEV",
@@ -1586,7 +1396,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "FIX",
@@ -1617,7 +1427,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-14",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ADI",
@@ -1648,7 +1458,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   },
   {
    "symbol": "LLY",
@@ -1679,7 +1490,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   },
   {
    "symbol": "INTU",
@@ -1710,7 +1522,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   },
   {
    "symbol": "GOOGL",
@@ -1741,7 +1554,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   },
   {
    "symbol": "SNPS",
@@ -1771,7 +1585,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   },
   {
    "symbol": "BLK",
@@ -1802,7 +1617,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-15"
+   "order_date": "2026-10-15",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4146,6 +3962,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-10-16",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4777,6 +4601,36 @@
   {
    "date": "2026-10-15",
    "symbol": "DAL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "MPWR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "MRVL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "AMAT",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "AMZN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "EME",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-16",
+   "symbol": "GOOG",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
