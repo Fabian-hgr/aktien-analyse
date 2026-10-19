@@ -2111,6 +2111,186 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-16"
+  },
+  {
+   "symbol": "AOS",
+   "name": "A. O. Smith",
+   "sector": "Industrie",
+   "score": 0.6457,
+   "target": 63.01,
+   "stop": 57.01,
+   "atr_at_entry": 1.3219264169960152,
+   "ziel_atr": 2.89,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.2894,
+   "basis_erwartung_r": 0.1152,
+   "score_components": {
+    "trend": 0.378,
+    "setup": 1.0,
+    "volumen": 0.442,
+    "qualitaet": 0.586,
+    "bewertung": 0.73,
+    "analysten": 0.528
+   },
+   "target_methods": {
+    "atr": 61.79,
+    "struktur": 63.27
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-19"
+  },
+  {
+   "symbol": "SPGI",
+   "name": "S&P Global",
+   "sector": "Finanzen",
+   "score": 0.7037,
+   "target": 449.27,
+   "stop": 415.26,
+   "atr_at_entry": 8.536703529992893,
+   "ziel_atr": 2.32,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3629,
+   "basis_erwartung_r": 0.0771,
+   "score_components": {
+    "trend": 0.516,
+    "setup": 0.844,
+    "volumen": 0.776,
+    "qualitaet": 0.686,
+    "bewertung": 0.11,
+    "analysten": 0.819
+   },
+   "target_methods": {
+    "atr": 445.44,
+    "struktur": 454.26
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-19"
+  },
+  {
+   "symbol": "PAYX",
+   "name": "Paychex",
+   "sector": "Industrie",
+   "score": 0.5784,
+   "target": 118.44,
+   "stop": 107.46,
+   "atr_at_entry": 2.535859736955231,
+   "ziel_atr": 2.68,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.3198,
+   "basis_erwartung_r": 0.1072,
+   "score_components": {
+    "trend": 0.379,
+    "setup": 0.959,
+    "volumen": 0.069,
+    "qualitaet": 0.741,
+    "bewertung": 0.544,
+    "analysten": 0.306
+   },
+   "target_methods": {
+    "atr": 116.64,
+    "struktur": 119.49
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-19"
+  },
+  {
+   "symbol": "DECK",
+   "name": "Deckers Brands",
+   "sector": "Konsum zyklisch",
+   "score": 0.5038,
+   "target": 92.21,
+   "stop": 81.46,
+   "atr_at_entry": 2.367440888020396,
+   "ziel_atr": 2.76,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.2854,
+   "basis_erwartung_r": 0.025,
+   "score_components": {
+    "trend": 0.345,
+    "setup": 1.0,
+    "volumen": 0.163,
+    "qualitaet": 0.743,
+    "bewertung": 0.809,
+    "analysten": 0.905
+   },
+   "target_methods": {
+    "atr": 89.95,
+    "struktur": 92.48
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-19"
+  },
+  {
+   "symbol": "NXPI",
+   "name": "NXP Semiconductors",
+   "sector": "Technologie",
+   "score": 0.7565,
+   "target": 251.22,
+   "stop": 217.35,
+   "atr_at_entry": 7.546596413840533,
+   "ziel_atr": 2.88,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3131,
+   "basis_erwartung_r": 0.16,
+   "score_components": {
+    "trend": 0.074,
+    "setup": 0.917,
+    "volumen": 0.775,
+    "qualitaet": 0.829,
+    "bewertung": 0.94,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 245.21,
+    "struktur": 250.6
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-19"
+  },
+  {
+   "symbol": "TDG",
+   "name": "TransDigm Group",
+   "sector": "Industrie",
+   "score": 0.7325,
+   "target": 1199.32,
+   "stop": 1100.62,
+   "atr_at_entry": 23.038801219078334,
+   "ziel_atr": 2.64,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.326,
+   "basis_erwartung_r": 0.1055,
+   "score_components": {
+    "trend": 0.304,
+    "setup": 1.0,
+    "volumen": 0.287,
+    "qualitaet": 0.881,
+    "bewertung": 0.264,
+    "analysten": 0.831
+   },
+   "target_methods": {
+    "atr": 1183.97,
+    "struktur": 1209.85
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-19"
   }
  ],
  "closed": [
