@@ -2117,6 +2117,187 @@
    },
    "order_date": "2026-10-19",
    "tries": 1
+  },
+  {
+   "symbol": "BR",
+   "name": "Broadridge Financial Solutions",
+   "sector": "Industrie",
+   "score": 0.7203,
+   "target": 184.92,
+   "stop": 169.51,
+   "atr_at_entry": 3.371721381250356,
+   "ziel_atr": 2.92,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.2858,
+   "basis_erwartung_r": 0.1162,
+   "score_components": {
+    "trend": 0.904,
+    "setup": 0.867,
+    "volumen": 0.127,
+    "qualitaet": 0.635,
+    "bewertung": 0.626,
+    "analysten": 0.681
+   },
+   "target_methods": {
+    "atr": 181.71,
+    "struktur": 185.46
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-20"
+  },
+  {
+   "symbol": "PNR",
+   "name": "Pentair",
+   "sector": "Industrie",
+   "score": 0.3062,
+   "target": 56.55,
+   "stop": 50.64,
+   "atr_at_entry": 1.2754271581708831,
+   "ziel_atr": 2.99,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.2761,
+   "basis_erwartung_r": 0.1187,
+   "score_components": {
+    "trend": 0.2,
+    "setup": 0.59,
+    "volumen": 0.0,
+    "qualitaet": 0.478,
+    "bewertung": 0.934,
+    "analysten": 0.857
+   },
+   "target_methods": {
+    "atr": 55.25,
+    "struktur": 56.68
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-20"
+  },
+  {
+   "symbol": "NTAP",
+   "name": "NetApp",
+   "sector": "Technologie",
+   "score": 0.6286,
+   "target": 231.86,
+   "stop": 193.48,
+   "atr_at_entry": 8.69012790598176,
+   "ziel_atr": 2.8,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.322,
+   "basis_erwartung_r": 0.1558,
+   "score_components": {
+    "trend": 0.954,
+    "setup": 0.707,
+    "volumen": 0.0,
+    "qualitaet": 0.795,
+    "bewertung": 0.308,
+    "analysten": 0.424
+   },
+   "target_methods": {
+    "atr": 225.55,
+    "struktur": 236.47
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-20"
+  },
+  {
+   "symbol": "FIX",
+   "name": "Comfort Systems USA",
+   "sector": "Industrie",
+   "score": 0.3587,
+   "target": 1664.87,
+   "stop": 1339.22,
+   "atr_at_entry": 75.91721518436576,
+   "ziel_atr": 2.64,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.3253,
+   "basis_erwartung_r": 0.1057,
+   "score_components": {
+    "trend": 0.094,
+    "setup": 0.499,
+    "volumen": 0.555,
+    "qualitaet": 0.844,
+    "bewertung": 0.544,
+    "analysten": 0.884
+   },
+   "target_methods": {
+    "atr": 1613.89,
+    "struktur": 1699.15
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-20"
+  },
+  {
+   "symbol": "TPR",
+   "name": "Tapestry, Inc.",
+   "sector": "Konsum zyklisch",
+   "score": 0.6929,
+   "target": 126.14,
+   "stop": 112.01,
+   "atr_at_entry": 3.1775851739394008,
+   "ziel_atr": 2.67,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.2989,
+   "basis_erwartung_r": 0.0231,
+   "score_components": {
+    "trend": 0.317,
+    "setup": 1.0,
+    "volumen": 0.384,
+    "qualitaet": 0.595,
+    "bewertung": 0.583,
+    "analysten": 0.951,
+    "sentiment": 0.4
+   },
+   "target_methods": {
+    "atr": 123.41,
+    "struktur": 126.8
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-20"
+  },
+  {
+   "symbol": "EME",
+   "name": "Emcor",
+   "sector": "Industrie",
+   "score": 0.5617,
+   "target": 785.18,
+   "stop": 676.39,
+   "atr_at_entry": 24.397428648868914,
+   "ziel_atr": 2.81,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.3013,
+   "basis_erwartung_r": 0.1121,
+   "score_components": {
+    "trend": 0.102,
+    "setup": 0.546,
+    "volumen": 0.082,
+    "qualitaet": 0.739,
+    "bewertung": 0.713,
+    "analysten": 0.802
+   },
+   "target_methods": {
+    "atr": 764.66,
+    "struktur": 792.06
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-20"
   }
  ],
  "closed": [
