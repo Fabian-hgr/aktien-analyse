@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "DRI",
-   "name": "Darden Restaurants",
-   "sector": "Konsum zyklisch",
-   "score": 0.6013,
-   "target": 217.14,
-   "stop": 197.05,
-   "atr_at_entry": 4.8053231277009285,
-   "ziel_atr": 2.39,
-   "stop_atr": 1.79,
-   "basis_p_ziel": 0.3418,
-   "basis_erwartung_r": 0.0164,
-   "score_components": {
-    "trend": 0.404,
-    "setup": 1.0,
-    "volumen": 0.051,
-    "qualitaet": 0.44,
-    "bewertung": 0.377,
-    "analysten": 0.666
-   },
-   "target_methods": {
-    "atr": 214.36,
-    "struktur": 219.48
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
-   "symbol": "WELL",
-   "name": "Welltower",
-   "sector": "Immobilien",
-   "score": 0.5788,
-   "target": 239.2,
-   "stop": 222.7,
-   "atr_at_entry": 4.341207248074931,
-   "ziel_atr": 2.07,
-   "stop_atr": 1.73,
-   "basis_p_ziel": 0.3708,
-   "basis_erwartung_r": 0.0073,
-   "score_components": {
-    "trend": 0.319,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 0.563,
-    "bewertung": 0.0,
-    "analysten": 0.642
-   },
-   "target_methods": {
-    "atr": 237.67,
-    "struktur": 241.66
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
-   "symbol": "HIG",
-   "name": "Hartford (The)",
-   "sector": "Finanzen",
-   "score": 0.6364,
-   "target": 136.53,
-   "stop": 127.81,
-   "atr_at_entry": 2.0058238619828495,
-   "ziel_atr": 2.68,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3056,
-   "basis_erwartung_r": 0.0899,
-   "score_components": {
-    "trend": 0.177,
-    "setup": 1.0,
-    "volumen": 0.264,
-    "qualitaet": 0.641,
-    "bewertung": 0.844,
-    "analysten": 0.618
-   },
-   "target_methods": {
-    "atr": 134.91,
-    "struktur": 136.99
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
-   "symbol": "BBY",
-   "name": "Best Buy",
-   "sector": "Konsum zyklisch",
-   "score": 0.5509,
-   "target": 94.78,
-   "stop": 83.24,
-   "atr_at_entry": 2.6769216260390296,
-   "ziel_atr": 2.52,
-   "stop_atr": 1.79,
-   "basis_p_ziel": 0.32,
-   "basis_erwartung_r": 0.0178,
-   "score_components": {
-    "trend": 0.564,
-    "setup": 0.992,
-    "volumen": 0.0,
-    "qualitaet": 0.454,
-    "bewertung": 0.607,
-    "analysten": 0.295
-   },
-   "target_methods": {
-    "atr": 92.88,
-    "struktur": 95.73
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
-   "symbol": "PEP",
-   "name": "PepsiCo",
-   "sector": "Konsum defensiv",
-   "score": 0.4722,
-   "target": 133.08,
-   "stop": 123.22,
-   "atr_at_entry": 2.3484303589157043,
-   "ziel_atr": 2.46,
-   "stop_atr": 1.73,
-   "basis_p_ziel": 0.3307,
-   "basis_erwartung_r": 0.0326,
-   "score_components": {
-    "trend": 0.15,
-    "setup": 0.731,
-    "volumen": 0.0,
-    "qualitaet": 0.487,
-    "bewertung": 0.57,
-    "analysten": 0.515
-   },
-   "target_methods": {
-    "atr": 131.63,
-    "struktur": 134.11
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
-   "symbol": "KDP",
-   "name": "Keurig Dr Pepper",
-   "sector": "Konsum defensiv",
-   "score": 0.6186,
-   "target": 34.69,
-   "stop": 31.3,
-   "atr_at_entry": 0.789766146598177,
-   "ziel_atr": 2.55,
-   "stop_atr": 1.74,
-   "basis_p_ziel": 0.3167,
-   "basis_erwartung_r": 0.0323,
-   "score_components": {
-    "trend": 0.825,
-    "setup": 0.722,
-    "volumen": 0.301,
-    "qualitaet": 0.457,
-    "bewertung": 0.696,
-    "analysten": 0.569
-   },
-   "target_methods": {
-    "atr": 34.14,
-    "struktur": 34.97
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
    "symbol": "SOLV",
    "name": "Solventum",
    "sector": "Gesundheit",
@@ -1775,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MRSH",
@@ -1806,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "DUK",
@@ -1837,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "OKE",
@@ -1868,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "GPC",
@@ -1899,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "KEYS",
@@ -1930,7 +1744,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PSA",
@@ -1960,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "MPC",
@@ -1990,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "TTWO",
@@ -2020,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "AKAM",
@@ -2050,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "MRK",
@@ -2080,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "AES",
@@ -2110,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "AOS",
@@ -2140,7 +1960,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   },
   {
    "symbol": "SPGI",
@@ -2170,7 +1991,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   },
   {
    "symbol": "PAYX",
@@ -2200,7 +2022,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   },
   {
    "symbol": "DECK",
@@ -2230,7 +2053,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   },
   {
    "symbol": "NXPI",
@@ -2260,7 +2084,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   },
   {
    "symbol": "TDG",
@@ -2290,7 +2115,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4150,6 +3976,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-10-20",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -4811,6 +4645,36 @@
   {
    "date": "2026-10-16",
    "symbol": "WAT",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "DRI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "WELL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "HIG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "BBY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "PEP",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "KDP",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]

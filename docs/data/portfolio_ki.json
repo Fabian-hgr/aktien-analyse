@@ -1243,193 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "CDNS",
-   "name": "Cadence Design Systems",
-   "sector": "Technologie",
-   "score": 0.835,
-   "target": 358.56,
-   "stop": 316.69,
-   "atr_at_entry": 10.780106471087773,
-   "ziel_atr": 2.25,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.3964,
-   "basis_erwartung_r": 0.1123,
-   "score_components": {
-    "trend": 0.742,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.878,
-    "bewertung": 0.0,
-    "analysten": 0.867
-   },
-   "target_methods": {
-    "atr": 356.48,
-    "struktur": 361.9
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
-   "symbol": "CLS",
-   "name": "Celestica, Inc.",
-   "sector": "Technologie",
-   "score": 0.8298,
-   "target": 400.62,
-   "stop": 325.47,
-   "atr_at_entry": 19.595040934450854,
-   "ziel_atr": 2.2,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.4039,
-   "basis_erwartung_r": 0.1091,
-   "score_components": {
-    "trend": 0.83,
-    "setup": 0.975,
-    "volumen": 0.179,
-    "qualitaet": 0.754,
-    "bewertung": 0.697,
-    "analysten": 0.952
-   },
-   "target_methods": {
-    "atr": 397.8,
-    "struktur": 393.72
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
-   "symbol": "CSCO",
-   "name": "Cisco",
-   "sector": "Technologie",
-   "score": 0.7779,
-   "target": 122.93,
-   "stop": 110.52,
-   "atr_at_entry": 2.800044797375379,
-   "ziel_atr": 2.8,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.3209,
-   "basis_erwartung_r": 0.1466,
-   "score_components": {
-    "trend": 0.818,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 0.813,
-    "bewertung": 0.608,
-    "analysten": 0.741
-   },
-   "target_methods": {
-    "atr": 120.85,
-    "struktur": 124.2
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
-   "symbol": "DECK",
-   "name": "Deckers Brands",
-   "sector": "Konsum zyklisch",
-   "score": 0.7741,
-   "target": 90.06,
-   "stop": 80.12,
-   "atr_at_entry": 2.181478287339938,
-   "ziel_atr": 2.77,
-   "stop_atr": 1.79,
-   "basis_p_ziel": 0.2853,
-   "basis_erwartung_r": 0.0228,
-   "score_components": {
-    "trend": 0.351,
-    "setup": 1.0,
-    "volumen": 0.572,
-    "qualitaet": 0.743,
-    "bewertung": 0.809,
-    "analysten": 0.905
-   },
-   "target_methods": {
-    "atr": 87.98,
-    "struktur": 90.3
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
-   "symbol": "GEV",
-   "name": "GE Vernova",
-   "sector": "Industrie",
-   "score": 0.7653,
-   "target": 1084.81,
-   "stop": 942.85,
-   "atr_at_entry": 36.376940200554735,
-   "ziel_atr": 2.24,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3854,
-   "basis_erwartung_r": 0.0836,
-   "score_components": {
-    "trend": 0.697,
-    "setup": 1.0,
-    "volumen": 0.401,
-    "qualitaet": 0.928,
-    "bewertung": 0.106,
-    "analysten": 0.801,
-    "sentiment": 0.6
-   },
-   "target_methods": {
-    "atr": 1074.71,
-    "struktur": 1098.81
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
-   "symbol": "FIX",
-   "name": "Comfort Systems USA",
-   "sector": "Industrie",
-   "score": 0.7539,
-   "target": 1808.63,
-   "stop": 1508.94,
-   "atr_at_entry": 70.77516958705208,
-   "ziel_atr": 2.58,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3344,
-   "basis_erwartung_r": 0.0991,
-   "score_components": {
-    "trend": 0.468,
-    "setup": 0.78,
-    "volumen": 0.833,
-    "qualitaet": 0.844,
-    "bewertung": 0.544,
-    "analysten": 0.884
-   },
-   "target_methods": {
-    "atr": 1765.5,
-    "struktur": 1845.2
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-14",
-   "tries": 2
-  },
-  {
    "symbol": "ADI",
    "name": "Analog Devices",
    "sector": "Technologie",
@@ -1459,7 +1272,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "LLY",
@@ -1491,7 +1304,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "INTU",
@@ -1523,7 +1336,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "GOOGL",
@@ -1555,7 +1368,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SNPS",
@@ -1586,7 +1399,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BLK",
@@ -1618,7 +1431,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-15",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AMZN",
@@ -1649,7 +1462,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "ADSK",
@@ -1679,7 +1493,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "NXPI",
@@ -1709,7 +1524,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "PLTR",
@@ -1740,7 +1556,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "VST",
@@ -1771,7 +1588,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "GOOG",
@@ -1802,7 +1620,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-16"
+   "order_date": "2026-10-16",
+   "tries": 1
   },
   {
    "symbol": "FIS",
@@ -1832,7 +1651,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   },
   {
    "symbol": "BR",
@@ -1862,7 +1682,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   },
   {
    "symbol": "EXPE",
@@ -1892,7 +1713,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   },
   {
    "symbol": "EXE",
@@ -1923,7 +1745,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   },
   {
    "symbol": "J",
@@ -1953,7 +1776,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   },
   {
    "symbol": "TEL",
@@ -1983,7 +1807,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-19"
+   "order_date": "2026-10-19",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4335,6 +4160,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-10-20",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4996,6 +4829,36 @@
   {
    "date": "2026-10-16",
    "symbol": "GOOG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "CDNS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "CLS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "CSCO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "DECK",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "GEV",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-20",
+   "symbol": "FIX",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
