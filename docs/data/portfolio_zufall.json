@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "SOLV",
-   "name": "Solventum",
-   "sector": "Gesundheit",
-   "score": 0.6652,
-   "target": 92.25,
-   "stop": 84.36,
-   "atr_at_entry": 1.8096727008651834,
-   "ziel_atr": 2.77,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.2902,
-   "basis_erwartung_r": 0.1089,
-   "score_components": {
-    "trend": 0.615,
-    "setup": 0.927,
-    "volumen": 0.389,
-    "qualitaet": 0.629,
-    "bewertung": 0.741,
-    "analysten": 0.506
-   },
-   "target_methods": {
-    "atr": 90.79,
-    "struktur": 92.67
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-15",
-   "tries": 2
-  },
-  {
-   "symbol": "MRSH",
-   "name": "Marsh McLennan",
-   "sector": "Finanzen",
-   "score": 0.3883,
-   "target": 185.15,
-   "stop": 173.63,
-   "atr_at_entry": 2.882533263671761,
-   "ziel_atr": 2.33,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3624,
-   "basis_erwartung_r": 0.082,
-   "score_components": {
-    "trend": 0.577,
-    "setup": 1.0,
-    "volumen": 0.253,
-    "qualitaet": 0.557,
-    "bewertung": 0.362,
-    "analysten": 0.537
-   },
-   "target_methods": {
-    "atr": 183.84,
-    "struktur": 186.82
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-15",
-   "tries": 2
-  },
-  {
-   "symbol": "DUK",
-   "name": "Duke Energy",
-   "sector": "Versorger",
-   "score": 0.5583,
-   "target": 123.21,
-   "stop": 117.09,
-   "atr_at_entry": 1.5537884768109167,
-   "ziel_atr": 2.29,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.3311,
-   "basis_erwartung_r": 0.0193,
-   "score_components": {
-    "trend": 0.363,
-    "setup": 0.944,
-    "volumen": 0.118,
-    "qualitaet": 0.362,
-    "bewertung": 0.393,
-    "analysten": 0.607
-   },
-   "target_methods": {
-    "atr": 122.39,
-    "struktur": 123.79
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-15",
-   "tries": 2
-  },
-  {
-   "symbol": "OKE",
-   "name": "Oneok",
-   "sector": "Energie",
-   "score": 0.6427,
-   "target": 97.67,
-   "stop": 88.75,
-   "atr_at_entry": 2.213322965539487,
-   "ziel_atr": 2.58,
-   "stop_atr": 1.45,
-   "basis_p_ziel": 0.3618,
-   "basis_erwartung_r": 0.2352,
-   "score_components": {
-    "trend": 0.553,
-    "setup": 1.0,
-    "volumen": 0.333,
-    "qualitaet": 0.56,
-    "bewertung": 0.303,
-    "analysten": 0.564
-   },
-   "target_methods": {
-    "atr": 96.74,
-    "struktur": 99.11
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-15",
-   "tries": 2
-  },
-  {
-   "symbol": "GPC",
-   "name": "Genuine Parts Company",
-   "sector": "Konsum zyklisch",
-   "score": 0.2999,
-   "target": 137.7,
-   "stop": 126.79,
-   "atr_at_entry": 2.687652457225738,
-   "ziel_atr": 2.27,
-   "stop_atr": 1.79,
-   "basis_p_ziel": 0.3627,
-   "basis_erwartung_r": 0.0153,
-   "score_components": {
-    "trend": 0.599,
-    "setup": 1.0,
-    "volumen": 0.187,
-    "qualitaet": 0.176,
-    "bewertung": 0.554,
-    "analysten": 0.451
-   },
-   "target_methods": {
-    "atr": 136.48,
-    "struktur": 138.78
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-15",
-   "tries": 2
-  },
-  {
-   "symbol": "KEYS",
-   "name": "Keysight Technologies",
-   "sector": "Technologie",
-   "score": 0.7659,
-   "target": 383.74,
-   "stop": 340.21,
-   "atr_at_entry": 10.492309551152502,
-   "ziel_atr": 2.52,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.3568,
-   "basis_erwartung_r": 0.1289,
-   "score_components": {
-    "trend": 0.926,
-    "setup": 0.813,
-    "volumen": 0.789,
-    "qualitaet": 0.805,
-    "bewertung": 0.516,
-    "analysten": 0.632
-   },
-   "target_methods": {
-    "atr": 378.93,
-    "struktur": 389.05
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-15",
-   "tries": 2
-  },
-  {
    "symbol": "PSA",
    "name": "Public Storage",
    "sector": "Immobilien",
@@ -1775,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MPC",
@@ -1806,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TTWO",
@@ -1837,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AKAM",
@@ -1868,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MRK",
@@ -1899,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AES",
@@ -1930,7 +1744,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-16",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AOS",
@@ -1961,7 +1775,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SPGI",
@@ -1992,7 +1806,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PAYX",
@@ -2023,7 +1837,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "DECK",
@@ -2054,7 +1868,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NXPI",
@@ -2085,7 +1899,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TDG",
@@ -2116,7 +1930,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BR",
@@ -2146,7 +1960,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-20"
+   "order_date": "2026-10-20",
+   "tries": 1
   },
   {
    "symbol": "PNR",
@@ -2176,7 +1991,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-20"
+   "order_date": "2026-10-20",
+   "tries": 1
   },
   {
    "symbol": "NTAP",
@@ -2206,7 +2022,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-20"
+   "order_date": "2026-10-20",
+   "tries": 1
   },
   {
    "symbol": "FIX",
@@ -2236,7 +2053,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-20"
+   "order_date": "2026-10-20",
+   "tries": 1
   },
   {
    "symbol": "TPR",
@@ -2267,7 +2085,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-20"
+   "order_date": "2026-10-20",
+   "tries": 1
   },
   {
    "symbol": "EME",
@@ -2297,7 +2116,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-20"
+   "order_date": "2026-10-20",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4165,6 +3985,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-10-21",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -4856,6 +4684,36 @@
   {
    "date": "2026-10-20",
    "symbol": "KDP",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-21",
+   "symbol": "SOLV",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-21",
+   "symbol": "MRSH",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-21",
+   "symbol": "DUK",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-21",
+   "symbol": "OKE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-21",
+   "symbol": "GPC",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-21",
+   "symbol": "KEYS",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
