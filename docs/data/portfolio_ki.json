@@ -1805,6 +1805,191 @@
    },
    "order_date": "2026-10-20",
    "tries": 1
+  },
+  {
+   "symbol": "BLK",
+   "name": "BlackRock",
+   "sector": "Finanzen",
+   "score": 0.8509,
+   "target": 1176.11,
+   "stop": 1087.09,
+   "atr_at_entry": 24.72860154971607,
+   "ziel_atr": 1.93,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.43,
+   "basis_erwartung_r": 0.0662,
+   "score_components": {
+    "trend": 0.836,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.897,
+    "bewertung": 0.401,
+    "analysten": 0.784,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 1174.51,
+    "struktur": 1180.7
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-21"
+  },
+  {
+   "symbol": "ADI",
+   "name": "Analog Devices",
+   "sector": "Technologie",
+   "score": 0.7787,
+   "target": 422.16,
+   "stop": 377.84,
+   "atr_at_entry": 11.996019078122895,
+   "ziel_atr": 2.08,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4239,
+   "basis_erwartung_r": 0.1104,
+   "score_components": {
+    "trend": 0.804,
+    "setup": 0.971,
+    "volumen": 0.058,
+    "qualitaet": 0.8,
+    "bewertung": 0.546,
+    "analysten": 0.826,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 422.12,
+    "struktur": 422.49
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-21"
+  },
+  {
+   "symbol": "SNPS",
+   "name": "Synopsys",
+   "sector": "Technologie",
+   "score": 0.76,
+   "target": 494.42,
+   "stop": 420.54,
+   "atr_at_entry": 16.794966845854223,
+   "ziel_atr": 2.79,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3243,
+   "basis_erwartung_r": 0.1547,
+   "score_components": {
+    "trend": 0.915,
+    "setup": 0.749,
+    "volumen": 0.391,
+    "qualitaet": 0.559,
+    "bewertung": 0.201,
+    "analysten": 1.0,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 482.53,
+    "struktur": 503.62
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-21"
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit",
+   "sector": "Technologie",
+   "score": 0.7518,
+   "target": 370.79,
+   "stop": 315.29,
+   "atr_at_entry": 12.393750739152564,
+   "ziel_atr": 2.87,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3143,
+   "basis_erwartung_r": 0.1595,
+   "score_components": {
+    "trend": 0.507,
+    "setup": 0.892,
+    "volumen": 0.267,
+    "qualitaet": 0.762,
+    "bewertung": 0.812,
+    "analysten": 0.789,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 361.04,
+    "struktur": 371.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-21"
+  },
+  {
+   "symbol": "CPRT",
+   "name": "Copart",
+   "sector": "Industrie",
+   "score": 0.7378,
+   "target": 30.43,
+   "stop": 26.43,
+   "atr_at_entry": 0.8611864327310429,
+   "ziel_atr": 2.99,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.2765,
+   "basis_erwartung_r": 0.1186,
+   "score_components": {
+    "trend": 0.241,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.672,
+    "bewertung": 0.455,
+    "analysten": 0.823
+   },
+   "target_methods": {
+    "atr": 29.55,
+    "struktur": 30.52
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-21"
+  },
+  {
+   "symbol": "FITB",
+   "name": "Fifth Third Bancorp",
+   "sector": "Finanzen",
+   "score": 0.7318,
+   "target": 55.33,
+   "stop": 50.55,
+   "atr_at_entry": 1.1157080272744995,
+   "ziel_atr": 2.62,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3135,
+   "basis_erwartung_r": 0.0847,
+   "score_components": {
+    "trend": 0.357,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.704,
+    "bewertung": 0.574,
+    "analysten": 0.693,
+    "sentiment": 0.7
+   },
+   "target_methods": {
+    "atr": 54.49,
+    "struktur": 55.65
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-21"
   }
  ],
  "closed": [
