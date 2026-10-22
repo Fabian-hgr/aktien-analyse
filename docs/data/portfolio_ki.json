@@ -1619,6 +1619,191 @@
    },
    "order_date": "2026-10-21",
    "tries": 1
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk",
+   "sector": "Technologie",
+   "score": 0.8368,
+   "target": 267.42,
+   "stop": 232.53,
+   "atr_at_entry": 7.560681498089984,
+   "ziel_atr": 3.0,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2972,
+   "basis_erwartung_r": 0.1675,
+   "score_components": {
+    "trend": 0.926,
+    "setup": 0.974,
+    "volumen": 0.0,
+    "qualitaet": 0.791,
+    "bewertung": 0.714,
+    "analysten": 0.903,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 260.44,
+    "struktur": 269.93
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
+  },
+  {
+   "symbol": "TXN",
+   "name": "Texas Instruments",
+   "sector": "Technologie",
+   "score": 0.8206,
+   "target": 300.18,
+   "stop": 270.6,
+   "atr_at_entry": 8.7439839786428,
+   "ziel_atr": 1.77,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4757,
+   "basis_erwartung_r": 0.0884,
+   "score_components": {
+    "trend": 0.726,
+    "setup": 0.933,
+    "volumen": 0.873,
+    "qualitaet": 0.919,
+    "bewertung": 0.408,
+    "analysten": 0.71,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 302.88,
+    "struktur": 298.69
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
+  },
+  {
+   "symbol": "FIS",
+   "name": "Fidelity National Information Services",
+   "sector": "Finanzen",
+   "score": 0.7793,
+   "target": 39.03,
+   "stop": 34.86,
+   "atr_at_entry": 0.9295935633310138,
+   "ziel_atr": 2.81,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.2828,
+   "basis_erwartung_r": 0.0885,
+   "score_components": {
+    "trend": 0.296,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.817,
+    "bewertung": 1.0,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 38.15,
+    "struktur": 39.11
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
+  },
+  {
+   "symbol": "COF",
+   "name": "Capital One",
+   "sector": "Finanzen",
+   "score": 0.7701,
+   "target": 219.67,
+   "stop": 198.44,
+   "atr_at_entry": 4.79945175001002,
+   "ziel_atr": 2.75,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.292,
+   "basis_erwartung_r": 0.0874,
+   "score_components": {
+    "trend": 0.584,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.505,
+    "bewertung": 0.882,
+    "analysten": 0.765,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 215.41,
+    "struktur": 220.37
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
+  },
+  {
+   "symbol": "SPCX",
+   "name": "Space Exploration Technologies Corp. Class A Common Stock",
+   "sector": "Industrie",
+   "score": 0.7654,
+   "target": 175.28,
+   "stop": 146.87,
+   "atr_at_entry": 7.545471725066505,
+   "ziel_atr": 2.12,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.4054,
+   "basis_erwartung_r": 0.0808,
+   "score_components": {
+    "trend": 0.641,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.567,
+    "bewertung": 0.0,
+    "analysten": 0.925,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 174.17,
+    "struktur": 176.39
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
+  },
+  {
+   "symbol": "MCO",
+   "name": "Moody's Corporation",
+   "sector": "Finanzen",
+   "score": 0.7511,
+   "target": 507.47,
+   "stop": 461.22,
+   "atr_at_entry": 11.72814229498755,
+   "ziel_atr": 2.28,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3697,
+   "basis_erwartung_r": 0.076,
+   "score_components": {
+    "trend": 0.575,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.725,
+    "bewertung": 0.168,
+    "analysten": 0.656,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 502.68,
+    "struktur": 514.81
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
   }
  ],
  "closed": [

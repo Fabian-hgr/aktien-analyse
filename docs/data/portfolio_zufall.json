@@ -1932,6 +1932,187 @@
    },
    "order_date": "2026-10-21",
    "tries": 1
+  },
+  {
+   "symbol": "DASH",
+   "name": "DoorDash",
+   "sector": "Konsum zyklisch",
+   "score": 0.6172,
+   "target": 202.5,
+   "stop": 170.79,
+   "atr_at_entry": 7.656605031487084,
+   "ziel_atr": 2.36,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.3462,
+   "basis_erwartung_r": 0.0179,
+   "score_components": {
+    "trend": 0.446,
+    "setup": 0.625,
+    "volumen": 0.148,
+    "qualitaet": 0.526,
+    "bewertung": 0.443,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 198.25,
+    "struktur": 206.42
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
+  },
+  {
+   "symbol": "FDS",
+   "name": "FactSet",
+   "sector": "Finanzen",
+   "score": 0.4782,
+   "target": 341.03,
+   "stop": 303.79,
+   "atr_at_entry": 9.696600435568675,
+   "ziel_atr": 2.17,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3872,
+   "basis_erwartung_r": 0.0731,
+   "score_components": {
+    "trend": 0.905,
+    "setup": 0.415,
+    "volumen": 0.0,
+    "qualitaet": 0.696,
+    "bewertung": 0.512,
+    "analysten": 0.209
+   },
+   "target_methods": {
+    "atr": 338.06,
+    "struktur": 348.09
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
+  },
+  {
+   "symbol": "HPE",
+   "name": "Hewlett Packard Enterprise",
+   "sector": "Technologie",
+   "score": 0.6507,
+   "target": 69.76,
+   "stop": 52.22,
+   "atr_at_entry": 3.6895663606592146,
+   "ziel_atr": 3.14,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2812,
+   "basis_erwartung_r": 0.1738,
+   "score_components": {
+    "trend": 0.728,
+    "setup": 0.642,
+    "volumen": 0.029,
+    "qualitaet": 0.528,
+    "bewertung": 0.919,
+    "analysten": 0.793
+   },
+   "target_methods": {
+    "atr": 65.84,
+    "struktur": 70.47
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
+  },
+  {
+   "symbol": "GPC",
+   "name": "Genuine Parts Company",
+   "sector": "Konsum zyklisch",
+   "score": 0.5112,
+   "target": 132.57,
+   "stop": 119.16,
+   "atr_at_entry": 3.153216253840685,
+   "ziel_atr": 2.48,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.3267,
+   "basis_erwartung_r": 0.0193,
+   "score_components": {
+    "trend": 0.579,
+    "setup": 0.606,
+    "volumen": 1.0,
+    "qualitaet": 0.161,
+    "bewertung": 0.602,
+    "analysten": 0.532
+   },
+   "target_methods": {
+    "atr": 130.47,
+    "struktur": 133.83
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
+  },
+  {
+   "symbol": "AVY",
+   "name": "Avery Dennison",
+   "sector": "Grundstoffe",
+   "score": 0.3928,
+   "target": 184.52,
+   "stop": 173.85,
+   "atr_at_entry": 3.006513857510864,
+   "ziel_atr": 1.83,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.4469,
+   "basis_erwartung_r": 0.0316,
+   "score_components": {
+    "trend": 0.896,
+    "setup": 0.868,
+    "volumen": 0.0,
+    "qualitaet": 0.547,
+    "bewertung": 0.356,
+    "analysten": 0.531
+   },
+   "target_methods": {
+    "atr": 184.75,
+    "struktur": 184.38
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
+  },
+  {
+   "symbol": "TXN",
+   "name": "Texas Instruments",
+   "sector": "Technologie",
+   "score": 0.8206,
+   "target": 300.18,
+   "stop": 270.6,
+   "atr_at_entry": 8.7439839786428,
+   "ziel_atr": 1.77,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4757,
+   "basis_erwartung_r": 0.0884,
+   "score_components": {
+    "trend": 0.726,
+    "setup": 0.933,
+    "volumen": 0.873,
+    "qualitaet": 0.919,
+    "bewertung": 0.408,
+    "analysten": 0.71,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 302.88,
+    "struktur": 298.69
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-22"
   }
  ],
  "closed": [
