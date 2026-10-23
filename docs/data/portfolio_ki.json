@@ -1623,6 +1623,191 @@
    },
    "order_date": "2026-10-22",
    "tries": 1
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies",
+   "sector": "Technologie",
+   "score": 0.7832,
+   "target": 211.72,
+   "stop": 183.11,
+   "atr_at_entry": 8.107163452308741,
+   "ziel_atr": 1.92,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4505,
+   "basis_erwartung_r": 0.0991,
+   "score_components": {
+    "trend": 0.931,
+    "setup": 1.0,
+    "volumen": 0.404,
+    "qualitaet": 0.998,
+    "bewertung": 0.178,
+    "analysten": 0.536,
+    "sentiment": 0.7
+   },
+   "target_methods": {
+    "atr": 213.03,
+    "struktur": 212.91
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
+  },
+  {
+   "symbol": "TDG",
+   "name": "TransDigm Group",
+   "sector": "Industrie",
+   "score": 0.7758,
+   "target": 1205.14,
+   "stop": 1101.91,
+   "atr_at_entry": 24.247018993966474,
+   "ziel_atr": 2.61,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.3298,
+   "basis_erwartung_r": 0.1045,
+   "score_components": {
+    "trend": 0.287,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.881,
+    "bewertung": 0.245,
+    "analysten": 0.794
+   },
+   "target_methods": {
+    "atr": 1189.64,
+    "struktur": 1216.87
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
+  },
+  {
+   "symbol": "MPC",
+   "name": "Marathon Petroleum",
+   "sector": "Energie",
+   "score": 0.7689,
+   "target": 496.59,
+   "stop": 436.6,
+   "atr_at_entry": 15.94795525405138,
+   "ziel_atr": 2.33,
+   "stop_atr": 1.43,
+   "basis_p_ziel": 0.4052,
+   "basis_erwartung_r": 0.2391,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.819,
+    "qualitaet": 0.66,
+    "bewertung": 0.773,
+    "analysten": 0.398,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 494.17,
+    "struktur": 492.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
+  },
+  {
+   "symbol": "URI",
+   "name": "United Rentals",
+   "sector": "Industrie",
+   "score": 0.7683,
+   "target": 1181.68,
+   "stop": 1052.62,
+   "atr_at_entry": 35.115136544749575,
+   "ziel_atr": 2.03,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.4196,
+   "basis_erwartung_r": 0.0762,
+   "score_components": {
+    "trend": 0.713,
+    "setup": 0.943,
+    "volumen": 1.0,
+    "qualitaet": 0.634,
+    "bewertung": 0.609,
+    "analysten": 0.639,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 1179.66,
+    "struktur": 1176.08
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
+  },
+  {
+   "symbol": "DECK",
+   "name": "Deckers Brands",
+   "sector": "Konsum zyklisch",
+   "score": 0.7568,
+   "target": 92.05,
+   "stop": 80.84,
+   "atr_at_entry": 2.466122427768415,
+   "ziel_atr": 2.76,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.2855,
+   "basis_erwartung_r": 0.0249,
+   "score_components": {
+    "trend": 0.34,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.743,
+    "bewertung": 0.821,
+    "analysten": 0.898,
+    "sentiment": 0.35
+   },
+   "target_methods": {
+    "atr": 89.69,
+    "struktur": 92.32
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
+  },
+  {
+   "symbol": "BX",
+   "name": "Blackstone Inc.",
+   "sector": "Finanzen",
+   "score": 0.7535,
+   "target": 128.41,
+   "stop": 111.83,
+   "atr_at_entry": 4.13975500888544,
+   "ziel_atr": 2.34,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3592,
+   "basis_erwartung_r": 0.0778,
+   "score_components": {
+    "trend": 0.197,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.918,
+    "bewertung": 0.501,
+    "analysten": 0.706,
+    "sentiment": 0.7
+   },
+   "target_methods": {
+    "atr": 126.46,
+    "struktur": 130.74
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
   }
  ],
  "closed": [

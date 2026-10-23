@@ -1932,6 +1932,186 @@
    },
    "order_date": "2026-10-22",
    "tries": 1
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "sector": "Konsum zyklisch",
+   "score": 0.5614,
+   "target": 266.38,
+   "stop": 238.25,
+   "atr_at_entry": 6.826521136195153,
+   "ziel_atr": 2.34,
+   "stop_atr": 1.78,
+   "basis_p_ziel": 0.3496,
+   "basis_erwartung_r": 0.0177,
+   "score_components": {
+    "trend": 0.812,
+    "setup": 0.735,
+    "volumen": 0.787,
+    "qualitaet": 0.828,
+    "bewertung": 0.236,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 262.73,
+    "struktur": 270.02
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
+  },
+  {
+   "symbol": "PFG",
+   "name": "Principal Financial Group",
+   "sector": "Finanzen",
+   "score": 0.3009,
+   "target": 115.1,
+   "stop": 106.78,
+   "atr_at_entry": 2.003682809115209,
+   "ziel_atr": 2.49,
+   "stop_atr": 1.67,
+   "basis_p_ziel": 0.3336,
+   "basis_erwartung_r": 0.0821,
+   "score_components": {
+    "trend": 0.389,
+    "setup": 1.0,
+    "volumen": 0.238,
+    "qualitaet": 0.465,
+    "bewertung": 0.688,
+    "analysten": 0.274
+   },
+   "target_methods": {
+    "atr": 113.86,
+    "struktur": 115.93
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
+  },
+  {
+   "symbol": "BMY",
+   "name": "Bristol Myers Squibb",
+   "sector": "Gesundheit",
+   "score": 0.3718,
+   "target": 67.65,
+   "stop": 60.17,
+   "atr_at_entry": 1.7822073842729096,
+   "ziel_atr": 2.61,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3129,
+   "basis_erwartung_r": 0.1065,
+   "score_components": {
+    "trend": 0.376,
+    "setup": 1.0,
+    "volumen": 0.029,
+    "qualitaet": 0.604,
+    "bewertung": 0.584,
+    "analysten": 0.507
+   },
+   "target_methods": {
+    "atr": 66.51,
+    "struktur": 67.94
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
+  },
+  {
+   "symbol": "HSIC",
+   "name": "Henry Schein",
+   "sector": "Gesundheit",
+   "score": 0.5992,
+   "target": 90.7,
+   "stop": 83.23,
+   "atr_at_entry": 1.7301424891977428,
+   "ziel_atr": 2.73,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2948,
+   "basis_erwartung_r": 0.1079,
+   "score_components": {
+    "trend": 0.35,
+    "setup": 1.0,
+    "volumen": 0.472,
+    "qualitaet": 0.307,
+    "bewertung": 0.582,
+    "analysten": 0.584
+   },
+   "target_methods": {
+    "atr": 89.38,
+    "struktur": 91.16
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
+  },
+  {
+   "symbol": "TRMB",
+   "name": "Trimble Inc.",
+   "sector": "Technologie",
+   "score": 0.6147,
+   "target": 68.88,
+   "stop": 61.45,
+   "atr_at_entry": 1.5790096281578532,
+   "ziel_atr": 3.09,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2871,
+   "basis_erwartung_r": 0.1715,
+   "score_components": {
+    "trend": 0.919,
+    "setup": 0.52,
+    "volumen": 0.491,
+    "qualitaet": 0.31,
+    "bewertung": 0.66,
+    "analysten": 0.804
+   },
+   "target_methods": {
+    "atr": 67.28,
+    "struktur": 69.27
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
+  },
+  {
+   "symbol": "NEE",
+   "name": "NextEra Energy",
+   "sector": "Versorger",
+   "score": 0.6587,
+   "target": 85.38,
+   "stop": 79.35,
+   "atr_at_entry": 1.5421798310569197,
+   "ziel_atr": 2.26,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.3363,
+   "basis_erwartung_r": 0.0156,
+   "score_components": {
+    "trend": 0.34,
+    "setup": 0.914,
+    "volumen": 0.659,
+    "qualitaet": 0.582,
+    "bewertung": 0.473,
+    "analysten": 0.671
+   },
+   "target_methods": {
+    "atr": 84.61,
+    "struktur": 86.0
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-23"
   }
  ],
  "closed": [
