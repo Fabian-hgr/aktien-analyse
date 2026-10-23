@@ -1243,193 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "BSX",
-   "name": "Boston Scientific",
-   "sector": "Gesundheit",
-   "score": 0.7272,
-   "target": 48.6,
-   "stop": 43.1,
-   "atr_at_entry": 1.2259818574945742,
-   "ziel_atr": 2.89,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.271,
-   "basis_erwartung_r": 0.1098,
-   "score_components": {
-    "trend": 0.206,
-    "setup": 1.0,
-    "volumen": 0.498,
-    "qualitaet": 0.577,
-    "bewertung": 0.833,
-    "analysten": 0.925
-   },
-   "target_methods": {
-    "atr": 47.46,
-    "struktur": 48.72
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-20",
-   "tries": 2
-  },
-  {
-   "symbol": "FICO",
-   "name": "Fair Isaac",
-   "sector": "Technologie",
-   "score": 0.7223,
-   "target": 929.99,
-   "stop": 705.53,
-   "atr_at_entry": 46.68398757136888,
-   "ziel_atr": 3.2,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.275,
-   "basis_erwartung_r": 0.1763,
-   "score_components": {
-    "trend": 0.149,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 1.0,
-    "bewertung": 0.85,
-    "analysten": 0.884,
-    "sentiment": 0.4
-   },
-   "target_methods": {
-    "atr": 877.84,
-    "struktur": 936.47
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-20",
-   "tries": 2
-  },
-  {
-   "symbol": "RL",
-   "name": "Ralph Lauren Corporation",
-   "sector": "Konsum zyklisch",
-   "score": 0.7217,
-   "target": 401.82,
-   "stop": 366.36,
-   "atr_at_entry": 8.578845712072402,
-   "ziel_atr": 2.35,
-   "stop_atr": 1.78,
-   "basis_p_ziel": 0.3477,
-   "basis_erwartung_r": 0.0178,
-   "score_components": {
-    "trend": 0.837,
-    "setup": 0.977,
-    "volumen": 0.086,
-    "qualitaet": 0.661,
-    "bewertung": 0.343,
-    "analysten": 0.667
-   },
-   "target_methods": {
-    "atr": 397.13,
-    "struktur": 406.28
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-20",
-   "tries": 2
-  },
-  {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "sector": "Technologie",
-   "score": 0.721,
-   "target": 235.94,
-   "stop": 207.58,
-   "atr_at_entry": 5.899371135280085,
-   "ziel_atr": 3.2,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.275,
-   "basis_erwartung_r": 0.1763,
-   "score_components": {
-    "trend": 0.609,
-    "setup": 0.607,
-    "volumen": 0.099,
-    "qualitaet": 0.986,
-    "bewertung": 0.891,
-    "analysten": 1.0
-   },
-   "target_methods": {
-    "atr": 229.35,
-    "struktur": 236.76
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-20",
-   "tries": 2
-  },
-  {
-   "symbol": "TDG",
-   "name": "TransDigm Group",
-   "sector": "Industrie",
-   "score": 0.7207,
-   "target": 1201.68,
-   "stop": 1104.57,
-   "atr_at_entry": 22.69317256057274,
-   "ziel_atr": 2.63,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.3267,
-   "basis_erwartung_r": 0.1054,
-   "score_components": {
-    "trend": 0.312,
-    "setup": 1.0,
-    "volumen": 0.015,
-    "qualitaet": 0.881,
-    "bewertung": 0.264,
-    "analysten": 0.825
-   },
-   "target_methods": {
-    "atr": 1186.67,
-    "struktur": 1212.16
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-20",
-   "tries": 2
-  },
-  {
-   "symbol": "MELI",
-   "name": "MercadoLibre, Inc. Common Stock",
-   "sector": "Konsum zyklisch",
-   "score": 0.7197,
-   "target": 1960.58,
-   "stop": 1744.47,
-   "atr_at_entry": 53.01174966385401,
-   "ziel_atr": 2.3,
-   "stop_atr": 1.78,
-   "basis_p_ziel": 0.3573,
-   "basis_erwartung_r": 0.0171,
-   "score_components": {
-    "trend": 0.562,
-    "setup": 1.0,
-    "volumen": 0.275,
-    "qualitaet": 0.604,
-    "bewertung": 0.294,
-    "analysten": 0.824
-   },
-   "target_methods": {
-    "atr": 1934.63,
-    "struktur": 1991.19
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-20",
-   "tries": 2
-  },
-  {
    "symbol": "BLK",
    "name": "BlackRock",
    "sector": "Finanzen",
@@ -1459,7 +1272,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ADI",
@@ -1491,7 +1304,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SNPS",
@@ -1523,7 +1336,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "INTU",
@@ -1555,7 +1368,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CPRT",
@@ -1586,7 +1399,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "FITB",
@@ -1618,7 +1431,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-21",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ADSK",
@@ -1649,7 +1462,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-22"
+   "order_date": "2026-10-22",
+   "tries": 1
   },
   {
    "symbol": "TXN",
@@ -1680,7 +1494,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-22"
+   "order_date": "2026-10-22",
+   "tries": 1
   },
   {
    "symbol": "FIS",
@@ -1710,7 +1525,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-22"
+   "order_date": "2026-10-22",
+   "tries": 1
   },
   {
    "symbol": "COF",
@@ -1741,7 +1557,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-22"
+   "order_date": "2026-10-22",
+   "tries": 1
   },
   {
    "symbol": "SPCX",
@@ -1772,7 +1589,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-22"
+   "order_date": "2026-10-22",
+   "tries": 1
   },
   {
    "symbol": "MCO",
@@ -1803,7 +1621,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-22"
+   "order_date": "2026-10-22",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4179,6 +3998,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-10-23",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -4960,6 +4787,36 @@
   {
    "date": "2026-10-22",
    "symbol": "TEL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-23",
+   "symbol": "BSX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-23",
+   "symbol": "FICO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-23",
+   "symbol": "RL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-23",
+   "symbol": "NVDA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-23",
+   "symbol": "TDG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-23",
+   "symbol": "MELI",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
