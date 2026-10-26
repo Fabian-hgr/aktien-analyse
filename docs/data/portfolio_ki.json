@@ -1808,6 +1808,188 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-23"
+  },
+  {
+   "symbol": "UNP",
+   "name": "Union Pacific Corporation",
+   "sector": "Industrie",
+   "score": 0.7766,
+   "target": 306.72,
+   "stop": 284.28,
+   "atr_at_entry": 5.2699259438356,
+   "ziel_atr": 2.62,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.3287,
+   "basis_erwartung_r": 0.1133,
+   "score_components": {
+    "trend": 0.796,
+    "setup": 1.0,
+    "volumen": 0.743,
+    "qualitaet": 0.767,
+    "bewertung": 0.327,
+    "analysten": 0.633
+   },
+   "target_methods": {
+    "atr": 303.35,
+    "struktur": 309.25
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-26"
+  },
+  {
+   "symbol": "ABNB",
+   "name": "Airbnb",
+   "sector": "Konsum zyklisch",
+   "score": 0.7553,
+   "target": 181.72,
+   "stop": 164.28,
+   "atr_at_entry": 4.41088571165828,
+   "ziel_atr": 2.2,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.3757,
+   "basis_erwartung_r": 0.0248,
+   "score_components": {
+    "trend": 0.91,
+    "setup": 1.0,
+    "volumen": 0.188,
+    "qualitaet": 0.849,
+    "bewertung": 0.208,
+    "analysten": 0.558
+   },
+   "target_methods": {
+    "atr": 180.1,
+    "struktur": 184.79
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-26"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "sector": "Kommunikation",
+   "score": 0.7511,
+   "target": 704.58,
+   "stop": 596.36,
+   "atr_at_entry": 25.935844833900145,
+   "ziel_atr": 2.4,
+   "stop_atr": 1.77,
+   "basis_p_ziel": 0.324,
+   "basis_erwartung_r": 0.0036,
+   "score_components": {
+    "trend": 0.69,
+    "setup": 0.515,
+    "volumen": 0.425,
+    "qualitaet": 0.964,
+    "bewertung": 0.498,
+    "analysten": 0.958,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 688.48,
+    "struktur": 715.35
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-26"
+  },
+  {
+   "symbol": "SYF",
+   "name": "Synchrony Financial",
+   "sector": "Finanzen",
+   "score": 0.7367,
+   "target": 78.66,
+   "stop": 70.59,
+   "atr_at_entry": 1.833580859379524,
+   "ziel_atr": 2.75,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.2932,
+   "basis_erwartung_r": 0.0939,
+   "score_components": {
+    "trend": 0.524,
+    "setup": 0.999,
+    "volumen": 0.229,
+    "qualitaet": 0.631,
+    "bewertung": 0.879,
+    "analysten": 0.744
+   },
+   "target_methods": {
+    "atr": 77.06,
+    "struktur": 78.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-26"
+  },
+  {
+   "symbol": "YUM",
+   "name": "Yum! Brands",
+   "sector": "Konsum zyklisch",
+   "score": 0.7289,
+   "target": 156.17,
+   "stop": 144.1,
+   "atr_at_entry": 3.1965976128170897,
+   "ziel_atr": 2.02,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.4059,
+   "basis_erwartung_r": 0.0219,
+   "score_components": {
+    "trend": 0.606,
+    "setup": 1.0,
+    "volumen": 0.419,
+    "qualitaet": 0.806,
+    "bewertung": 0.248,
+    "analysten": 0.651,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 155.56,
+    "struktur": 157.25
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-26"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "sector": "Technologie",
+   "score": 0.7211,
+   "target": 230.48,
+   "stop": 201.41,
+   "atr_at_entry": 6.025954132661768,
+   "ziel_atr": 3.23,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2743,
+   "basis_erwartung_r": 0.1915,
+   "score_components": {
+    "trend": 0.639,
+    "setup": 0.551,
+    "volumen": 0.221,
+    "qualitaet": 0.986,
+    "bewertung": 0.874,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 223.73,
+    "struktur": 231.27
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-26"
   }
  ],
  "closed": [

@@ -1,10 +1,10 @@
 {
- "letzter_lauf": "2026-10-23T17:32:17+00:00",
+ "letzter_lauf": "2026-10-26T19:00:00+00:00",
  "lauf": "vorboerse",
  "ergebnis": "fertig",
- "handelbare_ideen": 458,
+ "handelbare_ideen": 464,
  "sprachmodell": true,
- "sekunden": 745.0,
+ "sekunden": 726.4,
  "steuerung": {
   "paused": false,
   "changed_at": null,
