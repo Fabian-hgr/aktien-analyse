@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "TGT",
-   "name": "Target Corporation",
-   "sector": "Konsum defensiv",
-   "score": 0.6035,
-   "target": 162.92,
-   "stop": 147.46,
-   "atr_at_entry": 3.7524790015318916,
-   "ziel_atr": 2.37,
-   "stop_atr": 1.75,
-   "basis_p_ziel": 0.342,
-   "basis_erwartung_r": 0.0229,
-   "score_components": {
-    "trend": 0.651,
-    "setup": 0.909,
-    "volumen": 0.013,
-    "qualitaet": 0.463,
-    "bewertung": 0.383,
-    "analysten": 0.549
-   },
-   "target_methods": {
-    "atr": 160.89,
-    "struktur": 164.81
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-21",
-   "tries": 2
-  },
-  {
-   "symbol": "VEEV",
-   "name": "Veeva Systems",
-   "sector": "Gesundheit",
-   "score": 0.5816,
-   "target": 339.23,
-   "stop": 303.7,
-   "atr_at_entry": 9.34765449070488,
-   "ziel_atr": 2.21,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3792,
-   "basis_erwartung_r": 0.0989,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 0.409,
-    "volumen": 0.747,
-    "qualitaet": 0.781,
-    "bewertung": 0.26,
-    "analysten": 0.375
-   },
-   "target_methods": {
-    "atr": 336.92,
-    "struktur": 346.56
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-21",
-   "tries": 2
-  },
-  {
-   "symbol": "MA",
-   "name": "Mastercard",
-   "sector": "Finanzen",
-   "score": 0.5715,
-   "target": 641.67,
-   "stop": 604.72,
-   "atr_at_entry": 9.473154803568267,
-   "ziel_atr": 2.23,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.377,
-   "basis_erwartung_r": 0.0748,
-   "score_components": {
-    "trend": 0.953,
-    "setup": 0.303,
-    "volumen": 0.263,
-    "qualitaet": 0.709,
-    "bewertung": 0.178,
-    "analysten": 0.665
-   },
-   "target_methods": {
-    "atr": 638.21,
-    "struktur": 648.0
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-21",
-   "tries": 2
-  },
-  {
-   "symbol": "CRL",
-   "name": "Charles River Laboratories",
-   "sector": "Gesundheit",
-   "score": 0.5632,
-   "target": 333.06,
-   "stop": 298.18,
-   "atr_at_entry": 10.85540227294807,
-   "ziel_atr": 1.62,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.4873,
-   "basis_erwartung_r": 0.0739,
-   "score_components": {
-    "trend": 0.983,
-    "setup": 0.917,
-    "volumen": 0.241,
-    "qualitaet": 0.135,
-    "bewertung": 0.432,
-    "analysten": 0.386
-   },
-   "target_methods": {
-    "atr": 336.76,
-    "struktur": 332.83
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-21",
-   "tries": 2
-  },
-  {
-   "symbol": "VLO",
-   "name": "Valero Energy",
-   "sector": "Energie",
-   "score": 0.4431,
-   "target": 467.07,
-   "stop": 411.33,
-   "atr_at_entry": 15.75370133026719,
-   "ziel_atr": 2.11,
-   "stop_atr": 1.43,
-   "basis_p_ziel": 0.4435,
-   "basis_erwartung_r": 0.2301,
-   "score_components": {
-    "trend": 0.952,
-    "setup": 0.954,
-    "volumen": 0.29,
-    "qualitaet": 0.71,
-    "bewertung": 0.575,
-    "analysten": 0.36
-   },
-   "target_methods": {
-    "atr": 468.2,
-    "struktur": 461.04
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-21",
-   "tries": 2
-  },
-  {
-   "symbol": "CRWD",
-   "name": "CrowdStrike",
-   "sector": "Technologie",
-   "score": 0.5059,
-   "target": 256.11,
-   "stop": 209.07,
-   "atr_at_entry": 11.351832897294651,
-   "ziel_atr": 2.53,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.3565,
-   "basis_erwartung_r": 0.1394,
-   "score_components": {
-    "trend": 0.718,
-    "setup": 0.569,
-    "volumen": 0.0,
-    "qualitaet": 0.447,
-    "bewertung": 0.0,
-    "analysten": 0.583
-   },
-   "target_methods": {
-    "atr": 250.97,
-    "struktur": 265.23
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-21",
-   "tries": 2
-  },
-  {
    "symbol": "DASH",
    "name": "DoorDash",
    "sector": "Konsum zyklisch",
@@ -1775,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "FDS",
@@ -1806,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "HPE",
@@ -1837,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "GPC",
@@ -1868,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AVY",
@@ -1899,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TXN",
@@ -1931,7 +1745,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-22",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AMZN",
@@ -1961,7 +1775,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-23"
+   "order_date": "2026-10-23",
+   "tries": 1
   },
   {
    "symbol": "PFG",
@@ -1991,7 +1806,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-23"
+   "order_date": "2026-10-23",
+   "tries": 1
   },
   {
    "symbol": "BMY",
@@ -2021,7 +1837,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-23"
+   "order_date": "2026-10-23",
+   "tries": 1
   },
   {
    "symbol": "HSIC",
@@ -2051,7 +1868,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-23"
+   "order_date": "2026-10-23",
+   "tries": 1
   },
   {
    "symbol": "TRMB",
@@ -2081,7 +1899,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-23"
+   "order_date": "2026-10-23",
+   "tries": 1
   },
   {
    "symbol": "NEE",
@@ -2111,7 +1930,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-23"
+   "order_date": "2026-10-23",
+   "tries": 1
   },
   {
    "symbol": "BEN",
@@ -2141,7 +1961,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-26"
+   "order_date": "2026-10-26",
+   "tries": 1
   },
   {
    "symbol": "UPS",
@@ -2171,7 +1992,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-26"
+   "order_date": "2026-10-26",
+   "tries": 1
   },
   {
    "symbol": "BRO",
@@ -2201,7 +2023,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-26"
+   "order_date": "2026-10-26",
+   "tries": 1
   },
   {
    "symbol": "LITE",
@@ -2231,7 +2054,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-26"
+   "order_date": "2026-10-26",
+   "tries": 1
   },
   {
    "symbol": "OMC",
@@ -2262,7 +2086,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-26"
+   "order_date": "2026-10-26",
+   "tries": 1
   },
   {
    "symbol": "GOOG",
@@ -2292,7 +2117,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-26"
+   "order_date": "2026-10-26",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4184,6 +4010,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-10-27",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -4995,6 +4829,36 @@
   {
    "date": "2026-10-23",
    "symbol": "EME",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-27",
+   "symbol": "TGT",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-27",
+   "symbol": "VEEV",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-27",
+   "symbol": "MA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-27",
+   "symbol": "CRL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-27",
+   "symbol": "VLO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-27",
+   "symbol": "CRWD",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
