@@ -1811,6 +1811,192 @@
    },
    "order_date": "2026-10-27",
    "tries": 1
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk",
+   "sector": "Technologie",
+   "score": 0.8359,
+   "target": 265.09,
+   "stop": 230.05,
+   "atr_at_entry": 7.5542199679920286,
+   "ziel_atr": 3.04,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2953,
+   "basis_erwartung_r": 0.1828,
+   "score_components": {
+    "trend": 0.777,
+    "setup": 1.0,
+    "volumen": 0.006,
+    "qualitaet": 0.791,
+    "bewertung": 0.708,
+    "analysten": 0.878,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 258.03,
+    "struktur": 267.48
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-28"
+  },
+  {
+   "symbol": "V",
+   "name": "Visa Inc.",
+   "sector": "Finanzen",
+   "score": 0.8102,
+   "target": 413.44,
+   "stop": 391.4,
+   "atr_at_entry": 6.409228798519368,
+   "ziel_atr": 1.79,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.4591,
+   "basis_erwartung_r": 0.0677,
+   "score_components": {
+    "trend": 0.91,
+    "setup": 0.994,
+    "volumen": 0.767,
+    "qualitaet": 0.857,
+    "bewertung": 0.134,
+    "analysten": 0.635,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 414.03,
+    "struktur": 414.57
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-28"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "sector": "Technologie",
+   "score": 0.8095,
+   "target": 377.37,
+   "stop": 324.13,
+   "atr_at_entry": 11.49020245597951,
+   "ziel_atr": 3.04,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2959,
+   "basis_erwartung_r": 0.1826,
+   "score_components": {
+    "trend": 0.126,
+    "setup": 0.969,
+    "volumen": 0.598,
+    "qualitaet": 0.952,
+    "bewertung": 0.753,
+    "analysten": 1.0,
+    "sentiment": 0.7
+   },
+   "target_methods": {
+    "atr": 366.68,
+    "struktur": 381.07
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-28"
+  },
+  {
+   "symbol": "HLT",
+   "name": "Hilton Worldwide",
+   "sector": "Konsum zyklisch",
+   "score": 0.8077,
+   "target": 360.38,
+   "stop": 331.47,
+   "atr_at_entry": 7.67769358360278,
+   "ziel_atr": 2.01,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.4078,
+   "basis_erwartung_r": 0.0218,
+   "score_components": {
+    "trend": 0.906,
+    "setup": 1.0,
+    "volumen": 0.961,
+    "qualitaet": 1.0,
+    "bewertung": 0.208,
+    "analysten": 0.504,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 359.0,
+    "struktur": 364.44
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-28"
+  },
+  {
+   "symbol": "CDNS",
+   "name": "Cadence Design Systems",
+   "sector": "Technologie",
+   "score": 0.8029,
+   "target": 365.13,
+   "stop": 322.72,
+   "atr_at_entry": 12.713435318455932,
+   "ziel_atr": 1.74,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.485,
+   "basis_erwartung_r": 0.1,
+   "score_components": {
+    "trend": 0.572,
+    "setup": 0.915,
+    "volumen": 1.0,
+    "qualitaet": 0.843,
+    "bewertung": 0.006,
+    "analysten": 0.837,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 369.8,
+    "struktur": 361.9
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-28"
+  },
+  {
+   "symbol": "RCL",
+   "name": "Royal Caribbean Group",
+   "sector": "Konsum zyklisch",
+   "score": 0.7961,
+   "target": 315.14,
+   "stop": 277.0,
+   "atr_at_entry": 10.76000053236809,
+   "ziel_atr": 1.79,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.4498,
+   "basis_erwartung_r": 0.0182,
+   "score_components": {
+    "trend": 0.724,
+    "setup": 0.89,
+    "volumen": 1.0,
+    "qualitaet": 0.695,
+    "bewertung": 0.665,
+    "analysten": 0.75,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 315.57,
+    "struktur": 311.32
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-28"
   }
  ],
  "closed": [
