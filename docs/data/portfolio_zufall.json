@@ -1561,379 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "sector": "Konsum zyklisch",
-   "score": 0.5614,
-   "target": 266.38,
-   "stop": 238.25,
-   "atr_at_entry": 6.826521136195153,
-   "ziel_atr": 2.34,
-   "stop_atr": 1.78,
-   "basis_p_ziel": 0.3496,
-   "basis_erwartung_r": 0.0177,
-   "score_components": {
-    "trend": 0.812,
-    "setup": 0.735,
-    "volumen": 0.787,
-    "qualitaet": 0.828,
-    "bewertung": 0.236,
-    "analysten": 1.0
-   },
-   "target_methods": {
-    "atr": 262.73,
-    "struktur": 270.02
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "PFG",
-   "name": "Principal Financial Group",
-   "sector": "Finanzen",
-   "score": 0.3009,
-   "target": 115.1,
-   "stop": 106.78,
-   "atr_at_entry": 2.003682809115209,
-   "ziel_atr": 2.49,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3336,
-   "basis_erwartung_r": 0.0821,
-   "score_components": {
-    "trend": 0.389,
-    "setup": 1.0,
-    "volumen": 0.238,
-    "qualitaet": 0.465,
-    "bewertung": 0.688,
-    "analysten": 0.274
-   },
-   "target_methods": {
-    "atr": 113.86,
-    "struktur": 115.93
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "BMY",
-   "name": "Bristol Myers Squibb",
-   "sector": "Gesundheit",
-   "score": 0.3718,
-   "target": 67.65,
-   "stop": 60.17,
-   "atr_at_entry": 1.7822073842729096,
-   "ziel_atr": 2.61,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3129,
-   "basis_erwartung_r": 0.1065,
-   "score_components": {
-    "trend": 0.376,
-    "setup": 1.0,
-    "volumen": 0.029,
-    "qualitaet": 0.604,
-    "bewertung": 0.584,
-    "analysten": 0.507
-   },
-   "target_methods": {
-    "atr": 66.51,
-    "struktur": 67.94
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "HSIC",
-   "name": "Henry Schein",
-   "sector": "Gesundheit",
-   "score": 0.5992,
-   "target": 90.7,
-   "stop": 83.23,
-   "atr_at_entry": 1.7301424891977428,
-   "ziel_atr": 2.73,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.2948,
-   "basis_erwartung_r": 0.1079,
-   "score_components": {
-    "trend": 0.35,
-    "setup": 1.0,
-    "volumen": 0.472,
-    "qualitaet": 0.307,
-    "bewertung": 0.582,
-    "analysten": 0.584
-   },
-   "target_methods": {
-    "atr": 89.38,
-    "struktur": 91.16
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "TRMB",
-   "name": "Trimble Inc.",
-   "sector": "Technologie",
-   "score": 0.6147,
-   "target": 68.88,
-   "stop": 61.45,
-   "atr_at_entry": 1.5790096281578532,
-   "ziel_atr": 3.09,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.2871,
-   "basis_erwartung_r": 0.1715,
-   "score_components": {
-    "trend": 0.919,
-    "setup": 0.52,
-    "volumen": 0.491,
-    "qualitaet": 0.31,
-    "bewertung": 0.66,
-    "analysten": 0.804
-   },
-   "target_methods": {
-    "atr": 67.28,
-    "struktur": 69.27
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "NEE",
-   "name": "NextEra Energy",
-   "sector": "Versorger",
-   "score": 0.6587,
-   "target": 85.38,
-   "stop": 79.35,
-   "atr_at_entry": 1.5421798310569197,
-   "ziel_atr": 2.26,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.3363,
-   "basis_erwartung_r": 0.0156,
-   "score_components": {
-    "trend": 0.34,
-    "setup": 0.914,
-    "volumen": 0.659,
-    "qualitaet": 0.582,
-    "bewertung": 0.473,
-    "analysten": 0.671
-   },
-   "target_methods": {
-    "atr": 84.61,
-    "struktur": 86.0
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "BEN",
-   "name": "Franklin Resources",
-   "sector": "Finanzen",
-   "score": 0.5238,
-   "target": 33.08,
-   "stop": 29.78,
-   "atr_at_entry": 0.7625305835701569,
-   "ziel_atr": 2.67,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3054,
-   "basis_erwartung_r": 0.092,
-   "score_components": {
-    "trend": 0.347,
-    "setup": 0.611,
-    "volumen": 0.632,
-    "qualitaet": 0.474,
-    "bewertung": 0.825,
-    "analysten": 0.49
-   },
-   "target_methods": {
-    "atr": 32.48,
-    "struktur": 33.26
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
-   "symbol": "UPS",
-   "name": "United Parcel Service",
-   "sector": "Industrie",
-   "score": 0.375,
-   "target": 106.68,
-   "stop": 97.85,
-   "atr_at_entry": 1.9695366712203062,
-   "ziel_atr": 2.85,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.2963,
-   "basis_erwartung_r": 0.1219,
-   "score_components": {
-    "trend": 0.362,
-    "setup": 0.941,
-    "volumen": 0.124,
-    "qualitaet": 0.46,
-    "bewertung": 0.761,
-    "analysten": 0.652
-   },
-   "target_methods": {
-    "atr": 104.97,
-    "struktur": 107.11
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
-   "symbol": "BRO",
-   "name": "Brown & Brown",
-   "sector": "Finanzen",
-   "score": 0.3357,
-   "target": 77.09,
-   "stop": 69.97,
-   "atr_at_entry": 1.8137283437912899,
-   "ziel_atr": 2.27,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.3702,
-   "basis_erwartung_r": 0.0821,
-   "score_components": {
-    "trend": 0.88,
-    "setup": 0.556,
-    "volumen": 1.0,
-    "qualitaet": 0.666,
-    "bewertung": 0.375,
-    "analysten": 0.337
-   },
-   "target_methods": {
-    "atr": 76.37,
-    "struktur": 78.24
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
-   "symbol": "LITE",
-   "name": "Lumentum",
-   "sector": "Technologie",
-   "score": 0.5557,
-   "target": 953.61,
-   "stop": 647.89,
-   "atr_at_entry": 67.96436027166077,
-   "ziel_atr": 2.9,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3126,
-   "basis_erwartung_r": 0.1752,
-   "score_components": {
-    "trend": 0.243,
-    "setup": 0.494,
-    "volumen": 0.122,
-    "qualitaet": 0.421,
-    "bewertung": 0.567,
-    "analysten": 1.0
-   },
-   "target_methods": {
-    "atr": 899.57,
-    "struktur": 984.66
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
-   "symbol": "OMC",
-   "name": "Omnicom Group",
-   "sector": "Kommunikation",
-   "score": 0.7085,
-   "target": 88.38,
-   "stop": 78.8,
-   "atr_at_entry": 2.1799690910419196,
-   "ziel_atr": 2.62,
-   "stop_atr": 1.77,
-   "basis_p_ziel": 0.291,
-   "basis_erwartung_r": 0.0055,
-   "score_components": {
-    "trend": 0.831,
-    "setup": 0.973,
-    "volumen": 1.0,
-    "qualitaet": 0.395,
-    "bewertung": 0.6,
-    "analysten": 0.733,
-    "sentiment": 0.4
-   },
-   "target_methods": {
-    "atr": 86.55,
-    "struktur": 88.63
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
-   "symbol": "GOOG",
-   "name": "Alphabet Inc. (Class C)",
-   "sector": "Kommunikation",
-   "score": 0.3569,
-   "target": 336.81,
-   "stop": 302.53,
-   "atr_at_entry": 8.303777746809523,
-   "ziel_atr": 2.36,
-   "stop_atr": 1.77,
-   "basis_p_ziel": 0.3316,
-   "basis_erwartung_r": 0.0038,
-   "score_components": {
-    "trend": 0.133,
-    "setup": 0.428,
-    "volumen": 0.08,
-    "qualitaet": 0.978,
-    "bewertung": 0.411,
-    "analysten": 0.918
-   },
-   "target_methods": {
-    "atr": 332.02,
-    "struktur": 340.62
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
    "symbol": "PFE",
    "name": "Pfizer",
    "sector": "Gesundheit",
@@ -1962,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TROW",
@@ -1993,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CTSH",
@@ -2024,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PPG",
@@ -2055,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "VRTX",
@@ -2086,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TFC",
@@ -2117,7 +1744,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TDY",
@@ -2147,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   },
   {
    "symbol": "SMCI",
@@ -2177,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   },
   {
    "symbol": "ABBV",
@@ -2207,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   },
   {
    "symbol": "WYNN",
@@ -2237,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   },
   {
    "symbol": "MRSH",
@@ -2267,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   },
   {
    "symbol": "CLX",
@@ -2297,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4205,6 +3838,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-10-29",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -5076,6 +4717,66 @@
   {
    "date": "2026-10-28",
    "symbol": "TXN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "AMZN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "PFG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "BMY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "HSIC",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "TRMB",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "NEE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "BEN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "UPS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "BRO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "LITE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "OMC",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "GOOG",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]

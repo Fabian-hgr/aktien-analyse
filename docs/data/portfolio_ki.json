@@ -1243,385 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "PLTR",
-   "name": "Palantir Technologies",
-   "sector": "Technologie",
-   "score": 0.7832,
-   "target": 211.72,
-   "stop": 183.11,
-   "atr_at_entry": 8.107163452308741,
-   "ziel_atr": 1.92,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.4505,
-   "basis_erwartung_r": 0.0991,
-   "score_components": {
-    "trend": 0.931,
-    "setup": 1.0,
-    "volumen": 0.404,
-    "qualitaet": 0.998,
-    "bewertung": 0.178,
-    "analysten": 0.536,
-    "sentiment": 0.7
-   },
-   "target_methods": {
-    "atr": 213.03,
-    "struktur": 212.91
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "TDG",
-   "name": "TransDigm Group",
-   "sector": "Industrie",
-   "score": 0.7758,
-   "target": 1205.14,
-   "stop": 1101.91,
-   "atr_at_entry": 24.247018993966474,
-   "ziel_atr": 2.61,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.3298,
-   "basis_erwartung_r": 0.1045,
-   "score_components": {
-    "trend": 0.287,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.881,
-    "bewertung": 0.245,
-    "analysten": 0.794
-   },
-   "target_methods": {
-    "atr": 1189.64,
-    "struktur": 1216.87
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "MPC",
-   "name": "Marathon Petroleum",
-   "sector": "Energie",
-   "score": 0.7689,
-   "target": 496.59,
-   "stop": 436.6,
-   "atr_at_entry": 15.94795525405138,
-   "ziel_atr": 2.33,
-   "stop_atr": 1.43,
-   "basis_p_ziel": 0.4052,
-   "basis_erwartung_r": 0.2391,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 1.0,
-    "volumen": 0.819,
-    "qualitaet": 0.66,
-    "bewertung": 0.773,
-    "analysten": 0.398,
-    "sentiment": 0.9
-   },
-   "target_methods": {
-    "atr": 494.17,
-    "struktur": 492.95
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "URI",
-   "name": "United Rentals",
-   "sector": "Industrie",
-   "score": 0.7683,
-   "target": 1181.68,
-   "stop": 1052.62,
-   "atr_at_entry": 35.115136544749575,
-   "ziel_atr": 2.03,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.4196,
-   "basis_erwartung_r": 0.0762,
-   "score_components": {
-    "trend": 0.713,
-    "setup": 0.943,
-    "volumen": 1.0,
-    "qualitaet": 0.634,
-    "bewertung": 0.609,
-    "analysten": 0.639,
-    "sentiment": 0.9
-   },
-   "target_methods": {
-    "atr": 1179.66,
-    "struktur": 1176.08
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "DECK",
-   "name": "Deckers Brands",
-   "sector": "Konsum zyklisch",
-   "score": 0.7568,
-   "target": 92.05,
-   "stop": 80.84,
-   "atr_at_entry": 2.466122427768415,
-   "ziel_atr": 2.76,
-   "stop_atr": 1.78,
-   "basis_p_ziel": 0.2855,
-   "basis_erwartung_r": 0.0249,
-   "score_components": {
-    "trend": 0.34,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.743,
-    "bewertung": 0.821,
-    "analysten": 0.898,
-    "sentiment": 0.35
-   },
-   "target_methods": {
-    "atr": 89.69,
-    "struktur": 92.32
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "BX",
-   "name": "Blackstone Inc.",
-   "sector": "Finanzen",
-   "score": 0.7535,
-   "target": 128.41,
-   "stop": 111.83,
-   "atr_at_entry": 4.13975500888544,
-   "ziel_atr": 2.34,
-   "stop_atr": 1.67,
-   "basis_p_ziel": 0.3592,
-   "basis_erwartung_r": 0.0778,
-   "score_components": {
-    "trend": 0.197,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.918,
-    "bewertung": 0.501,
-    "analysten": 0.706,
-    "sentiment": 0.7
-   },
-   "target_methods": {
-    "atr": 126.46,
-    "struktur": 130.74
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-23",
-   "tries": 2
-  },
-  {
-   "symbol": "UNP",
-   "name": "Union Pacific Corporation",
-   "sector": "Industrie",
-   "score": 0.7766,
-   "target": 306.72,
-   "stop": 284.28,
-   "atr_at_entry": 5.2699259438356,
-   "ziel_atr": 2.62,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.3287,
-   "basis_erwartung_r": 0.1133,
-   "score_components": {
-    "trend": 0.796,
-    "setup": 1.0,
-    "volumen": 0.743,
-    "qualitaet": 0.767,
-    "bewertung": 0.327,
-    "analysten": 0.633
-   },
-   "target_methods": {
-    "atr": 303.35,
-    "struktur": 309.25
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
-   "symbol": "ABNB",
-   "name": "Airbnb",
-   "sector": "Konsum zyklisch",
-   "score": 0.7553,
-   "target": 181.72,
-   "stop": 164.28,
-   "atr_at_entry": 4.41088571165828,
-   "ziel_atr": 2.2,
-   "stop_atr": 1.75,
-   "basis_p_ziel": 0.3757,
-   "basis_erwartung_r": 0.0248,
-   "score_components": {
-    "trend": 0.91,
-    "setup": 1.0,
-    "volumen": 0.188,
-    "qualitaet": 0.849,
-    "bewertung": 0.208,
-    "analysten": 0.558
-   },
-   "target_methods": {
-    "atr": 180.1,
-    "struktur": 184.79
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
-   "symbol": "META",
-   "name": "Meta Platforms",
-   "sector": "Kommunikation",
-   "score": 0.7511,
-   "target": 704.58,
-   "stop": 596.36,
-   "atr_at_entry": 25.935844833900145,
-   "ziel_atr": 2.4,
-   "stop_atr": 1.77,
-   "basis_p_ziel": 0.324,
-   "basis_erwartung_r": 0.0036,
-   "score_components": {
-    "trend": 0.69,
-    "setup": 0.515,
-    "volumen": 0.425,
-    "qualitaet": 0.964,
-    "bewertung": 0.498,
-    "analysten": 0.958,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 688.48,
-    "struktur": 715.35
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
-   "symbol": "SYF",
-   "name": "Synchrony Financial",
-   "sector": "Finanzen",
-   "score": 0.7367,
-   "target": 78.66,
-   "stop": 70.59,
-   "atr_at_entry": 1.833580859379524,
-   "ziel_atr": 2.75,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.2932,
-   "basis_erwartung_r": 0.0939,
-   "score_components": {
-    "trend": 0.524,
-    "setup": 0.999,
-    "volumen": 0.229,
-    "qualitaet": 0.631,
-    "bewertung": 0.879,
-    "analysten": 0.744
-   },
-   "target_methods": {
-    "atr": 77.06,
-    "struktur": 78.95
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
-   "symbol": "YUM",
-   "name": "Yum! Brands",
-   "sector": "Konsum zyklisch",
-   "score": 0.7289,
-   "target": 156.17,
-   "stop": 144.1,
-   "atr_at_entry": 3.1965976128170897,
-   "ziel_atr": 2.02,
-   "stop_atr": 1.75,
-   "basis_p_ziel": 0.4059,
-   "basis_erwartung_r": 0.0219,
-   "score_components": {
-    "trend": 0.606,
-    "setup": 1.0,
-    "volumen": 0.419,
-    "qualitaet": 0.806,
-    "bewertung": 0.248,
-    "analysten": 0.651,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 155.56,
-    "struktur": 157.25
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
-   "symbol": "NVDA",
-   "name": "Nvidia",
-   "sector": "Technologie",
-   "score": 0.7211,
-   "target": 230.48,
-   "stop": 201.41,
-   "atr_at_entry": 6.025954132661768,
-   "ziel_atr": 3.23,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.2743,
-   "basis_erwartung_r": 0.1915,
-   "score_components": {
-    "trend": 0.639,
-    "setup": 0.551,
-    "volumen": 0.221,
-    "qualitaet": 0.986,
-    "bewertung": 0.874,
-    "analysten": 1.0
-   },
-   "target_methods": {
-    "atr": 223.73,
-    "struktur": 231.27
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-26",
-   "tries": 2
-  },
-  {
    "symbol": "SNPS",
    "name": "Synopsys",
    "sector": "Technologie",
@@ -1651,7 +1272,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BLK",
@@ -1683,7 +1304,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "INTU",
@@ -1715,7 +1336,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CSCO",
@@ -1747,7 +1368,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "OMC",
@@ -1779,7 +1400,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CPRT",
@@ -1810,7 +1431,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-27",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ADSK",
@@ -1841,7 +1462,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   },
   {
    "symbol": "V",
@@ -1872,7 +1494,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   },
   {
    "symbol": "AVGO",
@@ -1903,7 +1526,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   },
   {
    "symbol": "HLT",
@@ -1934,7 +1558,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   },
   {
    "symbol": "CDNS",
@@ -1965,7 +1590,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   },
   {
    "symbol": "RCL",
@@ -1996,7 +1622,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-28"
+   "order_date": "2026-10-28",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4396,6 +4023,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-10-29",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -5267,6 +4902,66 @@
   {
    "date": "2026-10-28",
    "symbol": "MCO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "PLTR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "TDG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "MPC",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "URI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "DECK",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "BX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "UNP",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "ABNB",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "META",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "SYF",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "YUM",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-29",
+   "symbol": "NVDA",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
