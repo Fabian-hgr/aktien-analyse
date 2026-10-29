@@ -1931,6 +1931,186 @@
    },
    "order_date": "2026-10-28",
    "tries": 1
+  },
+  {
+   "symbol": "LHX",
+   "name": "L3Harris",
+   "sector": "Industrie",
+   "score": 0.3889,
+   "target": 274.04,
+   "stop": 252.61,
+   "atr_at_entry": 4.881222976867589,
+   "ziel_atr": 2.76,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.31,
+   "basis_erwartung_r": 0.1183,
+   "score_components": {
+    "trend": 0.404,
+    "setup": 0.841,
+    "volumen": 0.363,
+    "qualitaet": 0.411,
+    "bewertung": 0.591,
+    "analysten": 0.786
+   },
+   "target_methods": {
+    "atr": 270.27,
+    "struktur": 275.74
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
+  },
+  {
+   "symbol": "HSY",
+   "name": "Hershey Company (The)",
+   "sector": "Konsum defensiv",
+   "score": 0.3568,
+   "target": 172.8,
+   "stop": 157.41,
+   "atr_at_entry": 3.686692739356949,
+   "ziel_atr": 2.43,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.332,
+   "basis_erwartung_r": 0.0248,
+   "score_components": {
+    "trend": 0.295,
+    "setup": 0.71,
+    "volumen": 0.402,
+    "qualitaet": 0.59,
+    "bewertung": 0.612,
+    "analysten": 0.711
+   },
+   "target_methods": {
+    "atr": 170.6,
+    "struktur": 174.47
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
+  },
+  {
+   "symbol": "PG",
+   "name": "Procter & Gamble",
+   "sector": "Konsum defensiv",
+   "score": 0.7246,
+   "target": 164.28,
+   "stop": 153.34,
+   "atr_at_entry": 2.8501930076062005,
+   "ziel_atr": 2.09,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.3889,
+   "basis_erwartung_r": 0.024,
+   "score_components": {
+    "trend": 0.941,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.684,
+    "bewertung": 0.108,
+    "analysten": 0.589
+   },
+   "target_methods": {
+    "atr": 163.55,
+    "struktur": 165.73
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
+  },
+  {
+   "symbol": "ECL",
+   "name": "Ecolab",
+   "sector": "Grundstoffe",
+   "score": 0.6321,
+   "target": 304.86,
+   "stop": 283.7,
+   "atr_at_entry": 5.225986247812856,
+   "ziel_atr": 2.34,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3601,
+   "basis_erwartung_r": 0.0554,
+   "score_components": {
+    "trend": 0.83,
+    "setup": 0.758,
+    "volumen": 0.0,
+    "qualitaet": 0.544,
+    "bewertung": 0.0,
+    "analysten": 0.69
+   },
+   "target_methods": {
+    "atr": 302.58,
+    "struktur": 308.52
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
+  },
+  {
+   "symbol": "LIN",
+   "name": "Linde plc",
+   "sector": "Grundstoffe",
+   "score": 0.3802,
+   "target": 524.06,
+   "stop": 496.22,
+   "atr_at_entry": 6.9355883994689,
+   "ziel_atr": 2.31,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3657,
+   "basis_erwartung_r": 0.0542,
+   "score_components": {
+    "trend": 0.827,
+    "setup": 0.717,
+    "volumen": 0.341,
+    "qualitaet": 0.643,
+    "bewertung": 0.104,
+    "analysten": 0.569
+   },
+   "target_methods": {
+    "atr": 521.27,
+    "struktur": 529.16
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
+  },
+  {
+   "symbol": "LEN",
+   "name": "Lennar",
+   "sector": "Konsum zyklisch",
+   "score": 0.4339,
+   "target": 88.85,
+   "stop": 78.38,
+   "atr_at_entry": 2.905696872686144,
+   "ziel_atr": 1.85,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.4388,
+   "basis_erwartung_r": 0.0191,
+   "score_components": {
+    "trend": 0.373,
+    "setup": 0.986,
+    "volumen": 0.0,
+    "qualitaet": 0.236,
+    "bewertung": 0.344,
+    "analysten": 0.127
+   },
+   "target_methods": {
+    "atr": 88.8,
+    "struktur": 89.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
   }
  ],
  "closed": [

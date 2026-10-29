@@ -1624,6 +1624,191 @@
    },
    "order_date": "2026-10-28",
    "tries": 1
+  },
+  {
+   "symbol": "SKHY",
+   "name": "SK hynix Inc. American Depositary Shares",
+   "sector": "Technologie",
+   "score": 0.8256,
+   "target": 193.87,
+   "stop": 150.37,
+   "atr_at_entry": 9.019118227071267,
+   "ziel_atr": 3.23,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2743,
+   "basis_erwartung_r": 0.1915,
+   "score_components": {
+    "trend": 0.38,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.994,
+    "bewertung": 1.0,
+    "analysten": 0.925,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 183.77,
+    "struktur": 195.06
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology",
+   "sector": "Technologie",
+   "score": 0.7896,
+   "target": 292.28,
+   "stop": 227.68,
+   "atr_at_entry": 15.090492693323762,
+   "ziel_atr": 2.69,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3404,
+   "basis_erwartung_r": 0.1625,
+   "score_components": {
+    "trend": 0.684,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.842,
+    "bewertung": 0.384,
+    "analysten": 1.0,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 283.56,
+    "struktur": 300.96
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv",
+   "sector": "Industrie",
+   "score": 0.7868,
+   "target": 277.26,
+   "stop": 221.38,
+   "atr_at_entry": 13.237015378404475,
+   "ziel_atr": 2.59,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.3338,
+   "basis_erwartung_r": 0.1119,
+   "score_components": {
+    "trend": 0.26,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.817,
+    "bewertung": 0.518,
+    "analysten": 1.0,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 269.27,
+    "struktur": 284.08
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
+  },
+  {
+   "symbol": "ORCL",
+   "name": "Oracle Corporation",
+   "sector": "Technologie",
+   "score": 0.7721,
+   "target": 167.71,
+   "stop": 132.73,
+   "atr_at_entry": 7.252429193642221,
+   "ziel_atr": 3.23,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2743,
+   "basis_erwartung_r": 0.1915,
+   "score_components": {
+    "trend": 0.255,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.8,
+    "bewertung": 0.855,
+    "analysten": 0.925,
+    "sentiment": 0.35
+   },
+   "target_methods": {
+    "atr": 159.59,
+    "struktur": 168.67
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
+  },
+  {
+   "symbol": "EXE",
+   "name": "Expand Energy",
+   "sector": "Energie",
+   "score": 0.7625,
+   "target": 98.83,
+   "stop": 88.42,
+   "atr_at_entry": 2.2735511683218466,
+   "ziel_atr": 3.19,
+   "stop_atr": 1.39,
+   "basis_p_ziel": 0.2822,
+   "basis_erwartung_r": 0.3072,
+   "score_components": {
+    "trend": 0.554,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.547,
+    "bewertung": 0.738,
+    "analysten": 0.925,
+    "sentiment": 0.4
+   },
+   "target_methods": {
+    "atr": 96.66,
+    "struktur": 99.13
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
+  },
+  {
+   "symbol": "UNP",
+   "name": "Union Pacific Corporation",
+   "sector": "Industrie",
+   "score": 0.7577,
+   "target": 310.66,
+   "stop": 288.99,
+   "atr_at_entry": 5.265802586977498,
+   "ziel_atr": 2.48,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.3492,
+   "basis_erwartung_r": 0.1076,
+   "score_components": {
+    "trend": 0.864,
+    "setup": 0.959,
+    "volumen": 0.232,
+    "qualitaet": 0.806,
+    "bewertung": 0.306,
+    "analysten": 0.623
+   },
+   "target_methods": {
+    "atr": 308.04,
+    "struktur": 312.66
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-29"
   }
  ],
  "closed": [
