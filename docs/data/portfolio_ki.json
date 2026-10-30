@@ -1624,6 +1624,190 @@
    },
    "order_date": "2026-10-29",
    "tries": 1
+  },
+  {
+   "symbol": "ASML",
+   "name": "ASML Holding N.V. New York Registry Shares",
+   "sector": "Technologie",
+   "score": 0.7724,
+   "target": 1816.84,
+   "stop": 1592.94,
+   "atr_at_entry": 51.89004018624352,
+   "ziel_atr": 2.72,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3361,
+   "basis_erwartung_r": 0.1645,
+   "score_components": {
+    "trend": 0.388,
+    "setup": 1.0,
+    "volumen": 0.153,
+    "qualitaet": 0.993,
+    "bewertung": 0.344,
+    "analysten": 0.905,
+    "sentiment": 0.4
+   },
+   "target_methods": {
+    "atr": 1785.09,
+    "struktur": 1850.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-30"
+  },
+  {
+   "symbol": "OMC",
+   "name": "Omnicom Group",
+   "sector": "Kommunikation",
+   "score": 0.7527,
+   "target": 87.26,
+   "stop": 76.82,
+   "atr_at_entry": 2.3440261145203465,
+   "ziel_atr": 2.68,
+   "stop_atr": 1.77,
+   "basis_p_ziel": 0.2834,
+   "basis_erwartung_r": 0.0066,
+   "score_components": {
+    "trend": 0.838,
+    "setup": 1.0,
+    "volumen": 0.485,
+    "qualitaet": 0.448,
+    "bewertung": 0.6,
+    "analysten": 0.757
+   },
+   "target_methods": {
+    "atr": 85.15,
+    "struktur": 87.58
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-30"
+  },
+  {
+   "symbol": "WTW",
+   "name": "Willis Towers Watson",
+   "sector": "Finanzen",
+   "score": 0.7498,
+   "target": 338.72,
+   "stop": 308.46,
+   "atr_at_entry": 7.4848013912658775,
+   "ziel_atr": 2.39,
+   "stop_atr": 1.65,
+   "basis_p_ziel": 0.3503,
+   "basis_erwartung_r": 0.0854,
+   "score_components": {
+    "trend": 0.772,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.578,
+    "bewertung": 0.465,
+    "analysten": 0.657,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 334.89,
+    "struktur": 342.6
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-30"
+  },
+  {
+   "symbol": "TYL",
+   "name": "Tyler Technologies",
+   "sector": "Technologie",
+   "score": 0.7485,
+   "target": 397.11,
+   "stop": 353.29,
+   "atr_at_entry": 12.748826324881142,
+   "ziel_atr": 1.84,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.4675,
+   "basis_erwartung_r": 0.1073,
+   "score_components": {
+    "trend": 0.921,
+    "setup": 0.941,
+    "volumen": 0.991,
+    "qualitaet": 0.479,
+    "bewertung": 0.347,
+    "analysten": 0.69,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 400.5,
+    "struktur": 394.62
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-30"
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit",
+   "sector": "Technologie",
+   "score": 0.7471,
+   "target": 369.6,
+   "stop": 311.28,
+   "atr_at_entry": 12.500494765992446,
+   "ziel_atr": 3.07,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2923,
+   "basis_erwartung_r": 0.1841,
+   "score_components": {
+    "trend": 0.654,
+    "setup": 1.0,
+    "volumen": 0.019,
+    "qualitaet": 0.762,
+    "bewertung": 0.803,
+    "analysten": 0.817,
+    "sentiment": 0.35
+   },
+   "target_methods": {
+    "atr": 357.57,
+    "struktur": 371.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-30"
+  },
+  {
+   "symbol": "OXY",
+   "name": "Occidental Petroleum",
+   "sector": "Energie",
+   "score": 0.7467,
+   "target": 65.75,
+   "stop": 60.9,
+   "atr_at_entry": 1.5160855741956898,
+   "ziel_atr": 1.81,
+   "stop_atr": 1.39,
+   "basis_p_ziel": 0.5028,
+   "basis_erwartung_r": 0.2411,
+   "score_components": {
+    "trend": 0.863,
+    "setup": 0.882,
+    "volumen": 0.131,
+    "qualitaet": 0.779,
+    "bewertung": 0.616,
+    "analysten": 0.647
+   },
+   "target_methods": {
+    "atr": 66.39,
+    "struktur": 64.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-10-30"
   }
  ],
  "closed": [
