@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "PFE",
-   "name": "Pfizer",
-   "sector": "Gesundheit",
-   "score": 0.3371,
-   "target": 30.74,
-   "stop": 28.91,
-   "atr_at_entry": 0.5551134293647705,
-   "ziel_atr": 1.71,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.4721,
-   "basis_erwartung_r": 0.0825,
-   "score_components": {
-    "trend": 0.948,
-    "setup": 0.862,
-    "volumen": 0.17,
-    "qualitaet": 0.286,
-    "bewertung": 0.549,
-    "analysten": 0.426
-   },
-   "target_methods": {
-    "atr": 30.89,
-    "struktur": 30.44
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
-   "symbol": "TROW",
-   "name": "T. Rowe Price",
-   "sector": "Finanzen",
-   "score": 0.3525,
-   "target": 108.81,
-   "stop": 100.11,
-   "atr_at_entry": 2.065912716281589,
-   "ziel_atr": 2.56,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.3225,
-   "basis_erwartung_r": 0.0897,
-   "score_components": {
-    "trend": 0.314,
-    "setup": 1.0,
-    "volumen": 0.195,
-    "qualitaet": 0.772,
-    "bewertung": 0.505,
-    "analysten": 0.303
-   },
-   "target_methods": {
-    "atr": 107.4,
-    "struktur": 109.53
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
-   "symbol": "CTSH",
-   "name": "Cognizant",
-   "sector": "Technologie",
-   "score": 0.4261,
-   "target": 74.75,
-   "stop": 65.2,
-   "atr_at_entry": 2.5973638022997743,
-   "ziel_atr": 2.08,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.4281,
-   "basis_erwartung_r": 0.124,
-   "score_components": {
-    "trend": 0.973,
-    "setup": 0.907,
-    "volumen": 0.594,
-    "qualitaet": 0.49,
-    "bewertung": 0.87,
-    "analysten": 0.393
-   },
-   "target_methods": {
-    "atr": 74.82,
-    "struktur": 73.9
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
-   "symbol": "PPG",
-   "name": "PPG Industries",
-   "sector": "Grundstoffe",
-   "score": 0.3986,
-   "target": 116.12,
-   "stop": 105.81,
-   "atr_at_entry": 2.3744358569562323,
-   "ziel_atr": 2.64,
-   "stop_atr": 1.71,
-   "basis_p_ziel": 0.3166,
-   "basis_erwartung_r": 0.0658,
-   "score_components": {
-    "trend": 0.319,
-    "setup": 1.0,
-    "volumen": 0.38,
-    "qualitaet": 0.49,
-    "bewertung": 0.56,
-    "analysten": 0.657
-   },
-   "target_methods": {
-    "atr": 114.39,
-    "struktur": 117.09
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
-   "symbol": "VRTX",
-   "name": "Vertex Pharmaceuticals",
-   "sector": "Gesundheit",
-   "score": 0.5224,
-   "target": 547.97,
-   "stop": 497.23,
-   "atr_at_entry": 12.92084114578463,
-   "ziel_atr": 2.35,
-   "stop_atr": 1.58,
-   "basis_p_ziel": 0.355,
-   "basis_erwartung_r": 0.1075,
-   "score_components": {
-    "trend": 0.805,
-    "setup": 1.0,
-    "volumen": 0.607,
-    "qualitaet": 0.823,
-    "bewertung": 0.181,
-    "analysten": 0.617
-   },
-   "target_methods": {
-    "atr": 543.17,
-    "struktur": 556.52
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
-   "symbol": "TFC",
-   "name": "Truist Financial",
-   "sector": "Finanzen",
-   "score": 0.6244,
-   "target": 51.32,
-   "stop": 47.4,
-   "atr_at_entry": 0.9140643458324546,
-   "ziel_atr": 2.63,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3118,
-   "basis_erwartung_r": 0.0911,
-   "score_components": {
-    "trend": 0.508,
-    "setup": 0.981,
-    "volumen": 0.658,
-    "qualitaet": 0.415,
-    "bewertung": 0.726,
-    "analysten": 0.452
-   },
-   "target_methods": {
-    "atr": 50.63,
-    "struktur": 51.57
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
    "symbol": "TDY",
    "name": "Teledyne Technologies",
    "sector": "Technologie",
@@ -1775,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SMCI",
@@ -1806,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ABBV",
@@ -1837,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "WYNN",
@@ -1868,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MRSH",
@@ -1899,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CLX",
@@ -1930,7 +1744,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "LHX",
@@ -1960,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   },
   {
    "symbol": "HSY",
@@ -1990,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   },
   {
    "symbol": "PG",
@@ -2020,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   },
   {
    "symbol": "ECL",
@@ -2050,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   },
   {
    "symbol": "LIN",
@@ -2080,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   },
   {
    "symbol": "LEN",
@@ -2110,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4026,6 +3846,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-10-30",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -4957,6 +4785,36 @@
   {
    "date": "2026-10-29",
    "symbol": "GOOG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "PFE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "TROW",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "CTSH",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "PPG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "VRTX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "TFC",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]

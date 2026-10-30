@@ -1243,197 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "SNPS",
-   "name": "Synopsys",
-   "sector": "Technologie",
-   "score": 0.8215,
-   "target": 503.05,
-   "stop": 425.55,
-   "atr_at_entry": 17.964752905050254,
-   "ziel_atr": 2.72,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3362,
-   "basis_erwartung_r": 0.1645,
-   "score_components": {
-    "trend": 0.707,
-    "setup": 1.0,
-    "volumen": 0.942,
-    "qualitaet": 0.559,
-    "bewertung": 0.201,
-    "analysten": 0.988,
-    "sentiment": 0.85
-   },
-   "target_methods": {
-    "atr": 492.07,
-    "struktur": 511.76
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
-   "symbol": "BLK",
-   "name": "BlackRock",
-   "sector": "Finanzen",
-   "score": 0.7991,
-   "target": 1175.78,
-   "stop": 1087.31,
-   "atr_at_entry": 24.50368776291778,
-   "ziel_atr": 1.96,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.4257,
-   "basis_erwartung_r": 0.073,
-   "score_components": {
-    "trend": 0.79,
-    "setup": 1.0,
-    "volumen": 0.186,
-    "qualitaet": 0.897,
-    "bewertung": 0.401,
-    "analysten": 0.785,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 1173.83,
-    "struktur": 1180.7
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
-   "symbol": "INTU",
-   "name": "Intuit",
-   "sector": "Technologie",
-   "score": 0.7901,
-   "target": 373.03,
-   "stop": 319.87,
-   "atr_at_entry": 12.569175072133186,
-   "ziel_atr": 2.64,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3471,
-   "basis_erwartung_r": 0.1595,
-   "score_components": {
-    "trend": 0.693,
-    "setup": 0.981,
-    "volumen": 0.114,
-    "qualitaet": 0.762,
-    "bewertung": 0.812,
-    "analysten": 0.763,
-    "sentiment": 0.85
-   },
-   "target_methods": {
-    "atr": 366.42,
-    "struktur": 371.04
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
-   "symbol": "CSCO",
-   "name": "Cisco",
-   "sector": "Technologie",
-   "score": 0.7868,
-   "target": 118.78,
-   "stop": 105.57,
-   "atr_at_entry": 2.9372689909808365,
-   "ziel_atr": 2.91,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3124,
-   "basis_erwartung_r": 0.1753,
-   "score_components": {
-    "trend": 0.322,
-    "setup": 1.0,
-    "volumen": 0.782,
-    "qualitaet": 0.813,
-    "bewertung": 0.628,
-    "analysten": 0.823,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 116.44,
-    "struktur": 120.12
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
-   "symbol": "OMC",
-   "name": "Omnicom Group",
-   "sector": "Kommunikation",
-   "score": 0.7231,
-   "target": 86.11,
-   "stop": 75.78,
-   "atr_at_entry": 2.3092570131103534,
-   "ziel_atr": 2.7,
-   "stop_atr": 1.77,
-   "basis_p_ziel": 0.281,
-   "basis_erwartung_r": 0.007,
-   "score_components": {
-    "trend": 0.746,
-    "setup": 1.0,
-    "volumen": 0.422,
-    "qualitaet": 0.395,
-    "bewertung": 0.6,
-    "analysten": 0.8,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 83.99,
-    "struktur": 86.38
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
-   "symbol": "CPRT",
-   "name": "Copart",
-   "sector": "Industrie",
-   "score": 0.7215,
-   "target": 31.75,
-   "stop": 27.73,
-   "atr_at_entry": 0.8731256688920145,
-   "ziel_atr": 2.97,
-   "stop_atr": 1.63,
-   "basis_p_ziel": 0.2795,
-   "basis_erwartung_r": 0.1264,
-   "score_components": {
-    "trend": 0.333,
-    "setup": 1.0,
-    "volumen": 0.27,
-    "qualitaet": 0.672,
-    "bewertung": 0.455,
-    "analysten": 0.823
-   },
-   "target_methods": {
-    "atr": 30.89,
-    "struktur": 31.86
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-27",
-   "tries": 2
-  },
-  {
    "symbol": "ADSK",
    "name": "Autodesk",
    "sector": "Technologie",
@@ -1463,7 +1272,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "V",
@@ -1495,7 +1304,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AVGO",
@@ -1527,7 +1336,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "HLT",
@@ -1559,7 +1368,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CDNS",
@@ -1591,7 +1400,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "RCL",
@@ -1623,7 +1432,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-28",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SKHY",
@@ -1654,7 +1463,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   },
   {
    "symbol": "MRVL",
@@ -1685,7 +1495,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   },
   {
    "symbol": "VRT",
@@ -1716,7 +1527,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   },
   {
    "symbol": "ORCL",
@@ -1747,7 +1559,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   },
   {
    "symbol": "EXE",
@@ -1778,7 +1591,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   },
   {
    "symbol": "UNP",
@@ -1808,7 +1622,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-29"
+   "order_date": "2026-10-29",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4216,6 +4031,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-10-30",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -5147,6 +4970,36 @@
   {
    "date": "2026-10-29",
    "symbol": "NVDA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "SNPS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "BLK",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "INTU",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "CSCO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "OMC",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-10-30",
+   "symbol": "CPRT",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
