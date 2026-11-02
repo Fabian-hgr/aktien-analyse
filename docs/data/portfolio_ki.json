@@ -1808,6 +1808,187 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-30"
+  },
+  {
+   "symbol": "SNPS",
+   "name": "Synopsys",
+   "sector": "Technologie",
+   "score": 0.8175,
+   "target": 509.64,
+   "stop": 437.9,
+   "atr_at_entry": 18.74771651269973,
+   "ziel_atr": 2.23,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.4052,
+   "basis_erwartung_r": 0.1337,
+   "score_components": {
+    "trend": 0.889,
+    "setup": 1.0,
+    "volumen": 0.652,
+    "qualitaet": 0.559,
+    "bewertung": 0.158,
+    "analysten": 0.929
+   },
+   "target_methods": {
+    "atr": 507.28,
+    "struktur": 511.76
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
+  },
+  {
+   "symbol": "NXPI",
+   "name": "NXP Semiconductors",
+   "sector": "Technologie",
+   "score": 0.7959,
+   "target": 290.89,
+   "stop": 243.66,
+   "atr_at_entry": 10.013687353647043,
+   "ziel_atr": 3.12,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2861,
+   "basis_erwartung_r": 0.1858,
+   "score_components": {
+    "trend": 0.883,
+    "setup": 0.744,
+    "volumen": 0.999,
+    "qualitaet": 0.829,
+    "bewertung": 0.882,
+    "analysten": 0.73
+   },
+   "target_methods": {
+    "atr": 280.72,
+    "struktur": 293.23
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
+  },
+  {
+   "symbol": "CPRT",
+   "name": "Copart",
+   "sector": "Industrie",
+   "score": 0.7474,
+   "target": 32.5,
+   "stop": 28.82,
+   "atr_at_entry": 0.8052748135313529,
+   "ziel_atr": 2.94,
+   "stop_atr": 1.63,
+   "basis_p_ziel": 0.2863,
+   "basis_erwartung_r": 0.134,
+   "score_components": {
+    "trend": 0.431,
+    "setup": 0.922,
+    "volumen": 0.851,
+    "qualitaet": 0.672,
+    "bewertung": 0.44,
+    "analysten": 0.814
+   },
+   "target_methods": {
+    "atr": 31.74,
+    "struktur": 32.65
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
+  },
+  {
+   "symbol": "MPWR",
+   "name": "Monolithic Power Systems",
+   "sector": "Technologie",
+   "score": 0.7471,
+   "target": 1368.75,
+   "stop": 1121.15,
+   "atr_at_entry": 57.21945533440426,
+   "ziel_atr": 2.73,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3345,
+   "basis_erwartung_r": 0.1646,
+   "score_components": {
+    "trend": 0.122,
+    "setup": 0.773,
+    "volumen": 1.0,
+    "qualitaet": 0.913,
+    "bewertung": 0.33,
+    "analysten": 0.932
+   },
+   "target_methods": {
+    "atr": 1332.92,
+    "struktur": 1404.39
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
+  },
+  {
+   "symbol": "ISRG",
+   "name": "Intuitive Surgical",
+   "sector": "Gesundheit",
+   "score": 0.7413,
+   "target": 456.47,
+   "stop": 412.75,
+   "atr_at_entry": 12.408727018393668,
+   "ziel_atr": 1.96,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.4273,
+   "basis_erwartung_r": 0.1064,
+   "score_components": {
+    "trend": 0.673,
+    "setup": 1.0,
+    "volumen": 0.76,
+    "qualitaet": 0.815,
+    "bewertung": 0.082,
+    "analysten": 0.637,
+    "sentiment": 0.55
+   },
+   "target_methods": {
+    "atr": 456.97,
+    "struktur": 458.8
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
+  },
+  {
+   "symbol": "DLR",
+   "name": "Digital Realty",
+   "sector": "Immobilien",
+   "score": 0.7413,
+   "target": 190.51,
+   "stop": 172.78,
+   "atr_at_entry": 4.615448229538005,
+   "ziel_atr": 2.12,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.3572,
+   "basis_erwartung_r": 0.0009,
+   "score_components": {
+    "trend": 0.364,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.538,
+    "bewertung": 0.0,
+    "analysten": 0.896
+   },
+   "target_methods": {
+    "atr": 188.58,
+    "struktur": 192.83
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
   }
  ],
  "closed": [

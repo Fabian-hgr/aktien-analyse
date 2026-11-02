@@ -2111,6 +2111,186 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-30"
+  },
+  {
+   "symbol": "HIG",
+   "name": "Hartford (The)",
+   "sector": "Finanzen",
+   "score": 0.7089,
+   "target": 139.33,
+   "stop": 128.58,
+   "atr_at_entry": 2.504637584818209,
+   "ziel_atr": 2.67,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3098,
+   "basis_erwartung_r": 0.1104,
+   "score_components": {
+    "trend": 0.336,
+    "setup": 0.985,
+    "volumen": 1.0,
+    "qualitaet": 0.625,
+    "bewertung": 0.83,
+    "analysten": 0.597
+   },
+   "target_methods": {
+    "atr": 137.42,
+    "struktur": 140.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
+  },
+  {
+   "symbol": "AMGN",
+   "name": "Amgen",
+   "sector": "Gesundheit",
+   "score": 0.2921,
+   "target": 492.22,
+   "stop": 448.81,
+   "atr_at_entry": 11.069291442430613,
+   "ziel_atr": 2.36,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3576,
+   "basis_erwartung_r": 0.1195,
+   "score_components": {
+    "trend": 0.958,
+    "setup": 0.568,
+    "volumen": 0.485,
+    "qualitaet": 0.646,
+    "bewertung": 0.3,
+    "analysten": 0.27
+   },
+   "target_methods": {
+    "atr": 488.26,
+    "struktur": 499.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
+  },
+  {
+   "symbol": "BIIB",
+   "name": "Biogen",
+   "sector": "Gesundheit",
+   "score": 0.5435,
+   "target": 272.39,
+   "stop": 242.41,
+   "atr_at_entry": 7.1682580759178025,
+   "ziel_atr": 2.62,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3162,
+   "basis_erwartung_r": 0.1263,
+   "score_components": {
+    "trend": 0.964,
+    "setup": 0.715,
+    "volumen": 0.043,
+    "qualitaet": 0.334,
+    "bewertung": 0.408,
+    "analysten": 0.42
+   },
+   "target_methods": {
+    "atr": 267.96,
+    "struktur": 275.53
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
+  },
+  {
+   "symbol": "AON",
+   "name": "Aon plc",
+   "sector": "Finanzen",
+   "score": 0.5807,
+   "target": 338.38,
+   "stop": 309.04,
+   "atr_at_entry": 7.454704214976969,
+   "ziel_atr": 2.32,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3669,
+   "basis_erwartung_r": 0.099,
+   "score_components": {
+    "trend": 0.383,
+    "setup": 0.743,
+    "volumen": 0.298,
+    "qualitaet": 0.646,
+    "bewertung": 0.166,
+    "analysten": 0.575
+   },
+   "target_methods": {
+    "atr": 335.34,
+    "struktur": 343.12
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
+  },
+  {
+   "symbol": "A",
+   "name": "Agilent Technologies",
+   "sector": "Gesundheit",
+   "score": 0.7341,
+   "target": 182.98,
+   "stop": 167.51,
+   "atr_at_entry": 4.741526402631483,
+   "ziel_atr": 1.7,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.4756,
+   "basis_erwartung_r": 0.0899,
+   "score_components": {
+    "trend": 0.964,
+    "setup": 0.948,
+    "volumen": 1.0,
+    "qualitaet": 0.658,
+    "bewertung": 0.244,
+    "analysten": 0.484
+   },
+   "target_methods": {
+    "atr": 184.41,
+    "struktur": 182.91
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
+  },
+  {
+   "symbol": "GWW",
+   "name": "W. W. Grainger",
+   "sector": "Industrie",
+   "score": 0.3254,
+   "target": 1419.92,
+   "stop": 1316.84,
+   "atr_at_entry": 25.926693904039176,
+   "ziel_atr": 2.35,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3714,
+   "basis_erwartung_r": 0.108,
+   "score_components": {
+    "trend": 0.781,
+    "setup": 0.813,
+    "volumen": 0.375,
+    "qualitaet": 0.647,
+    "bewertung": 0.287,
+    "analysten": 0.242
+   },
+   "target_methods": {
+    "atr": 1410.62,
+    "struktur": 1439.86
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-02"
   }
  ],
  "closed": [
