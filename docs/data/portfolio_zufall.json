@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "TDY",
-   "name": "Teledyne Technologies",
-   "sector": "Technologie",
-   "score": 0.6563,
-   "target": 688.59,
-   "stop": 633.33,
-   "atr_at_entry": 13.606421547424913,
-   "ziel_atr": 2.47,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3694,
-   "basis_erwartung_r": 0.1494,
-   "score_components": {
-    "trend": 0.762,
-    "setup": 0.867,
-    "volumen": 0.009,
-    "qualitaet": 0.539,
-    "bewertung": 0.398,
-    "analysten": 0.639
-   },
-   "target_methods": {
-    "atr": 683.72,
-    "struktur": 694.05
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-28",
-   "tries": 2
-  },
-  {
-   "symbol": "SMCI",
-   "name": "Supermicro",
-   "sector": "Technologie",
-   "score": 0.3621,
-   "target": 42.78,
-   "stop": 31.21,
-   "atr_at_entry": 2.4252537907235845,
-   "ziel_atr": 3.17,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.2806,
-   "basis_erwartung_r": 0.1889,
-   "score_components": {
-    "trend": 0.517,
-    "setup": 0.803,
-    "volumen": 0.245,
-    "qualitaet": 0.632,
-    "bewertung": 0.918,
-    "analysten": 0.647
-   },
-   "target_methods": {
-    "atr": 40.19,
-    "struktur": 43.23
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-28",
-   "tries": 2
-  },
-  {
-   "symbol": "ABBV",
-   "name": "AbbVie",
-   "sector": "Gesundheit",
-   "score": 0.3487,
-   "target": 301.07,
-   "stop": 277.06,
-   "atr_at_entry": 5.914235184622241,
-   "ziel_atr": 2.48,
-   "stop_atr": 1.58,
-   "basis_p_ziel": 0.3316,
-   "basis_erwartung_r": 0.1108,
-   "score_components": {
-    "trend": 0.898,
-    "setup": 0.804,
-    "volumen": 0.0,
-    "qualitaet": 0.444,
-    "bewertung": 0.705,
-    "analysten": 0.436
-   },
-   "target_methods": {
-    "atr": 298.09,
-    "struktur": 304.2
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-28",
-   "tries": 2
-  },
-  {
-   "symbol": "WYNN",
-   "name": "Wynn Resorts",
-   "sector": "Konsum zyklisch",
-   "score": 0.5211,
-   "target": 78.56,
-   "stop": 68.22,
-   "atr_at_entry": 2.36426502941632,
-   "ziel_atr": 2.62,
-   "stop_atr": 1.76,
-   "basis_p_ziel": 0.3077,
-   "basis_erwartung_r": 0.0325,
-   "score_components": {
-    "trend": 0.185,
-    "setup": 0.488,
-    "volumen": 0.009,
-    "qualitaet": 0.312,
-    "bewertung": 0.732,
-    "analysten": 0.966
-   },
-   "target_methods": {
-    "atr": 76.7,
-    "struktur": 79.22
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-28",
-   "tries": 2
-  },
-  {
-   "symbol": "MRSH",
-   "name": "Marsh McLennan",
-   "sector": "Finanzen",
-   "score": 0.6484,
-   "target": 198.61,
-   "stop": 184.13,
-   "atr_at_entry": 3.981247475146631,
-   "ziel_atr": 1.99,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.4202,
-   "basis_erwartung_r": 0.0739,
-   "score_components": {
-    "trend": 0.796,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 0.582,
-    "bewertung": 0.25,
-    "analysten": 0.442
-   },
-   "target_methods": {
-    "atr": 198.19,
-    "struktur": 200.15
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-28",
-   "tries": 2
-  },
-  {
-   "symbol": "CLX",
-   "name": "Clorox",
-   "sector": "Konsum defensiv",
-   "score": 0.3371,
-   "target": 91.54,
-   "stop": 82.34,
-   "atr_at_entry": 2.161729198400857,
-   "ziel_atr": 2.51,
-   "stop_atr": 1.74,
-   "basis_p_ziel": 0.3195,
-   "basis_erwartung_r": 0.025,
-   "score_components": {
-    "trend": 0.311,
-    "setup": 1.0,
-    "volumen": 0.424,
-    "qualitaet": 0.38,
-    "bewertung": 0.65,
-    "analysten": 0.481
-   },
-   "target_methods": {
-    "atr": 90.08,
-    "struktur": 92.35
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-28",
-   "tries": 2
-  },
-  {
    "symbol": "LHX",
    "name": "L3Harris",
    "sector": "Industrie",
@@ -1775,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-29",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "HSY",
@@ -1806,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-29",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PG",
@@ -1837,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-29",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ECL",
@@ -1868,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-29",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "LIN",
@@ -1899,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-29",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "LEN",
@@ -1930,7 +1744,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-10-29",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SW",
@@ -1960,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-30"
+   "order_date": "2026-10-30",
+   "tries": 1
   },
   {
    "symbol": "MTD",
@@ -1990,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-30"
+   "order_date": "2026-10-30",
+   "tries": 1
   },
   {
    "symbol": "CCL",
@@ -2020,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-30"
+   "order_date": "2026-10-30",
+   "tries": 1
   },
   {
    "symbol": "STT",
@@ -2050,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-30"
+   "order_date": "2026-10-30",
+   "tries": 1
   },
   {
    "symbol": "TSN",
@@ -2080,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-30"
+   "order_date": "2026-10-30",
+   "tries": 1
   },
   {
    "symbol": "ORLY",
@@ -2110,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-10-30"
+   "order_date": "2026-10-30",
+   "tries": 1
   },
   {
    "symbol": "HIG",
@@ -2140,7 +1960,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-02"
+   "order_date": "2026-11-02",
+   "tries": 1
   },
   {
    "symbol": "AMGN",
@@ -2170,7 +1991,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-02"
+   "order_date": "2026-11-02",
+   "tries": 1
   },
   {
    "symbol": "BIIB",
@@ -2200,7 +2022,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-02"
+   "order_date": "2026-11-02",
+   "tries": 1
   },
   {
    "symbol": "AON",
@@ -2230,7 +2053,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-02"
+   "order_date": "2026-11-02",
+   "tries": 1
   },
   {
    "symbol": "A",
@@ -2260,7 +2084,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-02"
+   "order_date": "2026-11-02",
+   "tries": 1
   },
   {
    "symbol": "GWW",
@@ -2290,7 +2115,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-02"
+   "order_date": "2026-11-02",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4214,6 +4040,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-11-03",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -5175,6 +5009,36 @@
   {
    "date": "2026-10-30",
    "symbol": "TFC",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "TDY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "SMCI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "ABBV",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "WYNN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "MRSH",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-03",
+   "symbol": "CLX",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
