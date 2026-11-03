@@ -1809,6 +1809,190 @@
    },
    "order_date": "2026-11-02",
    "tries": 1
+  },
+  {
+   "symbol": "CDNS",
+   "name": "Cadence Design Systems",
+   "sector": "Technologie",
+   "score": 0.8256,
+   "target": 358.69,
+   "stop": 309.37,
+   "atr_at_entry": 12.719283533666362,
+   "ziel_atr": 2.28,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3975,
+   "basis_erwartung_r": 0.1369,
+   "score_components": {
+    "trend": 0.777,
+    "setup": 0.995,
+    "volumen": 0.064,
+    "qualitaet": 0.843,
+    "bewertung": 0.006,
+    "analysten": 0.913
+   },
+   "target_methods": {
+    "atr": 356.45,
+    "struktur": 361.9
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
+  },
+  {
+   "symbol": "ADI",
+   "name": "Analog Devices",
+   "sector": "Technologie",
+   "score": 0.8092,
+   "target": 437.64,
+   "stop": 390.24,
+   "atr_at_entry": 14.339336711131034,
+   "ziel_atr": 1.71,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.4909,
+   "basis_erwartung_r": 0.0981,
+   "score_components": {
+    "trend": 0.899,
+    "setup": 0.904,
+    "volumen": 0.592,
+    "qualitaet": 0.8,
+    "bewertung": 0.504,
+    "analysten": 0.754
+   },
+   "target_methods": {
+    "atr": 443.31,
+    "struktur": 433.57
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
+  },
+  {
+   "symbol": "HWM",
+   "name": "Howmet Aerospace",
+   "sector": "Industrie",
+   "score": 0.8019,
+   "target": 234.49,
+   "stop": 199.34,
+   "atr_at_entry": 8.403822236712728,
+   "ziel_atr": 2.56,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3398,
+   "basis_erwartung_r": 0.1185,
+   "score_components": {
+    "trend": 0.192,
+    "setup": 1.0,
+    "volumen": 0.409,
+    "qualitaet": 0.874,
+    "bewertung": 0.39,
+    "analysten": 0.966,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 229.73,
+    "struktur": 239.21
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk",
+   "sector": "Technologie",
+   "score": 0.7773,
+   "target": 274.08,
+   "stop": 245.09,
+   "atr_at_entry": 7.916844325554821,
+   "ziel_atr": 2.07,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4305,
+   "basis_erwartung_r": 0.123,
+   "score_components": {
+    "trend": 0.947,
+    "setup": 0.859,
+    "volumen": 0.219,
+    "qualitaet": 0.791,
+    "bewertung": 0.708,
+    "analysten": 0.757,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 274.39,
+    "struktur": 271.66
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
+  },
+  {
+   "symbol": "FANG",
+   "name": "Diamondback Energy",
+   "sector": "Energie",
+   "score": 0.7676,
+   "target": 215.8,
+   "stop": 191.34,
+   "atr_at_entry": 5.816201354228276,
+   "ziel_atr": 2.85,
+   "stop_atr": 1.36,
+   "basis_p_ziel": 0.3345,
+   "basis_erwartung_r": 0.3195,
+   "score_components": {
+    "trend": 0.854,
+    "setup": 0.924,
+    "volumen": 0.36,
+    "qualitaet": 0.535,
+    "bewertung": 0.432,
+    "analysten": 0.846,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 212.42,
+    "struktur": 216.02
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
+  },
+  {
+   "symbol": "SBAC",
+   "name": "SBA Communications",
+   "sector": "Immobilien",
+   "score": 0.7563,
+   "target": 196.74,
+   "stop": 173.95,
+   "atr_at_entry": 5.876957100587094,
+   "ziel_atr": 2.15,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.3505,
+   "basis_erwartung_r": 0.0001,
+   "score_components": {
+    "trend": 0.623,
+    "setup": 1.0,
+    "volumen": 0.521,
+    "qualitaet": 0.656,
+    "bewertung": 0.479,
+    "analysten": 0.771,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 194.07,
+    "struktur": 195.97
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
   }
  ],
  "closed": [

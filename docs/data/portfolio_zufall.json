@@ -2117,6 +2117,186 @@
    },
    "order_date": "2026-11-02",
    "tries": 1
+  },
+  {
+   "symbol": "LNT",
+   "name": "Alliant Energy",
+   "sector": "Versorger",
+   "score": 0.4649,
+   "target": 75.72,
+   "stop": 71.03,
+   "atr_at_entry": 1.2315737024629125,
+   "ziel_atr": 2.19,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3554,
+   "basis_erwartung_r": 0.0374,
+   "score_components": {
+    "trend": 0.944,
+    "setup": 0.272,
+    "volumen": 1.0,
+    "qualitaet": 0.404,
+    "bewertung": 0.35,
+    "analysten": 0.412
+   },
+   "target_methods": {
+    "atr": 75.23,
+    "struktur": 76.38
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
+  },
+  {
+   "symbol": "PCG",
+   "name": "PG&E Corporation",
+   "sector": "Versorger",
+   "score": 0.6636,
+   "target": 14.27,
+   "stop": 12.69,
+   "atr_at_entry": 0.370439604088978,
+   "ziel_atr": 2.67,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.276,
+   "basis_erwartung_r": 0.0375,
+   "score_components": {
+    "trend": 0.27,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.261,
+    "bewertung": 0.992,
+    "analysten": 0.87
+   },
+   "target_methods": {
+    "atr": 13.95,
+    "struktur": 14.3
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
+  },
+  {
+   "symbol": "TECH",
+   "name": "Bio-Techne",
+   "sector": "Gesundheit",
+   "score": 0.2637,
+   "target": 72.95,
+   "stop": 72.48,
+   "atr_at_entry": 0.12471098596432569,
+   "ziel_atr": 2.28,
+   "stop_atr": 1.52,
+   "basis_p_ziel": 0.3686,
+   "basis_erwartung_r": 0.1177,
+   "score_components": {
+    "trend": 0.931,
+    "setup": 0.767,
+    "volumen": 0.194,
+    "qualitaet": 0.461,
+    "bewertung": 0.076,
+    "analysten": 0.199
+   },
+   "target_methods": {
+    "atr": 72.92,
+    "struktur": 73.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
+  },
+  {
+   "symbol": "CPRT",
+   "name": "Copart",
+   "sector": "Industrie",
+   "score": 0.6113,
+   "target": 34.4,
+   "stop": 30.5,
+   "atr_at_entry": 0.8827551839933995,
+   "ziel_atr": 2.79,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3068,
+   "basis_erwartung_r": 0.1281,
+   "score_components": {
+    "trend": 0.512,
+    "setup": 0.625,
+    "volumen": 0.168,
+    "qualitaet": 0.672,
+    "bewertung": 0.44,
+    "analysten": 0.699
+   },
+   "target_methods": {
+    "atr": 33.69,
+    "struktur": 34.62
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet Inc. (Class A)",
+   "sector": "Kommunikation",
+   "score": 0.6506,
+   "target": 303.16,
+   "stop": 261.18,
+   "atr_at_entry": 10.162686420641139,
+   "ziel_atr": 2.37,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.3303,
+   "basis_erwartung_r": 0.0083,
+   "score_components": {
+    "trend": 0.141,
+    "setup": 0.333,
+    "volumen": 0.852,
+    "qualitaet": 0.978,
+    "bewertung": 0.362,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 297.24,
+    "struktur": 307.75
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "Snowflake Inc.",
+   "sector": "Technologie",
+   "score": 0.5847,
+   "target": 334.76,
+   "stop": 264.72,
+   "atr_at_entry": 16.18782167421073,
+   "ziel_atr": 2.73,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3345,
+   "basis_erwartung_r": 0.1646,
+   "score_components": {
+    "trend": 0.531,
+    "setup": 0.501,
+    "volumen": 0.477,
+    "qualitaet": 0.347,
+    "bewertung": 0.0,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 324.63,
+    "struktur": 344.85
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-03"
   }
  ],
  "closed": [
