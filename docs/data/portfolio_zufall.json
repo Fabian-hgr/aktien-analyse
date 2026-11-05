@@ -1561,378 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "SW",
-   "name": "Smurfit Westrock",
-   "sector": "Grundstoffe",
-   "score": 0.671,
-   "target": 46.55,
-   "stop": 40.07,
-   "atr_at_entry": 1.4325801681261179,
-   "ziel_atr": 2.82,
-   "stop_atr": 1.7,
-   "basis_p_ziel": 0.2925,
-   "basis_erwartung_r": 0.0722,
-   "score_components": {
-    "trend": 0.133,
-    "setup": 1.0,
-    "volumen": 0.662,
-    "qualitaet": 0.207,
-    "bewertung": 0.838,
-    "analysten": 0.932
-   },
-   "target_methods": {
-    "atr": 45.24,
-    "struktur": 46.87
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-30",
-   "tries": 2
-  },
-  {
-   "symbol": "MTD",
-   "name": "Mettler Toledo",
-   "sector": "Gesundheit",
-   "score": 0.1431,
-   "target": 1796.23,
-   "stop": 1661.33,
-   "atr_at_entry": 35.826993271261045,
-   "ziel_atr": 2.19,
-   "stop_atr": 1.58,
-   "basis_p_ziel": 0.3835,
-   "basis_erwartung_r": 0.1035,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 0.329,
-    "volumen": 0.319,
-    "qualitaet": 0.456,
-    "bewertung": 0.0,
-    "analysten": 0.181
-   },
-   "target_methods": {
-    "atr": 1788.73,
-    "struktur": 1825.74
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-30",
-   "tries": 2
-  },
-  {
-   "symbol": "CCL",
-   "name": "Carnival Corporation",
-   "sector": "Konsum zyklisch",
-   "score": 0.5853,
-   "target": 31.3,
-   "stop": 27.24,
-   "atr_at_entry": 0.9104841342121631,
-   "ziel_atr": 2.7,
-   "stop_atr": 1.76,
-   "basis_p_ziel": 0.2963,
-   "basis_erwartung_r": 0.0345,
-   "score_components": {
-    "trend": 0.88,
-    "setup": 0.542,
-    "volumen": 0.586,
-    "qualitaet": 0.456,
-    "bewertung": 0.829,
-    "analysten": 0.729
-   },
-   "target_methods": {
-    "atr": 30.51,
-    "struktur": 31.48
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-30",
-   "tries": 2
-  },
-  {
-   "symbol": "STT",
-   "name": "State Street Corporation",
-   "sector": "Finanzen",
-   "score": 0.6611,
-   "target": 183.18,
-   "stop": 167.51,
-   "atr_at_entry": 3.7673891166414952,
-   "ziel_atr": 2.5,
-   "stop_atr": 1.65,
-   "basis_p_ziel": 0.3307,
-   "basis_erwartung_r": 0.0885,
-   "score_components": {
-    "trend": 0.384,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 0.648,
-    "bewertung": 0.726,
-    "analysten": 0.553
-   },
-   "target_methods": {
-    "atr": 180.82,
-    "struktur": 184.7
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-30",
-   "tries": 2
-  },
-  {
-   "symbol": "TSN",
-   "name": "Tyson Foods",
-   "sector": "Konsum defensiv",
-   "score": 0.5811,
-   "target": 58.63,
-   "stop": 54.58,
-   "atr_at_entry": 0.9558895248910412,
-   "ziel_atr": 2.49,
-   "stop_atr": 1.75,
-   "basis_p_ziel": 0.3229,
-   "basis_erwartung_r": 0.025,
-   "score_components": {
-    "trend": 0.582,
-    "setup": 0.975,
-    "volumen": 0.481,
-    "qualitaet": 0.218,
-    "bewertung": 0.658,
-    "analysten": 0.449
-   },
-   "target_methods": {
-    "atr": 58.01,
-    "struktur": 59.01
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-30",
-   "tries": 2
-  },
-  {
-   "symbol": "ORLY",
-   "name": "O'Reilly Automotive",
-   "sector": "Konsum zyklisch",
-   "score": 0.7247,
-   "target": 92.69,
-   "stop": 84.54,
-   "atr_at_entry": 2.0216133546185504,
-   "ziel_atr": 2.28,
-   "stop_atr": 1.76,
-   "basis_p_ziel": 0.3626,
-   "basis_erwartung_r": 0.026,
-   "score_components": {
-    "trend": 0.585,
-    "setup": 0.943,
-    "volumen": 1.0,
-    "qualitaet": 0.51,
-    "bewertung": 0.117,
-    "analysten": 0.785
-   },
-   "target_methods": {
-    "atr": 91.79,
-    "struktur": 93.84
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-10-30",
-   "tries": 2
-  },
-  {
-   "symbol": "HIG",
-   "name": "Hartford (The)",
-   "sector": "Finanzen",
-   "score": 0.7089,
-   "target": 139.33,
-   "stop": 128.58,
-   "atr_at_entry": 2.504637584818209,
-   "ziel_atr": 2.67,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3098,
-   "basis_erwartung_r": 0.1104,
-   "score_components": {
-    "trend": 0.336,
-    "setup": 0.985,
-    "volumen": 1.0,
-    "qualitaet": 0.625,
-    "bewertung": 0.83,
-    "analysten": 0.597
-   },
-   "target_methods": {
-    "atr": 137.42,
-    "struktur": 140.04
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-02",
-   "tries": 2
-  },
-  {
-   "symbol": "AMGN",
-   "name": "Amgen",
-   "sector": "Gesundheit",
-   "score": 0.2921,
-   "target": 492.22,
-   "stop": 448.81,
-   "atr_at_entry": 11.069291442430613,
-   "ziel_atr": 2.36,
-   "stop_atr": 1.56,
-   "basis_p_ziel": 0.3576,
-   "basis_erwartung_r": 0.1195,
-   "score_components": {
-    "trend": 0.958,
-    "setup": 0.568,
-    "volumen": 0.485,
-    "qualitaet": 0.646,
-    "bewertung": 0.3,
-    "analysten": 0.27
-   },
-   "target_methods": {
-    "atr": 488.26,
-    "struktur": 499.95
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-02",
-   "tries": 2
-  },
-  {
-   "symbol": "BIIB",
-   "name": "Biogen",
-   "sector": "Gesundheit",
-   "score": 0.5435,
-   "target": 272.39,
-   "stop": 242.41,
-   "atr_at_entry": 7.1682580759178025,
-   "ziel_atr": 2.62,
-   "stop_atr": 1.56,
-   "basis_p_ziel": 0.3162,
-   "basis_erwartung_r": 0.1263,
-   "score_components": {
-    "trend": 0.964,
-    "setup": 0.715,
-    "volumen": 0.043,
-    "qualitaet": 0.334,
-    "bewertung": 0.408,
-    "analysten": 0.42
-   },
-   "target_methods": {
-    "atr": 267.96,
-    "struktur": 275.53
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-02",
-   "tries": 2
-  },
-  {
-   "symbol": "AON",
-   "name": "Aon plc",
-   "sector": "Finanzen",
-   "score": 0.5807,
-   "target": 338.38,
-   "stop": 309.04,
-   "atr_at_entry": 7.454704214976969,
-   "ziel_atr": 2.32,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3669,
-   "basis_erwartung_r": 0.099,
-   "score_components": {
-    "trend": 0.383,
-    "setup": 0.743,
-    "volumen": 0.298,
-    "qualitaet": 0.646,
-    "bewertung": 0.166,
-    "analysten": 0.575
-   },
-   "target_methods": {
-    "atr": 335.34,
-    "struktur": 343.12
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-02",
-   "tries": 2
-  },
-  {
-   "symbol": "A",
-   "name": "Agilent Technologies",
-   "sector": "Gesundheit",
-   "score": 0.7341,
-   "target": 182.98,
-   "stop": 167.51,
-   "atr_at_entry": 4.741526402631483,
-   "ziel_atr": 1.7,
-   "stop_atr": 1.56,
-   "basis_p_ziel": 0.4756,
-   "basis_erwartung_r": 0.0899,
-   "score_components": {
-    "trend": 0.964,
-    "setup": 0.948,
-    "volumen": 1.0,
-    "qualitaet": 0.658,
-    "bewertung": 0.244,
-    "analysten": 0.484
-   },
-   "target_methods": {
-    "atr": 184.41,
-    "struktur": 182.91
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-02",
-   "tries": 2
-  },
-  {
-   "symbol": "GWW",
-   "name": "W. W. Grainger",
-   "sector": "Industrie",
-   "score": 0.3254,
-   "target": 1419.92,
-   "stop": 1316.84,
-   "atr_at_entry": 25.926693904039176,
-   "ziel_atr": 2.35,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3714,
-   "basis_erwartung_r": 0.108,
-   "score_components": {
-    "trend": 0.781,
-    "setup": 0.813,
-    "volumen": 0.375,
-    "qualitaet": 0.647,
-    "bewertung": 0.287,
-    "analysten": 0.242
-   },
-   "target_methods": {
-    "atr": 1410.62,
-    "struktur": 1439.86
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-02",
-   "tries": 2
-  },
-  {
    "symbol": "LNT",
    "name": "Alliant Energy",
    "sector": "Versorger",
@@ -1961,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-03",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PCG",
@@ -1992,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-03",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TECH",
@@ -2023,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-03",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CPRT",
@@ -2054,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-03",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "GOOGL",
@@ -2085,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-03",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SNOW",
@@ -2116,7 +1744,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-03",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "FITB",
@@ -2146,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-04"
+   "order_date": "2026-11-04",
+   "tries": 1
   },
   {
    "symbol": "SKHY",
@@ -2176,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-04"
+   "order_date": "2026-11-04",
+   "tries": 1
   },
   {
    "symbol": "NOK",
@@ -2206,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-04"
+   "order_date": "2026-11-04",
+   "tries": 1
   },
   {
    "symbol": "SWKS",
@@ -2236,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-04"
+   "order_date": "2026-11-04",
+   "tries": 1
   },
   {
    "symbol": "DASH",
@@ -2266,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-04"
+   "order_date": "2026-11-04",
+   "tries": 1
   },
   {
    "symbol": "EL",
@@ -2296,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-04"
+   "order_date": "2026-11-04",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4236,6 +3870,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-11-05",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -5257,6 +4899,66 @@
   {
    "date": "2026-11-04",
    "symbol": "LEN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "SW",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "MTD",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "CCL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "STT",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "TSN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "ORLY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "HIG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "AMGN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "BIIB",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "AON",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "A",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-05",
+   "symbol": "GWW",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
