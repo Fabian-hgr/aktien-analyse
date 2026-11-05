@@ -1623,6 +1623,190 @@
    },
    "order_date": "2026-11-04",
    "tries": 1
+  },
+  {
+   "symbol": "MPWR",
+   "name": "Monolithic Power Systems",
+   "sector": "Technologie",
+   "score": 0.8123,
+   "target": 1444.82,
+   "stop": 1152.37,
+   "atr_at_entry": 67.8794728056459,
+   "ziel_atr": 2.71,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3369,
+   "basis_erwartung_r": 0.1635,
+   "score_components": {
+    "trend": 0.129,
+    "setup": 1.0,
+    "volumen": 0.743,
+    "qualitaet": 0.914,
+    "bewertung": 0.353,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 1403.59,
+    "struktur": 1485.85
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-05"
+  },
+  {
+   "symbol": "SNPS",
+   "name": "Synopsys",
+   "sector": "Technologie",
+   "score": 0.7974,
+   "target": 505.9,
+   "stop": 434.13,
+   "atr_at_entry": 18.026289425894245,
+   "ziel_atr": 2.39,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3816,
+   "basis_erwartung_r": 0.1437,
+   "score_components": {
+    "trend": 0.878,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.559,
+    "bewertung": 0.09,
+    "analysten": 0.95,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 500.84,
+    "struktur": 511.76
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-05"
+  },
+  {
+   "symbol": "URI",
+   "name": "United Rentals",
+   "sector": "Industrie",
+   "score": 0.7875,
+   "target": 1208.83,
+   "stop": 1057.86,
+   "atr_at_entry": 40.72518615558623,
+   "ziel_atr": 2.09,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.4137,
+   "basis_erwartung_r": 0.0932,
+   "score_components": {
+    "trend": 0.759,
+    "setup": 0.982,
+    "volumen": 1.0,
+    "qualitaet": 0.688,
+    "bewertung": 0.591,
+    "analysten": 0.663
+   },
+   "target_methods": {
+    "atr": 1205.17,
+    "struktur": 1200.88
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-05"
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "sector": "Kommunikation",
+   "score": 0.7864,
+   "target": 307.16,
+   "stop": 247.18,
+   "atr_at_entry": 13.840221942742842,
+   "ziel_atr": 2.58,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.2981,
+   "basis_erwartung_r": 0.0092,
+   "score_components": {
+    "trend": 0.142,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.911,
+    "bewertung": 0.763,
+    "analysten": 0.925,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 296.29,
+    "struktur": 310.61
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-05"
+  },
+  {
+   "symbol": "ECHO",
+   "name": "EchoStar",
+   "sector": "Kommunikation",
+   "score": 0.782,
+   "target": 109.88,
+   "stop": 91.32,
+   "atr_at_entry": 4.1401670056348685,
+   "ziel_atr": 2.72,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.2786,
+   "basis_erwartung_r": 0.0122,
+   "score_components": {
+    "trend": 0.691,
+    "setup": 0.821,
+    "volumen": 0.89,
+    "qualitaet": 0.704,
+    "bewertung": 0.834,
+    "analysten": 0.898,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 106.01,
+    "struktur": 110.3
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-05"
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "sector": "Kommunikation",
+   "score": 0.7809,
+   "target": 71.09,
+   "stop": 62.95,
+   "atr_at_entry": 1.9649773777740143,
+   "ziel_atr": 2.39,
+   "stop_atr": 1.76,
+   "basis_p_ziel": 0.3277,
+   "basis_erwartung_r": 0.0082,
+   "score_components": {
+    "trend": 0.156,
+    "setup": 1.0,
+    "volumen": 0.452,
+    "qualitaet": 0.842,
+    "bewertung": 0.52,
+    "analysten": 0.888,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 69.92,
+    "struktur": 71.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-05"
   }
  ],
  "closed": [
