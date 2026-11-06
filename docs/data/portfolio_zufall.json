@@ -1931,6 +1931,186 @@
    },
    "order_date": "2026-11-05",
    "tries": 1
+  },
+  {
+   "symbol": "DAL",
+   "name": "Delta Air Lines",
+   "sector": "Industrie",
+   "score": 0.7484,
+   "target": 91.57,
+   "stop": 80.17,
+   "atr_at_entry": 3.20113480977354,
+   "ziel_atr": 1.94,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.4385,
+   "basis_erwartung_r": 0.0854,
+   "score_components": {
+    "trend": 0.782,
+    "setup": 0.899,
+    "volumen": 0.2,
+    "qualitaet": 0.511,
+    "bewertung": 0.942,
+    "analysten": 0.806
+   },
+   "target_methods": {
+    "atr": 91.75,
+    "struktur": 89.83
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-06"
+  },
+  {
+   "symbol": "AIG",
+   "name": "American International Group",
+   "sector": "Finanzen",
+   "score": 0.6561,
+   "target": 83.84,
+   "stop": 78.36,
+   "atr_at_entry": 1.6087167535502231,
+   "ziel_atr": 1.79,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.4609,
+   "basis_erwartung_r": 0.0793,
+   "score_components": {
+    "trend": 0.909,
+    "setup": 0.883,
+    "volumen": 0.139,
+    "qualitaet": 0.383,
+    "bewertung": 0.839,
+    "analysten": 0.556
+   },
+   "target_methods": {
+    "atr": 84.03,
+    "struktur": 83.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-06"
+  },
+  {
+   "symbol": "MSI",
+   "name": "Motorola Solutions",
+   "sector": "Technologie",
+   "score": 0.5486,
+   "target": 541.75,
+   "stop": 499.34,
+   "atr_at_entry": 10.929083713814473,
+   "ziel_atr": 2.29,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.397,
+   "basis_erwartung_r": 0.1372,
+   "score_components": {
+    "trend": 0.962,
+    "setup": 0.473,
+    "volumen": 1.0,
+    "qualitaet": 0.612,
+    "bewertung": 0.126,
+    "analysten": 0.389
+   },
+   "target_methods": {
+    "atr": 539.79,
+    "struktur": 548.28
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-06"
+  },
+  {
+   "symbol": "HUM",
+   "name": "Humana",
+   "sector": "Gesundheit",
+   "score": 0.4465,
+   "target": 446.92,
+   "stop": 388.32,
+   "atr_at_entry": 14.90910704177461,
+   "ziel_atr": 2.37,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3561,
+   "basis_erwartung_r": 0.1198,
+   "score_components": {
+    "trend": 0.868,
+    "setup": 0.97,
+    "volumen": 0.201,
+    "qualitaet": 0.418,
+    "bewertung": 0.395,
+    "analysten": 0.651
+   },
+   "target_methods": {
+    "atr": 441.46,
+    "struktur": 454.92
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-06"
+  },
+  {
+   "symbol": "HII",
+   "name": "Huntington Ingalls Industries",
+   "sector": "Industrie",
+   "score": 0.7255,
+   "target": 320.42,
+   "stop": 272.77,
+   "atr_at_entry": 10.343023188736984,
+   "ziel_atr": 2.99,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.2798,
+   "basis_erwartung_r": 0.1359,
+   "score_components": {
+    "trend": 0.576,
+    "setup": 1.0,
+    "volumen": 0.334,
+    "qualitaet": 0.444,
+    "bewertung": 0.774,
+    "analysten": 0.761
+   },
+   "target_methods": {
+    "atr": 310.18,
+    "struktur": 321.85
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-06"
+  },
+  {
+   "symbol": "BDX",
+   "name": "Becton Dickinson",
+   "sector": "Gesundheit",
+   "score": 0.3982,
+   "target": 224.07,
+   "stop": 206.98,
+   "atr_at_entry": 4.139369981550538,
+   "ziel_atr": 2.57,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3236,
+   "basis_erwartung_r": 0.1252,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.192,
+    "volumen": 1.0,
+    "qualitaet": 0.298,
+    "bewertung": 0.679,
+    "analysten": 0.3
+   },
+   "target_methods": {
+    "atr": 221.73,
+    "struktur": 226.1
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-06"
   }
  ],
  "closed": [
