@@ -1808,6 +1808,191 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-06"
+  },
+  {
+   "symbol": "NXPI",
+   "name": "NXP Semiconductors",
+   "sector": "Technologie",
+   "score": 0.8594,
+   "target": 275.1,
+   "stop": 230.54,
+   "atr_at_entry": 11.041205599585037,
+   "ziel_atr": 2.43,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3773,
+   "basis_erwartung_r": 0.1487,
+   "score_components": {
+    "trend": 0.894,
+    "setup": 1.0,
+    "volumen": 0.527,
+    "qualitaet": 0.85,
+    "bewertung": 0.805,
+    "analysten": 0.781,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 271.65,
+    "struktur": 271.98
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk",
+   "sector": "Technologie",
+   "score": 0.823,
+   "target": 280.78,
+   "stop": 246.87,
+   "atr_at_entry": 9.332996688859689,
+   "ziel_atr": 2.03,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4385,
+   "basis_erwartung_r": 0.1221,
+   "score_components": {
+    "trend": 0.937,
+    "setup": 0.971,
+    "volumen": 0.627,
+    "qualitaet": 0.791,
+    "bewertung": 0.588,
+    "analysten": 0.728,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 281.62,
+    "struktur": 278.88
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
+  },
+  {
+   "symbol": "WST",
+   "name": "West Pharmaceutical Services",
+   "sector": "Gesundheit",
+   "score": 0.7887,
+   "target": 424.39,
+   "stop": 384.44,
+   "atr_at_entry": 9.940987124659936,
+   "ziel_atr": 2.47,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.342,
+   "basis_erwartung_r": 0.1339,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.161,
+    "qualitaet": 0.694,
+    "bewertung": 0.0,
+    "analysten": 0.74
+   },
+   "target_methods": {
+    "atr": 419.99,
+    "struktur": 430.63
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit",
+   "sector": "Technologie",
+   "score": 0.7814,
+   "target": 375.61,
+   "stop": 318.98,
+   "atr_at_entry": 14.078772055869127,
+   "ziel_atr": 2.42,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3792,
+   "basis_erwartung_r": 0.1478,
+   "score_components": {
+    "trend": 0.722,
+    "setup": 1.0,
+    "volumen": 0.191,
+    "qualitaet": 0.762,
+    "bewertung": 0.727,
+    "analysten": 0.758,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 371.39,
+    "struktur": 371.04
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
+  },
+  {
+   "symbol": "LHX",
+   "name": "L3Harris",
+   "sector": "Industrie",
+   "score": 0.769,
+   "target": 280.79,
+   "stop": 248.32,
+   "atr_at_entry": 7.296792724040853,
+   "ziel_atr": 2.84,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3042,
+   "basis_erwartung_r": 0.1383,
+   "score_components": {
+    "trend": 0.635,
+    "setup": 1.0,
+    "volumen": 0.383,
+    "qualitaet": 0.415,
+    "bewertung": 0.643,
+    "analysten": 0.869,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 274.75,
+    "struktur": 283.12
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
+  },
+  {
+   "symbol": "UBER",
+   "name": "Uber",
+   "sector": "Industrie",
+   "score": 0.7682,
+   "target": 74.77,
+   "stop": 65.33,
+   "atr_at_entry": 2.0312464137444524,
+   "ziel_atr": 3.04,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2767,
+   "basis_erwartung_r": 0.1471,
+   "score_components": {
+    "trend": 0.159,
+    "setup": 1.0,
+    "volumen": 0.261,
+    "qualitaet": 0.76,
+    "bewertung": 0.439,
+    "analysten": 0.925,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 72.68,
+    "struktur": 75.01
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
   }
  ],
  "closed": [

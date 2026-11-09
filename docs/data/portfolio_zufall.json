@@ -2111,6 +2111,186 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-06"
+  },
+  {
+   "symbol": "CNC",
+   "name": "Centene Corporation",
+   "sector": "Gesundheit",
+   "score": 0.6403,
+   "target": 78.05,
+   "stop": 64.66,
+   "atr_at_entry": 3.2731863794408995,
+   "ziel_atr": 2.54,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.3312,
+   "basis_erwartung_r": 0.1358,
+   "score_components": {
+    "trend": 0.878,
+    "setup": 1.0,
+    "volumen": 0.189,
+    "qualitaet": 0.215,
+    "bewertung": 0.802,
+    "analysten": 0.513
+   },
+   "target_methods": {
+    "atr": 76.37,
+    "struktur": 78.07
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
+  },
+  {
+   "symbol": "RVTY",
+   "name": "Revvity",
+   "sector": "Gesundheit",
+   "score": 0.5868,
+   "target": 168.93,
+   "stop": 144.0,
+   "atr_at_entry": 7.186718394592967,
+   "ziel_atr": 1.92,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.4383,
+   "basis_erwartung_r": 0.1132,
+   "score_components": {
+    "trend": 0.936,
+    "setup": 0.966,
+    "volumen": 0.048,
+    "qualitaet": 0.313,
+    "bewertung": 0.407,
+    "analysten": 0.332
+   },
+   "target_methods": {
+    "atr": 169.7,
+    "struktur": 171.23
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
+  },
+  {
+   "symbol": "VMC",
+   "name": "Vulcan Materials Company",
+   "sector": "Grundstoffe",
+   "score": 0.6769,
+   "target": 298.4,
+   "stop": 268.97,
+   "atr_at_entry": 8.038538904159584,
+   "ziel_atr": 2.0,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.4271,
+   "basis_erwartung_r": 0.0723,
+   "score_components": {
+    "trend": 0.914,
+    "setup": 1.0,
+    "volumen": 0.057,
+    "qualitaet": 0.396,
+    "bewertung": 0.114,
+    "analysten": 0.605
+   },
+   "target_methods": {
+    "atr": 298.24,
+    "struktur": 300.55
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
+  },
+  {
+   "symbol": "DE",
+   "name": "Deere & Company",
+   "sector": "Industrie",
+   "score": 0.644,
+   "target": 711.4,
+   "stop": 643.86,
+   "atr_at_entry": 18.25075258780716,
+   "ziel_atr": 2.09,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4154,
+   "basis_erwartung_r": 0.0983,
+   "score_components": {
+    "trend": 0.894,
+    "setup": 1.0,
+    "volumen": 0.198,
+    "qualitaet": 0.353,
+    "bewertung": 0.259,
+    "analysten": 0.488
+   },
+   "target_methods": {
+    "atr": 709.96,
+    "struktur": 719.5
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
+  },
+  {
+   "symbol": "PTC",
+   "name": "PTC Inc.",
+   "sector": "Technologie",
+   "score": 0.5138,
+   "target": 198.9,
+   "stop": 191.62,
+   "atr_at_entry": 2.1239672293662837,
+   "ziel_atr": 1.83,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4731,
+   "basis_erwartung_r": 0.1075,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.439,
+    "volumen": 0.0,
+    "qualitaet": 0.713,
+    "bewertung": 0.307,
+    "analysten": 0.329
+   },
+   "target_methods": {
+    "atr": 199.52,
+    "struktur": 198.75
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
+  },
+  {
+   "symbol": "COR",
+   "name": "Cencora",
+   "sector": "Gesundheit",
+   "score": 0.6767,
+   "target": 357.91,
+   "stop": 320.06,
+   "atr_at_entry": 8.702839241594113,
+   "ziel_atr": 2.8,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.2942,
+   "basis_erwartung_r": 0.1422,
+   "score_components": {
+    "trend": 0.884,
+    "setup": 1.0,
+    "volumen": 0.278,
+    "qualitaet": 0.344,
+    "bewertung": 0.693,
+    "analysten": 0.545
+   },
+   "target_methods": {
+    "atr": 351.18,
+    "struktur": 360.51
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-09"
   }
  ],
  "closed": [
