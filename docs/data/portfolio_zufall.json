@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "FITB",
-   "name": "Fifth Third Bancorp",
-   "sector": "Finanzen",
-   "score": 0.7247,
-   "target": 56.75,
-   "stop": 52.21,
-   "atr_at_entry": 1.06416102375085,
-   "ziel_atr": 2.65,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3124,
-   "basis_erwartung_r": 0.11,
-   "score_components": {
-    "trend": 0.583,
-    "setup": 1.0,
-    "volumen": 0.0,
-    "qualitaet": 0.713,
-    "bewertung": 0.553,
-    "analysten": 0.647
-   },
-   "target_methods": {
-    "atr": 55.96,
-    "struktur": 57.07
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
-   "symbol": "SKHY",
-   "name": "SK hynix Inc. American Depositary Shares",
-   "sector": "Technologie",
-   "score": 0.7499,
-   "target": 180.39,
-   "stop": 136.22,
-   "atr_at_entry": 9.16655353715594,
-   "ziel_atr": 3.22,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.2745,
-   "basis_erwartung_r": 0.1904,
-   "score_components": {
-    "trend": 0.291,
-    "setup": 0.859,
-    "volumen": 0.002,
-    "qualitaet": 0.996,
-    "bewertung": 1.0,
-    "analysten": 0.925
-   },
-   "target_methods": {
-    "atr": 170.14,
-    "struktur": 181.59
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
-   "symbol": "NOK",
-   "name": "Nokia Corporation",
-   "sector": "Technologie",
-   "score": 0.5288,
-   "target": 9.95,
-   "stop": 7.68,
-   "atr_at_entry": 0.49979053816056757,
-   "ziel_atr": 2.95,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3058,
-   "basis_erwartung_r": 0.1777,
-   "score_components": {
-    "trend": 0.132,
-    "setup": 0.6,
-    "volumen": 0.0,
-    "qualitaet": 0.355,
-    "bewertung": 0.699,
-    "analysten": 0.836
-   },
-   "target_methods": {
-    "atr": 9.53,
-    "struktur": 10.15
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
-   "symbol": "SWKS",
-   "name": "Skyworks Solutions",
-   "sector": "Technologie",
-   "score": 0.5771,
-   "target": 93.12,
-   "stop": 79.71,
-   "atr_at_entry": 3.4713119291514047,
-   "ziel_atr": 2.27,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.3998,
-   "basis_erwartung_r": 0.136,
-   "score_components": {
-    "trend": 0.907,
-    "setup": 1.0,
-    "volumen": 0.289,
-    "qualitaet": 0.294,
-    "bewertung": 0.666,
-    "analysten": 0.215
-   },
-   "target_methods": {
-    "atr": 92.56,
-    "struktur": 92.63
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
-   "symbol": "DASH",
-   "name": "DoorDash",
-   "sector": "Konsum zyklisch",
-   "score": 0.7344,
-   "target": 205.06,
-   "stop": 168.01,
-   "atr_at_entry": 8.84348718659354,
-   "ziel_atr": 2.46,
-   "stop_atr": 1.73,
-   "basis_p_ziel": 0.3353,
-   "basis_erwartung_r": 0.0402,
-   "score_components": {
-    "trend": 0.323,
-    "setup": 0.956,
-    "volumen": 0.456,
-    "qualitaet": 0.555,
-    "bewertung": 0.417,
-    "analysten": 0.925
-   },
-   "target_methods": {
-    "atr": 199.75,
-    "struktur": 209.22
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
-   "symbol": "EL",
-   "name": "Est\u00e9e Lauder Companies (The)",
-   "sector": "Konsum defensiv",
-   "score": 0.6487,
-   "target": 111.78,
-   "stop": 99.24,
-   "atr_at_entry": 3.5597439072041626,
-   "ziel_atr": 1.8,
-   "stop_atr": 1.72,
-   "basis_p_ziel": 0.4481,
-   "basis_erwartung_r": 0.0315,
-   "score_components": {
-    "trend": 0.933,
-    "setup": 1.0,
-    "volumen": 0.642,
-    "qualitaet": 0.187,
-    "bewertung": 0.076,
-    "analysten": 0.582
-   },
-   "target_methods": {
-    "atr": 111.97,
-    "struktur": 112.49
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
    "symbol": "DLTR",
    "name": "Dollar Tree",
    "sector": "Konsum defensiv",
@@ -1775,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NU",
@@ -1806,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CSX",
@@ -1837,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TDY",
@@ -1868,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "C",
@@ -1899,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "GEN",
@@ -1930,7 +1744,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "DAL",
@@ -1960,7 +1774,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "AIG",
@@ -1990,7 +1805,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "MSI",
@@ -2020,7 +1836,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "HUM",
@@ -2050,7 +1867,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "HII",
@@ -2080,7 +1898,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "BDX",
@@ -2110,7 +1929,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "CNC",
@@ -2140,7 +1960,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   },
   {
    "symbol": "RVTY",
@@ -2170,7 +1991,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   },
   {
    "symbol": "VMC",
@@ -2200,7 +2022,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   },
   {
    "symbol": "DE",
@@ -2230,7 +2053,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   },
   {
    "symbol": "PTC",
@@ -2260,7 +2084,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   },
   {
    "symbol": "COR",
@@ -2290,7 +2115,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4246,6 +4072,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-11-10",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -5357,6 +5191,36 @@
   {
    "date": "2026-11-06",
    "symbol": "SNOW",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "FITB",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "SKHY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "NOK",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "SWKS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "DASH",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "EL",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]

@@ -1243,198 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "JKHY",
-   "name": "Jack Henry & Associates",
-   "sector": "Finanzen",
-   "score": 0.8029,
-   "target": 170.12,
-   "stop": 155.44,
-   "atr_at_entry": 3.71362070158331,
-   "ziel_atr": 2.33,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3638,
-   "basis_erwartung_r": 0.0997,
-   "score_components": {
-    "trend": 0.897,
-    "setup": 1.0,
-    "volumen": 0.878,
-    "qualitaet": 0.705,
-    "bewertung": 0.106,
-    "analysten": 0.672,
-    "sentiment": 0.9
-   },
-   "target_methods": {
-    "atr": 168.54,
-    "struktur": 172.42
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
-   "symbol": "GEV",
-   "name": "GE Vernova",
-   "sector": "Industrie",
-   "score": 0.7983,
-   "target": 1032.12,
-   "stop": 841.45,
-   "atr_at_entry": 47.36469427428246,
-   "ziel_atr": 2.4,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3635,
-   "basis_erwartung_r": 0.1108,
-   "score_components": {
-    "trend": 0.118,
-    "setup": 1.0,
-    "volumen": 0.249,
-    "qualitaet": 0.959,
-    "bewertung": 0.162,
-    "analysten": 0.989,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 1012.76,
-    "struktur": 1051.87
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
-   "symbol": "FSLR",
-   "name": "First Solar",
-   "sector": "Technologie",
-   "score": 0.7912,
-   "target": 208.96,
-   "stop": 174.53,
-   "atr_at_entry": 7.144702192688479,
-   "ziel_atr": 3.22,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.2745,
-   "basis_erwartung_r": 0.1904,
-   "score_components": {
-    "trend": 0.102,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.635,
-    "bewertung": 1.0,
-    "analysten": 0.925,
-    "sentiment": 0.85
-   },
-   "target_methods": {
-    "atr": 200.98,
-    "struktur": 209.9
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
-   "symbol": "FOXA",
-   "name": "Fox Corporation (Class A)",
-   "sector": "Kommunikation",
-   "score": 0.7888,
-   "target": 71.3,
-   "stop": 63.27,
-   "atr_at_entry": 2.161513653074297,
-   "ziel_atr": 1.96,
-   "stop_atr": 1.76,
-   "basis_p_ziel": 0.4039,
-   "basis_erwartung_r": 0.0104,
-   "score_components": {
-    "trend": 0.87,
-    "setup": 0.94,
-    "volumen": 1.0,
-    "qualitaet": 0.631,
-    "bewertung": 0.706,
-    "analysten": 0.705,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 70.94,
-    "struktur": 70.62
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
-   "symbol": "VRTX",
-   "name": "Vertex Pharmaceuticals",
-   "sector": "Gesundheit",
-   "score": 0.7838,
-   "target": 563.6,
-   "stop": 505.94,
-   "atr_at_entry": 16.057149297001416,
-   "ziel_atr": 2.03,
-   "stop_atr": 1.56,
-   "basis_p_ziel": 0.4153,
-   "basis_erwartung_r": 0.1097,
-   "score_components": {
-    "trend": 0.888,
-    "setup": 1.0,
-    "volumen": 0.816,
-    "qualitaet": 0.773,
-    "bewertung": 0.14,
-    "analysten": 0.595,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 563.17,
-    "struktur": 568.39
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "sector": "Konsum zyklisch",
-   "score": 0.7731,
-   "target": 266.54,
-   "stop": 237.58,
-   "atr_at_entry": 7.581204886253751,
-   "ziel_atr": 2.09,
-   "stop_atr": 1.73,
-   "basis_p_ziel": 0.3976,
-   "basis_erwartung_r": 0.0328,
-   "score_components": {
-    "trend": 0.312,
-    "setup": 0.961,
-    "volumen": 0.383,
-    "qualitaet": 0.73,
-    "bewertung": 0.396,
-    "analysten": 1.0,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 264.79,
-    "struktur": 267.5
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-04",
-   "tries": 2
-  },
-  {
    "symbol": "MPWR",
    "name": "Monolithic Power Systems",
    "sector": "Technologie",
@@ -1463,7 +1271,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SNPS",
@@ -1495,7 +1303,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "URI",
@@ -1526,7 +1334,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "APP",
@@ -1558,7 +1366,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ECHO",
@@ -1590,7 +1398,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NFLX",
@@ -1622,7 +1430,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-05",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BLK",
@@ -1653,7 +1461,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "LLY",
@@ -1684,7 +1493,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "ABNB",
@@ -1715,7 +1525,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "BKNG",
@@ -1746,7 +1557,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "V",
@@ -1777,7 +1589,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "RMD",
@@ -1807,7 +1620,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-06"
+   "order_date": "2026-11-06",
+   "tries": 1
   },
   {
    "symbol": "NXPI",
@@ -1838,7 +1652,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   },
   {
    "symbol": "ADSK",
@@ -1869,7 +1684,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   },
   {
    "symbol": "WST",
@@ -1899,7 +1715,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   },
   {
    "symbol": "INTU",
@@ -1930,7 +1747,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   },
   {
    "symbol": "LHX",
@@ -1961,7 +1779,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   },
   {
    "symbol": "UBER",
@@ -1992,7 +1811,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-09"
+   "order_date": "2026-11-09",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4440,6 +4260,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-11-10",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -5551,6 +5379,36 @@
   {
    "date": "2026-11-06",
    "symbol": "SBAC",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "JKHY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "GEV",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "FSLR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "FOXA",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "VRTX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-10",
+   "symbol": "AMZN",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
