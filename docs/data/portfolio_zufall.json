@@ -2117,6 +2117,185 @@
    },
    "order_date": "2026-11-09",
    "tries": 1
+  },
+  {
+   "symbol": "MTD",
+   "name": "Mettler Toledo",
+   "sector": "Gesundheit",
+   "score": 0.4593,
+   "target": 1860.24,
+   "stop": 1693.85,
+   "atr_at_entry": 44.03392755304988,
+   "ziel_atr": 2.23,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.3837,
+   "basis_erwartung_r": 0.1261,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.583,
+    "volumen": 0.261,
+    "qualitaet": 0.456,
+    "bewertung": 0.0,
+    "analysten": 0.181
+   },
+   "target_methods": {
+    "atr": 1851.31,
+    "struktur": 1898.47
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-10"
+  },
+  {
+   "symbol": "TFC",
+   "name": "Truist Financial",
+   "sector": "Finanzen",
+   "score": 0.6147,
+   "target": 52.56,
+   "stop": 48.47,
+   "atr_at_entry": 1.1556923907758414,
+   "ziel_atr": 1.94,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.4342,
+   "basis_erwartung_r": 0.0976,
+   "score_components": {
+    "trend": 0.811,
+    "setup": 0.942,
+    "volumen": 0.0,
+    "qualitaet": 0.415,
+    "bewertung": 0.7,
+    "analysten": 0.401
+   },
+   "target_methods": {
+    "atr": 52.54,
+    "struktur": 52.22
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-10"
+  },
+  {
+   "symbol": "CIEN",
+   "name": "Ciena",
+   "sector": "Technologie",
+   "score": 0.6038,
+   "target": 346.25,
+   "stop": 225.16,
+   "atr_at_entry": 27.560787228327772,
+   "ziel_atr": 2.79,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3299,
+   "basis_erwartung_r": 0.1705,
+   "score_components": {
+    "trend": 0.123,
+    "setup": 0.573,
+    "volumen": 0.0,
+    "qualitaet": 0.668,
+    "bewertung": 0.544,
+    "analysten": 0.891
+   },
+   "target_methods": {
+    "atr": 327.77,
+    "struktur": 362.41
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-10"
+  },
+  {
+   "symbol": "NTRA",
+   "name": "Natera, Inc. Common Stock",
+   "sector": "Gesundheit",
+   "score": 0.6516,
+   "target": 381.95,
+   "stop": 285.74,
+   "atr_at_entry": 22.150151028063476,
+   "ziel_atr": 2.8,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.295,
+   "basis_erwartung_r": 0.1421,
+   "score_components": {
+    "trend": 0.701,
+    "setup": 0.452,
+    "volumen": 0.859,
+    "qualitaet": 0.44,
+    "analysten": 0.98
+   },
+   "target_methods": {
+    "atr": 364.95,
+    "struktur": 388.67
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-10"
+  },
+  {
+   "symbol": "AKAM",
+   "name": "Akamai Technologies",
+   "sector": "Technologie",
+   "score": 0.5457,
+   "target": 97.8,
+   "stop": 71.72,
+   "atr_at_entry": 5.379343261816696,
+   "ziel_atr": 3.25,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.275,
+   "basis_erwartung_r": 0.1942,
+   "score_components": {
+    "trend": 0.109,
+    "setup": 0.488,
+    "volumen": 1.0,
+    "qualitaet": 0.283,
+    "bewertung": 0.772,
+    "analysten": 0.905
+   },
+   "target_methods": {
+    "atr": 91.75,
+    "struktur": 98.51
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-10"
+  },
+  {
+   "symbol": "WELL",
+   "name": "Welltower",
+   "sector": "Immobilien",
+   "score": 0.5878,
+   "target": 257.17,
+   "stop": 237.52,
+   "atr_at_entry": 5.24131085255499,
+   "ziel_atr": 2.04,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3765,
+   "basis_erwartung_r": 0.016,
+   "score_components": {
+    "trend": 0.874,
+    "setup": 0.67,
+    "volumen": 0.205,
+    "qualitaet": 0.561,
+    "bewertung": 0.0,
+    "analysten": 0.527
+   },
+   "target_methods": {
+    "atr": 255.54,
+    "struktur": 260.45
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-10"
   }
  ],
  "closed": [
