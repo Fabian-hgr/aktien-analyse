@@ -1813,6 +1813,190 @@
    },
    "order_date": "2026-11-10",
    "tries": 1
+  },
+  {
+   "symbol": "MPWR",
+   "name": "Monolithic Power Systems",
+   "sector": "Technologie",
+   "score": 0.8325,
+   "target": 1510.31,
+   "stop": 1222.19,
+   "atr_at_entry": 83.99365194064406,
+   "ziel_atr": 1.83,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4729,
+   "basis_erwartung_r": 0.1076,
+   "score_components": {
+    "trend": 0.575,
+    "setup": 0.923,
+    "volumen": 0.315,
+    "qualitaet": 0.914,
+    "bewertung": 0.353,
+    "analysten": 0.925,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 1534.9,
+    "struktur": 1485.85
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
+  },
+  {
+   "symbol": "SNPS",
+   "name": "Synopsys",
+   "sector": "Technologie",
+   "score": 0.8128,
+   "target": 504.89,
+   "stop": 430.66,
+   "atr_at_entry": 18.259159788032054,
+   "ziel_atr": 2.46,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3727,
+   "basis_erwartung_r": 0.1507,
+   "score_components": {
+    "trend": 0.872,
+    "setup": 0.999,
+    "volumen": 0.0,
+    "qualitaet": 0.559,
+    "bewertung": 0.09,
+    "analysten": 0.963,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 498.64,
+    "struktur": 511.76
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
+  },
+  {
+   "symbol": "ADI",
+   "name": "Analog Devices",
+   "sector": "Technologie",
+   "score": 0.7876,
+   "target": 431.9,
+   "stop": 363.78,
+   "atr_at_entry": 18.38883560075437,
+   "ziel_atr": 2.1,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4278,
+   "basis_erwartung_r": 0.1267,
+   "score_components": {
+    "trend": 0.653,
+    "setup": 0.891,
+    "volumen": 0.181,
+    "qualitaet": 0.8,
+    "bewertung": 0.464,
+    "analysten": 0.845
+   },
+   "target_methods": {
+    "atr": 432.24,
+    "struktur": 433.57
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
+  },
+  {
+   "symbol": "URI",
+   "name": "United Rentals",
+   "sector": "Industrie",
+   "score": 0.7821,
+   "target": 1205.5,
+   "stop": 1032.25,
+   "atr_at_entry": 45.36925018224207,
+   "ziel_atr": 2.21,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3971,
+   "basis_erwartung_r": 0.1054,
+   "score_components": {
+    "trend": 0.792,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.688,
+    "bewertung": 0.591,
+    "analysten": 0.694,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 1196.58,
+    "struktur": 1198.79
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
+  },
+  {
+   "symbol": "FOXA",
+   "name": "Fox Corporation (Class A)",
+   "sector": "Kommunikation",
+   "score": 0.7711,
+   "target": 71.61,
+   "stop": 63.18,
+   "atr_at_entry": 2.4216600019476218,
+   "ziel_atr": 1.74,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.4517,
+   "basis_erwartung_r": 0.0178,
+   "score_components": {
+    "trend": 0.877,
+    "setup": 0.875,
+    "volumen": 1.0,
+    "qualitaet": 0.631,
+    "bewertung": 0.706,
+    "analysten": 0.696
+   },
+   "target_methods": {
+    "atr": 71.77,
+    "struktur": 70.43
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
+  },
+  {
+   "symbol": "EOG",
+   "name": "EOG Resources",
+   "sector": "Energie",
+   "score": 0.7649,
+   "target": 164.97,
+   "stop": 145.19,
+   "atr_at_entry": 4.59056475292146,
+   "ziel_atr": 2.93,
+   "stop_atr": 1.38,
+   "basis_p_ziel": 0.3196,
+   "basis_erwartung_r": 0.3069,
+   "score_components": {
+    "trend": 0.718,
+    "setup": 0.896,
+    "volumen": 0.439,
+    "qualitaet": 0.904,
+    "bewertung": 0.697,
+    "analysten": 0.616,
+    "sentiment": 0.7
+   },
+   "target_methods": {
+    "atr": 161.8,
+    "struktur": 165.88
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
   }
  ],
  "closed": [

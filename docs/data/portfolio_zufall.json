@@ -2116,6 +2116,186 @@
    },
    "order_date": "2026-11-10",
    "tries": 1
+  },
+  {
+   "symbol": "BA",
+   "name": "Boeing",
+   "sector": "Industrie",
+   "score": 0.5276,
+   "target": 187.96,
+   "stop": 164.28,
+   "atr_at_entry": 5.6418916313885985,
+   "ziel_atr": 2.59,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3395,
+   "basis_erwartung_r": 0.1269,
+   "score_components": {
+    "trend": 0.162,
+    "setup": 0.571,
+    "volumen": 0.0,
+    "qualitaet": 0.228,
+    "bewertung": 0.0,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 184.71,
+    "struktur": 191.19
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
+  },
+  {
+   "symbol": "CPT",
+   "name": "Camden Property Trust",
+   "sector": "Immobilien",
+   "score": 0.5796,
+   "target": 104.12,
+   "stop": 96.4,
+   "atr_at_entry": 2.0382557577589284,
+   "ziel_atr": 2.08,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3698,
+   "basis_erwartung_r": 0.0155,
+   "score_components": {
+    "trend": 0.364,
+    "setup": 0.89,
+    "volumen": 0.777,
+    "qualitaet": 0.411,
+    "bewertung": 0.0,
+    "analysten": 0.508
+   },
+   "target_methods": {
+    "atr": 103.41,
+    "struktur": 105.32
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
+  },
+  {
+   "symbol": "ORCL",
+   "name": "Oracle Corporation",
+   "sector": "Technologie",
+   "score": 0.6577,
+   "target": 143.58,
+   "stop": 105.31,
+   "atr_at_entry": 7.893579119157829,
+   "ziel_atr": 3.25,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.275,
+   "basis_erwartung_r": 0.1942,
+   "score_components": {
+    "trend": 0.074,
+    "setup": 0.596,
+    "volumen": 0.0,
+    "qualitaet": 0.8,
+    "bewertung": 0.872,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 134.7,
+    "struktur": 144.62
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
+  },
+  {
+   "symbol": "IP",
+   "name": "International Paper",
+   "sector": "Grundstoffe",
+   "score": 0.5897,
+   "target": 38.8,
+   "stop": 32.97,
+   "atr_at_entry": 1.2969329203166564,
+   "ziel_atr": 2.83,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3031,
+   "basis_erwartung_r": 0.1103,
+   "score_components": {
+    "trend": 0.266,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.177,
+    "bewertung": 0.578,
+    "analysten": 0.672
+   },
+   "target_methods": {
+    "atr": 37.69,
+    "struktur": 39.21
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
+  },
+  {
+   "symbol": "HLT",
+   "name": "Hilton Worldwide",
+   "sector": "Konsum zyklisch",
+   "score": 0.5278,
+   "target": 398.2,
+   "stop": 365.25,
+   "atr_at_entry": 8.442069481420349,
+   "ziel_atr": 2.19,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3848,
+   "basis_erwartung_r": 0.0479,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.448,
+    "volumen": 0.0,
+    "qualitaet": 0.709,
+    "bewertung": 0.104,
+    "analysten": 0.404
+   },
+   "target_methods": {
+    "atr": 395.68,
+    "struktur": 404.79
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "sector": "Kommunikation",
+   "score": 0.6559,
+   "target": 67.98,
+   "stop": 59.89,
+   "atr_at_entry": 1.9274830513005623,
+   "ziel_atr": 2.45,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.3196,
+   "basis_erwartung_r": 0.0172,
+   "score_components": {
+    "trend": 0.131,
+    "setup": 0.58,
+    "volumen": 0.0,
+    "qualitaet": 0.842,
+    "bewertung": 0.52,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 66.73,
+    "struktur": 68.74
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-11"
   }
  ],
  "closed": [
