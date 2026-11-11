@@ -1561,192 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "DLTR",
-   "name": "Dollar Tree",
-   "sector": "Konsum defensiv",
-   "score": 0.4559,
-   "target": 158.07,
-   "stop": 138.49,
-   "atr_at_entry": 4.933037790907477,
-   "ziel_atr": 2.25,
-   "stop_atr": 1.72,
-   "basis_p_ziel": 0.3671,
-   "basis_erwartung_r": 0.035,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 0.304,
-    "volumen": 1.0,
-    "qualitaet": 0.467,
-    "bewertung": 0.493,
-    "analysten": 0.27
-   },
-   "target_methods": {
-    "atr": 156.13,
-    "struktur": 161.38
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-05",
-   "tries": 2
-  },
-  {
-   "symbol": "NU",
-   "name": "Nu Holdings Ltd.",
-   "sector": "Finanzen",
-   "score": 0.4237,
-   "target": 13.81,
-   "stop": 10.92,
-   "atr_at_entry": 0.6573238046527757,
-   "ziel_atr": 2.79,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.2916,
-   "basis_erwartung_r": 0.114,
-   "score_components": {
-    "trend": 0.13,
-    "setup": 0.51,
-    "volumen": 0.147,
-    "qualitaet": 1.0,
-    "bewertung": 0.811,
-    "analysten": 0.911
-   },
-   "target_methods": {
-    "atr": 13.23,
-    "struktur": 13.92
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-05",
-   "tries": 2
-  },
-  {
-   "symbol": "CSX",
-   "name": "CSX Corporation",
-   "sector": "Industrie",
-   "score": 0.6681,
-   "target": 54.88,
-   "stop": 50.29,
-   "atr_at_entry": 1.1125042761445374,
-   "ziel_atr": 2.51,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3471,
-   "basis_erwartung_r": 0.1164,
-   "score_components": {
-    "trend": 0.877,
-    "setup": 0.754,
-    "volumen": 0.494,
-    "qualitaet": 0.735,
-    "bewertung": 0.409,
-    "analysten": 0.492
-   },
-   "target_methods": {
-    "atr": 54.31,
-    "struktur": 55.57
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-05",
-   "tries": 2
-  },
-  {
-   "symbol": "TDY",
-   "name": "Teledyne Technologies",
-   "sector": "Technologie",
-   "score": 0.6776,
-   "target": 671.95,
-   "stop": 605.7,
-   "atr_at_entry": 16.256032015933577,
-   "ziel_atr": 2.48,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.3673,
-   "basis_erwartung_r": 0.1498,
-   "score_components": {
-    "trend": 0.517,
-    "setup": 0.86,
-    "volumen": 0.663,
-    "qualitaet": 0.539,
-    "bewertung": 0.364,
-    "analysten": 0.709
-   },
-   "target_methods": {
-    "atr": 665.87,
-    "struktur": 678.83
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-05",
-   "tries": 2
-  },
-  {
-   "symbol": "C",
-   "name": "Citigroup",
-   "sector": "Finanzen",
-   "score": 0.6944,
-   "target": 133.57,
-   "stop": 119.65,
-   "atr_at_entry": 3.1488570213199174,
-   "ziel_atr": 2.8,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.2895,
-   "basis_erwartung_r": 0.1142,
-   "score_components": {
-    "trend": 0.146,
-    "setup": 1.0,
-    "volumen": 0.451,
-    "qualitaet": 0.538,
-    "bewertung": 0.86,
-    "analysten": 0.752
-   },
-   "target_methods": {
-    "atr": 130.76,
-    "struktur": 134.05
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-05",
-   "tries": 2
-  },
-  {
-   "symbol": "GEN",
-   "name": "Gen Digital",
-   "sector": "Technologie",
-   "score": 0.5323,
-   "target": 34.2,
-   "stop": 29.14,
-   "atr_at_entry": 1.0992368509363168,
-   "ziel_atr": 3.01,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.2983,
-   "basis_erwartung_r": 0.181,
-   "score_components": {
-    "trend": 0.944,
-    "setup": 0.329,
-    "volumen": 0.568,
-    "qualitaet": 0.67,
-    "bewertung": 0.722,
-    "analysten": 0.422
-   },
-   "target_methods": {
-    "atr": 33.2,
-    "struktur": 34.58
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-05",
-   "tries": 2
-  },
-  {
    "symbol": "DAL",
    "name": "Delta Air Lines",
    "sector": "Industrie",
@@ -1775,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-06",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AIG",
@@ -1806,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-06",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MSI",
@@ -1837,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-06",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "HUM",
@@ -1868,7 +1682,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-06",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "HII",
@@ -1899,7 +1713,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-06",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BDX",
@@ -1930,7 +1744,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-06",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CNC",
@@ -1961,7 +1775,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-09",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "RVTY",
@@ -1992,7 +1806,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-09",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "VMC",
@@ -2023,7 +1837,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-09",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "DE",
@@ -2054,7 +1868,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-09",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "PTC",
@@ -2085,7 +1899,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-09",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "COR",
@@ -2116,7 +1930,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-09",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MTD",
@@ -2146,7 +1960,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-10"
+   "order_date": "2026-11-10",
+   "tries": 1
   },
   {
    "symbol": "TFC",
@@ -2176,7 +1991,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-10"
+   "order_date": "2026-11-10",
+   "tries": 1
   },
   {
    "symbol": "CIEN",
@@ -2206,7 +2022,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-10"
+   "order_date": "2026-11-10",
+   "tries": 1
   },
   {
    "symbol": "NTRA",
@@ -2235,7 +2052,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-10"
+   "order_date": "2026-11-10",
+   "tries": 1
   },
   {
    "symbol": "AKAM",
@@ -2265,7 +2083,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-10"
+   "order_date": "2026-11-10",
+   "tries": 1
   },
   {
    "symbol": "WELL",
@@ -2295,7 +2114,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-10"
+   "order_date": "2026-11-10",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4259,6 +4079,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-11-11",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -5400,6 +5228,36 @@
   {
    "date": "2026-11-10",
    "symbol": "EL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-11",
+   "symbol": "DLTR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-11",
+   "symbol": "NU",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-11",
+   "symbol": "CSX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-11",
+   "symbol": "TDY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-11",
+   "symbol": "C",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-11",
+   "symbol": "GEN",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
