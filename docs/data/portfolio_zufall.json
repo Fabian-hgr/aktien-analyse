@@ -1561,378 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "DAL",
-   "name": "Delta Air Lines",
-   "sector": "Industrie",
-   "score": 0.7484,
-   "target": 91.57,
-   "stop": 80.17,
-   "atr_at_entry": 3.20113480977354,
-   "ziel_atr": 1.94,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.4385,
-   "basis_erwartung_r": 0.0854,
-   "score_components": {
-    "trend": 0.782,
-    "setup": 0.899,
-    "volumen": 0.2,
-    "qualitaet": 0.511,
-    "bewertung": 0.942,
-    "analysten": 0.806
-   },
-   "target_methods": {
-    "atr": 91.75,
-    "struktur": 89.83
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-06",
-   "tries": 2
-  },
-  {
-   "symbol": "AIG",
-   "name": "American International Group",
-   "sector": "Finanzen",
-   "score": 0.6561,
-   "target": 83.84,
-   "stop": 78.36,
-   "atr_at_entry": 1.6087167535502231,
-   "ziel_atr": 1.79,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.4609,
-   "basis_erwartung_r": 0.0793,
-   "score_components": {
-    "trend": 0.909,
-    "setup": 0.883,
-    "volumen": 0.139,
-    "qualitaet": 0.383,
-    "bewertung": 0.839,
-    "analysten": 0.556
-   },
-   "target_methods": {
-    "atr": 84.03,
-    "struktur": 83.05
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-06",
-   "tries": 2
-  },
-  {
-   "symbol": "MSI",
-   "name": "Motorola Solutions",
-   "sector": "Technologie",
-   "score": 0.5486,
-   "target": 541.75,
-   "stop": 499.34,
-   "atr_at_entry": 10.929083713814473,
-   "ziel_atr": 2.29,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.397,
-   "basis_erwartung_r": 0.1372,
-   "score_components": {
-    "trend": 0.962,
-    "setup": 0.473,
-    "volumen": 1.0,
-    "qualitaet": 0.612,
-    "bewertung": 0.126,
-    "analysten": 0.389
-   },
-   "target_methods": {
-    "atr": 539.79,
-    "struktur": 548.28
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-06",
-   "tries": 2
-  },
-  {
-   "symbol": "HUM",
-   "name": "Humana",
-   "sector": "Gesundheit",
-   "score": 0.4465,
-   "target": 446.92,
-   "stop": 388.32,
-   "atr_at_entry": 14.90910704177461,
-   "ziel_atr": 2.37,
-   "stop_atr": 1.56,
-   "basis_p_ziel": 0.3561,
-   "basis_erwartung_r": 0.1198,
-   "score_components": {
-    "trend": 0.868,
-    "setup": 0.97,
-    "volumen": 0.201,
-    "qualitaet": 0.418,
-    "bewertung": 0.395,
-    "analysten": 0.651
-   },
-   "target_methods": {
-    "atr": 441.46,
-    "struktur": 454.92
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-06",
-   "tries": 2
-  },
-  {
-   "symbol": "HII",
-   "name": "Huntington Ingalls Industries",
-   "sector": "Industrie",
-   "score": 0.7255,
-   "target": 320.42,
-   "stop": 272.77,
-   "atr_at_entry": 10.343023188736984,
-   "ziel_atr": 2.99,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.2798,
-   "basis_erwartung_r": 0.1359,
-   "score_components": {
-    "trend": 0.576,
-    "setup": 1.0,
-    "volumen": 0.334,
-    "qualitaet": 0.444,
-    "bewertung": 0.774,
-    "analysten": 0.761
-   },
-   "target_methods": {
-    "atr": 310.18,
-    "struktur": 321.85
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-06",
-   "tries": 2
-  },
-  {
-   "symbol": "BDX",
-   "name": "Becton Dickinson",
-   "sector": "Gesundheit",
-   "score": 0.3982,
-   "target": 224.07,
-   "stop": 206.98,
-   "atr_at_entry": 4.139369981550538,
-   "ziel_atr": 2.57,
-   "stop_atr": 1.56,
-   "basis_p_ziel": 0.3236,
-   "basis_erwartung_r": 0.1252,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 0.192,
-    "volumen": 1.0,
-    "qualitaet": 0.298,
-    "bewertung": 0.679,
-    "analysten": 0.3
-   },
-   "target_methods": {
-    "atr": 221.73,
-    "struktur": 226.1
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-06",
-   "tries": 2
-  },
-  {
-   "symbol": "CNC",
-   "name": "Centene Corporation",
-   "sector": "Gesundheit",
-   "score": 0.6403,
-   "target": 78.05,
-   "stop": 64.66,
-   "atr_at_entry": 3.2731863794408995,
-   "ziel_atr": 2.54,
-   "stop_atr": 1.55,
-   "basis_p_ziel": 0.3312,
-   "basis_erwartung_r": 0.1358,
-   "score_components": {
-    "trend": 0.878,
-    "setup": 1.0,
-    "volumen": 0.189,
-    "qualitaet": 0.215,
-    "bewertung": 0.802,
-    "analysten": 0.513
-   },
-   "target_methods": {
-    "atr": 76.37,
-    "struktur": 78.07
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-09",
-   "tries": 2
-  },
-  {
-   "symbol": "RVTY",
-   "name": "Revvity",
-   "sector": "Gesundheit",
-   "score": 0.5868,
-   "target": 168.93,
-   "stop": 144.0,
-   "atr_at_entry": 7.186718394592967,
-   "ziel_atr": 1.92,
-   "stop_atr": 1.55,
-   "basis_p_ziel": 0.4383,
-   "basis_erwartung_r": 0.1132,
-   "score_components": {
-    "trend": 0.936,
-    "setup": 0.966,
-    "volumen": 0.048,
-    "qualitaet": 0.313,
-    "bewertung": 0.407,
-    "analysten": 0.332
-   },
-   "target_methods": {
-    "atr": 169.7,
-    "struktur": 171.23
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-09",
-   "tries": 2
-  },
-  {
-   "symbol": "VMC",
-   "name": "Vulcan Materials Company",
-   "sector": "Grundstoffe",
-   "score": 0.6769,
-   "target": 298.4,
-   "stop": 268.97,
-   "atr_at_entry": 8.038538904159584,
-   "ziel_atr": 2.0,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.4271,
-   "basis_erwartung_r": 0.0723,
-   "score_components": {
-    "trend": 0.914,
-    "setup": 1.0,
-    "volumen": 0.057,
-    "qualitaet": 0.396,
-    "bewertung": 0.114,
-    "analysten": 0.605
-   },
-   "target_methods": {
-    "atr": 298.24,
-    "struktur": 300.55
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-09",
-   "tries": 2
-  },
-  {
-   "symbol": "DE",
-   "name": "Deere & Company",
-   "sector": "Industrie",
-   "score": 0.644,
-   "target": 711.4,
-   "stop": 643.86,
-   "atr_at_entry": 18.25075258780716,
-   "ziel_atr": 2.09,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.4154,
-   "basis_erwartung_r": 0.0983,
-   "score_components": {
-    "trend": 0.894,
-    "setup": 1.0,
-    "volumen": 0.198,
-    "qualitaet": 0.353,
-    "bewertung": 0.259,
-    "analysten": 0.488
-   },
-   "target_methods": {
-    "atr": 709.96,
-    "struktur": 719.5
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-09",
-   "tries": 2
-  },
-  {
-   "symbol": "PTC",
-   "name": "PTC Inc.",
-   "sector": "Technologie",
-   "score": 0.5138,
-   "target": 198.9,
-   "stop": 191.62,
-   "atr_at_entry": 2.1239672293662837,
-   "ziel_atr": 1.83,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.4731,
-   "basis_erwartung_r": 0.1075,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 0.439,
-    "volumen": 0.0,
-    "qualitaet": 0.713,
-    "bewertung": 0.307,
-    "analysten": 0.329
-   },
-   "target_methods": {
-    "atr": 199.52,
-    "struktur": 198.75
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-09",
-   "tries": 2
-  },
-  {
-   "symbol": "COR",
-   "name": "Cencora",
-   "sector": "Gesundheit",
-   "score": 0.6767,
-   "target": 357.91,
-   "stop": 320.06,
-   "atr_at_entry": 8.702839241594113,
-   "ziel_atr": 2.8,
-   "stop_atr": 1.55,
-   "basis_p_ziel": 0.2942,
-   "basis_erwartung_r": 0.1422,
-   "score_components": {
-    "trend": 0.884,
-    "setup": 1.0,
-    "volumen": 0.278,
-    "qualitaet": 0.344,
-    "bewertung": 0.693,
-    "analysten": 0.545
-   },
-   "target_methods": {
-    "atr": 351.18,
-    "struktur": 360.51
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-09",
-   "tries": 2
-  },
-  {
    "symbol": "MTD",
    "name": "Mettler Toledo",
    "sector": "Gesundheit",
@@ -1961,7 +1589,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-10",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TFC",
@@ -1992,7 +1620,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-10",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CIEN",
@@ -2023,7 +1651,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-10",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "NTRA",
@@ -2053,7 +1681,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-10",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AKAM",
@@ -2084,7 +1712,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-10",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "WELL",
@@ -2115,7 +1743,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-10",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BA",
@@ -2145,7 +1773,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-11"
+   "order_date": "2026-11-11",
+   "tries": 1
   },
   {
    "symbol": "CPT",
@@ -2175,7 +1804,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-11"
+   "order_date": "2026-11-11",
+   "tries": 1
   },
   {
    "symbol": "ORCL",
@@ -2205,7 +1835,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-11"
+   "order_date": "2026-11-11",
+   "tries": 1
   },
   {
    "symbol": "IP",
@@ -2235,7 +1866,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-11"
+   "order_date": "2026-11-11",
+   "tries": 1
   },
   {
    "symbol": "HLT",
@@ -2265,7 +1897,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-11"
+   "order_date": "2026-11-11",
+   "tries": 1
   },
   {
    "symbol": "NFLX",
@@ -2295,7 +1928,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-11"
+   "order_date": "2026-11-11",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4267,6 +3901,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-11-12",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -5438,6 +5080,66 @@
   {
    "date": "2026-11-11",
    "symbol": "GEN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "DAL",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "AIG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "MSI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "HUM",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "HII",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "BDX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "CNC",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "RVTY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "VMC",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "DE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "PTC",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-12",
+   "symbol": "COR",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
