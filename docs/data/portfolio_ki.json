@@ -1621,6 +1621,190 @@
    },
    "order_date": "2026-11-11",
    "tries": 1
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk",
+   "sector": "Technologie",
+   "score": 0.8217,
+   "target": 279.56,
+   "stop": 246.25,
+   "atr_at_entry": 8.588082623872307,
+   "ziel_atr": 2.28,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4012,
+   "basis_erwartung_r": 0.1383,
+   "score_components": {
+    "trend": 0.899,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.791,
+    "bewertung": 0.652,
+    "analysten": 0.745
+   },
+   "target_methods": {
+    "atr": 278.23,
+    "struktur": 278.88
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
+  },
+  {
+   "symbol": "ABNB",
+   "name": "Airbnb",
+   "sector": "Konsum zyklisch",
+   "score": 0.7901,
+   "target": 194.95,
+   "stop": 169.61,
+   "atr_at_entry": 6.730558774486894,
+   "ziel_atr": 2.05,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.4081,
+   "basis_erwartung_r": 0.0447,
+   "score_components": {
+    "trend": 0.805,
+    "setup": 1.0,
+    "volumen": 0.413,
+    "qualitaet": 0.904,
+    "bewertung": 0.19,
+    "analysten": 0.647,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 193.87,
+    "struktur": 197.57
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
+  },
+  {
+   "symbol": "PODD",
+   "name": "Insulet Corporation",
+   "sector": "Gesundheit",
+   "score": 0.7862,
+   "target": 165.49,
+   "stop": 140.9,
+   "atr_at_entry": 5.820479705403964,
+   "ziel_atr": 2.68,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.3118,
+   "basis_erwartung_r": 0.1392,
+   "score_components": {
+    "trend": 0.708,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.75,
+    "bewertung": 0.568,
+    "analysten": 0.74
+   },
+   "target_methods": {
+    "atr": 161.71,
+    "struktur": 167.95
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
+  },
+  {
+   "symbol": "KLAC",
+   "name": "KLA Corporation",
+   "sector": "Technologie",
+   "score": 0.7838,
+   "target": 188.43,
+   "stop": 145.56,
+   "atr_at_entry": 9.658658688814565,
+   "ziel_atr": 2.84,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3242,
+   "basis_erwartung_r": 0.1731,
+   "score_components": {
+    "trend": 0.135,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.927,
+    "bewertung": 0.418,
+    "analysten": 0.925,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 181.52,
+    "struktur": 193.66
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
+  },
+  {
+   "symbol": "ASML",
+   "name": "ASML Holding N.V. New York Registry Shares",
+   "sector": "Technologie",
+   "score": 0.7783,
+   "target": 1723.3,
+   "stop": 1425.68,
+   "atr_at_entry": 67.68944866950862,
+   "ziel_atr": 2.79,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3295,
+   "basis_erwartung_r": 0.1706,
+   "score_components": {
+    "trend": 0.129,
+    "setup": 0.819,
+    "volumen": 0.22,
+    "qualitaet": 0.993,
+    "bewertung": 0.418,
+    "analysten": 0.945,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 1677.69,
+    "struktur": 1762.77
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
+  },
+  {
+   "symbol": "V",
+   "name": "Visa Inc.",
+   "sector": "Finanzen",
+   "score": 0.7711,
+   "target": 440.59,
+   "stop": 411.99,
+   "atr_at_entry": 8.580168921370008,
+   "ziel_atr": 1.74,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4744,
+   "basis_erwartung_r": 0.0888,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.936,
+    "volumen": 0.086,
+    "qualitaet": 0.851,
+    "bewertung": 0.114,
+    "analysten": 0.615,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 442.24,
+    "struktur": 441.3
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
   }
  ],
  "closed": [

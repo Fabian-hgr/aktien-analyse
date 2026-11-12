@@ -1930,6 +1930,186 @@
    },
    "order_date": "2026-11-11",
    "tries": 1
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet Inc. (Class A)",
+   "sector": "Kommunikation",
+   "score": 0.7063,
+   "target": 318.61,
+   "stop": 275.76,
+   "atr_at_entry": 10.21626166566831,
+   "ziel_atr": 2.45,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.3194,
+   "basis_erwartung_r": 0.0172,
+   "score_components": {
+    "trend": 0.148,
+    "setup": 0.551,
+    "volumen": 0.097,
+    "qualitaet": 0.98,
+    "bewertung": 0.531,
+    "analysten": 1.0
+   },
+   "target_methods": {
+    "atr": 311.99,
+    "struktur": 322.65
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
+  },
+  {
+   "symbol": "CNP",
+   "name": "CenterPoint Energy",
+   "sector": "Versorger",
+   "score": 0.6368,
+   "target": 42.64,
+   "stop": 39.64,
+   "atr_at_entry": 0.8475807046410598,
+   "ziel_atr": 1.94,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4062,
+   "basis_erwartung_r": 0.0443,
+   "score_components": {
+    "trend": 0.685,
+    "setup": 1.0,
+    "volumen": 0.115,
+    "qualitaet": 0.35,
+    "bewertung": 0.361,
+    "analysten": 0.537
+   },
+   "target_methods": {
+    "atr": 42.53,
+    "struktur": 42.76
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
+  },
+  {
+   "symbol": "NRG",
+   "name": "NRG Energy",
+   "sector": "Versorger",
+   "score": 0.7445,
+   "target": 110.78,
+   "stop": 89.68,
+   "atr_at_entry": 4.903574784931478,
+   "ziel_atr": 2.7,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.2771,
+   "basis_erwartung_r": 0.0476,
+   "score_components": {
+    "trend": 0.117,
+    "setup": 1.0,
+    "volumen": 0.012,
+    "qualitaet": 0.535,
+    "bewertung": 0.978,
+    "analysten": 0.945
+   },
+   "target_methods": {
+    "atr": 106.4,
+    "struktur": 111.12
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
+  },
+  {
+   "symbol": "WMT",
+   "name": "Walmart",
+   "sector": "Konsum defensiv",
+   "score": 0.4171,
+   "target": 130.98,
+   "stop": 120.81,
+   "atr_at_entry": 2.859465955551823,
+   "ziel_atr": 1.84,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.4447,
+   "basis_erwartung_r": 0.0411,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.002,
+    "qualitaet": 0.443,
+    "bewertung": 0.0,
+    "analysten": 0.503
+   },
+   "target_methods": {
+    "atr": 131.11,
+    "struktur": 131.78
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
+  },
+  {
+   "symbol": "HII",
+   "name": "Huntington Ingalls Industries",
+   "sector": "Industrie",
+   "score": 0.6135,
+   "target": 333.25,
+   "stop": 297.63,
+   "atr_at_entry": 10.159520000673888,
+   "ziel_atr": 1.89,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4483,
+   "basis_erwartung_r": 0.0872,
+   "score_components": {
+    "trend": 0.609,
+    "setup": 0.814,
+    "volumen": 0.056,
+    "qualitaet": 0.444,
+    "bewertung": 0.775,
+    "analysten": 0.576
+   },
+   "target_methods": {
+    "atr": 334.43,
+    "struktur": 327.65
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
+  },
+  {
+   "symbol": "JCI",
+   "name": "Johnson Controls",
+   "sector": "Industrie",
+   "score": 0.7126,
+   "target": 159.2,
+   "stop": 135.34,
+   "atr_at_entry": 5.73510994612316,
+   "ziel_atr": 2.55,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3446,
+   "basis_erwartung_r": 0.1253,
+   "score_components": {
+    "trend": 0.384,
+    "setup": 0.939,
+    "volumen": 0.54,
+    "qualitaet": 0.575,
+    "bewertung": 0.527,
+    "analysten": 0.748
+   },
+   "target_methods": {
+    "atr": 156.11,
+    "struktur": 160.33
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-12"
   }
  ],
  "closed": [
