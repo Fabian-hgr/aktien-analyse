@@ -1621,6 +1621,190 @@
    },
    "order_date": "2026-11-12",
    "tries": 1
+  },
+  {
+   "symbol": "CDNS",
+   "name": "Cadence Design Systems",
+   "sector": "Technologie",
+   "score": 0.8605,
+   "target": 361.07,
+   "stop": 312.14,
+   "atr_at_entry": 13.215414992465808,
+   "ziel_atr": 2.1,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.428,
+   "basis_erwartung_r": 0.1266,
+   "score_components": {
+    "trend": 0.818,
+    "setup": 1.0,
+    "volumen": 0.42,
+    "qualitaet": 0.841,
+    "bewertung": 0.02,
+    "analysten": 0.892
+   },
+   "target_methods": {
+    "atr": 361.34,
+    "struktur": 361.9
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "HWM",
+   "name": "Howmet Aerospace",
+   "sector": "Industrie",
+   "score": 0.8342,
+   "target": 245.78,
+   "stop": 208.94,
+   "atr_at_entry": 8.77682365726437,
+   "ziel_atr": 2.59,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3396,
+   "basis_erwartung_r": 0.1269,
+   "score_components": {
+    "trend": 0.329,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.889,
+    "bewertung": 0.34,
+    "analysten": 0.973
+   },
+   "target_methods": {
+    "atr": 240.73,
+    "struktur": 250.8
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "MA",
+   "name": "Mastercard",
+   "sector": "Finanzen",
+   "score": 0.7943,
+   "target": 678.48,
+   "stop": 630.96,
+   "atr_at_entry": 13.564896015802221,
+   "ziel_atr": 1.91,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4415,
+   "basis_erwartung_r": 0.096,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.239,
+    "qualitaet": 0.708,
+    "bewertung": 0.156,
+    "analysten": 0.693,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 678.78,
+    "struktur": 681.4
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "UAL",
+   "name": "United Airlines Holdings",
+   "sector": "Industrie",
+   "score": 0.7941,
+   "target": 123.74,
+   "stop": 102.91,
+   "atr_at_entry": 5.17195611273896,
+   "ziel_atr": 2.41,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3649,
+   "basis_erwartung_r": 0.1179,
+   "score_components": {
+    "trend": 0.714,
+    "setup": 1.0,
+    "volumen": 0.255,
+    "qualitaet": 0.471,
+    "bewertung": 0.6,
+    "analysten": 0.986,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 121.65,
+    "struktur": 122.02
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "ORCL",
+   "name": "Oracle Corporation",
+   "sector": "Technologie",
+   "score": 0.7922,
+   "target": 153.28,
+   "stop": 114.19,
+   "atr_at_entry": 8.06244832330564,
+   "ziel_atr": 3.25,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.275,
+   "basis_erwartung_r": 0.1942,
+   "score_components": {
+    "trend": 0.064,
+    "setup": 0.99,
+    "volumen": 0.0,
+    "qualitaet": 0.8,
+    "bewertung": 0.891,
+    "analysten": 1.0,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 144.21,
+    "struktur": 154.34
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "ECHO",
+   "name": "EchoStar",
+   "sector": "Kommunikation",
+   "score": 0.7913,
+   "target": 107.27,
+   "stop": 89.64,
+   "atr_at_entry": 4.867393839377341,
+   "ziel_atr": 1.88,
+   "stop_atr": 1.74,
+   "basis_p_ziel": 0.4219,
+   "basis_erwartung_r": 0.0176,
+   "score_components": {
+    "trend": 0.668,
+    "setup": 0.897,
+    "volumen": 0.0,
+    "qualitaet": 0.704,
+    "bewertung": 0.834,
+    "analysten": 0.898,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 106.9,
+    "struktur": 104.85
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
   }
  ],
  "closed": [

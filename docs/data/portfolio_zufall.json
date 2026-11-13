@@ -1931,6 +1931,188 @@
    },
    "order_date": "2026-11-12",
    "tries": 1
+  },
+  {
+   "symbol": "V",
+   "name": "Visa Inc.",
+   "sector": "Finanzen",
+   "score": 0.7929,
+   "target": 437.87,
+   "stop": 406.48,
+   "atr_at_entry": 8.676942569572343,
+   "ziel_atr": 2.02,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.4197,
+   "basis_erwartung_r": 0.1007,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.462,
+    "qualitaet": 0.851,
+    "bewertung": 0.114,
+    "analysten": 0.636,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 437.06,
+    "struktur": 441.3
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "EME",
+   "name": "Emcor",
+   "sector": "Industrie",
+   "score": 0.7127,
+   "target": 752.97,
+   "stop": 614.09,
+   "atr_at_entry": 30.0557025519989,
+   "ziel_atr": 3.01,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2805,
+   "basis_erwartung_r": 0.1459,
+   "score_components": {
+    "trend": 0.121,
+    "setup": 0.852,
+    "volumen": 0.0,
+    "qualitaet": 0.783,
+    "bewertung": 0.837,
+    "analysten": 0.816
+   },
+   "target_methods": {
+    "atr": 722.95,
+    "struktur": 757.46
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "MCO",
+   "name": "Moody's Corporation",
+   "sector": "Finanzen",
+   "score": 0.7181,
+   "target": 529.83,
+   "stop": 487.04,
+   "atr_at_entry": 12.386012449576238,
+   "ziel_atr": 1.86,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4508,
+   "basis_erwartung_r": 0.0939,
+   "score_components": {
+    "trend": 0.901,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.62,
+    "bewertung": 0.126,
+    "analysten": 0.568
+   },
+   "target_methods": {
+    "atr": 530.71,
+    "struktur": 532.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "ABNB",
+   "name": "Airbnb",
+   "sector": "Konsum zyklisch",
+   "score": 0.8035,
+   "target": 194.83,
+   "stop": 169.78,
+   "atr_at_entry": 6.60873314807515,
+   "ziel_atr": 2.08,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.404,
+   "basis_erwartung_r": 0.0453,
+   "score_components": {
+    "trend": 0.811,
+    "setup": 1.0,
+    "volumen": 0.132,
+    "qualitaet": 0.904,
+    "bewertung": 0.19,
+    "analysten": 0.647,
+    "sentiment": 0.85
+   },
+   "target_methods": {
+    "atr": 193.6,
+    "struktur": 197.57
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "ALNY",
+   "name": "Alnylam Pharmaceuticals, Inc. Common Stock",
+   "sector": "Gesundheit",
+   "score": 0.6183,
+   "target": 186.13,
+   "stop": 141.34,
+   "atr_at_entry": 9.872066155624381,
+   "ziel_atr": 2.99,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.2675,
+   "basis_erwartung_r": 0.1468,
+   "score_components": {
+    "trend": 0.163,
+    "setup": 0.375,
+    "volumen": 0.076,
+    "qualitaet": 0.864,
+    "bewertung": 0.833,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 176.65,
+    "struktur": 187.22
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "DHI",
+   "name": "D. R. Horton",
+   "sector": "Konsum zyklisch",
+   "score": 0.5247,
+   "target": 158.57,
+   "stop": 135.26,
+   "atr_at_entry": 5.328547531716579,
+   "ziel_atr": 2.66,
+   "stop_atr": 1.71,
+   "basis_p_ziel": 0.3103,
+   "basis_erwartung_r": 0.0605,
+   "score_components": {
+    "trend": 0.592,
+    "setup": 0.865,
+    "volumen": 0.003,
+    "qualitaet": 0.371,
+    "bewertung": 0.593,
+    "analysten": 0.297
+   },
+   "target_methods": {
+    "atr": 154.46,
+    "struktur": 160.22
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-13"
   }
  ],
  "closed": [
