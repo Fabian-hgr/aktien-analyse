@@ -1243,196 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "META",
-   "name": "Meta Platforms",
-   "sector": "Kommunikation",
-   "score": 0.8502,
-   "target": 701.34,
-   "stop": 597.92,
-   "atr_at_entry": 24.917085179786632,
-   "ziel_atr": 2.41,
-   "stop_atr": 1.74,
-   "basis_p_ziel": 0.3268,
-   "basis_erwartung_r": 0.0173,
-   "score_components": {
-    "trend": 0.523,
-    "setup": 0.903,
-    "volumen": 0.191,
-    "qualitaet": 0.966,
-    "bewertung": 0.556,
-    "analysten": 1.0,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 686.28,
-    "struktur": 712.26
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-10",
-   "tries": 2
-  },
-  {
-   "symbol": "TXN",
-   "name": "Texas Instruments",
-   "sector": "Technologie",
-   "score": 0.8073,
-   "target": 318.56,
-   "stop": 275.63,
-   "atr_at_entry": 12.524255191451186,
-   "ziel_atr": 1.83,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.4732,
-   "basis_erwartung_r": 0.1074,
-   "score_components": {
-    "trend": 0.883,
-    "setup": 0.953,
-    "volumen": 0.152,
-    "qualitaet": 0.943,
-    "bewertung": 0.322,
-    "analysten": 0.672,
-    "sentiment": 0.8
-   },
-   "target_methods": {
-    "atr": 322.25,
-    "struktur": 317.2
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-10",
-   "tries": 2
-  },
-  {
-   "symbol": "HWM",
-   "name": "Howmet Aerospace",
-   "sector": "Industrie",
-   "score": 0.807,
-   "target": 241.04,
-   "stop": 200.82,
-   "atr_at_entry": 9.58105102881847,
-   "ziel_atr": 2.59,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.3396,
-   "basis_erwartung_r": 0.1269,
-   "score_components": {
-    "trend": 0.146,
-    "setup": 1.0,
-    "volumen": 0.183,
-    "qualitaet": 0.889,
-    "bewertung": 0.34,
-    "analysten": 0.973
-   },
-   "target_methods": {
-    "atr": 235.52,
-    "struktur": 246.52
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-10",
-   "tries": 2
-  },
-  {
-   "symbol": "CDNS",
-   "name": "Cadence Design Systems",
-   "sector": "Technologie",
-   "score": 0.7941,
-   "target": 363.42,
-   "stop": 314.22,
-   "atr_at_entry": 13.964983493873232,
-   "ziel_atr": 1.92,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.4569,
-   "basis_erwartung_r": 0.1143,
-   "score_components": {
-    "trend": 0.632,
-    "setup": 0.969,
-    "volumen": 0.0,
-    "qualitaet": 0.841,
-    "bewertung": 0.02,
-    "analysten": 0.873,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 366.21,
-    "struktur": 361.9
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-10",
-   "tries": 2
-  },
-  {
-   "symbol": "AVGO",
-   "name": "Broadcom",
-   "sector": "Technologie",
-   "score": 0.7883,
-   "target": 367.11,
-   "stop": 294.38,
-   "atr_at_entry": 15.706672447869149,
-   "ziel_atr": 3.03,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.3,
-   "basis_erwartung_r": 0.1842,
-   "score_components": {
-    "trend": 0.14,
-    "setup": 0.779,
-    "volumen": 0.933,
-    "qualitaet": 0.952,
-    "bewertung": 0.735,
-    "analysten": 1.0,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 352.85,
-    "struktur": 372.6
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-10",
-   "tries": 2
-  },
-  {
-   "symbol": "VICI",
-   "name": "Vici Properties",
-   "sector": "Immobilien",
-   "score": 0.7624,
-   "target": 26.54,
-   "stop": 24.28,
-   "atr_at_entry": 0.5309668602371672,
-   "ziel_atr": 2.53,
-   "stop_atr": 1.71,
-   "basis_p_ziel": 0.2871,
-   "basis_erwartung_r": 0.0088,
-   "score_components": {
-    "trend": 0.652,
-    "setup": 0.952,
-    "volumen": 0.432,
-    "qualitaet": 0.574,
-    "bewertung": 1.0,
-    "analysten": 0.762
-   },
-   "target_methods": {
-    "atr": 26.11,
-    "struktur": 26.61
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-10",
-   "tries": 2
-  },
-  {
    "symbol": "MPWR",
    "name": "Monolithic Power Systems",
    "sector": "Technologie",
@@ -1462,7 +1272,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-11",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SNPS",
@@ -1494,7 +1304,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-11",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ADI",
@@ -1525,7 +1335,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-11",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "URI",
@@ -1557,7 +1367,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-11",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "FOXA",
@@ -1588,7 +1398,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-11",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "EOG",
@@ -1620,7 +1430,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-11",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ADSK",
@@ -1650,7 +1460,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-12"
+   "order_date": "2026-11-12",
+   "tries": 1
   },
   {
    "symbol": "ABNB",
@@ -1681,7 +1492,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-12"
+   "order_date": "2026-11-12",
+   "tries": 1
   },
   {
    "symbol": "PODD",
@@ -1711,7 +1523,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-12"
+   "order_date": "2026-11-12",
+   "tries": 1
   },
   {
    "symbol": "KLAC",
@@ -1742,7 +1555,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-12"
+   "order_date": "2026-11-12",
+   "tries": 1
   },
   {
    "symbol": "ASML",
@@ -1773,7 +1587,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-12"
+   "order_date": "2026-11-12",
+   "tries": 1
   },
   {
    "symbol": "V",
@@ -1804,7 +1619,8 @@
     "trend": "aufwaerts",
     "vix_level": "erhoeht"
    },
-   "order_date": "2026-11-12"
+   "order_date": "2026-11-12",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4276,6 +4092,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-11-13",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -5507,6 +5331,36 @@
   {
    "date": "2026-11-12",
    "symbol": "UBER",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "META",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "TXN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "HWM",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "CDNS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "AVGO",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-13",
+   "symbol": "VICI",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
