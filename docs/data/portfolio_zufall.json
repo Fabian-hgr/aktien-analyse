@@ -2113,6 +2113,186 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "GILD",
+   "name": "Gilead Sciences",
+   "sector": "Gesundheit",
+   "score": 0.6131,
+   "target": 177.07,
+   "stop": 161.34,
+   "atr_at_entry": 4.330107183392491,
+   "ziel_atr": 2.09,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.4117,
+   "basis_erwartung_r": 0.1271,
+   "score_components": {
+    "trend": 0.949,
+    "setup": 0.994,
+    "volumen": 0.0,
+    "qualitaet": 0.136,
+    "bewertung": 0.411,
+    "analysten": 0.516
+   },
+   "target_methods": {
+    "atr": 176.91,
+    "struktur": 176.56
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
+  },
+  {
+   "symbol": "RJF",
+   "name": "Raymond James Financial",
+   "sector": "Finanzen",
+   "score": 0.7158,
+   "target": 177.92,
+   "stop": 163.07,
+   "atr_at_entry": 3.4599680678552,
+   "ziel_atr": 2.7,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3096,
+   "basis_erwartung_r": 0.1248,
+   "score_components": {
+    "trend": 0.81,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.648,
+    "bewertung": 0.72,
+    "analysten": 0.506
+   },
+   "target_methods": {
+    "atr": 175.27,
+    "struktur": 178.96
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
+  },
+  {
+   "symbol": "SHW",
+   "name": "Sherwin-Williams",
+   "sector": "Grundstoffe",
+   "score": 0.6897,
+   "target": 368.82,
+   "stop": 332.95,
+   "atr_at_entry": 10.214838581523377,
+   "ziel_atr": 1.85,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.4535,
+   "basis_erwartung_r": 0.0666,
+   "score_components": {
+    "trend": 0.872,
+    "setup": 0.997,
+    "volumen": 0.309,
+    "qualitaet": 0.486,
+    "bewertung": 0.03,
+    "analysten": 0.556
+   },
+   "target_methods": {
+    "atr": 370.31,
+    "struktur": 370.14
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
+  },
+  {
+   "symbol": "HONA",
+   "name": "Honeywell Aerospace",
+   "sector": "Industrie",
+   "score": 0.6163,
+   "target": 178.58,
+   "stop": 154.12,
+   "atr_at_entry": 6.732634096126698,
+   "ziel_atr": 2.02,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4285,
+   "basis_erwartung_r": 0.0976,
+   "score_components": {
+    "trend": 0.508,
+    "setup": 0.957,
+    "volumen": 0.013,
+    "qualitaet": 0.358,
+    "bewertung": 0.651,
+    "analysten": 0.55
+   },
+   "target_methods": {
+    "atr": 178.65,
+    "struktur": 176.69
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
+  },
+  {
+   "symbol": "DLTR",
+   "name": "Dollar Tree",
+   "sector": "Konsum defensiv",
+   "score": 0.6463,
+   "target": 147.96,
+   "stop": 129.09,
+   "atr_at_entry": 5.245685920428499,
+   "ziel_atr": 1.88,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.4402,
+   "basis_erwartung_r": 0.0436,
+   "score_components": {
+    "trend": 0.985,
+    "setup": 0.99,
+    "volumen": 0.436,
+    "qualitaet": 0.467,
+    "bewertung": 0.493,
+    "analysten": 0.313
+   },
+   "target_methods": {
+    "atr": 148.09,
+    "struktur": 148.28
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
+  },
+  {
+   "symbol": "OMC",
+   "name": "Omnicom Group",
+   "sector": "Kommunikation",
+   "score": 0.6343,
+   "target": 94.33,
+   "stop": 83.81,
+   "atr_at_entry": 2.3750568964132768,
+   "ziel_atr": 2.68,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.2888,
+   "basis_erwartung_r": 0.0244,
+   "score_components": {
+    "trend": 0.922,
+    "setup": 0.745,
+    "volumen": 0.0,
+    "qualitaet": 0.448,
+    "bewertung": 0.6,
+    "analysten": 0.62
+   },
+   "target_methods": {
+    "atr": 92.32,
+    "struktur": 94.78
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
   }
  ],
  "closed": [

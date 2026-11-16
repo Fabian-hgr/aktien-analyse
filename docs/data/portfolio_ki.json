@@ -1805,6 +1805,189 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-13"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "sector": "Kommunikation",
+   "score": 0.8547,
+   "target": 698.78,
+   "stop": 602.42,
+   "atr_at_entry": 22.612341725926854,
+   "ziel_atr": 2.52,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.3109,
+   "basis_erwartung_r": 0.0209,
+   "score_components": {
+    "trend": 0.521,
+    "setup": 0.97,
+    "volumen": 0.06,
+    "qualitaet": 0.966,
+    "bewertung": 0.639,
+    "analysten": 1.0,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 683.44,
+    "struktur": 706.82
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "sector": "Technologie",
+   "score": 0.82,
+   "target": 386.0,
+   "stop": 317.93,
+   "atr_at_entry": 17.731376549238167,
+   "ziel_atr": 2.22,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.4112,
+   "basis_erwartung_r": 0.1288,
+   "score_components": {
+    "trend": 0.321,
+    "setup": 0.987,
+    "volumen": 0.262,
+    "qualitaet": 0.952,
+    "bewertung": 0.715,
+    "analysten": 1.0,
+    "sentiment": 0.35
+   },
+   "target_methods": {
+    "atr": 384.28,
+    "struktur": 380.79
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
+  },
+  {
+   "symbol": "CRH",
+   "name": "CRH plc",
+   "sector": "Grundstoffe",
+   "score": 0.7789,
+   "target": 99.73,
+   "stop": 88.53,
+   "atr_at_entry": 2.78544800840823,
+   "ziel_atr": 2.36,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3708,
+   "basis_erwartung_r": 0.0942,
+   "score_components": {
+    "trend": 0.671,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.401,
+    "bewertung": 0.47,
+    "analysten": 0.993
+   },
+   "target_methods": {
+    "atr": 98.72,
+    "struktur": 99.76
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
+  },
+  {
+   "symbol": "TDG",
+   "name": "TransDigm Group",
+   "sector": "Industrie",
+   "score": 0.7749,
+   "target": 1274.95,
+   "stop": 1161.77,
+   "atr_at_entry": 34.547552544395856,
+   "ziel_atr": 1.66,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.4919,
+   "basis_erwartung_r": 0.0764,
+   "score_components": {
+    "trend": 0.829,
+    "setup": 0.868,
+    "volumen": 0.857,
+    "qualitaet": 0.854,
+    "bewertung": 0.283,
+    "analysten": 0.689,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 1287.63,
+    "struktur": 1259.2
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
+  },
+  {
+   "symbol": "EXE",
+   "name": "Expand Energy",
+   "sector": "Energie",
+   "score": 0.7704,
+   "target": 95.19,
+   "stop": 85.43,
+   "atr_at_entry": 2.204594580773391,
+   "ziel_atr": 3.02,
+   "stop_atr": 1.41,
+   "basis_p_ziel": 0.3033,
+   "basis_erwartung_r": 0.2855,
+   "score_components": {
+    "trend": 0.185,
+    "setup": 0.997,
+    "volumen": 0.077,
+    "qualitaet": 0.671,
+    "bewertung": 0.676,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 93.41,
+    "struktur": 95.83
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
+  },
+  {
+   "symbol": "RMD",
+   "name": "ResMed",
+   "sector": "Gesundheit",
+   "score": 0.7697,
+   "target": 254.41,
+   "stop": 229.29,
+   "atr_at_entry": 6.620592786836734,
+   "ziel_atr": 2.25,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.3837,
+   "basis_erwartung_r": 0.1326,
+   "score_components": {
+    "trend": 0.907,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.797,
+    "bewertung": 0.57,
+    "analysten": 0.562
+   },
+   "target_methods": {
+    "atr": 253.1,
+    "struktur": 254.83
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-16"
   }
  ],
  "closed": [
