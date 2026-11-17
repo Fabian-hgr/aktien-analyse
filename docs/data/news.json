@@ -1,61 +1,82 @@
 {
- "fetched_at": "2026-11-16T22:12:35+00:00",
+ "fetched_at": "2026-11-17T21:02:19+00:00",
  "market": [
   {
    "source": "MarketWatch",
    "headline": "\u2018It leaves me with a sour taste\u2019: My elderly mother gave our cousin $800 for a car repair. Should I be worried?",
    "summary": "\u201cI know older people can easily feel patronized, and I don\u2019t want that to happen.\u201d",
    "url": "https://www.marketwatch.com/story/it-leaves-me-with-a-sour-taste-my-elderly-mother-gave-our-cousin-800-for-a-car-repair-should-i-be-worried-88dbd188?mod=mw_rss_topstories",
-   "published": "Mon, 16 Nov 2026 22:08:00 GMT"
+   "published": "Tue, 17 Nov 2026 21:00:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "Nvidia\u2019s stock extends decline following harsh words from the U.S. government",
-   "summary": "The Commerce Department announced a new rule aimed at restricting China\u2019s remote access to advanced chips.",
-   "url": "https://www.marketwatch.com/story/nvidias-stock-extends-declines-following-harsh-words-from-the-u-s-government-d721188e?mod=mw_rss_topstories",
-   "published": "Mon, 16 Nov 2026 21:53:00 GMT"
+   "headline": "Summit Therapeutics\u2019 stock tumbles again as FDA recommends new trial for lung-cancer drug",
+   "summary": "The U.S. regulator\u2019s disclosure was more extensive than what the biotech company had announced Sunday.",
+   "url": "https://www.marketwatch.com/story/summit-therapeutics-stock-tumbles-again-as-fda-recommends-new-trial-for-lung-cancer-drug-dcb8ff55?mod=mw_rss_topstories",
+   "published": "Tue, 17 Nov 2026 20:58:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "Chase says \u2018software bug\u2019 could be causing disruptions at major U.S. banks",
-   "summary": "Some customers are saying they can\u2019t access their accounts or their unable to withdraw funds.",
-   "url": "https://www.marketwatch.com/story/customers-of-chase-bank-of-america-and-other-u-s-banks-report-service-outages-18fe23b8?mod=mw_rss_topstories",
-   "published": "Mon, 16 Nov 2026 21:49:00 GMT"
+   "headline": "The U.S.\u2019s classified national-security communications network experiences tech outage",
+   "summary": "A reported outage of a classified U.S. communications network has become the latest in a string of technology disruptions impacting consumers, businesses and the government.",
+   "url": "https://www.marketwatch.com/story/the-latest-tech-failure-u-s-classified-national-security-communications-network-ad271899?mod=mw_rss_topstories",
+   "published": "Tue, 17 Nov 2026 20:45:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "My husband is happily retired at 64 and thinks I should keep working. Is he being fair?",
-   "summary": "\u201cI\u2019m exhausted. My alarm goes off at 6 a.m., and I have a 50-minute commute.\u201d",
-   "url": "https://www.marketwatch.com/story/my-husband-is-happily-retired-at-64-and-thinks-i-should-keep-working-is-he-being-fair-325c5f38?mod=mw_rss_topstories",
-   "published": "Mon, 16 Nov 2026 21:45:00 GMT"
+   "headline": "Private equity has been buying up hospice centers \u2014 with striking consequences",
+   "summary": "Medicare costs are higher and patients stay longer at hospice providers owned by private-equity firms, new research has found.",
+   "url": "https://www.marketwatch.com/story/private-equity-has-been-buying-up-hospice-centers-with-striking-consequences-63642545?mod=mw_rss_topstories",
+   "published": "Tue, 17 Nov 2026 20:40:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "Now\u2019s the perfect time for networking. Here\u2019s how to send a cringe-free email.",
-   "summary": "Hiring for white-collar jobs usually dips in November and December, so try sending \u201ccold emails\u201d to your network instead.",
-   "url": "https://www.marketwatch.com/story/nows-the-perfect-time-for-networking-heres-how-to-send-a-cringe-free-email-73ad34ea?mod=mw_rss_topstories",
-   "published": "Mon, 16 Nov 2026 21:40:00 GMT"
+   "headline": "Gold is in a bear market \u2014 and hackproof in an increasingly digital world. Is now a good time to buy?",
+   "summary": "After the world\u2019s largest crypto hack and a spate of outages in the digital world, physical gold  may be the ultimate \u201cantidigital\u201d asset.",
+   "url": "https://www.marketwatch.com/story/gold-is-in-a-bear-market-and-hackproof-in-an-increasingly-digital-world-is-this-a-good-time-to-buy-fabfd528?mod=mw_rss_topstories",
+   "published": "Tue, 17 Nov 2026 20:24:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "Rare-earth stocks sink deeper into the red. Here\u2019s the latest catalyst.",
-   "summary": "Shares of Trump-backed USA Rare Earth slides 10% as analysts push out their sales estimates.",
-   "url": "https://www.marketwatch.com/story/rare-earth-stocks-sinks-deeper-into-the-red-heres-the-latest-catalyst-3033c8d0?mod=mw_rss_topstories",
-   "published": "Mon, 16 Nov 2026 21:18:00 GMT"
+   "headline": "Only two \u2018Magnificent Seven\u2019 stocks have managed to beat the S&P 500 since the start of 2025",
+   "summary": "Alphabet and Apple have approached artificial intelligence in ways that have resonated on Wall Street.",
+   "url": "https://www.marketwatch.com/story/only-two-magnificent-seven-stocks-have-managed-to-beat-the-s-p-500-since-the-start-of-2025-a3daa0f8?mod=mw_rss_topstories",
+   "published": "Tue, 17 Nov 2026 20:16:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "Micron, AMD and other AI stocks fall as the chip sector\u2019s selloff intensifies",
-   "summary": "Investors are jittery about Nvidia\u2019s upcoming earnings and whether the company will scale back its financing of the AI ecosystem.",
-   "url": "https://www.marketwatch.com/story/micron-amd-and-other-ai-stocks-fall-as-the-chip-sectors-selloff-intensifies-48e38bdf?mod=mw_rss_topstories",
-   "published": "Mon, 16 Nov 2026 21:17:00 GMT"
+   "headline": "I inherited $1.4 million from my father. Am I wrong to ask my husband of 25 years for a postnuptial agreement?",
+   "summary": "\u201cHe has always said he wants his daughter to inherit a chunk of his estate, and I\u2019ve never objected to that.\u201d",
+   "url": "https://www.marketwatch.com/story/i-inherited-1-4-million-from-my-father-am-i-wrong-to-ask-my-husband-of-25-years-for-a-postnuptial-agreement-b739c51d?mod=mw_rss_topstories",
+   "published": "Tue, 17 Nov 2026 20:15:00 GMT"
   },
   {
    "source": "MarketWatch",
-   "headline": "Nvidia investors will be clamoring for these answers during a historic earnings call",
-   "summary": "There\u2019s a lot that Nvidia investors want to know about the post-Jensen Huang era \u2014\u00a0although management is likely to be tight-lipped on the topic of succession.",
-   "url": "https://www.marketwatch.com/story/nvidia-investors-will-be-clamoring-for-answers-to-these-questions-during-the-companys-hotly-anticipated-earnings-call-a49ec19d?mod=mw_rss_topstories",
-   "published": "Mon, 16 Nov 2026 21:05:00 GMT"
+   "headline": "The S&P 500 is testing a key technical floor. Is it time to buy, or brace for a bear market?",
+   "summary": "The S&P 500 is joining other major U.S. equity indexes in trading below its 200-day moving average as the artificial-intelligence trade continues to struggle.",
+   "url": "https://www.marketwatch.com/story/the-s-p-500-is-testing-a-key-technical-floor-is-it-time-to-buy-or-brace-for-a-bear-market-c432b192?mod=mw_rss_topstories",
+   "published": "Tue, 17 Nov 2026 20:13:00 GMT"
+  },
+  {
+   "source": "CNBC",
+   "headline": "U.S. companies from Nvidia to Apple face a growing China dilemma",
+   "summary": "The stakes have just gotten higher for businesses navigating the U.S. and China markets.",
+   "url": "https://www.cnbc.com/2026/11/17/us-tech-firms-china-ties-political-pressure.html",
+   "published": "Tue, 17 Nov 2026 08:52:45 GMT"
+  },
+  {
+   "source": "CNBC",
+   "headline": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
+   "summary": "Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.",
+   "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
+   "published": "Mon, 16 Nov 2026 23:01:19 GMT"
+  },
+  {
+   "source": "CNBC",
+   "headline": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+   "summary": "CNBC's Eamon Javers reported there was no indication of bad actors involved and likewise no indication that a bug was impacting multiple banks at the same time.",
+   "url": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+   "published": "Mon, 16 Nov 2026 22:14:47 GMT"
   },
   {
    "source": "CNBC",
@@ -69,7 +90,7 @@
    "headline": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
    "summary": "Oil prices are falling as forecasts project a surplus in oil in the fourth quarter",
    "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
-   "published": "Mon, 16 Nov 2026 22:07:51 GMT"
+   "published": "Mon, 16 Nov 2026 22:19:02 GMT"
   },
   {
    "source": "CNBC",
@@ -93,205 +114,208 @@
    "published": "Mon, 16 Nov 2026 17:14:13 GMT"
   },
   {
-   "source": "CNBC",
-   "headline": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has ties to the chipmaker",
-   "summary": "Jensen Huang\u2019s resignation as Nvidia CEO has brought renewed scrutiny to Commerce Secretary Howard Lutnick and his family's financial ties to the chipmaker.",
-   "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-   "published": "Mon, 16 Nov 2026 12:14:46 GMT"
-  },
-  {
-   "source": "CNBC",
-   "headline": "Chicago Fed's Goolsbee says central bank 'has definitely got work to do' on inflation",
-   "summary": "The policymaker expressed concern about the latest inflation data, telling CNBC that the central bank likely will need to take action.",
-   "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html",
-   "published": "Fri, 13 Nov 2026 14:22:07 GMT"
-  },
-  {
-   "source": "CNBC",
-   "headline": "How the Jensen Huang affair changes the outlook for U.S.-China relations",
-   "summary": "The political climate heading into next week's Trump-Xi summit is drastically different from the last meeting in September.",
-   "url": "https://www.cnbc.com/2026/11/13/jensen-huang-nvidia-us-china-relations.html",
-   "published": "Fri, 13 Nov 2026 02:56:35 GMT"
+   "source": "Yahoo Finance",
+   "headline": "The Overlooked JPMorgan ETF That Owns Nearly 300 of the Market\u2019s Strongest Stocks for 0.12%",
+   "summary": "A much smaller rival to the popular MTUM momentum fund has quietly beaten it over one and five years, yet few investors have heard of it. Before you switch, check the trade-offs hiding behind the lower fee.",
+   "url": "https://247wallst.com/investing/etf/2026/11/17/the-overlooked-jpmorgan-etf-that-owns-nearly-300-of-the-markets-strongest-stocks-for-0-12/?.tsrc=rss",
+   "published": "Tue, 17 Nov 2026 12:37:51 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "SPDR S&P 500 ETF (SPY) Sells Apple and Nvidia on Thursday",
-   "summary": "The fund sold $6.12 billion of stock and bought nothing, cutting all 503 positions.",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/spdr-p-500-etf-spy-110358769.html?.tsrc=rss",
-   "published": "Mon, 16 Nov 2026 11:03:58 +0000"
+   "headline": "Exchange-Traded Funds, Equity Futures Mixed Pre-Bell Tuesday as Investors Await Nvidia Earnings",
+   "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.1% and the actively tr",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141622060.html?.tsrc=rss",
+   "published": "Tue, 17 Nov 2026 14:16:22 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Monday Amid Weakness in AI-Linked Stocks",
-   "summary": "The broad market exchange-traded fund SPDR S&P 500 ETF Trust (SPY) was down 0.6%, and the actively t",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/exchange-traded-funds-equity-futures-141346501.html?.tsrc=rss",
-   "published": "Mon, 16 Nov 2026 14:13:46 +0000"
+   "headline": "ETFs Are Buying Chevron (CVX) on Friday",
+   "summary": "ETFs bought $105.5 million of Chevron (CVX) on Friday, Nov. 13.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-buying-chevron-cvx-friday-110158202.html?.tsrc=rss",
+   "published": "Tue, 17 Nov 2026 11:01:58 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "ETFs Are Net Sellers of Deere (DE) on Nov. 12",
-   "summary": "ETFs sold a net $51.2 million of Deere on Thursday, with more funds trading the other way.",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-deere-nov-110339768.html?.tsrc=rss",
-   "published": "Mon, 16 Nov 2026 11:03:39 +0000"
+   "headline": "ETFs Bought $111.9 Million of Cisco (CSCO) on Nov. 13",
+   "summary": "ETFs bought $111.9 million of Cisco on Friday, with 55 funds buying and 21 selling.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-bought-111-9-million-110152347.html?.tsrc=rss",
+   "published": "Tue, 17 Nov 2026 11:01:52 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "ETFs Are Net Sellers of Analog Devices (ADI) on Thursday",
-   "summary": "ETFs sold a net $61.5 million of Analog Devices (ADI) on Nov. 12.",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-analog-devices-110319947.html?.tsrc=rss",
-   "published": "Mon, 16 Nov 2026 11:03:19 +0000"
+   "headline": "Bill Ackman Cut His Microsoft Stake. Your S&P 500 Fund Can\u2019t.",
+   "summary": "A hedge fund can trim Microsoft the moment its view shifts. If you own it through a 401(k), an IRA, and a brokerage account, you may hold far more of the stock than you realize, with no way to step aside.",
+   "url": "https://247wallst.com/investing/etf/2026/11/17/bill-ackman-cut-his-microsoft-stake-your-sp-500-fund-cant/?.tsrc=rss",
+   "published": "Tue, 17 Nov 2026 18:02:20 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "ETFs Are Net Sellers of AbbVie (ABBV) on Nov. 12",
-   "summary": "ETFs sold a net $62.0 million of AbbVie on Thursday, with 40 funds buying and 16 selling.",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-abbvie-abbv-110313792.html?.tsrc=rss",
-   "published": "Mon, 16 Nov 2026 11:03:13 +0000"
+   "headline": "Cathie Wood and Jim Cramer Agree on These 10 Stocks: Latest 13F",
+   "summary": "Jim Cramer and Cathie Wood are two of the most closely followed voices on Wall Street, and we regularly cover the stocks they like. Once a Wall Street darling, Cathie Wood has struggled to replicate her success from the pandemic days as shifting market dynamics have weighed on her disruptive innovation bets. You can see [\u2026]",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-jim-cramer-agree-132819758.html?.tsrc=rss",
+   "published": "Tue, 17 Nov 2026 13:28:19 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "ETFs Are Net Sellers of Accenture (ACN) on Nov. 12",
-   "summary": "ETFs sold a net $113.8 million of Accenture on Thursday, with 34 funds buying and 14 selling.",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-accenture-acn-110237195.html?.tsrc=rss",
-   "published": "Mon, 16 Nov 2026 11:02:37 +0000"
+   "headline": "Cathie Wood and Jim Cramer Agree on These 5 Stocks",
+   "summary": "Jim Cramer and Cathie Wood are two of the most closely followed voices on Wall Street, and we regularly cover the stocks they like. Once a Wall Street darling, Cathie Wood has struggled to replicate her success from the pandemic days as shifting market dynamics have weighed on her disruptive innovation bets. Wood\u2019s flagship ARK [\u2026]",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/cathie-wood-jim-cramer-agree-132403111.html?.tsrc=rss",
+   "published": "Tue, 17 Nov 2026 13:24:03 +0000"
   },
   {
    "source": "Yahoo Finance",
-   "headline": "ETFs Are Net Sellers of NVIDIA (NVDA) on Nov. 12",
-   "summary": "NVIDIA saw $287.5 million in net ETF selling on Nov. 12, with 20 funds selling and 66 buying.",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-nvidia-nvda-110221004.html?.tsrc=rss",
-   "published": "Mon, 16 Nov 2026 11:02:21 +0000"
-  },
-  {
-   "source": "Yahoo Finance",
-   "headline": "ETFs Are Net Sellers of Eli Lilly (LLY) on Nov. 12",
-   "summary": "Eli Lilly (LLY) drew $300.9 million in net ETF selling Thursday.",
-   "url": "https://finance.yahoo.com/markets/stocks/articles/etfs-net-sellers-eli-lilly-110217898.html?.tsrc=rss",
-   "published": "Mon, 16 Nov 2026 11:02:17 +0000"
+   "headline": "How Much Does a 70-Year-Old Couple Give Up Leaving a $300,000 Annuity Before the Surrender Period Ends?",
+   "summary": "Leaving a seven-year annuity early comes with a bill that shrinks every year you wait. Before a retired couple signs the surrender papers, three overlooked moves and one tax trap could change what walking away really costs.",
+   "url": "https://247wallst.com/personal-finance/2026/11/17/how-much-does-a-70-year-old-couple-give-up-leaving-a-300000-annuity-before-the-surrender-period-ends/?.tsrc=rss",
+   "published": "Tue, 17 Nov 2026 13:02:59 +0000"
   },
   {
    "source": "Investing.com",
-   "headline": "Graphic Packaging beruft zwei F\u00fchrungskr\u00e4fte und k\u00fcndigt Ruhestand im Management an",
+   "headline": "AppLovin verhandelt laut Reuters \u00fcber \u00dcbernahme von Werbetech-Spezialist Criteo",
    "summary": "",
-   "url": "https://de.investing.com/news/company-news/graphic-packaging-beruft-zwei-fuhrungskrafte-und-kundigt-ruhestand-im-management-an-93CH-3771354",
-   "published": "2026-11-16 21:54:17"
+   "url": "https://de.investing.com/news/stock-market-news/applovin-verhandelt-laut-reuters-uber-ubernahme-von-werbetechspezialist-criteo-3773719",
+   "published": "2026-11-17 20:45:34"
   },
   {
    "source": "Investing.com",
-   "headline": "Quantum X unterzeichnet Absichtserkl\u00e4rung mit nepalesischer Everest Cloud zur Expansion in S\u00fcdasien",
+   "headline": "Dauch Corp-Aktie f\u00e4llt auf 52-Wochen-Tief von 4,38 USD",
    "summary": "",
-   "url": "https://de.investing.com/news/company-news/quantum-x-unterzeichnet-absichtserklarung-mit-nepalesischer-everest-cloud-zur-expansion-in-sudasien-93CH-3771353",
-   "published": "2026-11-16 21:54:09"
+   "url": "https://de.investing.com/news/company-news/dauch-corpaktie-fallt-auf-52wochentief-von-438-usd-93CH-3773717",
+   "published": "2026-11-17 20:44:03"
   },
   {
    "source": "Investing.com",
-   "headline": "Ligand Pharmaceuticals: Director Martine Zimmermann verkauft Aktien im Wert von $636.336",
+   "headline": "Regency Centers: Vorzugsaktie f\u00e4llt auf 52-Wochen-Tief von 21,2 USD",
    "summary": "",
-   "url": "https://de.investing.com/news/insider-trading-news/ligand-pharmaceuticals-director-martine-zimmermann-verkauft-aktien-im-wert-von-636336-93CH-3771343",
-   "published": "2026-11-16 21:49:15"
+   "url": "https://de.investing.com/news/company-news/regency-centers-vorzugsaktie-fallt-auf-52wochentief-von-212-usd-93CH-3773716",
+   "published": "2026-11-17 20:40:58"
   },
   {
    "source": "Investing.com",
-   "headline": "San Mateo Midstream platziert Anleihe \u00fcber $850 Millionen zu 7,125 %",
+   "headline": "Aritzia-Aktie unter Druck: Jefferies-Abstufung und Marktschw\u00e4che belasten Kurs",
    "summary": "",
-   "url": "https://de.investing.com/news/company-news/san-mateo-midstream-platziert-anleihe-uber-850-millionen-zu-7125--93CH-3771339",
-   "published": "2026-11-16 21:46:51"
+   "url": "https://de.investing.com/news/stock-market-news/aritziaaktie-unter-druck-jefferiesabstufung-und-marktschwache-belasten-kurs-93CH-3773715",
+   "published": "2026-11-17 20:40:04"
   },
   {
    "source": "Investing.com",
-   "headline": "Mizuho hebt Kursziel f\u00fcr Costco nach starken Umsatzzahlen auf 1.150 US-Dollar an",
+   "headline": "Warum die Descartes Systems-Aktie heute unter Druck ger\u00e4t",
    "summary": "",
-   "url": "https://de.investing.com/news/analyst-ratings/mizuho-hebt-kursziel-fur-costco-nach-starken-umsatzzahlen-auf-1150-usdollar-an-93CH-3771338",
-   "published": "2026-11-16 21:46:20"
+   "url": "https://de.investing.com/news/stock-market-news/warum-die-descartes-systemsaktie-heute-unter-druck-gerat-93CH-3773712",
+   "published": "2026-11-17 20:32:17"
   },
   {
    "source": "Investing.com",
-   "headline": "Neighborhood Intelligence-Aktie legt nach 25-Millionen-Dollar-R\u00fcckkaufprogramm zu",
+   "headline": "ROUNDUP/\u2019Ziemlich dumm\u2019: Pistorius verurteilt US-Kritik an Ukraine",
    "summary": "",
-   "url": "https://de.investing.com/news/stock-market-news/neighborhood-intelligenceaktie-legt-nach-25millionendollarruckkaufprogramm-zu-3771340",
-   "published": "2026-11-16 21:45:32"
+   "url": "https://de.investing.com/news/world-news/roundupziemlich-dumm-pistorius-verurteilt-uskritik-an-ukraine-3773710",
+   "published": "2026-11-17 20:30:02"
   },
   {
    "source": "Investing.com",
-   "headline": "V\u00f6llig losgel\u00f6st: Deutschland mit Torgala ins Viertelfinale",
+   "headline": "Frankreich an Russland: \u2019Wir sind keine Kriegspartei\u2019",
    "summary": "",
-   "url": "https://de.investing.com/news/economy-news/vollig-losgelost-deutschland-mit-torgala-ins-viertelfinale-3771335",
-   "published": "2026-11-16 21:45:01"
+   "url": "https://de.investing.com/news/economy-news/frankreich-an-russland-wir-sind-keine-kriegspartei-3773711",
+   "published": "2026-11-17 20:30:02"
   },
   {
    "source": "Investing.com",
-   "headline": "Cheniere Energy Partners ernennt Zach Davis zum President und CFO",
+   "headline": "Northern Trust Corp markiert 52-Wochen-Tief bei 17,05 USD",
    "summary": "",
-   "url": "https://de.investing.com/news/sec-filings/cheniere-energy-partners-ernennt-zach-davis-zum-president-und-cfo-93CH-3771333",
-   "published": "2026-11-16 21:42:33"
+   "url": "https://de.investing.com/news/company-news/northern-trust-corp-markiert-52wochentief-bei-1705-usd-93CH-3773709",
+   "published": "2026-11-17 20:29:39"
   }
  ],
  "by_symbol": {
-  "DAL": [
+  "META": [
    {
-    "headline": "Delta Air Lines Expands Premium Seating Strategy Amid Rising Fuel Costs",
-    "summary": "Delta Air Lines CEO Ed Bastian indicated that the airline is increasing its premium seat capacity, potentially reaching 70% of seats on certain flights, to offset rising jet fuel expenses.",
-    "ts": "2026-11-16T21:31:52Z",
-    "url": "https://europeanbusinessmagazine.com/airlines-premium-seats/",
+    "headline": "Meta Testing Standalone Messaging App 'Direct'",
+    "summary": "Meta has begun testing a standalone messaging app called 'Direct' in Thailand and Turkey, allowing users to access Instagram messages without an Instagram account.",
+    "ts": "2026-11-17T20:01:29Z",
+    "url": "https://newscord.org/article/meta-tests-direct-standalone-instagram-messaging-app-without-account-in-thailand--Story_20261117_MetalaunchesDirectas387ae1a0",
     "source": "fiscal.ai"
    },
    {
-    "headline": "Amazon Satellite Launch Failure Impacts Delta Air Lines' In-Flight Wi-Fi Rollout",
-    "summary": "The failure of a rocket carrying Amazon Leo satellites has created uncertainty for Delta Air Lines' planned in-flight Wi-Fi deployment.",
-    "ts": "2026-11-16T19:01:40Z",
-    "url": "https://thriftytraveler.com/newsletters/extra-mile/nov-16-why-planes-were-grounded-friday/",
+    "headline": "JPMorgan Blocks Meta's 'Muse' AI Agent from Customer Accounts",
+    "summary": "JPMorgan Chase has prohibited Meta's 'Muse' AI agent from accessing its customer accounts, citing security and risk management concerns.",
+    "ts": "2026-11-17T19:02:06Z",
+    "url": "https://www.barchart.com/story/news/8879129/you-dont-want-rogue-agents-jamie-dimon-shuts-metas-muse-ai-agent-out-of-jpmorgan-what-it-means-for-meta-stock",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Meta Testing Internal Prediction Market App 'Takes'",
+    "summary": "Meta is reportedly testing a new internal application called 'Takes' that functions as a prediction market for employees.",
+    "ts": "2026-11-17T16:01:17Z",
+    "url": "https://cdcgaming.com/brief/meta-tests-prediction-market-app-with-employees/",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Meta, Amazon, and Google Lobbying Fails to Stop China Data Center Curbs",
+    "summary": "Meta, along with other major technology companies, has been unsuccessful in its lobbying efforts to prevent the Trump administration from implementing new restrictions on data centers in China.",
+    "ts": "2026-11-17T13:01:56Z",
+    "url": "https://www.marketscreener.com/news/amazon-google-meta-lobbying-fails-to-stop-trump-from-pursuing-china-data-center-curbs-ce785edcd88df327",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Meta Secures Multi-Year Agreements for Low-Carbon Data Center Materials",
+    "summary": "Meta has entered into multi-year purchase agreements with suppliers to secure lower-carbon cement and other materials for its data center infrastructure.",
+    "ts": "2026-11-16T14:31:14Z",
+    "url": "https://sustainabilitymag.com/news/why-meta-is-expanding-us-clean-industrial-supply-chains",
     "source": "fiscal.ai"
    }
   ],
-  "DVN": [
+  "V": [
    {
-    "headline": "Seaport Global Adjusts Price Target on Devon Energy to $57 From $65",
-    "summary": "Seaport Global has lowered its price target for Devon Energy Corporation to $57 from $65.",
-    "ts": "2026-11-16T19:02:02Z",
-    "url": "https://www.marketscreener.com/news/seaport-global-adjusts-price-target-on-devon-energy-to-57-from-65-ce785edfd88cff27",
+    "headline": "Visa Releases Fall 2026 Biannual Threats Report on AI-Enabled Fraud",
+    "summary": "Visa published its Fall 2026 Biannual Threats Report, highlighting a rise in AI-driven fraud and the scaling of third-party attacks across the payments ecosystem.",
+    "ts": "2026-11-17T20:01:20Z",
+    "url": "https://www.barchart.com/press-releases/8878703/visa-report-ai-enabled-fraud-and-third-party-attacks-are-scaling-worldwide",
     "source": "fiscal.ai"
    },
    {
-    "headline": "Raymond James Adjusts Price Target on Devon Energy to $64 From $67",
-    "summary": "Raymond James has lowered its price target for Devon Energy Corporation from $67 to $64.",
-    "ts": "2026-11-16T14:32:44Z",
-    "url": "https://www.marketscreener.com/news/raymond-james-adjusts-price-target-on-devon-energy-to-64-from-67-ce785edfd889f227",
-    "source": "fiscal.ai"
-   }
-  ],
-  "AMZN": [
-   {
-    "headline": "Amnesty International Reports Continued Labor Issues at Amazon Saudi Arabia Facilities",
-    "summary": "Amnesty International has alleged that migrant workers at Amazon facilities in Saudi Arabia continue to face exploitation, including misleading recruitment practices and wage issues.",
-    "ts": "2026-11-16T19:01:33Z",
-    "url": "https://www.manilatimes.net/2026/11/17/business/foreign-business/amnesty-amazons-migrant-workers-still-being-exploited/2471194",
+    "headline": "Visa Canada Releases Agentic Commerce Readiness Report",
+    "summary": "Visa Canada published new research indicating that 62% of Canadians trust Visa to handle payments made by AI assistants, ranking it first among 24 evaluated brands.",
+    "ts": "2026-11-17T16:01:36Z",
+    "url": "https://www.globenewswire.com/news-release/2026/11/17/3404531/0/en/visa-ranked-most-trusted-among-24-brands-in-canada-to-handle-agentic-transactions-new-research-finds.html",
     "source": "fiscal.ai"
    },
    {
-    "headline": "Blackstone Digital Infrastructure Trust to Acquire 75% Interest in AWS Data Center Joint Ventures",
-    "summary": "Blackstone Digital Infrastructure Trust Inc. has entered into a definitive agreement to acquire a 75% majority interest in two joint ventures with Amazon Web Services (AWS) for approximately $5 billion.",
-    "ts": "2026-11-16T14:31:20Z",
-    "url": "https://www.businesswire.com/newsroom/subject/merger-acquisition",
+    "headline": "Coda and Visa Partner to Enhance Gaming Commerce in Southeast Asia",
+    "summary": "Coda and Visa have announced a partnership to facilitate secure and seamless digital payments for gaming commerce across Southeast Asia.",
+    "ts": "2026-11-17T13:01:23Z",
+    "url": "https://www.prnewswire.com/apac/news-releases/coda-and-visa-partner-to-deliver-seamless-and-trusted-gaming-commerce-across-southeast-asia-302942078.html",
     "source": "fiscal.ai"
    },
    {
-    "headline": "Vulcan Rocket Failure Impacts Amazon Kuiper Satellite Mission",
-    "summary": "A United Launch Alliance (ULA) Vulcan rocket experienced an anomaly shortly after launch, resulting in the loss of 40 satellites intended for Amazon's Kuiper internet constellation.",
-    "ts": "2026-11-16T02:01:27Z",
-    "url": "https://www.kyfreepress.com.au/world/rocket-from-boeing-lockheed-firm-fails-mid-flight/",
+    "headline": "Visa and Mastercard Urge Approval of $38 Billion Swipe Fee Settlement",
+    "summary": "Visa and Mastercard are calling on a US judge to finalize a $38 billion settlement agreement regarding merchant swipe fees.",
+    "ts": "2026-11-17T12:31:45Z",
+    "url": "https://www.marketscreener.com/news/visa-mastercard-calls-on-us-judge-to-clear-38-billion-swipe-fees-settlement-with-merchants-ce785edcd98af021",
     "source": "fiscal.ai"
-   }
-  ],
-  "CDNS": [
+   },
    {
-    "headline": "Cadence Collaborates with Teledyne LeCroy to Advance UALink Ecosystem",
-    "summary": "Cadence Design Systems, Inc. announced a collaboration with Teledyne LeCroy to support the UALink ecosystem through the introduction of the Xena Z2244 validation tool.",
-    "ts": "2026-11-16T19:01:30Z",
-    "url": "https://www.prnewswire.com/news-releases/teledyne-lecroy-introduces-ultra-accelerator-link-validation-system-for-ai-and-hpc-scale-up-infrastructure-302940669.html",
+    "headline": "Visa and Samsung Launch Scan to Pay QR Functionality in Asia Pacific",
+    "summary": "Visa and Samsung Electronics have integrated Visa Scan to Pay into Samsung Wallet, enabling QR code payments for Visa cardholders across the Asia Pacific region.",
+    "ts": "2026-11-16T14:32:09Z",
+    "url": "https://cxp.asia/2026/11/16/visa-and-samsung-launch-scan-to-pay-qr-functionality-on-samsung-wallet-across-asia-pacific/",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Visa Launches Visa Cargo Solutions at ALMAC 2026",
+    "summary": "Visa introduced Visa Cargo Solutions, a new commercial payment offering developed in partnership with the Airport Authority Hong Kong (AAHK) to streamline logistics payments.",
+    "ts": "2026-11-16T13:01:26Z",
+    "url": "https://www.manilatimes.net/2026/11/16/tmt-newswire/media-outreach-newswire/visa-and-airport-authority-hong-kong-launch-industry-first-integrated-air-cargo-data-and-card-payment-solution-in-hong-kong/2470874",
     "source": "fiscal.ai"
    }
   ],
   "AVGO": [
+   {
+    "headline": "Broadcom to Invest $1 Billion in Anthropic IPO",
+    "summary": "Broadcom has agreed to invest $1 billion in Anthropic's initial public offering as part of a strategic commitment involving major technology suppliers.",
+    "ts": "2026-11-17T20:01:19Z",
+    "url": "https://www.morningstar.com/news/marketwatch/2026111767/if-you-own-a-nasdaq-100-fund-youll-own-anthropic-shares-after-15-trading-days-whether-you-want-to-or-not",
+    "source": "fiscal.ai"
+   },
    {
     "headline": "Court Grants Intervention in Broadcom and VMware Legal Case",
     "summary": "The President of the Fourth Chamber of the General Court has granted the ACC leave to intervene in support of Broadcom and VMware in Case T-280/26.",
@@ -323,31 +347,251 @@
   ],
   "MSFT": [
    {
+    "headline": "Microsoft Launches AI Transparency Initiative",
+    "summary": "Microsoft has introduced an AI Transparency Initiative aimed at establishing common standards for security, governance, and transparency in artificial intelligence models.",
+    "ts": "2026-11-17T19:02:16Z",
+    "url": "https://stockhouse.com/news/newswire/2026/11/17/microsoft-launches-ai-transparency-initiative-with-40-organisations",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Microsoft Commences Ignite 2026 Conference",
+    "summary": "Microsoft has launched its annual Ignite conference in San Francisco, utilizing Haivision's video ecosystem to support global live event production.",
+    "ts": "2026-11-17T14:31:24Z",
+    "url": "https://www.globenewswire.com/news-release/2026/11/17/3404380/0/en/microsoft-selects-haivision-video-contribution-ecosystem-and-makito-one-video-transport-platform-to-power-global-live-event-productions.html",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Microsoft Expands Use of Haivision Live Video Ecosystem",
+    "summary": "Microsoft has selected Haivision's video transport and control solutions to support the production of over 600 global events annually.",
+    "ts": "2026-11-17T11:31:30Z",
+    "url": "https://www.moomoo.com/news/post/1004882664/microsoft-selects-haivision-video-contribution-ecosystem-and-makito-one-video",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Microsoft Releases Preliminary Report on Recent 365 Service Outage",
+    "summary": "Microsoft issued a preliminary post-incident report attributing the recent Microsoft 365 service disruption to a latent software defect and network capacity issues.",
+    "ts": "2026-11-17T03:01:25Z",
+    "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Class Action Lawsuit Filed Against Microsoft Following Global 365 Outage",
+    "summary": "Diamond & Diamond Lawyers has initiated a proposed Canada-wide class action lawsuit against Microsoft Corporation and Microsoft Canada Inc. in response to the global Microsoft 365 service disruption that occurred on November 12 and 13, 2026.",
+    "ts": "2026-11-16T22:31:21Z",
+    "url": "https://www.newswire.ca/news-releases/microsoft-outage-triggers-canada-wide-class-action-lawsuit-852582849.html",
+    "source": "fiscal.ai"
+   },
+   {
     "headline": "Thread AI Joins Microsoft for Startups Pegasus Program",
     "summary": "Thread AI has been accepted into the Microsoft for Startups Pegasus Program, providing the company with access to Azure AI models and enterprise-grade support.",
     "ts": "2026-11-16T19:01:20Z",
     "url": "https://www.prnewswire.com/news-releases/thread-ai-joins-the-microsoft-for-startups-pegasus-program-to-deliver-its-ai-workflow-orchestration-platform-on-microsoft-marketplace-302940646.html",
     "source": "fiscal.ai"
-   },
+   }
+  ],
+  "PODD": [
    {
-    "headline": "Microsoft Addresses Recent 365 Service Disruption",
-    "summary": "Microsoft has implemented new service health check methods and automated recovery systems following a global disruption to its 365 services that occurred between November 12 and 14, 2026.",
-    "ts": "2026-11-16T16:01:21Z",
-    "url": "https://businesschief.com/news/microsoft-outage-loss-could-total-us-700m-analysts-say",
+    "headline": "Insulet Corporation and Diabetes Leadership Council Launch Patient Safety Net Protection Collaborative",
+    "summary": "Insulet Corporation and the Diabetes Leadership Council have launched the Patient Safety Net Protection (PSNP) Collaborative to advocate for the protection of healthcare access for individuals with diabetes.",
+    "ts": "2026-11-17T19:01:51Z",
+    "url": "https://www.prnewswire.com/news-releases/diabetes-leadership-council-and-insulet-corporation-announce-launch-of-multiyear-effort-to-protect-access-to-healthcare-for-people-with-diabetes-302941207.html",
+    "source": "fiscal.ai"
+   }
+  ],
+  "TDG": [
+   {
+    "headline": "Wells Fargo Maintains Hold Rating and $1,375 Price Target on TransDigm Group",
+    "summary": "Wells Fargo analyst David E. Strauss has reaffirmed a 'Hold' rating and a price target of $1,375 for TransDigm Group Incorporated.",
+    "ts": "2026-11-17T19:01:32Z",
+    "url": "https://www.moomoo.com/hant/news/post/1004892802/wells-fargo-maintains-transdigm-tdgus-with-hold-rating-maintains-target",
     "source": "fiscal.ai"
    },
    {
-    "headline": "Microsoft Authorizes Parallels Desktop for Windows on Apple Silicon",
-    "summary": "Microsoft has recognized Parallels Desktop configurations as an authorized solution for running Arm versions of Windows 11 on Apple silicon Macs.",
-    "ts": "2026-11-16T13:01:21Z",
-    "url": "https://www.prnewswire.com/news-releases/best-windows-software-for-mac-2026-parallels-named-top-pick-for-easy-setup-and-mac-integration-by-software-experts-302939773.html",
+    "headline": "TDG Gold Announces Preliminary Economic Assessment for Shasta and Mets Deposits",
+    "summary": "TDG Gold Corp. has released the results of its first Preliminary Economic Assessment (PEA) for the 100% owned Shasta and Mets deposits in British Columbia, outlining a joint open-pit operation.",
+    "ts": "2026-11-17T14:03:15Z",
+    "url": "https://www.globenewswire.com/news-release/2026/11/17/3404459/0/en/tdg-announces-preliminary-economic-assessment-for-the-shasta-au-ag-project.html",
+    "source": "fiscal.ai"
+   }
+  ],
+  "DAL": [
+   {
+    "headline": "UBS Adjusts Price Target on Delta Air Lines to $113 From $102",
+    "summary": "UBS has raised its price target for Delta Air Lines, Inc. from $102 to $113 while maintaining a Buy rating on the stock.",
+    "ts": "2026-11-17T16:02:27Z",
+    "url": "https://www.marketscreener.com/news/ubs-adjusts-price-target-on-delta-air-lines-to-113-from-102-maintains-buy-rating-ce785edcda88f62c",
     "source": "fiscal.ai"
    },
    {
-    "headline": "Microsoft Verifies InTouch123 Inc. in Partner Center",
-    "summary": "Microsoft has officially verified the Partner Center profile of InTouch123 Inc., the company behind the referral network Referna.",
-    "ts": "2026-11-16T13:01:21Z",
-    "url": "https://natlawreview.com/press-releases/microsoft-verifies-referna-partner-center",
+    "headline": "Berkshire Hathaway Increases Stake in Delta Air Lines",
+    "summary": "Regulatory filings reveal that Berkshire Hathaway increased its investment in Delta Air Lines by approximately 12.44% during the third quarter of 2026.",
+    "ts": "2026-11-17T11:31:56Z",
+    "url": "https://www.milanofinanza.it/news/bending-spoons-e-le-altre-ecco-come-berkshire-hathaway-ha-cambiato-l-esposizione-su-bofa-delta-e-capital-202611170955548966",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Analysts Estimate $345 Million Financial Impact on Major US Airlines from FAA Ground Stop",
+    "summary": "Brokerage firm Bernstein estimated a combined pre-tax financial impact of $345 million on major US airlines, including Delta Air Lines, following the recent FAA ground stop.",
+    "ts": "2026-11-16T22:32:13Z",
+    "url": "https://www.marketscreener.com/news/major-airline-stocks-decline-premarket-as-us-flight-cancellations-continue-after-friday-ground-stop-ce785edfd98bff20",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Delta Air Lines Expands Premium Seating Strategy Amid Rising Fuel Costs",
+    "summary": "Delta Air Lines CEO Ed Bastian indicated that the airline is increasing its premium seat capacity, potentially reaching 70% of seats on certain flights, to offset rising jet fuel expenses.",
+    "ts": "2026-11-16T21:31:52Z",
+    "url": "https://europeanbusinessmagazine.com/airlines-premium-seats/",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Amazon Satellite Launch Failure Impacts Delta Air Lines' In-Flight Wi-Fi Rollout",
+    "summary": "The failure of a rocket carrying Amazon Leo satellites has created uncertainty for Delta Air Lines' planned in-flight Wi-Fi deployment.",
+    "ts": "2026-11-16T19:01:40Z",
+    "url": "https://thriftytraveler.com/newsletters/extra-mile/nov-16-why-planes-were-grounded-friday/",
+    "source": "fiscal.ai"
+   }
+  ],
+  "ANET": [
+   {
+    "headline": "Arista Networks Expands Etherlink Portfolio With New R4 Platforms",
+    "summary": "Arista Networks has announced the expansion of its Etherlink portfolio with the introduction of new R4 platforms.",
+    "ts": "2026-11-17T16:02:10Z",
+    "url": "https://www.marketscreener.com/news/arista-networks-expands-etherlink-portfolio-with-new-r4-platforms-ce785edcda8af427",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Barclays Maintains Bullish Rating on Arista Networks",
+    "summary": "Barclays analyst Tim Long has reaffirmed a bullish rating on Arista Networks, maintaining a price target of $236.",
+    "ts": "2026-11-17T12:31:34Z",
+    "url": "https://www.moomoo.com/ja/news/post/1004871008/barclays-maintains-arista-networks-anetus-with-buy-rating-maintains-target",
+    "source": "fiscal.ai"
+   }
+  ],
+  "AMZN": [
+   {
+    "headline": "Amazon Expands Grocery Delivery to Include Prepared Meals",
+    "summary": "Amazon has added ready-to-eat and heat-and-eat meal options to its same-day grocery delivery and Amazon Now services.",
+    "ts": "2026-11-17T14:32:13Z",
+    "url": "https://stockhouse.com/news/newswire/2026/11/17/amazon-adds-prepared-meals-to-same-day-grocery-delivery",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Teamsters Organize Rally for Terminated Amazon Delivery Drivers in New York City",
+    "summary": "The Teamsters union is organizing a rally to support 200 delivery drivers who were dismissed after Amazon terminated its contract with their third-party employer.",
+    "ts": "2026-11-17T00:01:27Z",
+    "url": "https://www.prnewswire.com/news-releases/teamsters-rally-to-support-amazon-e-bike-delivery-drivers-illegally-fired-by-company-302941100.html",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Instagram Launches Integration for Amazon Affiliate Links",
+    "summary": "Instagram has introduced a new feature allowing creators to directly integrate Amazon affiliate links into Reels and feed posts.",
+    "ts": "2026-11-16T22:31:22Z",
+    "url": "https://newsfilter.io/articles/instagram-now-lets-creators-add-amazon-affiliate-links-in-reels-and-feed-posts-2c6d5f0747ae5ab0a3c96b0d6d701a1b",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Amnesty International Reports Continued Labor Issues at Amazon Saudi Arabia Facilities",
+    "summary": "Amnesty International has alleged that migrant workers at Amazon facilities in Saudi Arabia continue to face exploitation, including misleading recruitment practices and wage issues.",
+    "ts": "2026-11-16T19:01:33Z",
+    "url": "https://www.manilatimes.net/2026/11/17/business/foreign-business/amnesty-amazons-migrant-workers-still-being-exploited/2471194",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Blackstone Digital Infrastructure Trust to Acquire 75% Interest in AWS Data Center Joint Ventures",
+    "summary": "Blackstone Digital Infrastructure Trust Inc. has entered into a definitive agreement to acquire a 75% majority interest in two joint ventures with Amazon Web Services (AWS) for approximately $5 billion.",
+    "ts": "2026-11-16T14:31:20Z",
+    "url": "https://www.businesswire.com/newsroom/subject/merger-acquisition",
+    "source": "fiscal.ai"
+   }
+  ],
+  "TKO": [
+   {
+    "headline": "UFC FIGHT PASS to Stream XFC Year-End Event",
+    "summary": "UFC FIGHT PASS, a subsidiary of TKO Group Holdings, has entered into an agreement to serve as the exclusive global streaming provider for Xtreme Fighting Championships' year-end event.",
+    "ts": "2026-11-17T14:31:59Z",
+    "url": "https://www.globenewswire.com/news-release/2026/11/17/3404591/0/en/ufc-fight-pass-and-xfc-reach-exclusive-streaming-agreement.html",
+    "source": "fiscal.ai"
+   }
+  ],
+  "RL": [
+   {
+    "headline": "Ralph Lauren Announces 60th Anniversary Runway Show",
+    "summary": "Ralph Lauren Corporation has announced plans to return to the runway on June 10 to celebrate the brand's 60th anniversary.",
+    "ts": "2026-11-17T14:31:57Z",
+    "url": "https://www.milanofinanza.it/fashion/ralph-lauren-tornera-in-passerella-il-10-giugno-per-il-suo-60-anniversario-202611171512487079",
+    "source": "fiscal.ai"
+   }
+  ],
+  "EOG": [
+   {
+    "headline": "Eco (Atlantic) Oil & Gas Ltd. Completes Acquisition of JHI Associates Inc.",
+    "summary": "Eco (Atlantic) Oil & Gas Ltd. has finalized its acquisition of 100% of JHI Associates Inc., following the satisfaction of all closing conditions.",
+    "ts": "2026-11-17T14:03:00Z",
+    "url": "https://www.accessnewswire.com/newsroom/en/oil-gas-and-energy/eco-atlantic-oil-and-gas-ltd-announces-closing-of-the-acquisition-of-100-of-jhi-1252478",
+    "source": "fiscal.ai"
+   }
+  ],
+  "MPWR": [
+   {
+    "headline": "Director Eugen J. Elmiger Sells 2,500 Shares of Monolithic Power Systems",
+    "summary": "Monolithic Power Systems director Eugen J. Elmiger sold 2,500 shares of company stock on November 13, 2026, as disclosed in an SEC filing on November 16, 2026.",
+    "ts": "2026-11-17T03:01:43Z",
+    "url": "https://www.moomoo.com/ja/news/post/1004803440/monolithic-power-systems-mpwrus-director-sells-us-3-4-million",
+    "source": "fiscal.ai"
+   }
+  ],
+  "UAL": [
+   {
+    "headline": "United Airlines Reports Widespread System Outage",
+    "summary": "United Airlines is experiencing a widespread system outage, occurring shortly after a nationwide ground stop affected the airline industry.",
+    "ts": "2026-11-16T23:01:47Z",
+    "url": "https://www.independent.co.uk/news/united-airlines-chicago-b3086026.html",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Bernstein Estimates Financial Impact of FAA Ground Stop on Major US Airlines",
+    "summary": "Brokerage firm Bernstein estimates a combined $345 million pretax earnings hit for four major US airlines, including United Airlines, following a recent FAA ground stop.",
+    "ts": "2026-11-16T23:01:47Z",
+    "url": "https://forbesmiddleeast.com/industry/aviation/bernstein-sees-345m-hit-to-4-us-airlines-after-faa-ground-stop-report",
+    "source": "fiscal.ai"
+   }
+  ],
+  "RCL": [
+   {
+    "headline": "Julianna Hopkins Launches Zultanite Jewelry Collection Onboard Royal Caribbean Cruises",
+    "summary": "Fine jewelry designer Julianna Hopkins has introduced a new collection of color-changing Zultanite jewelry for purchase on Royal Caribbean ships in the Mediterranean.",
+    "ts": "2026-11-16T22:31:36Z",
+    "url": "https://www.barchart.com/press-releases/8858892/fine-jewelry-designer-julianna-hopkins-introduces-her-zultanite-jewelry-collection-to-guests-onboard-royal-caribbean-cruises",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Supreme Court Rules Against Royal Caribbean in Seafarer Disability Claim",
+    "summary": "The Supreme Court of the Philippines ordered Royal Caribbean Cruise Ltd. and its affiliate to pay permanent total disability benefits to a former seafarer.",
+    "ts": "2026-11-16T13:01:37Z",
+    "url": "https://www.pna.gov.ph/article/dmw-sc-ruling-strengthens-seafarers-claims-for-disability-benefits",
+    "source": "fiscal.ai"
+   }
+  ],
+  "TXN": [
+   {
+    "headline": "Mubadala Investment Co. Increases Stake in Texas Instruments",
+    "summary": "Mubadala Investment Co. Pjsc has increased its shareholding in Texas Instruments Incorporated by 46.9%.",
+    "ts": "2026-11-16T19:01:35Z",
+    "url": "https://www.moomoo.com/news/flash/1004769312/mubadala-investment-co-pjsc-raises-share-stake-in-texas-instruments",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Texas Instruments CEO Haviv Ilan to Speak at UBS Investor Conference",
+    "summary": "Texas Instruments announced that its CEO, Haviv Ilan, is scheduled to participate in an upcoming UBS investor conference.",
+    "ts": "2026-11-16T19:01:35Z",
+    "url": "https://www.prnewswire.com/news-releases/ti-ceo-haviv-ilan-to-speak-at-ubs-investor-conference-302940811.html",
+    "source": "fiscal.ai"
+   },
+   {
+    "headline": "Texas Instruments Launches TCAN6062 CAN XL Transceivers",
+    "summary": "Texas Instruments has introduced the TCAN6062 CAN XL transceivers, designed to support high-speed data rates and advanced automotive communication requirements.",
+    "ts": "2026-11-16T12:31:25Z",
+    "url": "https://timestech.in/ti-launches-tcan6062-can-xl-transceivers-for-robotics-and-industrial-systems/",
     "source": "fiscal.ai"
    }
   ],
@@ -376,61 +620,6 @@
     "source": "fiscal.ai"
    }
   ],
-  "V": [
-   {
-    "headline": "Visa and Samsung Launch Scan to Pay QR Functionality in Asia Pacific",
-    "summary": "Visa and Samsung Electronics have integrated Visa Scan to Pay into Samsung Wallet, enabling QR code payments for Visa cardholders across the Asia Pacific region.",
-    "ts": "2026-11-16T14:32:09Z",
-    "url": "https://cxp.asia/2026/11/16/visa-and-samsung-launch-scan-to-pay-qr-functionality-on-samsung-wallet-across-asia-pacific/",
-    "source": "fiscal.ai"
-   },
-   {
-    "headline": "Visa Launches Visa Cargo Solutions at ALMAC 2026",
-    "summary": "Visa introduced Visa Cargo Solutions, a new commercial payment offering developed in partnership with the Airport Authority Hong Kong (AAHK) to streamline logistics payments.",
-    "ts": "2026-11-16T13:01:26Z",
-    "url": "https://www.manilatimes.net/2026/11/16/tmt-newswire/media-outreach-newswire/visa-and-airport-authority-hong-kong-launch-industry-first-integrated-air-cargo-data-and-card-payment-solution-in-hong-kong/2470874",
-    "source": "fiscal.ai"
-   },
-   {
-    "headline": "Visa Partners with OpenAI and Others to Launch ChatGPT Wallet",
-    "summary": "Visa, in collaboration with American Express and Mastercard, has partnered with OpenAI to launch the ChatGPT Wallet, a payment tool for AI agents.",
-    "ts": "2026-11-16T02:01:37Z",
-    "url": "https://fintechmagazine.com/news/openai-launches-chatgpt-wallet-for-secure-ai-agent-payments",
-    "source": "fiscal.ai"
-   },
-   {
-    "headline": "Bakong Payment System Enables Visa Virtual Card Creation",
-    "summary": "Users of Cambodia's Bakong digital payment system will be able to create Visa virtual cards to facilitate contactless payments overseas.",
-    "ts": "2026-11-15T14:01:26Z",
-    "url": "https://www.prnewswire.com/apac/news-releases/cambodia-takes-bakong-global-connecting-asean-with-japan-and-africa-302939651.html",
-    "source": "fiscal.ai"
-   }
-  ],
-  "ORCL": [
-   {
-    "headline": "Shore Medical Center and Shore Physicians Group Select Oracle Health's AI-Powered EHR",
-    "summary": "Shore Medical Center and Shore Physicians Group have chosen Oracle Health's AI-powered electronic health record (EHR) system to enhance connectivity for patients and care teams.",
-    "ts": "2026-11-16T14:31:28Z",
-    "url": "https://www.prnewswire.com/news-releases/new-jersey-based-shore-medical-center-and-shore-physicians-group-select-oracle-healths-new-ai-powered-ehr-to-create-a-more-connected-experience-for-patients-and-care-teams-302940524.html",
-    "source": "fiscal.ai"
-   },
-   {
-    "headline": "FIOR Joins Oracle Partner Program",
-    "summary": "FIOR has announced its participation in Oracle's enhanced partner program to integrate its cybersecurity solutions.",
-    "ts": "2026-11-16T13:01:32Z",
-    "url": "https://aimagazine.com/news/fiors-ncsc-tested-gateway-gives-ai-agents-quantum-passports",
-    "source": "fiscal.ai"
-   }
-  ],
-  "META": [
-   {
-    "headline": "Meta Secures Multi-Year Agreements for Low-Carbon Data Center Materials",
-    "summary": "Meta has entered into multi-year purchase agreements with suppliers to secure lower-carbon cement and other materials for its data center infrastructure.",
-    "ts": "2026-11-16T14:31:14Z",
-    "url": "https://sustainabilitymag.com/news/why-meta-is-expanding-us-clean-industrial-supply-chains",
-    "source": "fiscal.ai"
-   }
-  ],
   "ABNB": [
    {
     "headline": "Phillip Securities Upgrades Airbnb to Neutral",
@@ -439,25 +628,7 @@
     "url": "https://www.moomoo.com/hans/news/post/1004744777/phillip-securities-upgrades-airbnb-to-neutral-from-reduce-184-price",
     "source": "fiscal.ai"
    }
-  ],
-  "SCHW": [
-   {
-    "headline": "Rothschild & Co Redburn Adjusts Price Target on Charles Schwab",
-    "summary": "Rothschild & Co Redburn has revised its price target for The Charles Schwab Corporation, lowering it from $120 to $105.",
-    "ts": "2026-11-16T11:32:00Z",
-    "url": "https://www.marketscreener.com/news/rothschild-co-redburn-adjusts-price-target-on-charles-schwab-to-105-from-120-ce785eded081f424",
-    "source": "fiscal.ai"
-   }
-  ],
-  "TDG": [
-   {
-    "headline": "Jefferies Maintains TransDigm Buy Rating, Lowers Price Target to $1,615",
-    "summary": "Jefferies analyst Sheila Kahyaoglu maintained a 'Buy' rating on TransDigm Group Incorporated while adjusting the price target to $1,615 from $1,625.",
-    "ts": "2026-11-16T02:01:49Z",
-    "url": "https://www.moomoo.com/hant/news/post/1004683001/jefferies-maintains-transdigm-tdgus-with-buy-rating-cuts-target-price",
-    "source": "fiscal.ai"
-   }
   ]
  },
- "symbols_with_news": 14
+ "symbols_with_news": 19
 }

@@ -2119,6 +2119,187 @@
    },
    "order_date": "2026-11-16",
    "tries": 1
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "sector": "Kommunikation",
+   "score": 0.5349,
+   "target": 463.24,
+   "stop": 378.73,
+   "atr_at_entry": 20.882596947026293,
+   "ziel_atr": 2.3,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.3481,
+   "basis_erwartung_r": 0.0212,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.283,
+    "volumen": 0.0,
+    "qualitaet": 0.915,
+    "bewertung": 0.583,
+    "analysten": 0.584
+   },
+   "target_methods": {
+    "atr": 453.56,
+    "struktur": 475.15
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-17"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "sector": "Konsum zyklisch",
+   "score": 0.8179,
+   "target": 275.19,
+   "stop": 242.2,
+   "atr_at_entry": 9.04845232265036,
+   "ziel_atr": 1.92,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.4319,
+   "basis_erwartung_r": 0.0376,
+   "score_components": {
+    "trend": 0.788,
+    "setup": 0.94,
+    "volumen": 0.336,
+    "qualitaet": 0.73,
+    "bewertung": 0.368,
+    "analysten": 0.95,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 274.97,
+    "struktur": 275.23
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-17"
+  },
+  {
+   "symbol": "FIX",
+   "name": "Comfort Systems USA",
+   "sector": "Industrie",
+   "score": 0.6556,
+   "target": 1319.77,
+   "stop": 919.28,
+   "atr_at_entry": 85.51709342334648,
+   "ziel_atr": 3.07,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2772,
+   "basis_erwartung_r": 0.1547,
+   "score_components": {
+    "trend": 0.171,
+    "setup": 0.527,
+    "volumen": 0.027,
+    "qualitaet": 0.847,
+    "bewertung": 0.817,
+    "analysten": 0.898
+   },
+   "target_methods": {
+    "atr": 1230.81,
+    "struktur": 1330.44
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-17"
+  },
+  {
+   "symbol": "D",
+   "name": "Dominion Energy",
+   "sector": "Versorger",
+   "score": 0.6326,
+   "target": 70.57,
+   "stop": 65.82,
+   "atr_at_entry": 1.2257895857996104,
+   "ziel_atr": 2.27,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.349,
+   "basis_erwartung_r": 0.0491,
+   "score_components": {
+    "trend": 0.901,
+    "setup": 1.0,
+    "volumen": 0.024,
+    "qualitaet": 0.519,
+    "bewertung": 0.334,
+    "analysten": 0.315
+   },
+   "target_methods": {
+    "atr": 70.01,
+    "struktur": 71.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-17"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies",
+   "sector": "Technologie",
+   "score": 0.6959,
+   "target": 184.19,
+   "stop": 146.48,
+   "atr_at_entry": 8.629108103674007,
+   "ziel_atr": 2.75,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3364,
+   "basis_erwartung_r": 0.1608,
+   "score_components": {
+    "trend": 0.408,
+    "setup": 0.499,
+    "volumen": 0.083,
+    "qualitaet": 0.998,
+    "bewertung": 0.218,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 178.78,
+    "struktur": 189.57
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-17"
+  },
+  {
+   "symbol": "BLK",
+   "name": "BlackRock",
+   "sector": "Finanzen",
+   "score": 0.7628,
+   "target": 1245.93,
+   "stop": 1153.02,
+   "atr_at_entry": 29.106813759345336,
+   "ziel_atr": 1.6,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4998,
+   "basis_erwartung_r": 0.0796,
+   "score_components": {
+    "trend": 0.898,
+    "setup": 0.905,
+    "volumen": 0.18,
+    "qualitaet": 0.74,
+    "bewertung": 0.359,
+    "analysten": 0.686
+   },
+   "target_methods": {
+    "atr": 1255.66,
+    "struktur": 1241.09
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-17"
   }
  ],
  "closed": [
