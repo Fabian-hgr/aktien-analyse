@@ -2120,6 +2120,186 @@
    },
    "order_date": "2026-11-17",
    "tries": 1
+  },
+  {
+   "symbol": "MGM",
+   "name": "MGM Resorts",
+   "sector": "Konsum zyklisch",
+   "score": 0.6358,
+   "target": 35.66,
+   "stop": 31.65,
+   "atr_at_entry": 0.9815949701075386,
+   "ziel_atr": 2.37,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.3565,
+   "basis_erwartung_r": 0.0497,
+   "score_components": {
+    "trend": 0.345,
+    "setup": 1.0,
+    "volumen": 0.207,
+    "qualitaet": 0.3,
+    "bewertung": 0.497,
+    "analysten": 0.652
+   },
+   "target_methods": {
+    "atr": 35.2,
+    "struktur": 36.28
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-18"
+  },
+  {
+   "symbol": "TSM",
+   "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
+   "sector": "Technologie",
+   "score": 0.7323,
+   "target": 415.63,
+   "stop": 330.78,
+   "atr_at_entry": 17.794396195559052,
+   "ziel_atr": 3.15,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.2868,
+   "basis_erwartung_r": 0.1818,
+   "score_components": {
+    "trend": 0.174,
+    "setup": 0.512,
+    "volumen": 1.0,
+    "qualitaet": 0.991,
+    "bewertung": 0.702,
+    "analysten": 0.966
+   },
+   "target_methods": {
+    "atr": 397.37,
+    "struktur": 419.63
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-18"
+  },
+  {
+   "symbol": "XOM",
+   "name": "ExxonMobil",
+   "sector": "Energie",
+   "score": 0.6537,
+   "target": 178.18,
+   "stop": 161.54,
+   "atr_at_entry": 4.0363700550637365,
+   "ziel_atr": 2.72,
+   "stop_atr": 1.41,
+   "basis_p_ziel": 0.3499,
+   "basis_erwartung_r": 0.2761,
+   "score_components": {
+    "trend": 0.7,
+    "setup": 0.759,
+    "volumen": 0.089,
+    "qualitaet": 0.671,
+    "bewertung": 0.449,
+    "analysten": 0.594
+   },
+   "target_methods": {
+    "atr": 176.15,
+    "struktur": 180.58
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-18"
+  },
+  {
+   "symbol": "CNP",
+   "name": "CenterPoint Energy",
+   "sector": "Versorger",
+   "score": 0.535,
+   "target": 41.71,
+   "stop": 38.5,
+   "atr_at_entry": 0.8131965198277419,
+   "ziel_atr": 2.34,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.3357,
+   "basis_erwartung_r": 0.0493,
+   "score_components": {
+    "trend": 0.668,
+    "setup": 0.638,
+    "volumen": 0.0,
+    "qualitaet": 0.35,
+    "bewertung": 0.361,
+    "analysten": 0.588
+   },
+   "target_methods": {
+    "atr": 41.27,
+    "struktur": 42.07
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-18"
+  },
+  {
+   "symbol": "MLM",
+   "name": "Martin Marietta Materials",
+   "sector": "Grundstoffe",
+   "score": 0.6725,
+   "target": 539.53,
+   "stop": 480.97,
+   "atr_at_entry": 13.924254786972265,
+   "ziel_atr": 2.55,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3431,
+   "basis_erwartung_r": 0.1035,
+   "score_components": {
+    "trend": 0.594,
+    "setup": 0.672,
+    "volumen": 0.0,
+    "qualitaet": 0.7,
+    "bewertung": 0.0,
+    "analysten": 0.83
+   },
+   "target_methods": {
+    "atr": 531.89,
+    "struktur": 548.34
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-18"
+  },
+  {
+   "symbol": "HPE",
+   "name": "Hewlett Packard Enterprise",
+   "sector": "Technologie",
+   "score": 0.3626,
+   "target": 57.5,
+   "stop": 40.38,
+   "atr_at_entry": 3.5208464175015197,
+   "ziel_atr": 3.24,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.2757,
+   "basis_erwartung_r": 0.1861,
+   "score_components": {
+    "trend": 0.365,
+    "setup": 0.52,
+    "volumen": 0.035,
+    "qualitaet": 0.528,
+    "bewertung": 0.955,
+    "analysten": 0.898
+   },
+   "target_methods": {
+    "atr": 53.55,
+    "struktur": 57.96
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-18"
   }
  ],
  "closed": [
