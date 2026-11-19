@@ -1,5 +1,5 @@
 {
- "built_at": "2026-11-12T20:09:07+00:00",
+ "built_at": "2026-11-19T20:44:56+00:00",
  "count": 528,
  "min_price": 5.0,
  "min_dollar_volume": 3000000,
@@ -10,8 +10,8 @@
    "name": "Nvidia",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 1308775596.2452502,
-   "last_close": 164.375,
+   "dollar_volume": 1603195302.9734998,
+   "last_close": 147.4,
    "bars_available": 26
   },
   {
@@ -19,44 +19,8 @@
    "name": "Micron Technology",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 654188773.253,
-   "last_close": 793.65,
-   "bars_available": 26
-  },
-  {
-   "symbol": "META",
-   "name": "Meta Platforms",
-   "sector": "Kommunikation",
-   "source": "sp500",
-   "dollar_volume": 563197054.3377502,
-   "last_close": 621.7,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SPCX",
-   "name": "Space Exploration Technologies Corp. Class A Common Stock",
-   "sector": "Industrie",
-   "source": "liquid",
-   "dollar_volume": 536835020.86625004,
-   "last_close": 141.335,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 502578005.81774986,
-   "last_close": 267.9,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AAPL",
-   "name": "Apple Inc.",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 476400742.45100003,
-   "last_close": 355.5,
+   "dollar_volume": 625031329.18325,
+   "last_close": 697.85,
    "bars_available": 26
   },
   {
@@ -64,8 +28,8 @@
    "name": "Advanced Micro Devices",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 465811636.7035,
-   "last_close": 585.03,
+   "dollar_volume": 553734590.8515,
+   "last_close": 487.16,
    "bars_available": 26
   },
   {
@@ -73,8 +37,44 @@
    "name": "Microsoft",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 454811859.11899996,
-   "last_close": 521.57,
+   "dollar_volume": 519170507.28949994,
+   "last_close": 500.42,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 506166216.88425004,
+   "last_close": 257.97,
+   "bars_available": 26
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "sector": "Kommunikation",
+   "source": "sp500",
+   "dollar_volume": 503826856.66449994,
+   "last_close": 597.32,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple Inc.",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 500131817.6745,
+   "last_close": 349.03,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SPCX",
+   "name": "Space Exploration Technologies Corp. Class A Common Stock",
+   "sector": "Industrie",
+   "source": "liquid",
+   "dollar_volume": 490919832.14499986,
+   "last_close": 137.485,
    "bars_available": 26
   },
   {
@@ -82,8 +82,8 @@
    "name": "Alphabet Inc. (Class A)",
    "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 410902765.97325003,
-   "last_close": 299.26,
+   "dollar_volume": 452308558.7187501,
+   "last_close": 273.86,
    "bars_available": 26
   },
   {
@@ -91,17 +91,8 @@
    "name": "Tesla, Inc.",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 357854710.6535,
-   "last_close": 390.1,
-   "bars_available": 26
-  },
-  {
-   "symbol": "INTC",
-   "name": "Intel",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 315984669.86925,
-   "last_close": 61.63,
+   "dollar_volume": 350111536.46575004,
+   "last_close": 375.9,
    "bars_available": 26
   },
   {
@@ -109,17 +100,8 @@
    "name": "Broadcom",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 305396704.3,
-   "last_close": 363.22,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SNDK",
-   "name": "Sandisk",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 286684398.593,
-   "last_close": 931.59,
+   "dollar_volume": 332889117.02549994,
+   "last_close": 346.89,
    "bars_available": 26
   },
   {
@@ -127,8 +109,26 @@
    "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
    "sector": "Technologie",
    "source": "liquid",
-   "dollar_volume": 281345329.55175,
-   "last_close": 406.48,
+   "dollar_volume": 313485999.91075003,
+   "last_close": 354.58,
+   "bars_available": 26
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 290657474.9289999,
+   "last_close": 55.995,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SNDK",
+   "name": "Sandisk",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 275212287.58449996,
+   "last_close": 764.615,
    "bars_available": 26
   },
   {
@@ -136,8 +136,8 @@
    "name": "Alphabet Inc. (Class C)",
    "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 234206276.54925004,
-   "last_close": 296.015,
+   "dollar_volume": 255813651.40950003,
+   "last_close": 271.88,
    "bars_available": 26
   },
   {
@@ -145,17 +145,8 @@
    "name": "Oracle Corporation",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 193680366.96975002,
-   "last_close": 126.895,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LITE",
-   "name": "Lumentum",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 191302594.49675006,
-   "last_close": 624.77,
+   "dollar_volume": 188310603.62350005,
+   "last_close": 110.39,
    "bars_available": 26
   },
   {
@@ -163,8 +154,17 @@
    "name": "Lilly (Eli)",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 181012110.29549998,
-   "last_close": 1434.98,
+   "dollar_volume": 187080003.431,
+   "last_close": 1352.29,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LITE",
+   "name": "Lumentum",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 174056153.1135,
+   "last_close": 533.92,
    "bars_available": 26
   },
   {
@@ -172,8 +172,8 @@
    "name": "Visa Inc.",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 169479348.30650002,
-   "last_close": 422.25,
+   "dollar_volume": 172629881.16575003,
+   "last_close": 402.16,
    "bars_available": 26
   },
   {
@@ -181,17 +181,8 @@
    "name": "GE Vernova",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 169150309.71600002,
-   "last_close": 822.13,
-   "bars_available": 26
-  },
-  {
-   "symbol": "STX",
-   "name": "Seagate Technology",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 168756147.91275,
-   "last_close": 543.15,
+   "dollar_volume": 167507861.62525004,
+   "last_close": 758.74,
    "bars_available": 26
   },
   {
@@ -199,8 +190,17 @@
    "name": "Marvell Technology",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 159590135.72324997,
-   "last_close": 165.18,
+   "dollar_volume": 159910521.73399997,
+   "last_close": 139.56,
+   "bars_available": 26
+  },
+  {
+   "symbol": "STX",
+   "name": "Seagate Technology",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 156848008.96475,
+   "last_close": 524.88,
    "bars_available": 26
   },
   {
@@ -208,8 +208,8 @@
    "name": "Netflix",
    "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 154397862.74874997,
-   "last_close": 63.23,
+   "dollar_volume": 140759700.28000003,
+   "last_close": 58.27,
    "bars_available": 26
   },
   {
@@ -217,17 +217,8 @@
    "name": "ASML Holding N.V. New York Registry Shares",
    "sector": "Technologie",
    "source": "liquid",
-   "dollar_volume": 137513668.76475,
-   "last_close": 1499.18,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BAC",
-   "name": "Bank of America",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 133278351.61599997,
-   "last_close": 50.55,
+   "dollar_volume": 140395856.81050003,
+   "last_close": 1368.26,
    "bars_available": 26
   },
   {
@@ -235,98 +226,8 @@
    "name": "Mastercard",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 132618948.86600003,
-   "last_close": 655.29,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LRCX",
-   "name": "Lam Research",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 124437474.43325002,
-   "last_close": 232.65,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NOW",
-   "name": "ServiceNow",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 123164707.86975,
-   "last_close": 100.66,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DELL",
-   "name": "Dell Technologies",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 121859533.24974997,
-   "last_close": 372.53,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CAT",
-   "name": "Caterpillar Inc.",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 119812163.00225,
-   "last_close": 606.64,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PLTR",
-   "name": "Palantir Technologies",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 119196672.01099999,
-   "last_close": 171.56,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WDC",
-   "name": "Western Digital",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 119135854.8405,
-   "last_close": 308.36,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AMAT",
-   "name": "Applied Materials",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 115865863.88899998,
-   "last_close": 380.22,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WMT",
-   "name": "Walmart",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 114405499.3145,
-   "last_close": 125.71,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NBIS",
-   "name": "Nebius Group N.V. Class A Ordinary Shares",
-   "sector": "Kommunikation",
-   "source": "liquid",
-   "dollar_volume": 112383045.64099999,
-   "last_close": 127.08,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SKHY",
-   "name": "SK hynix Inc. American Depositary Shares",
-   "sector": "Technologie",
-   "source": "liquid",
-   "dollar_volume": 111829255.004,
-   "last_close": 137.18,
+   "dollar_volume": 134329296.34725004,
+   "last_close": 626.45,
    "bars_available": 26
   },
   {
@@ -334,71 +235,35 @@
    "name": "UnitedHealth Group",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 111394683.94849999,
-   "last_close": 405.415,
+   "dollar_volume": 130413041.53275001,
+   "last_close": 331.735,
    "bars_available": 26
   },
   {
-   "symbol": "KO",
-   "name": "Coca-Cola Company (The)",
-   "sector": "Konsum defensiv",
+   "symbol": "BAC",
+   "name": "Bank of America",
+   "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 107049267.88375004,
-   "last_close": 97.78,
+   "dollar_volume": 123366765.65324998,
+   "last_close": 48.455,
    "bars_available": 26
   },
   {
-   "symbol": "BE",
-   "name": "Bloom Energy",
+   "symbol": "CAT",
+   "name": "Caterpillar Inc.",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 106122960.25075002,
-   "last_close": 203.53,
+   "dollar_volume": 121828028.59549999,
+   "last_close": 540.61,
    "bars_available": 26
   },
   {
-   "symbol": "MRNA",
-   "name": "Moderna",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 105291262.0185,
-   "last_close": 231.26,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TXN",
-   "name": "Texas Instruments",
+   "symbol": "DELL",
+   "name": "Dell Technologies",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 103398314.037,
-   "last_close": 312.265,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TMO",
-   "name": "Thermo Fisher Scientific",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 100267728.15425,
-   "last_close": 702.83,
-   "bars_available": 26
-  },
-  {
-   "symbol": "COST",
-   "name": "Costco",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 98570690.55700001,
-   "last_close": 1090.9,
-   "bars_available": 26
-  },
-  {
-   "symbol": "VRT",
-   "name": "Vertiv",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 98070563.28624998,
-   "last_close": 209.36,
+   "dollar_volume": 119500460.921,
+   "last_close": 315.15,
    "bars_available": 26
   },
   {
@@ -406,26 +271,116 @@
    "name": "Palo Alto Networks",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 94131137.37875001,
-   "last_close": 322.3,
+   "dollar_volume": 119139851.59875,
+   "last_close": 360.7,
    "bars_available": 26
   },
   {
-   "symbol": "COHR",
-   "name": "Coherent Corp.",
+   "symbol": "LRCX",
+   "name": "Lam Research",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 93809041.30525,
-   "last_close": 233.19,
+   "dollar_volume": 118865399.88225003,
+   "last_close": 204.42,
    "bars_available": 26
   },
   {
-   "symbol": "GE",
-   "name": "GE Aerospace",
+   "symbol": "PLTR",
+   "name": "Palantir Technologies",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 117990274.0785,
+   "last_close": 153.51,
+   "bars_available": 26
+  },
+  {
+   "symbol": "WMT",
+   "name": "Walmart",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 115939121.172,
+   "last_close": 126.19,
+   "bars_available": 26
+  },
+  {
+   "symbol": "KO",
+   "name": "Coca-Cola Company (The)",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 112886065.46550003,
+   "last_close": 96.16,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 111883567.64500001,
+   "last_close": 88.31,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AMAT",
+   "name": "Applied Materials",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 111141641.52274998,
+   "last_close": 339.485,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SKHY",
+   "name": "SK hynix Inc. American Depositary Shares",
+   "sector": "Technologie",
+   "source": "liquid",
+   "dollar_volume": 108232206.68724999,
+   "last_close": 120.545,
+   "bars_available": 26
+  },
+  {
+   "symbol": "WDC",
+   "name": "Western Digital",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 107336972.88675,
+   "last_close": 297.86,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V. Class A Ordinary Shares",
+   "sector": "Kommunikation",
+   "source": "liquid",
+   "dollar_volume": 107267173.10575,
+   "last_close": 98.16,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BE",
+   "name": "Bloom Energy",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 91525579.84975,
-   "last_close": 333.345,
+   "dollar_volume": 105103961.71425,
+   "last_close": 169.06,
+   "bars_available": 26
+  },
+  {
+   "symbol": "COST",
+   "name": "Costco",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 102109057.359,
+   "last_close": 1090.3,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 98013717.49075,
+   "last_close": 185.57,
    "bars_available": 26
   },
   {
@@ -433,35 +388,26 @@
    "name": "ExxonMobil",
    "sector": "Energie",
    "source": "sp500",
-   "dollar_volume": 88958534.88749997,
-   "last_close": 170.79,
+   "dollar_volume": 96725808.555,
+   "last_close": 158.94,
    "bars_available": 26
   },
   {
-   "symbol": "KLAC",
-   "name": "KLA Corporation",
+   "symbol": "TXN",
+   "name": "Texas Instruments",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 88080849.4115,
-   "last_close": 158.135,
+   "dollar_volume": 96151650.36699998,
+   "last_close": 286.71,
    "bars_available": 26
   },
   {
-   "symbol": "CRWV",
-   "name": "CoreWeave, Inc. Class A Common Stock",
+   "symbol": "COHR",
+   "name": "Coherent Corp.",
    "sector": "Technologie",
-   "source": "liquid",
-   "dollar_volume": 86932056.63874999,
-   "last_close": 55.89,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NEE",
-   "name": "NextEra Energy",
-   "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 85777315.25425,
-   "last_close": 85.945,
+   "dollar_volume": 94963603.94125,
+   "last_close": 214.64,
    "bars_available": 26
   },
   {
@@ -469,35 +415,17 @@
    "name": "Arista Networks",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 83594874.79724999,
-   "last_close": 205.955,
+   "dollar_volume": 89336184.11674999,
+   "last_close": 190.29,
    "bars_available": 26
   },
   {
-   "symbol": "BSX",
-   "name": "Boston Scientific",
-   "sector": "Gesundheit",
+   "symbol": "GE",
+   "name": "GE Aerospace",
+   "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 83240877.61549999,
-   "last_close": 44.135,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SNOW",
-   "name": "Snowflake Inc.",
-   "sector": "Technologie",
-   "source": "liquid",
-   "dollar_volume": 82875836.13575001,
-   "last_close": 297.365,
-   "bars_available": 26
-  },
-  {
-   "symbol": "JNJ",
-   "name": "Johnson & Johnson",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 82583571.28625003,
-   "last_close": 284.54,
+   "dollar_volume": 89038846.00100002,
+   "last_close": 318.905,
    "bars_available": 26
   },
   {
@@ -505,53 +433,8 @@
    "name": "CrowdStrike",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 82540767.88049999,
-   "last_close": 228.74,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BA",
-   "name": "Boeing",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 80574833.67875001,
-   "last_close": 172.1,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SPOT",
-   "name": "Spotify Technology S.A.",
-   "sector": "Kommunikation",
-   "source": "liquid",
-   "dollar_volume": 79396826.97725,
-   "last_close": 603.195,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PG",
-   "name": "Procter & Gamble",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 79344054.677,
-   "last_close": 168.275,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GS",
-   "name": "Goldman Sachs",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 78124319.9785,
-   "last_close": 916.23,
-   "bars_available": 26
-  },
-  {
-   "symbol": "QCOM",
-   "name": "Qualcomm",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 77713412.99325,
-   "last_close": 176.81,
+   "dollar_volume": 85652867.80425002,
+   "last_close": 242.11,
    "bars_available": 26
   },
   {
@@ -559,35 +442,89 @@
    "name": "Cisco",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 75985194.11625001,
-   "last_close": 102.36,
+   "dollar_volume": 83300769.32550001,
+   "last_close": 94.575,
    "bars_available": 26
   },
   {
-   "symbol": "ETN",
-   "name": "Eaton Corporation",
+   "symbol": "NEE",
+   "name": "NextEra Energy",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 82871082.39075,
+   "last_close": 83.64,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BSX",
+   "name": "Boston Scientific",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 82699335.39975001,
+   "last_close": 42.795,
+   "bars_available": 26
+  },
+  {
+   "symbol": "JNJ",
+   "name": "Johnson & Johnson",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 82401101.5835,
+   "last_close": 266.21,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TMO",
+   "name": "Thermo Fisher Scientific",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 81845430.25649999,
+   "last_close": 689.725,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MRNA",
+   "name": "Moderna",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 80357766.05450001,
+   "last_close": 199.97,
+   "bars_available": 26
+  },
+  {
+   "symbol": "KLAC",
+   "name": "KLA Corporation",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 80131340.8615,
+   "last_close": 142.11,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BA",
+   "name": "Boeing",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 74853604.35825,
-   "last_close": 359.315,
+   "dollar_volume": 79904824.79425,
+   "last_close": 160.525,
    "bars_available": 26
   },
   {
-   "symbol": "CRM",
-   "name": "Salesforce",
+   "symbol": "QCOM",
+   "name": "Qualcomm",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 74841931.26425001,
-   "last_close": 216.83,
+   "dollar_volume": 79611416.684,
+   "last_close": 162.01,
    "bars_available": 26
   },
   {
-   "symbol": "ACN",
-   "name": "Accenture",
+   "symbol": "CRWV",
+   "name": "CoreWeave, Inc. Class A Common Stock",
    "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 73823083.67700002,
-   "last_close": 252.18,
+   "source": "liquid",
+   "dollar_volume": 79375749.229,
+   "last_close": 45.09,
    "bars_available": 26
   },
   {
@@ -595,62 +532,8 @@
    "name": "Amphenol",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 73735971.92025001,
-   "last_close": 80.595,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SHOP",
-   "name": "Shopify Inc. Class A subordinate voting shares",
-   "sector": "Technologie",
-   "source": "liquid",
-   "dollar_volume": 73586315.11400001,
-   "last_close": 146.87,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ADI",
-   "name": "Analog Devices",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 72988283.34500001,
-   "last_close": 409.04,
-   "bars_available": 26
-  },
-  {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "sector": "Kommunikation",
-   "source": "sp500",
-   "dollar_volume": 72391429.98374999,
-   "last_close": 394.99,
-   "bars_available": 26
-  },
-  {
-   "symbol": "UBER",
-   "name": "Uber",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 72075286.89050001,
-   "last_close": 68.97,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WFC",
-   "name": "Wells Fargo",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 71973296.68374997,
-   "last_close": 85.72,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GLW",
-   "name": "Corning Inc.",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 71603315.92549999,
-   "last_close": 119.12,
+   "dollar_volume": 79012821.9865,
+   "last_close": 75.43,
    "bars_available": 26
   },
   {
@@ -658,8 +541,35 @@
    "name": "Cloudflare, Inc. Class A common stock, par value $0.001 per share",
    "sector": "Technologie",
    "source": "liquid",
-   "dollar_volume": 70482743.59325,
-   "last_close": 317.59,
+   "dollar_volume": 78233281.9485,
+   "last_close": 302.82,
+   "bars_available": 26
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "sector": "Kommunikation",
+   "source": "sp500",
+   "dollar_volume": 77509729.57925001,
+   "last_close": 377.965,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SNOW",
+   "name": "Snowflake Inc.",
+   "sector": "Technologie",
+   "source": "liquid",
+   "dollar_volume": 77006779.62500001,
+   "last_close": 270.175,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PG",
+   "name": "Procter & Gamble",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 75788791.80475,
+   "last_close": 168.23,
    "bars_available": 26
   },
   {
@@ -667,17 +577,8 @@
    "name": "Home Depot (The)",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 70453232.155,
-   "last_close": 348.23,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BKNG",
-   "name": "Booking Holdings",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 70001277.36325002,
-   "last_close": 161.2,
+   "dollar_volume": 75486437.37500003,
+   "last_close": 336.87,
    "bars_available": 26
   },
   {
@@ -685,17 +586,35 @@
    "name": "JPMorgan Chase",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 69998720.0845,
-   "last_close": 343.185,
+   "dollar_volume": 74961027.32875,
+   "last_close": 320.365,
    "bars_available": 26
   },
   {
-   "symbol": "MRK",
-   "name": "Merck & Co.",
-   "sector": "Gesundheit",
+   "symbol": "GS",
+   "name": "Goldman Sachs",
+   "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 69904191.73825,
-   "last_close": 147.775,
+   "dollar_volume": 74378814.8765,
+   "last_close": 848.56,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CRM",
+   "name": "Salesforce",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 73416161.56575,
+   "last_close": 182.74,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ADI",
+   "name": "Analog Devices",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 73130392.23824999,
+   "last_close": 379.595,
    "bars_available": 26
   },
   {
@@ -703,44 +622,17 @@
    "name": "Morgan Stanley",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 69712313.81225,
-   "last_close": 189.43,
+   "dollar_volume": 71732056.10175,
+   "last_close": 175.1,
    "bars_available": 26
   },
   {
-   "symbol": "VZ",
-   "name": "Verizon",
-   "sector": "Kommunikation",
-   "source": "sp500",
-   "dollar_volume": 68110250.96775001,
-   "last_close": 46.575,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PWR",
-   "name": "Quanta Services",
+   "symbol": "UBER",
+   "name": "Uber",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 67144536.466,
-   "last_close": 606.22,
-   "bars_available": 26
-  },
-  {
-   "symbol": "T",
-   "name": "AT&T",
-   "sector": "Kommunikation",
-   "source": "sp500",
-   "dollar_volume": 67093724.0595,
-   "last_close": 22.16,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ABBV",
-   "name": "AbbVie",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 66048272.952499986,
-   "last_close": 295.26,
+   "dollar_volume": 69757307.90499999,
+   "last_close": 65.39,
    "bars_available": 26
   },
   {
@@ -748,89 +640,8 @@
    "name": "DoorDash",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 64859306.61375,
-   "last_close": 172.78,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ISRG",
-   "name": "Intuitive Surgical",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 64446104.877,
-   "last_close": 441.54,
-   "bars_available": 26
-  },
-  {
-   "symbol": "VLO",
-   "name": "Valero Energy",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 64303920.707499996,
-   "last_close": 377.72,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NXPI",
-   "name": "NXP Semiconductors",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 63383176.34749999,
-   "last_close": 265.73,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MPWR",
-   "name": "Monolithic Power Systems",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 63158056.73200001,
-   "last_close": 1437.825,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CVX",
-   "name": "Chevron Corporation",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 62948883.5615,
-   "last_close": 217.91,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SYK",
-   "name": "Stryker Corporation",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 62456730.667750016,
-   "last_close": 313.815,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TDG",
-   "name": "TransDigm Group",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 61507465.10075001,
-   "last_close": 1211.59,
-   "bars_available": 26
-  },
-  {
-   "symbol": "FIX",
-   "name": "Comfort Systems USA",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 61348103.2605,
-   "last_close": 1134.97,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MCD",
-   "name": "McDonald's",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 60623028.734749995,
-   "last_close": 272.89,
+   "dollar_volume": 68620877.35225,
+   "last_close": 157.57,
    "bars_available": 26
   },
   {
@@ -838,143 +649,53 @@
    "name": "Nu Holdings Ltd.",
    "sector": "Finanzen",
    "source": "liquid",
-   "dollar_volume": 60119168.80625,
-   "last_close": 11.86,
+   "dollar_volume": 68297692.66475,
+   "last_close": 11.84,
    "bars_available": 26
   },
   {
-   "symbol": "ABT",
-   "name": "Abbott Laboratories",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 59460245.9465,
-   "last_close": 107.18,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HWM",
-   "name": "Howmet Aerospace",
+   "symbol": "TDG",
+   "name": "TransDigm Group",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 58695434.762,
-   "last_close": 224.03,
+   "dollar_volume": 68245585.8925,
+   "last_close": 1158.47,
    "bars_available": 26
   },
   {
-   "symbol": "DHR",
-   "name": "Danaher Corporation",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 58682544.09300001,
-   "last_close": 233.34,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MELI",
-   "name": "MercadoLibre, Inc. Common Stock",
-   "sector": "Konsum zyklisch",
-   "source": "liquid",
-   "dollar_volume": 57885603.327750005,
-   "last_close": 1475.46,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PFE",
-   "name": "Pfizer",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 57364596.79599999,
-   "last_close": 28.925,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PBR",
-   "name": "PETROLEO BRASILEIRO S.A.-PETROBRAS ADS (REP 1 COMMON SHARE)",
-   "sector": "Energie",
-   "source": "liquid",
-   "dollar_volume": 57106290.019499995,
-   "last_close": 18.175,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SMCI",
-   "name": "Supermicro",
+   "symbol": "ACN",
+   "name": "Accenture",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 56745068.88825001,
-   "last_close": 27.41,
+   "dollar_volume": 67880004.70549999,
+   "last_close": 217.5,
    "bars_available": 26
   },
   {
-   "symbol": "CIEN",
-   "name": "Ciena",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 56496371.65225001,
-   "last_close": 295.05,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HPE",
-   "name": "Hewlett Packard Enterprise",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 55617282.870749995,
-   "last_close": 50.33,
-   "bars_available": 26
-  },
-  {
-   "symbol": "RTX",
-   "name": "RTX Corporation",
+   "symbol": "ETN",
+   "name": "Eaton Corporation",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 55587817.74225,
-   "last_close": 199.88,
+   "dollar_volume": 67867945.762,
+   "last_close": 332.14,
    "bars_available": 26
   },
   {
-   "symbol": "MSTR",
-   "name": "Strategy Inc Common Stock Class A",
-   "sector": "Technologie",
+   "symbol": "MRK",
+   "name": "Merck & Co.",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 67747595.12925,
+   "last_close": 132.12,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SPOT",
+   "name": "Spotify Technology S.A.",
+   "sector": "Kommunikation",
    "source": "liquid",
-   "dollar_volume": 54767098.749,
-   "last_close": 115,
-   "bars_available": 26
-  },
-  {
-   "symbol": "KDP",
-   "name": "Keurig Dr Pepper",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 54635809.92125001,
-   "last_close": 35.595,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TER",
-   "name": "Teradyne",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 54352797.8995,
-   "last_close": 263.805,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CLS",
-   "name": "Celestica, Inc.",
-   "sector": "Technologie",
-   "source": "liquid",
-   "dollar_volume": 54329021.9245,
-   "last_close": 255.02,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HOOD",
-   "name": "Robinhood Markets",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 54312178.40675,
-   "last_close": 82.325,
+   "dollar_volume": 67021562.227999985,
+   "last_close": 577.985,
    "bars_available": 26
   },
   {
@@ -982,548 +703,161 @@
    "name": "CVS Health",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 54038762.121249996,
-   "last_close": 89.83,
+   "dollar_volume": 66707490.07700001,
+   "last_close": 79.865,
    "bars_available": 26
   },
   {
-   "symbol": "PEP",
-   "name": "PepsiCo",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 53757330.83725001,
-   "last_close": 142.7,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HLT",
-   "name": "Hilton Worldwide",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 53625265.04425,
-   "last_close": 372.26,
-   "bars_available": 26
-  },
-  {
-   "symbol": "IREN",
-   "name": "IREN Limited Ordinary Shares",
-   "sector": "Finanzen",
-   "source": "liquid",
-   "dollar_volume": 53147421.84725,
-   "last_close": 19.16,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ARM",
-   "name": "Arm Holdings plc American Depositary Shares",
-   "sector": "Technologie",
-   "source": "liquid",
-   "dollar_volume": 52973771.70949999,
-   "last_close": 200.01,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GILD",
-   "name": "Gilead Sciences",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 52390070.86224999,
-   "last_close": 169.01,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MPC",
-   "name": "Marathon Petroleum",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 52246591.13199999,
-   "last_close": 416,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BLK",
-   "name": "BlackRock",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 51820090.01675,
-   "last_close": 1220.73,
-   "bars_available": 26
-  },
-  {
-   "symbol": "INTU",
-   "name": "Intuit",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 51586240.47475,
-   "last_close": 339.78,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SNPS",
-   "name": "Synopsys",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 51465995.856000006,
-   "last_close": 461.085,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CMCSA",
-   "name": "Comcast",
+   "symbol": "T",
+   "name": "AT&T",
    "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 51382400.42475,
-   "last_close": 24.775,
+   "dollar_volume": 65717394.02,
+   "last_close": 21.715,
    "bars_available": 26
   },
   {
-   "symbol": "TMUS",
-   "name": "T-Mobile US",
-   "sector": "Kommunikation",
+   "symbol": "GLW",
+   "name": "Corning Inc.",
+   "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 51028908.3575,
-   "last_close": 171.21,
+   "dollar_volume": 65521734.72849999,
+   "last_close": 106.245,
    "bars_available": 26
   },
   {
-   "symbol": "PM",
-   "name": "Philip Morris International",
+   "symbol": "NXPI",
+   "name": "NXP Semiconductors",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 65021881.9455,
+   "last_close": 253.49,
+   "bars_available": 26
+  },
+  {
+   "symbol": "KDP",
+   "name": "Keurig Dr Pepper",
    "sector": "Konsum defensiv",
    "source": "sp500",
-   "dollar_volume": 50740112.73275001,
-   "last_close": 198.53,
+   "dollar_volume": 64723414.96624999,
+   "last_close": 34.28,
    "bars_available": 26
   },
   {
-   "symbol": "SLB",
-   "name": "Schlumberger",
-   "sector": "Energie",
+   "symbol": "MPWR",
+   "name": "Monolithic Power Systems",
+   "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 50603385.44425,
-   "last_close": 51.25,
+   "dollar_volume": 64600150.86400001,
+   "last_close": 1294.68,
    "bars_available": 26
   },
   {
-   "symbol": "OXY",
-   "name": "Occidental Petroleum",
-   "sector": "Energie",
+   "symbol": "VZ",
+   "name": "Verizon",
+   "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 50577491.1305,
-   "last_close": 58.79,
+   "dollar_volume": 64594971.328999996,
+   "last_close": 45.64,
    "bars_available": 26
   },
   {
-   "symbol": "NTRA",
-   "name": "Natera, Inc. Common Stock",
+   "symbol": "ABBV",
+   "name": "AbbVie",
    "sector": "Gesundheit",
-   "source": "liquid",
-   "dollar_volume": 50527261.73375,
-   "last_close": 321.9,
+   "source": "sp500",
+   "dollar_volume": 63426840.66825,
+   "last_close": 282.795,
    "bars_available": 26
   },
   {
-   "symbol": "DDOG",
-   "name": "Datadog",
+   "symbol": "SHOP",
+   "name": "Shopify Inc. Class A subordinate voting shares",
    "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 50483562.589250006,
-   "last_close": 183.76,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CSX",
-   "name": "CSX Corporation",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 50303854.45775,
-   "last_close": 52.46,
-   "bars_available": 26
-  },
-  {
-   "symbol": "IBM",
-   "name": "IBM",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 49531662.160500005,
-   "last_close": 245.245,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PSX",
-   "name": "Phillips 66",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 49423695.52825,
-   "last_close": 264.965,
-   "bars_available": 26
-  },
-  {
-   "symbol": "EQIX",
-   "name": "Equinix",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 48418082.5255,
-   "last_close": 1074.975,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TT",
-   "name": "Trane Technologies",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 48386504.522750005,
-   "last_close": 425.64,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SHEL",
-   "name": "Shell plc American Depositary Shares (Each represents two Ordinary shares)",
-   "sector": "Energie",
    "source": "liquid",
-   "dollar_volume": 48177459.33400001,
-   "last_close": 98.805,
+   "dollar_volume": 62815490.449250005,
+   "last_close": 132.1,
    "bars_available": 26
   },
   {
-   "symbol": "LIN",
-   "name": "Linde plc",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 47884781.35075,
-   "last_close": 525.32,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PH",
-   "name": "Parker Hannifin",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 47752505.79375,
-   "last_close": 960.36,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NKE",
-   "name": "Nike, Inc.",
+   "symbol": "BKNG",
+   "name": "Booking Holdings",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 47629539.92825,
-   "last_close": 37.66,
+   "dollar_volume": 62414888.580499984,
+   "last_close": 147.87,
    "bars_available": 26
   },
   {
-   "symbol": "VRTX",
-   "name": "Vertex Pharmaceuticals",
+   "symbol": "PWR",
+   "name": "Quanta Services",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 62308090.81699999,
+   "last_close": 588.93,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SYK",
+   "name": "Stryker Corporation",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 47571889.84674999,
-   "last_close": 544.04,
+   "dollar_volume": 62278753.105,
+   "last_close": 312.33,
    "bars_available": 26
   },
   {
-   "symbol": "ALAB",
-   "name": "Astera Labs, Inc. Common Stock",
-   "sector": "Technologie",
-   "source": "liquid",
-   "dollar_volume": 47548585.794750005,
-   "last_close": 226.375,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SPGI",
-   "name": "S&P Global",
-   "sector": "Finanzen",
+   "symbol": "ISRG",
+   "name": "Intuitive Surgical",
+   "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 47496367.10475,
-   "last_close": 470.95,
+   "dollar_volume": 62275089.00150001,
+   "last_close": 405.63,
    "bars_available": 26
   },
   {
-   "symbol": "CEG",
-   "name": "Constellation Energy",
-   "sector": "Versorger",
+   "symbol": "PFE",
+   "name": "Pfizer",
+   "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 46900335.038,
-   "last_close": 281.96,
+   "dollar_volume": 62190862.90075,
+   "last_close": 27.49,
    "bars_available": 26
   },
   {
-   "symbol": "CMG",
-   "name": "Chipotle Mexican Grill",
+   "symbol": "MCD",
+   "name": "McDonald's",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 46823126.7325,
-   "last_close": 35.36,
+   "dollar_volume": 62101341.58475,
+   "last_close": 271.945,
    "bars_available": 26
   },
   {
-   "symbol": "MCHP",
-   "name": "Microchip Technology",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 46578515.1215,
-   "last_close": 61.76,
-   "bars_available": 26
-  },
-  {
-   "symbol": "JCI",
-   "name": "Johnson Controls",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 45727608.0365,
-   "last_close": 143.27,
-   "bars_available": 26
-  },
-  {
-   "symbol": "COP",
-   "name": "ConocoPhillips",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 45724846.42825,
-   "last_close": 140.62,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LNG",
-   "name": "Cheniere Energy Inc",
-   "sector": "Energie",
-   "source": "liquid",
-   "dollar_volume": 45520662.45599999,
-   "last_close": 312.05,
-   "bars_available": 26
-  },
-  {
-   "symbol": "COF",
-   "name": "Capital One",
+   "symbol": "WFC",
+   "name": "Wells Fargo",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 45429096.08625001,
-   "last_close": 193.76,
+   "dollar_volume": 60402561.04425001,
+   "last_close": 80.48,
    "bars_available": 26
   },
   {
-   "symbol": "AXP",
-   "name": "American Express",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 45361347.977,
-   "last_close": 318.85,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LMT",
-   "name": "Lockheed Martin",
+   "symbol": "FIX",
+   "name": "Comfort Systems USA",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 45249948.66700001,
-   "last_close": 607.15,
+   "dollar_volume": 58572937.97375001,
+   "last_close": 1114.36,
    "bars_available": 26
   },
   {
-   "symbol": "FCX",
-   "name": "Freeport-McMoRan",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 45209121.726500005,
-   "last_close": 60.91,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CRDO",
-   "name": "Credo Technology Group Holding Ltd Ordinary Shares",
-   "sector": "Technologie",
-   "source": "liquid",
-   "dollar_volume": 45133185.054,
-   "last_close": 139.585,
-   "bars_available": 26
-  },
-  {
-   "symbol": "URI",
-   "name": "United Rentals",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 44750377.430500016,
-   "last_close": 1146.05,
-   "bars_available": 26
-  },
-  {
-   "symbol": "REGN",
-   "name": "Regeneron Pharmaceuticals",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 44564629.436249994,
-   "last_close": 951.44,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MCK",
-   "name": "McKesson",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 44549200.664249994,
-   "last_close": 1077.22,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WELL",
-   "name": "Welltower",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 44488170.4145,
-   "last_close": 246.92,
-   "bars_available": 26
-  },
-  {
-   "symbol": "C",
-   "name": "Citigroup",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 43948266.853750005,
-   "last_close": 124.05,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DVN",
-   "name": "Devon Energy",
+   "symbol": "VLO",
+   "name": "Valero Energy",
    "sector": "Energie",
    "source": "sp500",
-   "dollar_volume": 43904743.66675,
-   "last_close": 46.42,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AMGN",
-   "name": "Amgen",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 43861284.348000005,
-   "last_close": 468.25,
-   "bars_available": 26
-  },
-  {
-   "symbol": "VST",
-   "name": "Vistra Corp.",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 43763728.22950001,
-   "last_close": 134.24,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MDT",
-   "name": "Medtronic",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 43711725.563999996,
-   "last_close": 101.435,
-   "bars_available": 26
-  },
-  {
-   "symbol": "EQT",
-   "name": "EQT Corporation",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 43561169.00625,
-   "last_close": 52.85,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WMB",
-   "name": "Williams Companies",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 43502215.387499996,
-   "last_close": 69.94,
-   "bars_available": 26
-  },
-  {
-   "symbol": "OKTA",
-   "name": "Okta, Inc.",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 43493733.12975,
-   "last_close": 181.7,
-   "bars_available": 26
-  },
-  {
-   "symbol": "RCL",
-   "name": "Royal Caribbean Group",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 42902380.6695,
-   "last_close": 322.84,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DE",
-   "name": "Deere & Company",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 42651928.227,
-   "last_close": 687.43,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CMI",
-   "name": "Cummins",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 42505417.87,
-   "last_close": 458.51,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HCA",
-   "name": "HCA Healthcare",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 42454525.14,
-   "last_close": 503.36,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CDNS",
-   "name": "Cadence Design Systems",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 42055446.36624999,
-   "last_close": 331.3,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HUM",
-   "name": "Humana",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 41805898.69350001,
-   "last_close": 441.47,
-   "bars_available": 26
-  },
-  {
-   "symbol": "UNP",
-   "name": "Union Pacific Corporation",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 41781190.44100001,
-   "last_close": 304.36,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CVNA",
-   "name": "Carvana",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 41443278.181499995,
-   "last_close": 70.63,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TWLO",
-   "name": "Twilio",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 40545274.0675,
-   "last_close": 213.42,
+   "dollar_volume": 58215145.447000004,
+   "last_close": 340.23,
    "bars_available": 26
   },
   {
@@ -1531,332 +865,215 @@
    "name": "Walt Disney Company (The)",
    "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 40460285.2045,
-   "last_close": 118.44,
+   "dollar_volume": 58076448.28300001,
+   "last_close": 120.29,
    "bars_available": 26
   },
   {
-   "symbol": "SCHW",
-   "name": "Charles Schwab Corporation",
+   "symbol": "MELI",
+   "name": "MercadoLibre, Inc. Common Stock",
+   "sector": "Konsum zyklisch",
+   "source": "liquid",
+   "dollar_volume": 57621559.632250026,
+   "last_close": 1351.79,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HOOD",
+   "name": "Robinhood Markets",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 40423532.62225,
-   "last_close": 91.98,
+   "dollar_volume": 56938484.54875,
+   "last_close": 69.04,
    "bars_available": 26
   },
   {
-   "symbol": "COIN",
-   "name": "Coinbase",
+   "symbol": "CVX",
+   "name": "Chevron Corporation",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 56861243.0855,
+   "last_close": 206.19,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PSX",
+   "name": "Phillips 66",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 54916779.186249994,
+   "last_close": 243.3,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ARM",
+   "name": "Arm Holdings plc American Depositary Shares",
+   "sector": "Technologie",
+   "source": "liquid",
+   "dollar_volume": 54743415.68074999,
+   "last_close": 178.22,
+   "bars_available": 26
+  },
+  {
+   "symbol": "IREN",
+   "name": "IREN Limited Ordinary Shares",
    "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 40287372.24125,
-   "last_close": 131.49,
+   "source": "liquid",
+   "dollar_volume": 54312972.494,
+   "last_close": 14.47,
    "bars_available": 26
   },
   {
-   "symbol": "TEAM",
-   "name": "Atlassian Corporation Class A Common Stock",
+   "symbol": "MSTR",
+   "name": "Strategy Inc Common Stock Class A",
    "sector": "Technologie",
    "source": "liquid",
-   "dollar_volume": 40167967.38074999,
-   "last_close": 151.53,
+   "dollar_volume": 54188746.382999994,
+   "last_close": 86.74,
    "bars_available": 26
   },
   {
-   "symbol": "ILMN",
-   "name": "Illumina, Inc.",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 39636910.46799999,
-   "last_close": 209.91,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ABNB",
-   "name": "Airbnb",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 39339573.31724999,
-   "last_close": 180.53,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BABA",
-   "name": "Alibaba Group Holding Limited American Depositary Shares, each represents eight Ordinary Shares",
-   "sector": "Konsum zyklisch",
+   "symbol": "CLS",
+   "name": "Celestica, Inc.",
+   "sector": "Technologie",
    "source": "liquid",
-   "dollar_volume": 39243226.17849999,
-   "last_close": 94.69,
+   "dollar_volume": 54015478.98199999,
+   "last_close": 240.78,
    "bars_available": 26
   },
   {
-   "symbol": "SE",
-   "name": "Sea Limited American Depositary Shares, each representing one Class A Ordinary Share",
-   "sector": "Konsum zyklisch",
-   "source": "liquid",
-   "dollar_volume": 39079308.770500004,
-   "last_close": 74.69,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BP",
-   "name": "BP p.l.c.",
+   "symbol": "PBR",
+   "name": "PETROLEO BRASILEIRO S.A.-PETROBRAS ADS (REP 1 COMMON SHARE)",
    "sector": "Energie",
    "source": "liquid",
-   "dollar_volume": 39074709.35024999,
-   "last_close": 46,
+   "dollar_volume": 54010586.45175,
+   "last_close": 16.335,
    "bars_available": 26
   },
   {
-   "symbol": "ADBE",
-   "name": "Adobe Inc.",
-   "sector": "Technologie",
+   "symbol": "PEP",
+   "name": "PepsiCo",
+   "sector": "Konsum defensiv",
    "source": "sp500",
-   "dollar_volume": 38911693.8715,
-   "last_close": 239.18,
+   "dollar_volume": 53893322.190249994,
+   "last_close": 138.6,
    "bars_available": 26
   },
   {
-   "symbol": "KMI",
-   "name": "Kinder Morgan",
+   "symbol": "PM",
+   "name": "Philip Morris International",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 53014031.371750005,
+   "last_close": 186.075,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MPC",
+   "name": "Marathon Petroleum",
    "sector": "Energie",
    "source": "sp500",
-   "dollar_volume": 38836736.722,
-   "last_close": 32.25,
+   "dollar_volume": 52620021.753000006,
+   "last_close": 370.09,
    "bars_available": 26
   },
   {
-   "symbol": "SBUX",
-   "name": "Starbucks",
+   "symbol": "CIEN",
+   "name": "Ciena",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 52151906.99600001,
+   "last_close": 263.89,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NKE",
+   "name": "Nike, Inc.",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 38788763.30625,
-   "last_close": 107.515,
+   "dollar_volume": 51917053.048000015,
+   "last_close": 34.19,
    "bars_available": 26
   },
   {
-   "symbol": "NOK",
-   "name": "Nokia Corporation",
-   "sector": "Technologie",
-   "source": "liquid",
-   "dollar_volume": 38673128.734349996,
-   "last_close": 8.315,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CBRS",
-   "name": "Cerebras Systems Inc. Class A Common Stock",
-   "sector": "Technologie",
-   "source": "liquid",
-   "dollar_volume": 38389819.41600001,
-   "last_close": 100.02,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MAR",
-   "name": "Marriott International",
-   "sector": "Konsum zyklisch",
+   "symbol": "ABT",
+   "name": "Abbott Laboratories",
+   "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 38172886.20275,
-   "last_close": 424.91,
+   "dollar_volume": 51793090.185,
+   "last_close": 103.955,
    "bars_available": 26
   },
   {
-   "symbol": "ALNY",
-   "name": "Alnylam Pharmaceuticals, Inc. Common Stock",
+   "symbol": "NTRA",
+   "name": "Natera, Inc. Common Stock",
    "sector": "Gesundheit",
    "source": "liquid",
-   "dollar_volume": 38149028.03725,
-   "last_close": 157.63,
+   "dollar_volume": 51742137.98175,
+   "last_close": 291.22,
    "bars_available": 26
   },
   {
-   "symbol": "NEM",
-   "name": "Newmont",
+   "symbol": "HWM",
+   "name": "Howmet Aerospace",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 51399533.13550001,
+   "last_close": 217.8,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TT",
+   "name": "Trane Technologies",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 50829320.670499995,
+   "last_close": 402.37,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LIN",
+   "name": "Linde plc",
    "sector": "Grundstoffe",
    "source": "sp500",
-   "dollar_volume": 37889710.54675,
-   "last_close": 113.68,
+   "dollar_volume": 50770677.27099999,
+   "last_close": 510.19,
    "bars_available": 26
   },
   {
-   "symbol": "SO",
-   "name": "Southern Company",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 36952268.81275,
-   "last_close": 92.94,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WULF",
-   "name": "TeraWulf Inc. Common Stock",
-   "sector": "Finanzen",
-   "source": "liquid",
-   "dollar_volume": 36817886.61350001,
-   "last_close": 13.005,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CCL",
-   "name": "Carnival Corporation",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 36737422.98650001,
-   "last_close": 29.41,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ONON",
-   "name": "On Holding AG",
-   "sector": "Konsum zyklisch",
-   "source": "liquid",
-   "dollar_volume": 36594652.59375,
-   "last_close": 33.31,
-   "bars_available": 26
-  },
-  {
-   "symbol": "FDX",
-   "name": "FedEx",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 36508203.83174999,
-   "last_close": 321.85,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MDLZ",
-   "name": "Mondelez International",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 36374459.60400001,
-   "last_close": 66.715,
-   "bars_available": 26
-  },
-  {
-   "symbol": "FTNT",
-   "name": "Fortinet",
+   "symbol": "SMCI",
+   "name": "Supermicro",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 36260142.53075,
-   "last_close": 129.515,
+   "dollar_volume": 50769796.67650001,
+   "last_close": 24.105,
    "bars_available": 26
   },
   {
-   "symbol": "FITB",
-   "name": "Fifth Third Bancorp",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 35999355.97049999,
-   "last_close": 54.125,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MSI",
-   "name": "Motorola Solutions",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 35969418.644499995,
-   "last_close": 533.37,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TJX",
-   "name": "TJX Companies",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 35699100.3615,
-   "last_close": 135.78,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MMM",
-   "name": "3M",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 35547309.62025,
-   "last_close": 186.375,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ICE",
-   "name": "Intercontinental Exchange",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 35198412.306,
-   "last_close": 177.99,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LOW",
-   "name": "Lowe's",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 35130917.31250001,
-   "last_close": 227.62,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GM",
-   "name": "General Motors",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 34984681.92375,
-   "last_close": 86.475,
-   "bars_available": 26
-  },
-  {
-   "symbol": "EXPE",
-   "name": "Expedia Group",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 34974292.64425,
-   "last_close": 261,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NOC",
-   "name": "Northrop Grumman",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 34739476.206,
-   "last_close": 550.715,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WAT",
-   "name": "Waters Corporation",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 34515130.38375,
-   "last_close": 462.97,
-   "bars_available": 26
-  },
-  {
-   "symbol": "RDDT",
-   "name": "Reddit",
+   "symbol": "TMUS",
+   "name": "T-Mobile US",
    "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 34502625.04175,
-   "last_close": 99.51,
+   "dollar_volume": 50769029.080749996,
+   "last_close": 161.71,
    "bars_available": 26
   },
   {
-   "symbol": "ELV",
-   "name": "Elevance Health",
+   "symbol": "HUM",
+   "name": "Humana",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 34474592.7605,
-   "last_close": 430.375,
+   "dollar_volume": 50609947.00450001,
+   "last_close": 379.14,
    "bars_available": 26
   },
   {
-   "symbol": "KMB",
-   "name": "Kimberly-Clark",
-   "sector": "Konsum defensiv",
+   "symbol": "DDOG",
+   "name": "Datadog",
+   "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 34429273.451000005,
-   "last_close": 107.3,
+   "dollar_volume": 50209119.8715,
+   "last_close": 167.01,
    "bars_available": 26
   },
   {
@@ -1864,8 +1081,332 @@
    "name": "Xcel Energy",
    "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 34341988.9875,
-   "last_close": 81.7,
+   "dollar_volume": 49931609.5585,
+   "last_close": 79.39,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TJX",
+   "name": "TJX Companies",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 49790588.242,
+   "last_close": 139.975,
+   "bars_available": 26
+  },
+  {
+   "symbol": "GILD",
+   "name": "Gilead Sciences",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 49732038.111999996,
+   "last_close": 166.98,
+   "bars_available": 26
+  },
+  {
+   "symbol": "INTU",
+   "name": "Intuit",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 49535547.42774999,
+   "last_close": 303.8,
+   "bars_available": 26
+  },
+  {
+   "symbol": "WELL",
+   "name": "Welltower",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 49000946.404750004,
+   "last_close": 243.33,
+   "bars_available": 26
+  },
+  {
+   "symbol": "FCX",
+   "name": "Freeport-McMoRan",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 48988964.2135,
+   "last_close": 49.125,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TER",
+   "name": "Teradyne",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 48734233.06175,
+   "last_close": 228.13,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DE",
+   "name": "Deere & Company",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 48446847.418,
+   "last_close": 626.47,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MCK",
+   "name": "McKesson",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 48179386.89174999,
+   "last_close": 1060.475,
+   "bars_available": 26
+  },
+  {
+   "symbol": "COP",
+   "name": "ConocoPhillips",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 48142403.712000005,
+   "last_close": 134.76,
+   "bars_available": 26
+  },
+  {
+   "symbol": "OXY",
+   "name": "Occidental Petroleum",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 47418520.448,
+   "last_close": 53.61,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SCHW",
+   "name": "Charles Schwab Corporation",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 47414536.471999995,
+   "last_close": 91.925,
+   "bars_available": 26
+  },
+  {
+   "symbol": "UNP",
+   "name": "Union Pacific Corporation",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 47047206.74600001,
+   "last_close": 289.68,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HLT",
+   "name": "Hilton Worldwide",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 47008458.86599999,
+   "last_close": 362.275,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AXP",
+   "name": "American Express",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 46972916.866,
+   "last_close": 310.95,
+   "bars_available": 26
+  },
+  {
+   "symbol": "JCI",
+   "name": "Johnson Controls",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 46842803.907500006,
+   "last_close": 136.52,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EQIX",
+   "name": "Equinix",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 46750259.410000004,
+   "last_close": 1017.81,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs, Inc. Common Stock",
+   "sector": "Technologie",
+   "source": "liquid",
+   "dollar_volume": 46737331.18274999,
+   "last_close": 214.73,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CSX",
+   "name": "CSX Corporation",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 46437086.36525,
+   "last_close": 49.855,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LNG",
+   "name": "Cheniere Energy Inc",
+   "sector": "Energie",
+   "source": "liquid",
+   "dollar_volume": 46269813.593499996,
+   "last_close": 295.05,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BLK",
+   "name": "BlackRock",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 46108669.098000005,
+   "last_close": 1138.76,
+   "bars_available": 26
+  },
+  {
+   "symbol": "REGN",
+   "name": "Regeneron Pharmaceuticals",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 46091372.33725,
+   "last_close": 926.1,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BABA",
+   "name": "Alibaba Group Holding Limited American Depositary Shares, each represents eight Ordinary Shares",
+   "sector": "Konsum zyklisch",
+   "source": "liquid",
+   "dollar_volume": 45910047.254250005,
+   "last_close": 83.89,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CMCSA",
+   "name": "Comcast",
+   "sector": "Kommunikation",
+   "source": "sp500",
+   "dollar_volume": 45878894.478,
+   "last_close": 24.765,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DVN",
+   "name": "Devon Energy",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 45877758.54799999,
+   "last_close": 42.005,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DHR",
+   "name": "Danaher Corporation",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 45806523.98375001,
+   "last_close": 227.32,
+   "bars_available": 26
+  },
+  {
+   "symbol": "COF",
+   "name": "Capital One",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 45761900.76524999,
+   "last_close": 182.055,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SLB",
+   "name": "Schlumberger",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 45749364.396749996,
+   "last_close": 47.955,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CEG",
+   "name": "Constellation Energy",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 45719120.22525,
+   "last_close": 252.205,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SNPS",
+   "name": "Synopsys",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 45480136.48175001,
+   "last_close": 431.26,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HPE",
+   "name": "Hewlett Packard Enterprise",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 44865317.79875,
+   "last_close": 45.59,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VRTX",
+   "name": "Vertex Pharmaceuticals",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 44523672.3365,
+   "last_close": 518.83,
+   "bars_available": 26
+  },
+  {
+   "symbol": "OKTA",
+   "name": "Okta, Inc.",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 43855440.54225,
+   "last_close": 206.2,
+   "bars_available": 26
+  },
+  {
+   "symbol": "C",
+   "name": "Citigroup",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 43568937.79175,
+   "last_close": 115.11,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ABNB",
+   "name": "Airbnb",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 43547583.546749994,
+   "last_close": 173.64,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CMG",
+   "name": "Chipotle Mexican Grill",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 43490626.9295,
+   "last_close": 36.23,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CVNA",
+   "name": "Carvana",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 43455228.577250004,
+   "last_close": 68.09,
    "bars_available": 26
   },
   {
@@ -1873,377 +1414,224 @@
    "name": "Fiserv",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 34176198.54625,
-   "last_close": 62.03,
+   "dollar_volume": 43450057.6865,
+   "last_close": 56.39,
    "bars_available": 26
   },
   {
-   "symbol": "BMY",
-   "name": "Bristol Myers Squibb",
-   "sector": "Gesundheit",
+   "symbol": "MCHP",
+   "name": "Microchip Technology",
+   "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 33985069.3105,
-   "last_close": 62.5,
+   "dollar_volume": 43025325.24775,
+   "last_close": 58.88,
    "bars_available": 26
   },
   {
-   "symbol": "CNP",
-   "name": "CenterPoint Energy",
+   "symbol": "CBRS",
+   "name": "Cerebras Systems Inc. Class A Common Stock",
+   "sector": "Technologie",
+   "source": "liquid",
+   "dollar_volume": 42750732.923499994,
+   "last_close": 87.165,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PH",
+   "name": "Parker Hannifin",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 42489724.720249996,
+   "last_close": 907.42,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SHEL",
+   "name": "Shell plc American Depositary Shares (Each represents two Ordinary shares)",
+   "sector": "Energie",
+   "source": "liquid",
+   "dollar_volume": 42132295.396,
+   "last_close": 93.91,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SO",
+   "name": "Southern Company",
    "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 33950300.245749995,
-   "last_close": 41.28,
+   "dollar_volume": 41902334.688999996,
+   "last_close": 93.23,
    "bars_available": 26
   },
   {
-   "symbol": "AZO",
-   "name": "AutoZone",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 33802986.4595,
-   "last_close": 3262.63,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SHW",
-   "name": "Sherwin-Williams",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 33770871.79900001,
-   "last_close": 352.985,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BX",
-   "name": "Blackstone Inc.",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 32737740.928250004,
-   "last_close": 119.055,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MLM",
-   "name": "Martin Marietta Materials",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 32502747.484749995,
-   "last_close": 521.2,
-   "bars_available": 26
-  },
-  {
-   "symbol": "FLEX",
-   "name": "Flex Ltd.",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 32500800.98850001,
-   "last_close": 78.18,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AJG",
-   "name": "Arthur J. Gallagher & Co.",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 32420239.538250007,
-   "last_close": 278.55,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TFC",
-   "name": "Truist Financial",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 32306232.088999994,
-   "last_close": 49.96,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ON",
-   "name": "ON Semiconductor",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 32150934.87925,
-   "last_close": 73.55,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TSCO",
-   "name": "Tractor Supply",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 32134455.599500008,
-   "last_close": 36.715,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MO",
-   "name": "Altria",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 32069810.383999996,
-   "last_close": 78.26,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CRL",
-   "name": "Charles River Laboratories",
+   "symbol": "HCA",
+   "name": "HCA Healthcare",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 32069035.697750002,
-   "last_close": 340.785,
+   "dollar_volume": 41718803.691,
+   "last_close": 460.115,
    "bars_available": 26
   },
   {
-   "symbol": "USB",
-   "name": "U.S. Bancorp",
-   "sector": "Finanzen",
+   "symbol": "RCL",
+   "name": "Royal Caribbean Group",
+   "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 31917760.117000006,
-   "last_close": 60.325,
+   "dollar_volume": 41672716.605500005,
+   "last_close": 305.205,
    "bars_available": 26
   },
   {
-   "symbol": "UAL",
-   "name": "United Airlines Holdings",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 31790960.176750004,
-   "last_close": 111.73,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DLR",
-   "name": "Digital Realty",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 31658761.744999997,
-   "last_close": 184.53,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ECL",
-   "name": "Ecolab",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 31532103.50699999,
-   "last_close": 306.67,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HPQ",
-   "name": "HP Inc.",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 31503379.841000002,
-   "last_close": 28.88,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ROK",
-   "name": "Rockwell Automation",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 30851902.629750006,
-   "last_close": 405.11,
-   "bars_available": 26
-  },
-  {
-   "symbol": "EW",
-   "name": "Edwards Lifesciences",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 30621115.397249997,
-   "last_close": 105.59,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AMT",
-   "name": "American Tower",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 30104475.760750003,
-   "last_close": 190.435,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CB",
-   "name": "Chubb Limited",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 30051935.103749998,
-   "last_close": 373.65,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CME",
-   "name": "CME Group",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 29900007.813250005,
-   "last_close": 316.68,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WM",
-   "name": "Waste Management",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 29800761.792749994,
-   "last_close": 243.08,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AON",
-   "name": "Aon plc",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 29751451.365,
-   "last_close": 334.4,
-   "bars_available": 26
-  },
-  {
-   "symbol": "FICO",
-   "name": "Fair Isaac",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 29722498.349499993,
-   "last_close": 716.365,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ROP",
-   "name": "Roper Technologies",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 29556226.071500003,
-   "last_close": 477.67,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PGR",
-   "name": "Progressive Corporation",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 29519791.264500003,
-   "last_close": 236.2,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ADSK",
-   "name": "Autodesk",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 29378047.402999997,
-   "last_close": 259.205,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BKR",
-   "name": "Baker Hughes",
+   "symbol": "WMB",
+   "name": "Williams Companies",
    "sector": "Energie",
    "source": "sp500",
-   "dollar_volume": 29228774.1265,
-   "last_close": 49.23,
+   "dollar_volume": 41620689.82575001,
+   "last_close": 66.145,
    "bars_available": 26
   },
   {
-   "symbol": "MNST",
-   "name": "Monster Beverage",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 29216745.067749996,
-   "last_close": 45.665,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ADP",
-   "name": "Automatic Data Processing",
+   "symbol": "RTX",
+   "name": "RTX Corporation",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 29216066.3865,
-   "last_close": 307.685,
+   "dollar_volume": 41364447.63425,
+   "last_close": 193.025,
    "bars_available": 26
   },
   {
-   "symbol": "COR",
-   "name": "Cencora",
+   "symbol": "LMT",
+   "name": "Lockheed Martin",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 40829820.98775001,
+   "last_close": 570.77,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AMGN",
+   "name": "Amgen",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 28948368.600249995,
-   "last_close": 349.28,
+   "dollar_volume": 40787988.9825,
+   "last_close": 439.37,
    "bars_available": 26
   },
   {
-   "symbol": "TGT",
-   "name": "Target Corporation",
+   "symbol": "CDNS",
+   "name": "Cadence Design Systems",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 40685449.64650001,
+   "last_close": 305.29,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CRDO",
+   "name": "Credo Technology Group Holding Ltd Ordinary Shares",
+   "sector": "Technologie",
+   "source": "liquid",
+   "dollar_volume": 40495892.5065,
+   "last_close": 118.04,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CMI",
+   "name": "Cummins",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 40258518.48775001,
+   "last_close": 422.38,
+   "bars_available": 26
+  },
+  {
+   "symbol": "URI",
+   "name": "United Rentals",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 40238192.9895,
+   "last_close": 1059.37,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SBUX",
+   "name": "Starbucks",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 40109535.189,
+   "last_close": 105.295,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TEAM",
+   "name": "Atlassian Corporation Class A Common Stock",
+   "sector": "Technologie",
+   "source": "liquid",
+   "dollar_volume": 39960480.74825,
+   "last_close": 132.8,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MDLZ",
+   "name": "Mondelez International",
    "sector": "Konsum defensiv",
    "source": "sp500",
-   "dollar_volume": 28906141.601999998,
-   "last_close": 160.91,
+   "dollar_volume": 39860721.589,
+   "last_close": 65.36,
    "bars_available": 26
   },
   {
-   "symbol": "PYPL",
-   "name": "PayPal",
+   "symbol": "SPGI",
+   "name": "S&P Global",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 28899462.46025,
-   "last_close": 58.555,
+   "dollar_volume": 39797474.6985,
+   "last_close": 441.24,
    "bars_available": 26
   },
   {
-   "symbol": "EXC",
-   "name": "Exelon",
+   "symbol": "ALNY",
+   "name": "Alnylam Pharmaceuticals, Inc. Common Stock",
+   "sector": "Gesundheit",
+   "source": "liquid",
+   "dollar_volume": 39636282.12975,
+   "last_close": 148.17,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EQT",
+   "name": "EQT Corporation",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 39541028.42925001,
+   "last_close": 49.35,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VST",
+   "name": "Vistra Corp.",
    "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 28797159.688250005,
-   "last_close": 45.835,
+   "dollar_volume": 39151080.83325,
+   "last_close": 123.99,
    "bars_available": 26
   },
   {
-   "symbol": "CCI",
-   "name": "Crown Castle",
-   "sector": "Immobilien",
+   "symbol": "MDT",
+   "name": "Medtronic",
+   "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 28783649.571749996,
-   "last_close": 89.705,
+   "dollar_volume": 38471721.53925,
+   "last_close": 100.26,
    "bars_available": 26
   },
   {
-   "symbol": "AKAM",
-   "name": "Akamai Technologies",
+   "symbol": "MSI",
+   "name": "Motorola Solutions",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 28771235.073250007,
-   "last_close": 86.51,
-   "bars_available": 26
-  },
-  {
-   "symbol": "EOG",
-   "name": "EOG Resources",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 28731095.1775,
-   "last_close": 156.725,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AXON",
-   "name": "Axon Enterprise",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 28713694.377749998,
-   "last_close": 306.23,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DAL",
-   "name": "Delta Air Lines",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 28293839.171250004,
-   "last_close": 86.775,
+   "dollar_volume": 38288425.29849999,
+   "last_close": 520.18,
    "bars_available": 26
   },
   {
@@ -2251,134 +1639,80 @@
    "name": "Take-Two Interactive",
    "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 28272108.39775,
-   "last_close": 228.04,
+   "dollar_volume": 38178565.24925,
+   "last_close": 209.37,
    "bars_available": 26
   },
   {
-   "symbol": "FOXA",
-   "name": "Fox Corporation (Class A)",
-   "sector": "Kommunikation",
-   "source": "sp500",
-   "dollar_volume": 28189667.816249996,
-   "last_close": 66.16,
+   "symbol": "SOFI",
+   "name": "SoFi Technologies, Inc. Common Stock",
+   "sector": "Finanzen",
+   "source": "liquid",
+   "dollar_volume": 37639750.7785,
+   "last_close": 13.645,
    "bars_available": 26
   },
   {
-   "symbol": "LHX",
-   "name": "L3Harris",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 28083502.44425,
-   "last_close": 273.295,
-   "bars_available": 26
-  },
-  {
-   "symbol": "EBAY",
-   "name": "eBay Inc.",
+   "symbol": "LOW",
+   "name": "Lowe's",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 28014463.351499997,
-   "last_close": 119.49,
+   "dollar_volume": 37606274.97425,
+   "last_close": 220.01,
    "bars_available": 26
   },
   {
-   "symbol": "CPRT",
-   "name": "Copart",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 27867543.074999996,
-   "last_close": 31.89,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MCO",
-   "name": "Moody's Corporation",
+   "symbol": "COIN",
+   "name": "Coinbase",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 27858461.53075,
-   "last_close": 508.42,
+   "dollar_volume": 37462945.09725001,
+   "last_close": 109.81,
    "bars_available": 26
   },
   {
-   "symbol": "CRH",
-   "name": "CRH plc",
+   "symbol": "FTNT",
+   "name": "Fortinet",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 37443869.57350001,
+   "last_close": 131.65,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SHW",
+   "name": "Sherwin-Williams",
    "sector": "Grundstoffe",
    "source": "sp500",
-   "dollar_volume": 27514705.55125,
-   "last_close": 94.455,
+   "dollar_volume": 37435968.5935,
+   "last_close": 339.48,
    "bars_available": 26
   },
   {
-   "symbol": "TEL",
-   "name": "TE Connectivity",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 27505312.869500004,
-   "last_close": 218.94,
-   "bars_available": 26
-  },
-  {
-   "symbol": "KR",
-   "name": "Kroger",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 27340246.672500007,
-   "last_close": 69.615,
-   "bars_available": 26
-  },
-  {
-   "symbol": "D",
-   "name": "Dominion Energy",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 26952650.502000004,
-   "last_close": 68.105,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HAL",
-   "name": "Halliburton",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 26812865.746500008,
-   "last_close": 33.055,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CL",
-   "name": "Colgate-Palmolive",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 26766377.8885,
-   "last_close": 97.725,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AIG",
-   "name": "American International Group",
+   "symbol": "WULF",
+   "name": "TeraWulf Inc. Common Stock",
    "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 26766063.493249997,
-   "last_close": 82.695,
+   "source": "liquid",
+   "dollar_volume": 37204055.11025,
+   "last_close": 11.585,
    "bars_available": 26
   },
   {
-   "symbol": "EL",
-   "name": "Est\u00e9e Lauder Companies (The)",
-   "sector": "Konsum defensiv",
+   "symbol": "FDX",
+   "name": "FedEx",
+   "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 26714059.576500002,
-   "last_close": 109.86,
+   "dollar_volume": 37134690.25474999,
+   "last_close": 314.5,
    "bars_available": 26
   },
   {
-   "symbol": "KEYS",
-   "name": "Keysight Technologies",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 26711769.460249998,
-   "last_close": 305.45,
+   "symbol": "BP",
+   "name": "BP p.l.c.",
+   "sector": "Energie",
+   "source": "liquid",
+   "dollar_volume": 36654500.606,
+   "last_close": 43.225,
    "bars_available": 26
   },
   {
@@ -2386,98 +1720,188 @@
    "name": "United Parcel Service",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 26709553.053250004,
-   "last_close": 111.165,
+   "dollar_volume": 36578009.17999999,
+   "last_close": 109.09,
    "bars_available": 26
   },
   {
-   "symbol": "IQV",
-   "name": "IQVIA",
+   "symbol": "TWLO",
+   "name": "Twilio",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 36467390.63899999,
+   "last_close": 179.86,
+   "bars_available": 26
+  },
+  {
+   "symbol": "RKT",
+   "name": "Rocket Companies, Inc.",
+   "sector": "Finanzen",
+   "source": "liquid",
+   "dollar_volume": 36456547.944749996,
+   "last_close": 13.225,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MAR",
+   "name": "Marriott International",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 36433998.251,
+   "last_close": 414.36,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ONON",
+   "name": "On Holding AG",
+   "sector": "Konsum zyklisch",
+   "source": "liquid",
+   "dollar_volume": 36432542.494,
+   "last_close": 30.885,
+   "bars_available": 26
+  },
+  {
+   "symbol": "KMB",
+   "name": "Kimberly-Clark",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 36347905.46125001,
+   "last_close": 105.11,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ADBE",
+   "name": "Adobe Inc.",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 36178187.83049999,
+   "last_close": 219.96,
+   "bars_available": 26
+  },
+  {
+   "symbol": "IBM",
+   "name": "IBM",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 35953727.20375,
+   "last_close": 223.21,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ELV",
+   "name": "Elevance Health",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 26517061.21075,
-   "last_close": 271.05,
+   "dollar_volume": 35841832.882,
+   "last_close": 391.37,
    "bars_available": 26
   },
   {
-   "symbol": "HONA",
-   "name": "Honeywell Aerospace",
-   "sector": "Industrie",
+   "symbol": "CCL",
+   "name": "Carnival Corporation",
+   "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 26489667.062,
-   "last_close": 167.005,
+   "dollar_volume": 35818528.30075,
+   "last_close": 27.675,
    "bars_available": 26
   },
   {
-   "symbol": "XYZ",
-   "name": "Block, Inc.",
-   "sector": "Finanzen",
+   "symbol": "AZO",
+   "name": "AutoZone",
+   "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 26452087.3195,
-   "last_close": 82.485,
+   "dollar_volume": 35200099.1175,
+   "last_close": 3273.07,
    "bars_available": 26
   },
   {
-   "symbol": "TRV",
-   "name": "Travelers Companies (The)",
-   "sector": "Finanzen",
+   "symbol": "NEM",
+   "name": "Newmont",
+   "sector": "Grundstoffe",
    "source": "sp500",
-   "dollar_volume": 26387204.1635,
-   "last_close": 405.43,
+   "dollar_volume": 35038083.054500006,
+   "last_close": 100.565,
    "bars_available": 26
   },
   {
-   "symbol": "TRGP",
-   "name": "Targa Resources",
+   "symbol": "ILMN",
+   "name": "Illumina, Inc.",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 34812026.21775,
+   "last_close": 201.225,
+   "bars_available": 26
+  },
+  {
+   "symbol": "RDDT",
+   "name": "Reddit",
+   "sector": "Kommunikation",
+   "source": "sp500",
+   "dollar_volume": 34544388.67699999,
+   "last_close": 90.21,
+   "bars_available": 26
+  },
+  {
+   "symbol": "KMI",
+   "name": "Kinder Morgan",
    "sector": "Energie",
    "source": "sp500",
-   "dollar_volume": 26315971.373499997,
-   "last_close": 298.725,
+   "dollar_volume": 34309681.794250004,
+   "last_close": 31.145,
    "bars_available": 26
   },
   {
-   "symbol": "MSCI",
-   "name": "MSCI",
-   "sector": "Finanzen",
+   "symbol": "CNP",
+   "name": "CenterPoint Energy",
+   "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 25910342.51475,
-   "last_close": 655.49,
+   "dollar_volume": 34205746.721499994,
+   "last_close": 39.11,
    "bars_available": 26
   },
   {
-   "symbol": "ALL",
-   "name": "Allstate",
-   "sector": "Finanzen",
+   "symbol": "EXPE",
+   "name": "Expedia Group",
+   "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 25857169.310249995,
-   "last_close": 266.85,
+   "dollar_volume": 33636246.77,
+   "last_close": 239.45,
    "bars_available": 26
   },
   {
-   "symbol": "IDXX",
-   "name": "Idexx Laboratories",
+   "symbol": "WAT",
+   "name": "Waters Corporation",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 25852032.7065,
-   "last_close": 699.765,
+   "dollar_volume": 33559099.701749995,
+   "last_close": 455.79,
    "bars_available": 26
   },
   {
-   "symbol": "MRSH",
-   "name": "Marsh McLennan",
+   "symbol": "ICE",
+   "name": "Intercontinental Exchange",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 25699380.908500005,
-   "last_close": 206.69,
+   "dollar_volume": 33380190.83975,
+   "last_close": 170.73,
    "bars_available": 26
   },
   {
-   "symbol": "GWW",
-   "name": "W. W. Grainger",
-   "sector": "Industrie",
+   "symbol": "TGT",
+   "name": "Target Corporation",
+   "sector": "Konsum defensiv",
    "source": "sp500",
-   "dollar_volume": 25629876.9025,
-   "last_close": 1503.075,
+   "dollar_volume": 32704505.11275,
+   "last_close": 167.07,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AJG",
+   "name": "Arthur J. Gallagher & Co.",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 32631263.716750003,
+   "last_close": 277.6,
    "bars_available": 26
   },
   {
@@ -2485,26 +1909,242 @@
    "name": "Duke Energy",
    "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 25490387.65875,
-   "last_close": 129.26,
+   "dollar_volume": 32614458.052999992,
+   "last_close": 128.54,
    "bars_available": 26
   },
   {
-   "symbol": "ORLY",
-   "name": "O'Reilly Automotive",
-   "sector": "Konsum zyklisch",
+   "symbol": "MLM",
+   "name": "Martin Marietta Materials",
+   "sector": "Grundstoffe",
    "source": "sp500",
-   "dollar_volume": 25448895.8525,
-   "last_close": 91.68,
+   "dollar_volume": 32509500.328999996,
+   "last_close": 507.06,
    "bars_available": 26
   },
   {
-   "symbol": "CNC",
-   "name": "Centene Corporation",
+   "symbol": "EW",
+   "name": "Edwards Lifesciences",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 25276404.34875,
-   "last_close": 70.115,
+   "dollar_volume": 32090309.179,
+   "last_close": 103.51,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CB",
+   "name": "Chubb Limited",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 32043876.53025,
+   "last_close": 370.54,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NOC",
+   "name": "Northrop Grumman",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 31701740.32975,
+   "last_close": 541.98,
+   "bars_available": 26
+  },
+  {
+   "symbol": "UAL",
+   "name": "United Airlines Holdings",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 31626523.48675,
+   "last_close": 105.825,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DLR",
+   "name": "Digital Realty",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 31211858.909499995,
+   "last_close": 174.05,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PGR",
+   "name": "Progressive Corporation",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 30725451.341249995,
+   "last_close": 229.64,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MMM",
+   "name": "3M",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 30680914.32100001,
+   "last_close": 178.72,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AMT",
+   "name": "American Tower",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 30630629.354500003,
+   "last_close": 181.08,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EOG",
+   "name": "EOG Resources",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 30522820.729250003,
+   "last_close": 149.26,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CL",
+   "name": "Colgate-Palmolive",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 30375353.378999997,
+   "last_close": 97.15,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BMY",
+   "name": "Bristol Myers Squibb",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 30369294.10125,
+   "last_close": 58.125,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HPQ",
+   "name": "HP Inc.",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 30326054.409,
+   "last_close": 27.925,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BX",
+   "name": "Blackstone Inc.",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 30225754.911749996,
+   "last_close": 115.83,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AKAM",
+   "name": "Akamai Technologies",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 30220715.3085,
+   "last_close": 91.27,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ECL",
+   "name": "Ecolab",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 30057764.518,
+   "last_close": 296.91,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AXON",
+   "name": "Axon Enterprise",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 29789022.046500005,
+   "last_close": 306.045,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EXC",
+   "name": "Exelon",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 29781026.437750004,
+   "last_close": 45.46,
+   "bars_available": 26
+  },
+  {
+   "symbol": "FITB",
+   "name": "Fifth Third Bancorp",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 29630287.831750005,
+   "last_close": 50.875,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TFC",
+   "name": "Truist Financial",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 29504698.353249997,
+   "last_close": 46.695,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MNST",
+   "name": "Monster Beverage",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 29479356.35825,
+   "last_close": 43.925,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BKR",
+   "name": "Baker Hughes",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 29364508.52975,
+   "last_close": 46.585,
+   "bars_available": 26
+  },
+  {
+   "symbol": "FOXA",
+   "name": "Fox Corporation (Class A)",
+   "sector": "Kommunikation",
+   "source": "sp500",
+   "dollar_volume": 29131530.447999995,
+   "last_close": 64.15,
+   "bars_available": 26
+  },
+  {
+   "symbol": "D",
+   "name": "Dominion Energy",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 28982778.2055,
+   "last_close": 66.545,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ADP",
+   "name": "Automatic Data Processing",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 28972189.919749998,
+   "last_close": 300.56,
+   "bars_available": 26
+  },
+  {
+   "symbol": "GM",
+   "name": "General Motors",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 28838392.785499997,
+   "last_close": 81.48,
    "bars_available": 26
   },
   {
@@ -2512,1034 +2152,179 @@
    "name": "Cigna",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 25265701.564000003,
-   "last_close": 295.635,
+   "dollar_volume": 28773399.469499998,
+   "last_close": 273.04,
    "bars_available": 26
   },
   {
-   "symbol": "IBKR",
-   "name": "Interactive Brokers",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 25247411.564000003,
-   "last_close": 81.83,
-   "bars_available": 26
-  },
-  {
-   "symbol": "F",
-   "name": "Ford Motor Company",
+   "symbol": "ORLY",
+   "name": "O'Reilly Automotive",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 25088256.061499998,
-   "last_close": 11.9,
+   "dollar_volume": 28771238.523250002,
+   "last_close": 92.46,
    "bars_available": 26
   },
   {
-   "symbol": "EMR",
-   "name": "Emerson Electric",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 24601099.10125,
-   "last_close": 167.07,
-   "bars_available": 26
-  },
-  {
-   "symbol": "VEEV",
-   "name": "Veeva Systems",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 24442004.57825,
-   "last_close": 302.05,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AME",
-   "name": "Ametek",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 24421038.12675,
-   "last_close": 241.67,
-   "bars_available": 26
-  },
-  {
-   "symbol": "OTIS",
-   "name": "Otis Worldwide",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 24417940.992749996,
-   "last_close": 77.345,
-   "bars_available": 26
-  },
-  {
-   "symbol": "APO",
-   "name": "Apollo Global Management",
+   "symbol": "CME",
+   "name": "CME Group",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 24375911.863500003,
-   "last_close": 121.81,
+   "dollar_volume": 28768267.796500005,
+   "last_close": 307.08,
    "bars_available": 26
   },
   {
-   "symbol": "PPL",
-   "name": "PPL Corporation",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 24338461.679500002,
-   "last_close": 35.245,
-   "bars_available": 26
-  },
-  {
-   "symbol": "FSLR",
-   "name": "First Solar",
+   "symbol": "FICO",
+   "name": "Fair Isaac",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 24336985.45425,
-   "last_close": 173.33,
+   "dollar_volume": 28741299.308749992,
+   "last_close": 673.51,
    "bars_available": 26
   },
   {
-   "symbol": "AWK",
-   "name": "American Water Works",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 24225064.8195,
-   "last_close": 148.37,
-   "bars_available": 26
-  },
-  {
-   "symbol": "O",
-   "name": "Realty Income",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 24149369.316000003,
-   "last_close": 59.395,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CTSH",
-   "name": "Cognizant",
+   "symbol": "ADSK",
+   "name": "Autodesk",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 24087441.945499998,
-   "last_close": 64.3,
+   "dollar_volume": 28737478.033,
+   "last_close": 243,
    "bars_available": 26
   },
   {
-   "symbol": "HUBB",
-   "name": "Hubbell Incorporated",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 24079543.5765,
-   "last_close": 438.74,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ECHO",
-   "name": "EchoStar",
-   "sector": "Kommunikation",
-   "source": "sp500",
-   "dollar_volume": 23951784.75575,
-   "last_close": 100.87,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LYV",
-   "name": "Live Nation Entertainment",
-   "sector": "Kommunikation",
-   "source": "sp500",
-   "dollar_volume": 23927485.436499998,
-   "last_close": 180.75,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TYL",
-   "name": "Tyler Technologies",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 23820014.0875,
-   "last_close": 423.44,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DHI",
-   "name": "D. R. Horton",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 23812413.1645,
-   "last_close": 144.5,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ROST",
-   "name": "Ross Stores",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 23723103.345,
-   "last_close": 236.89,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BDX",
-   "name": "Becton Dickinson",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 23638710.14525,
-   "last_close": 214.965,
-   "bars_available": 26
-  },
-  {
-   "symbol": "RMD",
-   "name": "ResMed",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 23484230.5175,
-   "last_close": 239.98,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HON",
-   "name": "Honeywell Technologies",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 23360948.957999997,
-   "last_close": 224.06,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CAH",
-   "name": "Cardinal Health",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 23263754.610499993,
-   "last_close": 277.84,
-   "bars_available": 26
-  },
-  {
-   "symbol": "A",
-   "name": "Agilent Technologies",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 23218540.00475,
-   "last_close": 173.53,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BNY",
-   "name": "BNY Mellon",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 23076149.850500003,
-   "last_close": 153.21,
-   "bars_available": 26
-  },
-  {
-   "symbol": "FIS",
-   "name": "Fidelity National Information Services",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 23070081.855,
-   "last_close": 28.445,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NCLH",
-   "name": "Norwegian Cruise Line Holdings",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 22844410.591,
-   "last_close": 18.205,
-   "bars_available": 26
-  },
-  {
-   "symbol": "FERG",
-   "name": "Ferguson Enterprises",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 22831511.871499997,
-   "last_close": 257.23,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MTD",
-   "name": "Mettler Toledo",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 22821081.765,
-   "last_close": 1731.35,
-   "bars_available": 26
-  },
-  {
-   "symbol": "EFX",
-   "name": "Equifax",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 22819274.36475,
-   "last_close": 187.51,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DXCM",
-   "name": "Dexcom",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 22589843.48775,
-   "last_close": 81.46,
-   "bars_available": 26
-  },
-  {
-   "symbol": "YUM",
-   "name": "Yum! Brands",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 22522814.73025,
-   "last_close": 159.15,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ODFL",
-   "name": "Old Dominion",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 22470737.039,
-   "last_close": 171.41,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NI",
-   "name": "NiSource",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 22266123.503,
-   "last_close": 46.05,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CMS",
-   "name": "CMS Energy",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 22249806.613749996,
-   "last_close": 69.56,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PNC",
-   "name": "PNC Financial Services",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 22219280.122000005,
-   "last_close": 230.94,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PCG",
-   "name": "PG&E Corporation",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 22075719.777000006,
-   "last_close": 12.975,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CARR",
-   "name": "Carrier Global",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 22045433.329499997,
-   "last_close": 54.57,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GD",
-   "name": "General Dynamics",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 21983262.6245,
-   "last_close": 364.4,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PTC",
-   "name": "PTC Inc.",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 21977285.833750002,
-   "last_close": 196.235,
-   "bars_available": 26
-  },
-  {
-   "symbol": "FAST",
-   "name": "Fastenal",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 21902738.427250005,
-   "last_close": 55.6,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AEP",
-   "name": "American Electric Power",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 21781646.599,
-   "last_close": 129.84,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SWKS",
-   "name": "Skyworks Solutions",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 21739635.38125,
-   "last_close": 90.21,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NDAQ",
-   "name": "Nasdaq, Inc.",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 21650387.8895,
-   "last_close": 109.09,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SYF",
-   "name": "Synchrony Financial",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 21648437.00225,
-   "last_close": 71.62,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PLD",
-   "name": "Prologis",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 21553249.029499996,
-   "last_close": 129.17,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ITW",
-   "name": "Illinois Tool Works",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 21493840.09125,
-   "last_close": 287.84,
-   "bars_available": 26
-  },
-  {
-   "symbol": "KKR",
-   "name": "KKR & Co.",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 21466863.47775,
-   "last_close": 97.48,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CTAS",
-   "name": "Cintas",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 21460481.855000004,
-   "last_close": 228.58,
-   "bars_available": 26
-  },
-  {
-   "symbol": "FFIV",
-   "name": "F5, Inc.",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 21386034.4795,
-   "last_close": 318.72,
-   "bars_available": 26
-  },
-  {
-   "symbol": "KHC",
-   "name": "Kraft Heinz",
+   "symbol": "MO",
+   "name": "Altria",
    "sector": "Konsum defensiv",
    "source": "sp500",
-   "dollar_volume": 21296897.74925,
-   "last_close": 24.75,
+   "dollar_volume": 28698507.5995,
+   "last_close": 74.51,
    "bars_available": 26
   },
   {
-   "symbol": "JBL",
-   "name": "Jabil",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 21289379.361500002,
-   "last_close": 259.29,
-   "bars_available": 26
-  },
-  {
-   "symbol": "VMC",
-   "name": "Vulcan Materials Company",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 21160498.851999994,
-   "last_close": 280.92,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HSY",
-   "name": "Hershey Company (The)",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 21151916.847,
-   "last_close": 174.895,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NUE",
-   "name": "Nucor",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 21142423.57825,
-   "last_close": 261.34,
-   "bars_available": 26
-  },
-  {
-   "symbol": "EME",
-   "name": "Emcor",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 21008587.22625,
-   "last_close": 660.82,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CFG",
-   "name": "Citizens Financial Group",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 20988475.888,
-   "last_close": 64.955,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GPN",
-   "name": "Global Payments",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 20812056.33625,
-   "last_close": 89.76,
-   "bars_available": 26
-  },
-  {
-   "symbol": "RVTY",
-   "name": "Revvity",
+   "symbol": "COR",
+   "name": "Cencora",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 20447853.695749998,
-   "last_close": 157.77,
+   "dollar_volume": 28472435.72725,
+   "last_close": 340.84,
    "bars_available": 26
   },
   {
-   "symbol": "IR",
-   "name": "Ingersoll Rand",
+   "symbol": "ROP",
+   "name": "Roper Technologies",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 28330983.29925,
+   "last_close": 463.01,
+   "bars_available": 26
+  },
+  {
+   "symbol": "KEYS",
+   "name": "Keysight Technologies",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 28231578.446750004,
+   "last_close": 282.64,
+   "bars_available": 26
+  },
+  {
+   "symbol": "WM",
+   "name": "Waste Management",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 20437890.754,
-   "last_close": 85.49,
+   "dollar_volume": 28172309.682250004,
+   "last_close": 238.08,
    "bars_available": 26
   },
   {
-   "symbol": "DOW",
-   "name": "Dow Inc.",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 20371931.922000002,
-   "last_close": 33.36,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TPR",
-   "name": "Tapestry, Inc.",
+   "symbol": "EBAY",
+   "name": "eBay Inc.",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 20355961.121749997,
-   "last_close": 132.52,
+   "dollar_volume": 28138225.078750003,
+   "last_close": 118.06,
    "bars_available": 26
   },
   {
-   "symbol": "ARES",
-   "name": "Ares Management",
+   "symbol": "PYPL",
+   "name": "PayPal",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 20259155.153000005,
-   "last_close": 133.835,
+   "dollar_volume": 28111408.120249998,
+   "last_close": 56.375,
    "bars_available": 26
   },
   {
-   "symbol": "RF",
-   "name": "Regions Financial Corporation",
+   "symbol": "USB",
+   "name": "U.S. Bancorp",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 20152715.37375,
-   "last_close": 28.56,
+   "dollar_volume": 27853203.292749994,
+   "last_close": 57.275,
    "bars_available": 26
   },
   {
-   "symbol": "SRE",
-   "name": "Sempra",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 20038152.45425,
-   "last_close": 79.29,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WDAY",
-   "name": "Workday, Inc.",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 19894057.90225,
-   "last_close": 189.855,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CASY",
-   "name": "Casey's",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 19882956.441250004,
-   "last_close": 707.08,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GIS",
-   "name": "General Mills",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 19856319.661000006,
-   "last_close": 33.895,
-   "bars_available": 26
-  },
-  {
-   "symbol": "RSG",
-   "name": "Republic Services",
+   "symbol": "ROK",
+   "name": "Rockwell Automation",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 19780827.542249996,
-   "last_close": 252.4,
+   "dollar_volume": 27817486.645999998,
+   "last_close": 383.955,
    "bars_available": 26
   },
   {
-   "symbol": "P",
-   "name": "Everpure",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 19741579.473249998,
-   "last_close": 110.02,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NVR",
-   "name": "NVR, Inc.",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 19404411.2425,
-   "last_close": 5815.94,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NTAP",
-   "name": "NetApp",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 19317905.137000002,
-   "last_close": 187.395,
-   "bars_available": 26
-  },
-  {
-   "symbol": "XYL",
-   "name": "Xylem Inc.",
+   "symbol": "LHX",
+   "name": "L3Harris",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 19259552.24425,
-   "last_close": 94.33,
+   "dollar_volume": 27806210.273499995,
+   "last_close": 256.26,
    "bars_available": 26
   },
   {
-   "symbol": "CBRE",
-   "name": "CBRE Group",
+   "symbol": "ON",
+   "name": "ON Semiconductor",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 27774937.158500005,
+   "last_close": 66.15,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CCI",
+   "name": "Crown Castle",
    "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 19240107.675499998,
-   "last_close": 133,
+   "dollar_volume": 27689771.757749997,
+   "last_close": 81.21,
    "bars_available": 26
   },
   {
-   "symbol": "PSA",
-   "name": "Public Storage",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 19193170.1775,
-   "last_close": 334.26,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PCAR",
-   "name": "Paccar",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 19113958.352000006,
-   "last_close": 107.12,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NRG",
-   "name": "NRG Energy",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 19074056.283499997,
-   "last_close": 98.235,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WEC",
-   "name": "WEC Energy Group",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 19028624.532750003,
-   "last_close": 118.03,
-   "bars_available": 26
-  },
-  {
-   "symbol": "KEY",
-   "name": "KeyCorp",
+   "symbol": "XYZ",
+   "name": "Block, Inc.",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 18879607.755000003,
-   "last_close": 21.28,
+   "dollar_volume": 27476503.566499997,
+   "last_close": 74.58,
    "bars_available": 26
   },
   {
-   "symbol": "WAB",
-   "name": "Wabtec",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 18630785.531249996,
-   "last_close": 303.38,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WST",
-   "name": "West Pharmaceutical Services",
+   "symbol": "IQV",
+   "name": "IQVIA",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 18546814.348249998,
-   "last_close": 411.75,
+   "dollar_volume": 27342047.573500007,
+   "last_close": 251.26,
    "bars_available": 26
   },
   {
-   "symbol": "APA",
-   "name": "APA Corporation",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 18508613.477250002,
-   "last_close": 48.2,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LVS",
-   "name": "Las Vegas Sands",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 18491681.974,
-   "last_close": 39.34,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LUV",
-   "name": "Southwest Airlines",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 18453017.356,
-   "last_close": 45.195,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LH",
-   "name": "Labcorp",
+   "symbol": "CNC",
+   "name": "Centene Corporation",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 18432242.489500005,
-   "last_close": 371.77,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HBAN",
-   "name": "Huntington Bancshares",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 18298913.178499997,
-   "last_close": 15.745,
-   "bars_available": 26
-  },
-  {
-   "symbol": "VTR",
-   "name": "Ventas",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 18279412.558250003,
-   "last_close": 90,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CDW",
-   "name": "CDW Corporation",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 18278241.87725,
-   "last_close": 172.78,
-   "bars_available": 26
-  },
-  {
-   "symbol": "VICI",
-   "name": "Vici Properties",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 18164011.32475,
-   "last_close": 24.885,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CHTR",
-   "name": "Charter Communications",
-   "sector": "Kommunikation",
-   "source": "sp500",
-   "dollar_volume": 17989230.33875,
-   "last_close": 132.67,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DG",
-   "name": "Dollar General",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 17884428.582749996,
-   "last_close": 134.92,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ZBRA",
-   "name": "Zebra Technologies",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 17797968.710750002,
-   "last_close": 317.505,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DOV",
-   "name": "Dover Corporation",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 17724614.332,
-   "last_close": 209.88,
-   "bars_available": 26
-  },
-  {
-   "symbol": "APD",
-   "name": "Air Products",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 17647558.5605,
-   "last_close": 316.36,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HST",
-   "name": "Host Hotels & Resorts",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 17634114.16575,
-   "last_close": 25.455,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BBY",
-   "name": "Best Buy",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 17564396.27475,
-   "last_close": 103.27,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LULU",
-   "name": "Lululemon Athletica",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 17518808.732,
-   "last_close": 104.31,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GEHC",
-   "name": "GE HealthCare",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 17443485.764749996,
-   "last_close": 82.21,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LII",
-   "name": "Lennox International",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 17314901.672,
-   "last_close": 348.67,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ROL",
-   "name": "Rollins, Inc.",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 17126241.693,
-   "last_close": 38.06,
-   "bars_available": 26
-  },
-  {
-   "symbol": "VMRK",
-   "name": "Vivmark Residential",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 17105112.377749998,
-   "last_close": 64.275,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WTW",
-   "name": "Willis Towers Watson",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 17080929.917249996,
-   "last_close": 331,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AMP",
-   "name": "Ameriprise Financial",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 16995022.854000002,
-   "last_close": 515.4,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ZTS",
-   "name": "Zoetis",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 16977022.69275,
-   "last_close": 82.95,
-   "bars_available": 26
-  },
-  {
-   "symbol": "IVZ",
-   "name": "Invesco",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 16919376.96475,
-   "last_close": 28.525,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ULTA",
-   "name": "Ulta Beauty",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 16906215.409,
-   "last_close": 650.62,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TDY",
-   "name": "Teledyne Technologies",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 16885534.147,
-   "last_close": 649.73,
-   "bars_available": 26
-  },
-  {
-   "symbol": "VRSN",
-   "name": "Verisign",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 16825857.824250005,
-   "last_close": 311.845,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SPG",
-   "name": "Simon Property Group",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 16646903.849250004,
-   "last_close": 234.21,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BIIB",
-   "name": "Biogen",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 16643566.505749997,
-   "last_close": 250.96,
-   "bars_available": 26
-  },
-  {
-   "symbol": "IT",
-   "name": "Gartner",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 16573659.118250003,
-   "last_close": 192.055,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ETR",
-   "name": "Entergy",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 16506423.779499998,
-   "last_close": 112.375,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GNRC",
-   "name": "Generac",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 16361672.126500001,
-   "last_close": 193.61,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LEN",
-   "name": "Lennar",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 16272155.47825,
-   "last_close": 83.84,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NSC",
-   "name": "Norfolk Southern",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 16031906.304,
-   "last_close": 333.435,
+   "dollar_volume": 27313281.908249993,
+   "last_close": 65.42,
    "bars_available": 26
   },
   {
@@ -3547,332 +2332,683 @@
    "name": "Diamondback Energy",
    "sector": "Energie",
    "source": "sp500",
-   "dollar_volume": 16012859.2295,
-   "last_close": 182.71,
+   "dollar_volume": 27242446.7985,
+   "last_close": 176.15,
    "bars_available": 26
   },
   {
-   "symbol": "UDR",
-   "name": "UDR, Inc.",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 16011202.11575,
-   "last_close": 36.41,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SBAC",
-   "name": "SBA Communications",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 16010385.026500002,
-   "last_close": 186.73,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SYY",
-   "name": "Sysco",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 15916527.300750002,
-   "last_close": 76.17,
-   "bars_available": 26
-  },
-  {
-   "symbol": "EXE",
-   "name": "Expand Energy",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 15810118.033500005,
-   "last_close": 88.54,
-   "bars_available": 26
-  },
-  {
-   "symbol": "RL",
-   "name": "Ralph Lauren Corporation",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 15670733.695999999,
-   "last_close": 390.315,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MET",
-   "name": "MetLife",
+   "symbol": "AON",
+   "name": "Aon plc",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 15509044.684249997,
-   "last_close": 102.135,
+   "dollar_volume": 27175567.291500002,
+   "last_close": 330.36,
    "bars_available": 26
   },
   {
-   "symbol": "Q",
-   "name": "Qnity Electronics",
+   "symbol": "FSLR",
+   "name": "First Solar",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 15471087.508750001,
-   "last_close": 123,
+   "dollar_volume": 26979146.655750006,
+   "last_close": 154.02,
    "bars_available": 26
   },
   {
-   "symbol": "PAYX",
-   "name": "Paychex",
-   "sector": "Industrie",
+   "symbol": "TSCO",
+   "name": "Tractor Supply",
+   "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 15431041.199749997,
-   "last_close": 114.97,
+   "dollar_volume": 26942455.628,
+   "last_close": 38.68,
    "bars_available": 26
   },
   {
-   "symbol": "ZBH",
-   "name": "Zimmer Biomet",
+   "symbol": "CRL",
+   "name": "Charles River Laboratories",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 15392078.854749996,
-   "last_close": 104.91,
+   "dollar_volume": 26843891.872999996,
+   "last_close": 328.69,
    "bars_available": 26
   },
   {
-   "symbol": "FE",
-   "name": "FirstEnergy",
+   "symbol": "FLEX",
+   "name": "Flex Ltd.",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 26645705.463,
+   "last_close": 75.44,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BDX",
+   "name": "Becton Dickinson",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 26473323.775000006,
+   "last_close": 212.97,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ROST",
+   "name": "Ross Stores",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 26471982.924750004,
+   "last_close": 220.655,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CRH",
+   "name": "CRH plc",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 26251662.143,
+   "last_close": 90.38,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HONA",
+   "name": "Honeywell Aerospace",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 26172737.582999997,
+   "last_close": 156.08,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ALL",
+   "name": "Allstate",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 26115269.847999997,
+   "last_close": 266.54,
+   "bars_available": 26
+  },
+  {
+   "symbol": "GWW",
+   "name": "W. W. Grainger",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 26089522.742749996,
+   "last_close": 1423.3,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EL",
+   "name": "Est\u00e9e Lauder Companies (The)",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 26031282.915000003,
+   "last_close": 102.46,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TEL",
+   "name": "TE Connectivity",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 25497814.19,
+   "last_close": 210.94,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TRV",
+   "name": "Travelers Companies (The)",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 25480810.311000004,
+   "last_close": 390.34,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TRGP",
+   "name": "Targa Resources",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 25423949.087749995,
+   "last_close": 286.4,
+   "bars_available": 26
+  },
+  {
+   "symbol": "WEC",
+   "name": "WEC Energy Group",
    "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 15230912.82825,
-   "last_close": 46.645,
+   "dollar_volume": 25423204.206,
+   "last_close": 116.16,
    "bars_available": 26
   },
   {
-   "symbol": "CLX",
-   "name": "Clorox",
-   "sector": "Konsum defensiv",
+   "symbol": "DAL",
+   "name": "Delta Air Lines",
+   "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 15221320.06825,
-   "last_close": 108.08,
+   "dollar_volume": 25413020.13325,
+   "last_close": 83.6,
    "bars_available": 26
   },
   {
-   "symbol": "DECK",
-   "name": "Deckers Brands",
+   "symbol": "F",
+   "name": "Ford Motor Company",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 15084234.564749997,
-   "last_close": 84.53,
+   "dollar_volume": 25185598.54225,
+   "last_close": 11.205,
    "bars_available": 26
   },
   {
-   "symbol": "VRSK",
-   "name": "Verisk Analytics",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 14910361.513,
-   "last_close": 206.73,
-   "bars_available": 26
-  },
-  {
-   "symbol": "STZ",
-   "name": "Constellation Brands",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 14728910.623249996,
-   "last_close": 145.05,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HAS",
-   "name": "Hasbro",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 14715320.285750002,
-   "last_close": 122.355,
-   "bars_available": 26
-  },
-  {
-   "symbol": "IFF",
-   "name": "International Flavors & Fragrances",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 14662229.78475,
-   "last_close": 80.875,
-   "bars_available": 26
-  },
-  {
-   "symbol": "STLD",
-   "name": "Steel Dynamics",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 14644552.166750003,
-   "last_close": 238.69,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BAX",
-   "name": "Baxter International",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 14499823.259499997,
-   "last_close": 25.885,
-   "bars_available": 26
-  },
-  {
-   "symbol": "EXPD",
-   "name": "Expeditors International",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 14381941.9005,
-   "last_close": 195.7,
-   "bars_available": 26
-  },
-  {
-   "symbol": "IEX",
-   "name": "IDEX Corporation",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 14276953.599749997,
-   "last_close": 237.28,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CHRW",
-   "name": "C.H. Robinson",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 14275576.32525,
-   "last_close": 134.47,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MOS",
-   "name": "Mosaic Company (The)",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 14222976.351250002,
-   "last_close": 22,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DLTR",
-   "name": "Dollar Tree",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 14149056.956750002,
-   "last_close": 141.44,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DGX",
-   "name": "Quest Diagnostics",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 14118627.907499999,
-   "last_close": 260.065,
-   "bars_available": 26
-  },
-  {
-   "symbol": "STT",
-   "name": "State Street Corporation",
+   "symbol": "MRSH",
+   "name": "Marsh McLennan",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 14105089.275999999,
-   "last_close": 174.12,
+   "dollar_volume": 24984868.2695,
+   "last_close": 204.53,
    "bars_available": 26
   },
   {
-   "symbol": "FDS",
-   "name": "FactSet",
-   "sector": "Finanzen",
+   "symbol": "IDXX",
+   "name": "Idexx Laboratories",
+   "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 14059402.22575,
-   "last_close": 334.565,
+   "dollar_volume": 24962698.526249997,
+   "last_close": 687.83,
    "bars_available": 26
   },
   {
-   "symbol": "OMC",
-   "name": "Omnicom Group",
+   "symbol": "EMR",
+   "name": "Emerson Electric",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 24909407.928250004,
+   "last_close": 157.675,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LYV",
+   "name": "Live Nation Entertainment",
    "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 13925328.139250001,
-   "last_close": 87.35,
+   "dollar_volume": 24893903.86025,
+   "last_close": 178.51,
    "bars_available": 26
   },
   {
-   "symbol": "IP",
-   "name": "International Paper",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 13862213.110250002,
-   "last_close": 34.085,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ALLE",
-   "name": "Allegion",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 13742181.361250004,
-   "last_close": 190.415,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CPAY",
-   "name": "Corpay",
+   "symbol": "MCO",
+   "name": "Moody's Corporation",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 13619742.755499998,
-   "last_close": 458.32,
+   "dollar_volume": 24735808.130250003,
+   "last_close": 471.43,
    "bars_available": 26
   },
   {
-   "symbol": "SW",
-   "name": "Smurfit Westrock",
-   "sector": "Grundstoffe",
+   "symbol": "AEP",
+   "name": "American Electric Power",
+   "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 13594795.093499998,
-   "last_close": 43.44,
+   "dollar_volume": 24581470.7525,
+   "last_close": 124.91,
    "bars_available": 26
   },
   {
-   "symbol": "PHM",
-   "name": "PulteGroup",
+   "symbol": "FIS",
+   "name": "Fidelity National Information Services",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 24334156.888000004,
+   "last_close": 25.715,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CPRT",
+   "name": "Copart",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 24328235.469500005,
+   "last_close": 30.975,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TYL",
+   "name": "Tyler Technologies",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 24243469.027999997,
+   "last_close": 402.78,
+   "bars_available": 26
+  },
+  {
+   "symbol": "APO",
+   "name": "Apollo Global Management",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 24220529.3245,
+   "last_close": 116.83,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CAH",
+   "name": "Cardinal Health",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 24150706.48275,
+   "last_close": 272.835,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PPL",
+   "name": "PPL Corporation",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 24026641.63825,
+   "last_close": 34.695,
+   "bars_available": 26
+  },
+  {
+   "symbol": "IBKR",
+   "name": "Interactive Brokers",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 23949646.136499997,
+   "last_close": 75.48,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DHI",
+   "name": "D. R. Horton",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 13489837.62525,
-   "last_close": 127.1,
+   "dollar_volume": 23941620.489750005,
+   "last_close": 142.38,
    "bars_available": 26
   },
   {
-   "symbol": "PEG",
-   "name": "Public Service Enterprise Group",
+   "symbol": "AME",
+   "name": "Ametek",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 23805743.15925,
+   "last_close": 231.38,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ECHO",
+   "name": "EchoStar",
+   "sector": "Kommunikation",
+   "source": "sp500",
+   "dollar_volume": 23708618.92875,
+   "last_close": 92.86,
+   "bars_available": 26
+  },
+  {
+   "symbol": "A",
+   "name": "Agilent Technologies",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 23631579.25375,
+   "last_close": 175.685,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AWK",
+   "name": "American Water Works",
    "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 13452094.299250001,
-   "last_close": 75.055,
+   "dollar_volume": 23330744.773250006,
+   "last_close": 148.15,
    "bars_available": 26
   },
   {
-   "symbol": "LNT",
-   "name": "Alliant Energy",
-   "sector": "Versorger",
+   "symbol": "ODFL",
+   "name": "Old Dominion",
+   "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 13340909.997000001,
-   "last_close": 73.24,
+   "dollar_volume": 23312148.0525,
+   "last_close": 173.6,
    "bars_available": 26
   },
   {
-   "symbol": "CSGP",
-   "name": "CoStar Group",
+   "symbol": "HON",
+   "name": "Honeywell Technologies",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 23299095.830500003,
+   "last_close": 217.575,
+   "bars_available": 26
+  },
+  {
+   "symbol": "KHC",
+   "name": "Kraft Heinz",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 23296241.676749997,
+   "last_close": 24.905,
+   "bars_available": 26
+  },
+  {
+   "symbol": "RMD",
+   "name": "ResMed",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 23269607.864249997,
+   "last_close": 237.09,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NCLH",
+   "name": "Norwegian Cruise Line Holdings",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 23127068.6825,
+   "last_close": 17.16,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MTD",
+   "name": "Mettler Toledo",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 22729114.305,
+   "last_close": 1701.24,
+   "bars_available": 26
+  },
+  {
+   "symbol": "P",
+   "name": "Everpure",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 22623110.946000002,
+   "last_close": 106.13,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MSCI",
+   "name": "MSCI",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 22554784.13275,
+   "last_close": 625.125,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CARR",
+   "name": "Carrier Global",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 22552975.1245,
+   "last_close": 51.235,
+   "bars_available": 26
+  },
+  {
+   "symbol": "KR",
+   "name": "Kroger",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 22534617.356499996,
+   "last_close": 67.52,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HUBB",
+   "name": "Hubbell Incorporated",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 22494636.0225,
+   "last_close": 419.895,
+   "bars_available": 26
+  },
+  {
+   "symbol": "OTIS",
+   "name": "Otis Worldwide",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 22461980.015249994,
+   "last_close": 76.06,
+   "bars_available": 26
+  },
+  {
+   "symbol": "O",
+   "name": "Realty Income",
    "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 13316017.561249997,
-   "last_close": 30.175,
+   "dollar_volume": 22305248.754499998,
+   "last_close": 57.56,
    "bars_available": 26
   },
   {
-   "symbol": "TKO",
-   "name": "TKO Group Holdings",
-   "sector": "Kommunikation",
+   "symbol": "HAL",
+   "name": "Halliburton",
+   "sector": "Energie",
    "source": "sp500",
-   "dollar_volume": 13243542.993750002,
-   "last_close": 194.42,
+   "dollar_volume": 22297912.643750004,
+   "last_close": 31.695,
+   "bars_available": 26
+  },
+  {
+   "symbol": "FERG",
+   "name": "Ferguson Enterprises",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 22196950.109999996,
+   "last_close": 247.76,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VEEV",
+   "name": "Veeva Systems",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 22193749.127249997,
+   "last_close": 262.795,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PCG",
+   "name": "PG&E Corporation",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 22152814.73725,
+   "last_close": 13.91,
+   "bars_available": 26
+  },
+  {
+   "symbol": "GPN",
+   "name": "Global Payments",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 22125997.89425,
+   "last_close": 83.665,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BNY",
+   "name": "BNY Mellon",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 22034794.519249998,
+   "last_close": 145.36,
+   "bars_available": 26
+  },
+  {
+   "symbol": "YUM",
+   "name": "Yum! Brands",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 22012156.962249998,
+   "last_close": 158.84,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CTSH",
+   "name": "Cognizant",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 21993579.779499996,
+   "last_close": 56.215,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HSY",
+   "name": "Hershey Company (The)",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 21866394.141,
+   "last_close": 174.275,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SYF",
+   "name": "Synchrony Financial",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 21751469.71975,
+   "last_close": 68.82,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NDAQ",
+   "name": "Nasdaq, Inc.",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 21691473.652750004,
+   "last_close": 104.16,
+   "bars_available": 26
+  },
+  {
+   "symbol": "GD",
+   "name": "General Dynamics",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 21545956.145500004,
+   "last_close": 346.225,
+   "bars_available": 26
+  },
+  {
+   "symbol": "FFIV",
+   "name": "F5, Inc.",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 21484734.007749997,
+   "last_close": 316.91,
+   "bars_available": 26
+  },
+  {
+   "symbol": "KKR",
+   "name": "KKR & Co.",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 21381142.6775,
+   "last_close": 92,
+   "bars_available": 26
+  },
+  {
+   "symbol": "RSG",
+   "name": "Republic Services",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 21226632.227750003,
+   "last_close": 245.74,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TPR",
+   "name": "Tapestry, Inc.",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 21100373.928,
+   "last_close": 123.265,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ITW",
+   "name": "Illinois Tool Works",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 20685578.82,
+   "last_close": 276.35,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NUE",
+   "name": "Nucor",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 20627459.380000003,
+   "last_close": 247.74,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PSA",
+   "name": "Public Storage",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 20575618.126749996,
+   "last_close": 326.18,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SRE",
+   "name": "Sempra",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 20372081.5665,
+   "last_close": 76.33,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CTAS",
+   "name": "Cintas",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 20362492.32075,
+   "last_close": 218.695,
+   "bars_available": 26
+  },
+  {
+   "symbol": "FAST",
+   "name": "Fastenal",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 20305142.888499998,
+   "last_close": 52.69,
+   "bars_available": 26
+  },
+  {
+   "symbol": "WDAY",
+   "name": "Workday, Inc.",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 20159450.94975,
+   "last_close": 172.84,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DXCM",
+   "name": "Dexcom",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 20130088.25475,
+   "last_close": 79.96,
+   "bars_available": 26
+  },
+  {
+   "symbol": "WST",
+   "name": "West Pharmaceutical Services",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 20019452.49275,
+   "last_close": 395.695,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PCAR",
+   "name": "Paccar",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 19921705.756750003,
+   "last_close": 104.35,
    "bars_available": 26
   },
   {
@@ -3880,107 +3016,494 @@
    "name": "Williams-Sonoma, Inc.",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 13162557.747499999,
-   "last_close": 250.995,
+   "dollar_volume": 19769284.023000002,
+   "last_close": 221.28,
    "bars_available": 26
   },
   {
-   "symbol": "LYB",
-   "name": "LyondellBasell",
+   "symbol": "ZBRA",
+   "name": "Zebra Technologies",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 19758517.5335,
+   "last_close": 313.65,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NI",
+   "name": "NiSource",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 19734064.239249997,
+   "last_close": 44.555,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CHTR",
+   "name": "Charter Communications",
+   "sector": "Kommunikation",
+   "source": "sp500",
+   "dollar_volume": 19638469.556500003,
+   "last_close": 133.255,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SWKS",
+   "name": "Skyworks Solutions",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 19534265.596750002,
+   "last_close": 78.5,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VMC",
+   "name": "Vulcan Materials Company",
    "sector": "Grundstoffe",
    "source": "sp500",
-   "dollar_volume": 13131524.681,
-   "last_close": 64.38,
+   "dollar_volume": 19509071.194500003,
+   "last_close": 273.245,
    "bars_available": 26
   },
   {
-   "symbol": "ALGN",
-   "name": "Align Technology",
+   "symbol": "NSC",
+   "name": "Norfolk Southern",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 19499525.91775,
+   "last_close": 315.96,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PNC",
+   "name": "PNC Financial Services",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 19491210.597499996,
+   "last_close": 218.1,
+   "bars_available": 26
+  },
+  {
+   "symbol": "IR",
+   "name": "Ingersoll Rand",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 19438061.090500005,
+   "last_close": 80.46,
+   "bars_available": 26
+  },
+  {
+   "symbol": "RVTY",
+   "name": "Revvity",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 13115120.5365,
-   "last_close": 167.98,
+   "dollar_volume": 19427668.37225,
+   "last_close": 152.22,
    "bars_available": 26
   },
   {
-   "symbol": "VTRS",
-   "name": "Viatris",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 13095607.548749998,
-   "last_close": 20.875,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PPG",
-   "name": "PPG Industries",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 13031298.5395,
-   "last_close": 123.73,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DPZ",
-   "name": "Domino's",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 13017711.4985,
-   "last_close": 332.105,
-   "bars_available": 26
-  },
-  {
-   "symbol": "OKE",
-   "name": "Oneok",
-   "sector": "Energie",
-   "source": "sp500",
-   "dollar_volume": 12983961.1945,
-   "last_close": 89.55,
-   "bars_available": 26
-  },
-  {
-   "symbol": "INVH",
-   "name": "Invitation Homes",
+   "symbol": "PLD",
+   "name": "Prologis",
    "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 12925020.185,
-   "last_close": 26.715,
+   "dollar_volume": 19358205.855000004,
+   "last_close": 123.11,
    "bars_available": 26
   },
   {
-   "symbol": "VYLR",
-   "name": "Vylor",
+   "symbol": "XYL",
+   "name": "Xylem Inc.",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 19326885.477,
+   "last_close": 95.505,
+   "bars_available": 26
+  },
+  {
+   "symbol": "IVZ",
+   "name": "Invesco",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 19325577.482999995,
+   "last_close": 27.93,
+   "bars_available": 26
+  },
+  {
+   "symbol": "GIS",
+   "name": "General Mills",
    "sector": "Konsum defensiv",
    "source": "sp500",
-   "dollar_volume": 12916532.685500002,
-   "last_close": 72.07,
+   "dollar_volume": 19275097.48375,
+   "last_close": 34.21,
    "bars_available": 26
   },
   {
-   "symbol": "VLTO",
-   "name": "Veralto",
+   "symbol": "CMS",
+   "name": "CMS Energy",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 19142062.467499994,
+   "last_close": 69.545,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NTAP",
+   "name": "NetApp",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 19030740.1365,
+   "last_close": 170.445,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LH",
+   "name": "Labcorp",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 18980405.501499996,
+   "last_close": 368.74,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ARES",
+   "name": "Ares Management",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 18965029.5625,
+   "last_close": 124.87,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EME",
+   "name": "Emcor",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 12895513.483250001,
-   "last_close": 117.965,
+   "dollar_volume": 18916406.408,
+   "last_close": 634.52,
    "bars_available": 26
   },
   {
-   "symbol": "SWK",
-   "name": "Stanley Black & Decker",
-   "sector": "Industrie",
+   "symbol": "DG",
+   "name": "Dollar General",
+   "sector": "Konsum defensiv",
    "source": "sp500",
-   "dollar_volume": 12892701.650999999,
-   "last_close": 112.97,
+   "dollar_volume": 18709200.2785,
+   "last_close": 133.44,
    "bars_available": 26
   },
   {
-   "symbol": "GRMN",
-   "name": "Garmin",
+   "symbol": "BBY",
+   "name": "Best Buy",
    "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 12704931.983000001,
-   "last_close": 289.99,
+   "dollar_volume": 18704845.643249996,
+   "last_close": 99.25,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CDW",
+   "name": "CDW Corporation",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 18501768.94525,
+   "last_close": 166.99,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EFX",
+   "name": "Equifax",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 18455263.975249995,
+   "last_close": 176.215,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ETR",
+   "name": "Entergy",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 18432062.0405,
+   "last_close": 105.82,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DOW",
+   "name": "Dow Inc.",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 18392875.88125,
+   "last_close": 30.29,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VICI",
+   "name": "Vici Properties",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 18345608.96925,
+   "last_close": 24.185,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ZBH",
+   "name": "Zimmer Biomet",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 18330896.343999997,
+   "last_close": 101.65,
+   "bars_available": 26
+  },
+  {
+   "symbol": "RL",
+   "name": "Ralph Lauren Corporation",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 18270383.561249997,
+   "last_close": 377.485,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VMRK",
+   "name": "Vivmark Residential",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 18220390.949249998,
+   "last_close": 62.64,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CASY",
+   "name": "Casey's",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 18167676.170750003,
+   "last_close": 688.15,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ZTS",
+   "name": "Zoetis",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 18111199.18725,
+   "last_close": 80.885,
+   "bars_available": 26
+  },
+  {
+   "symbol": "RF",
+   "name": "Regions Financial Corporation",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 18089501.44225,
+   "last_close": 27.36,
+   "bars_available": 26
+  },
+  {
+   "symbol": "GEHC",
+   "name": "GE HealthCare",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 18089242.335249998,
+   "last_close": 81.74,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HBAN",
+   "name": "Huntington Bancshares",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 18035649.63775,
+   "last_close": 14.725,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VTR",
+   "name": "Ventas",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 17949926.961499996,
+   "last_close": 86.845,
+   "bars_available": 26
+  },
+  {
+   "symbol": "JBL",
+   "name": "Jabil",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 17939159.8495,
+   "last_close": 247.58,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AMP",
+   "name": "Ameriprise Financial",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 17866528.598250005,
+   "last_close": 493.3,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LVS",
+   "name": "Las Vegas Sands",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 17725109.0515,
+   "last_close": 39.185,
+   "bars_available": 26
+  },
+  {
+   "symbol": "APA",
+   "name": "APA Corporation",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 17599649.51725,
+   "last_close": 44.815,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LII",
+   "name": "Lennox International",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 17549654.29375,
+   "last_close": 340.95,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NRG",
+   "name": "NRG Energy",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 17399020.99275,
+   "last_close": 93.6,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PTC",
+   "name": "PTC Inc.",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 17282334.4815,
+   "last_close": 195.47,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EXPD",
+   "name": "Expeditors International",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 17224981.7645,
+   "last_close": 194.12,
+   "bars_available": 26
+  },
+  {
+   "symbol": "GNRC",
+   "name": "Generac",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 17212111.2605,
+   "last_close": 205.49,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CBRE",
+   "name": "CBRE Group",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 17118221.412999995,
+   "last_close": 128.36,
+   "bars_available": 26
+  },
+  {
+   "symbol": "WTW",
+   "name": "Willis Towers Watson",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 17079198.112999998,
+   "last_close": 330.86,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SPG",
+   "name": "Simon Property Group",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 17001751.343000002,
+   "last_close": 225.3,
+   "bars_available": 26
+  },
+  {
+   "symbol": "APD",
+   "name": "Air Products",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 16986073.20775,
+   "last_close": 303.935,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HST",
+   "name": "Host Hotels & Resorts",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 16953597.6915,
+   "last_close": 24.595,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ULTA",
+   "name": "Ulta Beauty",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 16914155.6395,
+   "last_close": 628.13,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LULU",
+   "name": "Lululemon Athletica",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 16786892.255000003,
+   "last_close": 105.945,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CLX",
+   "name": "Clorox",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 16777021.228500003,
+   "last_close": 105.065,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MET",
+   "name": "MetLife",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 16617850.925,
+   "last_close": 97.465,
+   "bars_available": 26
+  },
+  {
+   "symbol": "KEY",
+   "name": "KeyCorp",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 16462057.191750001,
+   "last_close": 20.06,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BIIB",
+   "name": "Biogen",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 16363644.535999998,
+   "last_close": 245.66,
    "bars_available": 26
   },
   {
@@ -3988,26 +3511,386 @@
    "name": "Consolidated Edison",
    "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 12567104.560499998,
-   "last_close": 119.48,
+   "dollar_volume": 16274942.251500001,
+   "last_close": 119.01,
    "bars_available": 26
   },
   {
-   "symbol": "HIG",
-   "name": "Hartford (The)",
+   "symbol": "AIG",
+   "name": "American International Group",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 12480696.83025,
-   "last_close": 137.445,
+   "dollar_volume": 16228041.766999999,
+   "last_close": 79.565,
    "bars_available": 26
   },
   {
-   "symbol": "CF",
-   "name": "CF Industries",
+   "symbol": "SYY",
+   "name": "Sysco",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 16227590.322500002,
+   "last_close": 77.11,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CHRW",
+   "name": "C.H. Robinson",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 16203320.166749999,
+   "last_close": 138.24,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NVR",
+   "name": "NVR, Inc.",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 16095616.085499998,
+   "last_close": 5521.68,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SBAC",
+   "name": "SBA Communications",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 15959722.6845,
+   "last_close": 168.99,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DOV",
+   "name": "Dover Corporation",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 15825545.757250005,
+   "last_close": 199.51,
+   "bars_available": 26
+  },
+  {
+   "symbol": "STZ",
+   "name": "Constellation Brands",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 15643496.14775,
+   "last_close": 141.185,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DLTR",
+   "name": "Dollar Tree",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 15561736.335749999,
+   "last_close": 140.08,
+   "bars_available": 26
+  },
+  {
+   "symbol": "WAB",
+   "name": "Wabtec",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 15500960.0815,
+   "last_close": 280.14,
+   "bars_available": 26
+  },
+  {
+   "symbol": "FE",
+   "name": "FirstEnergy",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 15461523.135249998,
+   "last_close": 47.13,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ROL",
+   "name": "Rollins, Inc.",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 15255235.342499997,
+   "last_close": 37.73,
+   "bars_available": 26
+  },
+  {
+   "symbol": "IT",
+   "name": "Gartner",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 15252790.954249997,
+   "last_close": 172.46,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PAYX",
+   "name": "Paychex",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 15228989.461249998,
+   "last_close": 111.01,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VRSN",
+   "name": "Verisign",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 15197570.60275,
+   "last_close": 306.355,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LUV",
+   "name": "Southwest Airlines",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 15195059.765250001,
+   "last_close": 45.96,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SWK",
+   "name": "Stanley Black & Decker",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 15188502.570499998,
+   "last_close": 107.895,
+   "bars_available": 26
+  },
+  {
+   "symbol": "IFF",
+   "name": "International Flavors & Fragrances",
    "sector": "Grundstoffe",
    "source": "sp500",
-   "dollar_volume": 12441400.764000002,
-   "last_close": 125.33,
+   "dollar_volume": 15000217.62125,
+   "last_close": 78.74,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CFG",
+   "name": "Citizens Financial Group",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 14938448.4985,
+   "last_close": 60.72,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DECK",
+   "name": "Deckers Brands",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 14888934.99725,
+   "last_close": 79.28,
+   "bars_available": 26
+  },
+  {
+   "symbol": "Q",
+   "name": "Qnity Electronics",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 14561497.205999997,
+   "last_close": 113.78,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VRSK",
+   "name": "Verisk Analytics",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 14490337.310500002,
+   "last_close": 200.155,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VLTO",
+   "name": "Veralto",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 14385883.242500002,
+   "last_close": 116.5,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TKO",
+   "name": "TKO Group Holdings",
+   "sector": "Kommunikation",
+   "source": "sp500",
+   "dollar_volume": 14380946.247500002,
+   "last_close": 181.15,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TDY",
+   "name": "Teledyne Technologies",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 14327057.269749999,
+   "last_close": 621.44,
+   "bars_available": 26
+  },
+  {
+   "symbol": "OMC",
+   "name": "Omnicom Group",
+   "sector": "Kommunikation",
+   "source": "sp500",
+   "dollar_volume": 14103627.455249999,
+   "last_close": 85.58,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LEN",
+   "name": "Lennar",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 14050381.2145,
+   "last_close": 80.19,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BAX",
+   "name": "Baxter International",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 13961831.352000002,
+   "last_close": 25.32,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LNT",
+   "name": "Alliant Energy",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 13934008.374750003,
+   "last_close": 71.4,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MOS",
+   "name": "Mosaic Company (The)",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 13869743.162250001,
+   "last_close": 19.725,
+   "bars_available": 26
+  },
+  {
+   "symbol": "UDR",
+   "name": "UDR, Inc.",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 13758238.635999998,
+   "last_close": 35.375,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EXE",
+   "name": "Expand Energy",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 13711500.397,
+   "last_close": 82.48,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LYB",
+   "name": "LyondellBasell",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 13694131.1305,
+   "last_close": 58.25,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ALGN",
+   "name": "Align Technology",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 13655087.71725,
+   "last_close": 159.53,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CPAY",
+   "name": "Corpay",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 13600573.956999999,
+   "last_close": 434.93,
+   "bars_available": 26
+  },
+  {
+   "symbol": "INVH",
+   "name": "Invitation Homes",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 13519689.69325,
+   "last_close": 26.005,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PPG",
+   "name": "PPG Industries",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 13406220.438,
+   "last_close": 119.32,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DPZ",
+   "name": "Domino's",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 13350410.938749997,
+   "last_close": 352.11,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DGX",
+   "name": "Quest Diagnostics",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 13256192.39075,
+   "last_close": 258.33,
+   "bars_available": 26
+  },
+  {
+   "symbol": "IEX",
+   "name": "IDEX Corporation",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 13218840.50725,
+   "last_close": 227.05,
+   "bars_available": 26
+  },
+  {
+   "symbol": "OKE",
+   "name": "Oneok",
+   "sector": "Energie",
+   "source": "sp500",
+   "dollar_volume": 13174736.04675,
+   "last_close": 86.695,
+   "bars_available": 26
+  },
+  {
+   "symbol": "VTRS",
+   "name": "Viatris",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 13120117.888,
+   "last_close": 19.845,
+   "bars_available": 26
+  },
+  {
+   "symbol": "IP",
+   "name": "International Paper",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 13016447.113250002,
+   "last_close": 31.055,
    "bars_available": 26
   },
   {
@@ -4015,35 +3898,8 @@
    "name": "Kimco Realty",
    "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 12253594.56625,
-   "last_close": 25.595,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WYNN",
-   "name": "Wynn Resorts",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 12248203.41475,
-   "last_close": 82.795,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ALB",
-   "name": "Albemarle Corporation",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 12175330.563500002,
-   "last_close": 94.97,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GEN",
-   "name": "Gen Digital",
-   "sector": "Technologie",
-   "source": "sp500",
-   "dollar_volume": 12172963.301250005,
-   "last_close": 29.865,
+   "dollar_volume": 12869917.706500001,
+   "last_close": 25.315,
    "bars_available": 26
   },
   {
@@ -4051,53 +3907,26 @@
    "name": "T. Rowe Price",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 12123415.98175,
-   "last_close": 108.93,
+   "dollar_volume": 12835118.140250001,
+   "last_close": 105.55,
    "bars_available": 26
   },
   {
-   "symbol": "MGM",
-   "name": "MGM Resorts",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 12020440.414500002,
-   "last_close": 33.055,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CHD",
-   "name": "Church & Dwight",
+   "symbol": "VYLR",
+   "name": "Vylor",
    "sector": "Konsum defensiv",
    "source": "sp500",
-   "dollar_volume": 11988366.40575,
-   "last_close": 111.7,
+   "dollar_volume": 12834404.853500001,
+   "last_close": 68.025,
    "bars_available": 26
   },
   {
-   "symbol": "PRU",
-   "name": "Prudential Financial",
+   "symbol": "HIG",
+   "name": "Hartford (The)",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 11986216.833250001,
-   "last_close": 122.68,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DRI",
-   "name": "Darden Restaurants",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 11955338.18875,
-   "last_close": 227.74,
-   "bars_available": 26
-  },
-  {
-   "symbol": "STE",
-   "name": "Steris",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 11949502.829,
-   "last_close": 254.18,
+   "dollar_volume": 12828486.097499998,
+   "last_close": 135.365,
    "bars_available": 26
   },
   {
@@ -4105,98 +3934,62 @@
    "name": "Fortive",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 11916260.97575,
-   "last_close": 67.89,
+   "dollar_volume": 12680286.150500001,
+   "last_close": 65.15,
    "bars_available": 26
   },
   {
-   "symbol": "EVRG",
-   "name": "Evergy",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 11786109.752249999,
-   "last_close": 88.75,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PNR",
-   "name": "Pentair",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 11624609.62325,
-   "last_close": 68.335,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NTRS",
-   "name": "Northern Trust",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 11494438.284249999,
-   "last_close": 178.21,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GDDY",
-   "name": "GoDaddy",
+   "symbol": "GEN",
+   "name": "Gen Digital",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 11445907.60025,
-   "last_close": 112.48,
+   "dollar_volume": 12652312.195999999,
+   "last_close": 30.11,
    "bars_available": 26
   },
   {
-   "symbol": "PKG",
-   "name": "Packaging Corporation of America",
-   "sector": "Grundstoffe",
+   "symbol": "ALLE",
+   "name": "Allegion",
+   "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 11445444.701750001,
-   "last_close": 252.69,
+   "dollar_volume": 12570675.81425,
+   "last_close": 185.855,
    "bars_available": 26
   },
   {
-   "symbol": "INCY",
-   "name": "Incyte",
-   "sector": "Gesundheit",
+   "symbol": "PHM",
+   "name": "PulteGroup",
+   "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 11393921.9025,
-   "last_close": 121.79,
+   "dollar_volume": 12515378.86025,
+   "last_close": 122.7,
    "bars_available": 26
   },
   {
-   "symbol": "ESS",
-   "name": "Essex Property Trust",
-   "sector": "Immobilien",
+   "symbol": "DRI",
+   "name": "Darden Restaurants",
+   "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 11387854.15625,
-   "last_close": 273.33,
+   "dollar_volume": 12424151.644749999,
+   "last_close": 231.91,
    "bars_available": 26
   },
   {
-   "symbol": "BRO",
-   "name": "Brown & Brown",
+   "symbol": "GRMN",
+   "name": "Garmin",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 12415434.904999997,
+   "last_close": 272,
+   "bars_available": 26
+  },
+  {
+   "symbol": "FDS",
+   "name": "FactSet",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 11347792.60625,
-   "last_close": 71.025,
-   "bars_available": 26
-  },
-  {
-   "symbol": "BG",
-   "name": "Bunge Global",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 11308942.294749998,
-   "last_close": 100.94,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AMCR",
-   "name": "Amcor",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 11284689.05525,
-   "last_close": 44.05,
+   "dollar_volume": 12401142.531250002,
+   "last_close": 308.65,
    "bars_available": 26
   },
   {
@@ -4204,44 +3997,44 @@
    "name": "Eversource Energy",
    "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 11235077.252,
-   "last_close": 71.28,
+   "dollar_volume": 12394531.05125,
+   "last_close": 70.58,
    "bars_available": 26
   },
   {
-   "symbol": "JBHT",
-   "name": "J.B. Hunt",
-   "sector": "Industrie",
+   "symbol": "CSGP",
+   "name": "CoStar Group",
+   "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 11193084.8785,
-   "last_close": 227.05,
+   "dollar_volume": 12383624.33725,
+   "last_close": 28.83,
    "bars_available": 26
   },
   {
-   "symbol": "BR",
-   "name": "Broadridge Financial Solutions",
-   "sector": "Industrie",
+   "symbol": "SW",
+   "name": "Smurfit Westrock",
+   "sector": "Grundstoffe",
    "source": "sp500",
-   "dollar_volume": 11179984.727000002,
-   "last_close": 192.135,
+   "dollar_volume": 12361742.932,
+   "last_close": 38.505,
    "bars_available": 26
   },
   {
-   "symbol": "EG",
-   "name": "Everest Group",
-   "sector": "Finanzen",
+   "symbol": "PEG",
+   "name": "Public Service Enterprise Group",
+   "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 11151068.09275,
-   "last_close": 423.7,
+   "dollar_volume": 12245165.7875,
+   "last_close": 74.015,
    "bars_available": 26
   },
   {
-   "symbol": "PODD",
-   "name": "Insulet Corporation",
-   "sector": "Gesundheit",
+   "symbol": "MGM",
+   "name": "MGM Resorts",
+   "sector": "Konsum zyklisch",
    "source": "sp500",
-   "dollar_volume": 11053335.03975,
-   "last_close": 149.99,
+   "dollar_volume": 12229063.44925,
+   "last_close": 33.265,
    "bars_available": 26
   },
   {
@@ -4249,107 +4042,107 @@
    "name": "Archer Daniels Midland",
    "sector": "Konsum defensiv",
    "source": "sp500",
-   "dollar_volume": 11028564.3465,
-   "last_close": 71.52,
+   "dollar_volume": 12221404.8555,
+   "last_close": 66.95,
    "bars_available": 26
   },
   {
-   "symbol": "EXR",
-   "name": "Extra Space Storage",
-   "sector": "Immobilien",
+   "symbol": "PRU",
+   "name": "Prudential Financial",
+   "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 10855486.436250001,
-   "last_close": 158.59,
+   "dollar_volume": 12209188.43025,
+   "last_close": 119.92,
    "bars_available": 26
   },
   {
-   "symbol": "HII",
-   "name": "Huntington Ingalls Industries",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 10566625.71625,
-   "last_close": 310.355,
-   "bars_available": 26
-  },
-  {
-   "symbol": "WY",
-   "name": "Weyerhaeuser",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 10549299.861499999,
-   "last_close": 20.535,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MAS",
-   "name": "Masco",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 10302835.729750002,
-   "last_close": 84.57,
-   "bars_available": 26
-  },
-  {
-   "symbol": "PNW",
-   "name": "Pinnacle West Capital",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 10226354.40625,
-   "last_close": 107.665,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SNA",
-   "name": "Snap-on",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 10155457.247750001,
-   "last_close": 370.02,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AEE",
-   "name": "Ameren",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 10095016.981999999,
-   "last_close": 114.08,
-   "bars_available": 26
-  },
-  {
-   "symbol": "TECH",
-   "name": "Bio-Techne",
+   "symbol": "STE",
+   "name": "Steris",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 10031686.742250003,
-   "last_close": 72.85,
+   "dollar_volume": 12180889.726999998,
+   "last_close": 254.34,
    "bars_available": 26
   },
   {
-   "symbol": "BEN",
-   "name": "Franklin Resources",
+   "symbol": "BR",
+   "name": "Broadridge Financial Solutions",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 12153588.33325,
+   "last_close": 181.34,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CF",
+   "name": "CF Industries",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 12146041.87475,
+   "last_close": 115.645,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EG",
+   "name": "Everest Group",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 9947024.557250002,
-   "last_close": 35.72,
+   "dollar_volume": 12093875.620249998,
+   "last_close": 421.03,
    "bars_available": 26
   },
   {
-   "symbol": "MTB",
-   "name": "M&T Bank",
-   "sector": "Finanzen",
+   "symbol": "PNR",
+   "name": "Pentair",
+   "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 9887162.53625,
-   "last_close": 220.08,
+   "dollar_volume": 12000093.217500003,
+   "last_close": 68.64,
    "bars_available": 26
   },
   {
-   "symbol": "SKYD",
-   "name": "Skydance",
-   "sector": "Kommunikation",
+   "symbol": "STLD",
+   "name": "Steel Dynamics",
+   "sector": "Grundstoffe",
    "source": "sp500",
-   "dollar_volume": 9783896.972999997,
-   "last_close": 7.675,
+   "dollar_volume": 11780146.1925,
+   "last_close": 219.13,
+   "bars_available": 26
+  },
+  {
+   "symbol": "JBHT",
+   "name": "J.B. Hunt",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 11747872.150999999,
+   "last_close": 225.45,
+   "bars_available": 26
+  },
+  {
+   "symbol": "WYNN",
+   "name": "Wynn Resorts",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 11718063.534,
+   "last_close": 81.8,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ESS",
+   "name": "Essex Property Trust",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 11692543.493750002,
+   "last_close": 269.76,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EVRG",
+   "name": "Evergy",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 11553179.42175,
+   "last_close": 86.37,
    "bars_available": 26
   },
   {
@@ -4357,17 +4150,143 @@
    "name": "Tyson Foods",
    "sector": "Konsum defensiv",
    "source": "sp500",
-   "dollar_volume": 9738702.776,
-   "last_close": 59.18,
+   "dollar_volume": 11540807.79675,
+   "last_close": 63.65,
    "bars_available": 26
   },
   {
-   "symbol": "FDXF",
-   "name": "FedEx Freight",
+   "symbol": "ALB",
+   "name": "Albemarle Corporation",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 11447589.530250002,
+   "last_close": 83.19,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CHD",
+   "name": "Church & Dwight",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 11447011.194500001,
+   "last_close": 109.45,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PODD",
+   "name": "Insulet Corporation",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 11422577.903749999,
+   "last_close": 136.81,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EXR",
+   "name": "Extra Space Storage",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 11416077.22075,
+   "last_close": 155.64,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PNW",
+   "name": "Pinnacle West Capital",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 11410900.526250001,
+   "last_close": 102.265,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BG",
+   "name": "Bunge Global",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 11406922.66675,
+   "last_close": 91.475,
+   "bars_available": 26
+  },
+  {
+   "symbol": "INCY",
+   "name": "Incyte",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 11333608.382749995,
+   "last_close": 116.395,
+   "bars_available": 26
+  },
+  {
+   "symbol": "STT",
+   "name": "State Street Corporation",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 11062218.486250002,
+   "last_close": 161.52,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TECH",
+   "name": "Bio-Techne",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 11000068.0175,
+   "last_close": 72.71,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HAS",
+   "name": "Hasbro",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 10984955.746,
+   "last_close": 115.085,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BRO",
+   "name": "Brown & Brown",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 10972412.00175,
+   "last_close": 72.485,
+   "bars_available": 26
+  },
+  {
+   "symbol": "GDDY",
+   "name": "GoDaddy",
+   "sector": "Technologie",
+   "source": "sp500",
+   "dollar_volume": 10898503.77575,
+   "last_close": 101.8,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AMCR",
+   "name": "Amcor",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 10583593.942499999,
+   "last_close": 42.485,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AEE",
+   "name": "Ameren",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 10385305.322999997,
+   "last_close": 111.47,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MAS",
+   "name": "Masco",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 9732354.780000001,
-   "last_close": 130.8,
+   "dollar_volume": 10303093.862250002,
+   "last_close": 82.745,
    "bars_available": 26
   },
   {
@@ -4375,143 +4294,53 @@
    "name": "Iron Mountain",
    "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 9716841.855749998,
-   "last_close": 113.965,
+   "dollar_volume": 10266924.294250002,
+   "last_close": 108.975,
    "bars_available": 26
   },
   {
-   "symbol": "COO",
-   "name": "Cooper Companies (The)",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 9687535.122999998,
-   "last_close": 62.32,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ACGL",
-   "name": "Arch Capital Group",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 9636874.3385,
-   "last_close": 109.8,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DVA",
-   "name": "DaVita",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 9553182.254750002,
-   "last_close": 176.14,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DTE",
-   "name": "DTE Energy",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 9414566.902750002,
-   "last_close": 140.11,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NWSA",
-   "name": "News Corp (Class A)",
-   "sector": "Kommunikation",
-   "source": "sp500",
-   "dollar_volume": 9246151.57575,
-   "last_close": 26.38,
-   "bars_available": 26
-  },
-  {
-   "symbol": "UHS",
-   "name": "Universal Health Services",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 9176248.242,
-   "last_close": 195,
-   "bars_available": 26
-  },
-  {
-   "symbol": "J",
-   "name": "Jacobs Solutions",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 9167505.2655,
-   "last_close": 159.27,
-   "bars_available": 26
-  },
-  {
-   "symbol": "MKC",
-   "name": "McCormick & Company",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 8990003.980999999,
-   "last_close": 46.655,
-   "bars_available": 26
-  },
-  {
-   "symbol": "LDOS",
-   "name": "Leidos",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 8861602.4805,
-   "last_close": 131.17,
-   "bars_available": 26
-  },
-  {
-   "symbol": "EIX",
-   "name": "Edison International",
-   "sector": "Versorger",
-   "source": "sp500",
-   "dollar_volume": 8847067.96675,
-   "last_close": 60.14,
-   "bars_available": 26
-  },
-  {
-   "symbol": "RJF",
-   "name": "Raymond James Financial",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 8823736.03575,
-   "last_close": 168.12,
-   "bars_available": 26
-  },
-  {
-   "symbol": "JKHY",
-   "name": "Jack Henry & Associates",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 8475666.343000002,
-   "last_close": 176.19,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SJM",
-   "name": "J.M. Smucker Company (The)",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 8457595.975,
-   "last_close": 132.13,
-   "bars_available": 26
-  },
-  {
-   "symbol": "DOC",
-   "name": "Healthpeak Properties",
+   "symbol": "WY",
+   "name": "Weyerhaeuser",
    "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 8444674.742000002,
-   "last_close": 20.255,
+   "dollar_volume": 10138651.30975,
+   "last_close": 19.46,
    "bars_available": 26
   },
   {
-   "symbol": "AFL",
-   "name": "Aflac",
+   "symbol": "BEN",
+   "name": "Franklin Resources",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 8392686.522750001,
-   "last_close": 127.175,
+   "dollar_volume": 9976595.738999998,
+   "last_close": 33.46,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HII",
+   "name": "Huntington Ingalls Industries",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 9965896.19825,
+   "last_close": 285.48,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NTRS",
+   "name": "Northern Trust",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 9670577.275000002,
+   "last_close": 167.16,
+   "bars_available": 26
+  },
+  {
+   "symbol": "PKG",
+   "name": "Packaging Corporation of America",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 9535799.28675,
+   "last_close": 236.64,
    "bars_available": 26
   },
   {
@@ -4519,26 +4348,26 @@
    "name": "Henry Schein",
    "sector": "Gesundheit",
    "source": "sp500",
-   "dollar_volume": 8263453.058,
-   "last_close": 86.31,
+   "dollar_volume": 9500196.573499996,
+   "last_close": 84.22,
    "bars_available": 26
   },
   {
-   "symbol": "TXT",
-   "name": "Textron",
+   "symbol": "UHS",
+   "name": "Universal Health Services",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 9478723.734000001,
+   "last_close": 174.48,
+   "bars_available": 26
+  },
+  {
+   "symbol": "FDXF",
+   "name": "FedEx Freight",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 8186217.2782499995,
-   "last_close": 84.775,
-   "bars_available": 26
-  },
-  {
-   "symbol": "APTV",
-   "name": "Aptiv",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 8155829.8615,
-   "last_close": 38.73,
+   "dollar_volume": 9428096.541749999,
+   "last_close": 127.255,
    "bars_available": 26
   },
   {
@@ -4546,26 +4375,170 @@
    "name": "DuPont",
    "sector": "Industrie",
    "source": "sp500",
-   "dollar_volume": 8071461.326499999,
-   "last_close": 154.99,
+   "dollar_volume": 9373335.29975,
+   "last_close": 149.735,
    "bars_available": 26
   },
   {
-   "symbol": "BALL",
-   "name": "Ball Corporation",
-   "sector": "Grundstoffe",
+   "symbol": "NWSA",
+   "name": "News Corp (Class A)",
+   "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 7867438.29575,
-   "last_close": 65.09,
+   "dollar_volume": 9317951.239999998,
+   "last_close": 25.43,
    "bars_available": 26
   },
   {
-   "symbol": "WRB",
-   "name": "W. R. Berkley Corporation",
+   "symbol": "AFL",
+   "name": "Aflac",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 7596292.0507499995,
-   "last_close": 77.375,
+   "dollar_volume": 9268250.942499999,
+   "last_close": 124.82,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ACGL",
+   "name": "Arch Capital Group",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 9189207.1185,
+   "last_close": 108.025,
+   "bars_available": 26
+  },
+  {
+   "symbol": "LDOS",
+   "name": "Leidos",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 9061642.407499999,
+   "last_close": 124.465,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SNA",
+   "name": "Snap-on",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 8965784.227999998,
+   "last_close": 356.59,
+   "bars_available": 26
+  },
+  {
+   "symbol": "COO",
+   "name": "Cooper Companies (The)",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 8964865.67125,
+   "last_close": 60.26,
+   "bars_available": 26
+  },
+  {
+   "symbol": "EIX",
+   "name": "Edison International",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 8961989.37025,
+   "last_close": 62.95,
+   "bars_available": 26
+  },
+  {
+   "symbol": "TXT",
+   "name": "Textron",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 8936295.299,
+   "last_close": 81.08,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DVA",
+   "name": "DaVita",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 8905489.01075,
+   "last_close": 155.68,
+   "bars_available": 26
+  },
+  {
+   "symbol": "JKHY",
+   "name": "Jack Henry & Associates",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 8780481.61725,
+   "last_close": 169.96,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DOC",
+   "name": "Healthpeak Properties",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 8659467.583250001,
+   "last_close": 19.145,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MKC",
+   "name": "McCormick & Company",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 8621856.141999999,
+   "last_close": 45.7,
+   "bars_available": 26
+  },
+  {
+   "symbol": "DTE",
+   "name": "DTE Energy",
+   "sector": "Versorger",
+   "source": "sp500",
+   "dollar_volume": 8422117.68475,
+   "last_close": 135.88,
+   "bars_available": 26
+  },
+  {
+   "symbol": "MTB",
+   "name": "M&T Bank",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 8379698.8780000005,
+   "last_close": 210.86,
+   "bars_available": 26
+  },
+  {
+   "symbol": "APTV",
+   "name": "Aptiv",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 8325498.3549999995,
+   "last_close": 37.46,
+   "bars_available": 26
+  },
+  {
+   "symbol": "J",
+   "name": "Jacobs Solutions",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 8118192.169249999,
+   "last_close": 154.37,
+   "bars_available": 26
+  },
+  {
+   "symbol": "RJF",
+   "name": "Raymond James Financial",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 8020953.1850000005,
+   "last_close": 159.54,
+   "bars_available": 26
+  },
+  {
+   "symbol": "SJM",
+   "name": "J.M. Smucker Company (The)",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 8002237.264250001,
+   "last_close": 131.535,
    "bars_available": 26
   },
   {
@@ -4573,17 +4546,8 @@
    "name": "Assurant",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 7517494.778999999,
-   "last_close": 322.86,
-   "bars_available": 26
-  },
-  {
-   "symbol": "AVY",
-   "name": "Avery Dennison",
-   "sector": "Grundstoffe",
-   "source": "sp500",
-   "dollar_volume": 7493329.953249998,
-   "last_close": 187.55,
+   "dollar_volume": 7665492.40975,
+   "last_close": 315.725,
    "bars_available": 26
   },
   {
@@ -4591,8 +4555,17 @@
    "name": "Atmos Energy",
    "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 7347273.6985,
-   "last_close": 176.215,
+   "dollar_volume": 7536563.638249998,
+   "last_close": 168.59,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AVY",
+   "name": "Avery Dennison",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 7513091.797499999,
+   "last_close": 182.59,
    "bars_available": 26
   },
   {
@@ -4600,17 +4573,17 @@
    "name": "Trimble Inc.",
    "sector": "Technologie",
    "source": "sp500",
-   "dollar_volume": 7318551.895750001,
-   "last_close": 56.225,
+   "dollar_volume": 7378216.639250001,
+   "last_close": 52.115,
    "bars_available": 26
   },
   {
-   "symbol": "AOS",
-   "name": "A. O. Smith",
-   "sector": "Industrie",
+   "symbol": "SKYD",
+   "name": "Skydance",
+   "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 7227964.297750001,
-   "last_close": 64.41,
+   "dollar_volume": 7263136.5375000015,
+   "last_close": 6.325,
    "bars_available": 26
   },
   {
@@ -4618,8 +4591,8 @@
    "name": "Texas Pacific Land Corporation",
    "sector": "Energie",
    "source": "sp500",
-   "dollar_volume": 7137120.815,
-   "last_close": 281.55,
+   "dollar_volume": 7179380.08925,
+   "last_close": 276.99,
    "bars_available": 26
   },
   {
@@ -4627,8 +4600,35 @@
    "name": "Principal Financial Group",
    "sector": "Finanzen",
    "source": "sp500",
-   "dollar_volume": 7076714.3155000005,
-   "last_close": 113.48,
+   "dollar_volume": 7042429.30625,
+   "last_close": 107.08,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BALL",
+   "name": "Ball Corporation",
+   "sector": "Grundstoffe",
+   "source": "sp500",
+   "dollar_volume": 6983469.396499999,
+   "last_close": 63.395,
+   "bars_available": 26
+  },
+  {
+   "symbol": "WRB",
+   "name": "W. R. Berkley Corporation",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 6669151.161749999,
+   "last_close": 77.24,
+   "bars_available": 26
+  },
+  {
+   "symbol": "AOS",
+   "name": "A. O. Smith",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 6569724.892750001,
+   "last_close": 63.69,
    "bars_available": 26
   },
   {
@@ -4636,71 +4636,8 @@
    "name": "Mid-America Apartment Communities",
    "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 6587335.700249999,
-   "last_close": 117.06,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GPC",
-   "name": "Genuine Parts Company",
-   "sector": "Konsum zyklisch",
-   "source": "sp500",
-   "dollar_volume": 6513062.936500001,
-   "last_close": 122.82,
-   "bars_available": 26
-  },
-  {
-   "symbol": "CINF",
-   "name": "Cincinnati Financial",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 6442485.7809999995,
-   "last_close": 190.83,
-   "bars_available": 26
-  },
-  {
-   "symbol": "ARE",
-   "name": "Alexandria Real Estate Equities",
-   "sector": "Immobilien",
-   "source": "sp500",
-   "dollar_volume": 6399046.6445,
-   "last_close": 44.33,
-   "bars_available": 26
-  },
-  {
-   "symbol": "SOLV",
-   "name": "Solventum",
-   "sector": "Gesundheit",
-   "source": "sp500",
-   "dollar_volume": 6010623.176999999,
-   "last_close": 88.87,
-   "bars_available": 26
-  },
-  {
-   "symbol": "GL",
-   "name": "Globe Life",
-   "sector": "Finanzen",
-   "source": "sp500",
-   "dollar_volume": 5891397.869499999,
-   "last_close": 160.31,
-   "bars_available": 26
-  },
-  {
-   "symbol": "HRL",
-   "name": "Hormel Foods",
-   "sector": "Konsum defensiv",
-   "source": "sp500",
-   "dollar_volume": 5830710.49025,
-   "last_close": 21.855,
-   "bars_available": 26
-  },
-  {
-   "symbol": "NDSN",
-   "name": "Nordson Corporation",
-   "sector": "Industrie",
-   "source": "sp500",
-   "dollar_volume": 5634398.012750001,
-   "last_close": 326.845,
+   "dollar_volume": 6451830.7327499995,
+   "last_close": 113.845,
    "bars_available": 26
   },
   {
@@ -4708,8 +4645,26 @@
    "name": "AES Corporation",
    "sector": "Versorger",
    "source": "sp500",
-   "dollar_volume": 5523640.3615,
-   "last_close": 14.925,
+   "dollar_volume": 6449167.226500001,
+   "last_close": 15.02,
+   "bars_available": 26
+  },
+  {
+   "symbol": "CINF",
+   "name": "Cincinnati Financial",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 6390867.16625,
+   "last_close": 188.36,
+   "bars_available": 26
+  },
+  {
+   "symbol": "GL",
+   "name": "Globe Life",
+   "sector": "Finanzen",
+   "source": "sp500",
+   "dollar_volume": 6022842.11875,
+   "last_close": 153.55,
    "bars_available": 26
   },
   {
@@ -4717,17 +4672,53 @@
    "name": "Regency Centers",
    "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 5433748.466,
-   "last_close": 75.705,
+   "dollar_volume": 6020120.41575,
+   "last_close": 74.16,
    "bars_available": 26
   },
   {
-   "symbol": "BXP",
-   "name": "BXP, Inc.",
+   "symbol": "SOLV",
+   "name": "Solventum",
+   "sector": "Gesundheit",
+   "source": "sp500",
+   "dollar_volume": 5926947.82325,
+   "last_close": 85.315,
+   "bars_available": 26
+  },
+  {
+   "symbol": "HRL",
+   "name": "Hormel Foods",
+   "sector": "Konsum defensiv",
+   "source": "sp500",
+   "dollar_volume": 5866396.920999998,
+   "last_close": 23.025,
+   "bars_available": 26
+  },
+  {
+   "symbol": "ARE",
+   "name": "Alexandria Real Estate Equities",
    "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 5277477.3005,
-   "last_close": 63.235,
+   "dollar_volume": 5497576.77175,
+   "last_close": 41.835,
+   "bars_available": 26
+  },
+  {
+   "symbol": "GPC",
+   "name": "Genuine Parts Company",
+   "sector": "Konsum zyklisch",
+   "source": "sp500",
+   "dollar_volume": 5321335.73775,
+   "last_close": 121.92,
+   "bars_available": 26
+  },
+  {
+   "symbol": "NDSN",
+   "name": "Nordson Corporation",
+   "sector": "Industrie",
+   "source": "sp500",
+   "dollar_volume": 4949800.243249999,
+   "last_close": 317.44,
    "bars_available": 26
   },
   {
@@ -4735,8 +4726,17 @@
    "name": "Camden Property Trust",
    "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 5050355.238,
-   "last_close": 98.885,
+   "dollar_volume": 4895135.79125,
+   "last_close": 96.255,
+   "bars_available": 26
+  },
+  {
+   "symbol": "BXP",
+   "name": "BXP, Inc.",
+   "sector": "Immobilien",
+   "source": "sp500",
+   "dollar_volume": 4795558.803750001,
+   "last_close": 62.44,
    "bars_available": 26
   },
   {
@@ -4744,8 +4744,8 @@
    "name": "Federal Realty Investment Trust",
    "sector": "Immobilien",
    "source": "sp500",
-   "dollar_volume": 4981330.485500001,
-   "last_close": 112.65,
+   "dollar_volume": 4705039.06925,
+   "last_close": 110.75,
    "bars_available": 26
   },
   {
@@ -4753,8 +4753,8 @@
    "name": "News Corp (Class B)",
    "sector": "Kommunikation",
    "source": "sp500",
-   "dollar_volume": 3227503.37475,
-   "last_close": 29.27,
+   "dollar_volume": 3230509.385999999,
+   "last_close": 28.185,
    "bars_available": 26
   }
  ]

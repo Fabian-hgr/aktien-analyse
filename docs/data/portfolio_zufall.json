@@ -1932,6 +1932,186 @@
    },
    "order_date": "2026-11-18",
    "tries": 1
+  },
+  {
+   "symbol": "DOW",
+   "name": "Dow Inc.",
+   "sector": "Grundstoffe",
+   "score": 0.4853,
+   "target": 33.23,
+   "stop": 28.56,
+   "atr_at_entry": 1.093566817687843,
+   "ziel_atr": 2.61,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3343,
+   "basis_erwartung_r": 0.1065,
+   "score_components": {
+    "trend": 0.576,
+    "setup": 0.622,
+    "volumen": 0.186,
+    "qualitaet": 0.264,
+    "bewertung": 0.259,
+    "analysten": 0.518
+   },
+   "target_methods": {
+    "atr": 32.55,
+    "struktur": 33.85
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-19"
+  },
+  {
+   "symbol": "EXPE",
+   "name": "Expedia Group",
+   "sector": "Konsum zyklisch",
+   "score": 0.6213,
+   "target": 284.61,
+   "stop": 222.79,
+   "atr_at_entry": 13.396820392945886,
+   "ziel_atr": 2.89,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.2814,
+   "basis_erwartung_r": 0.0671,
+   "score_components": {
+    "trend": 0.085,
+    "setup": 0.569,
+    "volumen": 0.024,
+    "qualitaet": 0.591,
+    "bewertung": 0.96,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 271.32,
+    "struktur": 286.05
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-19"
+  },
+  {
+   "symbol": "CB",
+   "name": "Chubb Limited",
+   "sector": "Finanzen",
+   "score": 0.7169,
+   "target": 383.57,
+   "stop": 360.9,
+   "atr_at_entry": 6.3125854084098005,
+   "ziel_atr": 2.0,
+   "stop_atr": 1.6,
+   "basis_p_ziel": 0.4234,
+   "basis_erwartung_r": 0.0968,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 1.0,
+    "volumen": 0.96,
+    "qualitaet": 0.528,
+    "bewertung": 0.326,
+    "analysten": 0.453
+   },
+   "target_methods": {
+    "atr": 383.16,
+    "struktur": 383.94
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-19"
+  },
+  {
+   "symbol": "RVTY",
+   "name": "Revvity",
+   "sector": "Gesundheit",
+   "score": 0.6166,
+   "target": 167.79,
+   "stop": 142.27,
+   "atr_at_entry": 6.613583993193693,
+   "ziel_atr": 2.31,
+   "stop_atr": 1.55,
+   "basis_p_ziel": 0.3724,
+   "basis_erwartung_r": 0.1348,
+   "score_components": {
+    "trend": 0.699,
+    "setup": 0.881,
+    "volumen": 0.0,
+    "qualitaet": 0.35,
+    "bewertung": 0.382,
+    "analysten": 0.58
+   },
+   "target_methods": {
+    "atr": 166.05,
+    "struktur": 171.23
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-19"
+  },
+  {
+   "symbol": "ADM",
+   "name": "Archer Daniels Midland",
+   "sector": "Konsum defensiv",
+   "score": 0.4115,
+   "target": 73.1,
+   "stop": 64.52,
+   "atr_at_entry": 1.9054999362560852,
+   "ziel_atr": 2.79,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.2927,
+   "basis_erwartung_r": 0.0565,
+   "score_components": {
+    "trend": 0.173,
+    "setup": 0.408,
+    "volumen": 0.523,
+    "qualitaet": 0.38,
+    "bewertung": 0.582,
+    "analysten": 0.495
+   },
+   "target_methods": {
+    "atr": 71.42,
+    "struktur": 73.49
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-19"
+  },
+  {
+   "symbol": "JPM",
+   "name": "JPMorgan Chase",
+   "sector": "Finanzen",
+   "score": 0.598,
+   "target": 342.39,
+   "stop": 312.8,
+   "atr_at_entry": 7.104131032363611,
+   "ziel_atr": 2.57,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3281,
+   "basis_erwartung_r": 0.1201,
+   "score_components": {
+    "trend": 0.353,
+    "setup": 0.555,
+    "volumen": 0.482,
+    "qualitaet": 0.696,
+    "bewertung": 0.552,
+    "analysten": 0.679
+   },
+   "target_methods": {
+    "atr": 337.85,
+    "struktur": 345.41
+   },
+   "regime": {
+    "trend": "aufwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-19"
   }
  ],
  "closed": [
