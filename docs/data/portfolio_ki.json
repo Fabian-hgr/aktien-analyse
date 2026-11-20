@@ -1243,196 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "MPWR",
-   "name": "Monolithic Power Systems",
-   "sector": "Technologie",
-   "score": 0.8279,
-   "target": 1508.97,
-   "stop": 1167.4,
-   "atr_at_entry": 90.29048775222206,
-   "ziel_atr": 2.16,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.4198,
-   "basis_erwartung_r": 0.1252,
-   "score_components": {
-    "trend": 0.617,
-    "setup": 1.0,
-    "volumen": 0.129,
-    "qualitaet": 0.931,
-    "bewertung": 0.332,
-    "analysten": 0.925,
-    "sentiment": 0.45
-   },
-   "target_methods": {
-    "atr": 1505.27,
-    "struktur": 1512.65
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-17",
-   "tries": 2
-  },
-  {
-   "symbol": "NXPI",
-   "name": "NXP Semiconductors",
-   "sector": "Technologie",
-   "score": 0.826,
-   "target": 279.62,
-   "stop": 235.73,
-   "atr_at_entry": 11.483099309798098,
-   "ziel_atr": 2.2,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.4139,
-   "basis_erwartung_r": 0.1277,
-   "score_components": {
-    "trend": 0.902,
-    "setup": 0.954,
-    "volumen": 0.008,
-    "qualitaet": 0.85,
-    "bewertung": 0.829,
-    "analysten": 0.735
-   },
-   "target_methods": {
-    "atr": 278.7,
-    "struktur": 274.2
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-17",
-   "tries": 2
-  },
-  {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "sector": "Konsum zyklisch",
-   "score": 0.8179,
-   "target": 275.19,
-   "stop": 242.2,
-   "atr_at_entry": 9.04845232265036,
-   "ziel_atr": 1.92,
-   "stop_atr": 1.72,
-   "basis_p_ziel": 0.4319,
-   "basis_erwartung_r": 0.0376,
-   "score_components": {
-    "trend": 0.788,
-    "setup": 0.94,
-    "volumen": 0.336,
-    "qualitaet": 0.73,
-    "bewertung": 0.368,
-    "analysten": 0.95,
-    "sentiment": 0.6
-   },
-   "target_methods": {
-    "atr": 274.97,
-    "struktur": 275.23
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-17",
-   "tries": 2
-  },
-  {
-   "symbol": "EOG",
-   "name": "EOG Resources",
-   "sector": "Energie",
-   "score": 0.8001,
-   "target": 166.18,
-   "stop": 149.66,
-   "atr_at_entry": 4.168743359400721,
-   "ziel_atr": 2.56,
-   "stop_atr": 1.41,
-   "basis_p_ziel": 0.3747,
-   "basis_erwartung_r": 0.2712,
-   "score_components": {
-    "trend": 0.884,
-    "setup": 1.0,
-    "volumen": 0.432,
-    "qualitaet": 0.938,
-    "bewertung": 0.689,
-    "analysten": 0.578,
-    "sentiment": 0.6
-   },
-   "target_methods": {
-    "atr": 164.76,
-    "struktur": 165.88
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-17",
-   "tries": 2
-  },
-  {
-   "symbol": "TXN",
-   "name": "Texas Instruments",
-   "sector": "Technologie",
-   "score": 0.7849,
-   "target": 318.44,
-   "stop": 273.07,
-   "atr_at_entry": 13.004421228257568,
-   "ziel_atr": 1.87,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.4671,
-   "basis_erwartung_r": 0.1056,
-   "score_components": {
-    "trend": 0.887,
-    "setup": 0.912,
-    "volumen": 0.067,
-    "qualitaet": 0.943,
-    "bewertung": 0.377,
-    "analysten": 0.652,
-    "sentiment": 0.7
-   },
-   "target_methods": {
-    "atr": 321.74,
-    "struktur": 317.2
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-17",
-   "tries": 2
-  },
-  {
-   "symbol": "CHRW",
-   "name": "C.H. Robinson",
-   "sector": "Industrie",
-   "score": 0.7749,
-   "target": 148.08,
-   "stop": 127.32,
-   "atr_at_entry": 4.556492474902991,
-   "ziel_atr": 2.94,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.2935,
-   "basis_erwartung_r": 0.1494,
-   "score_components": {
-    "trend": 0.176,
-    "setup": 1.0,
-    "volumen": 0.543,
-    "qualitaet": 0.635,
-    "bewertung": 0.567,
-    "analysten": 0.911
-   },
-   "target_methods": {
-    "atr": 143.92,
-    "struktur": 149.23
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-17",
-   "tries": 2
-  },
-  {
    "symbol": "V",
    "name": "Visa Inc.",
    "sector": "Finanzen",
@@ -1462,7 +1272,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TPR",
@@ -1493,7 +1303,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BLK",
@@ -1525,7 +1335,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MSCI",
@@ -1556,7 +1366,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "UNP",
@@ -1587,7 +1397,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "VRSK",
@@ -1618,7 +1428,7 @@
     "vix_level": "erhoeht"
    },
    "order_date": "2026-11-18",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "HWM",
@@ -1648,7 +1458,8 @@
     "trend": "aufwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-19"
+   "order_date": "2026-11-19",
+   "tries": 1
   },
   {
    "symbol": "AVGO",
@@ -1679,7 +1490,8 @@
     "trend": "aufwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-19"
+   "order_date": "2026-11-19",
+   "tries": 1
   },
   {
    "symbol": "ECHO",
@@ -1709,7 +1521,8 @@
     "trend": "aufwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-19"
+   "order_date": "2026-11-19",
+   "tries": 1
   },
   {
    "symbol": "MA",
@@ -1740,7 +1553,8 @@
     "trend": "aufwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-19"
+   "order_date": "2026-11-19",
+   "tries": 1
   },
   {
    "symbol": "WST",
@@ -1770,7 +1584,8 @@
     "trend": "aufwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-19"
+   "order_date": "2026-11-19",
+   "tries": 1
   },
   {
    "symbol": "ABNB",
@@ -1801,7 +1616,8 @@
     "trend": "aufwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-19"
+   "order_date": "2026-11-19",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4305,6 +4121,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-11-20",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -5686,6 +5510,36 @@
   {
    "date": "2026-11-19",
    "symbol": "RMD",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-20",
+   "symbol": "MPWR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-20",
+   "symbol": "NXPI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-20",
+   "symbol": "AMZN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-20",
+   "symbol": "EOG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-20",
+   "symbol": "TXN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-20",
+   "symbol": "CHRW",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
