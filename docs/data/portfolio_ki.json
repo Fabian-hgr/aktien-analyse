@@ -1618,6 +1618,190 @@
    },
    "order_date": "2026-11-19",
    "tries": 1
+  },
+  {
+   "symbol": "MPWR",
+   "name": "Monolithic Power Systems",
+   "sector": "Technologie",
+   "score": 0.8661,
+   "target": 1495.13,
+   "stop": 1158.73,
+   "atr_at_entry": 85.19158768641425,
+   "ziel_atr": 2.33,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3945,
+   "basis_erwartung_r": 0.1357,
+   "score_components": {
+    "trend": 0.637,
+    "setup": 0.962,
+    "volumen": 0.082,
+    "qualitaet": 0.931,
+    "bewertung": 0.35,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 1477.52,
+    "struktur": 1512.65
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "sector": "Konsum zyklisch",
+   "score": 0.8199,
+   "target": 275.42,
+   "stop": 240.83,
+   "atr_at_entry": 9.523607782591105,
+   "ziel_atr": 1.91,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.4346,
+   "basis_erwartung_r": 0.0373,
+   "score_components": {
+    "trend": 0.816,
+    "setup": 0.901,
+    "volumen": 0.324,
+    "qualitaet": 0.73,
+    "bewertung": 0.405,
+    "analysten": 0.949,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 275.33,
+    "struktur": 275.23
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "NXPI",
+   "name": "NXP Semiconductors",
+   "sector": "Technologie",
+   "score": 0.8136,
+   "target": 277.36,
+   "stop": 233.63,
+   "atr_at_entry": 11.219261729173619,
+   "ziel_atr": 2.27,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.4023,
+   "basis_erwartung_r": 0.1325,
+   "score_components": {
+    "trend": 0.892,
+    "setup": 0.955,
+    "volumen": 0.0,
+    "qualitaet": 0.85,
+    "bewertung": 0.795,
+    "analysten": 0.765,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 275.61,
+    "struktur": 274.2
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "CHRW",
+   "name": "C.H. Robinson",
+   "sector": "Industrie",
+   "score": 0.7985,
+   "target": 150.75,
+   "stop": 130.69,
+   "atr_at_entry": 4.481661432421018,
+   "ziel_atr": 2.86,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3045,
+   "basis_erwartung_r": 0.1457,
+   "score_components": {
+    "trend": 0.431,
+    "setup": 1.0,
+    "volumen": 0.21,
+    "qualitaet": 0.635,
+    "bewertung": 0.508,
+    "analysten": 0.911
+   },
+   "target_methods": {
+    "atr": 147.02,
+    "struktur": 152.24
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "JKHY",
+   "name": "Jack Henry & Associates",
+   "sector": "Finanzen",
+   "score": 0.7933,
+   "target": 180.66,
+   "stop": 163.27,
+   "atr_at_entry": 4.385085515895047,
+   "ziel_atr": 2.37,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3599,
+   "basis_erwartung_r": 0.1122,
+   "score_components": {
+    "trend": 0.948,
+    "setup": 1.0,
+    "volumen": 0.267,
+    "qualitaet": 0.743,
+    "bewertung": 0.076,
+    "analysten": 0.687,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 178.73,
+    "struktur": 183.4
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "sector": "Kommunikation",
+   "score": 0.7744,
+   "target": 418.79,
+   "stop": 342.06,
+   "atr_at_entry": 21.162937498211267,
+   "ziel_atr": 1.88,
+   "stop_atr": 1.75,
+   "basis_p_ziel": 0.4257,
+   "basis_erwartung_r": 0.0219,
+   "score_components": {
+    "trend": 0.8,
+    "setup": 0.977,
+    "volumen": 0.0,
+    "qualitaet": 0.915,
+    "bewertung": 0.569,
+    "analysten": 0.771,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 417.89,
+    "struktur": 418.43
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
   }
  ],
  "closed": [

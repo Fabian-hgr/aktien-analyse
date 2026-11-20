@@ -1931,6 +1931,186 @@
    },
    "order_date": "2026-11-19",
    "tries": 1
+  },
+  {
+   "symbol": "FIX",
+   "name": "Comfort Systems USA",
+   "sector": "Industrie",
+   "score": 0.6899,
+   "target": 1354.29,
+   "stop": 982.08,
+   "atr_at_entry": 81.4558197156193,
+   "ziel_atr": 2.96,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.2916,
+   "basis_erwartung_r": 0.15,
+   "score_components": {
+    "trend": 0.161,
+    "setup": 0.616,
+    "volumen": 0.0,
+    "qualitaet": 0.847,
+    "bewertung": 0.792,
+    "analysten": 0.905
+   },
+   "target_methods": {
+    "atr": 1278.83,
+    "struktur": 1373.72
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "IR",
+   "name": "Ingersoll Rand",
+   "sector": "Industrie",
+   "score": 0.6717,
+   "target": 86.81,
+   "stop": 76.61,
+   "atr_at_entry": 2.44713969309073,
+   "ziel_atr": 2.56,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3471,
+   "basis_erwartung_r": 0.1317,
+   "score_components": {
+    "trend": 0.667,
+    "setup": 0.825,
+    "volumen": 0.0,
+    "qualitaet": 0.542,
+    "bewertung": 0.65,
+    "analysten": 0.67
+   },
+   "target_methods": {
+    "atr": 85.52,
+    "struktur": 87.68
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "PPG",
+   "name": "PPG Industries",
+   "sector": "Grundstoffe",
+   "score": 0.7101,
+   "target": 127.08,
+   "stop": 113.81,
+   "atr_at_entry": 3.1351169178368243,
+   "ziel_atr": 2.57,
+   "stop_atr": 1.66,
+   "basis_p_ziel": 0.3397,
+   "basis_erwartung_r": 0.1047,
+   "score_components": {
+    "trend": 0.974,
+    "setup": 0.974,
+    "volumen": 0.0,
+    "qualitaet": 0.485,
+    "bewertung": 0.526,
+    "analysten": 0.58
+   },
+   "target_methods": {
+    "atr": 125.27,
+    "struktur": 128.11
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "SWKS",
+   "name": "Skyworks Solutions",
+   "sector": "Technologie",
+   "score": 0.4276,
+   "target": 90.74,
+   "stop": 72.13,
+   "atr_at_entry": 4.027429126088219,
+   "ziel_atr": 3.0,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.304,
+   "basis_erwartung_r": 0.1752,
+   "score_components": {
+    "trend": 0.685,
+    "setup": 0.576,
+    "volumen": 0.136,
+    "qualitaet": 0.215,
+    "bewertung": 0.914,
+    "analysten": 0.31
+   },
+   "target_methods": {
+    "atr": 87.2,
+    "struktur": 92.24
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "TDG",
+   "name": "TransDigm Group",
+   "sector": "Industrie",
+   "score": 0.7502,
+   "target": 1246.43,
+   "stop": 1107.12,
+   "atr_at_entry": 32.63403471581474,
+   "ziel_atr": 2.66,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3335,
+   "basis_erwartung_r": 0.1362,
+   "score_components": {
+    "trend": 0.635,
+    "setup": 0.773,
+    "volumen": 0.0,
+    "qualitaet": 0.854,
+    "bewertung": 0.331,
+    "analysten": 0.81
+   },
+   "target_methods": {
+    "atr": 1226.0,
+    "struktur": 1259.2
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "DOV",
+   "name": "Dover Corporation",
+   "sector": "Industrie",
+   "score": 0.6227,
+   "target": 212.7,
+   "stop": 192.59,
+   "atr_at_entry": 4.50478324100514,
+   "ziel_atr": 2.85,
+   "stop_atr": 1.61,
+   "basis_p_ziel": 0.3063,
+   "basis_erwartung_r": 0.1451,
+   "score_components": {
+    "trend": 0.645,
+    "setup": 0.652,
+    "volumen": 0.0,
+    "qualitaet": 0.535,
+    "bewertung": 0.608,
+    "analysten": 0.713
+   },
+   "target_methods": {
+    "atr": 209.0,
+    "struktur": 214.25
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-20"
   }
  ],
  "closed": [
