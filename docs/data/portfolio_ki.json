@@ -1809,6 +1809,188 @@
    },
    "order_date": "2026-11-23",
    "tries": 1
+  },
+  {
+   "symbol": "TXN",
+   "name": "Texas Instruments",
+   "sector": "Technologie",
+   "score": 0.8154,
+   "target": 319.05,
+   "stop": 266.42,
+   "atr_at_entry": 15.167216080577086,
+   "ziel_atr": 1.85,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.4707,
+   "basis_erwartung_r": 0.1045,
+   "score_components": {
+    "trend": 0.676,
+    "setup": 0.934,
+    "volumen": 0.235,
+    "qualitaet": 0.943,
+    "bewertung": 0.347,
+    "analysten": 0.711,
+    "sentiment": 0.9
+   },
+   "target_methods": {
+    "atr": 323.3,
+    "struktur": 317.2
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-24"
+  },
+  {
+   "symbol": "TPR",
+   "name": "Tapestry, Inc.",
+   "sector": "Konsum zyklisch",
+   "score": 0.8085,
+   "target": 140.0,
+   "stop": 119.05,
+   "atr_at_entry": 4.5423365599049506,
+   "ziel_atr": 2.93,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.281,
+   "basis_erwartung_r": 0.0933,
+   "score_components": {
+    "trend": 0.662,
+    "setup": 1.0,
+    "volumen": 0.244,
+    "qualitaet": 0.62,
+    "bewertung": 0.595,
+    "analysten": 0.877,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 135.46,
+    "struktur": 140.54
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-24"
+  },
+  {
+   "symbol": "FIX",
+   "name": "Comfort Systems USA",
+   "sector": "Industrie",
+   "score": 0.8016,
+   "target": 1413.92,
+   "stop": 1021.36,
+   "atr_at_entry": 86.4831302780934,
+   "ziel_atr": 2.95,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2955,
+   "basis_erwartung_r": 0.164,
+   "score_components": {
+    "trend": 0.152,
+    "setup": 0.928,
+    "volumen": 0.247,
+    "qualitaet": 0.847,
+    "bewertung": 0.792,
+    "analysten": 0.905
+   },
+   "target_methods": {
+    "atr": 1336.33,
+    "struktur": 1437.52
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-24"
+  },
+  {
+   "symbol": "CRH",
+   "name": "CRH plc",
+   "sector": "Grundstoffe",
+   "score": 0.8004,
+   "target": 99.65,
+   "stop": 87.2,
+   "atr_at_entry": 3.086506432274544,
+   "ziel_atr": 2.39,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3704,
+   "basis_erwartung_r": 0.1104,
+   "score_components": {
+    "trend": 0.646,
+    "setup": 1.0,
+    "volumen": 0.344,
+    "qualitaet": 0.401,
+    "bewertung": 0.481,
+    "analysten": 0.993
+   },
+   "target_methods": {
+    "atr": 98.52,
+    "struktur": 99.76
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-24"
+  },
+  {
+   "symbol": "VRSK",
+   "name": "Verisk Analytics",
+   "sector": "Industrie",
+   "score": 0.7972,
+   "target": 214.95,
+   "stop": 189.5,
+   "atr_at_entry": 6.59075509109056,
+   "ziel_atr": 2.27,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3926,
+   "basis_erwartung_r": 0.126,
+   "score_components": {
+    "trend": 0.953,
+    "setup": 0.995,
+    "volumen": 0.312,
+    "qualitaet": 0.702,
+    "bewertung": 0.372,
+    "analysten": 0.682
+   },
+   "target_methods": {
+    "atr": 213.5,
+    "struktur": 216.41
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-24"
+  },
+  {
+   "symbol": "KLAC",
+   "name": "KLA Corporation",
+   "sector": "Technologie",
+   "score": 0.7892,
+   "target": 174.82,
+   "stop": 127.79,
+   "atr_at_entry": 10.591105112116882,
+   "ziel_atr": 2.82,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3279,
+   "basis_erwartung_r": 0.1659,
+   "score_components": {
+    "trend": 0.124,
+    "setup": 0.835,
+    "volumen": 0.52,
+    "qualitaet": 0.927,
+    "bewertung": 0.425,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 167.51,
+    "struktur": 180.74
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-24"
   }
  ],
  "closed": [
