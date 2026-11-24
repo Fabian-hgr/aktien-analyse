@@ -2111,6 +2111,186 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "WDAY",
+   "name": "Workday, Inc.",
+   "sector": "Technologie",
+   "score": 0.3137,
+   "target": 196.26,
+   "stop": 163.25,
+   "atr_at_entry": 7.015101463069693,
+   "ziel_atr": 3.08,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.2947,
+   "basis_erwartung_r": 0.1798,
+   "score_components": {
+    "trend": 0.35,
+    "setup": 0.473,
+    "volumen": 0.134,
+    "qualitaet": 0.56,
+    "bewertung": 0.817,
+    "analysten": 0.762
+   },
+   "target_methods": {
+    "atr": 189.56,
+    "struktur": 198.32
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
+  },
+  {
+   "symbol": "SOFI",
+   "name": "SoFi Technologies, Inc. Common Stock",
+   "sector": "Finanzen",
+   "score": 0.5082,
+   "target": 14.62,
+   "stop": 11.24,
+   "atr_at_entry": 0.8022547831745737,
+   "ziel_atr": 2.65,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3199,
+   "basis_erwartung_r": 0.1393,
+   "score_components": {
+    "trend": 0.106,
+    "setup": 0.38,
+    "volumen": 1.0,
+    "qualitaet": 0.634,
+    "bewertung": 0.613,
+    "analysten": 0.806
+   },
+   "target_methods": {
+    "atr": 14.07,
+    "struktur": 14.93
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
+  },
+  {
+   "symbol": "GWW",
+   "name": "W. W. Grainger",
+   "sector": "Industrie",
+   "score": 0.5758,
+   "target": 1442.87,
+   "stop": 1305.87,
+   "atr_at_entry": 33.68166056780093,
+   "ziel_atr": 2.48,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3616,
+   "basis_erwartung_r": 0.1406,
+   "score_components": {
+    "trend": 0.947,
+    "setup": 0.612,
+    "volumen": 0.419,
+    "qualitaet": 0.668,
+    "bewertung": 0.201,
+    "analysten": 0.392
+   },
+   "target_methods": {
+    "atr": 1428.54,
+    "struktur": 1467.95
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
+  },
+  {
+   "symbol": "HIG",
+   "name": "Hartford (The)",
+   "sector": "Finanzen",
+   "score": 0.7153,
+   "target": 142.11,
+   "stop": 132.82,
+   "atr_at_entry": 2.620573927504046,
+   "ziel_atr": 1.98,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.4294,
+   "basis_erwartung_r": 0.1081,
+   "score_components": {
+    "trend": 0.891,
+    "setup": 0.943,
+    "volumen": 0.013,
+    "qualitaet": 0.625,
+    "bewertung": 0.84,
+    "analysten": 0.528
+   },
+   "target_methods": {
+    "atr": 142.05,
+    "struktur": 141.27
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
+  },
+  {
+   "symbol": "F",
+   "name": "Ford Motor Company",
+   "sector": "Konsum zyklisch",
+   "score": 0.4526,
+   "target": 12.16,
+   "stop": 10.6,
+   "atr_at_entry": 0.3361839762723102,
+   "ziel_atr": 2.94,
+   "stop_atr": 1.7,
+   "basis_p_ziel": 0.2803,
+   "basis_erwartung_r": 0.093,
+   "score_components": {
+    "trend": 0.12,
+    "setup": 0.457,
+    "volumen": 0.275,
+    "qualitaet": 0.025,
+    "bewertung": 0.6,
+    "analysten": 0.877
+   },
+   "target_methods": {
+    "atr": 11.82,
+    "struktur": 12.2
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
+  },
+  {
+   "symbol": "BKR",
+   "name": "Baker Hughes",
+   "sector": "Energie",
+   "score": 0.569,
+   "target": 49.91,
+   "stop": 42.24,
+   "atr_at_entry": 1.8391655841230272,
+   "ziel_atr": 2.76,
+   "stop_atr": 1.41,
+   "basis_p_ziel": 0.3429,
+   "basis_erwartung_r": 0.2767,
+   "score_components": {
+    "trend": 0.168,
+    "setup": 0.424,
+    "volumen": 0.76,
+    "qualitaet": 0.513,
+    "bewertung": 0.277,
+    "analysten": 0.918
+   },
+   "target_methods": {
+    "atr": 48.89,
+    "struktur": 50.92
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
   }
  ],
  "closed": [

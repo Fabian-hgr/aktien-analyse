@@ -1802,6 +1802,189 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-20"
+  },
+  {
+   "symbol": "CPRT",
+   "name": "Copart",
+   "sector": "Industrie",
+   "score": 0.779,
+   "target": 33.6,
+   "stop": 29.75,
+   "atr_at_entry": 0.8591070802888725,
+   "ziel_atr": 2.89,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3041,
+   "basis_erwartung_r": 0.161,
+   "score_components": {
+    "trend": 0.672,
+    "setup": 1.0,
+    "volumen": 0.206,
+    "qualitaet": 0.672,
+    "bewertung": 0.363,
+    "analysten": 0.749
+   },
+   "target_methods": {
+    "atr": 32.88,
+    "struktur": 33.89
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
+  },
+  {
+   "symbol": "ICE",
+   "name": "Intercontinental Exchange",
+   "sector": "Finanzen",
+   "score": 0.7733,
+   "target": 179.0,
+   "stop": 164.13,
+   "atr_at_entry": 3.8246959448702875,
+   "ziel_atr": 2.32,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3717,
+   "basis_erwartung_r": 0.1244,
+   "score_components": {
+    "trend": 0.931,
+    "setup": 0.97,
+    "volumen": 1.0,
+    "qualitaet": 0.694,
+    "bewertung": 0.159,
+    "analysten": 0.602,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 177.61,
+    "struktur": 181.3
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
+  },
+  {
+   "symbol": "LNG",
+   "name": "Cheniere Energy Inc",
+   "sector": "Energie",
+   "score": 0.7653,
+   "target": 319.79,
+   "stop": 282.17,
+   "atr_at_entry": 9.04065418115931,
+   "ziel_atr": 2.75,
+   "stop_atr": 1.41,
+   "basis_p_ziel": 0.3438,
+   "basis_erwartung_r": 0.2766,
+   "score_components": {
+    "trend": 0.875,
+    "setup": 0.935,
+    "volumen": 0.029,
+    "qualitaet": 0.676,
+    "bewertung": 0.22,
+    "analysten": 0.739,
+    "sentiment": 0.75
+   },
+   "target_methods": {
+    "atr": 314.84,
+    "struktur": 324.83
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
+  },
+  {
+   "symbol": "GNRC",
+   "name": "Generac",
+   "sector": "Industrie",
+   "score": 0.7612,
+   "target": 229.2,
+   "stop": 174.07,
+   "atr_at_entry": 12.030043793572432,
+   "ziel_atr": 2.99,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.2895,
+   "basis_erwartung_r": 0.1661,
+   "score_components": {
+    "trend": 0.432,
+    "setup": 0.967,
+    "volumen": 0.474,
+    "qualitaet": 0.474,
+    "bewertung": 0.846,
+    "analysten": 0.877
+   },
+   "target_methods": {
+    "atr": 217.89,
+    "struktur": 229.5
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
+  },
+  {
+   "symbol": "GPN",
+   "name": "Global Payments",
+   "sector": "Finanzen",
+   "score": 0.7605,
+   "target": 103.13,
+   "stop": 84.85,
+   "atr_at_entry": 4.443437784206821,
+   "ziel_atr": 2.55,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3351,
+   "basis_erwartung_r": 0.1348,
+   "score_components": {
+    "trend": 0.689,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.371,
+    "bewertung": 1.0,
+    "analysten": 0.753
+   },
+   "target_methods": {
+    "atr": 100.5,
+    "struktur": 102.84
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
+  },
+  {
+   "symbol": "LLY",
+   "name": "Lilly (Eli)",
+   "sector": "Gesundheit",
+   "score": 0.7594,
+   "target": 1447.09,
+   "stop": 1285.86,
+   "atr_at_entry": 40.769601410872504,
+   "ziel_atr": 2.43,
+   "stop_atr": 1.53,
+   "basis_p_ziel": 0.3561,
+   "basis_erwartung_r": 0.1517,
+   "score_components": {
+    "trend": 0.966,
+    "setup": 0.856,
+    "volumen": 0.29,
+    "qualitaet": 0.902,
+    "bewertung": 0.281,
+    "analysten": 0.594,
+    "sentiment": 0.7
+   },
+   "target_methods": {
+    "atr": 1432.72,
+    "struktur": 1474.71
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-23"
   }
  ],
  "closed": [
