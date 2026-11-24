@@ -1243,194 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "V",
-   "name": "Visa Inc.",
-   "sector": "Finanzen",
-   "score": 0.8131,
-   "target": 435.86,
-   "stop": 403.2,
-   "atr_at_entry": 8.486323915108192,
-   "ziel_atr": 2.25,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.3802,
-   "basis_erwartung_r": 0.1073,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 1.0,
-    "volumen": 0.116,
-    "qualitaet": 0.851,
-    "bewertung": 0.114,
-    "analysten": 0.65,
-    "sentiment": 0.85
-   },
-   "target_methods": {
-    "atr": 433.13,
-    "struktur": 441.3
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-18",
-   "tries": 2
-  },
-  {
-   "symbol": "TPR",
-   "name": "Tapestry, Inc.",
-   "sector": "Konsum zyklisch",
-   "score": 0.8076,
-   "target": 138.88,
-   "stop": 119.95,
-   "atr_at_entry": 4.121988944682147,
-   "ziel_atr": 2.87,
-   "stop_atr": 1.72,
-   "basis_p_ziel": 0.2845,
-   "basis_erwartung_r": 0.0663,
-   "score_components": {
-    "trend": 0.677,
-    "setup": 1.0,
-    "volumen": 0.266,
-    "qualitaet": 0.62,
-    "bewertung": 0.547,
-    "analysten": 0.871
-   },
-   "target_methods": {
-    "atr": 134.88,
-    "struktur": 139.42
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-18",
-   "tries": 2
-  },
-  {
-   "symbol": "BLK",
-   "name": "BlackRock",
-   "sector": "Finanzen",
-   "score": 0.8036,
-   "target": 1236.61,
-   "stop": 1133.7,
-   "atr_at_entry": 29.378469909790397,
-   "ziel_atr": 1.91,
-   "stop_atr": 1.6,
-   "basis_p_ziel": 0.4403,
-   "basis_erwartung_r": 0.093,
-   "score_components": {
-    "trend": 0.884,
-    "setup": 1.0,
-    "volumen": 0.429,
-    "qualitaet": 0.74,
-    "bewertung": 0.359,
-    "analysten": 0.714,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 1237.29,
-    "struktur": 1241.09
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-18",
-   "tries": 2
-  },
-  {
-   "symbol": "MSCI",
-   "name": "MSCI",
-   "sector": "Finanzen",
-   "score": 0.7975,
-   "target": 668.95,
-   "stop": 612.27,
-   "atr_at_entry": 14.859041030302691,
-   "ziel_atr": 2.22,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3858,
-   "basis_erwartung_r": 0.1059,
-   "score_components": {
-    "trend": 1.0,
-    "setup": 1.0,
-    "volumen": 0.522,
-    "qualitaet": 0.809,
-    "bewertung": 0.084,
-    "analysten": 0.598
-   },
-   "target_methods": {
-    "atr": 664.66,
-    "struktur": 677.88
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-18",
-   "tries": 2
-  },
-  {
-   "symbol": "UNP",
-   "name": "Union Pacific Corporation",
-   "sector": "Industrie",
-   "score": 0.7947,
-   "target": 309.67,
-   "stop": 287.61,
-   "atr_at_entry": 5.834840332319435,
-   "ziel_atr": 2.17,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.4058,
-   "basis_erwartung_r": 0.1073,
-   "score_components": {
-    "trend": 0.915,
-    "setup": 0.958,
-    "volumen": 0.74,
-    "qualitaet": 0.806,
-    "bewertung": 0.301,
-    "analysten": 0.621
-   },
-   "target_methods": {
-    "atr": 308.86,
-    "struktur": 309.82
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-18",
-   "tries": 2
-  },
-  {
-   "symbol": "VRSK",
-   "name": "Verisk Analytics",
-   "sector": "Industrie",
-   "score": 0.7853,
-   "target": 217.6,
-   "stop": 194.54,
-   "atr_at_entry": 6.6554451024753405,
-   "ziel_atr": 1.85,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.4583,
-   "basis_erwartung_r": 0.0874,
-   "score_components": {
-    "trend": 0.979,
-    "setup": 0.945,
-    "volumen": 0.912,
-    "qualitaet": 0.702,
-    "bewertung": 0.385,
-    "analysten": 0.627
-   },
-   "target_methods": {
-    "atr": 218.79,
-    "struktur": 216.41
-   },
-   "regime": {
-    "trend": "aufwaerts",
-    "vix_level": "erhoeht"
-   },
-   "order_date": "2026-11-18",
-   "tries": 2
-  },
-  {
    "symbol": "HWM",
    "name": "Howmet Aerospace",
    "sector": "Industrie",
@@ -1459,7 +1271,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "AVGO",
@@ -1491,7 +1303,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ECHO",
@@ -1522,7 +1334,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MA",
@@ -1554,7 +1366,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "WST",
@@ -1585,7 +1397,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ABNB",
@@ -1617,7 +1429,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-19",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "MPWR",
@@ -1647,7 +1459,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-20"
+   "order_date": "2026-11-20",
+   "tries": 1
   },
   {
    "symbol": "AMZN",
@@ -1678,7 +1491,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-20"
+   "order_date": "2026-11-20",
+   "tries": 1
   },
   {
    "symbol": "NXPI",
@@ -1709,7 +1523,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-20"
+   "order_date": "2026-11-20",
+   "tries": 1
   },
   {
    "symbol": "CHRW",
@@ -1739,7 +1554,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-20"
+   "order_date": "2026-11-20",
+   "tries": 1
   },
   {
    "symbol": "JKHY",
@@ -1770,7 +1586,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-20"
+   "order_date": "2026-11-20",
+   "tries": 1
   },
   {
    "symbol": "APP",
@@ -1801,7 +1618,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-20"
+   "order_date": "2026-11-20",
+   "tries": 1
   },
   {
    "symbol": "CPRT",
@@ -1831,7 +1649,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-23"
+   "order_date": "2026-11-23",
+   "tries": 1
   },
   {
    "symbol": "ICE",
@@ -1862,7 +1681,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-23"
+   "order_date": "2026-11-23",
+   "tries": 1
   },
   {
    "symbol": "LNG",
@@ -1893,7 +1713,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-23"
+   "order_date": "2026-11-23",
+   "tries": 1
   },
   {
    "symbol": "GNRC",
@@ -1923,7 +1744,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-23"
+   "order_date": "2026-11-23",
+   "tries": 1
   },
   {
    "symbol": "GPN",
@@ -1953,7 +1775,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-23"
+   "order_date": "2026-11-23",
+   "tries": 1
   },
   {
    "symbol": "LLY",
@@ -1984,7 +1807,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-23"
+   "order_date": "2026-11-23",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4496,6 +4320,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-11-24",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -5907,6 +5739,36 @@
   {
    "date": "2026-11-20",
    "symbol": "CHRW",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "V",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "TPR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "BLK",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "MSCI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "UNP",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-24",
+   "symbol": "VRSK",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
