@@ -2117,6 +2117,186 @@
    },
    "order_date": "2026-11-24",
    "tries": 1
+  },
+  {
+   "symbol": "TDY",
+   "name": "Teledyne Technologies",
+   "sector": "Technologie",
+   "score": 0.6742,
+   "target": 669.25,
+   "stop": 592.6,
+   "atr_at_entry": 18.29449966173633,
+   "ziel_atr": 2.57,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3602,
+   "basis_erwartung_r": 0.152,
+   "score_components": {
+    "trend": 0.424,
+    "setup": 0.867,
+    "volumen": 0.0,
+    "qualitaet": 0.539,
+    "bewertung": 0.322,
+    "analysten": 0.733
+   },
+   "target_methods": {
+    "atr": 661.2,
+    "struktur": 678.83
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
+  },
+  {
+   "symbol": "COST",
+   "name": "Costco",
+   "sector": "Konsum defensiv",
+   "score": 0.5071,
+   "target": 1133.5,
+   "stop": 1059.63,
+   "atr_at_entry": 18.78690493409177,
+   "ziel_atr": 2.24,
+   "stop_atr": 1.69,
+   "basis_p_ziel": 0.3783,
+   "basis_erwartung_r": 0.0546,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.447,
+    "volumen": 0.079,
+    "qualitaet": 0.582,
+    "bewertung": 0.0,
+    "analysten": 0.445
+   },
+   "target_methods": {
+    "atr": 1127.4,
+    "struktur": 1148.04
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
+  },
+  {
+   "symbol": "HD",
+   "name": "Home Depot (The)",
+   "sector": "Konsum zyklisch",
+   "score": 0.6345,
+   "target": 374.78,
+   "stop": 338.66,
+   "atr_at_entry": 8.876950684356396,
+   "ziel_atr": 2.39,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3586,
+   "basis_erwartung_r": 0.0722,
+   "score_components": {
+    "trend": 0.985,
+    "setup": 0.802,
+    "volumen": 0.062,
+    "qualitaet": 0.433,
+    "bewertung": 0.363,
+    "analysten": 0.556
+   },
+   "target_methods": {
+    "atr": 370.73,
+    "struktur": 380.66
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius Group N.V. Class A Ordinary Shares",
+   "sector": "Kommunikation",
+   "score": 0.5647,
+   "target": 132.0,
+   "stop": 57.58,
+   "atr_at_entry": 17.259916201424122,
+   "ziel_atr": 2.59,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.3029,
+   "basis_erwartung_r": 0.0342,
+   "score_components": {
+    "trend": 0.186,
+    "setup": 0.476,
+    "volumen": 0.197,
+    "qualitaet": 0.414,
+    "bewertung": 1.0,
+    "analysten": 0.891
+   },
+   "target_methods": {
+    "atr": 119.28,
+    "struktur": 137.28
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
+  },
+  {
+   "symbol": "IBKR",
+   "name": "Interactive Brokers",
+   "sector": "Finanzen",
+   "score": 0.63,
+   "target": 83.58,
+   "stop": 69.21,
+   "atr_at_entry": 3.5373293735116405,
+   "ziel_atr": 2.5,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3423,
+   "basis_erwartung_r": 0.1328,
+   "score_components": {
+    "trend": 0.098,
+    "setup": 0.646,
+    "volumen": 0.243,
+    "qualitaet": 0.618,
+    "bewertung": 0.282,
+    "analysten": 0.864
+   },
+   "target_methods": {
+    "atr": 81.67,
+    "struktur": 85.49
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
+  },
+  {
+   "symbol": "IFF",
+   "name": "International Flavors & Fragrances",
+   "sector": "Grundstoffe",
+   "score": 0.6399,
+   "target": 91.04,
+   "stop": 81.58,
+   "atr_at_entry": 2.2789214338559027,
+   "ziel_atr": 2.51,
+   "stop_atr": 1.64,
+   "basis_p_ziel": 0.3528,
+   "basis_erwartung_r": 0.1168,
+   "score_components": {
+    "trend": 0.483,
+    "setup": 1.0,
+    "volumen": 0.287,
+    "qualitaet": 0.253,
+    "bewertung": 0.222,
+    "analysten": 0.637
+   },
+   "target_methods": {
+    "atr": 89.94,
+    "struktur": 92.66
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
   }
  ],
  "closed": [

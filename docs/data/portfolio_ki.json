@@ -1808,6 +1808,189 @@
    },
    "order_date": "2026-11-24",
    "tries": 1
+  },
+  {
+   "symbol": "ADSK",
+   "name": "Autodesk",
+   "sector": "Technologie",
+   "score": 0.8567,
+   "target": 277.23,
+   "stop": 242.04,
+   "atr_at_entry": 8.646857152395787,
+   "ziel_atr": 2.45,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3768,
+   "basis_erwartung_r": 0.1449,
+   "score_components": {
+    "trend": 0.896,
+    "setup": 1.0,
+    "volumen": 0.665,
+    "qualitaet": 0.791,
+    "bewertung": 0.614,
+    "analysten": 0.857,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 274.46,
+    "struktur": 278.88
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
+  },
+  {
+   "symbol": "HWM",
+   "name": "Howmet Aerospace",
+   "sector": "Industrie",
+   "score": 0.8069,
+   "target": 233.72,
+   "stop": 196.76,
+   "atr_at_entry": 8.888630326281362,
+   "ziel_atr": 2.57,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3487,
+   "basis_erwartung_r": 0.1455,
+   "score_components": {
+    "trend": 0.287,
+    "setup": 0.865,
+    "volumen": 0.0,
+    "qualitaet": 0.889,
+    "bewertung": 0.34,
+    "analysten": 0.973
+   },
+   "target_methods": {
+    "atr": 229.13,
+    "struktur": 238.28
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
+  },
+  {
+   "symbol": "DAL",
+   "name": "Delta Air Lines",
+   "sector": "Industrie",
+   "score": 0.8053,
+   "target": 92.71,
+   "stop": 79.7,
+   "atr_at_entry": 3.036408582498357,
+   "ziel_atr": 2.7,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3307,
+   "basis_erwartung_r": 0.1518,
+   "score_components": {
+    "trend": 0.875,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.511,
+    "bewertung": 0.943,
+    "analysten": 0.84
+   },
+   "target_methods": {
+    "atr": 90.75,
+    "struktur": 92.52
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
+  },
+  {
+   "symbol": "MA",
+   "name": "Mastercard",
+   "sector": "Finanzen",
+   "score": 0.7965,
+   "target": 675.79,
+   "stop": 626.39,
+   "atr_at_entry": 13.380562746392885,
+   "ziel_atr": 2.13,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.4042,
+   "basis_erwartung_r": 0.1152,
+   "score_components": {
+    "trend": 0.972,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.708,
+    "bewertung": 0.164,
+    "analysten": 0.707,
+    "sentiment": 0.8
+   },
+   "target_methods": {
+    "atr": 673.53,
+    "struktur": 681.4
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
+  },
+  {
+   "symbol": "V",
+   "name": "Visa Inc.",
+   "sector": "Finanzen",
+   "score": 0.7943,
+   "target": 436.21,
+   "stop": 403.13,
+   "atr_at_entry": 8.715371728244472,
+   "ziel_atr": 2.23,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3868,
+   "basis_erwartung_r": 0.1202,
+   "score_components": {
+    "trend": 0.951,
+    "setup": 1.0,
+    "volumen": 0.01,
+    "qualitaet": 0.851,
+    "bewertung": 0.122,
+    "analysten": 0.658,
+    "sentiment": 0.65
+   },
+   "target_methods": {
+    "atr": 433.83,
+    "struktur": 441.3
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
+  },
+  {
+   "symbol": "MSCI",
+   "name": "MSCI",
+   "sector": "Finanzen",
+   "score": 0.786,
+   "target": 668.65,
+   "stop": 610.03,
+   "atr_at_entry": 15.34257978252,
+   "ziel_atr": 2.26,
+   "stop_atr": 1.56,
+   "basis_p_ziel": 0.3828,
+   "basis_erwartung_r": 0.1213,
+   "score_components": {
+    "trend": 0.955,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.809,
+    "bewertung": 0.098,
+    "analysten": 0.613
+   },
+   "target_methods": {
+    "atr": 664.09,
+    "struktur": 677.88
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "gestresst"
+   },
+   "order_date": "2026-11-25"
   }
  ],
  "closed": [
