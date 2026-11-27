@@ -1561,378 +1561,6 @@
  ],
  "pending": [
   {
-   "symbol": "FIX",
-   "name": "Comfort Systems USA",
-   "sector": "Industrie",
-   "score": 0.6899,
-   "target": 1354.29,
-   "stop": 982.08,
-   "atr_at_entry": 81.4558197156193,
-   "ziel_atr": 2.96,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.2916,
-   "basis_erwartung_r": 0.15,
-   "score_components": {
-    "trend": 0.161,
-    "setup": 0.616,
-    "volumen": 0.0,
-    "qualitaet": 0.847,
-    "bewertung": 0.792,
-    "analysten": 0.905
-   },
-   "target_methods": {
-    "atr": 1278.83,
-    "struktur": 1373.72
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "IR",
-   "name": "Ingersoll Rand",
-   "sector": "Industrie",
-   "score": 0.6717,
-   "target": 86.81,
-   "stop": 76.61,
-   "atr_at_entry": 2.44713969309073,
-   "ziel_atr": 2.56,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.3471,
-   "basis_erwartung_r": 0.1317,
-   "score_components": {
-    "trend": 0.667,
-    "setup": 0.825,
-    "volumen": 0.0,
-    "qualitaet": 0.542,
-    "bewertung": 0.65,
-    "analysten": 0.67
-   },
-   "target_methods": {
-    "atr": 85.52,
-    "struktur": 87.68
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "PPG",
-   "name": "PPG Industries",
-   "sector": "Grundstoffe",
-   "score": 0.7101,
-   "target": 127.08,
-   "stop": 113.81,
-   "atr_at_entry": 3.1351169178368243,
-   "ziel_atr": 2.57,
-   "stop_atr": 1.66,
-   "basis_p_ziel": 0.3397,
-   "basis_erwartung_r": 0.1047,
-   "score_components": {
-    "trend": 0.974,
-    "setup": 0.974,
-    "volumen": 0.0,
-    "qualitaet": 0.485,
-    "bewertung": 0.526,
-    "analysten": 0.58
-   },
-   "target_methods": {
-    "atr": 125.27,
-    "struktur": 128.11
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "SWKS",
-   "name": "Skyworks Solutions",
-   "sector": "Technologie",
-   "score": 0.4276,
-   "target": 90.74,
-   "stop": 72.13,
-   "atr_at_entry": 4.027429126088219,
-   "ziel_atr": 3.0,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.304,
-   "basis_erwartung_r": 0.1752,
-   "score_components": {
-    "trend": 0.685,
-    "setup": 0.576,
-    "volumen": 0.136,
-    "qualitaet": 0.215,
-    "bewertung": 0.914,
-    "analysten": 0.31
-   },
-   "target_methods": {
-    "atr": 87.2,
-    "struktur": 92.24
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "TDG",
-   "name": "TransDigm Group",
-   "sector": "Industrie",
-   "score": 0.7502,
-   "target": 1246.43,
-   "stop": 1107.12,
-   "atr_at_entry": 32.63403471581474,
-   "ziel_atr": 2.66,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.3335,
-   "basis_erwartung_r": 0.1362,
-   "score_components": {
-    "trend": 0.635,
-    "setup": 0.773,
-    "volumen": 0.0,
-    "qualitaet": 0.854,
-    "bewertung": 0.331,
-    "analysten": 0.81
-   },
-   "target_methods": {
-    "atr": 1226.0,
-    "struktur": 1259.2
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "DOV",
-   "name": "Dover Corporation",
-   "sector": "Industrie",
-   "score": 0.6227,
-   "target": 212.7,
-   "stop": 192.59,
-   "atr_at_entry": 4.50478324100514,
-   "ziel_atr": 2.85,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.3063,
-   "basis_erwartung_r": 0.1451,
-   "score_components": {
-    "trend": 0.645,
-    "setup": 0.652,
-    "volumen": 0.0,
-    "qualitaet": 0.535,
-    "bewertung": 0.608,
-    "analysten": 0.713
-   },
-   "target_methods": {
-    "atr": 209.0,
-    "struktur": 214.25
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "WDAY",
-   "name": "Workday, Inc.",
-   "sector": "Technologie",
-   "score": 0.3137,
-   "target": 196.26,
-   "stop": 163.25,
-   "atr_at_entry": 7.015101463069693,
-   "ziel_atr": 3.08,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.2947,
-   "basis_erwartung_r": 0.1798,
-   "score_components": {
-    "trend": 0.35,
-    "setup": 0.473,
-    "volumen": 0.134,
-    "qualitaet": 0.56,
-    "bewertung": 0.817,
-    "analysten": 0.762
-   },
-   "target_methods": {
-    "atr": 189.56,
-    "struktur": 198.32
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
-   "symbol": "SOFI",
-   "name": "SoFi Technologies, Inc. Common Stock",
-   "sector": "Finanzen",
-   "score": 0.5082,
-   "target": 14.62,
-   "stop": 11.24,
-   "atr_at_entry": 0.8022547831745737,
-   "ziel_atr": 2.65,
-   "stop_atr": 1.56,
-   "basis_p_ziel": 0.3199,
-   "basis_erwartung_r": 0.1393,
-   "score_components": {
-    "trend": 0.106,
-    "setup": 0.38,
-    "volumen": 1.0,
-    "qualitaet": 0.634,
-    "bewertung": 0.613,
-    "analysten": 0.806
-   },
-   "target_methods": {
-    "atr": 14.07,
-    "struktur": 14.93
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
-   "symbol": "GWW",
-   "name": "W. W. Grainger",
-   "sector": "Industrie",
-   "score": 0.5758,
-   "target": 1442.87,
-   "stop": 1305.87,
-   "atr_at_entry": 33.68166056780093,
-   "ziel_atr": 2.48,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3616,
-   "basis_erwartung_r": 0.1406,
-   "score_components": {
-    "trend": 0.947,
-    "setup": 0.612,
-    "volumen": 0.419,
-    "qualitaet": 0.668,
-    "bewertung": 0.201,
-    "analysten": 0.392
-   },
-   "target_methods": {
-    "atr": 1428.54,
-    "struktur": 1467.95
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
-   "symbol": "HIG",
-   "name": "Hartford (The)",
-   "sector": "Finanzen",
-   "score": 0.7153,
-   "target": 142.11,
-   "stop": 132.82,
-   "atr_at_entry": 2.620573927504046,
-   "ziel_atr": 1.98,
-   "stop_atr": 1.56,
-   "basis_p_ziel": 0.4294,
-   "basis_erwartung_r": 0.1081,
-   "score_components": {
-    "trend": 0.891,
-    "setup": 0.943,
-    "volumen": 0.013,
-    "qualitaet": 0.625,
-    "bewertung": 0.84,
-    "analysten": 0.528
-   },
-   "target_methods": {
-    "atr": 142.05,
-    "struktur": 141.27
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
-   "symbol": "F",
-   "name": "Ford Motor Company",
-   "sector": "Konsum zyklisch",
-   "score": 0.4526,
-   "target": 12.16,
-   "stop": 10.6,
-   "atr_at_entry": 0.3361839762723102,
-   "ziel_atr": 2.94,
-   "stop_atr": 1.7,
-   "basis_p_ziel": 0.2803,
-   "basis_erwartung_r": 0.093,
-   "score_components": {
-    "trend": 0.12,
-    "setup": 0.457,
-    "volumen": 0.275,
-    "qualitaet": 0.025,
-    "bewertung": 0.6,
-    "analysten": 0.877
-   },
-   "target_methods": {
-    "atr": 11.82,
-    "struktur": 12.2
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
-   "symbol": "BKR",
-   "name": "Baker Hughes",
-   "sector": "Energie",
-   "score": 0.569,
-   "target": 49.91,
-   "stop": 42.24,
-   "atr_at_entry": 1.8391655841230272,
-   "ziel_atr": 2.76,
-   "stop_atr": 1.41,
-   "basis_p_ziel": 0.3429,
-   "basis_erwartung_r": 0.2767,
-   "score_components": {
-    "trend": 0.168,
-    "setup": 0.424,
-    "volumen": 0.76,
-    "qualitaet": 0.513,
-    "bewertung": 0.277,
-    "analysten": 0.918
-   },
-   "target_methods": {
-    "atr": 48.89,
-    "struktur": 50.92
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
    "symbol": "SLB",
    "name": "Schlumberger",
    "sector": "Energie",
@@ -1961,7 +1589,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ADI",
@@ -1992,7 +1620,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "SWK",
@@ -2023,7 +1651,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "KEYS",
@@ -2054,7 +1682,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "BLK",
@@ -2085,7 +1713,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ETN",
@@ -2116,7 +1744,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TDY",
@@ -2146,7 +1774,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   },
   {
    "symbol": "COST",
@@ -2176,7 +1805,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   },
   {
    "symbol": "HD",
@@ -2206,7 +1836,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   },
   {
    "symbol": "NBIS",
@@ -2236,7 +1867,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   },
   {
    "symbol": "IBKR",
@@ -2266,7 +1898,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   },
   {
    "symbol": "IFF",
@@ -2296,7 +1929,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4332,6 +3966,14 @@
    "positions": 42,
    "invested_pct": 42.31,
    "return_pct": -1.173
+  },
+  {
+   "date": "2026-11-27",
+   "equity": 98826.69,
+   "cash": 57013.4,
+   "positions": 42,
+   "invested_pct": 42.31,
+   "return_pct": -1.173
   }
  ],
  "skipped": [
@@ -5803,6 +5445,66 @@
   {
    "date": "2026-11-25",
    "symbol": "JPM",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "FIX",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "IR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "PPG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "SWKS",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "TDG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "DOV",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "WDAY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "SOFI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "GWW",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "HIG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "F",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "BKR",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]

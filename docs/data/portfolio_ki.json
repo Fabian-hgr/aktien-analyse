@@ -1243,385 +1243,6 @@
  ],
  "pending": [
   {
-   "symbol": "MPWR",
-   "name": "Monolithic Power Systems",
-   "sector": "Technologie",
-   "score": 0.8661,
-   "target": 1495.13,
-   "stop": 1158.73,
-   "atr_at_entry": 85.19158768641425,
-   "ziel_atr": 2.33,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.3945,
-   "basis_erwartung_r": 0.1357,
-   "score_components": {
-    "trend": 0.637,
-    "setup": 0.962,
-    "volumen": 0.082,
-    "qualitaet": 0.931,
-    "bewertung": 0.35,
-    "analysten": 0.925
-   },
-   "target_methods": {
-    "atr": 1477.52,
-    "struktur": 1512.65
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "AMZN",
-   "name": "Amazon",
-   "sector": "Konsum zyklisch",
-   "score": 0.8199,
-   "target": 275.42,
-   "stop": 240.83,
-   "atr_at_entry": 9.523607782591105,
-   "ziel_atr": 1.91,
-   "stop_atr": 1.72,
-   "basis_p_ziel": 0.4346,
-   "basis_erwartung_r": 0.0373,
-   "score_components": {
-    "trend": 0.816,
-    "setup": 0.901,
-    "volumen": 0.324,
-    "qualitaet": 0.73,
-    "bewertung": 0.405,
-    "analysten": 0.949,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 275.33,
-    "struktur": 275.23
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "NXPI",
-   "name": "NXP Semiconductors",
-   "sector": "Technologie",
-   "score": 0.8136,
-   "target": 277.36,
-   "stop": 233.63,
-   "atr_at_entry": 11.219261729173619,
-   "ziel_atr": 2.27,
-   "stop_atr": 1.62,
-   "basis_p_ziel": 0.4023,
-   "basis_erwartung_r": 0.1325,
-   "score_components": {
-    "trend": 0.892,
-    "setup": 0.955,
-    "volumen": 0.0,
-    "qualitaet": 0.85,
-    "bewertung": 0.795,
-    "analysten": 0.765,
-    "sentiment": 0.6
-   },
-   "target_methods": {
-    "atr": 275.61,
-    "struktur": 274.2
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "CHRW",
-   "name": "C.H. Robinson",
-   "sector": "Industrie",
-   "score": 0.7985,
-   "target": 150.75,
-   "stop": 130.69,
-   "atr_at_entry": 4.481661432421018,
-   "ziel_atr": 2.86,
-   "stop_atr": 1.61,
-   "basis_p_ziel": 0.3045,
-   "basis_erwartung_r": 0.1457,
-   "score_components": {
-    "trend": 0.431,
-    "setup": 1.0,
-    "volumen": 0.21,
-    "qualitaet": 0.635,
-    "bewertung": 0.508,
-    "analysten": 0.911
-   },
-   "target_methods": {
-    "atr": 147.02,
-    "struktur": 152.24
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "JKHY",
-   "name": "Jack Henry & Associates",
-   "sector": "Finanzen",
-   "score": 0.7933,
-   "target": 180.66,
-   "stop": 163.27,
-   "atr_at_entry": 4.385085515895047,
-   "ziel_atr": 2.37,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3599,
-   "basis_erwartung_r": 0.1122,
-   "score_components": {
-    "trend": 0.948,
-    "setup": 1.0,
-    "volumen": 0.267,
-    "qualitaet": 0.743,
-    "bewertung": 0.076,
-    "analysten": 0.687,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 178.73,
-    "struktur": 183.4
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "APP",
-   "name": "AppLovin",
-   "sector": "Kommunikation",
-   "score": 0.7744,
-   "target": 418.79,
-   "stop": 342.06,
-   "atr_at_entry": 21.162937498211267,
-   "ziel_atr": 1.88,
-   "stop_atr": 1.75,
-   "basis_p_ziel": 0.4257,
-   "basis_erwartung_r": 0.0219,
-   "score_components": {
-    "trend": 0.8,
-    "setup": 0.977,
-    "volumen": 0.0,
-    "qualitaet": 0.915,
-    "bewertung": 0.569,
-    "analysten": 0.771,
-    "sentiment": 0.65
-   },
-   "target_methods": {
-    "atr": 417.89,
-    "struktur": 418.43
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-20",
-   "tries": 2
-  },
-  {
-   "symbol": "CPRT",
-   "name": "Copart",
-   "sector": "Industrie",
-   "score": 0.779,
-   "target": 33.6,
-   "stop": 29.75,
-   "atr_at_entry": 0.8591070802888725,
-   "ziel_atr": 2.89,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.3041,
-   "basis_erwartung_r": 0.161,
-   "score_components": {
-    "trend": 0.672,
-    "setup": 1.0,
-    "volumen": 0.206,
-    "qualitaet": 0.672,
-    "bewertung": 0.363,
-    "analysten": 0.749
-   },
-   "target_methods": {
-    "atr": 32.88,
-    "struktur": 33.89
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
-   "symbol": "ICE",
-   "name": "Intercontinental Exchange",
-   "sector": "Finanzen",
-   "score": 0.7733,
-   "target": 179.0,
-   "stop": 164.13,
-   "atr_at_entry": 3.8246959448702875,
-   "ziel_atr": 2.32,
-   "stop_atr": 1.56,
-   "basis_p_ziel": 0.3717,
-   "basis_erwartung_r": 0.1244,
-   "score_components": {
-    "trend": 0.931,
-    "setup": 0.97,
-    "volumen": 1.0,
-    "qualitaet": 0.694,
-    "bewertung": 0.159,
-    "analysten": 0.602,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 177.61,
-    "struktur": 181.3
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
-   "symbol": "LNG",
-   "name": "Cheniere Energy Inc",
-   "sector": "Energie",
-   "score": 0.7653,
-   "target": 319.79,
-   "stop": 282.17,
-   "atr_at_entry": 9.04065418115931,
-   "ziel_atr": 2.75,
-   "stop_atr": 1.41,
-   "basis_p_ziel": 0.3438,
-   "basis_erwartung_r": 0.2766,
-   "score_components": {
-    "trend": 0.875,
-    "setup": 0.935,
-    "volumen": 0.029,
-    "qualitaet": 0.676,
-    "bewertung": 0.22,
-    "analysten": 0.739,
-    "sentiment": 0.75
-   },
-   "target_methods": {
-    "atr": 314.84,
-    "struktur": 324.83
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
-   "symbol": "GNRC",
-   "name": "Generac",
-   "sector": "Industrie",
-   "score": 0.7612,
-   "target": 229.2,
-   "stop": 174.07,
-   "atr_at_entry": 12.030043793572432,
-   "ziel_atr": 2.99,
-   "stop_atr": 1.59,
-   "basis_p_ziel": 0.2895,
-   "basis_erwartung_r": 0.1661,
-   "score_components": {
-    "trend": 0.432,
-    "setup": 0.967,
-    "volumen": 0.474,
-    "qualitaet": 0.474,
-    "bewertung": 0.846,
-    "analysten": 0.877
-   },
-   "target_methods": {
-    "atr": 217.89,
-    "struktur": 229.5
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
-   "symbol": "GPN",
-   "name": "Global Payments",
-   "sector": "Finanzen",
-   "score": 0.7605,
-   "target": 103.13,
-   "stop": 84.85,
-   "atr_at_entry": 4.443437784206821,
-   "ziel_atr": 2.55,
-   "stop_atr": 1.56,
-   "basis_p_ziel": 0.3351,
-   "basis_erwartung_r": 0.1348,
-   "score_components": {
-    "trend": 0.689,
-    "setup": 1.0,
-    "volumen": 1.0,
-    "qualitaet": 0.371,
-    "bewertung": 1.0,
-    "analysten": 0.753
-   },
-   "target_methods": {
-    "atr": 100.5,
-    "struktur": 102.84
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
-   "symbol": "LLY",
-   "name": "Lilly (Eli)",
-   "sector": "Gesundheit",
-   "score": 0.7594,
-   "target": 1447.09,
-   "stop": 1285.86,
-   "atr_at_entry": 40.769601410872504,
-   "ziel_atr": 2.43,
-   "stop_atr": 1.53,
-   "basis_p_ziel": 0.3561,
-   "basis_erwartung_r": 0.1517,
-   "score_components": {
-    "trend": 0.966,
-    "setup": 0.856,
-    "volumen": 0.29,
-    "qualitaet": 0.902,
-    "bewertung": 0.281,
-    "analysten": 0.594,
-    "sentiment": 0.7
-   },
-   "target_methods": {
-    "atr": 1432.72,
-    "struktur": 1474.71
-   },
-   "regime": {
-    "trend": "abwaerts",
-    "vix_level": "gestresst"
-   },
-   "order_date": "2026-11-23",
-   "tries": 2
-  },
-  {
    "symbol": "TXN",
    "name": "Texas Instruments",
    "sector": "Technologie",
@@ -1651,7 +1272,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "TPR",
@@ -1683,7 +1304,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "FIX",
@@ -1714,7 +1335,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "CRH",
@@ -1745,7 +1366,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "VRSK",
@@ -1776,7 +1397,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "KLAC",
@@ -1807,7 +1428,7 @@
     "vix_level": "gestresst"
    },
    "order_date": "2026-11-24",
-   "tries": 1
+   "tries": 2
   },
   {
    "symbol": "ADSK",
@@ -1838,7 +1459,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   },
   {
    "symbol": "HWM",
@@ -1868,7 +1490,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   },
   {
    "symbol": "DAL",
@@ -1898,7 +1521,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   },
   {
    "symbol": "MA",
@@ -1929,7 +1553,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   },
   {
    "symbol": "V",
@@ -1960,7 +1585,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   },
   {
    "symbol": "MSCI",
@@ -1990,7 +1616,8 @@
     "trend": "abwaerts",
     "vix_level": "gestresst"
    },
-   "order_date": "2026-11-25"
+   "order_date": "2026-11-25",
+   "tries": 1
   }
  ],
  "closed": [
@@ -4518,6 +4145,14 @@
    "positions": 33,
    "invested_pct": 33.26,
    "return_pct": -1.053
+  },
+  {
+   "date": "2026-11-27",
+   "equity": 98946.79,
+   "cash": 66037.44,
+   "positions": 33,
+   "invested_pct": 33.26,
+   "return_pct": -1.053
   }
  ],
  "skipped": [
@@ -5989,6 +5624,66 @@
   {
    "date": "2026-11-25",
    "symbol": "ABNB",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "MPWR",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "AMZN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "NXPI",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "CHRW",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "JKHY",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "APP",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "CPRT",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "ICE",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "LNG",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "GNRC",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "GPN",
+   "reason": "Kein Kurs an drei Handelstagen"
+  },
+  {
+   "date": "2026-11-27",
+   "symbol": "LLY",
    "reason": "Kein Kurs an drei Handelstagen"
   }
  ]
