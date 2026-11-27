@@ -1618,6 +1618,188 @@
    },
    "order_date": "2026-11-25",
    "tries": 1
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "sector": "Kommunikation",
+   "score": 0.8279,
+   "target": 673.46,
+   "stop": 566.8,
+   "atr_at_entry": 25.13220454008105,
+   "ziel_atr": 2.53,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.312,
+   "basis_erwartung_r": 0.0326,
+   "score_components": {
+    "trend": 0.335,
+    "setup": 0.858,
+    "volumen": 0.344,
+    "qualitaet": 0.966,
+    "bewertung": 0.495,
+    "analysten": 1.0,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 656.65,
+    "struktur": 682.86
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
+  },
+  {
+   "symbol": "EXE",
+   "name": "Expand Energy",
+   "sector": "Energie",
+   "score": 0.8238,
+   "target": 94.14,
+   "stop": 83.36,
+   "atr_at_entry": 2.438572806613021,
+   "ziel_atr": 3.01,
+   "stop_atr": 1.41,
+   "basis_p_ziel": 0.3042,
+   "basis_erwartung_r": 0.2852,
+   "score_components": {
+    "trend": 0.202,
+    "setup": 1.0,
+    "volumen": 1.0,
+    "qualitaet": 0.671,
+    "bewertung": 0.727,
+    "analysten": 0.925
+   },
+   "target_methods": {
+    "atr": 92.17,
+    "struktur": 94.86
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
+  },
+  {
+   "symbol": "RCL",
+   "name": "Royal Caribbean Group",
+   "sector": "Konsum zyklisch",
+   "score": 0.8214,
+   "target": 343.04,
+   "stop": 293.07,
+   "atr_at_entry": 12.469623295869402,
+   "ziel_atr": 2.32,
+   "stop_atr": 1.68,
+   "basis_p_ziel": 0.3688,
+   "basis_erwartung_r": 0.0698,
+   "score_components": {
+    "trend": 0.947,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.695,
+    "bewertung": 0.825,
+    "analysten": 0.747
+   },
+   "target_methods": {
+    "atr": 338.13,
+    "struktur": 342.27
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies",
+   "sector": "Technologie",
+   "score": 0.8095,
+   "target": 189.78,
+   "stop": 148.15,
+   "atr_at_entry": 9.512356368184934,
+   "ziel_atr": 2.75,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3362,
+   "basis_erwartung_r": 0.1624,
+   "score_components": {
+    "trend": 0.384,
+    "setup": 0.873,
+    "volumen": 0.033,
+    "qualitaet": 0.998,
+    "bewertung": 0.284,
+    "analysten": 0.925,
+    "sentiment": 0.6
+   },
+   "target_methods": {
+    "atr": 183.82,
+    "struktur": 195.7
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
+  },
+  {
+   "symbol": "TEL",
+   "name": "TE Connectivity",
+   "sector": "Technologie",
+   "score": 0.8006,
+   "target": 229.36,
+   "stop": 198.38,
+   "atr_at_entry": 8.061697478375548,
+   "ziel_atr": 2.22,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.4111,
+   "basis_erwartung_r": 0.1301,
+   "score_components": {
+    "trend": 0.675,
+    "setup": 0.943,
+    "volumen": 1.0,
+    "qualitaet": 0.697,
+    "bewertung": 0.514,
+    "analysten": 0.761
+   },
+   "target_methods": {
+    "atr": 228.61,
+    "struktur": 226.5
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "sector": "Kommunikation",
+   "score": 0.7914,
+   "target": 420.8,
+   "stop": 339.55,
+   "atr_at_entry": 22.934460071960693,
+   "ziel_atr": 1.82,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.438,
+   "basis_erwartung_r": 0.0293,
+   "score_components": {
+    "trend": 0.764,
+    "setup": 0.954,
+    "volumen": 0.0,
+    "qualitaet": 0.915,
+    "bewertung": 0.6,
+    "analysten": 0.787
+   },
+   "target_methods": {
+    "atr": 421.54,
+    "struktur": 418.43
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
   }
  ],
  "closed": [

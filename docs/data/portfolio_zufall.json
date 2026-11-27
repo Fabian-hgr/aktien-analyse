@@ -1931,6 +1931,186 @@
    },
    "order_date": "2026-11-25",
    "tries": 1
+  },
+  {
+   "symbol": "SOLV",
+   "name": "Solventum",
+   "sector": "Gesundheit",
+   "score": 0.6076,
+   "target": 93.17,
+   "stop": 83.45,
+   "atr_at_entry": 2.3943544901566125,
+   "ziel_atr": 2.53,
+   "stop_atr": 1.53,
+   "basis_p_ziel": 0.3388,
+   "basis_erwartung_r": 0.1553,
+   "score_components": {
+    "trend": 0.584,
+    "setup": 1.0,
+    "volumen": 0.0,
+    "qualitaet": 0.135,
+    "bewertung": 0.515,
+    "analysten": 0.575
+   },
+   "target_methods": {
+    "atr": 92.07,
+    "struktur": 92.88
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
+  },
+  {
+   "symbol": "TXN",
+   "name": "Texas Instruments",
+   "sector": "Technologie",
+   "score": 0.7573,
+   "target": 311.31,
+   "stop": 242.36,
+   "atr_at_entry": 17.080609780750496,
+   "ziel_atr": 2.41,
+   "stop_atr": 1.62,
+   "basis_p_ziel": 0.3819,
+   "basis_erwartung_r": 0.1427,
+   "score_components": {
+    "trend": 0.674,
+    "setup": 0.647,
+    "volumen": 0.5,
+    "qualitaet": 0.943,
+    "bewertung": 0.061,
+    "analysten": 0.858
+   },
+   "target_methods": {
+    "atr": 306.41,
+    "struktur": 317.2
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
+  },
+  {
+   "symbol": "WM",
+   "name": "Waste Management",
+   "sector": "Industrie",
+   "score": 0.5974,
+   "target": 258.64,
+   "stop": 240.01,
+   "atr_at_entry": 4.62529097880031,
+   "ziel_atr": 2.44,
+   "stop_atr": 1.59,
+   "basis_p_ziel": 0.3675,
+   "basis_erwartung_r": 0.1378,
+   "score_components": {
+    "trend": 0.951,
+    "setup": 0.696,
+    "volumen": 0.313,
+    "qualitaet": 0.496,
+    "bewertung": 0.124,
+    "analysten": 0.514
+   },
+   "target_methods": {
+    "atr": 256.86,
+    "struktur": 262.27
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
+  },
+  {
+   "symbol": "DIS",
+   "name": "Walt Disney Company (The)",
+   "sector": "Kommunikation",
+   "score": 0.5827,
+   "target": 133.26,
+   "stop": 120.35,
+   "atr_at_entry": 3.095184901042355,
+   "ziel_atr": 2.45,
+   "stop_atr": 1.72,
+   "basis_p_ziel": 0.3238,
+   "basis_erwartung_r": 0.0319,
+   "score_components": {
+    "trend": 1.0,
+    "setup": 0.538,
+    "volumen": 0.844,
+    "qualitaet": 0.496,
+    "bewertung": 0.738,
+    "analysten": 0.525
+   },
+   "target_methods": {
+    "atr": 131.42,
+    "struktur": 134.65
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
+  },
+  {
+   "symbol": "SYY",
+   "name": "Sysco",
+   "sector": "Konsum defensiv",
+   "score": 0.6169,
+   "target": 84.9,
+   "stop": 78.58,
+   "atr_at_entry": 1.8604182554812316,
+   "ziel_atr": 1.7,
+   "stop_atr": 1.69,
+   "basis_p_ziel": 0.4744,
+   "basis_erwartung_r": 0.0445,
+   "score_components": {
+    "trend": 0.664,
+    "setup": 0.879,
+    "volumen": 0.083,
+    "qualitaet": 0.34,
+    "bewertung": 0.688,
+    "analysten": 0.548
+   },
+   "target_methods": {
+    "atr": 85.29,
+    "struktur": 84.1
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
+  },
+  {
+   "symbol": "BAX",
+   "name": "Baxter International",
+   "sector": "Gesundheit",
+   "score": 0.4914,
+   "target": 29.92,
+   "stop": 25.8,
+   "atr_at_entry": 0.9389841167683171,
+   "ziel_atr": 2.85,
+   "stop_atr": 1.53,
+   "basis_p_ziel": 0.2929,
+   "basis_erwartung_r": 0.1635,
+   "score_components": {
+    "trend": 0.879,
+    "setup": 0.725,
+    "volumen": 1.0,
+    "qualitaet": 0.175,
+    "bewertung": 0.777,
+    "analysten": 0.261
+   },
+   "target_methods": {
+    "atr": 29.19,
+    "struktur": 30.21
+   },
+   "regime": {
+    "trend": "abwaerts",
+    "vix_level": "erhoeht"
+   },
+   "order_date": "2026-11-27"
   }
  ],
  "closed": [
